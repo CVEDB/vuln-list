@@ -1,0 +1,28 @@
+{
+  "name": "melange",
+  "secfixes": {
+    "0": [
+      "CVE-2023-45283",
+      "CVE-2023-45284",
+      "GHSA-jq35-85cj-fj4p"
+    ],
+    "0.3.2-r1": [
+      "CVE-2023-28840",
+      "CVE-2023-28841",
+      "CVE-2023-28842"
+    ],
+    "0.5.3-r0": [
+      "CVE-2023-46737"
+    ],
+    "0.5.3-r1": [
+      "CVE-2023-46402"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "traefik",
+  "secfixes": {
+    "0": [
+      "CVE-2022-23469",
+      "CVE-2022-46153",
+      "CVE-2023-45283",
+      "CVE-2023-45284",
+      "GHSA-jq35-85cj-fj4p"
+    ],
+    "2.10.1-r2": [
+      "CVE-2023-2253"
+    ],
+    "2.10.5-r0": [
+      "CVE-2023-44487"
+    ],
+    "2.10.5-r1": [
+      "GHSA-2c7c-3mj9-8fqh"
+    ],
+    "2.10.6-r0": [
+      "CVE-2023-47106",
+      "CVE-2023-47124",
+      "CVE-2023-47633"
+    ],
+    "2.9.8-r1": [
+      "CVE-2021-41803",
+      "CVE-2022-40716"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

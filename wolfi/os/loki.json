@@ -1,0 +1,20 @@
+{
+  "name": "loki",
+  "secfixes": {
+    "0": [
+      "CVE-2019-3826",
+      "CVE-2023-45283",
+      "CVE-2023-45284"
+    ],
+    "2.8.4-r5": [
+      "CVE-2023-40577"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

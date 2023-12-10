@@ -1,0 +1,30 @@
+{
+  "name": "ko",
+  "secfixes": {
+    "0": [
+      "CVE-2023-45283",
+      "CVE-2023-45284",
+      "GHSA-jq35-85cj-fj4p"
+    ],
+    "0.13.0-r3": [
+      "CVE-2023-24535",
+      "CVE-2023-28840",
+      "CVE-2023-28841",
+      "CVE-2023-28842",
+      "CVE-2023-30551"
+    ],
+    "0.15.0-r1": [
+      "CVE-2023-44487"
+    ],
+    "0.15.1-r0": [
+      "CVE-2023-46737"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}

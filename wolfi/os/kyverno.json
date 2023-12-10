@@ -1,0 +1,33 @@
+{
+  "name": "kyverno",
+  "secfixes": {
+    "0": [
+      "CVE-2023-30551",
+      "CVE-2023-33199",
+      "CVE-2023-45283",
+      "CVE-2023-45284",
+      "GHSA-6xv5-86q9-7xr8",
+      "GHSA-jq35-85cj-fj4p"
+    ],
+    "1.10.3-r6": [
+      "CVE-2023-39325",
+      "CVE-2023-3978",
+      "CVE-2023-44487"
+    ],
+    "1.11.0-r1": [
+      "CVE-2023-25656",
+      "CVE-2023-33959",
+      "CVE-2023-47108"
+    ],
+    "1.11.0-r2": [
+      "GHSA-2c7c-3mj9-8fqh"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}
