@@ -1,0 +1,17 @@
+{
+  "name": "aws-load-balancer-controller-2.4.5",
+  "secfixes": {
+    "2.4.5-r6": [
+      "CVE-2023-39325",
+      "CVE-2023-3978",
+      "CVE-2023-44487"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

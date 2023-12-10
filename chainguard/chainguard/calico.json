@@ -1,0 +1,32 @@
+{
+  "name": "calico",
+  "secfixes": {
+    "0": [
+      "CVE-2019-11255",
+      "CVE-2020-8552",
+      "CVE-2023-45283",
+      "CVE-2023-45284"
+    ],
+    "3.26.1-r5": [
+      "CVE-2023-2727",
+      "CVE-2023-32731"
+    ],
+    "3.26.3-r4": [
+      "CVE-2023-44487",
+      "CVE-2023-45142"
+    ],
+    "3.26.3-r5": [
+      "CVE-2023-3955"
+    ],
+    "3.26.4-r1": [
+      "CVE-2023-5528"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

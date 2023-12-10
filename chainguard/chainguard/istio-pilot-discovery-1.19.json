@@ -1,0 +1,26 @@
+{
+  "name": "istio-pilot-discovery-1.19",
+  "secfixes": {
+    "0": [
+      "CVE-2019-3826",
+      "CVE-2020-8552",
+      "CVE-2023-45283",
+      "CVE-2023-45284",
+      "GHSA-6xv5-86q9-7xr8",
+      "GHSA-jq35-85cj-fj4p"
+    ],
+    "1.19.3-r0": [
+      "CVE-2023-39325"
+    ],
+    "1.19.4-r1": [
+      "GHSA-2c7c-3mj9-8fqh"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

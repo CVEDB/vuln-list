@@ -1,0 +1,21 @@
+{
+  "name": "flux-image-reflector-controller",
+  "secfixes": {
+    "0": [
+      "CVE-2023-45283",
+      "CVE-2023-45284",
+      "GHSA-jq35-85cj-fj4p"
+    ],
+    "0.30.0-r4": [
+      "CVE-2023-39325",
+      "CVE-2023-3978"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
