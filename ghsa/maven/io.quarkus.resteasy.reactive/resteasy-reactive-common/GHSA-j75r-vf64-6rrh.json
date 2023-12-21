@@ -51,6 +51,12 @@
         "Identifier": "3.0.0.Alpha4"
       },
       "VulnerableVersionRange": "\u003c 3.0.0.Alpha4"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.0.0.Alpha4"
+      },
+      "VulnerableVersionRange": "\u003c 3.0.0.Alpha4"
     }
   ]
 }

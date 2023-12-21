@@ -51,6 +51,12 @@
         "Identifier": "86.v7b_a_4a_55b_f3ec"
       },
       "VulnerableVersionRange": "\u003c= 85.v1d1888e8c021"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "86.v7b_a_4a_55b_f3ec"
+      },
+      "VulnerableVersionRange": "\u003c= 85.v1d1888e8c021"
     }
   ]
 }
