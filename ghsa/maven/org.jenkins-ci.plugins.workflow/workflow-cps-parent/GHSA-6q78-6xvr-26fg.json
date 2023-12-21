@@ -72,12 +72,6 @@
         "Identifier": "2.61.1"
       },
       "VulnerableVersionRange": "\u003c= 2.61"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.61.1"
-      },
-      "VulnerableVersionRange": "\u003c= 2.61"
     }
   ]
 }

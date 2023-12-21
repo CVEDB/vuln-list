@@ -285,12 +285,6 @@
         "Identifier": "32.0.0-android"
       },
       "VulnerableVersionRange": "\u003c 32.0.0-android"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "32.0.0-android"
-      },
-      "VulnerableVersionRange": "\u003c 32.0.0-android"
     }
   ]
 }

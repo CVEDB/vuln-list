@@ -75,12 +75,6 @@
         "Identifier": ""
       },
       "VulnerableVersionRange": "\u003e= 4.01, \u003c 4.02"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": ""
-      },
-      "VulnerableVersionRange": "\u003e= 4.01, \u003c 4.02"
     }
   ]
 }

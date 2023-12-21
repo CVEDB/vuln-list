@@ -60,18 +60,6 @@
         "Identifier": "14.10.7"
       },
       "VulnerableVersionRange": "\u003e= 1.0, \u003c 14.10.7"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "15.2-rc-1"
-      },
-      "VulnerableVersionRange": "\u003e= 15.0, \u003c 15.2-rc-1"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "14.10.7"
-      },
-      "VulnerableVersionRange": "\u003e= 1.0, \u003c 14.10.7"
     }
   ]
 }

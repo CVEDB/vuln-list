@@ -60,18 +60,6 @@
         "Identifier": "14.10.15"
       },
       "VulnerableVersionRange": "\u003e= 6.3-milestone-2, \u003c 14.10.15"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "15.5.1"
-      },
-      "VulnerableVersionRange": "\u003e= 15.0-rc-1, \u003c 15.5.1"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "14.10.15"
-      },
-      "VulnerableVersionRange": "\u003e= 6.3-milestone-2, \u003c 14.10.15"
     }
   ]
 }

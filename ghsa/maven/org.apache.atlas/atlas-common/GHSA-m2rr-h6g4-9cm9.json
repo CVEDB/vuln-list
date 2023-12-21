@@ -54,12 +54,6 @@
         "Identifier": "0.8-incubating"
       },
       "VulnerableVersionRange": "\u003e= 0.6.0-incubating, \u003c 0.8-incubating"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.8-incubating"
-      },
-      "VulnerableVersionRange": "\u003e= 0.6.0-incubating, \u003c 0.8-incubating"
     }
   ]
 }

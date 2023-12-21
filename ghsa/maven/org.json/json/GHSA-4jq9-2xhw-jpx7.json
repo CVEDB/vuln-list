@@ -60,12 +60,6 @@
         "Identifier": "20231013"
       },
       "VulnerableVersionRange": "\u003c= 20230618"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "20231013"
-      },
-      "VulnerableVersionRange": "\u003c= 20230618"
     }
   ]
 }
