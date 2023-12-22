@@ -38,7 +38,7 @@
     "PublishedAt": "2023-12-21T18:24:28Z",
     "Severity": "MODERATE",
     "Summary": "Gradio makes the `/file` secure against file traversal and server-side request forgery attacks",
-    "UpdatedAt": "2023-12-21T18:24:29Z",
+    "UpdatedAt": "2023-12-21T22:36:55Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.6,
