@@ -26,6 +26,12 @@
         "Url": "http://www.openwall.com/lists/oss-security/2016/03/15/10"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/drupal/core/CVE-2016-3164.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/drupal/drupal/CVE-2016-3164.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-836p-6p4j-35cg"
       }
     ],
@@ -44,7 +50,7 @@
     "PublishedAt": "2022-05-17T03:57:20Z",
     "Severity": "HIGH",
     "Summary": "Drupal Open Redirect",
-    "UpdatedAt": "2023-12-07T16:19:40Z",
+    "UpdatedAt": "2024-02-06T11:57:01Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.4,

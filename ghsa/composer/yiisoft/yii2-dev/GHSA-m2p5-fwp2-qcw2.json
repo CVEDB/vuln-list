@@ -17,6 +17,12 @@
         "Url": "http://www.yiiframework.com/news/168/releasing-yii-2-0-15-and-database-extensions-with-security-fixes/"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/yiisoft/yii2-elasticsearch/CVE-2018-8074.yaml"
+      },
+      {
+        "Url": "https://www.yiiframework.com/news/168/releasing-yii-2-0-15-and-database-extensions-with-security-fixes/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-m2p5-fwp2-qcw2"
       }
     ],
@@ -35,7 +41,7 @@
     "PublishedAt": "2022-05-24T16:56:44Z",
     "Severity": "HIGH",
     "Summary": "Yii Framework Code Injection",
-    "UpdatedAt": "2023-10-05T18:47:13Z",
+    "UpdatedAt": "2024-02-05T15:35:51Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,

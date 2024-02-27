@@ -29,6 +29,15 @@
         "Url": "https://www.debian.org/security/2018/dsa-4262"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/http-foundation/CVE-2018-11386.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/symfony/CVE-2018-11386.yaml"
+      },
+      {
+        "Url": "https://symfony.com/cve-2018-11386"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-r2rq-3h56-fqm4"
       }
     ],
@@ -47,7 +56,7 @@
     "PublishedAt": "2022-05-14T01:14:36Z",
     "Severity": "MODERATE",
     "Summary": "Symfony DoS",
-    "UpdatedAt": "2023-10-06T17:48:17Z",
+    "UpdatedAt": "2024-02-07T09:39:18Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.9,

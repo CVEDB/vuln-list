@@ -26,6 +26,9 @@
         "Url": "https://www.drupal.org/sa-core-2019-002"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/drupal/core/CVE-2019-6339.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8cw5-rv98-5c46"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2022-01-06T22:30:06Z",
     "Severity": "CRITICAL",
     "Summary": "Arbitrary PHP code execution in Drupal",
-    "UpdatedAt": "2023-01-11T05:03:13Z",
+    "UpdatedAt": "2024-02-06T13:11:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

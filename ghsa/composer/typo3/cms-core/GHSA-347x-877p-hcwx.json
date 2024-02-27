@@ -1,6 +1,6 @@
 {
   "Severity": "LOW",
-  "UpdatedAt": "2020-05-13T22:16:57Z",
+  "UpdatedAt": "2024-02-15T05:06:34Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "typo3/cms-core"
@@ -15,6 +15,15 @@
       },
       {
         "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-11063"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2020-11063.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2020-11063.yaml"
+      },
+      {
+        "Url": "https://typo3.org/security/advisory/typo3-core-sa-2020-001"
       },
       {
         "Url": "https://github.com/advisories/GHSA-347x-877p-hcwx"
@@ -35,7 +44,7 @@
     "PublishedAt": "2020-05-13T22:19:21Z",
     "Severity": "LOW",
     "Summary": "Information Disclosure in Password Reset",
-    "UpdatedAt": "2023-01-09T05:02:31Z",
+    "UpdatedAt": "2024-02-15T05:06:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 3.7,
@@ -47,7 +56,7 @@
       "FirstPatchedVersion": {
         "Identifier": "10.4.2"
       },
-      "VulnerableVersionRange": "\u003e= 10.4.0, \u003c= 10.4.1"
+      "VulnerableVersionRange": "\u003e= 10.0.0, \u003c 10.4.2"
     }
   ]
 }

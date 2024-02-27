@@ -20,6 +20,12 @@
         "Url": "https://contao.org/en/security-advisories/php-file-inclusion-via-insert-tags.html"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/contao/CVE-2021-37626.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/contao/core-bundle/CVE-2021-37626.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-r6mv-ppjc-4hgr"
       }
     ],
@@ -38,7 +44,7 @@
     "PublishedAt": "2021-08-23T19:41:04Z",
     "Severity": "MODERATE",
     "Summary": "PHP file inclusion via insert tags",
-    "UpdatedAt": "2023-04-25T16:37:24Z",
+    "UpdatedAt": "2024-02-06T09:53:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.7,

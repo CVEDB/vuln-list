@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2020-12-21T16:11:45Z",
+  "UpdatedAt": "2024-02-01T18:55:57Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "typo3/cms-core"
@@ -23,6 +23,12 @@
         "Url": "https://typo3.org/security/advisory/typo3-core-sa-2020-010"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2020-26227.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2020-26227.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vqqx-jw6p-q3rf"
       }
     ],
@@ -41,7 +47,7 @@
     "PublishedAt": "2020-12-21T16:28:11Z",
     "Severity": "MODERATE",
     "Summary": "Cross-Site Scripting in Fluid view helpers",
-    "UpdatedAt": "2023-01-09T05:04:05Z",
+    "UpdatedAt": "2024-02-01T18:55:57Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -49,6 +55,12 @@
     }
   },
   "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "8.7.38"
+      },
+      "VulnerableVersionRange": "\u003e= 8.7.0, \u003c 8.7.38"
+    },
     {
       "FirstPatchedVersion": {
         "Identifier": "10.4.10"

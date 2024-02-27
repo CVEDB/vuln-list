@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2021-04-26T15:21:32Z",
+  "UpdatedAt": "2024-02-02T21:08:28Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "commons-io:commons-io"
@@ -146,13 +146,19 @@
         "Url": "https://www.oracle.com/security-alerts/cpujan2022.html"
       },
       {
-        "Url": "https://security.netapp.com/advisory/ntap-20220210-0004/"
-      },
-      {
         "Url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
       },
       {
         "Url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+      },
+      {
+        "Url": "https://arxiv.org/pdf/2306.05534.pdf"
+      },
+      {
+        "Url": "https://github.com/jensdietrich/xshady-release/tree/main/CVE-2021-29425"
+      },
+      {
+        "Url": "https://security.netapp.com/advisory/ntap-20220210-0004"
       },
       {
         "Url": "https://github.com/advisories/GHSA-gwrp-pvrq-jmwv"
@@ -173,11 +179,11 @@
     "PublishedAt": "2021-04-26T16:04:00Z",
     "Severity": "MODERATE",
     "Summary": "Path Traversal and Improper Input Validation in Apache Commons IO",
-    "UpdatedAt": "2023-01-27T05:02:27Z",
+    "UpdatedAt": "2024-02-14T20:26:00Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 5.3,
-      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+      "Score": 4.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
     }
   },
   "Versions": [

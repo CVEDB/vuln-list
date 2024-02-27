@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-09-08T14:12:07Z",
+  "UpdatedAt": "2024-02-06T13:08:41Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "drupal/core"
@@ -23,6 +23,18 @@
         "Url": "https://www.drupal.org/sa-core-2020-012"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/drupal/core/CVE-2020-13671.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/drupal/drupal/CVE-2020-13671.yaml"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5KSFM672XW3X6BR7TVKRD63SLZGKK437/"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KWM4CTMEGAC4I2CHYNJVSROY4CVXVEUT/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-68jc-v27h-vhmw"
       }
     ],
@@ -41,7 +53,7 @@
     "PublishedAt": "2021-10-12T16:28:25Z",
     "Severity": "HIGH",
     "Summary": "Drupal core Unrestricted Upload of File with Dangerous Type",
-    "UpdatedAt": "2023-09-08T14:12:07Z",
+    "UpdatedAt": "2024-02-06T13:08:41Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.8,
@@ -53,7 +65,7 @@
       "FirstPatchedVersion": {
         "Identifier": "7.74"
       },
-      "VulnerableVersionRange": "\u003e= 7.0, \u003c 7.74"
+      "VulnerableVersionRange": "\u003e= 7.0.0, \u003c 7.74"
     },
     {
       "FirstPatchedVersion": {

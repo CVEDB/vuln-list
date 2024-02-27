@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-10-31T20:16:01Z",
+  "UpdatedAt": "2024-02-07T09:42:04Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "symfony/symfony"
@@ -26,6 +26,15 @@
         "Url": "https://www.debian.org/security/2018/dsa-4262"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/intl/CVE-2017-16654.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/symfony/CVE-2017-16654.yaml"
+      },
+      {
+        "Url": "https://symfony.com/cve-2017-16654"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-c49r-8gj6-768r"
       }
     ],
@@ -44,7 +53,7 @@
     "PublishedAt": "2022-05-14T01:21:16Z",
     "Severity": "HIGH",
     "Summary": "Symfony Directory Traversal",
-    "UpdatedAt": "2023-10-31T20:16:01Z",
+    "UpdatedAt": "2024-02-07T09:42:04Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -56,25 +65,25 @@
       "FirstPatchedVersion": {
         "Identifier": "3.3.13"
       },
-      "VulnerableVersionRange": "\u003e= 3.3.0, \u003c= 3.3.12"
+      "VulnerableVersionRange": "\u003e= 3.3.0, \u003c 3.3.13"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "3.2.14"
       },
-      "VulnerableVersionRange": "\u003e= 3.2.0, \u003c= 3.2.13"
+      "VulnerableVersionRange": "\u003e= 3.0.0, \u003c 3.2.14"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.8.31"
       },
-      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c= 2.8.30"
+      "VulnerableVersionRange": "\u003e= 2.8.0, \u003c 2.8.31"
     },
     {
       "FirstPatchedVersion": {
         "Identifier": "2.7.38"
       },
-      "VulnerableVersionRange": "\u003e= 2.7.0, \u003c= 2.7.37"
+      "VulnerableVersionRange": "\u003e= 2.7.0, \u003c 2.7.38"
     }
   ]
 }

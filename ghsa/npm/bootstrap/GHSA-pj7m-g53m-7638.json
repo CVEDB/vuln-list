@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2019-01-01T18:17:05Z",
+  "UpdatedAt": "2024-01-16T17:58:33Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "bootstrap"
@@ -65,6 +65,15 @@
         "Url": "http://seclists.org/fulldisclosure/2019/May/13"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2018-14041.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2018-14041.yaml"
+      },
+      {
+        "Url": "https://typo3.org/security/advisory/typo3-core-sa-2019-006"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-pj7m-g53m-7638"
       }
     ],
@@ -78,12 +87,12 @@
         "Value": "CVE-2018-14041"
       }
     ],
-    "Description": "In Bootstrap before 4.1.2, XSS is possible in the data-target property of scrollspy. This is similar to CVE-2018-14042.",
+    "Description": "In Bootstrap 4.x before 4.1.2, XSS is possible in the data-target property of scrollspy. This is similar to CVE-2018-14042.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-09-13T15:49:56Z",
     "Severity": "MODERATE",
     "Summary": "Bootstrap Cross-site Scripting vulnerability",
-    "UpdatedAt": "2023-01-31T05:06:54Z",
+    "UpdatedAt": "2024-02-05T15:34:59Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,
@@ -96,12 +105,6 @@
         "Identifier": "4.1.2"
       },
       "VulnerableVersionRange": "\u003e= 4.0.0, \u003c 4.1.2"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "3.4.0"
-      },
-      "VulnerableVersionRange": "\u003c 3.4.0"
     }
   ]
 }

@@ -23,6 +23,15 @@
         "Url": "https://typo3.org/security/advisory/typo3-core-sa-2019-013"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2020-15241.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2020-15241.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3fluid/fluid/CVE-2020-15241.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7733-hjv6-4h47"
       }
     ],
@@ -41,7 +50,7 @@
     "PublishedAt": "2020-10-08T19:55:53Z",
     "Severity": "MODERATE",
     "Summary": "Cross-Site Scripting in ternary conditional operator",
-    "UpdatedAt": "2023-02-01T05:04:59Z",
+    "UpdatedAt": "2024-02-01T18:55:14Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 4.7,

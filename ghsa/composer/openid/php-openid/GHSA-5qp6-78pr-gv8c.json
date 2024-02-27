@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2023-08-29T18:03:31Z",
+  "UpdatedAt": "2024-02-06T13:19:11Z",
   "Package": {
     "Ecosystem": "COMPOSER",
     "Name": "openid/php-openid"
@@ -29,6 +29,15 @@
         "Url": "http://lists.opensuse.org/opensuse-updates/2016-08/msg00083.html"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/openid/php-openid/CVE-2013-4701.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2013-4701.yaml"
+      },
+      {
+        "Url": "https://typo3.org/security/advisory/typo3-core-sa-2014-002"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-5qp6-78pr-gv8c"
       }
     ],
@@ -47,7 +56,7 @@
     "PublishedAt": "2022-05-17T03:46:28Z",
     "Severity": "HIGH",
     "Summary": "PHP OpenID Library Denial of Service vulnerability",
-    "UpdatedAt": "2023-08-29T18:03:31Z",
+    "UpdatedAt": "2024-02-06T13:19:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
@@ -59,7 +68,7 @@
       "FirstPatchedVersion": {
         "Identifier": "2.3.0"
       },
-      "VulnerableVersionRange": "\u003c= 2.2.2"
+      "VulnerableVersionRange": "\u003c 2.3.0"
     }
   ]
 }

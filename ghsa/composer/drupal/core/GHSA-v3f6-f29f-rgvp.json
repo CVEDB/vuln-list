@@ -23,6 +23,15 @@
         "Url": "http://www.securitytracker.com/id/1039200"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/drupal/core/CVE-2017-6923.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/drupal/drupal/CVE-2017-6923.yaml"
+      },
+      {
+        "Url": "https://www.drupal.org/SA-CORE-2017-004"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-v3f6-f29f-rgvp"
       }
     ],
@@ -41,7 +50,7 @@
     "PublishedAt": "2019-10-10T19:31:31Z",
     "Severity": "MODERATE",
     "Summary": "Missing Authorization in Drupal",
-    "UpdatedAt": "2023-02-01T05:02:40Z",
+    "UpdatedAt": "2024-02-06T13:07:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,

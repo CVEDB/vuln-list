@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-01-04T19:36:30Z",
+  "UpdatedAt": "2024-02-22T19:03:29Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "xmldom"
@@ -20,13 +20,13 @@
         "Url": "https://github.com/xmldom/xmldom/commit/7b4b743917a892d407356e055b296dcd6d107e8b"
       },
       {
-        "Url": "https://mattermost.com/blog/coordinated-disclosure-go-xml-vulnerabilities/"
-      },
-      {
-        "Url": "https://mattermost.com/blog/securing-xml-implementations-across-the-web/"
-      },
-      {
         "Url": "https://www.npmjs.com/package/@xmldom/xmldom"
+      },
+      {
+        "Url": "https://mattermost.com/blog/coordinated-disclosure-go-xml-vulnerabilities"
+      },
+      {
+        "Url": "https://mattermost.com/blog/securing-xml-implementations-across-the-web"
       },
       {
         "Url": "https://github.com/advisories/GHSA-5fg8-2547-mr8q"
@@ -47,7 +47,7 @@
     "PublishedAt": "2021-08-03T16:57:05Z",
     "Severity": "MODERATE",
     "Summary": "Misinterpretation of malicious XML input",
-    "UpdatedAt": "2023-02-01T05:05:51Z",
+    "UpdatedAt": "2024-02-22T19:03:29Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
@@ -57,9 +57,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "0.7.0"
+        "Identifier": ""
       },
-      "VulnerableVersionRange": "\u003c 0.7.0"
+      "VulnerableVersionRange": "\u003c= 0.6.0"
     }
   ]
 }

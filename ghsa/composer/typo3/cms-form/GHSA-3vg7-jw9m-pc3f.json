@@ -23,6 +23,12 @@
         "Url": "https://typo3.org/security/advisory/typo3-core-sa-2021-003"
       },
       {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms-core/CVE-2021-21357.yaml"
+      },
+      {
+        "Url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2021-21357.yaml"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-3vg7-jw9m-pc3f"
       }
     ],
@@ -41,7 +47,7 @@
     "PublishedAt": "2021-03-23T01:53:57Z",
     "Severity": "HIGH",
     "Summary": "Broken Access Control in Form Framework",
-    "UpdatedAt": "2023-02-01T05:05:13Z",
+    "UpdatedAt": "2024-02-01T18:56:02Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.9,
