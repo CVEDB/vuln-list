@@ -12,6 +12,13 @@
     "10.2.3-r1": [
       "CVE-2023-48795",
       "GHSA-45x7-px36-x8w8"
+    ],
+    "10.3.1-r0": [
+      "GHSA-9763-4f94-gfch"
+    ],
+    "10.3.3-r0": [
+      "CVE-2023-6152",
+      "GHSA-3hv4-r2fm-h27f"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
