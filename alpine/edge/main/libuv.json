@@ -3,6 +3,9 @@
   "secfixes": {
     "1.39.0-r0": [
       "CVE-2020-8252"
+    ],
+    "1.48.0-r0": [
+      "CVE-2024-24806"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
