@@ -1,6 +1,6 @@
 {
   "id": "GHSA-mq29-j5xf-cjwr",
-  "modified": "2023-12-18T19:56:33.973164Z",
+  "modified": "2024-02-21T05:51:41.379767Z",
   "published": "2023-10-14T03:31:16Z",
   "aliases": [
     "CVE-2023-45853"
@@ -88,7 +88,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20231130-0009/"
+      "url": "https://security.gentoo.org/glsa/202401-18"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20231130-0009"
     },
     {
       "type": "WEB",
@@ -97,6 +101,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2023/10/20/9"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/01/24/10"
     }
   ]
 }

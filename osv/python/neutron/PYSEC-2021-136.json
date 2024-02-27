@@ -1,9 +1,10 @@
 {
   "id": "PYSEC-2021-136",
-  "modified": "2023-11-08T04:04:36.257980Z",
+  "modified": "2024-02-23T21:41:32.806348Z",
   "published": "2021-05-28T19:15:00Z",
   "aliases": [
-    "CVE-2021-20267"
+    "CVE-2021-20267",
+    "GHSA-w8hx-f868-pvch"
   ],
   "details": "A flaw was found in openstack-neutron's default Open vSwitch firewall rules. By sending carefully crafted packets, anyone in control of a server instance connected to the virtual switch can impersonate the IPv6 addresses of other systems on the network, resulting in denial of service or in some cases possibly interception of traffic intended for other destinations. Only deployments using the Open vSwitch driver are affected. Source: OpenStack project. Versions before openstack-neutron 15.3.3, openstack-neutron 16.3.1 and openstack-neutron 17.1.1 are affected.",
   "affected": [

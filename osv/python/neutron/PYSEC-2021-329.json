@@ -1,9 +1,10 @@
 {
   "id": "PYSEC-2021-329",
-  "modified": "2023-11-08T04:06:48.894604Z",
+  "modified": "2024-02-23T21:58:32.990702Z",
   "published": "2021-09-08T20:15:00Z",
   "aliases": [
-    "CVE-2021-40797"
+    "CVE-2021-40797",
+    "GHSA-cpx3-696p-3cw9"
   ],
   "details": "An issue was discovered in the routes middleware in OpenStack Neutron before 16.4.1, 17.x before 17.2.1, and 18.x before 18.1.1. By making API requests involving nonexistent controllers, an authenticated user may cause the API worker to consume increasing amounts of memory, resulting in API performance degradation or denial of service.",
   "affected": [

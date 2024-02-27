@@ -1,6 +1,6 @@
 {
   "id": "GHSA-g67g-hvc3-xmvf",
-  "modified": "2023-11-08T04:06:52.354646Z",
+  "modified": "2024-02-22T05:32:59.491169Z",
   "published": "2021-10-14T21:19:23Z",
   "aliases": [
     "CVE-2021-41132",
@@ -125,7 +125,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.openmicroscopy.org/security/advisories/2021-SV3/"
+      "url": "https://www.openmicroscopy.org/security/advisories/2021-SV3"
     }
   ]
 }

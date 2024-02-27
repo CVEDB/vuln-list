@@ -1,6 +1,6 @@
 {
   "id": "GHSA-fmqq-25x9-c6hm",
-  "modified": "2023-11-11T05:24:26.424421Z",
+  "modified": "2024-02-17T05:51:59.082893Z",
   "published": "2023-07-21T20:24:10Z",
   "aliases": [
     "CVE-2023-37901",
@@ -133,7 +133,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://docs.getindico.io/en/stable/installation/upgrade/"
+      "url": "https://docs.getindico.io/en/stable/installation/upgrade"
     },
     {
       "type": "PACKAGE",

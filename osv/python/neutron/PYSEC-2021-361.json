@@ -1,9 +1,10 @@
 {
   "id": "PYSEC-2021-361",
-  "modified": "2023-11-08T04:06:46.042169Z",
+  "modified": "2024-02-23T21:58:27.009962Z",
   "published": "2021-08-31T18:15:00Z",
   "aliases": [
-    "CVE-2021-40085"
+    "CVE-2021-40085",
+    "GHSA-fh73-gjvg-349c"
   ],
   "details": "An issue was discovered in OpenStack Neutron before 16.4.1, 17.x before 17.2.1, and 18.x before 18.1.1. Authenticated attackers can reconfigure dnsmasq via a crafted extra_dhcp_opts value.",
   "affected": [

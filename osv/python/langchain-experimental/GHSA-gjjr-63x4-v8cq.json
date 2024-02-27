@@ -1,6 +1,6 @@
 {
   "id": "GHSA-gjjr-63x4-v8cq",
-  "modified": "2023-11-11T05:23:32.386581Z",
+  "modified": "2024-02-26T20:01:00.312124Z",
   "published": "2023-10-09T21:30:27Z",
   "aliases": [
     "CVE-2023-44467",
@@ -76,7 +76,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://pypi.org/project/langchain-experimental/0.0.14/"
+      "url": "https://pypi.org/project/langchain-experimental/0.0.14"
     }
   ]
 }

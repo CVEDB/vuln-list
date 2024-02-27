@@ -1,9 +1,10 @@
 {
   "id": "PYSEC-2021-352",
-  "modified": "2023-11-08T04:05:49.871535Z",
+  "modified": "2024-02-23T21:13:24.966629Z",
   "published": "2021-09-27T06:15:00Z",
   "aliases": [
-    "CVE-2021-31604"
+    "CVE-2021-31604",
+    "GHSA-vw35-c8hf-fwmq"
   ],
   "details": "furlongm openvpn-monitor through 1.1.3 allows CSRF to disconnect an arbitrary client.",
   "affected": [

@@ -1,9 +1,10 @@
 {
   "id": "PYSEC-2011-23",
-  "modified": "2023-11-08T03:57:01.813516Z",
+  "modified": "2024-01-19T18:11:16.178502Z",
   "published": "2011-12-31T01:55:00Z",
   "aliases": [
-    "CVE-2011-4617"
+    "CVE-2011-4617",
+    "GHSA-3jhc-wjqf-5f2c"
   ],
   "details": "virtualenv.py in virtualenv before 1.5 allows local users to overwrite arbitrary files via a symlink attack on a certain file in /tmp/.",
   "affected": [

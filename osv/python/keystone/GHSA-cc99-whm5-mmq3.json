@@ -1,6 +1,6 @@
 {
   "id": "GHSA-cc99-whm5-mmq3",
-  "modified": "2023-11-08T04:06:10.497912Z",
+  "modified": "2024-02-16T08:10:44.167521Z",
   "published": "2022-08-27T00:00:44Z",
   "aliases": [
     "CVE-2021-3563"
@@ -86,8 +86,16 @@
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1962908"
     },
     {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/01/msg00007.html"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://opendev.org/openstack/keystone"
+    },
+    {
+      "type": "WEB",
+      "url": "https://opendev.org/openstack/keystone/commit/7859ed26003858ebfd9a5e866b43f1a6a9e83dca"
     },
     {
       "type": "WEB",
