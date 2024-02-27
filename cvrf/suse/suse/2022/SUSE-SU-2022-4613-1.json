@@ -456,7 +456,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2022-2602",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "io_uring UAF, Unix SCM garbage collection",
       "Threats": [
         {
           "Type": "Impact",
@@ -1269,6 +1269,10 @@
         {
           "URL": "https://bugzilla.suse.com/1218483",
           "Description": "SUSE Bug 1218483"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1218966",
+          "Description": "SUSE Bug 1218966"
         }
       ],
       "ProductStatuses": [

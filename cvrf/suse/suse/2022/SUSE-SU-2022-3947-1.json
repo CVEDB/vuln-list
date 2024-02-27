@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP3-CHOST-BYOS-Aliyun-2022-3947,Image SLES15-SP3-CHOST-BYOS-Azure-2022-3947,Image SLES15-SP3-CHOST-BYOS-EC2-2022-3947,Image SLES15-SP3-CHOST-BYOS-GCE-2022-3947,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2022-3947,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2022-3947,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2022-3947,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2022-3947,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2022-3947,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2022-3947,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2022-3947,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2022-3947,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2022-3947,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2022-3947,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2022-3947,Image SLES15-SP3-SAP-BYOS-Azure-2022-3947,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-SAP-BYOS-GCE-2022-3947,SUSE-2022-3947,SUSE-SLE-Module-Basesystem-15-SP3-2022-3947,SUSE-SLE-Module-Server-Applications-15-SP3-2022-3947,SUSE-SUSE-MicroOS-5.1-2022-3947,SUSE-SUSE-MicroOS-5.2-2022-3947,openSUSE-Leap-Micro-5.2-2022-3947,openSUSE-SLE-15.3-2022-3947",
+      "Text": "Image SLES15-SP3-BYOS-Azure-2022-3947,Image SLES15-SP3-CHOST-BYOS-Aliyun-2022-3947,Image SLES15-SP3-CHOST-BYOS-Azure-2022-3947,Image SLES15-SP3-CHOST-BYOS-EC2-2022-3947,Image SLES15-SP3-CHOST-BYOS-GCE-2022-3947,Image SLES15-SP3-CHOST-BYOS-SAP-CCloud-2022-3947,Image SLES15-SP3-HPC-BYOS-Azure-2022-3947,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure-2022-3947,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Manager-4-2-Proxy-BYOS-GCE-2022-3947,Image SLES15-SP3-Manager-4-2-Server-BYOS-Azure-2022-3947,Image SLES15-SP3-Manager-4-2-Server-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Manager-4-2-Server-BYOS-GCE-2022-3947,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2022-3947,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2022-3947,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2022-3947,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2022-3947,Image SLES15-SP3-SAP-Azure-LI-BYOS-Production-2022-3947,Image SLES15-SP3-SAP-Azure-VLI-BYOS-Production-2022-3947,Image SLES15-SP3-SAP-BYOS-Azure-2022-3947,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2022-3947,Image SLES15-SP3-SAP-BYOS-GCE-2022-3947,Image SLES15-SP3-SAPCAL-Azure-2022-3947,SUSE-2022-3947,SUSE-SLE-Module-Basesystem-15-SP3-2022-3947,SUSE-SLE-Module-Server-Applications-15-SP3-2022-3947,SUSE-SUSE-MicroOS-5.1-2022-3947,SUSE-SUSE-MicroOS-5.2-2022-3947,openSUSE-Leap-Micro-5.2-2022-3947,openSUSE-SLE-15.3-2022-3947",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "xen-libs-4.14.5_08-150300.3.40.1",
+        "RelatesToProductReference": "Image SLES15-SP3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "xen-libs-4.14.5_08-150300.3.40.1",
         "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-Aliyun",
@@ -66,6 +71,11 @@
       {
         "ProductReference": "xen-libs-4.14.5_08-150300.3.40.1",
         "RelatesToProductReference": "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.14.5_08-150300.3.40.1",
+        "RelatesToProductReference": "Image SLES15-SP3-HPC-BYOS-Azure",
         "RelationType": "Default Component Of"
       },
       {
@@ -176,6 +186,11 @@
       {
         "ProductReference": "xen-libs-4.14.5_08-150300.3.40.1",
         "RelatesToProductReference": "Image SLES15-SP3-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.14.5_08-150300.3.40.1",
+        "RelatesToProductReference": "Image SLES15-SP3-SAPCAL-Azure",
         "RelationType": "Default Component Of"
       },
       {
@@ -431,12 +446,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -459,6 +476,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -504,12 +522,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -532,6 +552,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -577,12 +598,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -605,6 +628,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -650,12 +674,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -678,6 +704,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -723,12 +750,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -751,6 +780,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -796,12 +826,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -824,6 +856,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -869,12 +902,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -897,6 +932,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -942,12 +978,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -970,6 +1008,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1015,12 +1054,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1043,6 +1084,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1088,12 +1130,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1116,6 +1160,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1161,12 +1206,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1189,6 +1236,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1234,12 +1282,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1262,6 +1312,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1307,12 +1358,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1335,6 +1388,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1380,12 +1434,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1408,6 +1464,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1453,12 +1510,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1481,6 +1540,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1526,12 +1586,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1554,6 +1616,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1599,12 +1662,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1627,6 +1692,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1672,12 +1738,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1700,6 +1768,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1745,12 +1814,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1773,6 +1844,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",
@@ -1818,12 +1890,14 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP3-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Aliyun:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-EC2:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-CHOST-BYOS-SAP-CCloud:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-HPC-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-Manager-4-2-Proxy-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
@@ -1846,6 +1920,7 @@
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-libs-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:xen-tools-domU-4.14.5_08-150300.3.40.1",
             "Image SLES15-SP3-SAP-BYOS-GCE:xen-libs-4.14.5_08-150300.3.40.1",
+            "Image SLES15-SP3-SAPCAL-Azure:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.1:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Micro 5.2:xen-libs-4.14.5_08-150300.3.40.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP3:xen-libs-4.14.5_08-150300.3.40.1",

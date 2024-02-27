@@ -1602,6 +1602,10 @@
         {
           "URL": "https://bugzilla.suse.com/1211111",
           "Description": "SUSE Bug 1211111"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1220130",
+          "Description": "SUSE Bug 1220130"
         }
       ],
       "ProductStatuses": [
@@ -1723,6 +1727,10 @@
         {
           "URL": "https://bugzilla.suse.com/1214128",
           "Description": "SUSE Bug 1214128"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1219701",
+          "Description": "SUSE Bug 1219701"
         }
       ],
       "ProductStatuses": [

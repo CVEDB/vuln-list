@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2024-01-09T06:55:28Z",
+        "Date": "2024-02-26T07:03:19Z",
         "Description": "current"
       }
     ]
@@ -6111,7 +6111,10 @@
           ]
         }
       ],
-      "CVSSScoreSets": {}
+      "CVSSScoreSets": {
+        "BaseScore": "6",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-44224",

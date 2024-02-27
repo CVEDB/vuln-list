@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2024-12,SUSE-SLE-Module-Basesystem-15-SP4-2024-12,SUSE-SLE-Module-Legacy-15-SP4-2024-12,SUSE-SLE-Module-Server-Applications-15-SP4-2024-12,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2024-12,SUSE-SLE-Product-HPC-15-SP3-LTSS-2024-12,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2024-12,SUSE-SLE-Product-HPC-15-SP4-LTSS-2024-12,SUSE-SLE-Product-RT-15-SP4-2024-12,SUSE-SLE-Product-SLED-15-SP4-LTSS-2024-12,SUSE-SLE-Product-SLES-15-SP3-LTSS-2024-12,SUSE-SLE-Product-SLES-15-SP4-LTSS-2024-12,SUSE-SLE-Product-SLES_SAP-15-SP3-2024-12,SUSE-SLE-Product-SLES_SAP-15-SP4-2024-12,SUSE-SLE-Product-SUSE-Manager-Proxy-4.3-2024-12,SUSE-SLE-Product-SUSE-Manager-Server-4.3-2024-12,SUSE-Storage-7.1-2024-12,openSUSE-SLE-15.4-2024-12",
+      "Text": "Image SLES15-SP4-Manager-Server-4-3-BYOS-2024-12,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2024-12,SUSE-2024-12,SUSE-SLE-Module-Basesystem-15-SP4-2024-12,SUSE-SLE-Module-Legacy-15-SP4-2024-12,SUSE-SLE-Module-Server-Applications-15-SP4-2024-12,SUSE-SLE-Product-HPC-15-SP3-ESPOS-2024-12,SUSE-SLE-Product-HPC-15-SP3-LTSS-2024-12,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2024-12,SUSE-SLE-Product-HPC-15-SP4-LTSS-2024-12,SUSE-SLE-Product-RT-15-SP4-2024-12,SUSE-SLE-Product-SLED-15-SP4-LTSS-2024-12,SUSE-SLE-Product-SLES-15-SP3-LTSS-2024-12,SUSE-SLE-Product-SLES-15-SP4-LTSS-2024-12,SUSE-SLE-Product-SLES_SAP-15-SP3-2024-12,SUSE-SLE-Product-SLES_SAP-15-SP4-2024-12,SUSE-SLE-Product-SUSE-Manager-Proxy-4.3-2024-12,SUSE-SLE-Product-SUSE-Manager-Server-4.3-2024-12,SUSE-Storage-7.1-2024-12,openSUSE-SLE-15.4-2024-12",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "postfix-3.5.9-150300.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "postfix-3.5.9-150300.5.15.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "postfix-3.5.9-150300.5.15.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
@@ -71,26 +81,6 @@
       {
         "ProductReference": "postfix-mysql-3.5.9-150300.5.15.1",
         "RelatesToProductReference": "SUSE Enterprise Storage 7.1",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "postfix-3.5.9-150300.5.15.1",
-        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 15 SP4-LTSS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "postfix-devel-3.5.9-150300.5.15.1",
-        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 15 SP4-LTSS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "postfix-doc-3.5.9-150300.5.15.1",
-        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 15 SP4-LTSS",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "postfix-ldap-3.5.9-150300.5.15.1",
-        "RelatesToProductReference": "SUSE Linux Enterprise Desktop 15 SP4-LTSS",
         "RelationType": "Default Component Of"
       },
       {
@@ -554,7 +544,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-51764",
-      "Description": "Postfix through 3.8.4 allows SMTP smuggling unless configured with smtpd_data_restrictions=reject_unauth_pipelining and smtpd_discard_ehlo_keywords=chunking (or certain other options that exist in recent versions). Remote attackers can use a published exploitation technique to inject e-mail messages with a spoofed MAIL FROM address, allowing bypass of an SPF protection mechanism. This occurs because Postfix supports \u003cLF\u003e.\u003cCR\u003e\u003cLF\u003e but some other popular e-mail servers do not. To prevent attack variants (by always disallowing \u003cLF\u003e without \u003cCR\u003e), a different solution is required: the smtpd_forbid_bare_newline=yes option with a Postfix minimum version of 3.5.23, 3.6.13, 3.7.9, 3.8.4, or 3.9.",
+      "Description": "Postfix through 3.8.5 allows SMTP smuggling unless configured with smtpd_data_restrictions=reject_unauth_pipelining and smtpd_discard_ehlo_keywords=chunking (or certain other options that exist in recent versions). Remote attackers can use a published exploitation technique to inject e-mail messages with a spoofed MAIL FROM address, allowing bypass of an SPF protection mechanism. This occurs because Postfix supports \u003cLF\u003e.\u003cCR\u003e\u003cLF\u003e but some other popular e-mail servers do not. To prevent attack variants (by always disallowing \u003cLF\u003e without \u003cCR\u003e), a different solution is required, such as the smtpd_forbid_bare_newline=yes option with a Postfix minimum version of 3.5.23, 3.6.13, 3.7.9, 3.8.4, or 3.9.",
       "Threats": [
         {
           "Type": "Impact",
@@ -575,6 +565,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:postfix-3.5.9-150300.5.15.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:postfix-3.5.9-150300.5.15.1",
             "SUSE Enterprise Storage 7.1:postfix-3.5.9-150300.5.15.1",
             "SUSE Enterprise Storage 7.1:postfix-bdb-3.5.9-150300.5.15.1",
             "SUSE Enterprise Storage 7.1:postfix-bdb-lmdb-3.5.9-150300.5.15.1",
@@ -582,10 +574,6 @@
             "SUSE Enterprise Storage 7.1:postfix-doc-3.5.9-150300.5.15.1",
             "SUSE Enterprise Storage 7.1:postfix-ldap-3.5.9-150300.5.15.1",
             "SUSE Enterprise Storage 7.1:postfix-mysql-3.5.9-150300.5.15.1",
-            "SUSE Linux Enterprise Desktop 15 SP4-LTSS:postfix-3.5.9-150300.5.15.1",
-            "SUSE Linux Enterprise Desktop 15 SP4-LTSS:postfix-devel-3.5.9-150300.5.15.1",
-            "SUSE Linux Enterprise Desktop 15 SP4-LTSS:postfix-doc-3.5.9-150300.5.15.1",
-            "SUSE Linux Enterprise Desktop 15 SP4-LTSS:postfix-ldap-3.5.9-150300.5.15.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:postfix-3.5.9-150300.5.15.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:postfix-bdb-3.5.9-150300.5.15.1",
             "SUSE Linux Enterprise High Performance Computing 15 SP3-ESPOS:postfix-bdb-lmdb-3.5.9-150300.5.15.1",

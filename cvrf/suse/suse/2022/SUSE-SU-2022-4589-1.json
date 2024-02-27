@@ -31,13 +31,23 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Image SLES15-SP2-SAP-Azure-2022-4589,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2022-4589,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2022-4589,Image SLES15-SP2-SAP-BYOS-Azure-2022-4589,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2022-4589,Image SLES15-SP2-SAP-BYOS-GCE-2022-4589,Image SLES15-SP2-SAP-EC2-HVM-2022-4589,Image SLES15-SP2-SAP-GCE-2022-4589,SUSE-2022-4589,SUSE-SLE-Module-Live-Patching-15-SP2-2022-4589,SUSE-SLE-Product-HA-15-SP2-2022-4589,SUSE-SLE-Product-HPC-15-SP2-ESPOS-2022-4589,SUSE-SLE-Product-HPC-15-SP2-LTSS-2022-4589,SUSE-SLE-Product-SLES-15-SP2-BCL-2022-4589,SUSE-SLE-Product-SLES-15-SP2-LTSS-2022-4589,SUSE-SLE-Product-SLES_SAP-15-SP2-2022-4589,SUSE-SLE-Product-SUSE-Manager-Proxy-4.1-2022-4589,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.1-2022-4589,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-4589,SUSE-Storage-7-2022-4589",
+      "Text": "Image SLES15-SP2-BYOS-Azure-2022-4589,Image SLES15-SP2-HPC-BYOS-Azure-2022-4589,Image SLES15-SP2-SAP-Azure-2022-4589,Image SLES15-SP2-SAP-Azure-LI-BYOS-Production-2022-4589,Image SLES15-SP2-SAP-Azure-VLI-BYOS-Production-2022-4589,Image SLES15-SP2-SAP-BYOS-Azure-2022-4589,Image SLES15-SP2-SAP-BYOS-EC2-HVM-2022-4589,Image SLES15-SP2-SAP-BYOS-GCE-2022-4589,Image SLES15-SP2-SAP-EC2-HVM-2022-4589,Image SLES15-SP2-SAP-GCE-2022-4589,SUSE-2022-4589,SUSE-SLE-Module-Live-Patching-15-SP2-2022-4589,SUSE-SLE-Product-HA-15-SP2-2022-4589,SUSE-SLE-Product-HPC-15-SP2-ESPOS-2022-4589,SUSE-SLE-Product-HPC-15-SP2-LTSS-2022-4589,SUSE-SLE-Product-SLES-15-SP2-BCL-2022-4589,SUSE-SLE-Product-SLES-15-SP2-LTSS-2022-4589,SUSE-SLE-Product-SLES_SAP-15-SP2-2022-4589,SUSE-SLE-Product-SUSE-Manager-Proxy-4.1-2022-4589,SUSE-SLE-Product-SUSE-Manager-Retail-Branch-Server-4.1-2022-4589,SUSE-SLE-Product-SUSE-Manager-Server-4.1-2022-4589,SUSE-Storage-7-2022-4589",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "kernel-default-5.3.18-150200.24.139.1",
+        "RelatesToProductReference": "Image SLES15-SP2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150200.24.139.1",
+        "RelatesToProductReference": "Image SLES15-SP2-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "cluster-md-kmp-default-5.3.18-150200.24.139.1",
         "RelatesToProductReference": "Image SLES15-SP2-SAP-Azure",
@@ -1282,6 +1292,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -1462,6 +1474,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -1621,7 +1635,7 @@
     },
     {
       "CVE": "CVE-2022-2602",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "io_uring UAF, Unix SCM garbage collection",
       "Threats": [
         {
           "Type": "Impact",
@@ -1646,6 +1660,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -1826,6 +1842,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -2006,6 +2024,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -2194,6 +2214,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -2378,6 +2400,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -2558,6 +2582,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -2742,6 +2768,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -2934,6 +2962,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -3118,6 +3148,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -3302,6 +3334,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -3482,6 +3516,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -3666,6 +3702,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -3848,12 +3886,18 @@
         {
           "URL": "https://bugzilla.suse.com/1209225",
           "Description": "SUSE Bug 1209225"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1217531",
+          "Description": "SUSE Bug 1217531"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -4046,6 +4090,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -4226,6 +4272,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -4410,6 +4458,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -4606,6 +4656,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -4790,6 +4842,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -4974,6 +5028,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -5154,6 +5210,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -5334,6 +5392,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -5514,6 +5574,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -5706,6 +5768,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -5886,6 +5950,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -6070,6 +6136,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -6250,6 +6318,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -6434,6 +6504,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -6622,6 +6694,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -6802,6 +6876,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -6982,6 +7058,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -7178,6 +7256,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -7358,6 +7438,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -7546,6 +7628,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -7730,6 +7814,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -7918,6 +8004,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -8114,6 +8202,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -8294,6 +8384,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -8474,6 +8566,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -8658,6 +8752,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -8860,12 +8956,18 @@
         {
           "URL": "https://bugzilla.suse.com/1218483",
           "Description": "SUSE Bug 1218483"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1218966",
+          "Description": "SUSE Bug 1218966"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -9066,6 +9168,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",
@@ -9250,6 +9354,8 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP2-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
+            "Image SLES15-SP2-HPC-BYOS-Azure:kernel-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:cluster-md-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:dlm-kmp-default-5.3.18-150200.24.139.1",
             "Image SLES15-SP2-SAP-Azure-LI-BYOS-Production:gfs2-kmp-default-5.3.18-150200.24.139.1",

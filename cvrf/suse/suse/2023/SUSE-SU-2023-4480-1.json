@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sles12sp5:latest-2023-4480,Image SLES12-SP5-Azure-BYOS-2023-4480,Image SLES12-SP5-Azure-SAP-BYOS-2023-4480,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-4480,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-4480,SUSE-2023-4480,SUSE-SLE-Module-Toolchain-12-2023-4480,SUSE-SLE-SERVER-12-SP5-2023-4480",
+      "Text": "Container suse/sles12sp5:latest-2023-4480,Image SLES12-SP5-Azure-BYOS-2023-4480,Image SLES12-SP5-Azure-Basic-On-Demand-2023-4480,Image SLES12-SP5-Azure-HPC-BYOS-2023-4480,Image SLES12-SP5-Azure-HPC-On-Demand-2023-4480,Image SLES12-SP5-Azure-SAP-BYOS-2023-4480,Image SLES12-SP5-Azure-SAP-On-Demand-2023-4480,Image SLES12-SP5-Azure-Standard-On-Demand-2023-4480,Image SLES12-SP5-EC2-BYOS-2023-4480,Image SLES12-SP5-EC2-ECS-On-Demand-2023-4480,Image SLES12-SP5-EC2-On-Demand-2023-4480,Image SLES12-SP5-EC2-SAP-BYOS-2023-4480,Image SLES12-SP5-EC2-SAP-On-Demand-2023-4480,Image SLES12-SP5-GCE-BYOS-2023-4480,Image SLES12-SP5-GCE-On-Demand-2023-4480,Image SLES12-SP5-GCE-SAP-BYOS-2023-4480,Image SLES12-SP5-GCE-SAP-On-Demand-2023-4480,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2023-4480,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2023-4480,SUSE-2023-4480,SUSE-SLE-Module-Toolchain-12-2023-4480,SUSE-SLE-SERVER-12-SP5-2023-4480",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -60,12 +60,152 @@
       },
       {
         "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Basic-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
         "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgcc_s1-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libstdc++6-13.2.1+git7813-1.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
         "RelationType": "Default Component Of"
       },
       {
@@ -521,7 +661,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-4039",
-      "Description": "\n\nA failure in the -fstack-protector feature in GCC-based toolchains \nthat target AArch64 allows an attacker to exploit an existing buffer \noverflow in dynamically-sized local variables in your application \nwithout this being detected. This stack-protector failure only applies \nto C99-style dynamically-sized local variables or those created using \nalloca(). The stack-protector operates as intended for statically-sized \nlocal variables.\n\nThe default behavior when the stack-protector \ndetects an overflow is to terminate your application, resulting in \ncontrolled loss of availability. An attacker who can exploit a buffer \noverflow without triggering the stack-protector might be able to change \nprogram flow control to cause an uncontrolled loss of availability or to\n go further and affect confidentiality or integrity.\n\n\n\n\n\n",
+      "Description": "\n\n**DISPUTED**A failure in the -fstack-protector feature in GCC-based toolchains \nthat target AArch64 allows an attacker to exploit an existing buffer \noverflow in dynamically-sized local variables in your application \nwithout this being detected. This stack-protector failure only applies \nto C99-style dynamically-sized local variables or those created using \nalloca(). The stack-protector operates as intended for statically-sized \nlocal variables.\n\nThe default behavior when the stack-protector \ndetects an overflow is to terminate your application, resulting in \ncontrolled loss of availability. An attacker who can exploit a buffer \noverflow without triggering the stack-protector might be able to change \nprogram flow control to cause an uncontrolled loss of availability or to\n go further and affect confidentiality or integrity. NOTE: The GCC project argues that this is a missed hardening bug and not a vulnerability by itself.\n\n\n\n\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -546,8 +686,36 @@
             "Container suse/sles12sp5:latest:libstdc++6-13.2.1+git7813-1.10.1",
             "Image SLES12-SP5-Azure-BYOS:libgcc_s1-13.2.1+git7813-1.10.1",
             "Image SLES12-SP5-Azure-BYOS:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-Basic-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libgcc_s1-13.2.1+git7813-1.10.1",
             "Image SLES12-SP5-Azure-SAP-BYOS:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-BYOS:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-BYOS:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-BYOS:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-BYOS:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libstdc++6-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libgcc_s1-13.2.1+git7813-1.10.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libstdc++6-13.2.1+git7813-1.10.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libatomic1-13.2.1+git7813-1.10.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgcc_s1-13.2.1+git7813-1.10.1",
             "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libgomp1-13.2.1+git7813-1.10.1",

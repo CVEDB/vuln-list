@@ -31,13 +31,28 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2023-4734,SUSE-SLE-Module-Public-Cloud-15-SP5-2023-4734,openSUSE-SLE-15.5-2023-4734",
+      "Text": "Image SLES15-SP5-Azure-Basic-2023-4734,Image SLES15-SP5-Azure-Standard-2023-4734,Image SLES15-SP5-HPC-Azure-2023-4734,SUSE-2023-4734,SUSE-SLE-Module-Public-Cloud-15-SP5-2023-4734,openSUSE-SLE-15.5-2023-4734",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "kernel-azure-5.14.21-150500.33.26.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-azure-5.14.21-150500.33.26.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-azure-5.14.21-150500.33.26.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "kernel-azure-5.14.21-150500.33.26.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Public Cloud 15 SP5",
@@ -438,6 +453,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -486,6 +504,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -513,7 +534,7 @@
     },
     {
       "CVE": "CVE-2023-39197",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "An out-of-bounds read vulnerability was found in Netfilter Connection Tracking (conntrack) in the Linux kernel. This flaw allows a remote user to disclose sensitive information via the DCCP protocol.",
       "Threats": [
         {
           "Type": "Impact",
@@ -534,6 +555,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -580,12 +604,19 @@
         {
           "URL": "https://bugzilla.suse.com/1217116",
           "Description": "SUSE Bug 1217116"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1219703",
+          "Description": "SUSE Bug 1219703"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -638,6 +669,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -686,6 +720,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -734,6 +771,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -782,6 +822,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -830,6 +873,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -882,6 +928,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -932,12 +981,19 @@
         {
           "URL": "https://bugzilla.suse.com/1217557",
           "Description": "SUSE Bug 1217557"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1219697",
+          "Description": "SUSE Bug 1219697"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -986,6 +1042,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",
@@ -1038,6 +1097,9 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP5-Azure-Basic:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-Azure-Standard:kernel-azure-5.14.21-150500.33.26.1",
+            "Image SLES15-SP5-HPC-Azure:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-azure-devel-5.14.21-150500.33.26.1",
             "SUSE Linux Enterprise Module for Public Cloud 15 SP5:kernel-devel-azure-5.14.21-150500.33.26.1",

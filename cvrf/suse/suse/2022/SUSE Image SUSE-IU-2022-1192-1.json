@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2024-01-09T06:54:58Z",
+        "Date": "2024-02-26T07:02:47Z",
         "Description": "current"
       }
     ]
@@ -6017,7 +6017,10 @@
           "ProductID": null
         }
       ],
-      "CVSSScoreSets": {}
+      "CVSSScoreSets": {
+        "BaseScore": "6",
+        "Vector": "AV:N/AC:M/Au:S/C:P/I:P/A:P"
+      }
     },
     {
       "CVE": "CVE-2021-43975",
