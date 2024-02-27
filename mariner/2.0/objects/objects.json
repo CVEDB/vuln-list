@@ -1,24 +1,324 @@
 {
   "RpminfoObjects": [
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:32280001",
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34275001",
       "Version": "0",
       "Name": "moby-engine"
     },
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:32259001",
-      "Version": "0",
-      "Name": "jsch"
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34087001",
+      "Version": "1",
+      "Name": "moby-runc"
     },
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:32222001",
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34086001",
+      "Version": "0",
+      "Name": "moby-engine"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34085001",
+      "Version": "0",
+      "Name": "moby-engine"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34084001",
+      "Version": "0",
+      "Name": "moby-engine"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34081001",
+      "Version": "0",
+      "Name": "moby-compose"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34079001",
+      "Version": "0",
+      "Name": "moby-cli"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34078001",
+      "Version": "0",
+      "Name": "moby-buildx"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34075001",
       "Version": "0",
       "Name": "kubevirt"
     },
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:32221001",
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34074001",
       "Version": "0",
       "Name": "kubernetes"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:34060001",
+      "Version": "0",
+      "Name": "cri-tools"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33641001",
+      "Version": "0",
+      "Name": "rook"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33639001",
+      "Version": "1",
+      "Name": "rook"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33638001",
+      "Version": "0",
+      "Name": "prometheus-process-exporter"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33637001",
+      "Version": "1",
+      "Name": "prometheus-process-exporter"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33635001",
+      "Version": "1",
+      "Name": "prometheus-node-exporter"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33634001",
+      "Version": "1",
+      "Name": "prometheus-node-exporter"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33627001",
+      "Version": "0",
+      "Name": "node-problem-detector"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33626001",
+      "Version": "1",
+      "Name": "node-problem-detector"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33624001",
+      "Version": "0",
+      "Name": "nmi"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33623001",
+      "Version": "0",
+      "Name": "nmi"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33622001",
+      "Version": "0",
+      "Name": "nmi"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33620001",
+      "Version": "1",
+      "Name": "moby-engine"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33618001",
+      "Version": "0",
+      "Name": "moby-cli"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33614001",
+      "Version": "1",
+      "Name": "moby-buildx"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33613001",
+      "Version": "1",
+      "Name": "moby-buildx"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33612001",
+      "Version": "1",
+      "Name": "local-path-provisioner"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33611001",
+      "Version": "1",
+      "Name": "local-path-provisioner"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33607001",
+      "Version": "1",
+      "Name": "libcontainers-common"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33604001",
+      "Version": "1",
+      "Name": "kube-vip-cloud-provider"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33603001",
+      "Version": "1",
+      "Name": "kube-vip-cloud-provider"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33597001",
+      "Version": "0",
+      "Name": "keda"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33592001",
+      "Version": "1",
+      "Name": "jx"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33585001",
+      "Version": "1",
+      "Name": "git-lfs"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33581001",
+      "Version": "1",
+      "Name": "flannel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33577001",
+      "Version": "1",
+      "Name": "csi-driver-lvm"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33571001",
+      "Version": "1",
+      "Name": "cf-cli"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33567001",
+      "Version": "1",
+      "Name": "application-gateway-kubernetes-ingress"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33564001",
+      "Version": "1",
+      "Name": "application-gateway-kubernetes-ingress"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33517001",
+      "Version": "1",
+      "Name": "qt5-qtbase"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33350001",
+      "Version": "1",
+      "Name": "rubygem-mini_portile2"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33343001",
+      "Version": "1",
+      "Name": "helm"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33330001",
+      "Version": "1",
+      "Name": "packer"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33329001",
+      "Version": "0",
+      "Name": "libdwarf"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33328001",
+      "Version": "0",
+      "Name": "libdwarf"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33327001",
+      "Version": "0",
+      "Name": "libdwarf"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33326001",
+      "Version": "0",
+      "Name": "libdwarf"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33287001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33285001",
+      "Version": "0",
+      "Name": "coredns"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:33284001",
+      "Version": "1",
+      "Name": "azure-iot-sdk-c"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32314001",
+      "Version": "1",
+      "Name": "reaper"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32311001",
+      "Version": "1",
+      "Name": "cloud-hypervisor"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32297001",
+      "Version": "1",
+      "Name": "sqlite"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32296001",
+      "Version": "1",
+      "Name": "postfix"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32284001",
+      "Version": "0",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32280001",
+      "Version": "1",
+      "Name": "moby-engine"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32276001",
+      "Version": "1",
+      "Name": "fluent-bit"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32270001",
+      "Version": "0",
+      "Name": "systemd"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32264001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32263001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32259001",
+      "Version": "1",
+      "Name": "jsch"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32227001",
+      "Version": "1",
+      "Name": "sudo"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32223001",
+      "Version": "1",
+      "Name": "moby-cli"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32210001",
+      "Version": "0",
+      "Name": "hyperv-daemons"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:32207001",
@@ -36,9 +336,24 @@
       "Name": "openssh"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32204001",
+      "Version": "1",
+      "Name": "openssh"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:32203001",
       "Version": "1",
       "Name": "openssh"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32200001",
+      "Version": "1",
+      "Name": "libssh"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32199001",
+      "Version": "1",
+      "Name": "libssh"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:32180001",
@@ -51,9 +366,69 @@
       "Name": "xorg-x11-server"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32174001",
+      "Version": "0",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32172001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32161001",
+      "Version": "1",
+      "Name": "bluez"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32158001",
+      "Version": "1",
+      "Name": "ansible"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32126001",
+      "Version": "1",
+      "Name": "mysql"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32122001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32120001",
+      "Version": "1",
+      "Name": "curl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32106001",
+      "Version": "1",
+      "Name": "postgresql"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32104001",
+      "Version": "1",
+      "Name": "postgresql"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32099001",
+      "Version": "1",
+      "Name": "curl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32081001",
+      "Version": "1",
+      "Name": "fish"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:32071001",
       "Version": "1",
       "Name": "strongswan"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32062001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:32060001",
@@ -64,6 +439,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:32051001",
       "Version": "1",
       "Name": "python-cryptography"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32050001",
+      "Version": "1",
+      "Name": "packer"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:32047001",
+      "Version": "1",
+      "Name": "vim"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:32027001",
@@ -151,14 +536,29 @@
       "Name": "opensc"
     },
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:31896001",
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31897001",
       "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31896001",
+      "Version": "1",
       "Name": "moby-containerd-cc"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31893001",
+      "Version": "1",
+      "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31880001",
       "Version": "0",
       "Name": "openssl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31872001",
+      "Version": "0",
+      "Name": "edk2"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31859001",
@@ -181,12 +581,27 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31851001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31816001",
+      "Version": "1",
+      "Name": "kernel"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31815001",
       "Version": "1",
       "Name": "kernel"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31814001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31813001",
       "Version": "1",
       "Name": "hyperv-daemons"
     },
@@ -214,6 +629,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:31782001",
       "Version": "1",
       "Name": "PyYAML"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:31779001",
+      "Version": "1",
+      "Name": "telegraf"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31777001",
@@ -287,7 +707,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31691001",
-      "Version": "0",
+      "Version": "1",
       "Name": "coredns"
     },
     {
@@ -307,7 +727,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31655001",
-      "Version": "0",
+      "Version": "1",
       "Name": "vitess"
     },
     {
@@ -322,7 +742,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31647001",
-      "Version": "0",
+      "Version": "1",
       "Name": "moby-containerd-cc"
     },
     {
@@ -332,7 +752,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31645001",
-      "Version": "0",
+      "Version": "1",
       "Name": "moby-compose"
     },
     {
@@ -527,7 +947,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31519001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -567,7 +987,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31491001",
-      "Version": "0",
+      "Version": "1",
       "Name": "moby-containerd-cc"
     },
     {
@@ -582,12 +1002,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31348001",
-      "Version": "0",
+      "Version": "1",
       "Name": "vitess"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31347001",
-      "Version": "0",
+      "Version": "1",
       "Name": "terraform"
     },
     {
@@ -602,7 +1022,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31343001",
-      "Version": "0",
+      "Version": "1",
       "Name": "rook"
     },
     {
@@ -617,7 +1037,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31340001",
-      "Version": "0",
+      "Version": "1",
       "Name": "packer"
     },
     {
@@ -667,7 +1087,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31327001",
-      "Version": "0",
+      "Version": "1",
       "Name": "moby-compose"
     },
     {
@@ -677,12 +1097,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31325001",
-      "Version": "0",
+      "Version": "1",
       "Name": "moby-buildx"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31324001",
-      "Version": "0",
+      "Version": "1",
       "Name": "local-path-provisioner"
     },
     {
@@ -712,12 +1132,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31318001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kubevirt"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31317001",
-      "Version": "0",
+      "Version": "1",
       "Name": "kube-vip-cloud-provider"
     },
     {
@@ -737,7 +1157,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31313001",
-      "Version": "0",
+      "Version": "1",
       "Name": "jx"
     },
     {
@@ -747,7 +1167,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31310001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -772,12 +1192,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31301001",
-      "Version": "0",
+      "Version": "1",
       "Name": "coredns"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31300001",
-      "Version": "0",
+      "Version": "1",
       "Name": "containerized-data-importer"
     },
     {
@@ -792,7 +1212,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31297001",
-      "Version": "0",
+      "Version": "1",
       "Name": "cf-cli"
     },
     {
@@ -807,12 +1227,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31292001",
-      "Version": "0",
+      "Version": "1",
       "Name": "azcopy"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31291001",
-      "Version": "0",
+      "Version": "1",
       "Name": "application-gateway-kubernetes-ingress"
     },
     {
@@ -1022,7 +1442,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:31107001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -1146,6 +1566,21 @@
       "Name": "mysql"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28832001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28831001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28830001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28779001",
       "Version": "1",
       "Name": "kernel"
@@ -1164,6 +1599,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:28698001",
       "Version": "1",
       "Name": "mutt"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28695001",
+      "Version": "1",
+      "Name": "golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28694001",
+      "Version": "1",
+      "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28679001",
@@ -1279,6 +1724,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:28598001",
       "Version": "1",
       "Name": "vim"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:28597001",
+      "Version": "1",
+      "Name": "python-gevent"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:28594001",
@@ -1466,6 +1916,11 @@
       "Name": "vim"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27892001",
+      "Version": "1",
+      "Name": "postgresql"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27890001",
       "Version": "1",
       "Name": "kernel"
@@ -1482,7 +1937,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27872001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -1514,6 +1969,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27815001",
       "Version": "1",
       "Name": "openssl"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27814001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27812001",
+      "Version": "1",
+      "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27797001",
@@ -1671,7 +2136,37 @@
       "Name": "javapackages-bootstrap"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27643001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27642001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27641001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27640001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27639001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27635001",
+      "Version": "1",
+      "Name": "hyperv-daemons"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27634001",
       "Version": "1",
       "Name": "hyperv-daemons"
     },
@@ -1826,6 +2321,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27410001",
+      "Version": "1",
+      "Name": "golang"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27405001",
       "Version": "1",
       "Name": "tang"
@@ -1839,6 +2339,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27401001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27396001",
+      "Version": "1",
+      "Name": "telegraf"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27388001",
@@ -2061,6 +2566,11 @@
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27178001",
+      "Version": "1",
+      "Name": "dbus"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27166001",
       "Version": "1",
       "Name": "libtiff"
@@ -2092,8 +2602,13 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27140001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27123001",
+      "Version": "0",
+      "Name": "msft-golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27122001",
@@ -2101,13 +2616,23 @@
       "Name": "msft-golang"
     },
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:27111001",
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27121001",
       "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27112001",
+      "Version": "1",
+      "Name": "golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27111001",
+      "Version": "1",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27110001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -2124,6 +2649,16 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:27072001",
       "Version": "1",
       "Name": "skopeo"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27070001",
+      "Version": "1",
+      "Name": "moby-engine"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:27068001",
+      "Version": "1",
+      "Name": "moby-cli"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:27065001",
@@ -2199,6 +2734,11 @@
       "ID": "oval:com.microsoft.cbl-mariner:obj:26943001",
       "Version": "1",
       "Name": "qt5-qtbase"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26942001",
+      "Version": "1",
+      "Name": "python-gevent"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26940001",
@@ -2441,13 +2981,33 @@
       "Name": "yasm"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26627001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26626001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26625001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26623001",
       "Version": "1",
       "Name": "kernel"
     },
     {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26615001",
+      "Version": "1",
+      "Name": "golang"
+    },
+    {
       "ID": "oval:com.microsoft.cbl-mariner:obj:26614001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -2741,8 +3301,23 @@
       "Name": "openvswitch"
     },
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:26026001",
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26029001",
       "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26028001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26027001",
+      "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:26026001",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -2751,13 +3326,18 @@
       "Name": "nginx"
     },
     {
-      "ID": "oval:com.microsoft.cbl-mariner:obj:25992001",
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25993001",
       "Version": "0",
+      "Name": "msft-golang"
+    },
+    {
+      "ID": "oval:com.microsoft.cbl-mariner:obj:25992001",
+      "Version": "1",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:25990001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -3187,7 +3767,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13828001",
-      "Version": "0",
+      "Version": "1",
       "Name": "python-gevent"
     },
     {
@@ -3372,17 +3952,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13732001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13731001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13730001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -3577,7 +4157,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:13586001",
-      "Version": "0",
+      "Version": "1",
       "Name": "packer"
     },
     {
@@ -4517,7 +5097,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11582001",
-      "Version": "1",
+      "Version": "3",
       "Name": "golang"
     },
     {
@@ -5167,17 +5747,17 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11130001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11129001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11128001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -5197,7 +5777,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:11115001",
-      "Version": "0",
+      "Version": "1",
       "Name": "packer"
     },
     {
@@ -5562,7 +6142,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10855001",
-      "Version": "0",
+      "Version": "1",
       "Name": "golang"
     },
     {
@@ -5947,7 +6527,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10550001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -5982,57 +6562,57 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10539001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10538001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10537001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10536001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10535001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10534001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10533001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10532001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10531001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10530001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:10529001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -7097,7 +7677,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:9547001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -7117,7 +7697,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:9527001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -7737,7 +8317,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:8898001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -8032,7 +8612,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:8524001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -8042,12 +8622,12 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:8513001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:8512001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -9552,7 +10132,7 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:7125001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
@@ -11567,27 +12147,27 @@
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:6452001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:6451001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:6450001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:6449001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
       "ID": "oval:com.microsoft.cbl-mariner:obj:6448001",
-      "Version": "1",
+      "Version": "2",
       "Name": "golang"
     },
     {
