@@ -23,6 +23,14 @@
       "CVE-2023-25139",
       "GHSA-2g67-jw5m-244m"
     ],
+    "2.38-r11": [
+      "CVE-2023-6246",
+      "GHSA-p6rw-gvvh-q8v4",
+      "CVE-2023-6779",
+      "GHSA-p5vr-h433-qhqr",
+      "CVE-2023-6780",
+      "GHSA-jjr8-97p7-vmmg"
+    ],
     "2.38-r2": [
       "CVE-2023-4527",
       "GHSA-hmf7-f8gf-8f4p"

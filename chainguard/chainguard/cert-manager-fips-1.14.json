@@ -1,0 +1,16 @@
+{
+  "name": "cert-manager-fips-1.14",
+  "secfixes": {
+    "1.14.3-r0": [
+      "CVE-2024-26147",
+      "GHSA-r53h-jv2g-vpx6"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

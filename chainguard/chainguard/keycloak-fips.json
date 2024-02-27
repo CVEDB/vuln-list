@@ -6,6 +6,14 @@
       "GHSA-5mg8-w23w-74h3",
       "CVE-2023-2976",
       "GHSA-7g45-4rm6-3mm3"
+    ],
+    "23.0.4-r0": [
+      "GHSA-9vm7-v8wj-3fqw"
+    ],
+    "23.0.7-r0": [
+      "CVE-2024-1597",
+      "GHSA-xfg6-62px-cxc2",
+      "GHSA-24rp-q3w6-vc56"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

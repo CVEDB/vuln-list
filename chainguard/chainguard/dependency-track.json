@@ -1,0 +1,17 @@
+{
+  "name": "dependency-track",
+  "secfixes": {
+    "4.10.1-r1": [
+      "CVE-2024-1597",
+      "GHSA-xfg6-62px-cxc2",
+      "GHSA-24rp-q3w6-vc56"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

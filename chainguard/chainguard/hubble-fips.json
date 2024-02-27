@@ -1,0 +1,18 @@
+{
+  "name": "hubble-fips",
+  "secfixes": {
+    "0.13.0-r0": [
+      "CVE-2024-25630",
+      "GHSA-7496-fgv9-xw82",
+      "CVE-2024-25631",
+      "GHSA-x989-52fc-4vr4"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
