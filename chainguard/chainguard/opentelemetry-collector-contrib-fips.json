@@ -1,0 +1,31 @@
+{
+  "name": "opentelemetry-collector-contrib-fips",
+  "secfixes": {
+    "0.100.0-r1": [
+      "CVE-2024-24787",
+      "CVE-2024-24788",
+      "GHSA-2jwv-jmq4-4j3r",
+      "GHSA-5fq7-4mxc-535h"
+    ],
+    "0.101.0-r2": [
+      "CVE-2024-36129",
+      "GHSA-c74f-6mfw-mm4v"
+    ],
+    "0.98.0-r0": [
+      "CVE-2023-45288",
+      "GHSA-4v7x-pqxf-cx7m"
+    ],
+    "0.99.0-r1": [
+      "CVE-2024-3154",
+      "GHSA-2cgq-h8xw-2v5j",
+      "GHSA-c5pj-mqfh-rvc3"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
