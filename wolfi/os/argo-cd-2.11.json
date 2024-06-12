@@ -1,0 +1,16 @@
+{
+  "name": "argo-cd-2.11",
+  "secfixes": {
+    "2.11.1-r0": [
+      "CVE-2024-31989",
+      "GHSA-9766-5277-j5hr"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "os"
+}
