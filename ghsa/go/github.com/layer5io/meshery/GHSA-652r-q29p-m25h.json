@@ -54,12 +54,6 @@
         "Identifier": "0.7.17"
       },
       "VulnerableVersionRange": "\u003c 0.7.17"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "0.7.17"
-      },
-      "VulnerableVersionRange": "\u003c 0.7.17"
     }
   ]
 }
