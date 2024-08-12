@@ -1,0 +1,25 @@
+{
+  "name": "argo-cd-fips-2.11",
+  "secfixes": {
+    "2.11.3-r1": [
+      "CVE-2024-6104",
+      "GHSA-v6v8-xj6m-xwqh"
+    ],
+    "2.11.4-r2": [
+      "GHSA-mh55-gqvf-xfwm"
+    ],
+    "2.11.7-r0": [
+      "CVE-2024-40634",
+      "CVE-2024-41666",
+      "GHSA-jmvp-698c-4x3w",
+      "GHSA-v8wx-v5jq-qhhw"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

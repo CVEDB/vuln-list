@@ -1,0 +1,44 @@
+{
+  "name": "python-3.9",
+  "secfixes": {
+    "0": [
+      "CVE-2022-48564",
+      "CVE-2023-36632",
+      "CVE-2024-4030",
+      "GHSA-2w87-6hh6-mqrj",
+      "GHSA-gv66-v8c8-v69c",
+      "GHSA-p8vw-m6qq-w42v"
+    ],
+    "3.9.17-r0": [
+      "CVE-2023-24329",
+      "GHSA-r32r-rqw2-wv5m"
+    ],
+    "3.9.18-r0": [
+      "CVE-2023-40217",
+      "GHSA-4j9r-82g6-9mj3"
+    ],
+    "3.9.18-r4": [
+      "CVE-2023-27043",
+      "GHSA-5mwm-wccq-xqcp"
+    ],
+    "3.9.19-r0": [
+      "CVE-2023-6597",
+      "CVE-2024-0450",
+      "GHSA-797f-63wg-8chv",
+      "GHSA-jm46-725r-hh9v"
+    ],
+    "3.9.19-r2": [
+      "CVE-2024-0397",
+      "CVE-2024-4032",
+      "GHSA-mh6q-v4mp-2cc7",
+      "GHSA-xhf3-pp4q-gxh5"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
