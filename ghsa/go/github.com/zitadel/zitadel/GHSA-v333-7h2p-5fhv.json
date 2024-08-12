@@ -108,6 +108,24 @@
     },
     {
       "FirstPatchedVersion": {
+        "Identifier": "2.58.1"
+      },
+      "VulnerableVersionRange": "= 2.58.0"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.57.1"
+      },
+      "VulnerableVersionRange": "= 2.57.0"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.56.2"
+      },
+      "VulnerableVersionRange": "\u003e= 2.56.0, \u003c 2.56.2"
+    },
+    {
+      "FirstPatchedVersion": {
         "Identifier": "2.55.5"
       },
       "VulnerableVersionRange": "\u003e= 2.55.0, \u003c 2.55.5"

@@ -63,6 +63,12 @@
         "Identifier": "0.7.22"
       },
       "VulnerableVersionRange": "\u003c 0.7.22"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.7.22"
+      },
+      "VulnerableVersionRange": "\u003c 0.7.22"
     }
   ]
 }

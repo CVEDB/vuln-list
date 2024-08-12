@@ -51,6 +51,12 @@
         "Identifier": "8.14.0"
       },
       "VulnerableVersionRange": "\u003c 8.14.0"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "8.14.0"
+      },
+      "VulnerableVersionRange": "\u003c 8.14.0"
     }
   ]
 }

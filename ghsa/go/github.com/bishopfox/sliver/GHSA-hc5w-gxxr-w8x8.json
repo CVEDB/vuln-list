@@ -66,6 +66,12 @@
         "Identifier": "1.6.0"
       },
       "VulnerableVersionRange": "\u003e= 1.5.40, \u003c= 1.6.0-dev"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.6.0"
+      },
+      "VulnerableVersionRange": "\u003e= 1.5.40, \u003c= 1.6.0-dev"
     }
   ]
 }
