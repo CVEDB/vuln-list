@@ -99,30 +99,6 @@
         "Identifier": "25.0.6"
       },
       "VulnerableVersionRange": "\u003e= 24.0.0, \u003c 25.0.6"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "27.1.1"
-      },
-      "VulnerableVersionRange": "\u003e= 27.0.0, \u003c 27.1.1"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "26.1.5"
-      },
-      "VulnerableVersionRange": "\u003e= 26.0.0, \u003c 26.1.5"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "23.0.15"
-      },
-      "VulnerableVersionRange": "\u003e= 19.03.0, \u003c 23.0.15"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "25.0.6"
-      },
-      "VulnerableVersionRange": "\u003e= 24.0.0, \u003c 25.0.6"
     }
   ]
 }
