@@ -1,7 +1,10 @@
 {
   "id": "GHSA-rv9v-r4vm-gj8x",
-  "modified": "2024-08-19T18:25:09Z",
+  "modified": "2024-08-19T18:42:04.270635Z",
   "published": "2024-08-19T03:30:48Z",
+  "aliases": [
+    "CVE-2024-44073"
+  ],
   "summary": "Miniscript allows stack consumption",
   "details": "The Miniscript (aka rust-miniscript) library before 12.2.0 for Rust allows stack consumption because it does not properly track tree depth.",
   "affected": [
