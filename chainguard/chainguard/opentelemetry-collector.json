@@ -1,0 +1,25 @@
+{
+  "name": "opentelemetry-collector",
+  "secfixes": {
+    "0.102.1-r0": [
+      "CVE-2024-36129",
+      "GHSA-c74f-6mfw-mm4v"
+    ],
+    "0.104.0-r1": [
+      "CVE-2024-24791",
+      "GHSA-hw49-2p59-3mhj"
+    ],
+    "0.105.0-r0": [
+      "CVE-2024-6104",
+      "GHSA-v6v8-xj6m-xwqh",
+      "GHSA-xr7q-jx4m-x55m"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

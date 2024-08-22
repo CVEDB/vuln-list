@@ -1,0 +1,20 @@
+{
+  "name": "aws-network-policy-agent",
+  "secfixes": {
+    "1.1.0-r1": [
+      "CVE-2023-45288",
+      "GHSA-4v7x-pqxf-cx7m"
+    ],
+    "1.1.2-r1": [
+      "CVE-2024-24791",
+      "GHSA-hw49-2p59-3mhj"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

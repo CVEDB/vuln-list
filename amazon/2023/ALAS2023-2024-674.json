@@ -1,0 +1,72 @@
+{
+  "id": "ALAS2023-2024-674",
+  "title": "Amazon Linux 2023 - ALAS2023-2024-674: Important priority package update for docker",
+  "issued": {
+    "date": "2024-07-29 22:21:00"
+  },
+  "updated": {
+    "date": "2024-08-01 12:30:00"
+  },
+  "severity": "Important",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2024-41110:\n\tAWS is aware of CVE-2024-41110, an issue affecting the Moby open source project, packaged in Amazon Linux as \"docker\". Docker is a component of several open source container management systems.\n\nThis issue does not affect the default configuration of docker. If an authorization plugin is enabled, a specially-crafted API request to the docker daemon will be forwarded to the authorization plugin in a way that could lead to unintended actions, such as privilege escalation. Enabling an authorization plugin is an atypical configuration. The affected API endpoint is not exposed to the network in either the default, typical, or recommended configurations. The default EKS and ECS configurations do not expose the API endpoint to the network. Enabling a Docker authorization plugin is not supported when using ECS. Finally, docker is not installed on EKS AMIs newer than 1.24. Although Docker is installed in EKS 1.24 and earlier, EKS does not support authorization plugins.\n\nUpdated docker packages addressing the issue are available for Amazon Linux 2 (docker-20.10.25-1.amzn2.0.5 and docker-25.0.6-1.amzn2.0.1) and for Amazon Linux 2023 (docker-25.0.6-1amzn2023.0.1). AWS recommends that customers using docker upgrade to these or later versions.\n",
+  "packages": [
+    {
+      "name": "docker-debuginfo",
+      "epoch": "0",
+      "version": "25.0.6",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/docker-debuginfo-25.0.6-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "docker",
+      "epoch": "0",
+      "version": "25.0.6",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/docker-25.0.6-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "docker-debugsource",
+      "epoch": "0",
+      "version": "25.0.6",
+      "release": "1.amzn2023.0.1",
+      "arch": "x86_64",
+      "filename": "Packages/docker-debugsource-25.0.6-1.amzn2023.0.1.x86_64.rpm"
+    },
+    {
+      "name": "docker-debuginfo",
+      "epoch": "0",
+      "version": "25.0.6",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/docker-debuginfo-25.0.6-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "docker",
+      "epoch": "0",
+      "version": "25.0.6",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/docker-25.0.6-1.amzn2023.0.1.aarch64.rpm"
+    },
+    {
+      "name": "docker-debugsource",
+      "epoch": "0",
+      "version": "25.0.6",
+      "release": "1.amzn2023.0.1",
+      "arch": "aarch64",
+      "filename": "Packages/docker-debugsource-25.0.6-1.amzn2023.0.1.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-41110",
+      "id": "CVE-2024-41110",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2024-41110"
+  ]
+}

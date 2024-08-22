@@ -1,0 +1,17 @@
+{
+  "name": "kibana-7",
+  "secfixes": {
+    "7.17.23-r0": [
+      "CVE-2024-4068",
+      "GHSA-36jr-mh4h-2g58",
+      "GHSA-grv7-fg5c-xmjg"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

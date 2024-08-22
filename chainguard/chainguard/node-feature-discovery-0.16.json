@@ -1,0 +1,22 @@
+{
+  "name": "node-feature-discovery-0.16",
+  "secfixes": {
+    "0.16.0-r2": [
+      "CVE-2024-24789",
+      "CVE-2024-24790",
+      "GHSA-236w-p7wf-5ph8",
+      "GHSA-49gw-vxvf-fc2g"
+    ],
+    "0.16.3-r1": [
+      "CVE-2024-5321",
+      "GHSA-82m2-cv7p-4m75"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
