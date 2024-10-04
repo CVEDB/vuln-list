@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2018-09-06T03:24:32Z",
+  "UpdatedAt": "2024-09-30T20:33:36Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "mayan-edms"
@@ -24,6 +24,12 @@
       },
       {
         "Url": "https://gitlab.com/mayan-edms/mayan-edms/issues/494"
+      },
+      {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/mayan-edms-ng/PYSEC-2018-16.yaml"
+      },
+      {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/mayan-edms/PYSEC-2018-106.yaml"
       }
     ],
     "Identifiers": [
@@ -40,8 +46,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2018-09-06T03:24:50Z",
     "Severity": "MODERATE",
-    "Summary": "Moderate severity vulnerability that affects mayan-edms",
-    "UpdatedAt": "2023-01-09T05:03:16Z",
+    "Summary": "mayan-edms Cross-site Scripting vulnerability",
+    "UpdatedAt": "2024-09-30T20:33:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.1,

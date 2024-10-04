@@ -1,6 +1,6 @@
 {
-  "Severity": "MODERATE",
-  "UpdatedAt": "2023-02-09T19:26:21Z",
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2024-09-24T18:37:59Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "python-ironic-inspector-client"
@@ -35,6 +35,12 @@
         "Url": "https://access.redhat.com/security/cve/CVE-2015-5306"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/ironic-inspector/PYSEC-2015-28.yaml"
+      },
+      {
+        "Url": "https://opendev.org/openstack/ironic-inspector/commit/2c64da2bee6eeea27c08eb7a94894feaa5494910"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-x64g-wjmw-w328"
       }
     ],
@@ -51,13 +57,13 @@
     "Description": "OpenStack Ironic Inspector (aka ironic-inspector or ironic-discoverd), when debug mode is enabled, might allow remote attackers to access the Flask console and execute arbitrary Python code by triggering an error.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2019-07-05T21:10:52Z",
-    "Severity": "MODERATE",
+    "Severity": "CRITICAL",
     "Summary": "Injection vulnerability that affects ironic-discoverd",
-    "UpdatedAt": "2023-02-09T19:26:21Z",
+    "UpdatedAt": "2024-09-24T18:37:59Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 8.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [
