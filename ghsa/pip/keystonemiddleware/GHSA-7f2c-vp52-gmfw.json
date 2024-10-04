@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2023-08-16T23:05:55Z",
   "Package": {
     "Ecosystem": "PIP",
@@ -38,6 +38,15 @@
         "Url": "https://web.archive.org/web/20200228053850/http://www.securityfocus.com/bid/69864"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/keystonemiddleware/PYSEC-2014-26.yaml"
+      },
+      {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/python-keystoneclient/PYSEC-2014-71.yaml"
+      },
+      {
+        "Url": "https://web.archive.org/web/20200228060511/https://www.securityfocus.com/bid/69864"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7f2c-vp52-gmfw"
       }
     ],
@@ -54,13 +63,13 @@
     "Description": "OpenStack keystonemiddleware (formerly python-keystoneclient) 0.x before 0.11.0 and 1.x before 1.2.0 disables certification verification when the \"insecure\" option is set in a paste configuration (`paste.ini`) file regardless of the value, which allows remote attackers to conduct man-in-the-middle attacks via a crafted certificate.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-17T03:45:51Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "OpenStack keystonemiddleware does not verify certificate",
-    "UpdatedAt": "2023-08-16T23:05:55Z",
+    "UpdatedAt": "2024-09-27T18:23:49Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.9,
+      "VectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N"
     }
   },
   "Versions": [

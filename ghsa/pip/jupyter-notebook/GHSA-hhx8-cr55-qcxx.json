@@ -1,6 +1,6 @@
 {
   "Severity": "MODERATE",
-  "UpdatedAt": "2022-06-24T14:47:46Z",
+  "UpdatedAt": "2024-09-26T16:12:16Z",
   "Package": {
     "Ecosystem": "PIP",
     "Name": "jupyter-notebook"
@@ -17,10 +17,13 @@
         "Url": "https://github.com/jupyter/notebook/compare/f3f00df...05aa4b2"
       },
       {
-        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UP5RLEES2JBBNSNLBR65XM6PCD4EMF7D/"
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/notebook/PYSEC-2019-159.yaml"
       },
       {
-        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VMDPJBVXOVO6LYGAT46VZNHH6JKSCURO/"
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UP5RLEES2JBBNSNLBR65XM6PCD4EMF7D"
+      },
+      {
+        "Url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VMDPJBVXOVO6LYGAT46VZNHH6JKSCURO"
       },
       {
         "Url": "https://github.com/advisories/GHSA-hhx8-cr55-qcxx"
@@ -41,7 +44,7 @@
     "PublishedAt": "2022-05-14T01:10:43Z",
     "Severity": "MODERATE",
     "Summary": "Improper Neutralization of Input During Web Page Generation in Jupyter Notebook",
-    "UpdatedAt": "2023-01-27T05:02:12Z",
+    "UpdatedAt": "2024-09-26T16:12:16Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

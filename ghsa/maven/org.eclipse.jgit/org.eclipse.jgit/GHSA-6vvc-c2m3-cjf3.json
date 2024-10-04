@@ -1,6 +1,6 @@
 {
   "Severity": "CRITICAL",
-  "UpdatedAt": "2023-01-26T23:53:53Z",
+  "UpdatedAt": "2024-09-25T19:55:48Z",
   "Package": {
     "Ecosystem": "MAVEN",
     "Name": "org.eclipse.jgit:org.eclipse.jgit"
@@ -18,9 +18,6 @@
       },
       {
         "Url": "https://github.com/blog/1938-git-client-vulnerability-announced"
-      },
-      {
-        "Url": "https://libgit2.org/security/"
       },
       {
         "Url": "https://news.ycombinator.com/item?id=8769667"
@@ -44,6 +41,15 @@
         "Url": "https://web.archive.org/web/20211204220400/https://securitytracker.com/id?1031404"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/mercurial/PYSEC-2020-217.yaml"
+      },
+      {
+        "Url": "https://libgit2.org/security"
+      },
+      {
+        "Url": "http://securitytracker.com/id?1031404"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-6vvc-c2m3-cjf3"
       }
     ],
@@ -62,7 +68,7 @@
     "PublishedAt": "2022-05-17T19:57:29Z",
     "Severity": "CRITICAL",
     "Summary": "JGit Improper Input Validation vulnerability",
-    "UpdatedAt": "2023-02-06T20:25:10Z",
+    "UpdatedAt": "2024-09-25T19:55:48Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

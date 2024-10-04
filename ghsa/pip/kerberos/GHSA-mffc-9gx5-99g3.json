@@ -1,5 +1,5 @@
 {
-  "Severity": "HIGH",
+  "Severity": "CRITICAL",
   "UpdatedAt": "2024-02-23T20:53:09Z",
   "Package": {
     "Ecosystem": "PIP",
@@ -32,6 +32,15 @@
         "Url": "https://web.archive.org/web/20200228090829/http://www.securityfocus.com/bid/74760"
       },
       {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/kerberos/PYSEC-2017-49.yaml"
+      },
+      {
+        "Url": "https://github.com/pypa/advisory-database/tree/main/vulns/pykerberos/PYSEC-2017-66.yaml"
+      },
+      {
+        "Url": "https://pypi.python.org/pypi/kerberos"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mffc-9gx5-99g3"
       }
     ],
@@ -48,9 +57,9 @@
     "Description": "The `checkPassword` function in python-kerberos does not authenticate the KDC it attempts to communicate with, which allows remote attackers to cause a denial of service (bad response), or have other unspecified impact by performing a man-in-the-middle attack.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-05-14T01:46:42Z",
-    "Severity": "HIGH",
+    "Severity": "CRITICAL",
     "Summary": "python-kerberos vulnerable to KDC spoofing attacks",
-    "UpdatedAt": "2024-02-23T20:53:09Z",
+    "UpdatedAt": "2024-09-27T15:47:42Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
