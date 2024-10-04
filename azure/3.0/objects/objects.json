@@ -1,6 +1,21 @@
 {
   "RpminfoObjects": [
     {
+      "ID": "oval:com.microsoft.azurelinux:obj:49664001",
+      "Version": "0",
+      "Name": "cmake"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:49041001",
+      "Version": "0",
+      "Name": "cmake"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:48752001",
+      "Version": "0",
+      "Name": "cloud-hypervisor-cvm"
+    },
+    {
       "ID": "oval:com.microsoft.azurelinux:obj:48368001",
       "Version": "0",
       "Name": "mariadb"
@@ -694,6 +709,16 @@
       "ID": "oval:com.microsoft.azurelinux:obj:47143001",
       "Version": "1",
       "Name": "kernel"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:47028001",
+      "Version": "0",
+      "Name": "cmake"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:47020001",
+      "Version": "0",
+      "Name": "curl"
     },
     {
       "ID": "oval:com.microsoft.azurelinux:obj:47017001",
@@ -1831,6 +1856,16 @@
       "Name": "openssl"
     },
     {
+      "ID": "oval:com.microsoft.azurelinux:obj:42972001",
+      "Version": "0",
+      "Name": "cmake"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:42966001",
+      "Version": "0",
+      "Name": "cmake"
+    },
+    {
       "ID": "oval:com.microsoft.azurelinux:obj:42907001",
       "Version": "1",
       "Name": "kernel"
@@ -2259,6 +2294,11 @@
       "ID": "oval:com.microsoft.azurelinux:obj:41989001",
       "Version": "2",
       "Name": "librsvg2"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:41949001",
+      "Version": "1",
+      "Name": "nodejs"
     },
     {
       "ID": "oval:com.microsoft.azurelinux:obj:41940001",
@@ -3554,6 +3594,16 @@
       "ID": "oval:com.microsoft.azurelinux:obj:37098001",
       "Version": "1",
       "Name": "cups"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:37088001",
+      "Version": "0",
+      "Name": "cmake"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:37087001",
+      "Version": "0",
+      "Name": "cmake"
     },
     {
       "ID": "oval:com.microsoft.azurelinux:obj:37086001",
@@ -5614,6 +5664,11 @@
       "ID": "oval:com.microsoft.azurelinux:obj:34733001",
       "Version": "1",
       "Name": "glibc"
+    },
+    {
+      "ID": "oval:com.microsoft.azurelinux:obj:34726001",
+      "Version": "0",
+      "Name": "gdk-pixbuf2"
     },
     {
       "ID": "oval:com.microsoft.azurelinux:obj:34695001",
