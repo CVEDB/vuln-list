@@ -1,9 +1,9 @@
 {
-  "name": "hylafaxplus",
+  "name": "tpm2-tools",
   "secfixes": {
-    "7.0.2-r2": [
-      "CVE-2020-15396",
-      "CVE-2020-15397"
+    "5.7-r0": [
+      "CVE-2024-29038",
+      "CVE-2024-29039"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
@@ -11,6 +11,7 @@
     "aarch64",
     "armhf",
     "armv7",
+    "loongarch64",
     "ppc64le",
     "riscv64",
     "s390x",
@@ -18,6 +19,6 @@
     "x86_64"
   ],
   "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
-  "reponame": "main",
+  "reponame": "community",
   "distroversion": "edge"
 }
