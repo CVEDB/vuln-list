@@ -1,13 +1,13 @@
 {
-  "name": "py3-jupyterhub",
+  "name": "loki-3.1",
   "secfixes": {
-    "5.1.0-r0": [
-      "CVE-2024-41942",
-      "GHSA-9x4q-3gxw-849f"
-    ],
-    "5.2.0-r0": [
-      "CVE-2024-38999",
-      "GHSA-x3m3-4wpv-5vgc"
+    "3.1.1-r0": [
+      "CVE-2024-29018",
+      "CVE-2024-35255",
+      "CVE-2024-41110",
+      "GHSA-m5vv-6r4h-3vj9",
+      "GHSA-mq39-4gv4-mvpx",
+      "GHSA-v23v-6jw2-98fq"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

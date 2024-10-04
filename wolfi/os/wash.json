@@ -3,6 +3,10 @@
   "secfixes": {
     "0.30.0-r0": [
       "GHSA-x4gp-pqpj-f43q"
+    ],
+    "0.32.1-r1": [
+      "CVE-2024-45311",
+      "GHSA-vr26-jcq5-fjj8"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
