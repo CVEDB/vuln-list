@@ -60,12 +60,6 @@
         "Identifier": "2.2.15"
       },
       "VulnerableVersionRange": "\u003c= 2.2.14"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.2.15"
-      },
-      "VulnerableVersionRange": "\u003c= 2.2.14"
     }
   ]
 }
