@@ -44,6 +44,12 @@
         "Identifier": ""
       },
       "VulnerableVersionRange": "= 11.5.24"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "= 11.5.24"
     }
   ]
 }

@@ -48,6 +48,12 @@
         "Identifier": ""
       },
       "VulnerableVersionRange": "= 3.3.0"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "= 3.3.0"
     }
   ]
 }
