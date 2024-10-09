@@ -72,6 +72,18 @@
         "Identifier": "4.5.11"
       },
       "VulnerableVersionRange": "\u003e= 4.0.0-RC1, \u003c= 4.5.10"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.9.6"
+      },
+      "VulnerableVersionRange": "\u003e= 3.0.0, \u003c= 3.9.5"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.5.11"
+      },
+      "VulnerableVersionRange": "\u003e= 4.0.0-RC1, \u003c= 4.5.10"
     }
   ]
 }

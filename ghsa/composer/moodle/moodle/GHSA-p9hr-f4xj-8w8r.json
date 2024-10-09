@@ -93,6 +93,30 @@
         "Identifier": "2.2.2"
       },
       "VulnerableVersionRange": "\u003e= 2.2, \u003c= 2.2.1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.9.17"
+      },
+      "VulnerableVersionRange": "\u003c 1.9.17"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.0.8"
+      },
+      "VulnerableVersionRange": "\u003e= 2.0, \u003c= 2.0.7"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.1.5"
+      },
+      "VulnerableVersionRange": "\u003e= 2.1, \u003c= 2.1.4"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.2.2"
+      },
+      "VulnerableVersionRange": "\u003e= 2.2, \u003c= 2.2.1"
     }
   ]
 }
