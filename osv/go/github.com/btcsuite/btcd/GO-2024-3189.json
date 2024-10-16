@@ -1,7 +1,11 @@
 {
   "id": "GO-2024-3189",
-  "modified": "2024-10-15T18:38:57Z",
+  "modified": "2024-10-15T19:12:16.022529Z",
   "published": "2024-10-15T18:38:57Z",
+  "aliases": [
+    "CVE-2024-38365",
+    "GHSA-27vh-h6mc-q6g8"
+  ],
   "summary": "Consensus failure in github.com/btcsuite/btcd",
   "details": "The btcd Bitcoin client (versions 0.10 to 0.24) did not correctly re-implement Bitcoin Core's 'FindAndDelete()' functionality, causing discrepancies in the validation of Bitcoin blocks. This can lead to a chain split (accepting an invalid block) or Denial of Service (DoS) attacks (rejecting a valid block). An attacker can trigger this vulnerability by constructing a 'standard' Bitcoin transaction that exhibits different behaviors in 'FindAndDelete()' and 'removeOpcodeByData()'.",
   "affected": [
