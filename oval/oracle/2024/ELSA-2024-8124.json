@@ -1,6 +1,6 @@
 {
-  "Title": "ELSA-2024-8127:  java-21-openjdk security update (MODERATE)",
-  "Description": "[1:21.0.5.0.10-3.0.1]\n- Add Oracle vendor bug URL [Orabug: 34340155]\n\n[1:21.0.5.0.10-3]\n- Sync the copy of the portable specfile with the latest update\n- ** This tarball is embargoed until 2024-10-15 @ 1pm PT. **\n- Related: RHEL-61346\n\n[1:21.0.5.0.10-2]\n- Update to jdk-21.0.5+10 (GA)\n- Update release notes to 21.0.5+10\n- Bump giflib version to 5.2.2 following JDK-8328999\n- Bump libpng version to 1.6.43 following JDK-8329004\n- Vary portablesuffix depending on whether we are on RHEL ('el8') or CentOS ('el9')\n- Handle debugedit being a separate package installed in /usr on RHEL/CentOS 10\n- Add build scripts to repository to ease remembering all CentOS \u0026 RHEL targets and options\n- Sync with RHEL 7 portable build:\n  - Use ExclusiveArch over ExcludeArch\n  - pkgos definition needs to be early enough to be used in portablesuffix\n- Make build scripts executable\n- Sync the copy of the portable specfile with the latest update\n- Revert JDK-8327501 \u0026 JDK-8328366 backport until more mature.\n- Resolves: RHEL-58798\n- Resolves: RHEL-17186\n- Resolves: RHEL-61346\n- ** This tarball is embargoed until 2024-10-15 @ 1pm PT. **",
+  "Title": "ELSA-2024-8124:  java-17-openjdk security update (MODERATE)",
+  "Description": "[17.0.13.0.11-3.0.1]\n- Add Oracle vendor bug URL [Orabug: 34340155]\n\n[1:17.0.13.0.11-3]\n- Correct version suffix in 'Update to jdk-17.0.13+11 (GA)' changelog entry\n- Related: RHEL-58781\n\n[1:17.0.13.0.11-2]\n- Update to jdk-17.0.13+11 (GA)\n- Update .gitignore to ignore openjdk-17.0.13+11.tar.xz\n- Sync java-17-openjdk-portable.specfile from openjdk-portable-rhel-8\n- Set buildver to 11\n- Set is_ga to 1\n- Update sources to openjdk-17.0.13+11.tar.xz\n- Resolves: RHEL-58781\n- ** This tarball is embargoed until 2024-10-15 @ 1pm PT. **\n\n[1:17.0.13.0.10-0.2.ea]\n- Vary portablesuffix depending on whether we are on RHEL ('el8') or CentOS ('el9')\n- Set rpmrelease to 2\n- Related: RHEL-58781\n\n[1:17.0.13.0.10-0.1.ea]\n- Update to jdk-17.0.13+10 (EA)\n- Update .gitignore to ignore openjdk-17.0.13+10-ea.tar.xz\n- Sync java-17-openjdk-portable.specfile from openjdk-portable-centos-9\n- Set buildver to 10\n- Update sources to openjdk-17.0.13+10-ea.tar.xz\n- Related: RHEL-58781\n\n[1:17.0.13.0.9-0.1.ea]\n- Update to jdk-17.0.13+9 (EA)\n- Update .gitignore to ignore openjdk-17.0.13+9-ea.tar.xz\n- Sync java-17-openjdk-portable.specfile from openjdk-portable-centos-9\n- Set buildver to 9\n- Set rpmrelease to 1\n- Set portablerelease to 1\n- Update sources to openjdk-17.0.13+9-ea.tar.xz\n- Related: RHEL-58781\n\n[1:17.0.13.0.1-0.4.ea]\n- Set rpmrelease to 4\n- Set portablerelease to 2\n- Related: RHEL-58781\n\n[1:17.0.13.0.1-0.3.ea]\n- Synchronize java-17-openjdk-portable.specfile\n- Set rpmrelease to 3\n- Related: RHEL-58781\n\n[1:17.0.13.0.1-0.2.ea]\n- Update to jdk-17.0.13+1 (EA)\n- Update .gitignore to ignore openjdk-17.0.13+1-ea.tar.xz\n- Synchronize java-17-openjdk-portable.specfile\n- Set updatever to 13\n- Set buildver to 1\n- Set is_ga to 0\n- Update sources to openjdk-17.0.13+1-ea.tar.xz\n- Related: RHEL-58781\n- Remove 0001-8332174-Remove-2-unpaired-RLO-Unicode-characters-in-.patch\n- Remove unicode section from rpminspect.yml, fixed instead by\n  https://gitlab.cee.redhat.com/osci/rpminspect-data-redhat/-/merge_requests/180\n  (OPENJDK-2904)\n- Related: RHEL-58781\n\n[1:17.0.12.0.7-3]\n- Sync java-17-openjdk-portable.specfile from openjdk-portable-rhel-8\n- Set rpmrelease to 3\n- Set portablerelease to 4",
   "Platform": [
     "Oracle Linux 8",
     "Oracle Linux 9"
@@ -8,13 +8,8 @@
   "References": [
     {
       "Source": "elsa",
-      "URI": "https://linux.oracle.com/errata/ELSA-2024-8127.html",
-      "ID": "ELSA-2024-8127"
-    },
-    {
-      "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2024-21210.html",
-      "ID": "CVE-2024-21210"
+      "URI": "https://linux.oracle.com/errata/ELSA-2024-8124.html",
+      "ID": "ELSA-2024-8124"
     },
     {
       "Source": "CVE",
@@ -23,18 +18,23 @@
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2023-48161.html",
-      "ID": "CVE-2023-48161"
-    },
-    {
-      "Source": "CVE",
       "URI": "https://linux.oracle.com/cve/CVE-2024-21235.html",
       "ID": "CVE-2024-21235"
     },
     {
       "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2024-21210.html",
+      "ID": "CVE-2024-21210"
+    },
+    {
+      "Source": "CVE",
       "URI": "https://linux.oracle.com/cve/CVE-2024-21217.html",
       "ID": "CVE-2024-21217"
+    },
+    {
+      "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2023-48161.html",
+      "ID": "CVE-2023-48161"
     }
   ],
   "Criteria": {
@@ -57,10 +57,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-demo-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-demo-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -69,10 +69,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-demo-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-demo-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -81,10 +81,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-devel-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-devel-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -93,10 +93,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-devel-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-devel-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -105,10 +105,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -117,10 +117,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-headless-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-headless-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -129,10 +129,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-headless-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-headless-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -141,10 +141,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -153,10 +153,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -165,10 +165,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -177,10 +177,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-src-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-src-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -189,10 +189,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-src-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-src-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -201,10 +201,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -213,10 +213,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -225,10 +225,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -237,10 +237,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-demo is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-demo is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -249,10 +249,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-devel is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-devel is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -261,10 +261,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-headless is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-headless is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -273,10 +273,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-javadoc is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-javadoc is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -285,10 +285,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-javadoc-zip is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-javadoc-zip is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -297,10 +297,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-jmods is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-jmods is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -309,10 +309,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-src is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-src is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-src is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -321,10 +321,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-static-libs is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-static-libs is signed with the Oracle Linux 8 key"
                           }
                         ]
                       }
@@ -349,10 +349,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-demo-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-demo-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -361,10 +361,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-demo-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-demo-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -373,10 +373,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-devel-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-devel-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -385,10 +385,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-devel-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-devel-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -397,10 +397,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -409,10 +409,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-headless-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-headless-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -421,10 +421,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-headless-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-headless-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -433,10 +433,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -445,10 +445,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -457,10 +457,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -469,10 +469,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-src-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-src-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -481,10 +481,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-src-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-src-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -493,10 +493,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -505,10 +505,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -517,10 +517,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -529,10 +529,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-demo is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-demo is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -541,10 +541,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-devel is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-devel is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -553,10 +553,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-headless is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-headless is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -565,10 +565,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-javadoc is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-javadoc is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -577,10 +577,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-javadoc-zip is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-javadoc-zip is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -589,10 +589,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-jmods is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-jmods is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -601,10 +601,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-src is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-src is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-src is signed with the Oracle Linux 8 key"
                           }
                         ]
                       },
@@ -613,10 +613,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs is earlier than 1:21.0.5.0.10-3.0.1.el8"
+                            "Comment": "java-17-openjdk-static-libs is earlier than 1:17.0.13.0.11-3.0.1.el8"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs is signed with the Oracle Linux 8 key"
+                            "Comment": "java-17-openjdk-static-libs is signed with the Oracle Linux 8 key"
                           }
                         ]
                       }
@@ -657,10 +657,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-demo-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-demo-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -669,10 +669,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-demo-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-demo-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -681,10 +681,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-devel-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-devel-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -693,10 +693,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-devel-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-devel-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -705,10 +705,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -717,10 +717,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-headless-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-headless-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -729,10 +729,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-headless-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-headless-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -741,10 +741,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -753,10 +753,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -765,10 +765,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -777,10 +777,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-src-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-src-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -789,10 +789,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-src-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-src-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -801,10 +801,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -813,10 +813,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -825,10 +825,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -837,10 +837,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-demo is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-demo is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -849,10 +849,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-devel is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-devel is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -861,10 +861,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-headless is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-headless is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -873,10 +873,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-javadoc is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-javadoc is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -885,10 +885,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-javadoc-zip is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-javadoc-zip is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -897,10 +897,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-jmods is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-jmods is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -909,10 +909,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-src is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-src is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-src is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -921,10 +921,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-static-libs is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-static-libs is signed with the Oracle Linux 9 key"
                           }
                         ]
                       }
@@ -949,10 +949,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -961,10 +961,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-demo is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-demo is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -973,10 +973,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-devel is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-devel is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -985,10 +985,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-headless is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-headless is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -997,10 +997,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-javadoc is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-javadoc is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1009,10 +1009,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-javadoc-zip is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-javadoc-zip is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-javadoc-zip is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1021,10 +1021,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-jmods is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-jmods is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1033,10 +1033,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-src is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-src is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-src is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1045,10 +1045,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-static-libs is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-static-libs is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1057,10 +1057,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-demo-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-demo-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1069,10 +1069,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-demo-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-demo-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-demo-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1081,10 +1081,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-devel-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-devel-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1093,10 +1093,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-devel-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-devel-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-devel-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1105,10 +1105,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1117,10 +1117,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-headless-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-headless-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1129,10 +1129,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-headless-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-headless-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-headless-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1141,10 +1141,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-jmods-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1153,10 +1153,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-jmods-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-jmods-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1165,10 +1165,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1177,10 +1177,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-src-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-src-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1189,10 +1189,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-src-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-src-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-src-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1201,10 +1201,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-fastdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-static-libs-fastdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       },
@@ -1213,10 +1213,10 @@
                         "Criterias": null,
                         "Criterions": [
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is earlier than 1:21.0.5.0.10-3.0.1.el9"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is earlier than 1:17.0.13.0.11-3.0.1.el9"
                           },
                           {
-                            "Comment": "java-21-openjdk-static-libs-slowdebug is signed with the Oracle Linux 9 key"
+                            "Comment": "java-17-openjdk-static-libs-slowdebug is signed with the Oracle Linux 9 key"
                           }
                         ]
                       }
@@ -1247,18 +1247,8 @@
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2024-21210.html",
-      "ID": "CVE-2024-21210"
-    },
-    {
-      "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2024-21208.html",
       "ID": "CVE-2024-21208"
-    },
-    {
-      "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2023-48161.html",
-      "ID": "CVE-2023-48161"
     },
     {
       "Impact": "",
@@ -1267,8 +1257,18 @@
     },
     {
       "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2024-21210.html",
+      "ID": "CVE-2024-21210"
+    },
+    {
+      "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2024-21217.html",
       "ID": "CVE-2024-21217"
+    },
+    {
+      "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2023-48161.html",
+      "ID": "CVE-2023-48161"
     }
   ],
   "Issued": {
