@@ -60,12 +60,6 @@
         "Identifier": "2.1.40"
       },
       "VulnerableVersionRange": "\u003c= 2.1.39"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.1.40"
-      },
-      "VulnerableVersionRange": "\u003c= 2.1.39"
     }
   ]
 }
