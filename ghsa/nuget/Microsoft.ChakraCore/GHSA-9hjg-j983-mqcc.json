@@ -54,6 +54,12 @@
         "Identifier": "1.11.19"
       },
       "VulnerableVersionRange": "\u003c 1.11.19"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.11.19"
+      },
+      "VulnerableVersionRange": "\u003c 1.11.19"
     }
   ]
 }
