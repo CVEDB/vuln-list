@@ -38,7 +38,7 @@
     "PublishedAt": "2024-11-07T15:31:52Z",
     "Severity": "HIGH",
     "Summary": "Moodle has CSRF risk in Feedback non-respondents report",
-    "UpdatedAt": "2024-11-07T18:27:28Z",
+    "UpdatedAt": "2024-11-07T19:27:36Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8.1,
