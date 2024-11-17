@@ -54,6 +54,12 @@
         "Identifier": "2.3.2-p1"
       },
       "VulnerableVersionRange": "\u003e= 2.3, \u003c 2.3.2-p1"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.3.2-p1"
+      },
+      "VulnerableVersionRange": "\u003e= 2.3, \u003c 2.3.2-p1"
     }
   ]
 }
