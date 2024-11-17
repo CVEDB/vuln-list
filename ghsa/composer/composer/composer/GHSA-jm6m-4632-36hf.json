@@ -81,24 +81,6 @@
         "Identifier": "1.10.27"
       },
       "VulnerableVersionRange": "\u003c 1.10.27"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.6.4"
-      },
-      "VulnerableVersionRange": "\u003e= 2.3.0, \u003c 2.6.4"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "2.2.22"
-      },
-      "VulnerableVersionRange": "\u003e= 2.0.0, \u003c 2.2.22"
-    },
-    {
-      "FirstPatchedVersion": {
-        "Identifier": "1.10.27"
-      },
-      "VulnerableVersionRange": "\u003c 1.10.27"
     }
   ]
 }
