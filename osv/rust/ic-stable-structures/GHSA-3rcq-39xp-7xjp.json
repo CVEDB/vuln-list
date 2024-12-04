@@ -1,6 +1,6 @@
 {
   "id": "GHSA-3rcq-39xp-7xjp",
-  "modified": "2024-12-04T12:58:50.176116Z",
+  "modified": "2024-12-04T16:23:07Z",
   "published": "2024-05-21T14:49:48Z",
   "aliases": [
     "CVE-2024-4435",
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "https://internetcomputer.org/docs/current/developer-docs/smart-contracts/maintain/storage#stable-memory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0406.html"
     }
   ]
 }
