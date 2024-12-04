@@ -1,13 +1,11 @@
 {
-  "name": "traefik-3.2",
+  "name": "dotnet-9",
   "secfixes": {
-    "3.2.0-r1": [
-      "CVE-2024-51744",
-      "GHSA-29wx-vh33-7x7r"
-    ],
-    "3.2.1-r1": [
-      "CVE-2024-53259",
-      "GHSA-px8v-pp82-rcvr"
+    "9.0.101-r0": [
+      "CVE-2024-43498",
+      "CVE-2024-43499",
+      "GHSA-6x36-qxmj-rv4p",
+      "GHSA-v7vf-f5q6-m899"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
