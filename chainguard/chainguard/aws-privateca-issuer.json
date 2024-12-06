@@ -1,0 +1,15 @@
+{
+  "name": "aws-privateca-issuer",
+  "secfixes": {
+    "1.4.0-r1": [
+      "GHSA-r4pg-vg54-wxx4"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
