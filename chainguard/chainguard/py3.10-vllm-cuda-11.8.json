@@ -1,0 +1,28 @@
+{
+  "name": "py3.10-vllm-cuda-11.8",
+  "secfixes": {
+    "0.6.4-r0": [
+      "CVE-2024-37891",
+      "CVE-2024-47554",
+      "CVE-2024-47874",
+      "GHSA-34jh-p97f-mpxf",
+      "GHSA-78wr-2p64-hpwj",
+      "GHSA-f96h-pmfr-66vw"
+    ],
+    "0.6.5-r0": [
+      "CVE-2024-52303",
+      "GHSA-27mf-ghqm-j3j8"
+    ],
+    "0.6.5-r1": [
+      "CVE-2024-52304",
+      "GHSA-8495-4g3g-x7pr"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
