@@ -4913,10 +4913,7 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2013-2899",
@@ -4964,10 +4961,7 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "4.7",
-        "Vector": "AV:L/AC:M/Au:N/C:N/I:N/A:C"
-      }
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2013-2929",
@@ -6271,7 +6265,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8223,7 +8217,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -8710,7 +8704,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -9833,7 +9827,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9877,10 +9871,7 @@
           ]
         }
       ],
-      "CVSSScoreSets": {
-        "BaseScore": "5",
-        "Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N"
-      }
+      "CVSSScoreSets": {}
     },
     {
       "CVE": "CVE-2014-8369",
@@ -10293,7 +10284,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -10674,7 +10665,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [

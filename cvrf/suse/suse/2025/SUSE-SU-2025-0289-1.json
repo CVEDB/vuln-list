@@ -3321,7 +3321,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3393,7 +3393,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3429,7 +3429,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3465,7 +3465,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3501,7 +3501,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3573,7 +3573,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3609,7 +3609,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3681,7 +3681,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3717,7 +3717,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3789,7 +3789,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3825,7 +3825,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3897,7 +3897,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3933,7 +3933,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -3969,7 +3969,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4041,7 +4041,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4113,7 +4113,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4342,6 +4342,10 @@
           "Description": "CVE-2024-49884"
         },
         {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1232198",
           "Description": "SUSE Bug 1232198"
         }
@@ -4369,7 +4373,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4405,7 +4409,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4477,7 +4481,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4549,7 +4553,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4585,7 +4589,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -4621,7 +4625,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4773,7 +4777,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4809,7 +4813,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4885,7 +4889,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4921,7 +4925,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -4993,7 +4997,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5029,7 +5033,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -5065,7 +5069,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5101,7 +5105,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5137,7 +5141,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5173,7 +5177,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5209,7 +5213,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5289,7 +5293,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5325,7 +5329,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5361,7 +5365,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5433,7 +5437,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5469,7 +5473,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5505,7 +5509,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5541,7 +5545,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5577,7 +5581,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5613,7 +5617,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5649,7 +5653,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5721,7 +5725,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5757,7 +5761,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5793,7 +5797,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5829,7 +5833,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5865,7 +5869,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5901,7 +5905,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5937,7 +5941,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5973,7 +5977,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6009,7 +6013,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6045,7 +6049,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6081,7 +6085,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6117,7 +6121,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6153,7 +6157,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6189,7 +6193,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6225,7 +6229,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6261,7 +6265,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6297,7 +6301,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6333,7 +6337,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6369,7 +6373,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6405,7 +6409,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6441,7 +6445,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6477,7 +6481,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6513,7 +6517,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6549,7 +6553,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6585,7 +6589,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6737,7 +6741,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6773,7 +6777,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6809,7 +6813,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6845,7 +6849,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6921,7 +6925,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6957,7 +6961,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -6993,7 +6997,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -7029,7 +7033,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7065,7 +7069,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7101,7 +7105,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7249,7 +7253,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7361,7 +7365,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7406,6 +7410,10 @@
           "Description": "CVE-2024-53173"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1234891",
           "Description": "SUSE Bug 1234891"
         },
@@ -7437,7 +7445,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7549,7 +7557,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7621,7 +7629,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7657,7 +7665,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -7873,7 +7881,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7909,7 +7917,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7945,7 +7953,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -7981,7 +7989,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8017,7 +8025,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8053,7 +8061,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8129,7 +8137,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8165,7 +8173,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8201,7 +8209,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8277,7 +8285,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8313,7 +8321,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8349,7 +8357,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8385,7 +8393,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8421,7 +8429,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8493,7 +8501,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8673,7 +8681,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8794,6 +8802,10 @@
           "Description": "CVE-2024-53239"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1235054",
           "Description": "SUSE Bug 1235054"
         },
@@ -8825,7 +8837,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -8861,7 +8873,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9189,7 +9201,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -9297,7 +9309,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9376,6 +9388,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-56539.html",
           "Description": "CVE-2024-56539"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
         },
         {
           "URL": "https://bugzilla.suse.com/1234963",
@@ -9490,6 +9506,10 @@
           "Description": "CVE-2024-56548"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1235073",
           "Description": "SUSE Bug 1235073"
         },
@@ -9521,7 +9541,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9557,7 +9577,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9669,7 +9689,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9705,7 +9725,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9745,7 +9765,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9817,7 +9837,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9853,7 +9873,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -9885,11 +9905,11 @@
     },
     {
       "CVE": "CVE-2024-56571",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: uvcvideo: Require entities to have a non-zero unique ID\n\nPer UVC 1.1+ specification 3.7.2, units and terminals must have a non-zero\nunique ID.\n\n```\nEach Unit and Terminal within the video function is assigned a unique\nidentification number, the Unit ID (UID) or Terminal ID (TID), contained in\nthe bUnitID or bTerminalID field of the descriptor. The value 0x00 is\nreserved for undefined ID,\n```\n\nSo, deny allocating an entity with ID 0 or an ID that belongs to a unit\nthat is already added to the list of entities.\n\nThis also prevents some syzkaller reproducers from triggering warnings due\nto a chain of entities referring to themselves. In one particular case, an\nOutput Unit is connected to an Input Unit, both with the same ID of 1. But\nwhen looking up for the source ID of the Output Unit, that same entity is\nfound instead of the input entity, which leads to such warnings.\n\nIn another case, a backward chain was considered finished as the source ID\nwas 0. Later on, that entity was found, but its pads were not valid.\n\nHere is a sample stack trace for one of those cases.\n\n[   20.650953] usb 1-1: new high-speed USB device number 2 using dummy_hcd\n[   20.830206] usb 1-1: Using ep0 maxpacket: 8\n[   20.833501] usb 1-1: config 0 descriptor??\n[   21.038518] usb 1-1: string descriptor 0 read error: -71\n[   21.038893] usb 1-1: Found UVC 0.00 device \u003cunnamed\u003e (2833:0201)\n[   21.039299] uvcvideo 1-1:0.0: Entity type for entity Output 1 was not initialized!\n[   21.041583] uvcvideo 1-1:0.0: Entity type for entity Input 1 was not initialized!\n[   21.042218] ------------[ cut here ]------------\n[   21.042536] WARNING: CPU: 0 PID: 9 at drivers/media/mc/mc-entity.c:1147 media_create_pad_link+0x2c4/0x2e0\n[   21.043195] Modules linked in:\n[   21.043535] CPU: 0 UID: 0 PID: 9 Comm: kworker/0:1 Not tainted 6.11.0-rc7-00030-g3480e43aeccf #444\n[   21.044101] Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.15.0-1 04/01/2014\n[   21.044639] Workqueue: usb_hub_wq hub_event\n[   21.045100] RIP: 0010:media_create_pad_link+0x2c4/0x2e0\n[   21.045508] Code: fe e8 20 01 00 00 b8 f4 ff ff ff 48 83 c4 30 5b 41 5c 41 5d 41 5e 41 5f 5d c3 cc cc cc cc 0f 0b eb e9 0f 0b eb 0a 0f 0b eb 06 \u003c0f\u003e 0b eb 02 0f 0b b8 ea ff ff ff eb d4 66 2e 0f 1f 84 00 00 00 00\n[   21.046801] RSP: 0018:ffffc9000004b318 EFLAGS: 00010246\n[   21.047227] RAX: ffff888004e5d458 RBX: 0000000000000000 RCX: ffffffff818fccf1\n[   21.047719] RDX: 000000000000007b RSI: 0000000000000000 RDI: ffff888004313290\n[   21.048241] RBP: ffff888004313290 R08: 0001ffffffffffff R09: 0000000000000000\n[   21.048701] R10: 0000000000000013 R11: 0001888004313290 R12: 0000000000000003\n[   21.049138] R13: ffff888004313080 R14: ffff888004313080 R15: 0000000000000000\n[   21.049648] FS:  0000000000000000(0000) GS:ffff88803ec00000(0000) knlGS:0000000000000000\n[   21.050271] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\n[   21.050688] CR2: 0000592cc27635b0 CR3: 000000000431c000 CR4: 0000000000750ef0\n[   21.051136] PKRU: 55555554\n[   21.051331] Call Trace:\n[   21.051480]  \u003cTASK\u003e\n[   21.051611]  ? __warn+0xc4/0x210\n[   21.051861]  ? media_create_pad_link+0x2c4/0x2e0\n[   21.052252]  ? report_bug+0x11b/0x1a0\n[   21.052540]  ? trace_hardirqs_on+0x31/0x40\n[   21.052901]  ? handle_bug+0x3d/0x70\n[   21.053197]  ? exc_invalid_op+0x1a/0x50\n[   21.053511]  ? asm_exc_invalid_op+0x1a/0x20\n[   21.053924]  ? media_create_pad_link+0x91/0x2e0\n[   21.054364]  ? media_create_pad_link+0x2c4/0x2e0\n[   21.054834]  ? media_create_pad_link+0x91/0x2e0\n[   21.055131]  ? _raw_spin_unlock+0x1e/0x40\n[   21.055441]  ? __v4l2_device_register_subdev+0x202/0x210\n[   21.055837]  uvc_mc_register_entities+0x358/0x400\n[   21.056144]  uvc_register_chains+0x1fd/0x290\n[   21.056413]  uvc_probe+0x380e/0x3dc0\n[   21.056676]  ? __lock_acquire+0x5aa/0x26e0\n[   21.056946]  ? find_held_lock+0x33/0xa0\n[   21.057196]  ? kernfs_activate+0x70/0x80\n[   21.057533]  ? usb_match_dy\n---truncated---",
+      "Description": "** REJECT ** This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -10033,7 +10053,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -10065,11 +10085,11 @@
     },
     {
       "CVE": "CVE-2024-56576",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: i2c: tc358743: Fix crash in the probe error path when using polling\n\nIf an error occurs in the probe() function, we should remove the polling\ntimer that was alarmed earlier, otherwise the timer is called with\narguments that are already freed, which results in a crash.\n\n------------[ cut here ]------------\nWARNING: CPU: 3 PID: 0 at kernel/time/timer.c:1830 __run_timers+0x244/0x268\nModules linked in:\nCPU: 3 UID: 0 PID: 0 Comm: swapper/3 Not tainted 6.11.0 #226\nHardware name: Diasom DS-RK3568-SOM-EVB (DT)\npstate: 804000c9 (Nzcv daIF +PAN -UAO -TCO -DIT -SSBS BTYPE=--)\npc : __run_timers+0x244/0x268\nlr : __run_timers+0x1d4/0x268\nsp : ffffff80eff2baf0\nx29: ffffff80eff2bb50 x28: 7fffffffffffffff x27: ffffff80eff2bb00\nx26: ffffffc080f669c0 x25: ffffff80efef6bf0 x24: ffffff80eff2bb00\nx23: 0000000000000000 x22: dead000000000122 x21: 0000000000000000\nx20: ffffff80efef6b80 x19: ffffff80041c8bf8 x18: ffffffffffffffff\nx17: ffffffc06f146000 x16: ffffff80eff27dc0 x15: 000000000000003e\nx14: 0000000000000000 x13: 00000000000054da x12: 0000000000000000\nx11: 00000000000639c0 x10: 000000000000000c x9 : 0000000000000009\nx8 : ffffff80eff2cb40 x7 : ffffff80eff2cb40 x6 : ffffff8002bee480\nx5 : ffffffc080cb2220 x4 : ffffffc080cb2150 x3 : 00000000000f4240\nx2 : 0000000000000102 x1 : ffffff80eff2bb00 x0 : ffffff80041c8bf0\nCall trace:\n __run_timers+0x244/0x268\n timer_expire_remote+0x50/0x68\n tmigr_handle_remote+0x388/0x39c\n run_timer_softirq+0x38/0x44\n handle_softirqs+0x138/0x298\n __do_softirq+0x14/0x20\n ____do_softirq+0x10/0x1c\n call_on_irq_stack+0x24/0x4c\n do_softirq_own_stack+0x1c/0x2c\n irq_exit_rcu+0x9c/0xcc\n el1_interrupt+0x48/0xc0\n el1h_64_irq_handler+0x18/0x24\n el1h_64_irq+0x7c/0x80\n default_idle_call+0x34/0x68\n do_idle+0x23c/0x294\n cpu_startup_entry+0x38/0x3c\n secondary_start_kernel+0x128/0x160\n __secondary_switched+0xb8/0xbc\n---[ end trace 0000000000000000 ]---",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: i2c: tc358743: Fix crash in the probe error path when using polling\n\nIf an error occurs in the probe() function, we should remove the polling\ntimer that was alarmed earlier, otherwise the timer is called with\narguments that are already freed, which results in a crash.\n\n------------[ cut here ]------------\nWARNING: CPU: 3 PID: 0 at kernel/time/timer.c:1830 __run_timers+0x244/0x268\nModules linked in:\nCPU: 3 UID: 0 PID: 0 Comm: swapper/3 Not tainted 6.11.0 #226\nHardware name: Diasom DS-RK3568-SOM-EVB (DT)\npstate: 804000c9 (Nzcv daIF +PAN -UAO -TCO -DIT -SSBS BTYPE=--)\npc : __run_timers+0x244/0x268\nlr : __run_timers+0x1d4/0x268\nsp : ffffff80eff2baf0\nx29: ffffff80eff2bb50 x28: 7fffffffffffffff x27: ffffff80eff2bb00\nx26: ffffffc080f669c0 x25: ffffff80efef6bf0 x24: ffffff80eff2bb00\nx23: 0000000000000000 x22: dead000000000122 x21: 0000000000000000\nx20: ffffff80efef6b80 x19: ffffff80041c8bf8 x18: ffffffffffffffff\nx17: ffffffc06f146000 x16: ffffff80eff27dc0 x15: 000000000000003e\nx14: 0000000000000000 x13: 00000000000054da x12: 0000000000000000\nx11: 00000000000639c0 x10: 000000000000000c x9 : 0000000000000009\nx8 : ffffff80eff2cb40 x7 : ffffff80eff2cb40 x6 : ffffff8002bee480\nx5 : ffffffc080cb2220 x4 : ffffffc080cb2150 x3 : 00000000000f4240\nx2 : 0000000000000102 x1 : ffffff80eff2bb00 x0 : ffffff80041c8bf0\nCall trace:\n  __run_timers+0x244/0x268\n  timer_expire_remote+0x50/0x68\n  tmigr_handle_remote+0x388/0x39c\n  run_timer_softirq+0x38/0x44\n  handle_softirqs+0x138/0x298\n  __do_softirq+0x14/0x20\n  ____do_softirq+0x10/0x1c\n  call_on_irq_stack+0x24/0x4c\n  do_softirq_own_stack+0x1c/0x2c\n  irq_exit_rcu+0x9c/0xcc\n  el1_interrupt+0x48/0xc0\n  el1h_64_irq_handler+0x18/0x24\n  el1h_64_irq+0x7c/0x80\n  default_idle_call+0x34/0x68\n  do_idle+0x23c/0x294\n  cpu_startup_entry+0x38/0x3c\n  secondary_start_kernel+0x128/0x160\n  __secondary_switched+0xb8/0xbc\n---[ end trace 0000000000000000 ]---",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -10253,7 +10273,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -10617,7 +10637,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -10653,7 +10673,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -10725,7 +10745,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -10810,6 +10830,10 @@
           "Description": "CVE-2024-56605"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1235061",
           "Description": "SUSE Bug 1235061"
         },
@@ -10841,7 +10865,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -11057,7 +11081,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -12165,7 +12189,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -12205,7 +12229,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -12781,7 +12805,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -13069,7 +13093,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -13357,7 +13381,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -13393,7 +13417,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -13429,7 +13453,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -13465,7 +13489,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -14537,7 +14561,7 @@
     },
     {
       "CVE": "CVE-2024-57887",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: adv7511: Fix use-after-free in adv7533_attach_dsi()\n\nThe host_node pointer was assigned and freed in adv7533_parse_dt(), and\nlater, adv7533_attach_dsi() uses the same. Fix this use-after-free issue\nby dropping of_node_put() in adv7533_parse_dt() and calling of_node_put()\nin error path of probe() and also in the remove().",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: adv7511: Fix use-after-free in adv7533_attach_dsi()\n\nThe host_node pointer was assigned and freed in adv7533_parse_dt(), and\nlater, adv7533_attach_dsi() uses the same. Fix this use-after-free issue\nby  dropping of_node_put() in adv7533_parse_dt() and calling of_node_put()\nin error path of probe() and also in the remove().",
       "Threats": [
         {
           "Type": "Impact",
@@ -14577,7 +14601,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -14649,7 +14673,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -14696,6 +14720,10 @@
         {
           "URL": "https://bugzilla.suse.com/1235920",
           "Description": "SUSE Bug 1235920"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1235921",
+          "Description": "SUSE Bug 1235921"
         }
       ],
       "ProductStatuses": [
@@ -15149,7 +15177,7 @@
     },
     {
       "CVE": "CVE-2024-57915",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null\n\nConsidering that in some extreme cases, when performing the\nunbinding operation, gserial_disconnect has cleared gser-\u003eioport,\nwhich triggers gadget reconfiguration, and then calls gs_read_complete,\nresulting in access to a null pointer. Therefore, ep is disabled before\ngserial_disconnect sets port to null to prevent this from happening.\n\nCall trace:\n gs_read_complete+0x58/0x240\n usb_gadget_giveback_request+0x40/0x160\n dwc3_remove_requests+0x170/0x484\n dwc3_ep0_out_start+0xb0/0x1d4\n __dwc3_gadget_start+0x25c/0x720\n kretprobe_trampoline.cfi_jt+0x0/0x8\n kretprobe_trampoline.cfi_jt+0x0/0x8\n udc_bind_to_driver+0x1d8/0x300\n usb_gadget_probe_driver+0xa8/0x1dc\n gadget_dev_desc_UDC_store+0x13c/0x188\n configfs_write_iter+0x160/0x1f4\n vfs_write+0x2d0/0x40c\n ksys_write+0x7c/0xf0\n __arm64_sys_write+0x20/0x30\n invoke_syscall+0x60/0x150\n el0_svc_common+0x8c/0xf8\n do_el0_svc+0x28/0xa0\n el0_svc+0x24/0x84",
+      "Description": "** REJECT ** This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
