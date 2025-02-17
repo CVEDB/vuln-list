@@ -2957,13 +2957,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-47701.html",
           "Description": "CVE-2024-47701"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1231920",
@@ -4849,7 +4853,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4860,6 +4864,10 @@
         {
           "URL": "https://bugzilla.suse.com/1232193",
           "Description": "SUSE Bug 1232193"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1236571",
+          "Description": "SUSE Bug 1236571"
         }
       ],
       "ProductStatuses": [
@@ -5825,13 +5833,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-49884.html",
           "Description": "CVE-2024-49884"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232198",
@@ -7113,7 +7125,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7145,7 +7157,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7961,13 +7973,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-49950.html",
           "Description": "CVE-2024-49950"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232159",
@@ -8505,7 +8521,7 @@
     },
     {
       "CVE": "CVE-2024-49967",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: no need to continue when the number of entries is 1",
+      "Description": "** REJECT ** This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
@@ -9221,7 +9237,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -10125,11 +10141,11 @@
     },
     {
       "CVE": "CVE-2024-50018",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: napi: Prevent overflow of napi_defer_hard_irqs\n\nIn commit 6f8b12d661d0 (\"net: napi: add hard irqs deferral feature\")\nnapi_defer_irqs was added to net_device and napi_defer_irqs_count was\nadded to napi_struct, both as type int.\n\nThis value never goes below zero, so there is not reason for it to be a\nsigned int. Change the type for both from int to u32, and add an\noverflow check to sysfs to limit the value to S32_MAX.\n\nThe limit of S32_MAX was chosen because the practical limit before this\npatch was S32_MAX (anything larger was an overflow) and thus there are\nno behavioral changes introduced. If the extra bit is needed in the\nfuture, the limit can be raised.\n\nBefore this patch:\n\n$ sudo bash -c 'echo 2147483649 \u003e /sys/class/net/eth4/napi_defer_hard_irqs'\n$ cat /sys/class/net/eth4/napi_defer_hard_irqs\n-2147483647\n\nAfter this patch:\n\n$ sudo bash -c 'echo 2147483649 \u003e /sys/class/net/eth4/napi_defer_hard_irqs'\nbash: line 0: echo: write error: Numerical result out of range\n\nSimilarly, /sys/class/net/XXXXX/tx_queue_len is defined as unsigned:\n\ninclude/linux/netdevice.h:      unsigned int            tx_queue_len;\n\nAnd has an overflow check:\n\ndev_change_tx_queue_len(..., unsigned long new_len):\n\n  if (new_len != (unsigned int)new_len)\n          return -ERANGE;",
+      "Description": "** REJECT ** This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -10253,7 +10269,7 @@
     },
     {
       "CVE": "CVE-2024-50022",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndevice-dax: correct pgoff align in dax_set_mapping()\n\npgoff should be aligned using ALIGN_DOWN() instead of ALIGN().  Otherwise,\nvmf-\u003eaddress not aligned to fault_size will be aligned to the next\nalignment, that can result in memory failure getting the wrong address.\n\nIt's a subtle situation that only can be observed in\npage_mapped_in_vma() after the page is page fault handled by\ndev_dax_huge_fault.  Generally, there is little chance to perform\npage_mapped_in_vma in dev-dax's page unless in specific error injection\nto the dax device to trigger an MCE - memory-failure.  In that case,\npage_mapped_in_vma() will be triggered to determine which task is\naccessing the failure address and kill that task in the end.\n\n\nWe used self-developed dax device (which is 2M aligned mapping) , to\nperform error injection to random address.  It turned out that error\ninjected to non-2M-aligned address was causing endless MCE until panic.\nBecause page_mapped_in_vma() kept resulting wrong address and the task\naccessing the failure address was never killed properly:\n\n\n[ 3783.719419] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.049006] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.049190] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.448042] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.448186] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.792026] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.792179] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.162502] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.162633] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.461116] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.461247] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.764730] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.764859] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.042128] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.042259] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.464293] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.464423] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.818090] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.818217] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3787.085297] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3787.085424] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n\nIt took us several weeks to pinpoint this problem,  but we eventually\nused bpftrace to trace the page fault and mce address and successfully\nidentified the issue.\n\n\nJoao added:\n\n; Likely we never reproduce in production because we always pin\n: device-dax regions in the region align they provide (Qemu does\n: similarly with prealloc in hugetlb/file backed memory).  I think this\n: bug requires that we touch *unpinned* device-dax regions unaligned to\n: the device-dax selected alignment (page size i.e.  4K/2M/1G)",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndevice-dax: correct pgoff align in dax_set_mapping()\n\npgoff should be aligned using ALIGN_DOWN() instead of ALIGN().  Otherwise,\nvmf-\u003eaddress not aligned to fault_size will be aligned to the next\nalignment, that can result in memory failure getting the wrong address.\n\nIt's a subtle situation that only can be observed in\npage_mapped_in_vma() after the page is page fault handled by\ndev_dax_huge_fault.  Generally, there is little chance to perform\npage_mapped_in_vma in dev-dax's page unless in specific error injection\nto the dax device to trigger an MCE - memory-failure.  In that case,\npage_mapped_in_vma() will be triggered to determine which task is\naccessing the failure address and kill that task in the end.\n\n\nWe used self-developed dax device (which is 2M aligned mapping) , to\nperform error injection to random address.  It turned out that error\ninjected to non-2M-aligned address was causing endless MCE until panic.\nBecause page_mapped_in_vma() kept resulting wrong address and the task\naccessing the failure address was never killed properly:\n\n\n[ 3783.719419] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.049006] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.049190] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.448042] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.448186] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.792026] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.792179] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.162502] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.162633] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.461116] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.461247] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.764730] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.764859] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.042128] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.042259] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.464293] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.464423] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.818090] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.818217] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3787.085297] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3787.085424] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n\nIt took us several weeks to pinpoint this problem,  but we eventually\nused bpftrace to trace the page fault and mce address and successfully\nidentified the issue.\n\n\nJoao added:\n\n; Likely we never reproduce in production because we always pin\n: device-dax regions in the region align they provide (Qemu does\n: similarly with prealloc in hugetlb/file backed memory).  I think this\n: bug requires that we touch *unpinned* device-dax regions unaligned to\n: the device-dax selected alignment (page size i.e.  4K/2M/1G)",
       "Threats": [
         {
           "Type": "Impact",
@@ -11741,13 +11757,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-50073.html",
           "Description": "CVE-2024-50073"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232520",
@@ -12249,11 +12269,11 @@
     },
     {
       "CVE": "CVE-2024-50089",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nunicode: Don't special case ignorable code points\n\nWe don't need to handle them separately. Instead, just let them\ndecompose/casefold to themselves.",
+      "Description": "** REJECT ** This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13089,13 +13109,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-50115.html",
           "Description": "CVE-2024-50115"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232919",
@@ -13381,7 +13405,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13417,7 +13441,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13485,7 +13509,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13777,7 +13801,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -14353,7 +14377,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15253,7 +15277,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15861,7 +15885,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15961,7 +15985,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -16573,7 +16597,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -17277,7 +17301,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -17505,7 +17529,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -17573,7 +17597,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -17641,7 +17665,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [

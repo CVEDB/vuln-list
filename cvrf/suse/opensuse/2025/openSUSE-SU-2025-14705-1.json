@@ -52,6 +52,10 @@
   },
   "References": [
     {
+      "URL": "https://lists.opensuse.org/archives/list/security-announce@lists.opensuse.org/thread/T7LN2FDZYBYZRLX5LOA3REDAXV7VKGW4/",
+      "Description": "E-Mail link for openSUSE-SU-2025:14705-1"
+    },
+    {
       "URL": "https://www.suse.com/support/security/rating/",
       "Description": "SUSE Security Ratings"
     },
@@ -2177,7 +2181,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -2501,7 +2505,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2719,7 +2723,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -2749,7 +2753,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2779,7 +2783,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3023,7 +3027,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3087,7 +3091,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -3237,7 +3241,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3297,7 +3301,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -3537,13 +3541,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-47701.html",
           "Description": "CVE-2024-47701"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1231920",
@@ -3687,7 +3695,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3811,7 +3819,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -3841,7 +3849,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3931,7 +3939,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -3961,7 +3969,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4081,7 +4089,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4145,7 +4153,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4175,7 +4183,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4689,7 +4697,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4723,7 +4731,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4873,7 +4881,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4907,7 +4915,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -4971,7 +4979,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5155,7 +5163,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5279,7 +5287,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5313,7 +5321,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5347,7 +5355,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5501,7 +5509,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5655,7 +5663,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5719,7 +5727,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5933,7 +5941,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -5963,7 +5971,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -5993,7 +6001,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -6233,13 +6241,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-49884.html",
           "Description": "CVE-2024-49884"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232198",
@@ -6383,7 +6395,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -6563,7 +6575,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -6773,7 +6785,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -6807,7 +6819,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7441,7 +7453,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7471,7 +7483,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7625,7 +7637,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7659,7 +7671,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -7813,7 +7825,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -8237,13 +8249,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-49950.html",
           "Description": "CVE-2024-49950"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232159",
@@ -8811,7 +8827,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -8965,7 +8981,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -9389,7 +9405,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -9419,7 +9435,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -9479,7 +9495,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -9513,7 +9529,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -9941,7 +9957,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -9971,7 +9987,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -10271,7 +10287,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -10387,7 +10403,7 @@
     },
     {
       "CVE": "CVE-2024-50022",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndevice-dax: correct pgoff align in dax_set_mapping()\n\npgoff should be aligned using ALIGN_DOWN() instead of ALIGN().  Otherwise,\nvmf-\u003eaddress not aligned to fault_size will be aligned to the next\nalignment, that can result in memory failure getting the wrong address.\n\nIt's a subtle situation that only can be observed in\npage_mapped_in_vma() after the page is page fault handled by\ndev_dax_huge_fault.  Generally, there is little chance to perform\npage_mapped_in_vma in dev-dax's page unless in specific error injection\nto the dax device to trigger an MCE - memory-failure.  In that case,\npage_mapped_in_vma() will be triggered to determine which task is\naccessing the failure address and kill that task in the end.\n\n\nWe used self-developed dax device (which is 2M aligned mapping) , to\nperform error injection to random address.  It turned out that error\ninjected to non-2M-aligned address was causing endless MCE until panic.\nBecause page_mapped_in_vma() kept resulting wrong address and the task\naccessing the failure address was never killed properly:\n\n\n[ 3783.719419] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.049006] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.049190] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.448042] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.448186] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.792026] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.792179] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.162502] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.162633] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.461116] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.461247] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.764730] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.764859] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.042128] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.042259] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.464293] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.464423] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.818090] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.818217] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3787.085297] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3787.085424] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n\nIt took us several weeks to pinpoint this problem,  but we eventually\nused bpftrace to trace the page fault and mce address and successfully\nidentified the issue.\n\n\nJoao added:\n\n; Likely we never reproduce in production because we always pin\n: device-dax regions in the region align they provide (Qemu does\n: similarly with prealloc in hugetlb/file backed memory).  I think this\n: bug requires that we touch *unpinned* device-dax regions unaligned to\n: the device-dax selected alignment (page size i.e.  4K/2M/1G)",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndevice-dax: correct pgoff align in dax_set_mapping()\n\npgoff should be aligned using ALIGN_DOWN() instead of ALIGN().  Otherwise,\nvmf-\u003eaddress not aligned to fault_size will be aligned to the next\nalignment, that can result in memory failure getting the wrong address.\n\nIt's a subtle situation that only can be observed in\npage_mapped_in_vma() after the page is page fault handled by\ndev_dax_huge_fault.  Generally, there is little chance to perform\npage_mapped_in_vma in dev-dax's page unless in specific error injection\nto the dax device to trigger an MCE - memory-failure.  In that case,\npage_mapped_in_vma() will be triggered to determine which task is\naccessing the failure address and kill that task in the end.\n\n\nWe used self-developed dax device (which is 2M aligned mapping) , to\nperform error injection to random address.  It turned out that error\ninjected to non-2M-aligned address was causing endless MCE until panic.\nBecause page_mapped_in_vma() kept resulting wrong address and the task\naccessing the failure address was never killed properly:\n\n\n[ 3783.719419] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.049006] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.049190] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.448042] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.448186] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3784.792026] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3784.792179] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.162502] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.162633] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.461116] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.461247] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3785.764730] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3785.764859] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.042128] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.042259] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.464293] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.464423] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3786.818090] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3786.818217] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n[ 3787.085297] mce: Uncorrected hardware memory error in user-access at \n200c9742380\n[ 3787.085424] Memory failure: 0x200c9742: recovery action for dax page: \nRecovered\n\nIt took us several weeks to pinpoint this problem,   but we eventually\nused bpftrace to trace the page fault and mce address and successfully\nidentified the issue.\n\n\nJoao added:\n\n; Likely we never reproduce in production because we always pin\n: device-dax regions in the region align they provide (Qemu does\n: similarly with prealloc in hugetlb/file backed memory).  I think this\n: bug requires that we touch *unpinned* device-dax regions unaligned to\n: the device-dax selected alignment (page size i.e.  4K/2M/1G)",
       "Threats": [
         {
           "Type": "Impact",
@@ -11141,7 +11157,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -11359,7 +11375,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -11393,7 +11409,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -11783,13 +11799,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-50073.html",
           "Description": "CVE-2024-50073"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232520",
@@ -12173,7 +12193,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -12263,7 +12283,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13017,7 +13037,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13047,13 +13067,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-50115.html",
           "Description": "CVE-2024-50115"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1225742",
+          "Description": "SUSE Bug 1225742"
         },
         {
           "URL": "https://bugzilla.suse.com/1232919",
@@ -13321,7 +13345,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13355,7 +13379,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13419,7 +13443,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -13693,7 +13717,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -13933,7 +13957,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -14233,7 +14257,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15077,7 +15101,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15647,7 +15671,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15681,7 +15705,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15711,7 +15735,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -15741,7 +15765,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -16315,7 +16339,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -16975,7 +16999,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -17189,7 +17213,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -17253,7 +17277,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -17317,7 +17341,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
