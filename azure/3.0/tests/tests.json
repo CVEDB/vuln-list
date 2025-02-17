@@ -2,6 +2,30 @@
   "RpminfoTests": [
     {
       "Check": "at least one",
+      "Comment": "Package sriov-network-device-plugin is earlier than 3.7.0-3, affected by CVE-2024-45339",
+      "ID": "oval:com.microsoft.azurelinux:tst:56078000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:56078001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:56078002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package vitess is earlier than 19.0.4-4, affected by CVE-2024-45339",
+      "ID": "oval:com.microsoft.azurelinux:tst:56066000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:56066001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:56066002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package nodejs is earlier than 20.14.0-4, affected by CVE-2025-23083",
       "ID": "oval:com.microsoft.azurelinux:tst:55922000",
       "Version": "1",
@@ -1130,6 +1154,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package containerd2 is earlier than 2.0.0-3, affected by CVE-2024-45338",
+      "ID": "oval:com.microsoft.azurelinux:tst:54546000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:54546001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:54546002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package cf-cli is earlier than 8.7.3-5, affected by CVE-2024-45338",
       "ID": "oval:com.microsoft.azurelinux:tst:54473000",
       "Version": "1",
@@ -1180,7 +1216,7 @@
       "Check": "at least one",
       "Comment": "Package cri-tools is earlier than 1.30.1-2, affected by CVE-2024-45338",
       "ID": "oval:com.microsoft.azurelinux:tst:54461000",
-      "Version": "0",
+      "Version": "1",
       "Object": {
         "ObjectRef": "oval:com.microsoft.azurelinux:obj:54461001"
       },
@@ -1630,6 +1666,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:54221002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.16.1-7, affected by CVE-2024-11053",
+      "ID": "oval:com.microsoft.azurelinux:tst:54212000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:54212001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:54212002"
       }
     },
     {
@@ -4142,6 +4190,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package tensorflow is earlier than 2.16.1-7, affected by CVE-2024-9681",
+      "ID": "oval:com.microsoft.azurelinux:tst:52449000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:52449001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:52449002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package kernel is earlier than 6.6.64.2-1, affected by CVE-2024-50134",
       "ID": "oval:com.microsoft.azurelinux:tst:52437000",
       "Version": "1",
@@ -4156,7 +4216,7 @@
       "Check": "at least one",
       "Comment": "Package mysql is earlier than 8.0.40-5, affected by CVE-2024-9681",
       "ID": "oval:com.microsoft.azurelinux:tst:52414000",
-      "Version": "0",
+      "Version": "1",
       "Object": {
         "ObjectRef": "oval:com.microsoft.azurelinux:obj:52414001"
       },
@@ -4370,6 +4430,30 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package etcd is earlier than 3.5.18-1, affected by CVE-2024-51744",
+      "ID": "oval:com.microsoft.azurelinux:tst:52216000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:52216001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:52216002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.7.7-1, affected by CVE-2024-51744",
+      "ID": "oval:com.microsoft.azurelinux:tst:52195000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:52195001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:52195002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package cert-manager is earlier than 1.12.15-1, affected by CVE-2024-51744",
       "ID": "oval:com.microsoft.azurelinux:tst:52183000",
       "Version": "1",
@@ -4390,18 +4474,6 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:52169002"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "Package kernel is earlier than 6.6.57.1-2, affected by CVE-2024-49967",
-      "ID": "oval:com.microsoft.azurelinux:tst:52096000",
-      "Version": "0",
-      "Object": {
-        "ObjectRef": "oval:com.microsoft.azurelinux:obj:52096001"
-      },
-      "State": {
-        "StateRef": "oval:com.microsoft.azurelinux:ste:52096002"
       }
     },
     {
@@ -4714,18 +4786,6 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:51927002"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "Package kernel is earlier than 6.6.64.2-1, affected by CVE-2024-50086",
-      "ID": "oval:com.microsoft.azurelinux:tst:51924000",
-      "Version": "1",
-      "Object": {
-        "ObjectRef": "oval:com.microsoft.azurelinux:obj:51924001"
-      },
-      "State": {
-        "StateRef": "oval:com.microsoft.azurelinux:ste:51924002"
       }
     },
     {
@@ -9434,6 +9494,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package cri-tools is earlier than 1.32.0-1, affected by CVE-2024-45310",
+      "ID": "oval:com.microsoft.azurelinux:tst:48565000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:48565001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:48565002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package python3 is earlier than 3.12.3-4, affected by CVE-2024-6232",
       "ID": "oval:com.microsoft.azurelinux:tst:48552000",
       "Version": "1",
@@ -9590,6 +9662,30 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package kata-containers is earlier than 3.2.0.azl4-1, affected by CVE-2024-43806",
+      "ID": "oval:com.microsoft.azurelinux:tst:48333000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:48333001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:48333002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kata-containers-cc is earlier than 3.2.0.azl4-1, affected by CVE-2024-43806",
+      "ID": "oval:com.microsoft.azurelinux:tst:48330000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:48330001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:48330002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package mysql is earlier than 8.0.40-1, affected by CVE-2024-21165",
       "ID": "oval:com.microsoft.azurelinux:tst:48315000",
       "Version": "4",
@@ -9602,9 +9698,9 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package vim is earlier than 9.0.2190-6, affected by CVE-2024-43802",
+      "Comment": "Package vim is earlier than 9.1.0697-1, affected by CVE-2024-43802",
       "ID": "oval:com.microsoft.azurelinux:tst:48221000",
-      "Version": "1",
+      "Version": "2",
       "Object": {
         "ObjectRef": "oval:com.microsoft.azurelinux:obj:48221001"
       },
@@ -11458,6 +11554,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:47143002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package orc is earlier than 0.4.39-2, affected by CVE-2024-40897",
+      "ID": "oval:com.microsoft.azurelinux:tst:47122000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:47122001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:47122002"
       }
     },
     {
@@ -13682,6 +13790,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package re2c is earlier than 3.1-4, affected by CVE-2022-23901",
+      "ID": "oval:com.microsoft.azurelinux:tst:45369000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:45369001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:45369002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package samba is earlier than 4.18.3-1, affected by CVE-2017-12150",
       "ID": "oval:com.microsoft.azurelinux:tst:45336000",
       "Version": "1",
@@ -13714,6 +13834,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:45282002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package LibRaw is earlier than 0.21.3-1, affected by CVE-2021-32142",
+      "ID": "oval:com.microsoft.azurelinux:tst:45267000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:45267001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:45267002"
       }
     },
     {
@@ -13910,6 +14042,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package puppet is earlier than 7.34.0-1, affected by CVE-2015-1029",
+      "ID": "oval:com.microsoft.azurelinux:tst:44415000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:44415001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:44415002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package samba is earlier than 4.18.3-1, affected by CVE-2022-44640",
       "ID": "oval:com.microsoft.azurelinux:tst:44388000",
       "Version": "1",
@@ -13946,6 +14090,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package accountsservice is earlier than 23.13.9-1, affected by CVE-2023-3297",
+      "ID": "oval:com.microsoft.azurelinux:tst:44259000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:44259001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:44259002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package audiofile is earlier than 0.3.6-27, affected by CVE-2015-7747",
       "ID": "oval:com.microsoft.azurelinux:tst:44172000",
       "Version": "1",
@@ -13954,6 +14110,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:44172002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package blosc is earlier than 1.21.6-1, affected by CVE-2023-45853",
+      "ID": "oval:com.microsoft.azurelinux:tst:44127000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:44127001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:44127002"
       }
     },
     {
@@ -13978,6 +14146,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:44070002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package accountsservice is earlier than 23.13.9-1, affected by CVE-2012-6655",
+      "ID": "oval:com.microsoft.azurelinux:tst:44049000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:44049001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:44049002"
       }
     },
     {
@@ -14930,6 +15110,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.7.7-1, affected by CVE-2024-35255",
+      "ID": "oval:com.microsoft.azurelinux:tst:42655000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:42655001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:42655002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package ntfs-3g is earlier than 2022.10.3-2, affected by CVE-2023-52890",
       "ID": "oval:com.microsoft.azurelinux:tst:42652000",
       "Version": "1",
@@ -15506,9 +15698,9 @@
     },
     {
       "Check": "at least one",
-      "Comment": "Package fluent-bit is earlier than 3.0.6-1, affected by CVE-2024-28182",
+      "Comment": "Package fluent-bit is earlier than 3.1.9-2, affected by CVE-2024-28182",
       "ID": "oval:com.microsoft.azurelinux:tst:42099000",
-      "Version": "2",
+      "Version": "3",
       "Object": {
         "ObjectRef": "oval:com.microsoft.azurelinux:obj:42099001"
       },
@@ -15746,6 +15938,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package m2crypto is earlier than 0.38.0-4, affected by CVE-2019-11358",
+      "ID": "oval:com.microsoft.azurelinux:tst:41809000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:41809001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:41809002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package hyperv-daemons is earlier than 6.6.35.1-1, affected by CVE-2021-45480",
       "ID": "oval:com.microsoft.azurelinux:tst:41801000",
       "Version": "1",
@@ -15914,6 +16118,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package lua is earlier than 5.4.4-1, affected by CVE-2021-43519",
+      "ID": "oval:com.microsoft.azurelinux:tst:41574000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:41574001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:41574002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package systemd-bootstrap is earlier than 250.3-17, affected by CVE-2022-45873",
       "ID": "oval:com.microsoft.azurelinux:tst:41470000",
       "Version": "1",
@@ -16070,6 +16286,30 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package ceph is earlier than 18.2.2-3, affected by CVE-2021-43519",
+      "ID": "oval:com.microsoft.azurelinux:tst:41261000",
+      "Version": "2",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:41261001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:41261002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package ceph is earlier than 18.2.2-1, affected by CVE-2015-9251",
+      "ID": "oval:com.microsoft.azurelinux:tst:41228000",
+      "Version": "2",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:41228001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:41228002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package multus is earlier than 4.0.2-1, affected by CVE-2021-38561",
       "ID": "oval:com.microsoft.azurelinux:tst:41221000",
       "Version": "1",
@@ -16126,6 +16366,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:41111002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package ceph is earlier than 18.2.2-1, affected by CVE-2014-5461",
+      "ID": "oval:com.microsoft.azurelinux:tst:41108000",
+      "Version": "2",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:41108001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:41108002"
       }
     },
     {
@@ -16214,6 +16466,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package httpd is earlier than httpd-2.4.2, affected by CVE-2012-0883",
+      "ID": "oval:com.microsoft.azurelinux:tst:41033000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:41033001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:41033002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package ntopng is earlier than 5.2.1-4, affected by CVE-2017-18214",
       "ID": "oval:com.microsoft.azurelinux:tst:41019000",
       "Version": "1",
@@ -16222,6 +16486,30 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:41019002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package ceph is earlier than 18.2.2-3, affected by CVE-2020-24371",
+      "ID": "oval:com.microsoft.azurelinux:tst:40962000",
+      "Version": "2",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:40962001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:40962002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package ceph is earlier than 18.2.2-1, affected by CVE-2012-6708",
+      "ID": "oval:com.microsoft.azurelinux:tst:40951000",
+      "Version": "2",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:40951001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:40951002"
       }
     },
     {
@@ -16306,6 +16594,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:40833002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package lua is earlier than 5.4.0-1, affected by CVE-2020-15945",
+      "ID": "oval:com.microsoft.azurelinux:tst:40818000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:40818001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:40818002"
       }
     },
     {
@@ -16846,6 +17146,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:40369002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package vitess is earlier than 19.0.4-1, affected by CVE-2024-32886",
+      "ID": "oval:com.microsoft.azurelinux:tst:40360000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:40360001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:40360002"
       }
     },
     {
@@ -17522,6 +17834,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package kata-containers is earlier than 3.2.0.azl4-1, affected by CVE-2023-39325",
+      "ID": "oval:com.microsoft.azurelinux:tst:39652000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:39652001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:39652002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package kata-containers is earlier than 3.2.0.azl1-1, affected by CVE-2024-0727",
       "ID": "oval:com.microsoft.azurelinux:tst:39649000",
       "Version": "1",
@@ -17542,6 +17866,42 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:39646002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kata-containers-cc is earlier than 3.2.0.azl4-1, affected by CVE-2023-39325",
+      "ID": "oval:com.microsoft.azurelinux:tst:39637000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:39637001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:39637002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kata-containers-cc is earlier than 3.2.0.azl4-1, affected by CVE-2023-45288",
+      "ID": "oval:com.microsoft.azurelinux:tst:39634000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:39634001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:39634002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kata-containers is earlier than 3.2.0.azl4-1, affected by CVE-2023-45288",
+      "ID": "oval:com.microsoft.azurelinux:tst:39625000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:39625001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:39625002"
       }
     },
     {
@@ -18434,6 +18794,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package etcd is earlier than 3.5.18-1, affected by CVE-2023-45288",
+      "ID": "oval:com.microsoft.azurelinux:tst:38281000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:38281001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:38281002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package docker-buildx is earlier than 0.14.0-1, affected by CVE-2023-45288",
       "ID": "oval:com.microsoft.azurelinux:tst:38260000",
       "Version": "1",
@@ -18610,6 +18982,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:38164002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.7.7-1, affected by CVE-2023-45288",
+      "ID": "oval:com.microsoft.azurelinux:tst:38158000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:38158001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:38158002"
       }
     },
     {
@@ -19114,6 +19498,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:37086002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package xdg-utils is earlier than 1.2.1-3, affected by CVE-2022-4055",
+      "ID": "oval:com.microsoft.azurelinux:tst:37063000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:37063001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:37063002"
       }
     },
     {
@@ -20170,6 +20566,30 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:35660002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kata-containers-cc is earlier than 3.2.0.azl4-1, affected by CVE-2024-24786",
+      "ID": "oval:com.microsoft.azurelinux:tst:35659000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:35659001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:35659002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package kata-containers is earlier than 3.2.0.azl4-1, affected by CVE-2024-24786",
+      "ID": "oval:com.microsoft.azurelinux:tst:35658000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:35658001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:35658002"
       }
     },
     {
@@ -21350,6 +21770,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package syslog-ng is earlier than 4.3.1-2, affected by CVE-2022-38725",
+      "ID": "oval:com.microsoft.azurelinux:tst:35289000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:35289001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:35289002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package strongswan is earlier than 5.9.12-1, affected by CVE-2023-41913",
       "ID": "oval:com.microsoft.azurelinux:tst:35287000",
       "Version": "1",
@@ -22118,6 +22550,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package python-kubernetes is earlier than 21.7.0-1, affected by CVE-2020-8554",
+      "ID": "oval:com.microsoft.azurelinux:tst:35135000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:35135001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:35135002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package python-jinja2 is earlier than 3.1.2-2, affected by CVE-2024-22195",
       "ID": "oval:com.microsoft.azurelinux:tst:35134000",
       "Version": "1",
@@ -22810,6 +23254,18 @@
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:35051002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package nodejs is earlier than 20.14.0-1, affected by CVE-2024-22195",
+      "ID": "oval:com.microsoft.azurelinux:tst:35050000",
+      "Version": "0",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:35050001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:35050002"
       }
     },
     {
@@ -24770,6 +25226,18 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package hwloc is earlier than 2.9.2-2, affected by CVE-2022-47022",
+      "ID": "oval:com.microsoft.azurelinux:tst:34800000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:34800001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:34800002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package helm is earlier than 3.15.2-1, affected by CVE-2023-44487",
       "ID": "oval:com.microsoft.azurelinux:tst:34799000",
       "Version": "1",
@@ -26512,7 +26980,7 @@
       "Check": "at least one",
       "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.4.0-15, affected by CVE-2023-44487",
       "ID": "oval:com.microsoft.azurelinux:tst:34545000",
-      "Version": "0",
+      "Version": "1",
       "Object": {
         "ObjectRef": "oval:com.microsoft.azurelinux:obj:34545001"
       },
@@ -26522,14 +26990,38 @@
     },
     {
       "Check": "at least one",
+      "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.7.7-1, affected by CVE-2023-39325",
+      "ID": "oval:com.microsoft.azurelinux:tst:34544000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:34544001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:34544002"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.7.2-2, affected by CVE-2022-41723",
       "ID": "oval:com.microsoft.azurelinux:tst:34543000",
-      "Version": "0",
+      "Version": "1",
       "Object": {
         "ObjectRef": "oval:com.microsoft.azurelinux:obj:34543001"
       },
       "State": {
         "StateRef": "oval:com.microsoft.azurelinux:ste:34543002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Package application-gateway-kubernetes-ingress is earlier than 1.7.7-1, affected by CVE-2023-3978",
+      "ID": "oval:com.microsoft.azurelinux:tst:34542000",
+      "Version": "1",
+      "Object": {
+        "ObjectRef": "oval:com.microsoft.azurelinux:obj:34542001"
+      },
+      "State": {
+        "StateRef": "oval:com.microsoft.azurelinux:ste:34542002"
       }
     },
     {
