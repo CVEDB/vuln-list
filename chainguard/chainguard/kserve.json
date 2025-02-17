@@ -40,6 +40,16 @@
       "CVE-2024-56326",
       "GHSA-gmj6-6f8f-6699",
       "GHSA-q2x7-8rv6-6q7h"
+    ],
+    "0.14.1-r2": [
+      "CVE-2024-45336",
+      "CVE-2024-45341",
+      "CVE-2024-57000",
+      "CVE-2025-22866",
+      "GHSA-3f6r-qh9c-x6mm",
+      "GHSA-3whm-j4xm-rv8x",
+      "GHSA-7wrw-r4p8-38rx",
+      "GHSA-xg2h-7cxj-3gvh"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

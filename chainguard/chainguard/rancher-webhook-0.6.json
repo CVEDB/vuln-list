@@ -1,0 +1,20 @@
+{
+  "name": "rancher-webhook-0.6",
+  "secfixes": {
+    "0.6.3-r1": [
+      "CVE-2025-22866",
+      "GHSA-3whm-j4xm-rv8x"
+    ],
+    "0.6.3-r2": [
+      "CVE-2025-0426",
+      "GHSA-jgfp-53c3-624w"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "x86_64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
