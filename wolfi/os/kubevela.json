@@ -14,6 +14,14 @@
       "GHSA-rq3x-83w4-p28c",
       "GHSA-vvjp-q62m-2vph"
     ],
+    "1.10.0-r0": [
+      "CVE-2024-25620",
+      "CVE-2024-26147",
+      "CVE-2025-22866",
+      "GHSA-3whm-j4xm-rv8x",
+      "GHSA-r53h-jv2g-vpx6",
+      "GHSA-v53g-5gjp-272r"
+    ],
     "1.9.10-r0": [
       "CVE-2024-24786",
       "GHSA-8r3f-844c-mc37"
