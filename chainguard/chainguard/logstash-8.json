@@ -3,6 +3,8 @@
   "secfixes": {
     "0": [
       "CVE-2024-47535",
+      "CVE-2025-25193",
+      "GHSA-389x-839f-4rhx",
       "GHSA-xq3w-v528-46rv"
     ],
     "8.15.4-r0": [
@@ -24,6 +26,10 @@
     "8.16.1-r1": [
       "CVE-2024-31141",
       "GHSA-2x2g-32r7-p4x8"
+    ],
+    "8.17.1-r2": [
+      "CVE-2025-22866",
+      "GHSA-3whm-j4xm-rv8x"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
