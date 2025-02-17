@@ -47,6 +47,10 @@
   },
   "References": [
     {
+      "URL": "https://lists.opensuse.org/archives/list/security-announce@lists.opensuse.org/thread/IL7QOYRPFRGRS6UKU6ZYHI76FWFFUJNK/",
+      "Description": "E-Mail link for openSUSE-SU-2025:14663-1"
+    },
+    {
       "URL": "https://www.suse.com/support/security/rating/",
       "Description": "SUSE Security Ratings"
     },
@@ -162,7 +166,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-1732",
-      "Description": "When sampling randomness for a shared secret, the implementation of Kyber and FrodoKEM, did not check whether crypto/rand.Read() returns an error. In rare deployment cases (error thrown by the Read() function), this could lead to a predictable shared secret.\n\nThe tkn20 and blindrsa components did not check whether enough randomness was returned from the user provided randomness source. Typically the user provides crypto/rand.Reader, which in the vast majority of cases will always return the right number random bytes. In the cases where it does not, or the user provides a source that does not, the blinding for blindrsa is weak and integrity of the plaintext is not ensured in tkn20.\n\n",
+      "Description": "When sampling randomness for a shared secret, the implementation of Kyber and FrodoKEM, did not check whether crypto/rand.Read()  returns an error. In rare deployment cases (error thrown by the Read()  function), this could lead to a predictable shared secret.\n\nThe tkn20 and blindrsa components did not check whether enough randomness was returned from the user provided randomness source. Typically the user provides crypto/rand.Reader, which in the vast majority of cases will always return the right number random bytes. In the cases where it does not, or the user provides a source that does not, the blinding for blindrsa is weak and integrity of the plaintext is not ensured in tkn20.\n\n",
       "Threats": [
         {
           "Type": "Impact",
@@ -216,7 +220,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -349,7 +353,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -461,7 +465,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -490,7 +494,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -606,7 +610,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -631,7 +635,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -793,7 +797,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -822,7 +826,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [

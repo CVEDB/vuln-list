@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container suse/sle-micro-rancher/5.2:latest-2025-202,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2025-202,SUSE-2025-202,SUSE-SLE-Module-Live-Patching-15-SP3-2025-202,SUSE-SLE-Product-HA-15-SP3-2025-202,SUSE-SLE-Product-HPC-15-SP3-LTSS-2025-202,SUSE-SLE-Product-SLES-15-SP3-LTSS-2025-202,SUSE-SLE-Product-SLES_SAP-15-SP3-2025-202,SUSE-SUSE-MicroOS-5.1-2025-202,SUSE-SUSE-MicroOS-5.2-2025-202,SUSE-Storage-7.1-2025-202",
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2025-202,Image SLES15-SP3-Micro-5-1-BYOS-Azure-2025-202,Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM-2025-202,Image SLES15-SP3-Micro-5-1-BYOS-GCE-2025-202,Image SLES15-SP3-Micro-5-2-BYOS-Azure-2025-202,Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM-2025-202,Image SLES15-SP3-Micro-5-2-BYOS-GCE-2025-202,Image SLES15-SP3-SAP-BYOS-EC2-HVM-2025-202,SUSE-2025-202,SUSE-SLE-Module-Live-Patching-15-SP3-2025-202,SUSE-SLE-Product-HA-15-SP3-2025-202,SUSE-SLE-Product-HPC-15-SP3-LTSS-2025-202,SUSE-SLE-Product-SLES-15-SP3-LTSS-2025-202,SUSE-SLE-Product-SLES_SAP-15-SP3-2025-202,SUSE-SUSE-MicroOS-5.1-2025-202,SUSE-SUSE-MicroOS-5.2-2025-202,SUSE-Storage-7.1-2025-202",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,6 +41,36 @@
       {
         "ProductReference": "kernel-default-5.3.18-150300.59.188.1",
         "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.188.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.188.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.188.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-1-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.188.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.188.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "kernel-default-5.3.18-150300.59.188.1",
+        "RelatesToProductReference": "Image SLES15-SP3-Micro-5-2-BYOS-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -595,6 +625,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -695,6 +731,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -795,6 +837,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -895,6 +943,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -999,6 +1053,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1103,6 +1163,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1194,6 +1260,10 @@
           "Description": "CVE-2024-53173"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1234891",
           "Description": "SUSE Bug 1234891"
         },
@@ -1207,6 +1277,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1311,6 +1387,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1415,6 +1497,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1506,6 +1594,10 @@
           "Description": "CVE-2024-53239"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1235054",
           "Description": "SUSE Bug 1235054"
         },
@@ -1519,6 +1611,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1619,6 +1717,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1710,6 +1814,10 @@
           "Description": "CVE-2024-56539"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1234963",
           "Description": "SUSE Bug 1234963"
         },
@@ -1723,6 +1831,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1805,13 +1919,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2024-56548.html",
           "Description": "CVE-2024-56548"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
         },
         {
           "URL": "https://bugzilla.suse.com/1235073",
@@ -1827,6 +1945,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -1931,6 +2055,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -2022,6 +2152,10 @@
           "Description": "CVE-2024-56605"
         },
         {
+          "URL": "https://bugzilla.suse.com/1234853",
+          "Description": "SUSE Bug 1234853"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1235061",
           "Description": "SUSE Bug 1235061"
         },
@@ -2035,6 +2169,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -2139,6 +2279,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -2239,6 +2385,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
@@ -2339,6 +2491,12 @@
           "Type": "Fixed",
           "ProductID": [
             "Container suse/sle-micro-rancher/5.2:latest:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-1-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-Azure:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-EC2-HVM:kernel-default-5.3.18-150300.59.188.1",
+            "Image SLES15-SP3-Micro-5-2-BYOS-GCE:kernel-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:cluster-md-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:dlm-kmp-default-5.3.18-150300.59.188.1",
             "Image SLES15-SP3-SAP-BYOS-EC2-HVM:gfs2-kmp-default-5.3.18-150300.59.188.1",
