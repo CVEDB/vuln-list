@@ -36,8 +36,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2025-03-10T12:30:56Z",
     "Severity": "MODERATE",
-    "Summary": "Zip Flag Bit Exploit Crashes Picklescan But Not PyTorch",
-    "UpdatedAt": "2025-03-10T18:26:10Z",
+    "Summary": "Duplicate Advisory: Zip Flag Bit Exploit Crashes Picklescan But Not PyTorch",
+    "UpdatedAt": "2025-03-10T18:31:04Z",
     "WithdrawnAt": "2025-03-10T18:26:09Z",
     "CVSS": {
       "Score": 0,
