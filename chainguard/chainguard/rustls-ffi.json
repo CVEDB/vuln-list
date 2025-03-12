@@ -1,11 +1,7 @@
 {
-  "name": "linkerd-extension-init",
+  "name": "rustls-ffi",
   "secfixes": {
-    "0.1.2-r1": [
-      "CVE-2025-24898",
-      "GHSA-rpmj-rpgj-qmpm"
-    ],
-    "0.1.2-r31": [
+    "0.14.1-r4": [
       "GHSA-4p46-pwfr-66x6"
     ]
   },

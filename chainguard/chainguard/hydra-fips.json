@@ -1,12 +1,8 @@
 {
-  "name": "linkerd-extension-init",
+  "name": "hydra-fips",
   "secfixes": {
-    "0.1.2-r1": [
-      "CVE-2025-24898",
-      "GHSA-rpmj-rpgj-qmpm"
-    ],
-    "0.1.2-r31": [
-      "GHSA-4p46-pwfr-66x6"
+    "2.3.0-r1": [
+      "CVE-2025-22869"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
