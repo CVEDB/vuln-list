@@ -1,0 +1,16 @@
+{
+  "name": "bouncycastle-fips-2.0",
+  "secfixes": {
+    "2.0.2-r0": [
+      "CVE-2025-8885",
+      "GHSA-67mf-3cr5-8w23"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

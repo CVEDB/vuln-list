@@ -1,0 +1,16 @@
+{
+  "name": "py3-cbor2",
+  "secfixes": {
+    "6.1.1-r0": [
+      "CVE-2026-26209",
+      "GHSA-3c37-wwvx-h642"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "puppygraph-python",
+  "secfixes": {
+    "0.1.6-r1": [
+      "GHSA-f4xh-w4cj-qxq8"
+    ],
+    "0.1.6-r2": [
+      "CVE-2026-59881",
+      "CVE-2026-69243",
+      "CVE-2026-69244",
+      "GHSA-cq5v-8q36-5273",
+      "GHSA-mfx4-hv73-q22v",
+      "GHSA-mq44-7p77-q5h7"
+    ],
+    "0.1.7_git20260827-r1": [
+      "CVE-2026-104874",
+      "GHSA-54p9-h82j-f925"
+    ],
+    "0.1.7_git20260827-r3": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

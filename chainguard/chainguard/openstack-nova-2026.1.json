@@ -1,0 +1,106 @@
+{
+  "name": "openstack-nova-2026.1",
+  "secfixes": {
+    "0": [
+      "CVE-2013-2256",
+      "CVE-2013-4179",
+      "CVE-2014-3517",
+      "CVE-2014-3608",
+      "CVE-2014-3708",
+      "CVE-2015-0259",
+      "CVE-2015-3280",
+      "CVE-2015-7713",
+      "GHSA-43hc-pwvx-pmfg",
+      "GHSA-5mj6-643f-2g85",
+      "GHSA-67rh-9p29-vrxr",
+      "GHSA-92hc-c226-32q7",
+      "GHSA-j6xh-q826-55jw",
+      "GHSA-mfmj-gwg3-vhw7",
+      "GHSA-x8xr-rm9r-7mvf",
+      "GHSA-xjmj-p278-4jp5"
+    ],
+    "33.0.1_git20260616-r0": [
+      "CVE-2026-44405",
+      "GHSA-r374-rxx8-8654"
+    ],
+    "33.0.1_git20260727-r0": [
+      "CVE-2026-59939",
+      "GHSA-j5g9-f88f-gfj3"
+    ],
+    "33.0.1_git20260727-r1": [
+      "CVE-2026-69247",
+      "CVE-2026-69248",
+      "CVE-2026-69249",
+      "GHSA-537c-gmf6-5ccf",
+      "GHSA-g6cj-pr64-35w5",
+      "GHSA-jwv3-5hgf-82ww",
+      "GHSA-m2h6-j472-rp4c"
+    ],
+    "33.0.1_git20260812-r1": [
+      "CVE-2026-54284",
+      "CVE-2026-59893",
+      "CVE-2026-59894",
+      "CVE-2026-71491",
+      "GHSA-3496-9g83-7v6x",
+      "GHSA-f2ff-p2ww-7p4p",
+      "GHSA-prg7-hcfm-mfcr",
+      "GHSA-pwgv-4x5q-6m9f"
+    ],
+    "33.0.1_git20260812-r3": [
+      "CVE-2026-54770",
+      "GHSA-6hx8-3wjj-gr8g"
+    ],
+    "33.0.1_git20260819-r12": [
+      "CVE-2026-101917",
+      "CVE-2026-102265",
+      "CVE-2026-102266",
+      "CVE-2026-102267",
+      "CVE-2026-102268",
+      "CVE-2026-102269",
+      "CVE-2026-102271",
+      "CVE-2026-102272",
+      "CVE-2026-102273",
+      "CVE-2026-102274",
+      "GHSA-2gx3-rcp4-g85q",
+      "GHSA-8wjv-2p76-3863",
+      "GHSA-9j54-fg26-wv3r",
+      "GHSA-9v7f-9g4p-ffgj",
+      "GHSA-ffc3-869f-jxw9",
+      "GHSA-hxm8-2xgr-2p9m",
+      "GHSA-p4g4-x82p-q773",
+      "GHSA-r6x4-923q-g947",
+      "GHSA-w2cx-738m-mc7w",
+      "GHSA-w6j9-cwv2-h6wq"
+    ],
+    "33.0.1_git20260819-r13": [
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ],
+    "33.0.1_git20260819-r14": [
+      "CVE-2026-101918",
+      "GHSA-42vr-xj54-vc7v"
+    ],
+    "33.0.1_git20260819-r15": [
+      "CVE-2026-44393",
+      "GHSA-76qh-xr7q-h39m"
+    ],
+    "33.0.1_git20260819-r17": [
+      "CVE-2026-102991",
+      "GHSA-5639-2j2p-m4mx"
+    ],
+    "33.0.1_git20261017-r1": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

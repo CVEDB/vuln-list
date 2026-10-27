@@ -1,0 +1,39 @@
+{
+  "name": "dagster-fips",
+  "secfixes": {
+    "1.13.24-r1": [
+      "CVE-2026-49264",
+      "CVE-2026-49265",
+      "GHSA-hj66-6f7g-4r5v",
+      "GHSA-xpv3-w29h-x7cv"
+    ],
+    "1.13.26-r1": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "1.13.3-r0": [
+      "CVE-2026-41205",
+      "CVE-2026-41490",
+      "GHSA-mjw2-v2hm-wj34",
+      "GHSA-v92g-xgxw-vvmm"
+    ],
+    "1.13.3-r1": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "1.13.8-r0": [
+      "CVE-2026-34993",
+      "CVE-2026-47265",
+      "GHSA-hg6j-4rv6-33pg",
+      "GHSA-jg22-mg44-37j8"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

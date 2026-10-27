@@ -1,0 +1,95 @@
+{
+  "name": "gitlab-cng-19.1",
+  "secfixes": {
+    "0": [
+      "CVE-2020-8911",
+      "CVE-2020-8912",
+      "CVE-2026-25680",
+      "CVE-2026-25681",
+      "CVE-2026-27136",
+      "CVE-2026-39821",
+      "CVE-2026-39824",
+      "CVE-2026-42502",
+      "CVE-2026-42506",
+      "CVE-2026-46600",
+      "CVE-2026-56852",
+      "CVE-2026-56854",
+      "CVE-2026-56855",
+      "CVE-2026-78662",
+      "GHSA-259r-337f-4rfw",
+      "GHSA-4vpj-hr3r-4gpg",
+      "GHSA-5cv4-jp36-h3mw",
+      "GHSA-7f33-f4f5-xwgw",
+      "GHSA-cg87-vwwh-xvgj",
+      "GHSA-f5pg-7wfw-84q9",
+      "GHSA-gg3m-vvp2-p2c5",
+      "GHSA-gjhq-gjfw-99mq",
+      "GHSA-jpjm-c3r5-q96r",
+      "GHSA-m9x8-m34x-fj9q",
+      "GHSA-w2q5-6q6x-x959",
+      "GHSA-w9p8-pvxh-rxpj",
+      "GHSA-wrh2-89vg-4j9g",
+      "GO-2022-0635",
+      "GO-2022-0646",
+      "GO-2026-5024",
+      "GO-2026-5025",
+      "GO-2026-5026",
+      "GO-2026-5027",
+      "GO-2026-5028",
+      "GO-2026-5029",
+      "GO-2026-5030",
+      "GO-2026-5841",
+      "GO-2026-5932",
+      "GO-2026-5942",
+      "GO-2026-5970",
+      "GO-2026-6303",
+      "GO-2026-6354",
+      "GO-2026-6355"
+    ],
+    "19.1.1-r1": [
+      "CVE-2026-47736",
+      "CVE-2026-47737",
+      "GHSA-2vqw-3mp8-cgmx",
+      "GHSA-qpgp-93vx-g8v8"
+    ],
+    "19.1.1-r3": [
+      "CVE-2026-33637",
+      "CVE-2026-54297",
+      "GHSA-537c-gmf6-5ccf",
+      "GHSA-5rv5-xj5j-3484",
+      "GHSA-98m9-hrrm-r99r"
+    ],
+    "19.1.1-r4": [
+      "CVE-2026-41178",
+      "GHSA-5wrp-cwcj-q835",
+      "GO-2026-5158"
+    ],
+    "19.1.3-r0": [
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-hm4w-wwcw-mr6r"
+    ],
+    "19.1.3-r1": [
+      "GHSA-hrxh-6v49-42gf",
+      "GO-2026-6061"
+    ],
+    "19.1.7-r5": [
+      "CVE-2026-84304",
+      "GHSA-vp52-pcj8-j9qc",
+      "GO-2026-6348"
+    ],
+    "19.1.8-r1": [
+      "CVE-2026-84445",
+      "GHSA-2v4p-qf9q-27wj",
+      "GO-2026-6443"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

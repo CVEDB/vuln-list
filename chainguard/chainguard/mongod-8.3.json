@@ -1,0 +1,27 @@
+{
+  "name": "mongod-8.3",
+  "secfixes": {
+    "8.3.4-r1": [
+      "CVE-2026-53550",
+      "GHSA-h67p-54hq-rp68"
+    ],
+    "8.3.4-r2": [
+      "CVE-2026-59869",
+      "GHSA-52cp-r559-cp3m"
+    ],
+    "8.3.7-r2": [
+      "GHSA-5p4m-2wfm-xmqj"
+    ],
+    "8.3.9-r1": [
+      "CVE-2026-84375",
+      "GHSA-2883-xcg3-v3hh"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,0 +1,87 @@
+{
+  "name": "dbt-bigquery",
+  "secfixes": {
+    "1.10.3-r1": [
+      "CVE-2026-0994",
+      "CVE-2026-23490",
+      "CVE-2026-23949",
+      "CVE-2026-24049",
+      "CVE-2026-25645",
+      "CVE-2026-29790",
+      "CVE-2026-30922",
+      "CVE-2026-33155",
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "CVE-2026-45409",
+      "GHSA-54jj-px8x-5w5q",
+      "GHSA-58pv-8j8x-9vj2",
+      "GHSA-63vm-454h-vhhq",
+      "GHSA-65pc-fj4g-8rjx",
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8rrh-rw8j-w5fx",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-jr27-m4p2-rc6r",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc",
+      "GHSA-w75w-9qv4-j5xj"
+    ],
+    "1.10.3-r11": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "1.10.3-r2": [
+      "CVE-2026-26007",
+      "CVE-2026-34073",
+      "GHSA-m959-cc7f-wv43",
+      "GHSA-r6ph-v2qm-q3c2"
+    ],
+    "1.10.3-r3": [
+      "CVE-2026-25087",
+      "GHSA-rgxp-2hwp-jwgg"
+    ],
+    "1.10.3-r4": [
+      "GHSA-537c-gmf6-5ccf"
+    ],
+    "1.10.3-r5": [
+      "GHSA-6v7p-g79w-8964"
+    ],
+    "1.10.3-r6": [
+      "CVE-2026-59884",
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "CVE-2026-59890",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-h35f-9h28-mq5c",
+      "GHSA-hm4w-wwcw-mr6r",
+      "GHSA-m4p7-r5rc-7g4j"
+    ],
+    "1.10.3-r7": [
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5"
+    ],
+    "1.10.3-r8": [
+      "CVE-2026-54284",
+      "CVE-2026-59893",
+      "CVE-2026-59894",
+      "CVE-2026-71491",
+      "CVE-2026-84305",
+      "GHSA-3496-9g83-7v6x",
+      "GHSA-cfqr-cjx5-5jcm",
+      "GHSA-f2ff-p2ww-7p4p",
+      "GHSA-prg7-hcfm-mfcr",
+      "GHSA-pwgv-4x5q-6m9f"
+    ],
+    "1.10.3-r9": [
+      "CVE-2026-49264",
+      "CVE-2026-49265",
+      "GHSA-hj66-6f7g-4r5v",
+      "GHSA-xpv3-w29h-x7cv"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

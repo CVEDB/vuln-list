@@ -1,0 +1,58 @@
+{
+  "name": "typst",
+  "secfixes": {
+    "0.14.2-r0": [
+      "CVE-2025-66627",
+      "GHSA-g4v2-cjqp-rfmq"
+    ],
+    "0.14.2-r1": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "0.14.2-r10": [
+      "CVE-2026-45784",
+      "GHSA-phqj-4mhp-q6mq"
+    ],
+    "0.14.2-r11": [
+      "GHSA-3pv8-6f4r-ffg2"
+    ],
+    "0.14.2-r2": [
+      "CVE-2026-33055",
+      "CVE-2026-33056",
+      "GHSA-gchp-q4r4-x4ff",
+      "GHSA-j4xf-2g29-59ph"
+    ],
+    "0.14.2-r5": [
+      "CVE-2026-6654",
+      "GHSA-xphw-cqx3-667j"
+    ],
+    "0.14.2-r6": [
+      "GHSA-cq8v-f236-94qc"
+    ],
+    "0.14.2-r7": [
+      "CVE-2026-41676",
+      "CVE-2026-41677",
+      "CVE-2026-41678",
+      "CVE-2026-41681",
+      "CVE-2026-41898",
+      "GHSA-8c75-8mhr-p7r9",
+      "GHSA-ghm9-cr32-g9qj",
+      "GHSA-hppc-g8h3-xhp3",
+      "GHSA-pqf5-4pqq-29f5",
+      "GHSA-xmgf-hq76-4vx2"
+    ],
+    "0.14.2-r8": [
+      "CVE-2026-42327",
+      "CVE-2026-44662",
+      "GHSA-xp3w-r5p5-63rr",
+      "GHSA-xv59-967r-8726"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

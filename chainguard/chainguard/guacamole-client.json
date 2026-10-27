@@ -1,0 +1,87 @@
+{
+  "name": "guacamole-client",
+  "secfixes": {
+    "1.6.0-r10": [
+      "CVE-2026-18401",
+      "CVE-2026-54512",
+      "CVE-2026-54513",
+      "CVE-2026-54514",
+      "CVE-2026-8149",
+      "GHSA-6qm2-mcq7-53qp",
+      "GHSA-72hv-8253-57qq",
+      "GHSA-hgj6-7826-r7m5",
+      "GHSA-j3rv-43j4-c7qm",
+      "GHSA-mx76-r943-rf8g",
+      "GHSA-rmj7-2vxq-3g9f"
+    ],
+    "1.6.0-r12": [
+      "CVE-2026-54515",
+      "GHSA-5jmj-h7xm-6q6v"
+    ],
+    "1.6.0-r13": [
+      "CVE-2026-41409",
+      "CVE-2026-41635",
+      "CVE-2026-42778",
+      "CVE-2026-42779",
+      "CVE-2026-47065",
+      "GHSA-8297-v2rf-2p32",
+      "GHSA-995c-6rp3-4m4x",
+      "GHSA-f2wh-grmh-r6jm",
+      "GHSA-v3pr-hxpr-mfm8",
+      "GHSA-vf5j-865m-mq7c"
+    ],
+    "1.6.0-r15": [
+      "CVE-2026-54291",
+      "GHSA-j92g-9f8w-j867"
+    ],
+    "1.6.0-r16": [
+      "CVE-2026-13505",
+      "CVE-2026-8798",
+      "GHSA-98j2-6v39-78w8",
+      "GHSA-v6w3-qrh8-qccc"
+    ],
+    "1.6.0-r17": [
+      "CVE-2026-13506",
+      "CVE-2026-8763",
+      "GHSA-9pwp-9qqc-pr26",
+      "GHSA-qp49-qgx5-5m26"
+    ],
+    "1.6.0-r18": [
+      "CVE-2026-19032",
+      "CVE-2026-68497",
+      "CVE-2026-83557",
+      "GHSA-gx83-3vf8-gh7j",
+      "GHSA-q4xh-88c3-wmh7",
+      "GHSA-wjgm-6hv5-3cvf"
+    ],
+    "1.6.0-r19": [
+      "CVE-2026-91776",
+      "CVE-2026-91777",
+      "GHSA-cxp5-3px4-pw24",
+      "GHSA-wv8q-qhhj-9h54"
+    ],
+    "1.6.0-r2": [
+      "CVE-2025-12194",
+      "GHSA-jv6h-4262-q663"
+    ],
+    "1.6.0-r5": [
+      "CVE-2026-0636",
+      "GHSA-c3fc-8qff-9hwx"
+    ],
+    "1.6.0-r6": [
+      "CVE-2026-5588",
+      "GHSA-wg6q-6289-32hp"
+    ],
+    "1.6.0-r7": [
+      "CVE-2026-42198",
+      "GHSA-98qh-xjc8-98pq"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

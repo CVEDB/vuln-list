@@ -1,6 +1,10 @@
 {
   "name": "redis-7.4",
   "secfixes": {
+    "0": [
+      "CVE-2025-46686",
+      "GHSA-f46f-fjf4-h4m2"
+    ],
     "7.4.1-r0": [
       "CVE-2024-31227",
       "CVE-2024-31228",
@@ -16,12 +20,18 @@
     "7.4.5-r0": [
       "CVE-2025-32023",
       "CVE-2025-48367"
+    ],
+    "7.4.7-r0": [
+      "CVE-2022-0543",
+      "CVE-2022-3734",
+      "GHSA-4x76-2j9h-q9r9",
+      "GHSA-9wpj-h5jq-88p9"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

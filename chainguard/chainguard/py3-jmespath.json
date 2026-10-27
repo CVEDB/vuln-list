@@ -3,13 +3,15 @@
   "secfixes": {
     "0": [
       "CVE-2022-32511",
-      "GHSA-5c5f-7vfq-3732"
+      "CVE-2026-54133",
+      "GHSA-5c5f-7vfq-3732",
+      "GHSA-pcw8-m77r-2528"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

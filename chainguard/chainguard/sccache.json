@@ -2,7 +2,9 @@
   "name": "sccache",
   "secfixes": {
     "0.10.0-r1": [
-      "GHSA-4p46-pwfr-66x6"
+      "CVE-2025-4432",
+      "GHSA-4p46-pwfr-66x6",
+      "GO-2025-3678"
     ],
     "0.10.0-r2": [
       "GHSA-4fcv-w3qc-ppgg"
@@ -12,7 +14,82 @@
     ],
     "0.10.0-r4": [
       "CVE-2025-4432",
-      "GHSA-c86p-w88r-qvqr"
+      "GHSA-c86p-w88r-qvqr",
+      "GO-2025-3678"
+    ],
+    "0.12.0-r1": [
+      "CVE-2023-49092",
+      "CVE-2026-21895",
+      "GHSA-4grx-2x9w-596c",
+      "GHSA-9c48-w39g-hm26",
+      "GHSA-c38w-74pg-36hr"
+    ],
+    "0.13.0-r2": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "0.14.0-r0": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "0.14.0-r2": [
+      "CVE-2026-31812",
+      "GHSA-6xvm-j4wr-6v98"
+    ],
+    "0.14.0-r3": [
+      "CVE-2026-33055",
+      "CVE-2026-33056",
+      "GHSA-gchp-q4r4-x4ff",
+      "GHSA-j4xf-2g29-59ph"
+    ],
+    "0.14.0-r4": [
+      "CVE-2026-41676",
+      "CVE-2026-41677",
+      "CVE-2026-41678",
+      "CVE-2026-41681",
+      "CVE-2026-41898",
+      "GHSA-8c75-8mhr-p7r9",
+      "GHSA-ghm9-cr32-g9qj",
+      "GHSA-hppc-g8h3-xhp3",
+      "GHSA-pqf5-4pqq-29f5",
+      "GHSA-xmgf-hq76-4vx2"
+    ],
+    "0.15.0-r1": [
+      "GHSA-82j2-j2ch-gfr8",
+      "GHSA-965h-392x-2mh5",
+      "GHSA-pwjx-qhcg-rvj4",
+      "GHSA-xgp8-3hg3-c2mh"
+    ],
+    "0.15.0-r2": [
+      "CVE-2026-42327",
+      "CVE-2026-44662",
+      "GHSA-xp3w-r5p5-63rr",
+      "GHSA-xv59-967r-8726"
+    ],
+    "0.15.0-r3": [
+      "GHSA-cq8v-f236-94qc"
+    ],
+    "0.15.0-r4": [
+      "CVE-2026-45784",
+      "GHSA-phqj-4mhp-q6mq"
+    ],
+    "0.15.0-r6": [
+      "GHSA-3pv8-6f4r-ffg2"
+    ],
+    "0.17.0-r0": [
+      "GHSA-4w2j-m93h-cj5j"
+    ],
+    "0.18.0-r0": [
+      "CVE-2026-25537",
+      "GHSA-h395-gr6q-cpjc"
+    ],
+    "0.18.0-r2": [
+      "GHSA-5j98-2g5x-46v6",
+      "GHSA-6f2x-v7q7-m7m5",
+      "GHSA-6w6g-hm98-mhgm"
+    ],
+    "0.18.0-r3": [
+      "GHSA-2mjx-qc3c-rqvc"
     ],
     "0.8.1-r2": [
       "GHSA-q445-7m23-qrmw"
@@ -28,8 +105,8 @@
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

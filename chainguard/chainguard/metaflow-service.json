@@ -1,0 +1,94 @@
+{
+  "name": "metaflow-service",
+  "secfixes": {
+    "2.5.0-r10": [
+      "CVE-2026-22815",
+      "CVE-2026-34513",
+      "CVE-2026-34514",
+      "CVE-2026-34515",
+      "CVE-2026-34516",
+      "CVE-2026-34517",
+      "CVE-2026-34518",
+      "CVE-2026-34519",
+      "CVE-2026-34520",
+      "CVE-2026-34525",
+      "CVE-2026-39892",
+      "GHSA-2vrm-gr82-f7m5",
+      "GHSA-3wq7-rqq7-wx6j",
+      "GHSA-63hf-3vf5-4wqf",
+      "GHSA-966j-vmvw-g2g9",
+      "GHSA-c427-h43c-vf67",
+      "GHSA-hcc4-c3v8-rx92",
+      "GHSA-m5qp-6w8w-w647",
+      "GHSA-mwh4-6h8g-pg8w",
+      "GHSA-p423-j2cm-9vmq",
+      "GHSA-p998-jp59-783m",
+      "GHSA-w2fm-2cpv-w7v5"
+    ],
+    "2.5.0-r11": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "CVE-2026-45409",
+      "GHSA-65pc-fj4g-8rjx",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "2.5.0-r3": [
+      "CVE-2026-0994",
+      "CVE-2026-23490",
+      "GHSA-63vm-454h-vhhq",
+      "GHSA-7gcm-g887-7qv7"
+    ],
+    "2.5.0-r4": [
+      "CVE-2026-26007",
+      "GHSA-r6ph-v2qm-q3c2"
+    ],
+    "2.5.0-r7": [
+      "CVE-2026-25645",
+      "CVE-2026-30922",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-jr27-m4p2-rc6r"
+    ],
+    "2.5.1-r1": [
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-hm4w-wwcw-mr6r"
+    ],
+    "2.5.1-r2": [
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5"
+    ],
+    "2.6.1-r3": [
+      "CVE-2026-49264",
+      "CVE-2026-49265",
+      "GHSA-hj66-6f7g-4r5v",
+      "GHSA-xpv3-w29h-x7cv"
+    ],
+    "2.6.1-r5": [
+      "CVE-2026-111063",
+      "CVE-2026-111064",
+      "CVE-2026-111065",
+      "CVE-2026-111066",
+      "CVE-2026-111748",
+      "CVE-2026-111749",
+      "CVE-2026-111750",
+      "GHSA-2g87-pp6c-29x5",
+      "GHSA-494j-54xm-rwp3",
+      "GHSA-5wr8-gcqf-gqf3",
+      "GHSA-6cjc-53gc-5rqm",
+      "GHSA-6q48-6c7w-9gw2",
+      "GHSA-9xw5-w5jj-pvcg",
+      "GHSA-f9xw-jh8m-3mwq",
+      "GHSA-gx76-c99x-2c96",
+      "GHSA-pqxq-w44r-73xw"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

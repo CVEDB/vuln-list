@@ -1,0 +1,64 @@
+{
+  "name": "vllm-cuda-13.2",
+  "secfixes": {
+    "0.21.0-r1": [
+      "CVE-2026-34993",
+      "CVE-2026-47265",
+      "GHSA-hg6j-4rv6-33pg",
+      "GHSA-jg22-mg44-37j8"
+    ],
+    "0.23.0-r1": [
+      "GHSA-4xgf-cpjx-pc3j"
+    ],
+    "0.24.0-r0": [
+      "CVE-2026-12491",
+      "CVE-2026-53923",
+      "CVE-2026-54233",
+      "CVE-2026-54235",
+      "CVE-2026-54236",
+      "GHSA-5jv2-g5wq-cmr4",
+      "GHSA-6pr9-rp53-2pmc",
+      "GHSA-7h4p-rffg-7823",
+      "GHSA-8jr5-v98p-w75m",
+      "GHSA-hgg8-fqqc-vfmw"
+    ],
+    "0.26.0-r0": [
+      "CVE-2025-69872",
+      "CVE-2026-69244",
+      "CVE-2026-69247",
+      "GHSA-cq5v-8q36-5273",
+      "GHSA-g6cj-pr64-35w5",
+      "GHSA-w8v5-vhqr-4h9v"
+    ],
+    "0.27.1-r0": [
+      "CVE-2025-3000",
+      "GHSA-rrmf-rvhw-rf47"
+    ],
+    "0.32.0-r0": [
+      "CVE-2026-105752",
+      "CVE-2026-105754",
+      "CVE-2026-105755",
+      "CVE-2026-105756",
+      "CVE-2026-105757",
+      "CVE-2026-105758",
+      "CVE-2026-105760",
+      "GHSA-2823-qmq8-rwvj",
+      "GHSA-2phq-3phc-84px",
+      "GHSA-58v5-2m8f-94pr",
+      "GHSA-85xf-c7hm-whqw",
+      "GHSA-935w-9g4m-p28p",
+      "GHSA-ph72-cqr5-qpp7",
+      "GHSA-x6mc-67gf-chw4"
+    ],
+    "0.32.0-r1": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

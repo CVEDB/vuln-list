@@ -1,0 +1,52 @@
+{
+  "name": "duplicity",
+  "secfixes": {
+    "3.0.7-r2": [
+      "CVE-2026-0994",
+      "CVE-2026-21226",
+      "CVE-2026-23490",
+      "CVE-2026-23949",
+      "CVE-2026-24049",
+      "GHSA-58pv-8j8x-9vj2",
+      "GHSA-63vm-454h-vhhq",
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-8rrh-rw8j-w5fx",
+      "GHSA-jm66-cg57-jjv5"
+    ],
+    "3.0.7-r4": [
+      "CVE-2026-44405",
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc",
+      "GHSA-r374-rxx8-8654"
+    ],
+    "3.1.0-r1": [
+      "GHSA-537c-gmf6-5ccf"
+    ],
+    "3.1.0-r2": [
+      "CVE-2026-59884",
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "CVE-2026-59890",
+      "CVE-2026-59939",
+      "CVE-2026-69247",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-g6cj-pr64-35w5",
+      "GHSA-h35f-9h28-mq5c",
+      "GHSA-hm4w-wwcw-mr6r",
+      "GHSA-j5g9-f88f-gfj3",
+      "GHSA-m4p7-r5rc-7g4j"
+    ],
+    "3.2.2-r2": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,0 +1,48 @@
+{
+  "name": "ztunnel-fips-1.29",
+  "secfixes": {
+    "1.29.1-r1": [
+      "GHSA-pwjx-qhcg-rvj4"
+    ],
+    "1.29.1-r2": [
+      "GHSA-965h-392x-2mh5",
+      "GHSA-xgp8-3hg3-c2mh"
+    ],
+    "1.29.1-r3": [
+      "CVE-2026-41676",
+      "CVE-2026-41677",
+      "CVE-2026-41678",
+      "CVE-2026-41681",
+      "CVE-2026-41898",
+      "GHSA-8c75-8mhr-p7r9",
+      "GHSA-ghm9-cr32-g9qj",
+      "GHSA-hppc-g8h3-xhp3",
+      "GHSA-pqf5-4pqq-29f5",
+      "GHSA-xmgf-hq76-4vx2"
+    ],
+    "1.29.1-r4": [
+      "GHSA-82j2-j2ch-gfr8"
+    ],
+    "1.29.2-r2": [
+      "CVE-2026-42327",
+      "GHSA-xp3w-r5p5-63rr"
+    ],
+    "1.29.3-r1": [
+      "GHSA-3v94-mw7p-v465"
+    ],
+    "1.29.3-r2": [
+      "CVE-2026-45784",
+      "GHSA-phqj-4mhp-q6mq"
+    ],
+    "1.29.3-r3": [
+      "GHSA-q2qq-hmj6-3wpp"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

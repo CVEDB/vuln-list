@@ -1,0 +1,47 @@
+{
+  "name": "prefect-fips",
+  "secfixes": {
+    "3.6.23-r0": [
+      "CVE-2026-25645",
+      "GHSA-gc5v-m9x4-r6x2"
+    ],
+    "3.6.24-r0": [
+      "CVE-2026-4539",
+      "GHSA-5239-wwwm-4pmq"
+    ],
+    "3.6.27-r0": [
+      "CVE-2026-41205",
+      "GHSA-v92g-xgxw-vvmm"
+    ],
+    "3.7.0-r1": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "3.7.3-r0": [
+      "CVE-2026-34444",
+      "GHSA-69v7-xpr6-6gjm"
+    ],
+    "3.7.5-r0": [
+      "CVE-2026-54282",
+      "CVE-2026-54283",
+      "GHSA-82w8-qh3p-5jfq",
+      "GHSA-jp82-jpqv-5vv3"
+    ],
+    "3.7.6-r0": [
+      "GHSA-4xgf-cpjx-pc3j"
+    ],
+    "3.8.1-r1": [
+      "CVE-2026-71554",
+      "GHSA-6hr6-w5qg-qmwg"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

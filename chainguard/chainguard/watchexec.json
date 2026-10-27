@@ -1,0 +1,31 @@
+{
+  "name": "watchexec",
+  "secfixes": {
+    "2.3.3-r0": [
+      "CVE-2026-0810",
+      "GHSA-6mw6-mj76-grwc"
+    ],
+    "2.3.3-r2": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "2.3.3-r3": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "2.5.1-r1": [
+      "GHSA-cq8v-f236-94qc"
+    ],
+    "2.6.1-r0": [
+      "CVE-2026-44471",
+      "GHSA-f89h-2fjh-2r9q"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

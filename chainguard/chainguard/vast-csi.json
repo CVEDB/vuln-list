@@ -1,0 +1,34 @@
+{
+  "name": "vast-csi",
+  "secfixes": {
+    "2.6.5-r1": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "CVE-2026-45409",
+      "GHSA-65pc-fj4g-8rjx",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "2.6.5-r2": [
+      "GHSA-537c-gmf6-5ccf"
+    ],
+    "2.6.5-r3": [
+      "CVE-2026-59890",
+      "GHSA-h35f-9h28-mq5c"
+    ],
+    "2.6.6-r0": [
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5"
+    ],
+    "2.7.1-r2": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

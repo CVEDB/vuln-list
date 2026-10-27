@@ -1,0 +1,60 @@
+{
+  "name": "sentry-cli",
+  "secfixes": {
+    "3.0.2-r1": [
+      "GHSA-rhfx-m35p-ff5j"
+    ],
+    "3.1.0-r1": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "3.2.0-r0": [
+      "CVE-2026-25727",
+      "GHSA-j39j-6gw9-jw6h",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "3.3.4-r1": [
+      "GHSA-pwjx-qhcg-rvj4"
+    ],
+    "3.3.5-r1": [
+      "GHSA-965h-392x-2mh5",
+      "GHSA-xgp8-3hg3-c2mh"
+    ],
+    "3.4.0-r0": [
+      "CVE-2026-41676",
+      "CVE-2026-41677",
+      "CVE-2026-41678",
+      "CVE-2026-41681",
+      "CVE-2026-41898",
+      "GHSA-8c75-8mhr-p7r9",
+      "GHSA-ghm9-cr32-g9qj",
+      "GHSA-hppc-g8h3-xhp3",
+      "GHSA-pqf5-4pqq-29f5",
+      "GHSA-xmgf-hq76-4vx2"
+    ],
+    "3.4.0-r1": [
+      "GHSA-82j2-j2ch-gfr8"
+    ],
+    "3.4.1-r1": [
+      "CVE-2026-42327",
+      "GHSA-xp3w-r5p5-63rr"
+    ],
+    "3.4.2-r0": [
+      "GHSA-cq8v-f236-94qc"
+    ],
+    "3.4.2-r1": [
+      "CVE-2026-45784",
+      "GHSA-phqj-4mhp-q6mq"
+    ],
+    "3.8.0-r4": [
+      "GHSA-2mjx-qc3c-rqvc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

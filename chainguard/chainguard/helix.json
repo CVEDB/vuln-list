@@ -1,6 +1,12 @@
 {
   "name": "helix",
   "secfixes": {
+    "0": [
+      "CVE-2025-24890",
+      "CVE-2026-40034",
+      "GHSA-7rhf-42qf-vrvc",
+      "GHSA-f26g-jm89-4g65"
+    ],
     "25.01-r0": [
       "CVE-2024-12224",
       "GHSA-h97m-ww89-6jmq"
@@ -9,12 +15,16 @@
       "CVE-2025-31130",
       "GHSA-2frx-2596-x5r6",
       "GHSA-rr8g-9fpq-6wmg"
+    ],
+    "25.07.1-r2": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

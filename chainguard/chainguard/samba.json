@@ -2,26 +2,38 @@
   "name": "samba",
   "secfixes": {
     "0": [
+      "CVE-2011-2411",
       "CVE-2022-32743",
+      "GHSA-54vh-qpwp-xfr9",
       "GHSA-57p4-2x7w-phr2"
     ],
     "4.22.0-r0": [
       "CVE-2007-2407",
-      "CVE-2011-2411",
       "CVE-2022-37966",
       "CVE-2022-37967",
       "CVE-2022-38023",
-      "GHSA-54vh-qpwp-xfr9",
       "GHSA-99jh-qmjr-pm5j",
       "GHSA-jrg7-vpcv-rf8r",
       "GHSA-jv6m-h4m5-f426",
       "GHSA-vww6-8mc9-cqg6"
+    ],
+    "4.23.2-r0": [
+      "CVE-2018-14628",
+      "CVE-2021-3670",
+      "CVE-2022-1615",
+      "GHSA-88v2-p2r7-rvpx",
+      "GHSA-hhph-6qvj-8859",
+      "GHSA-p9j9-qqwf-j574"
+    ],
+    "4.24.3-r0": [
+      "CVE-2026-2340",
+      "GHSA-m6w2-p258-gxqp"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

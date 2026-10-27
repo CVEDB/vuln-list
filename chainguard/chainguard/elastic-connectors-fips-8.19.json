@@ -1,0 +1,39 @@
+{
+  "name": "elastic-connectors-fips-8.19",
+  "secfixes": {
+    "8.19.23-r0": [
+      "CVE-2026-88029",
+      "CVE-2026-96747",
+      "CVE-2026-96748",
+      "CVE-2026-96749",
+      "GHSA-8fvv-fgr5-f8ch",
+      "GHSA-8h2c-ghff-mpg9",
+      "GHSA-qx36-8mw2-4r3x",
+      "GHSA-v4x9-3549-crwv",
+      "GHSA-vp6j-j7w5-5xjj"
+    ],
+    "8.19.23-r1": [
+      "CVE-2026-111063",
+      "CVE-2026-111064",
+      "GHSA-2g87-pp6c-29x5",
+      "GHSA-494j-54xm-rwp3",
+      "GHSA-5wr8-gcqf-gqf3"
+    ],
+    "8.19.23-r2": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "8.19.23-r3": [
+      "CVE-2026-75507",
+      "CVE-2026-75508",
+      "GHSA-r77w-qph3-7vf8",
+      "GHSA-vj8h-fx38-h3vc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

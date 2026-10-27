@@ -1,0 +1,18 @@
+{
+  "name": "py3-transformers-4.51",
+  "secfixes": {
+    "0": [
+      "CVE-2026-1839",
+      "CVE-2026-5241",
+      "GHSA-69w3-r845-3855",
+      "GHSA-fgcw-684q-jj6r"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

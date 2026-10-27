@@ -1,0 +1,168 @@
+{
+  "name": "text-generation-inference",
+  "secfixes": {
+    "3.3.6-r3": [
+      "CVE-2024-47081",
+      "CVE-2025-27516",
+      "CVE-2025-4565",
+      "CVE-2025-47273",
+      "CVE-2025-50181",
+      "CVE-2025-50182",
+      "CVE-2025-53643",
+      "GHSA-48p4-8xcf-vxj5",
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-8qvm-5x2c-j2w7",
+      "GHSA-9548-qrrj-x5pj",
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-cpwx-vrp4-4pq7",
+      "GHSA-pq67-6m6q-mj2v"
+    ],
+    "3.3.7-r0": [
+      "CVE-2025-68146",
+      "GHSA-w853-jp5j-5j7f"
+    ],
+    "3.3.7-r10": [
+      "CVE-2026-22815",
+      "CVE-2026-34513",
+      "CVE-2026-34514",
+      "CVE-2026-34515",
+      "CVE-2026-34516",
+      "CVE-2026-34517",
+      "CVE-2026-34518",
+      "CVE-2026-34519",
+      "CVE-2026-34520",
+      "CVE-2026-34525",
+      "GHSA-2vrm-gr82-f7m5",
+      "GHSA-3wq7-rqq7-wx6j",
+      "GHSA-63hf-3vf5-4wqf",
+      "GHSA-966j-vmvw-g2g9",
+      "GHSA-c427-h43c-vf67",
+      "GHSA-hcc4-c3v8-rx92",
+      "GHSA-m5qp-6w8w-w647",
+      "GHSA-mwh4-6h8g-pg8w",
+      "GHSA-p998-jp59-783m",
+      "GHSA-w2fm-2cpv-w7v5"
+    ],
+    "3.3.7-r11": [
+      "CVE-2026-40192",
+      "GHSA-whj4-6x5x-4v2j"
+    ],
+    "3.3.7-r12": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "3.3.7-r13": [
+      "CVE-2026-45409",
+      "GHSA-65pc-fj4g-8rjx"
+    ],
+    "3.3.7-r14": [
+      "CVE-2026-34993",
+      "CVE-2026-47265",
+      "GHSA-hg6j-4rv6-33pg",
+      "GHSA-jg22-mg44-37j8"
+    ],
+    "3.3.7-r15": [
+      "CVE-2026-25087",
+      "GHSA-rgxp-2hwp-jwgg"
+    ],
+    "3.3.7-r16": [
+      "CVE-2026-54273",
+      "CVE-2026-54274",
+      "CVE-2026-54275",
+      "CVE-2026-54276",
+      "CVE-2026-54277",
+      "CVE-2026-54278",
+      "CVE-2026-54279",
+      "CVE-2026-54280",
+      "GHSA-2fqr-mr3j-6wp8",
+      "GHSA-4fvr-rgm6-gqmc",
+      "GHSA-4m7w-qmgq-4wj5",
+      "GHSA-63hw-fmq6-xxg2",
+      "GHSA-9x8q-7h8h-wcw9",
+      "GHSA-g3cq-j2xw-wf74",
+      "GHSA-hpj7-wq8m-9hgp",
+      "GHSA-xcgm-r5h9-7989"
+    ],
+    "3.3.7-r18": [
+      "CVE-2026-1839",
+      "CVE-2026-4372",
+      "GHSA-29pf-2h5f-8g72",
+      "GHSA-69w3-r845-3855"
+    ],
+    "3.3.7-r20": [
+      "CVE-2026-54058",
+      "CVE-2026-54059",
+      "CVE-2026-54060",
+      "CVE-2026-55379",
+      "CVE-2026-55380",
+      "CVE-2026-55798",
+      "CVE-2026-59197",
+      "CVE-2026-59198",
+      "CVE-2026-59199",
+      "CVE-2026-59200",
+      "CVE-2026-59203",
+      "CVE-2026-59204",
+      "CVE-2026-59205",
+      "GHSA-45hq-cxwh-f6vc",
+      "GHSA-4x4j-2g7c-83w6",
+      "GHSA-5x94-69rx-g8h2",
+      "GHSA-62p4-gmf7-7g93",
+      "GHSA-6r8x-57c9-28j4",
+      "GHSA-8v84-f9pq-wr9x",
+      "GHSA-9hw9-ch79-4vh6",
+      "GHSA-fj7v-r99m-22gq",
+      "GHSA-jjj6-mw9f-p565",
+      "GHSA-pg7v-jwj7-p798",
+      "GHSA-phj9-mv4w-65pm",
+      "GHSA-vjc4-5qp5-m44j",
+      "GHSA-xj96-63gp-2gmr"
+    ],
+    "3.3.7-r21": [
+      "CVE-2026-5241",
+      "GHSA-fgcw-684q-jj6r"
+    ],
+    "3.3.7-r22": [
+      "CVE-2026-59890",
+      "GHSA-h35f-9h28-mq5c"
+    ],
+    "3.3.7-r23": [
+      "CVE-2026-59881",
+      "CVE-2026-69243",
+      "CVE-2026-69244",
+      "GHSA-cq5v-8q36-5273",
+      "GHSA-mfx4-hv73-q22v",
+      "GHSA-mq44-7p77-q5h7"
+    ],
+    "3.3.7-r24": [
+      "CVE-2026-9856",
+      "GHSA-xrqw-3rrv-vx5w"
+    ],
+    "3.3.7-r9": [
+      "CVE-2025-3777",
+      "CVE-2025-3933",
+      "CVE-2025-5197",
+      "CVE-2025-6051",
+      "CVE-2025-6638",
+      "CVE-2025-6921",
+      "CVE-2026-25645",
+      "CVE-2026-4539",
+      "GHSA-37mw-44qp-f5jm",
+      "GHSA-4w7r-h757-3r74",
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-59p9-h35m-wg4g",
+      "GHSA-9356-575x-2w9m",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-phhr-52qp-3mj4",
+      "GHSA-rcv9-qm8p-9p6j"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

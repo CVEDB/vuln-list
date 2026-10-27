@@ -1,0 +1,96 @@
+{
+  "name": "jenkins-2.555",
+  "secfixes": {
+    "2.555.2-r0": [
+      "CVE-2026-42519",
+      "CVE-2026-42521",
+      "GHSA-jp9r-mmhw-vff3",
+      "GHSA-p334-gfhq-c7w6"
+    ],
+    "2.555.2-r1": [
+      "CVE-2026-41409",
+      "CVE-2026-41635",
+      "CVE-2026-42778",
+      "CVE-2026-42779",
+      "GHSA-8297-v2rf-2p32",
+      "GHSA-995c-6rp3-4m4x",
+      "GHSA-f2wh-grmh-r6jm",
+      "GHSA-vf5j-865m-mq7c"
+    ],
+    "2.555.2-r2": [
+      "GHSA-2m67-wjpj-xhg9"
+    ],
+    "2.555.2-r3": [
+      "CVE-2026-0636",
+      "CVE-2026-2332",
+      "CVE-2026-3505",
+      "CVE-2026-5588",
+      "CVE-2026-5598",
+      "GHSA-355h-qmc2-wpwf",
+      "GHSA-c3fc-8qff-9hwx",
+      "GHSA-cj8j-37rh-8475",
+      "GHSA-p93r-85wp-75v3",
+      "GHSA-wg6q-6289-32hp"
+    ],
+    "2.555.3-r0": [
+      "CVE-2026-53435",
+      "CVE-2026-53436",
+      "CVE-2026-53437",
+      "CVE-2026-53438",
+      "CVE-2026-53439",
+      "CVE-2026-53440",
+      "CVE-2026-53441",
+      "CVE-2026-53442",
+      "GHSA-3rqh-hch3-jhpc",
+      "GHSA-463r-5m89-4xfr",
+      "GHSA-92m7-4fpw-2wxm",
+      "GHSA-93qh-vwrm-c5pw",
+      "GHSA-g28p-6mcc-v4rv",
+      "GHSA-g2xq-2v27-4rh3",
+      "GHSA-m6wv-wh8g-64xc",
+      "GHSA-mw82-xcg6-gx79"
+    ],
+    "2.555.3-r1": [
+      "CVE-2026-47838",
+      "GHSA-293q-567p-wmwq"
+    ],
+    "2.555.3-r2": [
+      "CVE-2026-54512",
+      "CVE-2026-54513",
+      "CVE-2026-54514",
+      "CVE-2026-54516",
+      "CVE-2026-54517",
+      "CVE-2026-54518",
+      "CVE-2026-68494",
+      "GHSA-5hh8-q8hv-fr38",
+      "GHSA-642r-3gj9-2pj5",
+      "GHSA-9fxm-vc8v-hj55",
+      "GHSA-hgj6-7826-r7m5",
+      "GHSA-j3rv-43j4-c7qm",
+      "GHSA-r7wm-3cxj-wff9",
+      "GHSA-rcqc-6cw3-h962",
+      "GHSA-rmj7-2vxq-3g9f"
+    ],
+    "2.555.3-r3": [
+      "CVE-2026-19032",
+      "CVE-2026-54515",
+      "CVE-2026-59889",
+      "CVE-2026-68497",
+      "CVE-2026-77310",
+      "CVE-2026-83557",
+      "GHSA-5gvw-p9qm-jgwh",
+      "GHSA-5jmj-h7xm-6q6v",
+      "GHSA-gx83-3vf8-gh7j",
+      "GHSA-q4xh-88c3-wmh7",
+      "GHSA-vvgp-rfg2-7rr6",
+      "GHSA-wjgm-6hv5-3cvf"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

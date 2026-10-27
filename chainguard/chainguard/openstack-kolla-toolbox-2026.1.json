@@ -1,0 +1,48 @@
+{
+  "name": "openstack-kolla-toolbox-2026.1",
+  "secfixes": {
+    "22.0.0-r2": [
+      "GHSA-6v7p-g79w-8964"
+    ],
+    "22.0.0-r3": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "22.0.0-r4": [
+      "CVE-2026-45409",
+      "GHSA-65pc-fj4g-8rjx"
+    ],
+    "22.0.0-r5": [
+      "CVE-2026-25645",
+      "GHSA-gc5v-m9x4-r6x2"
+    ],
+    "22.0.0-r6": [
+      "CVE-2026-4539",
+      "GHSA-5239-wwwm-4pmq"
+    ],
+    "22.0.0-r7": [
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5"
+    ],
+    "22.2.0-r3": [
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ],
+    "22.2.0-r7": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

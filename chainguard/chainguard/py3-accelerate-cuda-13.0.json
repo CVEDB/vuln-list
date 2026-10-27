@@ -1,0 +1,16 @@
+{
+  "name": "py3-accelerate-cuda-13.0",
+  "secfixes": {
+    "1.15.0-r0": [
+      "CVE-2026-69112",
+      "GHSA-4j2p-28q2-5m79"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

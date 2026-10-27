@@ -1,0 +1,82 @@
+{
+  "name": "datadog-agent-7.82",
+  "secfixes": {
+    "0": [
+      "CVE-2026-56855",
+      "CVE-2026-78659",
+      "CVE-2026-78660",
+      "CVE-2026-78662",
+      "CVE-2026-78663",
+      "CVE-2026-78669",
+      "CVE-2026-97032",
+      "GO-2026-5932",
+      "GO-2026-6354",
+      "GO-2026-6355",
+      "GO-2026-6603",
+      "GO-2026-6610",
+      "GO-2026-6611",
+      "GO-2026-6612",
+      "GO-2026-6617"
+    ],
+    "7.82.3-r1": [
+      "CVE-2026-84304",
+      "GHSA-vp52-pcj8-j9qc",
+      "GO-2026-6348"
+    ],
+    "7.82.3-r11": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "7.82.3-r12": [
+      "CVE-2026-114603",
+      "GHSA-xcq7-p3pf-p88h"
+    ],
+    "7.82.3-r2": [
+      "CVE-2026-84445",
+      "GHSA-2v4p-qf9q-27wj",
+      "GO-2026-6443"
+    ],
+    "7.82.3-r5": [
+      "CVE-2026-101917",
+      "CVE-2026-102265",
+      "CVE-2026-102266",
+      "CVE-2026-102267",
+      "CVE-2026-102268",
+      "CVE-2026-102269",
+      "CVE-2026-102271",
+      "CVE-2026-102272",
+      "CVE-2026-102273",
+      "CVE-2026-102274",
+      "GHSA-2gx3-rcp4-g85q",
+      "GHSA-8wjv-2p76-3863",
+      "GHSA-9j54-fg26-wv3r",
+      "GHSA-9v7f-9g4p-ffgj",
+      "GHSA-ffc3-869f-jxw9",
+      "GHSA-hxm8-2xgr-2p9m",
+      "GHSA-p4g4-x82p-q773",
+      "GHSA-r6x4-923q-g947",
+      "GHSA-w2cx-738m-mc7w",
+      "GHSA-w6j9-cwv2-h6wq"
+    ],
+    "7.82.3-r6": [
+      "CVE-2026-49264",
+      "CVE-2026-49265",
+      "GHSA-hj66-6f7g-4r5v",
+      "GHSA-xpv3-w29h-x7cv"
+    ],
+    "7.82.3-r7": [
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "wget",
+  "secfixes": {
+    "1.25.0-r15": [
+      "CVE-2026-58469",
+      "CVE-2026-58470",
+      "CVE-2026-58471",
+      "CVE-2026-58472",
+      "GHSA-332r-8pmf-8m9p",
+      "GHSA-5f52-px6m-c5hw",
+      "GHSA-fxf9-rxpj-26gx",
+      "GHSA-vv88-699v-w5rh"
+    ],
+    "1.25.0-r17": [
+      "CVE-2026-16599",
+      "GHSA-48r3-mr49-jp8x"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

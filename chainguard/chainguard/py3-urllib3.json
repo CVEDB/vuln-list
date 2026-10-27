@@ -8,12 +8,18 @@
     "2.2.2-r0": [
       "CVE-2024-37891",
       "GHSA-34jh-p97f-mpxf"
+    ],
+    "2.6.1-r0": [
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-gm62-xv2j-4w53"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

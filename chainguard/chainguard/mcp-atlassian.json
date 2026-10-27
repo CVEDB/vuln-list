@@ -1,0 +1,62 @@
+{
+  "name": "mcp-atlassian",
+  "secfixes": {
+    "0.21.1-r1": [
+      "GHSA-4xgf-cpjx-pc3j"
+    ],
+    "0.22.1-r0": [
+      "CVE-2026-73498",
+      "GHSA-489g-7rxv-6c8q",
+      "GHSA-g5r6-gv6m-f5jv",
+      "GHSA-wm45-qh3g-v83f"
+    ],
+    "0.23.0-r0": [
+      "CVE-2025-64340",
+      "CVE-2026-27124",
+      "CVE-2026-32871",
+      "GHSA-m8x7-r2rg-vh5g",
+      "GHSA-rww4-4w9c-7733",
+      "GHSA-vv7q-7jx5-f767"
+    ],
+    "0.23.0-r1": [
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5"
+    ],
+    "0.23.1-r2": [
+      "CVE-2026-101917",
+      "CVE-2026-102265",
+      "CVE-2026-102266",
+      "CVE-2026-102267",
+      "CVE-2026-102268",
+      "CVE-2026-102269",
+      "CVE-2026-102271",
+      "CVE-2026-102272",
+      "CVE-2026-102273",
+      "CVE-2026-102274",
+      "CVE-2026-49264",
+      "CVE-2026-49265",
+      "GHSA-2gx3-rcp4-g85q",
+      "GHSA-8wjv-2p76-3863",
+      "GHSA-9j54-fg26-wv3r",
+      "GHSA-9v7f-9g4p-ffgj",
+      "GHSA-ffc3-869f-jxw9",
+      "GHSA-hj66-6f7g-4r5v",
+      "GHSA-hxm8-2xgr-2p9m",
+      "GHSA-p4g4-x82p-q773",
+      "GHSA-r6x4-923q-g947",
+      "GHSA-w2cx-738m-mc7w",
+      "GHSA-w6j9-cwv2-h6wq",
+      "GHSA-xpv3-w29h-x7cv"
+    ],
+    "0.23.1-r4": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

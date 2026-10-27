@@ -1,0 +1,40 @@
+{
+  "name": "codex",
+  "secfixes": {
+    "0": [
+      "CVE-2026-48504",
+      "GHSA-3v94-mw7p-v465",
+      "GHSA-5j98-2g5x-46v6",
+      "GHSA-w9wp-h8wv-79jx"
+    ],
+    "0.147.0-r0": [
+      "GHSA-rhfx-m35p-ff5j"
+    ],
+    "0.149.0-r0": [
+      "CVE-2026-25537",
+      "CVE-2026-40034",
+      "CVE-2026-44471",
+      "GHSA-f26g-jm89-4g65",
+      "GHSA-f89h-2fjh-2r9q",
+      "GHSA-fr8x-3vfx-f45h",
+      "GHSA-h395-gr6q-cpjc",
+      "GHSA-p3hw-mv63-rf9w",
+      "GHSA-pg4w-g64p-qwhj",
+      "GHSA-x494-mj8g-cj27"
+    ],
+    "0.158.0-r1": [
+      "GHSA-q2qq-hmj6-3wpp"
+    ],
+    "0.162.1-r1": [
+      "CVE-2026-18140",
+      "GHSA-8ffr-xgwf-xj56"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

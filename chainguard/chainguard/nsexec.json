@@ -1,0 +1,17 @@
+{
+  "name": "nsexec",
+  "secfixes": {
+    "0.1.7-r2": [
+      "CVE-2021-45707",
+      "GHSA-76w9-p8mg-j927",
+      "GHSA-wgrg-5h56-jg27"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "lmcache-cuda-13.0",
+  "secfixes": {
+    "0.5.3-r1": [
+      "CVE-2025-3000",
+      "GHSA-rrmf-rvhw-rf47"
+    ],
+    "0.5.3-r2": [
+      "CVE-2026-84379",
+      "CVE-2026-84380",
+      "CVE-2026-84382",
+      "GHSA-8xx6-hgc6-gc2m",
+      "GHSA-h4x7-gw46-3wm6",
+      "GHSA-pf96-p4fj-6566"
+    ],
+    "0.5.5-r1": [
+      "CVE-2026-101918",
+      "CVE-2026-102275",
+      "GHSA-42vr-xj54-vc7v",
+      "GHSA-x33g-cr3x-6449"
+    ],
+    "0.5.6-r0": [
+      "CVE-2026-105192",
+      "GHSA-w5f2-9q9c-ff4h"
+    ],
+    "0.5.6-r1": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

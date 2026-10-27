@@ -1,0 +1,79 @@
+{
+  "name": "openstack-glance-2025.2",
+  "secfixes": {
+    "0": [
+      "CVE-2015-5286",
+      "GHSA-gvjg-r9fv-7qx9"
+    ],
+    "31.1.0_git20260617-r1": [
+      "CVE-2026-48522",
+      "CVE-2026-48523",
+      "CVE-2026-48524",
+      "CVE-2026-48525",
+      "CVE-2026-48526",
+      "GHSA-993g-76c3-p5m4",
+      "GHSA-fhv5-28vv-h8m8",
+      "GHSA-jq35-7prp-9v3f",
+      "GHSA-w7vc-732c-9m39",
+      "GHSA-xgmm-8j9v-c9wx"
+    ],
+    "31.1.0_git20260617-r4": [
+      "CVE-2026-54911",
+      "GHSA-3j69-69wj-xqx2",
+      "GHSA-6v7p-g79w-8964"
+    ],
+    "31.1.0_git20260708-r1": [
+      "CVE-2026-59939",
+      "GHSA-j5g9-f88f-gfj3"
+    ],
+    "31.1.0_git20260708-r2": [
+      "CVE-2026-69247",
+      "CVE-2026-69248",
+      "CVE-2026-69249",
+      "GHSA-537c-gmf6-5ccf",
+      "GHSA-g6cj-pr64-35w5",
+      "GHSA-jwv3-5hgf-82ww",
+      "GHSA-m2h6-j472-rp4c"
+    ],
+    "31.1.0_git20260818-r1": [
+      "CVE-2026-54284",
+      "CVE-2026-59893",
+      "CVE-2026-59894",
+      "CVE-2026-71491",
+      "GHSA-3496-9g83-7v6x",
+      "GHSA-f2ff-p2ww-7p4p",
+      "GHSA-prg7-hcfm-mfcr",
+      "GHSA-pwgv-4x5q-6m9f"
+    ],
+    "31.1.0_git20260818-r2": [
+      "CVE-2026-54770",
+      "GHSA-6hx8-3wjj-gr8g"
+    ],
+    "31.1.0_git20260925-r3": [
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ],
+    "31.1.0_git20260925-r4": [
+      "CVE-2026-101918",
+      "GHSA-42vr-xj54-vc7v"
+    ],
+    "31.1.0_git20260925-r6": [
+      "CVE-2026-102991",
+      "GHSA-5639-2j2p-m4mx"
+    ],
+    "31.1.0_git20261006-r2": [
+      "GHSA-6q48-6c7w-9gw2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "verdaccio",
+  "secfixes": {
+    "0": [
+      "CVE-2026-93748",
+      "GHSA-ch52-4w7c-c8xp"
+    ],
+    "6.10.4-r1": [
+      "CVE-2026-102276",
+      "GHSA-6j4f-fj2g-mc7p"
+    ],
+    "6.10.4-r2": [
+      "GHSA-r3ph-w7gj-g6xm"
+    ],
+    "6.10.4-r3": [
+      "CVE-2026-102277",
+      "CVE-2026-102278",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7"
+    ],
+    "6.10.5-r1": [
+      "CVE-2026-90711",
+      "GHSA-jqcg-44mw-7w3h"
+    ],
+    "6.10.5-r2": [
+      "CVE-2026-87776",
+      "GHSA-vc2v-76pw-4v95"
+    ],
+    "6.10.5-r4": [
+      "CVE-2026-106444",
+      "CVE-2026-106445",
+      "CVE-2026-106446",
+      "GHSA-8r5x-fm3f-whwj",
+      "GHSA-p8wg-vrv2-v86f",
+      "GHSA-xw65-4hp5-5hc7"
+    ],
+    "6.10.5-r5": [
+      "CVE-2026-86472",
+      "GHSA-hrr3-gc8f-f4qj"
+    ],
+    "6.10.7-r0": [
+      "CVE-2026-93687",
+      "GHSA-vfj7-8cjw-p6xm"
+    ],
+    "6.11.1-r0": [
+      "CVE-2026-111181",
+      "GHSA-27r3-jxmh-p828"
+    ],
+    "6.11.1-r1": [
+      "CVE-2026-110095",
+      "CVE-2026-110180",
+      "CVE-2026-110306",
+      "CVE-2026-110725",
+      "GHSA-333x-w4r6-6crp",
+      "GHSA-w74x-v6f9-j3xg",
+      "GHSA-wjr9-j795-jxcr",
+      "GHSA-xhq7-xmqj-769h"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "cinc-auditor",
+  "secfixes": {
+    "7.0.107-r1": [
+      "CVE-2026-33169",
+      "CVE-2026-33170",
+      "CVE-2026-33176",
+      "CVE-2026-33210",
+      "GHSA-2j26-frm8-cmj9",
+      "GHSA-3m6g-2423-7cp3",
+      "GHSA-89vf-4333-qx8v",
+      "GHSA-cg4j-q9v8-6v38"
+    ],
+    "7.0.107-r3": [
+      "CVE-2026-35611",
+      "GHSA-h27x-rffw-24p4"
+    ],
+    "7.0.95-r6": [
+      "CVE-2026-25765",
+      "GHSA-33mh-2634-fwr2"
+    ],
+    "7.1.7-r0": [
+      "CVE-2026-33637",
+      "CVE-2026-45363",
+      "GHSA-5rv5-xj5j-3484",
+      "GHSA-c32j-vqhx-rx3x"
+    ],
+    "7.1.7-r7": [
+      "CVE-2026-54171",
+      "CVE-2026-54297",
+      "CVE-2026-54696",
+      "CVE-2026-54904",
+      "CVE-2026-54905",
+      "CVE-2026-54906",
+      "CVE-2026-71847",
+      "GHSA-48rx-c7pg-q66r",
+      "GHSA-6wx8-w4f5-wwcr",
+      "GHSA-98m9-hrrm-r99r",
+      "GHSA-9hj4-r449-hfvc",
+      "GHSA-h8w8-99g7-qmvj",
+      "GHSA-wv3x-4vxv-whpp",
+      "GHSA-x2f5-4prf-w687"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

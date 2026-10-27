@@ -1,0 +1,117 @@
+{
+  "name": "airbyte-server-fips",
+  "secfixes": {
+    "2.0.0-r1": [
+      "CVE-2026-44249",
+      "CVE-2026-45416",
+      "CVE-2026-45673",
+      "CVE-2026-45674",
+      "CVE-2026-47244",
+      "CVE-2026-47691",
+      "CVE-2026-48043",
+      "GHSA-3qp7-7mw8-wx86",
+      "GHSA-5pvg-856g-cp85",
+      "GHSA-5x3r-wrvg-rp6q",
+      "GHSA-676x-f7gg-47vc",
+      "GHSA-c2gf-v879-257j",
+      "GHSA-x4gw-5cx5-pgmh",
+      "GHSA-xmv7-r254-6q78"
+    ],
+    "2.0.0-r10": [
+      "CVE-2026-54291",
+      "CVE-2026-54515",
+      "CVE-2026-55831",
+      "CVE-2026-55833",
+      "CVE-2026-56745",
+      "CVE-2026-56746",
+      "CVE-2026-59889",
+      "CVE-2026-59898",
+      "CVE-2026-59899",
+      "CVE-2026-59900",
+      "CVE-2026-59901",
+      "CVE-2026-59921",
+      "CVE-2026-73508",
+      "GHSA-4mp9-239f-g9hg",
+      "GHSA-558v-64gr-wgg4",
+      "GHSA-5gvw-p9qm-jgwh",
+      "GHSA-5jmj-h7xm-6q6v",
+      "GHSA-6cqp-g7gg-8hr5",
+      "GHSA-6jqx-86gh-f27w",
+      "GHSA-c69g-56f8-xwqj",
+      "GHSA-gcjf-9mgh-3p7g",
+      "GHSA-j92g-9f8w-j867",
+      "GHSA-jppx-w49h-x2qq",
+      "GHSA-mfg7-5gfp-c4w3",
+      "GHSA-mhm7-754m-9p8w",
+      "GHSA-mvh2-crg5-v77c",
+      "GHSA-q4f6-jm68-57ww"
+    ],
+    "2.0.0-r11": [
+      "CVE-2026-40983",
+      "CVE-2026-40984",
+      "GHSA-g3pr-3p32-fp23",
+      "GHSA-w737-wx49-qj23"
+    ],
+    "2.0.0-r12": [
+      "CVE-2026-54399",
+      "GHSA-hf6x-8p5f-cgmf"
+    ],
+    "2.0.0-r13": [
+      "CVE-2026-55153",
+      "GHSA-h84g-69h7-mw6v"
+    ],
+    "2.0.0-r14": [
+      "CVE-2026-59903",
+      "GHSA-8c42-7qj2-3j46"
+    ],
+    "2.0.0-r15": [
+      "CVE-2026-49844",
+      "GHSA-qv9r-c865-cp47"
+    ],
+    "2.0.0-r16": [
+      "CVE-2026-54428",
+      "GHSA-v3jc-474w-2wm6"
+    ],
+    "2.0.0-r2": [
+      "CVE-2026-45536",
+      "GHSA-w573-9ffj-6ff9"
+    ],
+    "2.0.0-r3": [
+      "CVE-2026-54512",
+      "CVE-2026-54513",
+      "CVE-2026-54514",
+      "CVE-2026-54516",
+      "CVE-2026-54517",
+      "CVE-2026-54518",
+      "GHSA-5hh8-q8hv-fr38",
+      "GHSA-9fxm-vc8v-hj55",
+      "GHSA-hgj6-7826-r7m5",
+      "GHSA-j3rv-43j4-c7qm",
+      "GHSA-rcqc-6cw3-h962",
+      "GHSA-rmj7-2vxq-3g9f"
+    ],
+    "2.0.0-r5": [
+      "CVE-2026-9828",
+      "GHSA-p47f-322f-whfh"
+    ],
+    "2.0.0-r8": [
+      "CVE-2026-33012",
+      "CVE-2026-33013",
+      "GHSA-2hcp-gjrf-7fhc",
+      "GHSA-387m-935m-c4vw",
+      "GHSA-43w5-mmxv-cpvh",
+      "GHSA-q6gh-6v2r-hjv3"
+    ],
+    "2.0.0-r9": [
+      "CVE-2026-10532",
+      "GHSA-jhq6-gfmj-v8fx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

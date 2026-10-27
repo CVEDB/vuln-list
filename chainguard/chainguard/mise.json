@@ -1,0 +1,42 @@
+{
+  "name": "mise",
+  "secfixes": {
+    "2026.3.17-r0": [
+      "CVE-2026-33055",
+      "CVE-2026-33056",
+      "GHSA-394x-vwmw-crm3",
+      "GHSA-9f94-5g5w-gf6r",
+      "GHSA-gchp-q4r4-x4ff",
+      "GHSA-j4xf-2g29-59ph",
+      "GHSA-pwjx-qhcg-rvj4"
+    ],
+    "2026.4.15-r0": [
+      "CVE-2026-32766",
+      "GHSA-6gx3-4362-rf54"
+    ],
+    "2026.4.19-r0": [
+      "GHSA-965h-392x-2mh5",
+      "GHSA-cq8v-f236-94qc",
+      "GHSA-xgp8-3hg3-c2mh"
+    ],
+    "2026.5.15-r1": [
+      "GHSA-rhfx-m35p-ff5j"
+    ],
+    "2026.5.18-r0": [
+      "GHSA-82j2-j2ch-gfr8"
+    ],
+    "2026.5.8-r0": [
+      "CVE-2026-6966",
+      "CVE-2026-6967",
+      "GHSA-4v58-8p28-2rq3",
+      "GHSA-8m7c-8m39-rv4x"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

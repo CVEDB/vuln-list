@@ -1,0 +1,41 @@
+{
+  "name": "dagster",
+  "secfixes": {
+    "1.13.16-r1": [
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5"
+    ],
+    "1.13.2-r0": [
+      "CVE-2026-39892",
+      "CVE-2026-41205",
+      "CVE-2026-41490",
+      "GHSA-mjw2-v2hm-wj34",
+      "GHSA-p423-j2cm-9vmq",
+      "GHSA-v92g-xgxw-vvmm"
+    ],
+    "1.13.25-r0": [
+      "CVE-2026-101918",
+      "CVE-2026-49264",
+      "CVE-2026-49265",
+      "GHSA-42vr-xj54-vc7v",
+      "GHSA-hj66-6f7g-4r5v",
+      "GHSA-xpv3-w29h-x7cv"
+    ],
+    "1.13.26-r1": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "1.13.8-r0": [
+      "CVE-2026-34993",
+      "CVE-2026-47265",
+      "GHSA-hg6j-4rv6-33pg",
+      "GHSA-jg22-mg44-37j8"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

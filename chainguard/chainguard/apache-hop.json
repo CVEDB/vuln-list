@@ -9,6 +9,18 @@
       "CVE-2025-58056",
       "GHSA-fghv-69vj-qj49"
     ],
+    "2.15.0-r12": [
+      "CVE-2025-41249",
+      "GHSA-jmp9-x22r-554x"
+    ],
+    "2.15.0-r13": [
+      "CVE-2025-59419",
+      "GHSA-jq43-27x9-3v86"
+    ],
+    "2.15.0-r14": [
+      "CVE-2025-59250",
+      "GHSA-m494-w24q-6f7w"
+    ],
     "2.15.0-r2": [
       "CVE-2023-36479",
       "CVE-2024-9823",
@@ -17,12 +29,308 @@
     ],
     "2.15.0-r4": [
       "GHSA-58qw-p7qm-5rvh"
+    ],
+    "2.16.0-r0": [
+      "CVE-2025-58057",
+      "GHSA-3p8m-j85q-pgmj"
+    ],
+    "2.16.0-r1": [
+      "CVE-2025-67735",
+      "GHSA-84h7-rjj3-6jx4"
+    ],
+    "2.17.0-r0": [
+      "CVE-2025-33042",
+      "GHSA-rp46-r563-jrc7"
+    ],
+    "2.17.0-r10": [
+      "CVE-2026-41409",
+      "CVE-2026-41635",
+      "CVE-2026-42778",
+      "CVE-2026-42779",
+      "GHSA-8297-v2rf-2p32",
+      "GHSA-995c-6rp3-4m4x",
+      "GHSA-f2wh-grmh-r6jm",
+      "GHSA-vf5j-865m-mq7c"
+    ],
+    "2.17.0-r11": [
+      "CVE-2026-42582",
+      "GHSA-2c5c-chwr-9hqw"
+    ],
+    "2.17.0-r12": [
+      "CVE-2026-42198",
+      "GHSA-98qh-xjc8-98pq"
+    ],
+    "2.17.0-r13": [
+      "CVE-2026-42579",
+      "GHSA-cm33-6792-r9fm"
+    ],
+    "2.17.0-r14": [
+      "CVE-2026-42583",
+      "GHSA-mj4r-2hfc-f8p6"
+    ],
+    "2.17.0-r15": [
+      "CVE-2026-42577",
+      "CVE-2026-42578",
+      "CVE-2026-42586",
+      "CVE-2026-44248",
+      "GHSA-45q3-82m4-75jr",
+      "GHSA-jfg9-48mv-9qgx",
+      "GHSA-rgrr-p7gp-5xj7",
+      "GHSA-rwm7-x88c-3g2p"
+    ],
+    "2.17.0-r16": [
+      "CVE-2026-45205",
+      "GHSA-337m-mw94-2v6g"
+    ],
+    "2.17.0-r3": [
+      "CVE-2025-11143",
+      "CVE-2026-1605",
+      "GHSA-wjpw-4j6x-6rwh",
+      "GHSA-xxh7-fcf3-rj7f"
+    ],
+    "2.17.0-r5": [
+      "CVE-2025-12183",
+      "CVE-2025-66566",
+      "GHSA-cmp6-m4wj-q63q",
+      "GHSA-vqf4-7m7x-wgfc"
+    ],
+    "2.17.0-r6": [
+      "CVE-2026-33871",
+      "GHSA-w9fj-cfpg-grvv"
+    ],
+    "2.17.0-r7": [
+      "CVE-2025-48924",
+      "CVE-2026-18401",
+      "GHSA-6qm2-mcq7-53qp",
+      "GHSA-72hv-8253-57qq",
+      "GHSA-j288-q9x7-2f5v"
+    ],
+    "2.17.0-r8": [
+      "CVE-2026-34480",
+      "GHSA-3pxv-7cmr-fjr4"
+    ],
+    "2.17.0-r9": [
+      "CVE-2026-0636",
+      "CVE-2026-40682",
+      "CVE-2026-42027",
+      "CVE-2026-42440",
+      "CVE-2026-5598",
+      "GHSA-4v8g-86x5-3vrc",
+      "GHSA-659w-93r5-9j6m",
+      "GHSA-c3fc-8qff-9hwx",
+      "GHSA-cx4m-2p55-rw7j",
+      "GHSA-p93r-85wp-75v3"
+    ],
+    "2.18.0-r0": [
+      "CVE-2026-2332",
+      "GHSA-355h-qmc2-wpwf"
+    ],
+    "2.18.0-r2": [
+      "CVE-2026-44250",
+      "CVE-2026-44890",
+      "GHSA-3244-j874-rhc2",
+      "GHSA-6ghj-frrj-jjj3"
+    ],
+    "2.18.0-r3": [
+      "CVE-2026-44249",
+      "CVE-2026-45416",
+      "GHSA-3qp7-7mw8-wx86",
+      "GHSA-x4gw-5cx5-pgmh"
+    ],
+    "2.18.0-r4": [
+      "CVE-2026-45673",
+      "CVE-2026-45674",
+      "CVE-2026-47691",
+      "GHSA-5pvg-856g-cp85",
+      "GHSA-676x-f7gg-47vc",
+      "GHSA-xmv7-r254-6q78"
+    ],
+    "2.18.0-r5": [
+      "CVE-2026-46340",
+      "GHSA-5xrh-qmmq-w6ch"
+    ],
+    "2.18.0-r6": [
+      "CVE-2026-44892",
+      "CVE-2026-44893",
+      "CVE-2026-44894",
+      "CVE-2026-45536",
+      "CVE-2026-47244",
+      "CVE-2026-48043",
+      "CVE-2026-48059",
+      "CVE-2026-48748",
+      "CVE-2026-50009",
+      "CVE-2026-50020",
+      "CVE-2026-50560",
+      "GHSA-4grm-h2qv-h6w6",
+      "GHSA-563q-j3cm-6jxm",
+      "GHSA-5x3r-wrvg-rp6q",
+      "GHSA-c2gf-v879-257j",
+      "GHSA-c2rx-5r8w-8xr2",
+      "GHSA-cc37-9q2j-3hfv",
+      "GHSA-cmm3-54f8-px4j",
+      "GHSA-cq4q-cv5g-r8q5",
+      "GHSA-h2qv-fj59-j46j",
+      "GHSA-hvcg-qmg6-jm4c",
+      "GHSA-w573-9ffj-6ff9"
+    ],
+    "2.18.1-r1": [
+      "CVE-2026-56740",
+      "CVE-2026-56741",
+      "GHSA-2r2c-cx56-8933",
+      "GHSA-47qp-hqvx-6r3f"
+    ],
+    "2.18.1-r10": [
+      "CVE-2026-55831",
+      "CVE-2026-55833",
+      "CVE-2026-56745",
+      "CVE-2026-56746",
+      "CVE-2026-59898",
+      "CVE-2026-59899",
+      "CVE-2026-59921",
+      "GHSA-4mp9-239f-g9hg",
+      "GHSA-6cqp-g7gg-8hr5",
+      "GHSA-6jqx-86gh-f27w",
+      "GHSA-gcjf-9mgh-3p7g",
+      "GHSA-jppx-w49h-x2qq",
+      "GHSA-mvh2-crg5-v77c",
+      "GHSA-q4f6-jm68-57ww"
+    ],
+    "2.18.1-r11": [
+      "CVE-2026-56816",
+      "GHSA-hpcc-26xq-25fv"
+    ],
+    "2.18.1-r12": [
+      "CVE-2026-55851",
+      "CVE-2026-59919",
+      "GHSA-q6cq-mhr2-jmr5",
+      "GHSA-wh89-7897-x99h"
+    ],
+    "2.18.1-r13": [
+      "CVE-2026-59900",
+      "GHSA-c69g-56f8-xwqj"
+    ],
+    "2.18.1-r14": [
+      "CVE-2026-73508",
+      "GHSA-mfg7-5gfp-c4w3"
+    ],
+    "2.18.1-r15": [
+      "CVE-2026-71497",
+      "GHSA-pmhh-3w7g-xqp8"
+    ],
+    "2.18.1-r16": [
+      "CVE-2026-10050",
+      "CVE-2026-10051",
+      "CVE-2026-6790",
+      "CVE-2026-8384",
+      "GHSA-2fvj-hgj9-j2gr",
+      "GHSA-7p3p-8qv8-m2vh",
+      "GHSA-f4v5-65jj-pcr2",
+      "GHSA-w7x5-g22v-xqhr"
+    ],
+    "2.18.1-r17": [
+      "CVE-2026-49844",
+      "GHSA-qv9r-c865-cp47"
+    ],
+    "2.18.1-r2": [
+      "CVE-2026-54512",
+      "CVE-2026-54513",
+      "CVE-2026-54514",
+      "CVE-2026-54516",
+      "CVE-2026-54517",
+      "CVE-2026-54518",
+      "GHSA-5hh8-q8hv-fr38",
+      "GHSA-9fxm-vc8v-hj55",
+      "GHSA-hgj6-7826-r7m5",
+      "GHSA-j3rv-43j4-c7qm",
+      "GHSA-rcqc-6cw3-h962",
+      "GHSA-rmj7-2vxq-3g9f"
+    ],
+    "2.18.1-r4": [
+      "CVE-2026-54515",
+      "GHSA-5jmj-h7xm-6q6v"
+    ],
+    "2.18.1-r5": [
+      "CVE-2026-44891",
+      "GHSA-vhch-2wf3-m8rp"
+    ],
+    "2.18.1-r6": [
+      "CVE-2026-68494",
+      "GHSA-642r-3gj9-2pj5",
+      "GHSA-r7wm-3cxj-wff9"
+    ],
+    "2.18.1-r7": [
+      "CVE-2026-56820",
+      "CVE-2026-56821",
+      "CVE-2026-56822",
+      "GHSA-272m-gcwp-mpwg",
+      "GHSA-g7hg-vrcf-mvmr",
+      "GHSA-wc96-39fc-566f"
+    ],
+    "2.18.1-r8": [
+      "CVE-2026-56817",
+      "CVE-2026-73507",
+      "GHSA-4qhr-g3c6-fcfx",
+      "GHSA-v74w-7mr3-4qg3"
+    ],
+    "2.18.1-r9": [
+      "CVE-2026-59901",
+      "GHSA-558v-64gr-wgg4"
+    ],
+    "2.19.0-r0": [
+      "CVE-2026-54399",
+      "CVE-2026-54428",
+      "CVE-2026-59949",
+      "CVE-2026-64607",
+      "GHSA-hf6x-8p5f-cgmf",
+      "GHSA-hjcp-jmpx-g3qm",
+      "GHSA-v3jc-474w-2wm6",
+      "GHSA-xx22-p4ch-683r"
+    ],
+    "2.19.0-r1": [
+      "CVE-2026-54291",
+      "GHSA-j92g-9f8w-j867"
+    ],
+    "2.19.0-r2": [
+      "CVE-2026-59903",
+      "GHSA-8c42-7qj2-3j46"
+    ],
+    "2.19.0-r3": [
+      "CVE-2026-75595",
+      "CVE-2026-75596",
+      "GHSA-c4c3-7fpv-j4q5",
+      "GHSA-fccg-mwvh-qqg4"
+    ],
+    "2.19.0-r4": [
+      "CVE-2026-19032",
+      "CVE-2026-68497",
+      "CVE-2026-83557",
+      "GHSA-gx83-3vf8-gh7j",
+      "GHSA-q4xh-88c3-wmh7",
+      "GHSA-wjgm-6hv5-3cvf"
+    ],
+    "2.19.0-r5": [
+      "CVE-2026-91776",
+      "CVE-2026-91777",
+      "GHSA-cxp5-3px4-pw24",
+      "GHSA-wv8q-qhhj-9h54"
+    ],
+    "2.19.0-r6": [
+      "CVE-2026-75140",
+      "GHSA-65r4-943x-97jj"
+    ],
+    "2.19.0-r7": [
+      "CVE-2026-106449",
+      "CVE-2026-106450",
+      "CVE-2026-106451",
+      "GHSA-343h-94h5-c4wr",
+      "GHSA-gm45-99xc-r7wv",
+      "GHSA-mcr4-qmvw-px4g"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

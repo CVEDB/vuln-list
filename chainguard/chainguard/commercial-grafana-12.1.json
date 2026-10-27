@@ -1,0 +1,43 @@
+{
+  "name": "commercial-grafana-12.1",
+  "secfixes": {
+    "0": [
+      "CVE-2026-39824",
+      "GHSA-4vpj-hr3r-4gpg",
+      "GO-2026-5024"
+    ],
+    "12.1.10-r0": [
+      "CVE-2020-8911",
+      "CVE-2020-8912",
+      "CVE-2026-1229",
+      "CVE-2026-24051",
+      "CVE-2026-32285",
+      "CVE-2026-33186",
+      "CVE-2026-33487",
+      "CVE-2026-33817",
+      "GHSA-479m-364c-43vc",
+      "GHSA-6g7g-w4f8-9c9x",
+      "GHSA-6jwv-w5xf-7j27",
+      "GHSA-7f33-f4f5-xwgw",
+      "GHSA-9h8m-3fm2-qjrq",
+      "GHSA-f5pg-7wfw-84q9",
+      "GHSA-p77j-4mvh-x3m3",
+      "GHSA-q9hv-hpm4-hj6x",
+      "GO-2022-0635",
+      "GO-2022-0646",
+      "GO-2026-4394",
+      "GO-2026-4514",
+      "GO-2026-4550",
+      "GO-2026-4753",
+      "GO-2026-4762",
+      "GO-2026-4923"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

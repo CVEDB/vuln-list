@@ -1,0 +1,24 @@
+{
+  "name": "debezium-connector-spanner-3.3",
+  "secfixes": {
+    "3.3.2-r1": [
+      "CVE-2024-7254",
+      "GHSA-735f-pc8j-v9w8"
+    ],
+    "3.3.2-r3": [
+      "CVE-2026-35554",
+      "GHSA-5qcv-4rpc-jp93"
+    ],
+    "3.3.2-r7": [
+      "CVE-2026-59949",
+      "GHSA-xx22-p4ch-683r"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

@@ -1,6 +1,10 @@
 {
   "name": "libarchive",
   "secfixes": {
+    "0": [
+      "CVE-2026-5745",
+      "GHSA-fjqv-vj6q-4fcm"
+    ],
     "3.6.1-r2": [
       "CVE-2022-36227",
       "GHSA-gpgf-w78r-4pvj"
@@ -22,12 +26,22 @@
       "GHSA-722w-734r-qg74",
       "GHSA-cw7x-3mv7-w6xm",
       "GHSA-cw9m-pj72-3cj5"
+    ],
+    "3.8.7-r0": [
+      "CVE-2026-5121",
+      "GHSA-2vwv-vqpv-v8vc"
+    ],
+    "3.8.7-r2": [
+      "CVE-2026-4424",
+      "CVE-2026-4426",
+      "GHSA-c75f-55f6-f63q",
+      "GHSA-r3fp-vrpw-pg77"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
   "archs": [
-    "aarch64",
-    "x86_64"
+    "x86_64",
+    "aarch64"
   ],
   "urlprefix": "https://packages.cgr.dev",
   "reponame": "chainguard"

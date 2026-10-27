@@ -1,0 +1,75 @@
+{
+  "name": "spamcheck",
+  "secfixes": {
+    "3.5.3-r10": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "3.5.3-r11": [
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "CVE-2026-59890",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-h35f-9h28-mq5c",
+      "GHSA-hm4w-wwcw-mr6r"
+    ],
+    "3.5.3-r15": [
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ],
+    "3.5.3-r16": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "3.5.3-r17": [
+      "CVE-2026-114603",
+      "GHSA-xcq7-p3pf-p88h"
+    ],
+    "3.5.3-r3": [
+      "CVE-2024-47081",
+      "CVE-2025-4565",
+      "CVE-2025-47273",
+      "CVE-2025-50181",
+      "CVE-2025-50182",
+      "GHSA-48p4-8xcf-vxj5",
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-8qvm-5x2c-j2w7",
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-pq67-6m6q-mj2v"
+    ],
+    "3.5.3-r4": [
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-gm62-xv2j-4w53"
+    ],
+    "3.5.3-r6": [
+      "CVE-2026-23490",
+      "CVE-2026-23949",
+      "CVE-2026-24049",
+      "GHSA-58pv-8j8x-9vj2",
+      "GHSA-63vm-454h-vhhq",
+      "GHSA-8rrh-rw8j-w5fx"
+    ],
+    "3.5.3-r8": [
+      "CVE-2026-0994",
+      "CVE-2026-25645",
+      "CVE-2026-30922",
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-jr27-m4p2-rc6r"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

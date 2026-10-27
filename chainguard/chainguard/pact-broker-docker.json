@@ -1,0 +1,71 @@
+{
+  "name": "pact-broker-docker",
+  "secfixes": {
+    "2.137.0.2.118.0-r4": [
+      "CVE-2026-26961",
+      "CVE-2026-26962",
+      "CVE-2026-32762",
+      "CVE-2026-34230",
+      "CVE-2026-34763",
+      "CVE-2026-34785",
+      "CVE-2026-34786",
+      "CVE-2026-34826",
+      "CVE-2026-34827",
+      "CVE-2026-34829",
+      "CVE-2026-34830",
+      "CVE-2026-34831",
+      "CVE-2026-34835",
+      "CVE-2026-39324",
+      "GHSA-33qg-7wpp-89cq",
+      "GHSA-7mqq-6cf9-v2qp",
+      "GHSA-8vqr-qjwx-82mw",
+      "GHSA-g2pf-xv49-m2h5",
+      "GHSA-h2jq-g4cq-5ppq",
+      "GHSA-q2ww-5357-x388",
+      "GHSA-q4qf-9j86-f5mh",
+      "GHSA-qfgr-crr9-7r49",
+      "GHSA-qv7j-4883-hwh7",
+      "GHSA-rx22-g9mx-qrhv",
+      "GHSA-v569-hp3g-36wr",
+      "GHSA-v6x5-cg8r-vv6x",
+      "GHSA-vgpv-f759-9wx3",
+      "GHSA-x8cg-fq8g-mxfx"
+    ],
+    "2.138.0.2.119.0-r1": [
+      "CVE-2026-79770",
+      "CVE-2026-79771",
+      "GHSA-5jhf-fpp7-v2pv",
+      "GHSA-c4rq-3m3g-8wgx",
+      "GHSA-rh9x-7xjc-vwx2",
+      "GHSA-v2fc-qm4h-8hqv"
+    ],
+    "2.139.0.2.119.0-r1": [
+      "GHSA-5prr-v3j2-97mh",
+      "GHSA-5v8h-3h3q-446p",
+      "GHSA-8678-w3jw-xfc2",
+      "GHSA-9cv2-cfxc-v4v2",
+      "GHSA-p67v-3w7g-wjg7",
+      "GHSA-phwj-rprq-35pp",
+      "GHSA-wfpw-mmfh-qq69",
+      "GHSA-wjv4-x9w8-wm3h"
+    ],
+    "2.141.0.2.119.0-r2": [
+      "CVE-2026-54696",
+      "GHSA-x2f5-4prf-w687"
+    ],
+    "2.142.0.2.120.0-r1": [
+      "CVE-2026-71847",
+      "GHSA-9hj4-r449-hfvc"
+    ],
+    "2.142.0.2.120.0-r2": [
+      "GHSA-mwm8-39rw-8826"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

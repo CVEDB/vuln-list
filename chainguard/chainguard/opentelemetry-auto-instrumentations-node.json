@@ -1,0 +1,78 @@
+{
+  "name": "opentelemetry-auto-instrumentations-node",
+  "secfixes": {
+    "0.70.0-r1": [
+      "CVE-2026-26996",
+      "GHSA-3ppc-4f35-3m26"
+    ],
+    "0.70.1-r1": [
+      "CVE-2026-27903",
+      "CVE-2026-27904",
+      "GHSA-23c5-xmqv-rm74",
+      "GHSA-7r86-cg39-jmmj"
+    ],
+    "0.72.0-r0": [
+      "CVE-2026-33532",
+      "GHSA-48c2-rrv3-qjmp"
+    ],
+    "0.73.0-r0": [
+      "CVE-2026-41242",
+      "GHSA-xq3m-2v4x-88gg"
+    ],
+    "0.76.0-r0": [
+      "CVE-2026-44288",
+      "CVE-2026-44289",
+      "CVE-2026-44290",
+      "CVE-2026-44291",
+      "CVE-2026-44292",
+      "CVE-2026-44293",
+      "CVE-2026-44294",
+      "GHSA-2pr8-phx7-x9h3",
+      "GHSA-66ff-xgx4-vchm",
+      "GHSA-685m-2w69-288q",
+      "GHSA-75px-5xx7-5xc7",
+      "GHSA-fx83-v9x8-x52w",
+      "GHSA-jvwf-75h9-cwgg",
+      "GHSA-q6x5-8v7m-xcrf"
+    ],
+    "0.77.0-r0": [
+      "CVE-2026-48068",
+      "CVE-2026-48069",
+      "GHSA-5375-pq7m-f5r2",
+      "GHSA-99f4-grh7-6pcq"
+    ],
+    "0.79.0-r0": [
+      "CVE-2026-59877",
+      "GHSA-j3f2-48v5-ccww"
+    ],
+    "0.79.0-r1": [
+      "CVE-2026-50289",
+      "GHSA-5xpp-75jx-m839"
+    ],
+    "0.79.0-r2": [
+      "CVE-2026-69152",
+      "GHSA-rgw5-rvv9-x895"
+    ],
+    "0.80.0-r1": [
+      "CVE-2026-102276",
+      "CVE-2026-102277",
+      "CVE-2026-102278",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7"
+    ],
+    "0.80.0-r2": [
+      "CVE-2026-101915",
+      "CVE-2026-101916",
+      "GHSA-f596-whhp-79r4",
+      "GHSA-m9gg-hp2v-232j"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

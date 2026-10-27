@@ -1,0 +1,109 @@
+{
+  "name": "opal",
+  "secfixes": {
+    "0.9.3-r0": [
+      "CVE-2026-23949",
+      "GHSA-58pv-8j8x-9vj2"
+    ],
+    "0.9.3-r1": [
+      "CVE-2026-24049",
+      "GHSA-8rrh-rw8j-w5fx"
+    ],
+    "0.9.3-r2": [
+      "CVE-2026-26007",
+      "GHSA-r6ph-v2qm-q3c2"
+    ],
+    "0.9.3-r3": [
+      "CVE-2026-32597",
+      "GHSA-752w-5fwx-jx9f"
+    ],
+    "0.9.4-r0": [
+      "CVE-2026-25645",
+      "CVE-2026-34073",
+      "CVE-2026-4539",
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-m959-cc7f-wv43"
+    ],
+    "0.9.4-r2": [
+      "CVE-2026-39892",
+      "GHSA-p423-j2cm-9vmq"
+    ],
+    "0.9.5-r0": [
+      "CVE-2026-42215",
+      "CVE-2026-42284",
+      "GHSA-rpm5-65cw-6hj4",
+      "GHSA-x2qx-6953-8485"
+    ],
+    "0.9.5-r1": [
+      "CVE-2026-44244",
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-mv93-w799-cj2w",
+      "GHSA-qccp-gfcp-xxvc",
+      "GHSA-v87r-6q3f-2j67"
+    ],
+    "0.9.6-r1": [
+      "CVE-2026-34993",
+      "CVE-2026-47265",
+      "GHSA-hg6j-4rv6-33pg",
+      "GHSA-jg22-mg44-37j8"
+    ],
+    "0.9.6-r2": [
+      "GHSA-537c-gmf6-5ccf"
+    ],
+    "0.9.6-r4": [
+      "CVE-2026-59890",
+      "CVE-2026-67322",
+      "CVE-2026-67323",
+      "CVE-2026-67325",
+      "CVE-2026-69097",
+      "GHSA-2f96-g7mh-g2hx",
+      "GHSA-3rp5-jjmw-4wv2",
+      "GHSA-4vpg-pfj8-m33q",
+      "GHSA-6p8h-3wgx-97gf",
+      "GHSA-6r2r-ww24-7h52",
+      "GHSA-94p4-4cq8-9g67",
+      "GHSA-956x-8gvw-wg5v",
+      "GHSA-9xx9-hw38-h2w9",
+      "GHSA-fjr4-x663-mwxc",
+      "GHSA-h35f-9h28-mq5c",
+      "GHSA-m4f3-g4cq-hqrx",
+      "GHSA-r9mr-m37c-5fr3",
+      "GHSA-rwj8-pgh3-r573",
+      "GHSA-v396-v7q4-x2qj"
+    ],
+    "0.9.6-r5": [
+      "CVE-2026-69247",
+      "CVE-2026-76217",
+      "CVE-2026-76218",
+      "CVE-2026-76219",
+      "CVE-2026-76220",
+      "CVE-2026-76222",
+      "GHSA-4gmw-gg2m-w46p",
+      "GHSA-7jx3-jqcp-hhgc",
+      "GHSA-9rj7-rf2p-w77r",
+      "GHSA-g6cj-pr64-35w5",
+      "GHSA-hh9p-6wh2-4mfc",
+      "GHSA-hmq2-w58f-27jc",
+      "GHSA-jm78-9fvv-mhgr",
+      "GHSA-w672-239g-c3gr",
+      "GHSA-wvpp-8hx9-p66j"
+    ],
+    "0.9.9-r5": [
+      "CVE-2026-111063",
+      "CVE-2026-111064",
+      "GHSA-2g87-pp6c-29x5",
+      "GHSA-494j-54xm-rwp3",
+      "GHSA-5wr8-gcqf-gqf3"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

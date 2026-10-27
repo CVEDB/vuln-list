@@ -1,0 +1,64 @@
+{
+  "name": "dependency-track-apiserver-4",
+  "secfixes": {
+    "4.14.2-r1": [
+      "CVE-2026-54515",
+      "GHSA-5jmj-h7xm-6q6v"
+    ],
+    "4.14.3-r1": [
+      "CVE-2026-54291",
+      "GHSA-j92g-9f8w-j867"
+    ],
+    "4.14.3-r2": [
+      "CVE-2026-40983",
+      "CVE-2026-40984",
+      "GHSA-g3pr-3p32-fp23",
+      "GHSA-w737-wx49-qj23"
+    ],
+    "4.14.3-r3": [
+      "CVE-2026-54399",
+      "GHSA-hf6x-8p5f-cgmf"
+    ],
+    "4.14.3-r4": [
+      "CVE-2026-54428",
+      "GHSA-v3jc-474w-2wm6"
+    ],
+    "4.14.3-r5": [
+      "CVE-2026-64607",
+      "GHSA-hjcp-jmpx-g3qm"
+    ],
+    "4.14.4-r0": [
+      "CVE-2026-10532",
+      "CVE-2026-9828",
+      "GHSA-jhq6-gfmj-v8fx",
+      "GHSA-p47f-322f-whfh"
+    ],
+    "4.14.4-r1": [
+      "CVE-2026-19032",
+      "CVE-2026-68497",
+      "CVE-2026-83557",
+      "GHSA-gx83-3vf8-gh7j",
+      "GHSA-q4xh-88c3-wmh7",
+      "GHSA-wjgm-6hv5-3cvf"
+    ],
+    "4.14.4-r2": [
+      "CVE-2026-91776",
+      "CVE-2026-91777",
+      "GHSA-cxp5-3px4-pw24",
+      "GHSA-wv8q-qhhj-9h54"
+    ],
+    "4.14.4-r3": [
+      "CVE-2026-89407",
+      "CVE-2026-89425",
+      "GHSA-7hhh-6rmp-j9qf",
+      "GHSA-p6pp-m3f8-5c89"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

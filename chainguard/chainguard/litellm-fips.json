@@ -1,0 +1,42 @@
+{
+  "name": "litellm-fips",
+  "secfixes": {
+    "1.106.1-r1": [
+      "CVE-2026-111063",
+      "CVE-2026-111064",
+      "CVE-2026-111065",
+      "CVE-2026-111066",
+      "CVE-2026-111748",
+      "CVE-2026-111749",
+      "CVE-2026-111750",
+      "GHSA-2g87-pp6c-29x5",
+      "GHSA-494j-54xm-rwp3",
+      "GHSA-5wr8-gcqf-gqf3",
+      "GHSA-6cjc-53gc-5rqm",
+      "GHSA-9xw5-w5jj-pvcg",
+      "GHSA-f9xw-jh8m-3mwq",
+      "GHSA-gx76-c99x-2c96",
+      "GHSA-pqxq-w44r-73xw"
+    ],
+    "1.106.1-r2": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "1.106.1-r3": [
+      "CVE-2026-113792",
+      "CVE-2026-113793",
+      "CVE-2026-113794",
+      "CVE-2026-113795",
+      "GHSA-39mj-jf6j-2qj3",
+      "GHSA-7mh2-4gg2-979f",
+      "GHSA-9mx8-4j7g-633p",
+      "GHSA-qfv9-64jg-mh7p"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

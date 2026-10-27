@@ -1,0 +1,37 @@
+{
+  "name": "dependency-track-apiserver",
+  "secfixes": {
+    "4.13.6-r2": [
+      "CVE-2026-18401",
+      "GHSA-6qm2-mcq7-53qp",
+      "GHSA-72hv-8253-57qq"
+    ],
+    "4.14.0-r0": [
+      "CVE-2025-11143",
+      "CVE-2026-1225",
+      "CVE-2026-1605",
+      "GHSA-qqpg-mvqg-649v",
+      "GHSA-wjpw-4j6x-6rwh",
+      "GHSA-xxh7-fcf3-rj7f"
+    ],
+    "4.14.0-r1": [
+      "CVE-2025-67030",
+      "GHSA-6fmv-xxpf-w3cw"
+    ],
+    "4.14.1-r1": [
+      "CVE-2026-40542",
+      "GHSA-v468-qcjx-r72w"
+    ],
+    "4.14.1-r2": [
+      "CVE-2026-42198",
+      "GHSA-98qh-xjc8-98pq"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

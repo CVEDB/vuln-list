@@ -1,0 +1,90 @@
+{
+  "name": "kibana-9.5",
+  "secfixes": {
+    "9.5.2-r3": [
+      "CVE-2026-45822",
+      "GHSA-vcc3-ghjq-m6fr"
+    ],
+    "9.5.3-r1": [
+      "CVE-2026-82417",
+      "CVE-2026-82562",
+      "GHSA-4mjr-xmp4-gh2g",
+      "GHSA-x5fp-wj9c-mxmx"
+    ],
+    "9.5.3-r2": [
+      "CVE-2026-8769",
+      "GHSA-866g-f22w-33x8"
+    ],
+    "9.5.3-r4": [
+      "CVE-2026-76845",
+      "CVE-2026-85730",
+      "GHSA-7w5x-hrqm-74c2",
+      "GHSA-vwc7-r8mq-g2x9"
+    ],
+    "9.5.3-r5": [
+      "CVE-2026-84367",
+      "CVE-2026-84368",
+      "GHSA-6w3j-5fw6-r9vr",
+      "GHSA-gg4h-3hg2-grpc"
+    ],
+    "9.5.4-r2": [
+      "GHSA-6vj9-mwq6-2f5v",
+      "GHSA-8vvx-rff5-p5rq",
+      "GHSA-g57g-f23g-4646",
+      "GHSA-v53p-9fqp-m79j"
+    ],
+    "9.5.4-r3": [
+      "CVE-2026-102276",
+      "CVE-2026-102277",
+      "CVE-2026-102278",
+      "CVE-2026-102992",
+      "CVE-2026-17495",
+      "GHSA-4p3w-j4w9-5jqw",
+      "GHSA-67c8-pqhq-4rmx",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7"
+    ],
+    "9.5.4-r4": [
+      "CVE-2026-90711",
+      "GHSA-jqcg-44mw-7w3h"
+    ],
+    "9.5.4-r5": [
+      "CVE-2026-104850",
+      "GHSA-6qxp-vccf-f47h"
+    ],
+    "9.5.4-r6": [
+      "CVE-2026-104872",
+      "GHSA-qqmp-wf37-98f9"
+    ],
+    "9.5.4-r7": [
+      "CVE-2026-106444",
+      "CVE-2026-106445",
+      "CVE-2026-106446",
+      "GHSA-8r5x-fm3f-whwj",
+      "GHSA-p8wg-vrv2-v86f",
+      "GHSA-xw65-4hp5-5hc7"
+    ],
+    "9.5.5-r2": [
+      "CVE-2026-111755",
+      "CVE-2026-111756",
+      "CVE-2026-93687",
+      "CVE-2026-97058",
+      "GHSA-8r9p-f939-6h3c",
+      "GHSA-hp3w-g68c-fv3c",
+      "GHSA-q3jh-wrc6-jgq8",
+      "GHSA-vfj7-8cjw-p6xm"
+    ],
+    "9.5.5-r3": [
+      "CVE-2026-111181",
+      "GHSA-27r3-jxmh-p828"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}

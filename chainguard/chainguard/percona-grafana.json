@@ -1,0 +1,80 @@
+{
+  "name": "percona-grafana",
+  "secfixes": {
+    "0": [
+      "CVE-2026-12704",
+      "CVE-2026-21728",
+      "CVE-2026-28377",
+      "CVE-2026-40179",
+      "CVE-2026-42151",
+      "CVE-2026-44903",
+      "GHSA-ffqx-q65f-36jf",
+      "GHSA-fw8g-cg8f-9j28",
+      "GHSA-p4r4-xvrq-gvmc",
+      "GHSA-vffh-x6r8-xx99",
+      "GHSA-wg65-39gg-5wfj",
+      "GHSA-xgrw-968j-pp62",
+      "GO-2026-5359",
+      "GO-2026-5381",
+      "GO-2026-5528",
+      "GO-2026-5662",
+      "GO-2026-5710",
+      "GO-2026-5932"
+    ],
+    "3.9.1-r11": [
+      "CVE-2026-100352",
+      "CVE-2026-100353",
+      "CVE-2026-100354",
+      "GHSA-g8cf-rcjf-c8cf",
+      "GHSA-rj39-cv6w-8wv7",
+      "GHSA-vrcc-3ch7-hppw"
+    ],
+    "3.9.1-r2": [
+      "CVE-2026-84445",
+      "GHSA-2v4p-qf9q-27wj",
+      "GO-2026-6443"
+    ],
+    "3.9.1-r3": [
+      "CVE-2026-61709",
+      "GHSA-g3pg-frfm-pr2m",
+      "GO-2026-6488"
+    ],
+    "3.9.1-r4": [
+      "CVE-2026-81871",
+      "GHSA-w34q-cm8f-9c5x",
+      "GO-2026-6508"
+    ],
+    "3.9.1-r5": [
+      "CVE-2026-81870",
+      "GHSA-8wmf-6v46-5gfg",
+      "GO-2026-6505"
+    ],
+    "3.9.1-r7": [
+      "CVE-2026-78659",
+      "CVE-2026-78660",
+      "CVE-2026-78663",
+      "CVE-2026-78669",
+      "CVE-2026-97032",
+      "GO-2026-6603",
+      "GO-2026-6610",
+      "GO-2026-6611",
+      "GO-2026-6612",
+      "GO-2026-6617"
+    ],
+    "3.9.1-r9": [
+      "CVE-2026-100347",
+      "CVE-2026-100348",
+      "CVE-2026-100351",
+      "GHSA-23vg-4cjm-66q5",
+      "GHSA-fh4f-47mf-f2gj",
+      "GHSA-mh7x-f8wq-4jhx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.cgr.dev",
+  "reponame": "chainguard"
+}
