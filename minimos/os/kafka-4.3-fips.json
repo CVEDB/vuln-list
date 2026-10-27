@@ -1,0 +1,16 @@
+{
+  "name": "kafka-4.3-fips",
+  "secfixes": {
+    "4.3.1-r0": [
+      "CVE-2026-41115",
+      "GHSA-p5r3-m3w4-4fj6"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

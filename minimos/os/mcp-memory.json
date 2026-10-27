@@ -1,0 +1,67 @@
+{
+  "name": "mcp-memory",
+  "secfixes": {
+    "2026.7.4-r0": [
+      "CVE-2026-13676",
+      "CVE-2026-59895",
+      "CVE-2026-59896",
+      "CVE-2026-59897",
+      "GHSA-4c8g-83qw-93j6",
+      "GHSA-hvrm-45r6-mjfj",
+      "GHSA-w62v-xxxg-mg59",
+      "GHSA-xgm2-5f3f-mvvc"
+    ],
+    "2026.8.18-r0": [
+      "CVE-2026-16221",
+      "CVE-2026-18446",
+      "CVE-2026-54272",
+      "CVE-2026-69192",
+      "CVE-2026-69198",
+      "CVE-2026-69207",
+      "CVE-2026-71848",
+      "CVE-2026-71849",
+      "CVE-2026-71850",
+      "GHSA-22jq-vg5j-6vgg",
+      "GHSA-4xrf-jv44-h6hh",
+      "GHSA-54fx-42gc-7vw4",
+      "GHSA-79qm-7rj5-m7r9",
+      "GHSA-7p8r-x3mc-p8w7",
+      "GHSA-8j4g-w8fx-2239",
+      "GHSA-f23p-vx2j-j53r",
+      "GHSA-frvp-7c67-39w9",
+      "GHSA-mwp4-54f8-5fhr",
+      "GHSA-v2hh-gcrm-f6hx"
+    ],
+    "2026.8.31-r0": [
+      "CVE-2026-101910",
+      "CVE-2026-101913",
+      "CVE-2026-75899",
+      "CVE-2026-75931",
+      "CVE-2026-75975",
+      "CVE-2026-76172",
+      "CVE-2026-82417",
+      "CVE-2026-82562",
+      "CVE-2026-84363",
+      "CVE-2026-84364",
+      "CVE-2026-84365",
+      "GHSA-2vr4-cq9g-pvrc",
+      "GHSA-4mjr-xmp4-gh2g",
+      "GHSA-5jgf-p345-68v8",
+      "GHSA-crvj-82cr-hjcx",
+      "GHSA-f65p-4m7j-42xc",
+      "GHSA-fph4-wmhf-6fwf",
+      "GHSA-g6gw-c38x-mqfc",
+      "GHSA-gqvv-2mrq-wpjv",
+      "GHSA-jqff-g426-hqxp",
+      "GHSA-rpw4-54j3-4h4q",
+      "GHSA-x5fp-wj9c-mxmx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

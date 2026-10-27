@@ -1,0 +1,33 @@
+{
+  "name": "py3-tornado",
+  "secfixes": {
+    "6.5.8-r0": [
+      "CVE-2026-82397",
+      "CVE-2026-91990",
+      "CVE-2026-91991",
+      "GHSA-8423-8fgw-73vq",
+      "GHSA-jj9x-pjq2-f55m",
+      "GHSA-mpf4-983q-p7j4",
+      "GHSA-wwv5-g3v4-889x",
+      "GHSA-wwvv-qf38-wpf3"
+    ],
+    "6.5.9-r0": [
+      "CVE-2026-103261",
+      "CVE-2026-103262",
+      "CVE-2026-103263",
+      "GHSA-2v9w-f3h6-74rj",
+      "GHSA-3hv7-mjh2-fv65",
+      "GHSA-4cjq-6jh9-w2f5",
+      "GHSA-c2m8-h5v5-343r",
+      "GHSA-chx6-46f5-w4vp",
+      "GHSA-h36x-fm6v-f9vx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

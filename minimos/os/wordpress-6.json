@@ -15,6 +15,23 @@
       "GHSA-q87j-q95m-j3x3",
       "GHSA-vrh3-hvpj-7864",
       "GHSA-w5cr-843p-q4hf"
+    ],
+    "6.8.3-r0": [
+      "CVE-2025-58246",
+      "CVE-2025-58674",
+      "GHSA-73p8-vhmr-7r6r",
+      "GHSA-9cxg-grmq-54mq"
+    ],
+    "6.9.2-r0": [
+      "CVE-2026-3906",
+      "GHSA-6x83-fcf5-r65g"
+    ],
+    "6.9.5-r0": [
+      "CVE-2026-60137",
+      "CVE-2026-63030"
+    ],
+    "6.9.9-r0": [
+      "CVE-2026-87902"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

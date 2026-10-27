@@ -1,0 +1,70 @@
+{
+  "name": "drupal-11.3",
+  "secfixes": {
+    "0": [
+      "CVE-2008-0462",
+      "CVE-2009-1047",
+      "CVE-2009-3156",
+      "CVE-2009-3479",
+      "CVE-2009-4066",
+      "CVE-2012-2306",
+      "CVE-2012-2339",
+      "GHSA-8h7r-j823-hw2q",
+      "GHSA-9xfg-6whq-qvgm",
+      "GHSA-f9j7-vff8-3c2r",
+      "GHSA-g4rv-c45g-4j68",
+      "GHSA-h4qq-2j4v-765m",
+      "GHSA-hgf8-pv4w-p39v",
+      "GHSA-jq75-2m55-f6cv"
+    ],
+    "11.3.12-r0": [
+      "CVE-2026-48998",
+      "CVE-2026-49214",
+      "CVE-2026-55803",
+      "CVE-2026-55804",
+      "CVE-2026-55806",
+      "CVE-2026-55807",
+      "CVE-2026-55808",
+      "GHSA-25f6-4hrw-j87c",
+      "GHSA-34xg-wgjx-8xph",
+      "GHSA-9wh5-5mcm-hf2j",
+      "GHSA-hq7v-mx3g-29hw",
+      "GHSA-qrwq-jwq3-8cc8",
+      "GHSA-vwxh-w8pq-6q99",
+      "GHSA-x7hc-r9m3-67vr"
+    ],
+    "11.3.13-r0": [
+      "CVE-2026-55568",
+      "CVE-2026-55766",
+      "CVE-2026-55767",
+      "GHSA-cwxw-98qj-8qjx",
+      "GHSA-vm85-hxw5-5432",
+      "GHSA-wpwq-4j6v-78m3"
+    ],
+    "11.3.16-r0": [
+      "CVE-2026-59882",
+      "CVE-2026-59883",
+      "CVE-2026-67339",
+      "CVE-2026-67353",
+      "CVE-2026-67354",
+      "CVE-2026-67355",
+      "GHSA-94pj-82f3-465w",
+      "GHSA-c2w2-prh8-qm98",
+      "GHSA-f283-ghqc-fg79",
+      "GHSA-g446-98w2-8p5w",
+      "GHSA-h95v-h523-3mw8",
+      "GHSA-wm3w-8rrp-j577"
+    ],
+    "11.3.18-r0": [
+      "CVE-2026-67434",
+      "GHSA-hmqg-cxww-wqhq"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

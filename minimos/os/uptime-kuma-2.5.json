@@ -1,0 +1,76 @@
+{
+  "name": "uptime-kuma-2.5",
+  "secfixes": {
+    "2.5.3-r0": [
+      "CVE-2026-14257",
+      "CVE-2026-15157",
+      "CVE-2026-16728",
+      "CVE-2026-16729",
+      "CVE-2026-54272",
+      "CVE-2026-67213",
+      "CVE-2026-69152",
+      "CVE-2026-69185",
+      "CVE-2026-69192",
+      "CVE-2026-69198",
+      "GHSA-22jq-vg5j-6vgg",
+      "GHSA-2m8v-j782-fhvr",
+      "GHSA-2v37-7h3g-55p8",
+      "GHSA-4xrf-jv44-h6hh",
+      "GHSA-8xcm-r25x-g524",
+      "GHSA-m8rv-5g2x-5cg5",
+      "GHSA-mh99-v99m-4gvg",
+      "GHSA-mwp4-54f8-5fhr",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v3r7-h72x-cjcm"
+    ],
+    "2.5.4-r0": [
+      "CVE-2026-12208",
+      "CVE-2026-52746",
+      "CVE-2026-77413",
+      "CVE-2026-77414",
+      "CVE-2026-77415",
+      "GHSA-2943-5xfg-gq5f",
+      "GHSA-663r-x48j-fg8p",
+      "GHSA-66mm-25pp-rfff",
+      "GHSA-86vw-mfpg-wwv9",
+      "GHSA-8gq3-vp5j-2grp"
+    ],
+    "2.5.5-r0": [
+      "CVE-2026-101910",
+      "CVE-2026-101913",
+      "GHSA-2vr4-cq9g-pvrc",
+      "GHSA-rpw4-54j3-4h4q"
+    ],
+    "2.5.6-r0": [
+      "CVE-2026-101911",
+      "CVE-2026-101912",
+      "CVE-2026-102276",
+      "CVE-2026-102277",
+      "CVE-2026-102278",
+      "CVE-2026-102599",
+      "CVE-2026-18540",
+      "CVE-2026-19534",
+      "CVE-2026-85024",
+      "CVE-2026-87776",
+      "CVE-2026-90711",
+      "GHSA-2gc4-cqfq-p2gv",
+      "GHSA-3wwx-pv8p-q78v",
+      "GHSA-6j4f-fj2g-mc7p",
+      "GHSA-h3mg-xc3c-68pw",
+      "GHSA-j6r3-76f7-8jcv",
+      "GHSA-jqcg-44mw-7w3h",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7",
+      "GHSA-r53p-7pc4-xj5r",
+      "GHSA-rfgv-xxqx-mfg5",
+      "GHSA-vc2v-76pw-4v95"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

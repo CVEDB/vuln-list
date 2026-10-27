@@ -1,0 +1,34 @@
+{
+  "name": "harbor-fips-2.12",
+  "secfixes": {
+    "2.12.4-r1": [
+      "CVE-2026-2303",
+      "CVE-2026-29181",
+      "GHSA-cp6g-7hqx-qxhp",
+      "GHSA-mh2q-q3fh-2475"
+    ],
+    "2.12.4-r2": [
+      "CVE-2026-25679",
+      "CVE-2026-27139",
+      "CVE-2026-27142",
+      "GHSA-j3gx-2473-5fp8",
+      "GHSA-j4j7-vw47-rhfq",
+      "GHSA-rv83-g57w-fr8j"
+    ],
+    "2.12.4-r3": [
+      "CVE-2026-33186",
+      "GHSA-p77j-4mvh-x3m3"
+    ],
+    "2.12.4-r4": [
+      "CVE-2026-34986",
+      "GHSA-78h2-9frx-2jm8"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

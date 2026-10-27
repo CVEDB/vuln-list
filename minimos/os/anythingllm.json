@@ -1,0 +1,55 @@
+{
+  "name": "anythingllm",
+  "secfixes": {
+    "0": [
+      "CVE-2019-10790",
+      "CVE-2024-0435",
+      "CVE-2024-0440",
+      "CVE-2024-0455",
+      "CVE-2024-0798",
+      "CVE-2024-22422",
+      "CVE-2024-29415",
+      "CVE-2025-65945",
+      "GHSA-2p57-rm9w-gvfp",
+      "GHSA-32rv-jjcf-cmrm",
+      "GHSA-72wm-hh56-9gp6",
+      "GHSA-869p-cjfg-cm3x",
+      "GHSA-m8mq-5vgv-8w3r",
+      "GHSA-mxhp-79qh-mcx6",
+      "GHSA-rg89-92m2-5hj6"
+    ],
+    "1.13.0-r0": [
+      "CVE-2026-45403",
+      "CVE-2026-47713",
+      "CVE-2026-48116",
+      "CVE-2026-48789"
+    ],
+    "1.14.1-r0": [
+      "CVE-2026-25128",
+      "CVE-2026-33863",
+      "CVE-2026-33864",
+      "CVE-2026-55611",
+      "GHSA-37qj-frw5-hhjh",
+      "GHSA-44fc-8fm5-q62h",
+      "GHSA-hf2r-9gf9-rwch"
+    ],
+    "1.15.0-r0": [
+      "GHSA-6475-r3vj-m8vf"
+    ],
+    "1.16.0-r0": [
+      "CVE-2026-72917"
+    ],
+    "1.16.2-r0": [
+      "CVE-2025-22150",
+      "CVE-2026-88055",
+      "GHSA-c76h-2ccp-4975"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

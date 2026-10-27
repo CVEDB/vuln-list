@@ -1,0 +1,46 @@
+{
+  "name": "nodejs-25",
+  "secfixes": {
+    "25.3.0-r0": [
+      "CVE-2025-55130",
+      "CVE-2025-55131",
+      "CVE-2025-55132",
+      "CVE-2025-59465",
+      "CVE-2025-59466",
+      "CVE-2026-21636",
+      "CVE-2026-21637",
+      "GHSA-52xj-vx8w-46qj",
+      "GHSA-62wc-jj78-f4f6",
+      "GHSA-7xhv-hcmf-4rfv",
+      "GHSA-9jwr-p39p-hwg2",
+      "GHSA-ggxc-26fx-987r",
+      "GHSA-pm9v-wcw9-xgpv",
+      "GHSA-w2pg-hw7v-f7m9"
+    ],
+    "25.8.2-r0": [
+      "CVE-2026-21710",
+      "CVE-2026-21711",
+      "CVE-2026-21712",
+      "CVE-2026-21713",
+      "CVE-2026-21714",
+      "CVE-2026-21715",
+      "CVE-2026-21716",
+      "CVE-2026-21717",
+      "GHSA-22vj-v4r3-878v",
+      "GHSA-326m-34v3-gv5p",
+      "GHSA-6r7g-3mm3-fhw7",
+      "GHSA-8jgr-5cgv-g667",
+      "GHSA-cfr8-f5q7-84wq",
+      "GHSA-h8r7-m85c-mjhv",
+      "GHSA-vcqx-cqfc-xc2r",
+      "GHSA-xv6w-gxj8-v943"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

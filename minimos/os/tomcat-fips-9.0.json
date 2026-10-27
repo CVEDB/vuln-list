@@ -1,0 +1,68 @@
+{
+  "name": "tomcat-fips-9.0",
+  "secfixes": {
+    "9.0.120-r0": [
+      "CVE-2026-59083",
+      "CVE-2026-59084",
+      "GHSA-cwxf-7cw2-7r32",
+      "GHSA-hcjr-322h-429r"
+    ],
+    "9.0.121-r0": [
+      "CVE-2026-65182",
+      "CVE-2026-65183",
+      "CVE-2026-65637",
+      "CVE-2026-65905",
+      "CVE-2026-65927",
+      "CVE-2026-66299",
+      "CVE-2026-66422",
+      "CVE-2026-68525",
+      "CVE-2026-68569",
+      "CVE-2026-68763",
+      "CVE-2026-73180",
+      "GHSA-5q6q-ffrq-6xfc",
+      "GHSA-82jr-6mfr-9vq5",
+      "GHSA-9xv2-5v5q-p794",
+      "GHSA-f525-44xv-f2qj",
+      "GHSA-g8qj-vp23-742m",
+      "GHSA-gcx9-497g-6cp6",
+      "GHSA-h3mr-2w3q-jcv9",
+      "GHSA-h3x4-894j-xpx5",
+      "GHSA-rpf9-hrjr-88fv",
+      "GHSA-w3xg-786f-g788",
+      "GHSA-wrvx-pxxf-g8fg"
+    ],
+    "9.0.122-r0": [
+      "CVE-2026-73581",
+      "CVE-2026-75973",
+      "CVE-2026-76183",
+      "CVE-2026-77756",
+      "CVE-2026-77762",
+      "CVE-2026-77791",
+      "CVE-2026-78383",
+      "CVE-2026-78437",
+      "CVE-2026-79677",
+      "CVE-2026-86248",
+      "CVE-2026-86350",
+      "CVE-2026-87022",
+      "GHSA-28v4-2v86-58cc",
+      "GHSA-6ff5-mwrj-376m",
+      "GHSA-9cg7-2q68-g3mq",
+      "GHSA-c47j-g3rg-hrfq",
+      "GHSA-cf68-55f3-8gfw",
+      "GHSA-gpfr-7w77-mp48",
+      "GHSA-hvg5-8g86-xm44",
+      "GHSA-q4fc-3vv4-fh24",
+      "GHSA-q9fp-9gfr-vj9g",
+      "GHSA-r5gx-4gq8-822g",
+      "GHSA-rpxf-vjhq-9cv9",
+      "GHSA-xwrc-v28h-528j"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

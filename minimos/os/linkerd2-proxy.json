@@ -1,0 +1,30 @@
+{
+  "name": "linkerd2-proxy",
+  "secfixes": {
+    "0": [
+      "CVE-2025-43915",
+      "GHSA-42mr-jpwh-m9rv"
+    ],
+    "2.356.0-r0": [
+      "GHSA-3v94-mw7p-v465",
+      "GHSA-cq8v-f236-94qc",
+      "GHSA-q2qq-hmj6-3wpp"
+    ],
+    "2.362.0-r0": [
+      "CVE-2026-48504",
+      "GHSA-w9wp-h8wv-79jx"
+    ],
+    "2.371.0-r0": [
+      "GHSA-5j98-2g5x-46v6",
+      "GHSA-6f2x-v7q7-m7m5",
+      "GHSA-6w6g-hm98-mhgm"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

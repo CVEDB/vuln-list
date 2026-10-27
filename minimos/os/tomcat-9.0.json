@@ -1,0 +1,44 @@
+{
+  "name": "tomcat-9.0",
+  "secfixes": {
+    "9.0.107-r0": [
+      "CVE-2025-52434",
+      "CVE-2025-53506",
+      "GHSA-25xr-qj8w-c4vf",
+      "GHSA-4j3c-42xv-3f84"
+    ],
+    "9.0.108-r0": [
+      "CVE-2025-48989",
+      "GHSA-gqp3-2cvr-x8m3"
+    ],
+    "9.0.113-r0": [
+      "CVE-2025-66614",
+      "CVE-2026-24733",
+      "GHSA-fpj8-gq4v-p354",
+      "GHSA-qq5r-98hh-rxc9"
+    ],
+    "9.0.115-r0": [
+      "CVE-2026-24734",
+      "GHSA-mgp5-rv84-w37q"
+    ],
+    "9.0.116-r0": [
+      "CVE-2026-24880",
+      "CVE-2026-29129",
+      "CVE-2026-32990",
+      "GHSA-563x-q5rq-57qp",
+      "GHSA-69cc-cv78-qc8g",
+      "GHSA-8mc5-53m5-3qj2"
+    ],
+    "9.0.118-r0": [
+      "CVE-2026-41293",
+      "GHSA-r29c-68gh-xp6x"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

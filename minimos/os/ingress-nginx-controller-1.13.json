@@ -2,8 +2,103 @@
   "name": "ingress-nginx-controller-1.13",
   "secfixes": {
     "1.13.0-r1": [
+      "CVE-2025-47906",
       "CVE-2025-47907",
+      "GHSA-gwrf-jf3h-w649",
       "GHSA-j5pm-7495-qmr3"
+    ],
+    "1.13.2-r1": [
+      "CVE-2025-47910",
+      "GHSA-8pjc-487g-w6p2"
+    ],
+    "1.13.3-r1": [
+      "CVE-2025-47912",
+      "CVE-2025-58183",
+      "CVE-2025-58185",
+      "CVE-2025-58186",
+      "CVE-2025-58187",
+      "CVE-2025-58188",
+      "CVE-2025-58189",
+      "CVE-2025-61723",
+      "CVE-2025-61724",
+      "CVE-2025-61725",
+      "GHSA-447v-2qg4-h8hc",
+      "GHSA-7wwx-xj66-r44x",
+      "GHSA-9gcr-gp5f-jw27",
+      "GHSA-cxq7-xw9v-rcv3",
+      "GHSA-frhw-mqj2-wxw2",
+      "GHSA-hjx7-fpxx-mj48",
+      "GHSA-jwmf-chvc-rf92",
+      "GHSA-qh38-484v-w52x",
+      "GHSA-rjcg-56ph-3qvg",
+      "GHSA-wcw9-47fp-rrfr"
+    ],
+    "1.13.4-r0": [
+      "CVE-2025-47911",
+      "CVE-2025-58190",
+      "GHSA-w4gw-w5jq-g9jh"
+    ],
+    "1.13.4-r2": [
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "1.13.6-r0": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "1.13.7-r0": [
+      "CVE-2026-1580",
+      "CVE-2026-24512",
+      "CVE-2026-24513",
+      "CVE-2026-24514",
+      "GHSA-2pf9-vr92-6h3v",
+      "GHSA-4g2f-xcph-2335",
+      "GHSA-9h3p-52vh-959w",
+      "GHSA-jx8c-56mg-h6vp"
+    ],
+    "1.13.7-r1": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "1.13.8-r0": [
+      "CVE-2026-24051",
+      "CVE-2026-29181",
+      "GHSA-9h8m-3fm2-qjrq",
+      "GHSA-mh2q-q3fh-2475"
+    ],
+    "1.13.9-r1": [
+      "CVE-2026-27140",
+      "CVE-2026-27143",
+      "CVE-2026-27144",
+      "CVE-2026-32280",
+      "CVE-2026-32281",
+      "CVE-2026-32282",
+      "CVE-2026-32283",
+      "CVE-2026-32288",
+      "CVE-2026-32289",
+      "CVE-2026-33810",
+      "GHSA-5w89-2c2x-6x66",
+      "GHSA-7mr4-xjxg-34g6",
+      "GHSA-cfp9-33rc-j74f",
+      "GHSA-cqrx-3m42-5p5w",
+      "GHSA-fv83-x2xw-2j55",
+      "GHSA-gjvh-7jh8-7xhm",
+      "GHSA-jrg3-gfjw-hm96",
+      "GHSA-m4pr-4j3g-9v7v",
+      "GHSA-x4jj-h2v8-hqqv",
+      "GHSA-xj38-jxc5-rppx"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

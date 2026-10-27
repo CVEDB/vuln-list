@@ -1,0 +1,66 @@
+{
+  "name": "apache-activemq-5.19-fips",
+  "secfixes": {
+    "5.19.10-r0": [
+      "CVE-2026-34477",
+      "CVE-2026-34478",
+      "CVE-2026-34480",
+      "CVE-2026-49844",
+      "GHSA-3pxv-7cmr-fjr4",
+      "GHSA-445c-vh5m-36rj",
+      "GHSA-6hg6-v5c8-fphq",
+      "GHSA-qv9r-c865-cp47"
+    ],
+    "5.19.11-r0": [
+      "CVE-2026-19032",
+      "CVE-2026-68497",
+      "CVE-2026-74761",
+      "CVE-2026-83557",
+      "GHSA-gx83-3vf8-gh7j",
+      "GHSA-hx9m-72qj-2q46",
+      "GHSA-q4xh-88c3-wmh7",
+      "GHSA-wjgm-6hv5-3cvf"
+    ],
+    "5.19.12-r0": [
+      "CVE-2026-89407",
+      "CVE-2026-89425",
+      "CVE-2026-91776",
+      "CVE-2026-91777",
+      "GHSA-7hhh-6rmp-j9qf",
+      "GHSA-cxp5-3px4-pw24",
+      "GHSA-p6pp-m3f8-5c89",
+      "GHSA-wv8q-qhhj-9h54"
+    ],
+    "5.19.9-r0": [
+      "CVE-2026-18401",
+      "CVE-2026-54512",
+      "CVE-2026-54513",
+      "CVE-2026-54514",
+      "CVE-2026-54515",
+      "CVE-2026-59878",
+      "CVE-2026-59888",
+      "CVE-2026-59889",
+      "CVE-2026-61487",
+      "CVE-2026-68494",
+      "CVE-2026-77310",
+      "GHSA-3pjw-73gf-8qr5",
+      "GHSA-4mq2-fjvq-8232",
+      "GHSA-5gvw-p9qm-jgwh",
+      "GHSA-5jmj-h7xm-6q6v",
+      "GHSA-72hv-8253-57qq",
+      "GHSA-hgj6-7826-r7m5",
+      "GHSA-j3rv-43j4-c7qm",
+      "GHSA-r7wm-3cxj-wff9",
+      "GHSA-rmj7-2vxq-3g9f",
+      "GHSA-vvgp-rfg2-7rr6",
+      "GHSA-xmcq-x3wj-p8v6"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "perl-5.42",
+  "secfixes": {
+    "0": [
+      "CVE-2026-8376",
+      "GHSA-mpxq-89h3-qc47"
+    ],
+    "5.42.2-r0": [
+      "CVE-2026-4176",
+      "GHSA-q2q4-jjp8-f6m3"
+    ],
+    "5.42.3-r1": [
+      "CVE-2026-15534",
+      "GHSA-2cxw-qmfc-3vx3"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

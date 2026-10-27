@@ -1,0 +1,16 @@
+{
+  "name": "py3-httplib2",
+  "secfixes": {
+    "0.32.0-r0": [
+      "CVE-2026-59939",
+      "GHSA-j5g9-f88f-gfj3"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

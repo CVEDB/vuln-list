@@ -1,0 +1,16 @@
+{
+  "name": "gnupg-fips",
+  "secfixes": {
+    "0": [
+      "CVE-2022-3219",
+      "GHSA-pf7g-97vv-qmrr"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

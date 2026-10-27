@@ -3,9 +3,17 @@
   "secfixes": {
     "0": [
       "CVE-2018-20225",
-      "CVE-2025-47273",
-      "GHSA-5rjg-fvgr-3xxf",
-      "GHSA-7p5p-7qq5-cc86"
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "CVE-2026-21441",
+      "CVE-2026-44432",
+      "CVE-2026-4539",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-7p5p-7qq5-cc86",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-mf9v-mfxr-j63j"
     ],
     "24.3.1-r0": [
       "CVE-2025-50182",
@@ -14,6 +22,40 @@
     "25.2-r0": [
       "CVE-2024-47081",
       "GHSA-9hjg-9r4m-mvj7"
+    ],
+    "25.2-r1": [
+      "CVE-2025-50181",
+      "GHSA-pq67-6m6q-mj2v"
+    ],
+    "25.3-r0": [
+      "CVE-2025-8869",
+      "GHSA-4xh5-x5gv-qwph"
+    ],
+    "26.0-r0": [
+      "CVE-2026-1703",
+      "GHSA-6vgw-5pg2-w6jp"
+    ],
+    "26.1-r0": [
+      "CVE-2026-25645",
+      "CVE-2026-3219",
+      "CVE-2026-6357",
+      "GHSA-58qw-9mgm-455v",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-jp4c-xjxw-mgf9"
+    ],
+    "26.1.2-r0": [
+      "CVE-2026-8643",
+      "GHSA-wf93-45jw-7689"
+    ],
+    "26.1.2-r1": [
+      "CVE-2026-44431",
+      "CVE-2026-45409",
+      "GHSA-65pc-fj4g-8rjx",
+      "GHSA-qccp-gfcp-xxvc"
+    ],
+    "26.2-r0": [
+      "CVE-2026-13346",
+      "GHSA-qwm4-qh6w-59xr"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

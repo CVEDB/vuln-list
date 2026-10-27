@@ -1,0 +1,24 @@
+{
+  "name": "ruby3.4-json",
+  "secfixes": {
+    "2.19.2-r0": [
+      "CVE-2026-33210",
+      "GHSA-3m6g-2423-7cp3"
+    ],
+    "2.19.9-r0": [
+      "CVE-2026-54696",
+      "GHSA-x2f5-4prf-w687"
+    ],
+    "2.21.2-r0": [
+      "CVE-2026-71847",
+      "GHSA-9hj4-r449-hfvc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

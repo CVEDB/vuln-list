@@ -1,0 +1,20 @@
+{
+  "name": "oracle-free-21",
+  "secfixes": {
+    "0": [
+      "CVE-2022-40897",
+      "CVE-2024-47081",
+      "CVE-2025-47273",
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-9hjg-9r4m-mvj7",
+      "GHSA-r9hx-vwmv-q579"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

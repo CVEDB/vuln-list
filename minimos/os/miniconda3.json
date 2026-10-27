@@ -1,0 +1,64 @@
+{
+  "name": "miniconda3",
+  "secfixes": {
+    "26.7.1.0.314-r0": [
+      "CVE-2026-28684",
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5",
+      "GHSA-mf9w-mj56-hr94"
+    ],
+    "26.7.1.1.314-r0": [
+      "CVE-2026-13346",
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "CVE-2026-4539",
+      "CVE-2026-45409",
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-65pc-fj4g-8rjx",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc",
+      "GHSA-qwm4-qh6w-59xr"
+    ],
+    "26.9.3.0.314-r0": [
+      "CVE-2026-101917",
+      "CVE-2026-101918",
+      "CVE-2026-102265",
+      "CVE-2026-102266",
+      "CVE-2026-102267",
+      "CVE-2026-102268",
+      "CVE-2026-102269",
+      "CVE-2026-102270",
+      "CVE-2026-102271",
+      "CVE-2026-102272",
+      "CVE-2026-102273",
+      "CVE-2026-102274",
+      "CVE-2026-102275",
+      "CVE-2026-103001",
+      "CVE-2026-63374",
+      "CVE-2026-64847",
+      "GHSA-2gx3-rcp4-g85q",
+      "GHSA-42vr-xj54-vc7v",
+      "GHSA-5p39-cfhj-2xmp",
+      "GHSA-82r6-8w77-94w6",
+      "GHSA-8wjv-2p76-3863",
+      "GHSA-9j54-fg26-wv3r",
+      "GHSA-9v7f-9g4p-ffgj",
+      "GHSA-ffc3-869f-jxw9",
+      "GHSA-gvp8-978c-rx2q",
+      "GHSA-hxm8-2xgr-2p9m",
+      "GHSA-jwrc-g2q2-pq5p",
+      "GHSA-p4g4-x82p-q773",
+      "GHSA-r6x4-923q-g947",
+      "GHSA-w2cx-738m-mc7w",
+      "GHSA-w6j9-cwv2-h6wq",
+      "GHSA-x33g-cr3x-6449"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

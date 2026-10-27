@@ -4,6 +4,18 @@
     "78.1.1-r0": [
       "CVE-2025-47273",
       "GHSA-5rjg-fvgr-3xxf"
+    ],
+    "80.10.1-r0": [
+      "CVE-2026-23949",
+      "GHSA-58pv-8j8x-9vj2"
+    ],
+    "80.10.2-r0": [
+      "CVE-2026-24049",
+      "GHSA-8rrh-rw8j-w5fx"
+    ],
+    "83.0.0-r0": [
+      "CVE-2026-59890",
+      "GHSA-h35f-9h28-mq5c"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

@@ -14,7 +14,9 @@
       "GHSA-wprm-fgrx-xj42"
     ],
     "1.23.12-r0": [
+      "CVE-2025-47906",
       "CVE-2025-47907",
+      "GHSA-gwrf-jf3h-w649",
       "GHSA-j5pm-7495-qmr3"
     ],
     "1.23.5-r0": [
@@ -27,9 +29,18 @@
       "CVE-2025-22866",
       "GHSA-3whm-j4xm-rv8x"
     ],
+    "1.23.7-r0": [
+      "CVE-2025-22870",
+      "GHSA-qxp5-gwg8-xv66",
+      "GO-2025-3503"
+    ],
     "1.23.8-r0": [
       "CVE-2025-22871",
       "GHSA-g9pc-8g42-g6vq"
+    ],
+    "1.23.9-r0": [
+      "CVE-2025-22873",
+      "GHSA-p3p7-9h4w-jqw2"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

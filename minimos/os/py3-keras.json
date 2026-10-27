@@ -1,0 +1,55 @@
+{
+  "name": "py3-keras",
+  "secfixes": {
+    "3.12.0-r0": [
+      "CVE-2025-12058",
+      "CVE-2025-12060",
+      "GHSA-28jp-44vh-q42h",
+      "GHSA-hjqc-jx6g-rwp9",
+      "GHSA-mq84-hjqx-cwf2"
+    ],
+    "3.13.0-r0": [
+      "CVE-2026-12482",
+      "GHSA-58hv-7753-xmfq"
+    ],
+    "3.13.1-r0": [
+      "CVE-2026-0897",
+      "GHSA-mgx6-5cf9-rr43",
+      "GHSA-xfhx-r7ww-5995"
+    ],
+    "3.13.2-r0": [
+      "CVE-2026-1462",
+      "CVE-2026-1669",
+      "GHSA-3m4q-jmj6-r34q",
+      "GHSA-4f3f-g24h-fr8m",
+      "GHSA-gfmx-qqqh-f38q"
+    ],
+    "3.14.0-r0": [
+      "CVE-2026-11816",
+      "GHSA-hqp4-2352-xf5r"
+    ],
+    "3.14.1-r0": [
+      "CVE-2026-12481",
+      "GHSA-5gwj-m78q-7pq3"
+    ],
+    "3.15.0-r0": [
+      "CVE-2026-12479",
+      "CVE-2026-12480",
+      "CVE-2026-12484",
+      "CVE-2026-12570",
+      "CVE-2026-9335",
+      "GHSA-26c4-7vv6-867j",
+      "GHSA-74m6-m3xx-3vmj",
+      "GHSA-gh82-f9x8-5frx",
+      "GHSA-m8wh-29wm-52mv",
+      "GHSA-v2w2-w228-c444"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

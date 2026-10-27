@@ -1,0 +1,52 @@
+{
+  "name": "litellm-1.88",
+  "secfixes": {
+    "0": [
+      "CVE-2026-40217",
+      "GHSA-98x5-vq43-vc5p",
+      "GHSA-wxxx-gvqv-xp7p"
+    ],
+    "1.88.2-r0": [
+      "CVE-2026-54282",
+      "CVE-2026-54283",
+      "GHSA-82w8-qh3p-5jfq",
+      "GHSA-jp82-jpqv-5vv3"
+    ],
+    "1.88.3-r0": [
+      "CVE-2026-104851",
+      "CVE-2026-55830",
+      "GHSA-27vj-qcqg-25rc",
+      "GHSA-ffg3-p8fm-mjx2",
+      "GHSA-jm82-fx9c-mx94"
+    ],
+    "1.88.4-r0": [
+      "GHSA-4xgf-cpjx-pc3j"
+    ],
+    "1.88.5-r0": [
+      "CVE-2026-59935",
+      "CVE-2026-59936",
+      "CVE-2026-59937",
+      "CVE-2026-59938",
+      "CVE-2026-69248",
+      "CVE-2026-69249",
+      "GHSA-537c-gmf6-5ccf",
+      "GHSA-55h5-xmcq-c37v",
+      "GHSA-5qjq-93h5-hrgp",
+      "GHSA-5xf7-4p34-54qr",
+      "GHSA-g867-7843-wf8q",
+      "GHSA-jwv3-5hgf-82ww",
+      "GHSA-m2h6-j472-rp4c"
+    ],
+    "1.88.5-r1": [
+      "CVE-2026-59950",
+      "GHSA-vj7q-gjh5-988w"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "argocd-image-updater-0",
+  "secfixes": {
+    "0": [
+      "CVE-2026-44740",
+      "GHSA-m3xc-h892-ggx6"
+    ],
+    "0.18.0-r0": [
+      "CVE-2025-1767",
+      "CVE-2025-55191",
+      "CVE-2025-59531",
+      "CVE-2025-59537",
+      "CVE-2025-59538",
+      "CVE-2026-42880",
+      "CVE-2026-45737",
+      "GHSA-3v3m-wc6v-x4x3",
+      "GHSA-3wgm-2gw2-vh5m",
+      "GHSA-f9gq-prrc-hrhc",
+      "GHSA-g88p-r42r-ppp9",
+      "GHSA-gpx4-37g2-c8pv",
+      "GHSA-rg3g-4rw9-gqrp",
+      "GHSA-wp4p-9pxh-cgx2",
+      "GO-2026-5099",
+      "GO-2026-5618"
+    ],
+    "0.18.0-r1": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "CVE-2025-68119",
+      "GHSA-cm6p-qc7v-m3jw",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "0.18.0-r5": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
+    "0.18.0-r6": [
+      "CVE-2026-25679",
+      "CVE-2026-27139",
+      "CVE-2026-27142",
+      "GHSA-j3gx-2473-5fp8",
+      "GHSA-j4j7-vw47-rhfq",
+      "GHSA-rv83-g57w-fr8j"
+    ],
+    "0.18.0-r7": [
+      "CVE-2026-27140",
+      "CVE-2026-27143",
+      "CVE-2026-27144",
+      "CVE-2026-32280",
+      "CVE-2026-32281",
+      "CVE-2026-32282",
+      "CVE-2026-32283",
+      "CVE-2026-32288",
+      "CVE-2026-32289",
+      "CVE-2026-33810",
+      "GHSA-5w89-2c2x-6x66",
+      "GHSA-7mr4-xjxg-34g6",
+      "GHSA-cfp9-33rc-j74f",
+      "GHSA-cqrx-3m42-5p5w",
+      "GHSA-fv83-x2xw-2j55",
+      "GHSA-gjvh-7jh8-7xhm",
+      "GHSA-jrg3-gfjw-hm96",
+      "GHSA-m4pr-4j3g-9v7v",
+      "GHSA-x4jj-h2v8-hqqv",
+      "GHSA-xj38-jxc5-rppx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

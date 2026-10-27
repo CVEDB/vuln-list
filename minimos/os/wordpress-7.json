@@ -1,0 +1,33 @@
+{
+  "name": "wordpress-7",
+  "secfixes": {
+    "0": [
+      "CVE-2011-5216",
+      "CVE-2012-4271",
+      "CVE-2012-6527",
+      "CVE-2013-7240",
+      "GHSA-2cv7-399j-p9vv",
+      "GHSA-9hc2-jgqx-ghw9",
+      "GHSA-jc5h-2p2w-pc95",
+      "GHSA-q87j-q95m-j3x3",
+      "GHSA-w5cr-843p-q4hf"
+    ],
+    "7.0.2-r0": [
+      "CVE-2026-60137",
+      "CVE-2026-63030"
+    ],
+    "7.0.4-r0": [
+      "CVE-2026-65640"
+    ],
+    "7.1.2-r0": [
+      "CVE-2026-87902"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

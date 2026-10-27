@@ -1,0 +1,26 @@
+{
+  "name": "redpanda-25.1-fips",
+  "secfixes": {
+    "25.1.12-r0": [
+      "CVE-2025-22872",
+      "CVE-2025-54410",
+      "GHSA-4vq8-7jfc-9cvp",
+      "GHSA-vvgc-356p-c3xw"
+    ],
+    "25.1.12-r1": [
+      "CVE-2026-39822",
+      "CVE-2026-42505",
+      "GHSA-ff52-ph69-cf7x",
+      "GHSA-xcgv-8mv7-v8c7",
+      "GO-2026-4970",
+      "GO-2026-5856"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

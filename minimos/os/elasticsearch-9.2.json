@@ -1,0 +1,30 @@
+{
+  "name": "elasticsearch-9.2",
+  "secfixes": {
+    "9.2.2-r0": [
+      "CVE-2025-37731",
+      "CVE-2025-68390",
+      "GHSA-gphj-4h6p-37xq",
+      "GHSA-m9gh-789g-q5pv"
+    ],
+    "9.2.3-r0": [
+      "CVE-2025-12183",
+      "CVE-2025-68384",
+      "GHSA-qf7c-7r9h-mm92",
+      "GHSA-vqf4-7m7x-wgfc"
+    ],
+    "9.2.4-r0": [
+      "CVE-2025-66566",
+      "CVE-2025-67735",
+      "GHSA-84h7-rjj3-6jx4",
+      "GHSA-cmp6-m4wj-q63q"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

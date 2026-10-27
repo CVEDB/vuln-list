@@ -1,0 +1,75 @@
+{
+  "name": "uv",
+  "secfixes": {
+    "0.10.0-r0": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "0.10.10-r0": [
+      "CVE-2026-31812",
+      "GHSA-6xvm-j4wr-6v98"
+    ],
+    "0.10.12-r0": [
+      "CVE-2026-32766",
+      "GHSA-6gx3-4362-rf54"
+    ],
+    "0.10.5-r0": [
+      "CVE-2026-21895",
+      "CVE-2026-25727",
+      "GHSA-9c48-w39g-hm26",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "0.11.0-r0": [
+      "CVE-2026-25537",
+      "CVE-2026-33055",
+      "CVE-2026-33056",
+      "GHSA-gchp-q4r4-x4ff",
+      "GHSA-h395-gr6q-cpjc",
+      "GHSA-j4xf-2g29-59ph"
+    ],
+    "0.11.15-r0": [
+      "GHSA-3cv2-h65g-fgmm",
+      "GHSA-3pv8-6f4r-ffg2",
+      "GHSA-4gg8-gxpx-9rph"
+    ],
+    "0.11.26-r0": [
+      "GHSA-4w2j-m93h-cj5j"
+    ],
+    "0.11.3-r0": [
+      "GHSA-pwjx-qhcg-rvj4"
+    ],
+    "0.11.8-r0": [
+      "GHSA-965h-392x-2mh5",
+      "GHSA-xgp8-3hg3-c2mh"
+    ],
+    "0.11.9-r0": [
+      "GHSA-82j2-j2ch-gfr8",
+      "GHSA-cq8v-f236-94qc",
+      "GHSA-fp55-jw48-c537",
+      "GHSA-vfvv-c25p-m7mm",
+      "GHSA-xx64-wwv2-hcqq"
+    ],
+    "0.12.16-r0": [
+      "GHSA-2mjx-qc3c-rqvc"
+    ],
+    "0.12.18-r0": [
+      "CVE-2026-104843",
+      "GHSA-2cv4-cqwr-gwf7"
+    ],
+    "0.9.5-r0": [
+      "CVE-2025-62518",
+      "GHSA-j5gw-2vrg-8fgx"
+    ],
+    "0.9.6-r0": [
+      "CVE-2025-13327",
+      "GHSA-v653-r55g-hcmg"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

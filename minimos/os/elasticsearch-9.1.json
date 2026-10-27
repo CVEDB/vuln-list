@@ -1,0 +1,52 @@
+{
+  "name": "elasticsearch-9.1",
+  "secfixes": {
+    "9.1.10-r0": [
+      "CVE-2025-66566",
+      "CVE-2025-67735",
+      "GHSA-84h7-rjj3-6jx4",
+      "GHSA-cmp6-m4wj-q63q"
+    ],
+    "9.1.4-r0": [
+      "CVE-2025-54988",
+      "CVE-2025-55163",
+      "CVE-2025-58056",
+      "CVE-2025-58057",
+      "CVE-2025-66516",
+      "CVE-2025-7962",
+      "CVE-2025-8885",
+      "CVE-2025-8916",
+      "GHSA-3p8m-j85q-pgmj",
+      "GHSA-4cx2-fc23-5wg6",
+      "GHSA-67mf-3cr5-8w23",
+      "GHSA-9342-92gg-6v29",
+      "GHSA-f58c-gq56-vjjf",
+      "GHSA-fghv-69vj-qj49",
+      "GHSA-p72g-pv48-7w9x",
+      "GHSA-prj3-ccx8-p6x4"
+    ],
+    "9.1.5-r0": [
+      "CVE-2025-37727",
+      "GHSA-56r7-h6mw-rcfv"
+    ],
+    "9.1.8-r0": [
+      "CVE-2025-68390",
+      "GHSA-gphj-4h6p-37xq"
+    ],
+    "9.1.9-r0": [
+      "CVE-2025-12183",
+      "CVE-2025-37731",
+      "CVE-2025-68384",
+      "GHSA-m9gh-789g-q5pv",
+      "GHSA-qf7c-7r9h-mm92",
+      "GHSA-vqf4-7m7x-wgfc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "py3-pyasn1",
+  "secfixes": {
+    "0.6.2-r0": [
+      "CVE-2026-23490",
+      "GHSA-63vm-454h-vhhq"
+    ],
+    "0.6.3-r0": [
+      "CVE-2026-30922",
+      "GHSA-jr27-m4p2-rc6r"
+    ],
+    "0.6.4-r0": [
+      "CVE-2026-59884",
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-hm4w-wwcw-mr6r",
+      "GHSA-m4p7-r5rc-7g4j"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

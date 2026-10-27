@@ -1,0 +1,24 @@
+{
+  "name": "delve-1.24",
+  "secfixes": {
+    "0": [
+      "CVE-2026-27144",
+      "CVE-2026-33811",
+      "CVE-2026-39820",
+      "CVE-2026-39836",
+      "CVE-2026-42501",
+      "GHSA-497x-jcxf-m478",
+      "GHSA-8g2r-hhvj-mv99",
+      "GHSA-cqrx-3m42-5p5w",
+      "GHSA-p9h5-jm8x-mjm5",
+      "GHSA-qf3q-3h68-mmh2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

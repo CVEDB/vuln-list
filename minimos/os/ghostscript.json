@@ -28,6 +28,16 @@
     "10.05.1-r0": [
       "CVE-2025-48708",
       "GHSA-7q9j-33vm-8375"
+    ],
+    "10.06.0-r0": [
+      "CVE-2025-59798",
+      "CVE-2025-59799",
+      "CVE-2025-59800",
+      "CVE-2025-59801",
+      "GHSA-2mxc-fm8x-qgcp",
+      "GHSA-6q6w-ff4v-hgr5",
+      "GHSA-9chm-r9vp-jrf5",
+      "GHSA-h582-rvj3-8qw3"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

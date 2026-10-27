@@ -1,0 +1,42 @@
+{
+  "name": "py3-virtualenv",
+  "secfixes": {
+    "20.36.1-r0": [
+      "CVE-2026-22702",
+      "GHSA-597g-3phw-6986"
+    ],
+    "21.3.1-r0": [
+      "CVE-2026-6357",
+      "GHSA-jp4c-xjxw-mgf9"
+    ],
+    "21.5.0-r0": [
+      "CVE-2025-8869",
+      "CVE-2026-1703",
+      "CVE-2026-24049",
+      "GHSA-4xh5-x5gv-qwph",
+      "GHSA-6vgw-5pg2-w6jp",
+      "GHSA-8rrh-rw8j-w5fx"
+    ],
+    "21.7.11-r0": [
+      "CVE-2026-102938",
+      "GHSA-9h9j-4vrj-gf7g"
+    ],
+    "21.7.12-r0": [
+      "CVE-2026-102930",
+      "CVE-2026-102937",
+      "GHSA-94p9-xgh2-xp45",
+      "GHSA-x78j-v8h9-3j2q"
+    ],
+    "21.7.13-r0": [
+      "CVE-2026-102925",
+      "GHSA-p58f-9548-mpm2"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "litellm-1.101",
+  "secfixes": {
+    "1.101.1-r0": [
+      "CVE-2026-102998",
+      "CVE-2026-102999",
+      "CVE-2026-103000",
+      "CVE-2026-104874",
+      "CVE-2026-97687",
+      "CVE-2026-97688",
+      "CVE-2026-97689",
+      "GHSA-54p9-h82j-f925",
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-php9-fj8v-98fj",
+      "GHSA-v247-6f48-mgcj",
+      "GHSA-vxq7-64xx-v4gw",
+      "GHSA-w23x-9jrw-r45c"
+    ],
+    "1.101.3-r0": [
+      "CVE-2026-49264",
+      "CVE-2026-49265",
+      "GHSA-hj66-6f7g-4r5v",
+      "GHSA-xpv3-w29h-x7cv"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

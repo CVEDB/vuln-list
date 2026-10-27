@@ -1,9 +1,18 @@
 {
   "name": "aws-cli-2",
   "secfixes": {
+    "0": [
+      "CVE-2026-24049",
+      "GHSA-8rrh-rw8j-w5fx"
+    ],
     "2.27.45-r0": [
       "CVE-2025-47273",
       "GHSA-5rjg-fvgr-3xxf"
+    ],
+    "2.33.14-r0": [
+      "CVE-2026-59890",
+      "GHSA-h35f-9h28-mq5c",
+      "GHSA-xmj3-9gf7-h52w"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

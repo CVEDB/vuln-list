@@ -1,0 +1,16 @@
+{
+  "name": "perl-5.44",
+  "secfixes": {
+    "5.44.0-r1": [
+      "CVE-2026-15534",
+      "GHSA-2cxw-qmfc-3vx3"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

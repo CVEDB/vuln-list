@@ -1,0 +1,30 @@
+{
+  "name": "ffmpeg-7",
+  "secfixes": {
+    "0": [
+      "CVE-2026-30998",
+      "GHSA-83ph-9qxx-hfjx"
+    ],
+    "7.1.2-r0": [
+      "CVE-2025-25468",
+      "CVE-2025-25469",
+      "GHSA-42f6-2hwp-g5qv",
+      "GHSA-cgf4-78xq-c6wj"
+    ],
+    "7.1.4-r0": [
+      "CVE-2025-22921",
+      "CVE-2026-107698",
+      "CVE-2026-30997",
+      "GHSA-j3v4-v6h2-f4pp",
+      "GHSA-jhxg-38qw-fjxv",
+      "GHSA-rg96-8jmp-9mwc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

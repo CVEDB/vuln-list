@@ -1,0 +1,38 @@
+{
+  "name": "strimzi-kafka-operator-0.50",
+  "secfixes": {
+    "0.50.1-r1": [
+      "CVE-2026-33870",
+      "CVE-2026-33871",
+      "GHSA-pwqr-wmgm-9rr8",
+      "GHSA-w9fj-cfpg-grvv"
+    ],
+    "0.50.1-r2": [
+      "CVE-2026-34477",
+      "CVE-2026-34478",
+      "CVE-2026-34480",
+      "CVE-2026-34481",
+      "GHSA-3pxv-7cmr-fjr4",
+      "GHSA-445c-vh5m-36rj",
+      "GHSA-6hg6-v5c8-fphq",
+      "GHSA-w35j-pv5h-q9q9"
+    ],
+    "0.50.1-r3": [
+      "CVE-2026-33557",
+      "CVE-2026-35554",
+      "GHSA-28jg-cgg7-j4wc",
+      "GHSA-5qcv-4rpc-jp93"
+    ],
+    "0.50.1-r4": [
+      "CVE-2026-2332",
+      "GHSA-355h-qmc2-wpwf"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}

@@ -1,9 +1,35 @@
 {
   "name": "go-1.24",
   "secfixes": {
+    "1.24.11-r0": [
+      "CVE-2025-61727",
+      "CVE-2025-61729",
+      "GHSA-5mh9-3jwc-rp59",
+      "GHSA-7c64-f9jr-v9h2"
+    ],
+    "1.24.12-r0": [
+      "CVE-2025-61726",
+      "CVE-2025-61728",
+      "CVE-2025-61730",
+      "CVE-2025-61731",
+      "GHSA-g9q4-qjx4-2v7q",
+      "GHSA-gm9r-q53w-2gh4",
+      "GHSA-gr56-3gp6-6gmj",
+      "GHSA-xvqr-69v8-f3gv"
+    ],
+    "1.24.13-r0": [
+      "CVE-2025-61732",
+      "CVE-2025-68121",
+      "GHSA-8jvr-vh7g-f8gx",
+      "GHSA-h355-32pf-p2xm"
+    ],
     "1.24.2-r0": [
       "CVE-2025-22871",
       "GHSA-g9pc-8g42-g6vq"
+    ],
+    "1.24.3-r0": [
+      "CVE-2025-22873",
+      "GHSA-p3p7-9h4w-jqw2"
     ],
     "1.24.4-r0": [
       "CVE-2025-0913",
@@ -18,8 +44,34 @@
       "GHSA-wprm-fgrx-xj42"
     ],
     "1.24.6-r0": [
+      "CVE-2025-47906",
       "CVE-2025-47907",
+      "GHSA-gwrf-jf3h-w649",
       "GHSA-j5pm-7495-qmr3"
+    ],
+    "1.24.8-r0": [
+      "CVE-2025-47912",
+      "CVE-2025-58183",
+      "CVE-2025-58185",
+      "CVE-2025-58186",
+      "CVE-2025-58188",
+      "CVE-2025-58189",
+      "CVE-2025-61723",
+      "CVE-2025-61724",
+      "CVE-2025-61725",
+      "GHSA-447v-2qg4-h8hc",
+      "GHSA-7wwx-xj66-r44x",
+      "GHSA-9gcr-gp5f-jw27",
+      "GHSA-cxq7-xw9v-rcv3",
+      "GHSA-hjx7-fpxx-mj48",
+      "GHSA-jwmf-chvc-rf92",
+      "GHSA-qh38-484v-w52x",
+      "GHSA-rjcg-56ph-3qvg",
+      "GHSA-wcw9-47fp-rrfr"
+    ],
+    "1.24.9-r0": [
+      "CVE-2025-58187",
+      "GHSA-frhw-mqj2-wxw2"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

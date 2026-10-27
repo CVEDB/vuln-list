@@ -1,0 +1,16 @@
+{
+  "name": "calico-whisker-3.31",
+  "secfixes": {
+    "0": [
+      "CVE-2026-6720",
+      "GHSA-3m4q-ggcj-j6m4"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.mini.dev",
+  "reponame": "os"
+}
