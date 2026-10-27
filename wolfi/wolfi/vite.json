@@ -1,0 +1,76 @@
+{
+  "name": "vite",
+  "secfixes": {
+    "5.0.12-r0": [
+      "CVE-2024-23331",
+      "GHSA-c24v-8rfc-w8vw"
+    ],
+    "5.2.2-r0": [
+      "CVE-2023-45289",
+      "CVE-2023-45290",
+      "CVE-2024-24783",
+      "CVE-2024-24784",
+      "CVE-2024-24785",
+      "GHSA-32ch-6x54-q4h9",
+      "GHSA-3q2c-pvp5-3cqp",
+      "GHSA-fgq5-q76c-gx78",
+      "GHSA-j6m3-gc37-6r6q",
+      "GHSA-rr6r-cfgf-gc6h",
+      "GO-2024-2598",
+      "GO-2024-2599",
+      "GO-2024-2600",
+      "GO-2024-2609",
+      "GO-2024-2610"
+    ],
+    "5.4.6-r0": [
+      "CVE-2024-45811",
+      "CVE-2024-45812",
+      "GHSA-64vr-g452-qvp3",
+      "GHSA-9cwx-2883-4wfx"
+    ],
+    "5.4.8-r0": [
+      "CVE-2024-47068",
+      "GHSA-gcx4-mw62-g8wm"
+    ],
+    "6.2.0-r0": [
+      "GHSA-67mh-4wv8-2f99"
+    ],
+    "6.3.4-r0": [
+      "CVE-2025-46565",
+      "GHSA-859w-5945-r5v3"
+    ],
+    "8.0.11-r0": [
+      "CVE-2026-27606",
+      "CVE-2026-33671",
+      "CVE-2026-33672",
+      "CVE-2026-39363",
+      "CVE-2026-39364",
+      "CVE-2026-39365",
+      "CVE-2026-41305",
+      "GHSA-3v7f-55p6-f55p",
+      "GHSA-4w7w-66w2-5vf9",
+      "GHSA-c2c7-rcm5-vvqj",
+      "GHSA-mw96-cpmx-2vgc",
+      "GHSA-p9ff-h696-f583",
+      "GHSA-qx2v-qp2m-jg93",
+      "GHSA-v2wj-q39q-566r"
+    ],
+    "8.0.16-r0": [
+      "GHSA-gv7w-rqvm-qjhr"
+    ],
+    "8.1.0-r1": [
+      "GHSA-g7r4-m6w7-qqqr"
+    ],
+    "8.2.1-r1": [
+      "CVE-2026-67213",
+      "GHSA-2v37-7h3g-55p8"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

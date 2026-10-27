@@ -1,0 +1,35 @@
+{
+  "name": "gradle-stage0",
+  "secfixes": {
+    "0": [
+      "CVE-2023-4759",
+      "GHSA-3p86-9955-h393"
+    ],
+    "8.0.1-r0": [
+      "CVE-2022-37866",
+      "CVE-2022-46751",
+      "CVE-2024-30172",
+      "GHSA-2jc4-r94c-rp7h",
+      "GHSA-m44j-cfrm-g8qc",
+      "GHSA-wv7w-rj2x-556x"
+    ],
+    "8.0.1-r3": [
+      "CVE-2025-52999",
+      "CVE-2026-18401",
+      "GHSA-6qm2-mcq7-53qp",
+      "GHSA-72hv-8253-57qq",
+      "GHSA-h46c-h94j-95f3"
+    ],
+    "8.0.1-r4": [
+      "CVE-2025-67030",
+      "GHSA-6fmv-xxpf-w3cw"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

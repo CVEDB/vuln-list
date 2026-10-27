@@ -1,0 +1,87 @@
+{
+  "name": "dotnet-bootstrap-8",
+  "secfixes": {
+    "0": [
+      "CVE-2025-26646",
+      "GHSA-h4j7-5rxr-p4wc"
+    ],
+    "8.0.11-r0": [
+      "CVE-2024-38095",
+      "GHSA-447r-wph3-92pm"
+    ],
+    "8.0.122-r0": [
+      "CVE-2025-55248",
+      "CVE-2025-55315",
+      "GHSA-5rrx-jjjq-q2r5",
+      "GHSA-gwq6-fmvp-qp68"
+    ],
+    "8.0.126-r0": [
+      "CVE-2026-26130",
+      "GHSA-4vgm-c2wm-63mw"
+    ],
+    "8.0.127-r0": [
+      "CVE-2026-26171",
+      "CVE-2026-32178",
+      "CVE-2026-33116",
+      "GHSA-37gx-xxp4-5rgx",
+      "GHSA-g4vj-cjjj-v7hg",
+      "GHSA-vmwf-m9c5-3jvc",
+      "GHSA-w3x6-4m5h-cxqf"
+    ],
+    "8.0.128-r0": [
+      "CVE-2026-42899",
+      "GHSA-9v76-4qcc-frgh"
+    ],
+    "8.0.129-r0": [
+      "CVE-2026-45491",
+      "CVE-2026-45591",
+      "GHSA-7q4v-2mr6-5gpx",
+      "GHSA-f8h2-vmm9-qhj6"
+    ],
+    "8.0.130-r0": [
+      "CVE-2026-47302",
+      "CVE-2026-47304",
+      "CVE-2026-50524",
+      "CVE-2026-50525",
+      "CVE-2026-50527",
+      "CVE-2026-50528",
+      "CVE-2026-50648",
+      "CVE-2026-50651",
+      "CVE-2026-50659",
+      "CVE-2026-57108",
+      "GHSA-23rf-6693-g89p",
+      "GHSA-74jp-vm22-8q8x",
+      "GHSA-8q5v-6pqq-x66h",
+      "GHSA-cvvh-rhrc-wg4q",
+      "GHSA-g8r8-53c2-pm3f",
+      "GHSA-mmjf-rqrv-855v",
+      "GHSA-qvw7-jm5c-6hqw",
+      "GHSA-rp2p-6cmp-jxj9",
+      "GHSA-w7cw-xp7h-6j5j",
+      "GHSA-wp74-jgxh-gv4q"
+    ],
+    "8.0.131-r0": [
+      "CVE-2026-62899",
+      "CVE-2026-62901",
+      "CVE-2026-62909",
+      "GHSA-9mr8-pwpw-3j2w",
+      "GHSA-m93f-wj8c-rp8p",
+      "GHSA-r6mh-95jw-g7qg"
+    ],
+    "8.0.132-r0": [
+      "CVE-2026-69304",
+      "GHSA-8cp2-47hg-mfgh"
+    ],
+    "8.0.18-r0": [
+      "CVE-2025-30399",
+      "GHSA-266m-wp2v-x7mq"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

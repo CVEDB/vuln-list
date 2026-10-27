@@ -1,0 +1,34 @@
+{
+  "name": "gnupg",
+  "secfixes": {
+    "0": [
+      "CVE-2018-12020",
+      "CVE-2019-14855",
+      "CVE-2020-25125",
+      "CVE-2022-3219",
+      "CVE-2022-34903",
+      "GHSA-356p-pg27-x2cf",
+      "GHSA-678p-6r6j-65f9",
+      "GHSA-cpvm-f36g-55vg",
+      "GHSA-g8h3-hp92-c5qx",
+      "GHSA-pf7g-97vv-qmrr"
+    ],
+    "2.4.8-r1": [
+      "CVE-2025-30258",
+      "GHSA-5rjg-pf4q-hgcr"
+    ],
+    "2.4.9-r10": [
+      "CVE-2026-24882",
+      "CVE-2026-57062",
+      "GHSA-m6x2-4hhh-669j",
+      "GHSA-mpc3-hqr8-w5f3"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

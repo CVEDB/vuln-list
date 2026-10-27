@@ -1,0 +1,34 @@
+{
+  "name": "mariadb-10.6",
+  "secfixes": {
+    "0": [
+      "CVE-2022-47015",
+      "CVE-2026-35549",
+      "GHSA-3xgj-m9hf-j98g",
+      "GHSA-hc8h-974x-98hr"
+    ],
+    "10.6.17-r0": [
+      "CVE-2024-1597",
+      "GHSA-24rp-q3w6-vc56"
+    ],
+    "10.6.18-r2": [
+      "CVE-2022-21724",
+      "CVE-2022-31197",
+      "GHSA-r38f-c4h4-hqq2",
+      "GHSA-v7wg-cpwc-24m4"
+    ],
+    "10.6.23-r0": [
+      "CVE-2023-52969",
+      "CVE-2023-52970",
+      "GHSA-g8xg-6v3j-w97f",
+      "GHSA-gx7h-6fr6-j29h"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

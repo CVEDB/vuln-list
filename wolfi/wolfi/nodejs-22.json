@@ -1,0 +1,88 @@
+{
+  "name": "nodejs-22",
+  "secfixes": {
+    "0": [
+      "CVE-2025-59466",
+      "CVE-2026-111497",
+      "CVE-2026-21636",
+      "GHSA-52xj-vx8w-46qj",
+      "GHSA-7xhv-hcmf-4rfv",
+      "GHSA-9v8h-qqgm-4m35"
+    ],
+    "22.13.1-r0": [
+      "CVE-2025-23083",
+      "CVE-2025-23090",
+      "GHSA-5vvm-wqc8-r5m8",
+      "GHSA-wv7p-rjf3-9fr5"
+    ],
+    "22.21.1-r1": [
+      "CVE-2024-6923",
+      "CVE-2024-7592",
+      "GHSA-7pwv-g7hj-39pr",
+      "GHSA-87qc-q3w7-7m8w"
+    ],
+    "22.22.0-r0": [
+      "CVE-2025-55130",
+      "CVE-2025-55131",
+      "CVE-2025-55132",
+      "CVE-2025-59464",
+      "CVE-2025-59465",
+      "CVE-2026-21637",
+      "GHSA-38m8-39f8-gq75",
+      "GHSA-62wc-jj78-f4f6",
+      "GHSA-9jwr-p39p-hwg2",
+      "GHSA-ggxc-26fx-987r",
+      "GHSA-pm9v-wcw9-xgpv",
+      "GHSA-w2pg-hw7v-f7m9"
+    ],
+    "22.22.3-r0": [
+      "CVE-2026-21710",
+      "CVE-2026-21713",
+      "CVE-2026-21714",
+      "CVE-2026-21715",
+      "CVE-2026-21716",
+      "CVE-2026-21717",
+      "GHSA-22vj-v4r3-878v",
+      "GHSA-326m-34v3-gv5p",
+      "GHSA-6r7g-3mm3-fhw7",
+      "GHSA-8jgr-5cgv-g667",
+      "GHSA-cfr8-f5q7-84wq",
+      "GHSA-xv6w-gxj8-v943"
+    ],
+    "22.23.2-r0": [
+      "CVE-2026-56847",
+      "CVE-2026-56850",
+      "CVE-2026-58043",
+      "GHSA-777r-4cwx-g26v",
+      "GHSA-hw7r-7v27-7388",
+      "GHSA-qrq2-c54w-wgqm"
+    ],
+    "22.23.4-r0": [
+      "CVE-2026-105481",
+      "CVE-2026-105482",
+      "CVE-2026-106069",
+      "CVE-2026-106072",
+      "CVE-2026-106073",
+      "CVE-2026-106074",
+      "GHSA-4qmx-59c6-fr6r",
+      "GHSA-7h83-3rfm-3p3v",
+      "GHSA-jj44-m59q-wmrj",
+      "GHSA-pghh-9966-75r7",
+      "GHSA-w3gx-6c8w-v66f",
+      "GHSA-w63p-v5c6-3pmw"
+    ],
+    "22.4.1-r0": [
+      "CVE-2024-22018",
+      "CVE-2024-22020",
+      "GHSA-9xvm-xmw3-2hm2",
+      "GHSA-ch4x-f5c4-36gv"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

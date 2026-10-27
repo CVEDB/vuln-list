@@ -1,0 +1,27 @@
+{
+  "name": "kubernetes-1.27",
+  "secfixes": {
+    "0": [
+      "CVE-2024-28180",
+      "GHSA-c5q2-7r4c-mv6g",
+      "GO-2024-2631"
+    ],
+    "1.27.12-r0": [
+      "CVE-2024-24786",
+      "GHSA-8r3f-844c-mc37",
+      "GO-2024-2611"
+    ],
+    "1.27.12-r1": [
+      "CVE-2023-45288",
+      "GHSA-4v7x-pqxf-cx7m",
+      "GO-2024-2687"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

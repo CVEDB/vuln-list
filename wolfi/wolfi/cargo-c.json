@@ -1,0 +1,63 @@
+{
+  "name": "cargo-c",
+  "secfixes": {
+    "0.10.12-r1": [
+      "CVE-2025-4574",
+      "GHSA-pg9f-39pc-qf8g"
+    ],
+    "0.10.15-r1": [
+      "CVE-2025-58160",
+      "GHSA-xwfj-jgwm-7wp5"
+    ],
+    "0.10.20-r2": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "0.10.20-r3": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "0.10.21-r3": [
+      "CVE-2026-33055",
+      "CVE-2026-33056",
+      "GHSA-gchp-q4r4-x4ff",
+      "GHSA-j4xf-2g29-59ph"
+    ],
+    "0.10.21-r4": [
+      "GHSA-cq8v-f236-94qc"
+    ],
+    "0.10.23-r0": [
+      "GHSA-3pv8-6f4r-ffg2"
+    ],
+    "0.10.23-r1": [
+      "CVE-2024-45305",
+      "CVE-2025-31130",
+      "CVE-2026-0810",
+      "GHSA-2frx-2596-x5r6",
+      "GHSA-6mw6-mj76-grwc",
+      "GHSA-9857-6mw7-fq2m",
+      "GHSA-v26r-4c9c-h3j6"
+    ],
+    "0.10.24-r0": [
+      "CVE-2026-40034",
+      "CVE-2026-44471",
+      "GHSA-f26g-jm89-4g65",
+      "GHSA-f89h-2fjh-2r9q",
+      "GHSA-fr8x-3vfx-f45h",
+      "GHSA-p3hw-mv63-rf9w",
+      "GHSA-pg4w-g64p-qwhj",
+      "GHSA-x494-mj8g-cj27"
+    ],
+    "0.10.4-r0": [
+      "CVE-2024-45405",
+      "GHSA-m8rp-vv92-46c7"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "nodejs-24",
+  "secfixes": {
+    "0": [
+      "CVE-2025-59466",
+      "CVE-2026-111497",
+      "CVE-2026-21636",
+      "GHSA-52xj-vx8w-46qj",
+      "GHSA-7xhv-hcmf-4rfv",
+      "GHSA-9v8h-qqgm-4m35"
+    ],
+    "24.13.0-r0": [
+      "CVE-2025-55130",
+      "CVE-2025-55131",
+      "CVE-2025-55132",
+      "CVE-2025-59464",
+      "CVE-2025-59465",
+      "CVE-2026-21637",
+      "GHSA-38m8-39f8-gq75",
+      "GHSA-62wc-jj78-f4f6",
+      "GHSA-9jwr-p39p-hwg2",
+      "GHSA-ggxc-26fx-987r",
+      "GHSA-pm9v-wcw9-xgpv",
+      "GHSA-w2pg-hw7v-f7m9"
+    ],
+    "24.19.0-r0": [
+      "CVE-2026-56850",
+      "GHSA-777r-4cwx-g26v"
+    ],
+    "24.22.1-r0": [
+      "CVE-2026-105481",
+      "CVE-2026-105482",
+      "CVE-2026-105483",
+      "CVE-2026-106069",
+      "CVE-2026-106072",
+      "CVE-2026-106073",
+      "CVE-2026-106074",
+      "GHSA-4qmx-59c6-fr6r",
+      "GHSA-7h83-3rfm-3p3v",
+      "GHSA-8h4p-qpcq-gq24",
+      "GHSA-jj44-m59q-wmrj",
+      "GHSA-pghh-9966-75r7",
+      "GHSA-w3gx-6c8w-v66f",
+      "GHSA-w63p-v5c6-3pmw"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

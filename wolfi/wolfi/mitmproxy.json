@@ -1,0 +1,101 @@
+{
+  "name": "mitmproxy",
+  "secfixes": {
+    "12.2.1-r0": [
+      "CVE-2023-0286",
+      "CVE-2023-23931",
+      "CVE-2023-49083",
+      "CVE-2023-50782",
+      "CVE-2024-0727",
+      "CVE-2024-26130",
+      "CVE-2025-23217",
+      "CVE-2025-43859",
+      "CVE-2025-6176",
+      "CVE-2026-0994",
+      "CVE-2026-26007",
+      "CVE-2026-34073",
+      "GHSA-2qfp-q593-8484",
+      "GHSA-3ww4-gg4f-jr7f",
+      "GHSA-5cpq-8wj7-hf2v",
+      "GHSA-63cx-g855-hvv4",
+      "GHSA-6vqw-3v5j-54x4",
+      "GHSA-7gcm-g887-7qv7",
+      "GHSA-9v9h-cgj8-h64p",
+      "GHSA-h4gh-qq45-vh27",
+      "GHSA-jfhm-5ghh-2f97",
+      "GHSA-jm77-qphf-c4w8",
+      "GHSA-m959-cc7f-wv43",
+      "GHSA-r6ph-v2qm-q3c2",
+      "GHSA-v8gr-m533-ghj9",
+      "GHSA-vqfr-h8mv-ghfj",
+      "GHSA-w7pp-m8wf-vj6r",
+      "GHSA-wg33-5h85-7q5p",
+      "GHSA-x4qr-2fvf-3mr5"
+    ],
+    "12.2.2-r1": [
+      "CVE-2026-27205",
+      "CVE-2026-31958",
+      "CVE-2026-35536",
+      "CVE-2026-39892",
+      "GHSA-68rp-wp8r-4726",
+      "GHSA-78cv-mqj4-43f7",
+      "GHSA-fqwm-6jpj-5wxc",
+      "GHSA-p423-j2cm-9vmq",
+      "GHSA-qjxf-f2mg-c6mc"
+    ],
+    "12.2.3-r0": [
+      "CVE-2026-27448",
+      "CVE-2026-27459",
+      "GHSA-5pwr-322w-8jr4",
+      "GHSA-vp96-hxj8-p424"
+    ],
+    "12.2.3-r1": [
+      "CVE-2026-49853",
+      "CVE-2026-49854",
+      "CVE-2026-49855",
+      "GHSA-3x9g-8vmp-wqvf",
+      "GHSA-537c-gmf6-5ccf",
+      "GHSA-cx3h-4qpv-8hc9",
+      "GHSA-mgf9-4vpg-hj56"
+    ],
+    "12.2.3-r11": [
+      "GHSA-3hv7-mjh2-fv65",
+      "GHSA-c2m8-h5v5-343r",
+      "GHSA-chx6-46f5-w4vp"
+    ],
+    "12.2.3-r13": [
+      "GHSA-6q48-6c7w-9gw2"
+    ],
+    "12.2.3-r2": [
+      "GHSA-6v7p-g79w-8964",
+      "GHSA-pw6j-qg29-8w7f"
+    ],
+    "12.2.3-r4": [
+      "CVE-2026-59885",
+      "CVE-2026-59886",
+      "GHSA-8ppf-4f7h-5ppj",
+      "GHSA-hm4w-wwcw-mr6r"
+    ],
+    "12.2.3-r5": [
+      "CVE-2026-71554",
+      "GHSA-6hr6-w5qg-qmwg"
+    ],
+    "12.2.3-r6": [
+      "CVE-2026-69247",
+      "GHSA-g6cj-pr64-35w5"
+    ],
+    "12.2.3-r8": [
+      "CVE-2026-82397",
+      "GHSA-8423-8fgw-73vq",
+      "GHSA-mpf4-983q-p7j4",
+      "GHSA-wwv5-g3v4-889x"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

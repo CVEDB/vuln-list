@@ -1,0 +1,54 @@
+{
+  "name": "openjdk-13",
+  "secfixes": {
+    "0": [
+      "CVE-2024-20932",
+      "GHSA-ccwc-jrj7-h4v6"
+    ],
+    "13.0.14.5-r4": [
+      "CVE-2023-21835",
+      "CVE-2023-21843",
+      "CVE-2023-22006",
+      "CVE-2023-22025",
+      "CVE-2023-22036",
+      "CVE-2023-22044",
+      "CVE-2023-22045",
+      "CVE-2023-22049",
+      "CVE-2023-22081",
+      "CVE-2024-21131",
+      "CVE-2024-21138",
+      "CVE-2024-21140",
+      "CVE-2024-21145",
+      "CVE-2024-21147",
+      "CVE-2024-21208",
+      "CVE-2024-21210",
+      "CVE-2024-21217",
+      "CVE-2024-21235",
+      "GHSA-4mqw-v4pq-hg97",
+      "GHSA-4rqr-f9qq-h7w3",
+      "GHSA-7498-h3m9-7wv2",
+      "GHSA-7prq-r42m-wfcx",
+      "GHSA-8gw4-4gr2-h2mr",
+      "GHSA-c36p-x44h-8wcq",
+      "GHSA-fjvg-5x2f-67rq",
+      "GHSA-h5rw-8p92-pmrf",
+      "GHSA-hw83-24q6-v392",
+      "GHSA-mp59-54g3-r5r4",
+      "GHSA-mw33-48wm-m4r2",
+      "GHSA-p276-58r4-6c33",
+      "GHSA-rv92-jf3g-p8qp",
+      "GHSA-v5pp-g8vf-3fxg",
+      "GHSA-vhqv-fr8v-3cwq",
+      "GHSA-vp7m-m4v3-gxc5",
+      "GHSA-w383-47g8-vfg7",
+      "GHSA-wqgc-h828-9g98"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

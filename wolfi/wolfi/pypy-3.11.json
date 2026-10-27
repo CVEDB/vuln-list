@@ -1,0 +1,57 @@
+{
+  "name": "pypy-3.11",
+  "secfixes": {
+    "0": [
+      "CVE-2022-37454",
+      "CVE-2025-47273",
+      "GHSA-5rjg-fvgr-3xxf",
+      "GHSA-6w4m-2xhg-2658"
+    ],
+    "7.3.19-r37": [
+      "CVE-2025-50182",
+      "GHSA-48p4-8xcf-vxj5"
+    ],
+    "7.3.20-r3": [
+      "CVE-2024-47081",
+      "GHSA-9hjg-9r4m-mvj7"
+    ],
+    "7.3.20-r5": [
+      "CVE-2026-23949",
+      "CVE-2026-24049",
+      "GHSA-58pv-8j8x-9vj2",
+      "GHSA-8rrh-rw8j-w5fx"
+    ],
+    "7.3.22-r0": [
+      "CVE-2025-50181",
+      "CVE-2025-66418",
+      "CVE-2025-66471",
+      "CVE-2026-21441",
+      "CVE-2026-25645",
+      "CVE-2026-3219",
+      "GHSA-2xpw-w6gg-jr37",
+      "GHSA-38jv-5279-wg99",
+      "GHSA-58qw-9mgm-455v",
+      "GHSA-gc5v-m9x4-r6x2",
+      "GHSA-gm62-xv2j-4w53",
+      "GHSA-pq67-6m6q-mj2v"
+    ],
+    "7.3.23-r4": [
+      "CVE-2026-44431",
+      "CVE-2026-44432",
+      "CVE-2026-4539",
+      "CVE-2026-45409",
+      "GHSA-5239-wwwm-4pmq",
+      "GHSA-65pc-fj4g-8rjx",
+      "GHSA-6v7p-g79w-8964",
+      "GHSA-mf9v-mfxr-j63j",
+      "GHSA-qccp-gfcp-xxvc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

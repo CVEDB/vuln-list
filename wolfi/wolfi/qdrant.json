@@ -1,0 +1,114 @@
+{
+  "name": "qdrant",
+  "secfixes": {
+    "0": [
+      "GHSA-g98v-hv3f-hcfr"
+    ],
+    "1.11.0-r0": [
+      "CVE-2024-41178",
+      "GHSA-c2hf-vcmr-qjrf"
+    ],
+    "1.11.3-r1": [
+      "CVE-2024-45311",
+      "GHSA-vr26-jcq5-fjj8"
+    ],
+    "1.12.5-r0": [
+      "GHSA-qg5g-gv98-5ffh",
+      "GHSA-wwq9-3cpr-mm53"
+    ],
+    "1.12.6-r0": [
+      "GHSA-gw5w-5j7f-jmjj"
+    ],
+    "1.13.4-r1": [
+      "CVE-2025-4432",
+      "GHSA-4p46-pwfr-66x6",
+      "GO-2025-3678"
+    ],
+    "1.13.5-r0": [
+      "CVE-2024-47609",
+      "GHSA-4jwc-w2hc-78qv"
+    ],
+    "1.13.6-r1": [
+      "GHSA-rr8g-9fpq-6wmg"
+    ],
+    "1.15.4-r1": [
+      "CVE-2025-58160",
+      "GHSA-xwfj-jgwm-7wp5"
+    ],
+    "1.15.5-r0": [
+      "CVE-2024-12224",
+      "GHSA-h97m-ww89-6jmq"
+    ],
+    "1.16.3-r1": [
+      "CVE-2026-21895",
+      "GHSA-9c48-w39g-hm26"
+    ],
+    "1.16.3-r3": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "1.16.3-r4": [
+      "CVE-2026-25537",
+      "GHSA-h395-gr6q-cpjc"
+    ],
+    "1.16.3-r5": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "1.16.3-r6": [
+      "GHSA-8v2v-wjwg-vx6r",
+      "GHSA-gcqf-3g44-vc9p"
+    ],
+    "1.17.0-r2": [
+      "CVE-2026-31812",
+      "GHSA-6xvm-j4wr-6v98"
+    ],
+    "1.17.0-r5": [
+      "CVE-2026-32829",
+      "GHSA-vvp9-7p8x-rfvv"
+    ],
+    "1.17.0-r7": [
+      "CVE-2026-33055",
+      "CVE-2026-33056",
+      "GHSA-gchp-q4r4-x4ff",
+      "GHSA-j4xf-2g29-59ph"
+    ],
+    "1.17.1-r1": [
+      "GHSA-394x-vwmw-crm3",
+      "GHSA-9f94-5g5w-gf6r"
+    ],
+    "1.17.1-r2": [
+      "GHSA-xhj4-vrgc-hr34"
+    ],
+    "1.18.0-r0": [
+      "CVE-2025-53605",
+      "GHSA-2gh3-rmm4-6rq5",
+      "GHSA-82j2-j2ch-gfr8",
+      "GHSA-965h-392x-2mh5",
+      "GHSA-pwjx-qhcg-rvj4",
+      "GHSA-xgp8-3hg3-c2mh"
+    ],
+    "1.18.0-r1": [
+      "GHSA-3pv8-6f4r-ffg2"
+    ],
+    "1.18.2-r6": [
+      "GHSA-7gcf-g7xr-8hxj"
+    ],
+    "1.19.1-r0": [
+      "GHSA-cq8v-f236-94qc"
+    ],
+    "1.19.1-r3": [
+      "GHSA-6g2r-675j-hx59"
+    ],
+    "1.19.1-r4": [
+      "GHSA-2mjx-qc3c-rqvc"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

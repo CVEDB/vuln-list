@@ -1,0 +1,61 @@
+{
+  "name": "npm-12",
+  "secfixes": {
+    "0": [
+      "CVE-2026-93748",
+      "GHSA-ch52-4w7c-c8xp"
+    ],
+    "12.0.2-r2": [
+      "CVE-2026-15157",
+      "CVE-2026-16728",
+      "CVE-2026-16729",
+      "CVE-2026-54272",
+      "CVE-2026-69152",
+      "CVE-2026-69192",
+      "CVE-2026-69198",
+      "GHSA-22jq-vg5j-6vgg",
+      "GHSA-4xrf-jv44-h6hh",
+      "GHSA-8xcm-r25x-g524",
+      "GHSA-m8rv-5g2x-5cg5",
+      "GHSA-mwp4-54f8-5fhr",
+      "GHSA-rgw5-rvv9-x895",
+      "GHSA-v3r7-h72x-cjcm"
+    ],
+    "12.1.0-r1": [
+      "CVE-2026-101910",
+      "CVE-2026-101913",
+      "GHSA-2vr4-cq9g-pvrc",
+      "GHSA-rpw4-54j3-4h4q"
+    ],
+    "12.1.0-r2": [
+      "CVE-2026-102276",
+      "GHSA-6j4f-fj2g-mc7p"
+    ],
+    "12.2.0-r1": [
+      "CVE-2026-101911",
+      "CVE-2026-101912",
+      "CVE-2026-102277",
+      "CVE-2026-102278",
+      "GHSA-h3mg-xc3c-68pw",
+      "GHSA-j6r3-76f7-8jcv",
+      "GHSA-q2hr-2g5m-vwhr",
+      "GHSA-qhr7-859c-m2p7"
+    ],
+    "12.2.0-r2": [
+      "CVE-2026-104844",
+      "GHSA-rj75-hqrm-r3gf"
+    ],
+    "12.2.1-r1": [
+      "CVE-2026-111997",
+      "GHSA-p3hm-x653-5rc6",
+      "GHSA-rxp7-6hxx-x8q5"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

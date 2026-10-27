@@ -1,0 +1,88 @@
+{
+  "name": "ffmpeg-8.0",
+  "secfixes": {
+    "0": [
+      "CVE-2025-69693",
+      "CVE-2026-107660",
+      "CVE-2026-52295",
+      "CVE-2026-52296",
+      "CVE-2026-52297",
+      "CVE-2026-64831",
+      "CVE-2026-64832",
+      "CVE-2026-66040",
+      "CVE-2026-66041",
+      "GHSA-53pf-4457-qg7g",
+      "GHSA-6vcg-882j-82v5",
+      "GHSA-923g-f8rq-pv4w",
+      "GHSA-frhp-m687-9g3q",
+      "GHSA-h8p2-x23p-rfv3",
+      "GHSA-jc8j-9799-c943",
+      "GHSA-mqq7-j9mq-9jwq",
+      "GHSA-r4c5-645c-gfxv",
+      "GHSA-vp63-fqg3-cph4"
+    ],
+    "8.0-r0": [
+      "CVE-2025-22921",
+      "GHSA-j3v4-v6h2-f4pp"
+    ],
+    "8.0.1-r0": [
+      "CVE-2026-30754",
+      "GHSA-crqp-42h3-7fcv"
+    ],
+    "8.0.1-r2": [
+      "CVE-2023-51791",
+      "CVE-2023-51793",
+      "CVE-2023-51794",
+      "CVE-2023-51795",
+      "CVE-2023-51796",
+      "CVE-2023-51797",
+      "CVE-2023-51798",
+      "GHSA-3mxv-473p-h624",
+      "GHSA-4425-9m6f-3ppg",
+      "GHSA-4rw9-59ch-c9mh",
+      "GHSA-8q63-w3px-vg38",
+      "GHSA-f72f-6w6j-jj9v",
+      "GHSA-hwp9-p6mr-p438",
+      "GHSA-ppm8-gjfw-8977"
+    ],
+    "8.0.1-r3": [
+      "CVE-2025-25468",
+      "CVE-2025-25469",
+      "GHSA-42f6-2hwp-g5qv",
+      "GHSA-cgf4-78xq-c6wj"
+    ],
+    "8.0.1-r7": [
+      "CVE-2026-40962",
+      "GHSA-48wr-p98v-9w5h"
+    ],
+    "8.0.2-r0": [
+      "CVE-2026-30997",
+      "CVE-2026-30998",
+      "CVE-2026-30999",
+      "GHSA-83ph-9qxx-hfjx",
+      "GHSA-jj28-p98r-mwqj",
+      "GHSA-rg96-8jmp-9mwc"
+    ],
+    "8.0.3-r0": [
+      "CVE-2026-8461",
+      "CVE-2026-96611",
+      "GHSA-g222-rpm9-83x6",
+      "GHSA-qff7-4q6c-m8h6"
+    ],
+    "8.0.3-r4": [
+      "CVE-2026-75142",
+      "CVE-2026-75146",
+      "CVE-2026-75147",
+      "GHSA-564v-jr2q-mgwf",
+      "GHSA-5vj8-jgqj-77h6",
+      "GHSA-63qj-83cj-jp3m"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "mountpoint-s3",
+  "secfixes": {
+    "1.19.0-r2": [
+      "CVE-2025-58160",
+      "GHSA-xwfj-jgwm-7wp5"
+    ],
+    "1.22.0-r2": [
+      "CVE-2026-25541",
+      "GHSA-434x-w66g-qw3r"
+    ],
+    "1.22.0-r3": [
+      "CVE-2026-25727",
+      "GHSA-r6v5-fh4h-64xc"
+    ],
+    "1.22.3-r0": [
+      "GHSA-cq8v-f236-94qc"
+    ],
+    "1.22.3-r5": [
+      "CVE-2026-50185",
+      "GHSA-3rjw-m598-pq24"
+    ],
+    "1.22.3-r6": [
+      "CVE-2026-48504",
+      "GHSA-w9wp-h8wv-79jx"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

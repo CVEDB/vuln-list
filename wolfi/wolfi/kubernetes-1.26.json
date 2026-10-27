@@ -1,0 +1,17 @@
+{
+  "name": "kubernetes-1.26",
+  "secfixes": {
+    "1.26.15-r0": [
+      "CVE-2024-24786",
+      "GHSA-8r3f-844c-mc37",
+      "GO-2024-2611"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}

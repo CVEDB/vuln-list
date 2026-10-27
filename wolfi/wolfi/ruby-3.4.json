@@ -1,0 +1,40 @@
+{
+  "name": "ruby-3.4",
+  "secfixes": {
+    "3.4.10-r0": [
+      "CVE-2026-41316",
+      "GHSA-q339-8rmv-2mhv"
+    ],
+    "3.4.10-r7": [
+      "CVE-2026-80212",
+      "CVE-2026-80213",
+      "GHSA-jr95-x3fr-rcg4",
+      "GHSA-x2vh-ff4w-v64c"
+    ],
+    "3.4.11-r5": [
+      "CVE-2026-110264",
+      "CVE-2026-97229",
+      "GHSA-83vq-rvff-66gw",
+      "GHSA-9hj5-r43h-h3xg"
+    ],
+    "3.4.2-r1": [
+      "CVE-2025-27219",
+      "CVE-2025-27220",
+      "CVE-2025-27221",
+      "GHSA-22h5-pq3x-2gf2",
+      "GHSA-gh9q-2xrm-x6qv",
+      "GHSA-mhwm-jh88-3gjf"
+    ],
+    "3.4.5-r0": [
+      "CVE-2025-24294",
+      "GHSA-xh69-987w-hrp8"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "x86_64",
+    "aarch64"
+  ],
+  "urlprefix": "https://packages.wolfi.dev",
+  "reponame": "wolfi"
+}
