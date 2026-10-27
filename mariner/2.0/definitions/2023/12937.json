@@ -3,7 +3,7 @@
   "ID": "oval:com.microsoft.cbl-mariner:def:12937",
   "Version": "0",
   "Metadata": {
-    "Title": "CVE-2023-22466 affecting package rpm-ostree 2022.1-7",
+    "Title": "CVE-2023-22466 affecting package rpm-ostree 2022.1-8",
     "Affected": {
       "Family": "unix",
       "Platform": "CBL-Mariner"
@@ -16,13 +16,13 @@
     "Patchable": "Not Applicable",
     "AdvisoryID": "12937",
     "Severity": "Medium",
-    "Description": "CVE-2023-22466 affecting package rpm-ostree 2022.1-7. This CVE either no longer is or was never applicable."
+    "Description": "CVE-2023-22466 affecting package rpm-ostree 2022.1-8. This CVE either no longer is or was never applicable."
   },
   "Criteria": {
     "Operator": "AND",
     "Criterion": [
       {
-        "Comment": "Package rpm-ostree is installed with version 2022.1-7 or earlier",
+        "Comment": "Package rpm-ostree is installed with version 2022.1-8 or earlier",
         "TestRef": "oval:com.microsoft.cbl-mariner:tst:12937000"
       }
     ]

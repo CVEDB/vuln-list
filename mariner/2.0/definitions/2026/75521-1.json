@@ -1,0 +1,31 @@
+{
+  "Class": "vulnerability",
+  "ID": "oval:com.microsoft.cbl-mariner:def:75521",
+  "Version": "1",
+  "Metadata": {
+    "Title": "CVE-2026-24809 affecting package memcached for versions less than 1.6.22-3",
+    "Affected": {
+      "Family": "unix",
+      "Platform": "CBL-Mariner"
+    },
+    "Reference": {
+      "RefID": "CVE-2026-24809",
+      "RefURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-24809",
+      "Source": "CVE"
+    },
+    "Patchable": "true",
+    "AdvisoryDate": "2026-02-05T22:21:51Z",
+    "AdvisoryID": "75521-1",
+    "Severity": "Medium",
+    "Description": "CVE-2026-24809 affecting package memcached for versions less than 1.6.22-3. A patched version of the package is available."
+  },
+  "Criteria": {
+    "Operator": "AND",
+    "Criterion": [
+      {
+        "Comment": "Package memcached is earlier than 1.6.22-3, affected by CVE-2026-24809",
+        "TestRef": "oval:com.microsoft.cbl-mariner:tst:75521000"
+      }
+    ]
+  }
+}

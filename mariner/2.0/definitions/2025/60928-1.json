@@ -14,7 +14,7 @@
       "Source": "CVE"
     },
     "Patchable": "true",
-    "AdvisoryDate": "2025-09-10T15:12:05.437Z",
+    "AdvisoryDate": "2025-10-03T15:08:02.737Z",
     "AdvisoryID": "60928-1",
     "Severity": "Medium",
     "Description": "CVE-2025-3576 affecting package krb5 for versions less than 1.19.4-4. A patched version of the package is available."

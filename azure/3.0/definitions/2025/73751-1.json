@@ -1,0 +1,31 @@
+{
+  "Class": "vulnerability",
+  "ID": "oval:com.microsoft.azurelinux:def:73751",
+  "Version": "1",
+  "Metadata": {
+    "Title": "CVE-2025-15444 affecting package libsodium for versions less than 1.0.19-2",
+    "Affected": {
+      "Family": "unix",
+      "Platform": "Azure Linux"
+    },
+    "Reference": {
+      "RefID": "CVE-2025-15444",
+      "RefURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-15444",
+      "Source": "CVE"
+    },
+    "Patchable": "true",
+    "AdvisoryDate": "2026-02-09T23:37:49Z",
+    "AdvisoryID": "73751-1",
+    "Severity": "High",
+    "Description": "CVE-2025-15444 affecting package libsodium for versions less than 1.0.19-2. A patched version of the package is available."
+  },
+  "Criteria": {
+    "Operator": "AND",
+    "Criterion": [
+      {
+        "Comment": "Package libsodium is earlier than 1.0.19-2, affected by CVE-2025-15444",
+        "TestRef": "oval:com.microsoft.azurelinux:tst:73751000"
+      }
+    ]
+  }
+}

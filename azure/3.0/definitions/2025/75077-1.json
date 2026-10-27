@@ -1,0 +1,31 @@
+{
+  "Class": "vulnerability",
+  "ID": "oval:com.microsoft.azurelinux:def:75077",
+  "Version": "1",
+  "Metadata": {
+    "Title": "CVE-2025-59465 affecting package nodejs for versions less than 20.14.0-11",
+    "Affected": {
+      "Family": "unix",
+      "Platform": "Azure Linux"
+    },
+    "Reference": {
+      "RefID": "CVE-2025-59465",
+      "RefURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-59465",
+      "Source": "CVE"
+    },
+    "Patchable": "true",
+    "AdvisoryDate": "2026-02-02T15:31:50Z",
+    "AdvisoryID": "75077-1",
+    "Severity": "High",
+    "Description": "CVE-2025-59465 affecting package nodejs for versions less than 20.14.0-11. A patched version of the package is available."
+  },
+  "Criteria": {
+    "Operator": "AND",
+    "Criterion": [
+      {
+        "Comment": "Package nodejs is earlier than 20.14.0-11, affected by CVE-2025-59465",
+        "TestRef": "oval:com.microsoft.azurelinux:tst:75077000"
+      }
+    ]
+  }
+}

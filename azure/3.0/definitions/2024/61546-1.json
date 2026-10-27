@@ -14,7 +14,7 @@
       "Source": "CVE"
     },
     "Patchable": "true",
-    "AdvisoryDate": "2025-09-17T15:08:38.83Z",
+    "AdvisoryDate": "2025-09-18T15:12:20.51Z",
     "AdvisoryID": "61546-1",
     "Severity": "Medium",
     "Description": "CVE-2024-11738 affecting package rust for versions less than 1.86.0-6. A patched version of the package is available."

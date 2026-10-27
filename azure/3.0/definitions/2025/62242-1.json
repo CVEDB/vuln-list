@@ -14,7 +14,7 @@
       "Source": "CVE"
     },
     "Patchable": "true",
-    "AdvisoryDate": "2025-09-17T15:08:38.83Z",
+    "AdvisoryDate": "2025-09-18T15:12:20.51Z",
     "AdvisoryID": "62242-1",
     "Severity": "Critical",
     "Description": "CVE-2025-40908 affecting package perl-YAML-LibYAML for versions less than 0.902.0-2. An upgraded version of the package is available that resolves this issue."

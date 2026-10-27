@@ -14,7 +14,7 @@
       "Source": "CVE"
     },
     "Patchable": "true",
-    "AdvisoryDate": "2025-09-17T15:08:38.83Z",
+    "AdvisoryDate": "2025-09-18T15:12:20.51Z",
     "AdvisoryID": "48745-1",
     "Severity": "Low",
     "Description": "CVE-2024-45618 affecting package opensc for versions less than 0.26.1-1. An upgraded version of the package is available that resolves this issue."

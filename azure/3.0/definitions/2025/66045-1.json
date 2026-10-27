@@ -14,7 +14,7 @@
       "Source": "CVE"
     },
     "Patchable": "true",
-    "AdvisoryDate": "2025-09-17T15:08:38.83Z",
+    "AdvisoryDate": "2025-09-18T15:12:20.51Z",
     "AdvisoryID": "66045-1",
     "Severity": "Medium",
     "Description": "CVE-2025-54126 affecting package fluent-bit for versions less than 3.1.9-5. A patched version of the package is available."

@@ -1,0 +1,31 @@
+{
+  "Class": "vulnerability",
+  "ID": "oval:com.microsoft.azurelinux:def:74006",
+  "Version": "1",
+  "Metadata": {
+    "Title": "CVE-2025-13151 affecting package gnutls for versions less than 3.8.3-8",
+    "Affected": {
+      "Family": "unix",
+      "Platform": "Azure Linux"
+    },
+    "Reference": {
+      "RefID": "CVE-2025-13151",
+      "RefURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-13151",
+      "Source": "CVE"
+    },
+    "Patchable": "true",
+    "AdvisoryDate": "2026-02-09T23:37:49Z",
+    "AdvisoryID": "74006-1",
+    "Severity": "Low",
+    "Description": "CVE-2025-13151 affecting package gnutls for versions less than 3.8.3-8. A patched version of the package is available."
+  },
+  "Criteria": {
+    "Operator": "AND",
+    "Criterion": [
+      {
+        "Comment": "Package gnutls is earlier than 3.8.3-8, affected by CVE-2025-13151",
+        "TestRef": "oval:com.microsoft.azurelinux:tst:74006000"
+      }
+    ]
+  }
+}

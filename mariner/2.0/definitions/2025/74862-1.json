@@ -1,0 +1,31 @@
+{
+  "Class": "vulnerability",
+  "ID": "oval:com.microsoft.cbl-mariner:def:74862",
+  "Version": "1",
+  "Metadata": {
+    "Title": "CVE-2025-24528 affecting package krb5 for versions less than 1.19.4-5",
+    "Affected": {
+      "Family": "unix",
+      "Platform": "CBL-Mariner"
+    },
+    "Reference": {
+      "RefID": "CVE-2025-24528",
+      "RefURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24528",
+      "Source": "CVE"
+    },
+    "Patchable": "true",
+    "AdvisoryDate": "2024-08-05T03:22:58Z",
+    "AdvisoryID": "74862-1",
+    "Severity": "Medium",
+    "Description": "CVE-2025-24528 affecting package krb5 for versions less than 1.19.4-5. A patched version of the package is available."
+  },
+  "Criteria": {
+    "Operator": "AND",
+    "Criterion": [
+      {
+        "Comment": "Package krb5 is earlier than 1.19.4-5, affected by CVE-2025-24528",
+        "TestRef": "oval:com.microsoft.cbl-mariner:tst:74862000"
+      }
+    ]
+  }
+}

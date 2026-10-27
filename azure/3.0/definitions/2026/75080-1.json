@@ -1,0 +1,31 @@
+{
+  "Class": "vulnerability",
+  "ID": "oval:com.microsoft.azurelinux:def:75080",
+  "Version": "1",
+  "Metadata": {
+    "Title": "CVE-2026-21637 affecting package nodejs for versions less than 20.14.0-11",
+    "Affected": {
+      "Family": "unix",
+      "Platform": "Azure Linux"
+    },
+    "Reference": {
+      "RefID": "CVE-2026-21637",
+      "RefURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-21637",
+      "Source": "CVE"
+    },
+    "Patchable": "true",
+    "AdvisoryDate": "2026-02-02T15:31:50Z",
+    "AdvisoryID": "75080-1",
+    "Severity": "Medium",
+    "Description": "CVE-2026-21637 affecting package nodejs for versions less than 20.14.0-11. A patched version of the package is available."
+  },
+  "Criteria": {
+    "Operator": "AND",
+    "Criterion": [
+      {
+        "Comment": "Package nodejs is earlier than 20.14.0-11, affected by CVE-2026-21637",
+        "TestRef": "oval:com.microsoft.azurelinux:tst:75080000"
+      }
+    ]
+  }
+}

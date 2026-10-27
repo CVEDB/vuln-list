@@ -14,7 +14,7 @@
       "Source": "CVE"
     },
     "Patchable": "true",
-    "AdvisoryDate": "2025-09-17T15:08:38.83Z",
+    "AdvisoryDate": "2025-09-18T15:12:20.51Z",
     "AdvisoryID": "37067-1",
     "Severity": "High",
     "Description": "CVE-2020-19725 affecting package z3 for versions less than 4.13.3-1. An upgraded version of the package is available that resolves this issue."

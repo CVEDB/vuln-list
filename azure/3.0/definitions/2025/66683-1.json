@@ -14,7 +14,7 @@
       "Source": "CVE"
     },
     "Patchable": "true",
-    "AdvisoryDate": "2025-09-17T15:08:38.83Z",
+    "AdvisoryDate": "2025-09-18T15:12:20.51Z",
     "AdvisoryID": "66683-1",
     "Severity": "Medium",
     "Description": "CVE-2025-9390 affecting package vim for versions less than 9.1.1616-1. An upgraded version of the package is available that resolves this issue."
