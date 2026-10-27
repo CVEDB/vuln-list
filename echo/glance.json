@@ -62,5 +62,20 @@
   },
   "CVE-2024-32498": {
     "fixed_version": "2:25.1.0-2+deb12u1"
+  },
+  "CVE-2026-34881": {
+    "fixed_version": "2:25.1.0-2+deb12u2"
+  },
+  "CVE-2026-71196": {
+    "fixed_version": "2:25.1.0-2+deb12u5"
+  },
+  "CVE-2026-71197": {
+    "fixed_version": "2:25.1.0-2+deb12u5"
+  },
+  "CVE-2026-71198": {
+    "fixed_version": "2:25.1.0-2+deb12u5"
+  },
+  "CVE-2026-77648": {
+    "fixed_version": "2:25.1.0-2+deb12u5"
   }
 }

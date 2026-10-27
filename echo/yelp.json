@@ -4,5 +4,8 @@
   },
   "CVE-2025-3155": {
     "fixed_version": "42.2-1+deb12u1"
+  },
+  "CVE-2026-13601": {
+    "fixed_version": "42.2-1+deb12u2"
   }
 }

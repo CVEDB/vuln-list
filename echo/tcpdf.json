@@ -23,7 +23,9 @@
   "CVE-2024-56520": {
     "fixed_version": "6.6.2+dfsg1-1+deb12u1"
   },
-  "CVE-2024-56521": {},
+  "CVE-2024-56521": {
+    "fixed_version": "6.8.0+dfsg-1"
+  },
   "CVE-2024-56522": {
     "fixed_version": "6.6.2+dfsg1-1+deb12u1"
   },

@@ -27,12 +27,24 @@
     "fixed_version": "3.2.0-1"
   },
   "CVE-2023-39616": {
-    "fixed_version": "3.12.0-e1"
+    "fixed_version": "3.7.0-1"
   },
   "CVE-2023-6879": {
-    "fixed_version": "3.12.0-e1"
+    "fixed_version": "3.7.1-1"
   },
   "CVE-2024-5171": {
     "fixed_version": "3.6.0-1+deb12u1"
+  },
+  "CVE-2026-56208": {
+    "fixed_version": "3.6.0-1+deb12u3"
+  },
+  "CVE-2026-56209": {
+    "fixed_version": "3.6.0-1+deb12u3"
+  },
+  "CVE-2026-56210": {
+    "fixed_version": "3.6.0-1+deb12u3"
+  },
+  "CVE-2026-56211": {
+    "fixed_version": "3.6.0-1+deb12u3"
   }
 }

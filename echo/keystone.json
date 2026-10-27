@@ -122,8 +122,48 @@
   "CVE-2020-12692": {
     "fixed_version": "2:17.0.0~rc2-1"
   },
-  "CVE-2021-3563": {},
+  "CVE-2021-3563": {
+    "fixed_version": "2:23.0.0-3"
+  },
   "CVE-2021-38155": {
     "fixed_version": "2:19.0.0-3"
-  }
+  },
+  "CVE-2025-65073": {
+    "fixed_version": "2:22.0.2-0+deb12u1"
+  },
+  "CVE-2026-33551": {
+    "fixed_version": "2:22.0.2-0+deb12u2"
+  },
+  "CVE-2026-40683": {
+    "fixed_version": "2:22.0.2-0+deb12u2"
+  },
+  "CVE-2026-42998": {
+    "fixed_version": "2:22.0.2-0+deb12u3"
+  },
+  "CVE-2026-42999": {
+    "fixed_version": "2:22.0.2-0+deb12u3"
+  },
+  "CVE-2026-43000": {
+    "fixed_version": "2:22.0.2-0+deb12u3"
+  },
+  "CVE-2026-43001": {
+    "fixed_version": "2:22.0.2-0+deb12u3"
+  },
+  "CVE-2026-44394": {
+    "fixed_version": "2:22.0.2-0+deb12u3"
+  },
+  "CVE-2026-80182": {
+    "fixed_version": "2:22.0.2-0+deb12u4"
+  },
+  "CVE-2026-80183": {
+    "fixed_version": "2:22.0.2-0+deb12u4"
+  },
+  "CVE-2026-80184": {
+    "fixed_version": "2:22.0.2-0+deb12u4"
+  },
+  "CVE-2026-90460": {
+    "fixed_version": "2:22.0.2-0+deb12u5"
+  },
+  "TEMP-1149304-59264A": {},
+  "TEMP-1149305-3CE9C5": {}
 }

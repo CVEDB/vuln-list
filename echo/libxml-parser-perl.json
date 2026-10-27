@@ -1,8 +1,8 @@
 {
-  "TEMP-0378411-57ACA8": {
-    "fixed_version": "2.34-4.2"
+  "CVE-2006-10002": {
+    "fixed_version": "2.46-1"
   },
-  "TEMP-0378412-67AD3D": {
-    "fixed_version": "2.34-4.1"
+  "CVE-2006-10003": {
+    "fixed_version": "2.46-4+deb12u1"
   }
 }

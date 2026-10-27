@@ -423,7 +423,9 @@
   "CVE-2012-6635": {
     "fixed_version": "3.4+dfsg-1"
   },
-  "CVE-2012-6707": {},
+  "CVE-2012-6707": {
+    "fixed_version": "6.8.1+dfsg1-1"
+  },
   "CVE-2013-0235": {
     "fixed_version": "3.5.1+dfsg-1"
   },
@@ -979,14 +981,41 @@
   "CVE-2023-5561": {
     "fixed_version": "6.1.6+dfsg1-0+deb12u1"
   },
-  "CVE-2023-5692": {},
-  "CVE-2024-31111": {},
+  "CVE-2023-5692": {
+    "fixed_version": "6.5+dfsg1-1"
+  },
+  "CVE-2024-31111": {
+    "fixed_version": "6.1.9+dfsg1-0+deb12u1"
+  },
   "CVE-2024-31210": {
     "fixed_version": "6.1.6+dfsg1-0+deb12u1"
   },
-  "CVE-2024-4439": {},
-  "CVE-2024-6307": {},
+  "CVE-2024-4439": {
+    "fixed_version": "6.1.9+dfsg1-0+deb12u1"
+  },
+  "CVE-2024-6307": {
+    "fixed_version": "6.1.9+dfsg1-0+deb12u1"
+  },
   "CVE-2025-54352": {},
+  "CVE-2025-58246": {
+    "fixed_version": "6.1.9+dfsg1-0+deb12u1"
+  },
+  "CVE-2025-58674": {
+    "fixed_version": "6.1.9+dfsg1-0+deb12u1"
+  },
+  "CVE-2026-64638": {
+    "fixed_version": "6.8.7+dfsg1-0+deb13u1"
+  },
+  "CVE-2026-65640": {
+    "fixed_version": "6.8.10+dfsg1-0+deb13u1"
+  },
+  "CVE-2026-66666": {},
+  "CVE-2026-87902": {
+    "fixed_version": "6.8.10+dfsg1-0+deb13u1"
+  },
+  "CVE-2026-93485": {
+    "fixed_version": "6.8.10+dfsg1-0+deb13u1"
+  },
   "TEMP-0369014-6AE03E": {
     "fixed_version": "2.0.3-1"
   },
@@ -1008,5 +1037,7 @@
   "TEMP-1022575-434581": {
     "fixed_version": "6.0.3+dfsg1-1"
   },
-  "TEMP-1036689-1CA7FB": {}
+  "TEMP-1036689-1CA7FB": {
+    "fixed_version": "6.2.2+dfsg1-1"
+  }
 }

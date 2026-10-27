@@ -11,9 +11,7 @@
   "CVE-2009-3898": {
     "fixed_version": "0.7.63-1"
   },
-  "CVE-2009-4487": {
-    "fixed_version": "1.26.2"
-  },
+  "CVE-2009-4487": {},
   "CVE-2011-4315": {
     "fixed_version": "1.1.8-1"
   },
@@ -32,9 +30,7 @@
   "CVE-2012-4929": {
     "fixed_version": "1.2.1-2.2"
   },
-  "CVE-2013-0337": {
-    "fixed_version": "1.26.2"
-  },
+  "CVE-2013-0337": {},
   "CVE-2013-2070": {
     "fixed_version": "1.4.1-1"
   },
@@ -111,7 +107,7 @@
     "fixed_version": "1.22.1-1"
   },
   "CVE-2023-44487": {
-    "fixed_version": "1.26.2-e1"
+    "fixed_version": "1.24.0-2"
   },
   "CVE-2024-33452": {
     "fixed_version": "1.22.0-3"
@@ -124,5 +120,74 @@
   },
   "CVE-2025-53859": {
     "fixed_version": "1.22.1-9+deb12u3"
+  },
+  "CVE-2026-15176": {
+    "fixed_version": "1.26.3-3+deb13u10"
+  },
+  "CVE-2026-1642": {
+    "fixed_version": "1.22.1-9+deb12u4"
+  },
+  "CVE-2026-27651": {
+    "fixed_version": "1.22.1-9+deb12u5"
+  },
+  "CVE-2026-27654": {
+    "fixed_version": "1.22.1-9+deb12u5"
+  },
+  "CVE-2026-27784": {
+    "fixed_version": "1.22.1-9+deb12u5"
+  },
+  "CVE-2026-28753": {
+    "fixed_version": "1.22.1-9+deb12u5"
+  },
+  "CVE-2026-32647": {
+    "fixed_version": "1.22.1-9+deb12u5"
+  },
+  "CVE-2026-40460": {
+    "fixed_version": "1.26.3-3+deb13u7+e1"
+  },
+  "CVE-2026-40701": {
+    "fixed_version": "1.22.1-9+deb12u7"
+  },
+  "CVE-2026-42055": {
+    "fixed_version": "1.22.1-9+deb12u9"
+  },
+  "CVE-2026-42533": {
+    "fixed_version": "1.22.1-9+deb12u10"
+  },
+  "CVE-2026-42934": {
+    "fixed_version": "1.22.1-9+deb12u7"
+  },
+  "CVE-2026-42945": {
+    "fixed_version": "1.22.1-9+deb12u7"
+  },
+  "CVE-2026-42946": {
+    "fixed_version": "1.22.1-9+deb12u8"
+  },
+  "CVE-2026-48142": {
+    "fixed_version": "1.22.1-9+deb12u9"
+  },
+  "CVE-2026-56434": {
+    "fixed_version": "1.22.1-9+deb12u10"
+  },
+  "CVE-2026-60005": {
+    "fixed_version": "1.22.1-9+deb12u10"
+  },
+  "CVE-2026-9256": {
+    "fixed_version": "1.22.1-9+deb12u8"
+  },
+  "CVE-2026-93479": {
+    "fixed_version": "1.26.3-3+deb13u10"
+  },
+  "CVE-2026-95101": {
+    "fixed_version": "1.26.3-3+deb13u10"
+  },
+  "CVE-2026-97205": {
+    "fixed_version": "1.26.3-3+deb13u10"
+  },
+  "CVE-2026-97629": {
+    "fixed_version": "1.26.3-3+deb13u10"
+  },
+  "TEMP-1138794-BADE22": {
+    "fixed_version": "1.22.1-9+deb12u8"
   }
 }

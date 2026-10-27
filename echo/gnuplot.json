@@ -11,9 +11,15 @@
   "CVE-2018-19492": {
     "fixed_version": "5.4.0+dfsg1-1"
   },
-  "CVE-2020-25412": {},
-  "CVE-2020-25559": {},
-  "CVE-2020-25969": {},
+  "CVE-2020-25412": {
+    "fixed_version": "6.0.0+dfsg1-1"
+  },
+  "CVE-2020-25559": {
+    "fixed_version": "6.0.0+dfsg1-1"
+  },
+  "CVE-2020-25969": {
+    "fixed_version": "6.0.0+dfsg1-1"
+  },
   "CVE-2021-44917": {
     "fixed_version": "5.4.2+dfsg2-2"
   },

@@ -33,5 +33,14 @@
   "CVE-2022-1325": {
     "fixed_version": "3.1.6+dfsg-1"
   },
-  "CVE-2024-26540": {}
+  "CVE-2024-26540": {
+    "fixed_version": "3.5.0+dfsg-1"
+  },
+  "CVE-2026-42144": {
+    "fixed_version": "3.5.2+dfsg-1+deb13u1"
+  },
+  "CVE-2026-42146": {
+    "fixed_version": "3.5.2+dfsg-1+deb13u1"
+  },
+  "CVE-2026-47667": {}
 }

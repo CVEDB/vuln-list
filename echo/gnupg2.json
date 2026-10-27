@@ -54,12 +54,30 @@
     "fixed_version": "2.2.19-1"
   },
   "CVE-2022-3219": {
-    "fixed_version": "2.2.40-1.1-e1"
+    "fixed_version": "2.4.7-21"
   },
   "CVE-2022-34903": {
     "fixed_version": "2.2.35-3"
   },
   "CVE-2025-30258": {
     "fixed_version": "2.2.40-1.1-e1"
+  },
+  "CVE-2025-68972": {
+    "fixed_version": "2.4.8-5+e1"
+  },
+  "CVE-2025-68973": {
+    "fixed_version": "2.2.40-1.1+deb12u2"
+  },
+  "CVE-2026-105712": {
+    "fixed_version": "2.4.9-8"
+  },
+  "CVE-2026-24882": {
+    "fixed_version": "2.4.9-4"
+  },
+  "CVE-2026-24883": {
+    "fixed_version": "2.4.8-5"
+  },
+  "CVE-2026-57062": {
+    "fixed_version": "2.4.9-5"
   }
 }

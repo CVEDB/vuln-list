@@ -75,9 +75,12 @@
     "fixed_version": "6.4-3"
   },
   "CVE-2023-50495": {
-    "fixed_version": "6.4-4-e1"
+    "fixed_version": "6.4+20230625-1"
   },
   "CVE-2025-6141": {
     "fixed_version": "6.4-4+e2"
+  },
+  "CVE-2025-69720": {
+    "fixed_version": "6.5+20250216-2+e4"
   }
 }

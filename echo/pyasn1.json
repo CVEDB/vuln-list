@@ -1,0 +1,17 @@
+{
+  "CVE-2026-23490": {
+    "fixed_version": "0.4.8-3+deb12u1"
+  },
+  "CVE-2026-30922": {
+    "fixed_version": "0.4.8-3+deb12u2"
+  },
+  "CVE-2026-59884": {
+    "fixed_version": "0.4.8-3+deb12u3"
+  },
+  "CVE-2026-59885": {
+    "fixed_version": "0.4.8-3+deb12u3"
+  },
+  "CVE-2026-59886": {
+    "fixed_version": "0.4.8-3+deb12u3"
+  }
+}

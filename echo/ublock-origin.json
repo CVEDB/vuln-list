@@ -5,5 +5,7 @@
   "CVE-2022-32308": {
     "fixed_version": "1.42.0+dfsg-1"
   },
-  "CVE-2025-4215": {}
+  "CVE-2025-4215": {
+    "fixed_version": "1.62.0+dfsg-0+deb12u1"
+  }
 }

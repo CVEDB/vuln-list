@@ -1,0 +1,11 @@
+{
+  "CVE-2020-37014": {
+    "fixed_version": "5.0.26-1"
+  },
+  "CVE-2025-66420": {
+    "fixed_version": "6.0.28+ds1-2+deb12u1"
+  },
+  "CVE-2025-66421": {
+    "fixed_version": "6.0.28+ds1-2+deb12u2"
+  }
+}

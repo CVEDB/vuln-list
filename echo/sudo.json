@@ -6,7 +6,7 @@
     "fixed_version": "1.6.8p3-1"
   },
   "CVE-2005-1119": {
-    "fixed_version": "1.9.13p3-1+deb12u1"
+    "fixed_version": "1"
   },
   "CVE-2005-1993": {
     "fixed_version": "1.6.8p9-1"
@@ -126,12 +126,21 @@
     "fixed_version": "1.9.13p1-1"
   },
   "CVE-2023-42465": {
-    "fixed_version": "1.9.16p2-2"
+    "fixed_version": "1.9.15"
   },
   "CVE-2023-7090": {
     "fixed_version": "1.8.28p1-1"
   },
   "CVE-2025-32462": {
-    "fixed_version": "1.9.13p3-1+deb12u2"
+    "fixed_version": "1.9.5p2-3+deb11u2"
+  },
+  "CVE-2026-35535": {
+    "fixed_version": "1.9.13p3-1+deb12u4"
+  },
+  "CVE-2026-82474": {
+    "fixed_version": "1.9.16p2-3+deb13u2+e2"
+  },
+  "CVE-2026-96512": {
+    "fixed_version": "1.9.16p2-3+deb13u2+e3"
   }
 }

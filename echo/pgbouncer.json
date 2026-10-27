@@ -11,5 +11,40 @@
   "CVE-2021-3935": {
     "fixed_version": "1.16.1-1"
   },
-  "CVE-2025-2291": {}
+  "CVE-2025-12819": {
+    "fixed_version": "1.18.0-1+deb12u1"
+  },
+  "CVE-2025-2291": {
+    "fixed_version": "1.18.0-1+deb12u1"
+  },
+  "CVE-2026-107348": {
+    "fixed_version": "1.26.1"
+  },
+  "CVE-2026-107349": {
+    "fixed_version": "1.26.1"
+  },
+  "CVE-2026-107350": {
+    "fixed_version": "1.26.1"
+  },
+  "CVE-2026-19888": {
+    "fixed_version": "1.26.0-1"
+  },
+  "CVE-2026-6664": {
+    "fixed_version": "1.24.1-1+deb13u2"
+  },
+  "CVE-2026-6665": {
+    "fixed_version": "1.24.1-1+deb13u2"
+  },
+  "CVE-2026-6666": {
+    "fixed_version": "1.24.1-1+deb13u2"
+  },
+  "CVE-2026-6667": {
+    "fixed_version": "1.24.1-1+deb13u2"
+  },
+  "CVE-2026-6668": {
+    "fixed_version": "1.26.0-1"
+  },
+  "CVE-2026-6669": {
+    "fixed_version": "1.26.0-1"
+  }
 }

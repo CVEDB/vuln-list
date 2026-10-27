@@ -89,5 +89,19 @@
   "CVE-2025-6199": {
     "fixed_version": "2.42.10+dfsg-1+deb12u2"
   },
-  "CVE-2025-7345": {}
+  "CVE-2025-7345": {
+    "fixed_version": "2.42.10+dfsg-1+deb12u3"
+  },
+  "CVE-2026-16768": {
+    "fixed_version": "2.42.12+dfsg-4+e6"
+  },
+  "CVE-2026-18090": {
+    "fixed_version": "2.42.12+dfsg-4+e6"
+  },
+  "CVE-2026-5201": {
+    "fixed_version": "2.42.10+dfsg-1+deb12u4"
+  },
+  "CVE-2026-81893": {
+    "fixed_version": "2.42.12+dfsg-4+e4"
+  }
 }

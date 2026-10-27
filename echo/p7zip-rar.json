@@ -5,5 +5,7 @@
   "CVE-2018-5996": {
     "fixed_version": "16.02-2"
   },
-  "CVE-2025-53816": {}
+  "CVE-2025-53816": {
+    "fixed_version": "16.02+really25.00+ds-0+deb12u1"
+  }
 }

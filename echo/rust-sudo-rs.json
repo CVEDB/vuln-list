@@ -4,5 +4,11 @@
   },
   "CVE-2025-46718": {
     "fixed_version": "0.2.5-5"
+  },
+  "CVE-2025-64170": {
+    "fixed_version": "0.2.5-5+deb13u1"
+  },
+  "CVE-2025-64517": {
+    "fixed_version": "0.2.5-5+deb13u1"
   }
 }

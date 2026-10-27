@@ -30,12 +30,184 @@
     "fixed_version": "1.15.1-1+deb12u1"
   },
   "CVE-2025-29482": {
-    "fixed_version": "1.15.1-1+deb12u1"
+    "fixed_version": "1.0.7-1"
   },
   "CVE-2025-43966": {
     "fixed_version": "1.15.1-1+deb12u1"
   },
   "CVE-2025-43967": {
     "fixed_version": "1.15.1-1+deb12u1-e2"
+  },
+  "CVE-2025-68431": {
+    "fixed_version": "1.19.8-1+e1"
+  },
+  "CVE-2026-32738": {
+    "fixed_version": "1.19.8-1"
+  },
+  "CVE-2026-32739": {
+    "fixed_version": "1.19.8-1"
+  },
+  "CVE-2026-32740": {
+    "fixed_version": "1.19.8-1+e3"
+  },
+  "CVE-2026-32741": {
+    "fixed_version": "1.19.8-1+e4"
+  },
+  "CVE-2026-32814": {
+    "fixed_version": "1.19.8-1+e5"
+  },
+  "CVE-2026-32882": {
+    "fixed_version": "1.19.8-1+e4"
+  },
+  "CVE-2026-3949": {
+    "fixed_version": "1.19.8-1+e2"
+  },
+  "CVE-2026-3950": {
+    "fixed_version": "1"
+  },
+  "CVE-2026-41069": {
+    "fixed_version": "1.19.8-1"
+  },
+  "CVE-2026-41071": {
+    "fixed_version": "1.19.8-1"
+  },
+  "CVE-2026-47178": {
+    "fixed_version": "1.19.8-1+e6"
+  },
+  "CVE-2026-47247": {
+    "fixed_version": "1.19.8-1+e6"
+  },
+  "CVE-2026-47251": {
+    "fixed_version": "1.19.8-1+e6"
+  },
+  "CVE-2026-47254": {
+    "fixed_version": "1.19.8-1"
+  },
+  "CVE-2026-47709": {
+    "fixed_version": "1.19.8-1+e6"
+  },
+  "CVE-2026-47714": {
+    "fixed_version": "1.19.8-1+e6"
+  },
+  "CVE-2026-48029": {
+    "fixed_version": "1.19.8-1+e6"
+  },
+  "CVE-2026-49271": {
+    "fixed_version": "1.19.8-1+e5"
+  },
+  "CVE-2026-50142": {
+    "fixed_version": "1.19.8-1"
+  },
+  "CVE-2026-62289": {
+    "fixed_version": "1.19.8-1+e9"
+  },
+  "CVE-2026-62291": {
+    "fixed_version": "1.19.8-1+e7"
+  },
+  "CVE-2026-62292": {
+    "fixed_version": "1.19.8-1+e9"
+  },
+  "CVE-2026-62377": {
+    "fixed_version": "1.19.8-1"
+  },
+  "CVE-2026-84384": {
+    "fixed_version": "1.23.2-1"
+  },
+  "CVE-2026-84444": {
+    "fixed_version": "1.23.2-1"
+  },
+  "CVE-2026-84446": {
+    "fixed_version": "1.23.2-1"
+  },
+  "CVE-2026-84447": {
+    "fixed_version": "1.23.2-1"
+  },
+  "CVE-2026-84448": {
+    "fixed_version": "1.23.2-1"
+  },
+  "CVE-2026-84449": {
+    "fixed_version": "1.19.7-1"
+  },
+  "CVE-2026-84450": {
+    "fixed_version": "1.19.8-1+e9"
+  },
+  "CVE-2026-84451": {
+    "fixed_version": "1.19.8-1+e9"
+  },
+  "GHSA-2h34-fcv6-jqvh": {
+    "fixed_version": "1.19.8-1+e7"
+  },
+  "GHSA-5hqq-636x-r3cr": {
+    "fixed_version": "1.19.8-1+e7"
+  },
+  "TEMP-0000000-0F03E5": {
+    "fixed_version": "1.23.4-1~deb13u1+e2"
+  },
+  "TEMP-0000000-153207": {},
+  "TEMP-0000000-18A2CE": {
+    "fixed_version": "1.23.4-1~deb13u1+e2"
+  },
+  "TEMP-0000000-1B5D39": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-21F713": {
+    "fixed_version": "1.23.4-1~deb13u1+e2"
+  },
+  "TEMP-0000000-301DE5": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-415AE1": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-4EF776": {
+    "fixed_version": "1.23.4-1~deb13u1"
+  },
+  "TEMP-0000000-5124DE": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-57F868": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-6C5194": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-78AC20": {
+    "fixed_version": "1.23.4-1~deb13u1"
+  },
+  "TEMP-0000000-809756": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-8A4B18": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-9253BB": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-956D99": {
+    "fixed_version": "1.23.4-1~deb13u1+e2"
+  },
+  "TEMP-0000000-BBE297": {
+    "fixed_version": "1.23.4-1~deb13u1"
+  },
+  "TEMP-0000000-D1A721": {
+    "fixed_version": "1.23.4-1~deb13u1"
+  },
+  "TEMP-0000000-D2EEB5": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-0000000-DB3DE2": {
+    "fixed_version": "1.23.4-1~deb13u1+e2"
+  },
+  "TEMP-0000000-F2B97A": {
+    "fixed_version": "1.23.4-1~deb13u1+e2"
+  },
+  "TEMP-0000000-FDE8B2": {
+    "fixed_version": "1.23.6-2~deb13u1"
+  },
+  "TEMP-1148137-089975": {
+    "fixed_version": "1.23.4-1~deb13u1"
+  },
+  "TEMP-1148137-126A7B": {
+    "fixed_version": "1.23.4-1~deb13u1"
   }
 }

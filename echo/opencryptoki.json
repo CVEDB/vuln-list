@@ -5,5 +5,13 @@
   "CVE-2012-4455": {
     "fixed_version": "3.4.1+dfsg-1"
   },
-  "CVE-2024-0914": {}
+  "CVE-2024-0914": {
+    "fixed_version": "3.23.0+dfsg-0.1"
+  },
+  "CVE-2026-23893": {
+    "fixed_version": "3.23.0+dfsg-0.3+deb13u1"
+  },
+  "CVE-2026-40253": {
+    "fixed_version": "3.23.0+dfsg-0.3+deb13u1"
+  }
 }

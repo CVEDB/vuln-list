@@ -4,5 +4,11 @@
   },
   "CVE-2025-31115": {
     "fixed_version": "5.4.1-1"
+  },
+  "CVE-2026-34743": {
+    "fixed_version": "5.4.1-1+deb12u1"
+  },
+  "TEMP-1147318-639065": {
+    "fixed_version": "5.4.1-1+deb12u2"
   }
 }

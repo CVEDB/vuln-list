@@ -52,5 +52,20 @@
   },
   "CVE-2017-16611": {
     "fixed_version": "1:2.0.3-1"
+  },
+  "CVE-2026-44950": {
+    "fixed_version": "1:2.0.6-1+deb13u1"
+  },
+  "CVE-2026-56001": {
+    "fixed_version": "1:2.0.4-1+deb11u1"
+  },
+  "CVE-2026-56002": {
+    "fixed_version": "1:2.0.4-1+deb11u1"
+  },
+  "CVE-2026-56003": {
+    "fixed_version": "1:2.0.4-1+deb11u1"
+  },
+  "CVE-2026-59679": {
+    "fixed_version": "1:2.0.6-1+deb13u1"
   }
 }

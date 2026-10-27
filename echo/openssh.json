@@ -259,5 +259,99 @@
   },
   "CVE-2025-32728": {
     "fixed_version": "1:9.2p1-2+deb12u6"
+  },
+  "CVE-2025-61984": {
+    "fixed_version": "1:9.2p1-2+deb12u8"
+  },
+  "CVE-2025-61985": {
+    "fixed_version": "1:9.2p1-2+deb12u8"
+  },
+  "CVE-2026-106552": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106553": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106555": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106582": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106583": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106584": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106585": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106586": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106587": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-106589": {
+    "fixed_version": "1:10.6p1-1"
+  },
+  "CVE-2026-110928": {},
+  "CVE-2026-3497": {
+    "fixed_version": "1:9.2p1-2+deb12u9"
+  },
+  "CVE-2026-35385": {
+    "fixed_version": "1:9.2p1-2+deb12u10"
+  },
+  "CVE-2026-35386": {
+    "fixed_version": "1:9.2p1-2+deb12u10"
+  },
+  "CVE-2026-35387": {
+    "fixed_version": "1:9.2p1-2+deb12u10"
+  },
+  "CVE-2026-35388": {
+    "fixed_version": "1:9.2p1-2+deb12u10"
+  },
+  "CVE-2026-35414": {
+    "fixed_version": "1:9.2p1-2+deb12u10"
+  },
+  "CVE-2026-55654": {
+    "fixed_version": "1:10.4p1-1+e1"
+  },
+  "CVE-2026-55655": {
+    "fixed_version": "1:10.4p1-1+e2"
+  },
+  "CVE-2026-59995": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-59996": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-59997": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-59998": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-59999": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-60000": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-60001": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-60002": {
+    "fixed_version": "1:10.4p1-1"
+  },
+  "CVE-2026-73281": {
+    "fixed_version": "1:10.5p1-1"
+  },
+  "CVE-2026-73282": {
+    "fixed_version": "1:10.5p1-1"
+  },
+  "CVE-2026-73283": {
+    "fixed_version": "1:10.5p1-1"
   }
 }

@@ -95,7 +95,9 @@
   "CVE-2017-9148": {
     "fixed_version": "3.0.12+dfsg-5"
   },
-  "CVE-2019-10143": {},
+  "CVE-2019-10143": {
+    "fixed_version": "3.2.6+dfsg-3"
+  },
   "CVE-2019-11234": {
     "fixed_version": "3.0.17+dfsg-1.1"
   },
@@ -117,7 +119,9 @@
   "CVE-2022-41861": {
     "fixed_version": "3.2.0+dfsg-1"
   },
-  "CVE-2024-3596": {},
+  "CVE-2024-3596": {
+    "fixed_version": "3.2.5+dfsg-1"
+  },
   "TEMP-0000000-01E656": {
     "fixed_version": "1.0.2-4"
   }

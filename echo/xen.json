@@ -987,7 +987,6 @@
   "CVE-2021-28687": {
     "fixed_version": "4.14.2+25-gb6a8c4f72d-1"
   },
-  "CVE-2021-28689": {},
   "CVE-2021-28690": {
     "fixed_version": "4.14.2+25-gb6a8c4f72d-1"
   },
@@ -1264,7 +1263,9 @@
   "CVE-2024-2201": {
     "fixed_version": "4.17.5+23-ga4e5191dc0-1"
   },
-  "CVE-2024-28956": {},
+  "CVE-2024-28956": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
   "CVE-2024-31142": {
     "fixed_version": "4.17.5+23-ga4e5191dc0-1"
   },
@@ -1277,8 +1278,12 @@
   "CVE-2024-31146": {
     "fixed_version": "4.17.5+23-ga4e5191dc0-1"
   },
-  "CVE-2024-36350": {},
-  "CVE-2024-36357": {},
+  "CVE-2024-36350": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2024-36357": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
   "CVE-2024-45817": {
     "fixed_version": "4.17.5+23-ga4e5191dc0-1"
   },
@@ -1288,13 +1293,159 @@
   "CVE-2024-45819": {
     "fixed_version": "4.17.5+23-ga4e5191dc0-1"
   },
-  "CVE-2025-1713": {},
-  "CVE-2025-27465": {},
-  "CVE-2025-27466": {},
-  "CVE-2025-58142": {},
-  "CVE-2025-58143": {},
-  "CVE-2025-58144": {},
-  "CVE-2025-58145": {},
+  "CVE-2025-10263": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2025-1713": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-27465": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-27466": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-54505": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2025-54518": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2025-58142": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-58143": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-58144": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-58145": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-58147": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-58148": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-58149": {
+    "fixed_version": "4.17.5+72-g01140da4e8-1"
+  },
+  "CVE-2025-58150": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-102699": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-102700": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-102702": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-23553": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-23554": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-23556": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-23557": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-23558": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-42487": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-42488": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-42489": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-42490": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-42493": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-42494": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-42495": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62423": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62424": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62425": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62426": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62427": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62428": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62429": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62430": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62431": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62432": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62433": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62434": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62435": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62436": {
+    "fixed_version": "4.17.7-0+deb12u1"
+  },
+  "CVE-2026-62437": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-79602": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-79603": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-79604": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-79608": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-79609": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-79610": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
+  "CVE-2026-79611": {
+    "fixed_version": "4.20.4+39-gf1e1321c87-0+deb13u1"
+  },
   "TEMP-0000000-CE3B44": {
     "fixed_version": "4.8.0~rc3-1"
   },

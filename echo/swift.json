@@ -34,5 +34,20 @@
   },
   "CVE-2022-47950": {
     "fixed_version": "2.30.0-4"
+  },
+  "CVE-2026-50221": {
+    "fixed_version": "2.30.1-0+deb12u2"
+  },
+  "CVE-2026-71190": {
+    "fixed_version": "2.30.1-0+deb12u2"
+  },
+  "CVE-2026-71191": {
+    "fixed_version": "2.30.1-0+deb12u3"
+  },
+  "CVE-2026-71192": {
+    "fixed_version": "2.30.1-0+deb12u3"
+  },
+  "CVE-2026-97149": {
+    "fixed_version": "2.30.1-0+deb12u3"
   }
 }
