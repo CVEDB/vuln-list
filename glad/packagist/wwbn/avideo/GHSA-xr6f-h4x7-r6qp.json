@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-xr6f-h4x7-r6qp",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo: RCE cause by clonesite plugin",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-16",
+  "Pubdate": "2026-04-16",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-xr6f-h4x7-r6qp",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-xr6f-h4x7-r6qp",
+    "https://github.com/WWBN/AVideo/commit/473c609fc2defdea8b937b00e86ce88eba1f15bb",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "UUID": "6d2cb1ba-2fd0-4930-bd41-7edf8f12c9b6"
+}

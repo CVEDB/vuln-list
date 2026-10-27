@@ -3,7 +3,7 @@
   "PackageSlug": "packagist/getformwork/formwork",
   "Title": "Formwork improperly validates input of User role preventing site and panel availability",
   "Description": "Improper validation of select fields allows attackers to craft an input that crashes the system, resulting in a 500 status and making the entire site and administration panel unavailable.\nThis clearly impacts the Availability aspect of the CIA triad (confidentiality, integrity, and availability), although the attack still has certain limitations.",
-  "Date": "2025-03-16",
+  "Date": "2026-02-18",
   "Pubdate": "2025-03-01",
   "AffectedRange": "\u003e=2.0.0-beta.1 \u003c2.0.0-beta.4",
   "FixedVersions": [

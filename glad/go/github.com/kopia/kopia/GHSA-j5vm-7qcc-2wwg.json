@@ -3,7 +3,7 @@
   "PackageSlug": "go/github.com/kopia/kopia",
   "Title": "Kopia: Storage connection credentials written to console on \"repository status\" CLI command with JSON output",
   "Description": "_What kind of vulnerability is it? Who is impacted?_\n\nStorage credentials are written to the console.",
-  "Date": "2024-04-10",
+  "Date": "2026-04-27",
   "Pubdate": "2024-04-10",
   "AffectedRange": "\u003c0.16.0",
   "FixedVersions": [
@@ -16,8 +16,7 @@
     "https://github.com/advisories/GHSA-j5vm-7qcc-2wwg",
     "https://github.com/kopia/kopia/security/advisories/GHSA-j5vm-7qcc-2wwg",
     "https://github.com/kopia/kopia/pull/3589",
-    "https://github.com/kopia/kopia/commit/1d6f852cd6534f4bea978cbdc85c583803d79f77",
-    "https://github.com/kopia/kopia"
+    "https://github.com/kopia/kopia/commit/1d6f852cd6534f4bea978cbdc85c583803d79f77"
   ],
   "CvssV2": "",
   "CvssV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:N",

@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-c7vg-w8q8-c3wf",
+  "PackageSlug": "packagist/shopware/platform",
+  "Title": "Duplicate Advisory: Session Fixation",
+  "Description": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-h9q8-5gv2-v6mg. This link is maintained to preserve external references.\n\n## Original Description\nShopware is an open source eCommerce platform. Potential session hijacking of store customers in versions below 6.3.5.2. We recommend to update to the current version 6.3.5.2. You can get the update to 6.3.5.2 regularly via the Auto-Updater or directly via the download overview. For older versions of 6.1 and 6.2, corresponding security measures are also available via a plugin. For the full range of functions, we recommend updating to the latest Shopware version.",
+  "Date": "2026-02-02",
+  "Pubdate": "2021-09-08",
+  "AffectedRange": "\u003c6.3.5.2",
+  "FixedVersions": [
+    "6.3.5.2"
+  ],
+  "AffectedVersions": "All versions before 6.3.5.2",
+  "NotImpacted": "All versions starting from 6.3.5.2",
+  "Solution": "Upgrade to version 6.3.5.2 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-c7vg-w8q8-c3wf",
+    "https://github.com/shopware/platform/security/advisories/GHSA-h9q8-5gv2-v6mg",
+    "https://nvd.nist.gov/vuln/detail/CVE-2021-32710",
+    "https://github.com/shopware/platform/commit/010c0154bea57c1fca73277c7431d029db7a972e"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "UUID": "2131b848-9a3a-4335-9e7e-ae605d4ad861"
+}

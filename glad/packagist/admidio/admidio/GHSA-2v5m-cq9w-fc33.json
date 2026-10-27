@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-2v5m-cq9w-fc33",
+  "PackageSlug": "packagist/admidio/admidio",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-10-22",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-2v5m-cq9w-fc33",
+    "https://github.com/Admidio/admidio/security/advisories/GHSA-2v5m-cq9w-fc33",
+    "https://github.com/Admidio/admidio/commit/fde81ae869e88a3cf42201f2548d57df785a37cb",
+    "https://github.com/Admidio/admidio"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "UUID": "51c496f9-1c80-4787-a89e-791c5f8bd8ff"
+}

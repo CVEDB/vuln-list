@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-hx74-4wmc-fwvf",
+  "PackageSlug": "go/github.com/lf-edge/eve",
+  "Title": "Duplicate Advisory: EVE Has Partially Predetermined Vault Key",
+  "Description": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-wc42-fcjp-v8vq. This link is maintained to preserve external references.\n\n### Original Description\nDue to the implementation of \"deriveVaultKey\", prior to version 7.10, the generated vault key\nwould always have the last 16 bytes predetermined to be \"arfoobarfoobarfo\".\n\nThis issue happens because \"deriveVaultKey\" calls \"retrieveCloudKey\" (which will always\nreturn \"foobarfoobarfoobarfoobarfoobarfo\" as the key), and then merges the 32byte\nrandomly generated key with this key (by takeing 16bytes from each, see \"mergeKeys\").\n\nThis makes the key a lot weaker.\n\nThis issue does not persist in devices that were initialized on/after version 7.10, but devices\nthat were initialized before that and updated to a newer version still have this issue.\n\n\n\nRoll an update that enforces the full 32bytes key usage.",
+  "Date": "2026-02-04",
+  "Pubdate": "2023-09-21",
+  "AffectedRange": "\u003c0.0.0-20220310190112-c0c966dc31e2",
+  "FixedVersions": [
+    "0.0.0-20220310190112-c0c966dc31e2"
+  ],
+  "AffectedVersions": "All versions before 0.0.0-20220310190112-c0c966dc31e2",
+  "NotImpacted": "All versions starting from 0.0.0-20220310190112-c0c966dc31e2",
+  "Solution": "Upgrade to version 0.0.0-20220310190112-c0c966dc31e2 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-hx74-4wmc-fwvf",
+    "https://nvd.nist.gov/vuln/detail/CVE-2023-43637",
+    "https://asrg.io/security-advisories/cve-2023-43637",
+    "https://asrg.io/security-advisories/vault-key-partially-predetermined"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "UUID": "dccbebee-0b25-438c-a34a-566ec64ff46f"
+}

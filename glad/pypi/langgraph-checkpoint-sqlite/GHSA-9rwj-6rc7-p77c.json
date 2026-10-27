@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-9rwj-6rc7-p77c",
+  "PackageSlug": "pypi/langgraph-checkpoint-sqlite",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-12-10",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-9rwj-6rc7-p77c",
+    "https://github.com/langchain-ai/langgraph/security/advisories/GHSA-9rwj-6rc7-p77c",
+    "https://github.com/langchain-ai/langgraph/commit/297242913f8ad2143ee3e2f72e67db0911d48e2a",
+    "https://github.com/langchain-ai/langgraph"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N",
+  "UUID": "2b4b0890-ad05-4337-a13c-93f91274c881"
+}

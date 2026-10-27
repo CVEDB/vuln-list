@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-ch7p-mpv4-4vg4",
+  "PackageSlug": "packagist/coreshop/core-shop",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-07",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-ch7p-mpv4-4vg4",
+    "https://github.com/coreshop/CoreShop/security/advisories/GHSA-ch7p-mpv4-4vg4",
+    "https://github.com/coreshop/CoreShop/commit/59e84fec59d113952b6d28a9b30c6317f9e6e5dd",
+    "https://github.com/coreshop/CoreShop"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+  "UUID": "d6c059fd-e6e5-45da-ada2-0d76fc91f228"
+}

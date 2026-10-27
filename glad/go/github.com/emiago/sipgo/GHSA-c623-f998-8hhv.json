@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-c623-f998-8hhv",
+  "PackageSlug": "go/github.com/emiago/sipgo",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-12-16",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-c623-f998-8hhv",
+    "https://github.com/emiago/sipgo/security/advisories/GHSA-c623-f998-8hhv",
+    "https://github.com/emiago/sipgo/commit/dc9669364a154ec6d134e542f6a63c31b5afe6e8",
+    "https://github.com/emiago/sipgo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "UUID": "4962051b-0dcc-4ce1-acfc-0092a11399e7"
+}

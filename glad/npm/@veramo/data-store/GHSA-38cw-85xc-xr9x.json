@@ -1,0 +1,26 @@
+{
+  "Identifier": "GHSA-38cw-85xc-xr9x",
+  "PackageSlug": "npm/@veramo/data-store",
+  "Title": "Veramo is Vulnerable to SQL Injection in Veramo Data Store ORM",
+  "Description": "An SQL injection vulnerability exists in the `@veramo/data-store` package that allows any authenticated user to execute arbitrary SQL queries against the database. The vulnerability is caused by insufficient validation of the `column` parameter in the `order` array of query requests.",
+  "Date": "2026-01-16",
+  "Pubdate": "2026-01-16",
+  "AffectedRange": "\u003c6.0.2",
+  "FixedVersions": [
+    "6.0.2"
+  ],
+  "AffectedVersions": "All versions before 6.0.2",
+  "NotImpacted": "All versions starting from 6.0.2",
+  "Solution": "Upgrade to version 6.0.2 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-38cw-85xc-xr9x",
+    "https://github.com/decentralized-identity/veramo/security/advisories/GHSA-38cw-85xc-xr9x",
+    "https://github.com/decentralized-identity/veramo/pull/1482",
+    "https://github.com/decentralized-identity/veramo/commit/067e39dd76f11ee2d25b99c8361d4f02a4223e3b",
+    "https://github.com/decentralized-identity/veramo",
+    "https://github.com/decentralized-identity/veramo/releases/tag/v6.0.2"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+  "UUID": "094cf09f-addf-47be-a769-7e3fe67115a8"
+}

@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-gw32-9rmw-qwww",
+  "PackageSlug": "npm/svelte",
+  "Title": "svelte is vulnerable to XSS with textarea bind:value",
+  "Description": "A server-side rendered `\u003ctextarea\u003e` with two-way bound value does not have its value correctly escaped in the rendered HTML.",
+  "Date": "2026-01-16",
+  "Pubdate": "2026-01-16",
+  "AffectedRange": "\u003e=3.0.0 \u003c3.59.2",
+  "FixedVersions": [
+    "3.59.2"
+  ],
+  "AffectedVersions": "All versions starting from 3.0.0 before 3.59.2",
+  "NotImpacted": "All versions before 3.0.0, all versions starting from 3.59.2",
+  "Solution": "Upgrade to version 3.59.2 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-gw32-9rmw-qwww",
+    "https://github.com/sveltejs/svelte/security/advisories/GHSA-gw32-9rmw-qwww",
+    "https://github.com/sveltejs/svelte/commit/a31dec5eb30978cff7ff4d77f4bf316841f711bc",
+    "https://github.com/sveltejs/svelte"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+  "UUID": "5d34fff5-7030-4f6f-adf9-4b0fa0ca785e"
+}

@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-w62p-hx95-gf2c",
+  "PackageSlug": "npm/duckdb",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-09-09",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-w62p-hx95-gf2c",
+    "https://github.com/duckdb/duckdb-node/security/advisories/GHSA-w62p-hx95-gf2c",
+    "https://github.com/duckdb/duckdb-node",
+    "https://github.com/duckdb/duckdb-node/releases/tag/v1.3.4"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "ee7dcb8d-a0d4-4b4c-9f47-fea281d12f98"
+}

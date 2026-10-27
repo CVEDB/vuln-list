@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-78h3-63c4-5fqc",
+  "PackageSlug": "go/github.com/Tencent/WeKnora",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-09",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-78h3-63c4-5fqc",
+    "https://github.com/Tencent/WeKnora/security/advisories/GHSA-78h3-63c4-5fqc",
+    "https://github.com/Tencent/WeKnora/commit/f7900a5e9a18c99d25cec9589ead9e4e59ce04bb",
+    "https://github.com/Tencent/WeKnora"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+  "UUID": "f71d870f-3f4f-4b75-92b2-0ca48225899b"
+}

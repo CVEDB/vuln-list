@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-w469-hj2f-jpr5",
+  "PackageSlug": "go/github.com/harness/gitness",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-08-29",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-w469-hj2f-jpr5",
+    "https://github.com/harness/harness/security/advisories/GHSA-w469-hj2f-jpr5",
+    "https://github.com/harness/harness/commit/21c5ce42ae13740b1cad47706c2ec85e72cc8c20",
+    "https://github.com/harness/harness"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "UUID": "9180fa61-680e-405e-ad5f-1a9da3a1baaa"
+}

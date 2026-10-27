@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-xjr7-3c3g-m763",
+  "PackageSlug": "npm/renovate",
+  "Title": "Renovate vulnerable to arbitrary command injection via gleam manager and malicious gleam.toml file",
+  "Description": "The user-provided string `depName` in the `gleam` manager is appended to the `gleam deps update` command without proper sanitization.",
+  "Date": "2026-01-13",
+  "Pubdate": "2026-01-13",
+  "AffectedRange": "\u003e=39.53.0 \u003c40.33.0",
+  "FixedVersions": [
+    "40.33.0"
+  ],
+  "AffectedVersions": "All versions starting from 39.53.0 before 40.33.0",
+  "NotImpacted": "All versions before 39.53.0, all versions starting from 40.33.0",
+  "Solution": "Upgrade to version 40.33.0 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-xjr7-3c3g-m763",
+    "https://github.com/renovatebot/renovate/security/advisories/GHSA-xjr7-3c3g-m763",
+    "https://github.com/renovatebot/renovate"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+  "UUID": "8b76b957-927c-4009-8bdb-7bfac3c710ad"
+}

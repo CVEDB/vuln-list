@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-x2pw-9c38-cp2j",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo: Missing CSRF Protection on State-Changing JSON Endpoints Enables Forced Comment Creation, Vote Manipulation, and Category Asset Deletion",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-x2pw-9c38-cp2j",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-x2pw-9c38-cp2j",
+    "https://github.com/WWBN/AVideo/commit/7aaad601bd9cd7b993ba0ee1b1bea6c32ee7b77c",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
+  "UUID": "40fde4af-16e7-45e6-ad39-003d3733c511"
+}

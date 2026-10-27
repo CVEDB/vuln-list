@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-964p-j4gg-mhwc",
+  "PackageSlug": "npm/flowise",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-10-03",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-964p-j4gg-mhwc",
+    "https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-964p-j4gg-mhwc",
+    "https://github.com/FlowiseAI/Flowise"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+  "UUID": "b3a3351c-f685-4a64-b829-e15b6f75ae43"
+}

@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-w832-gg5g-x44m",
+  "PackageSlug": "pypi/datasette",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-06",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-w832-gg5g-x44m",
+    "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+    "https://github.com/simonw/datasette/issues/2429",
+    "https://github.com/simonw/datasette/commit/f257ca6edb64848c3b04b54d41e347c54fe57c05",
+    "https://github.com/simonw/datasette"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+  "UUID": "27573f1d-0f63-487a-a287-2220895ce6c8"
+}

@@ -1,0 +1,25 @@
+{
+  "Identifier": "GHSA-x4qj-2f4q-r4rx",
+  "PackageSlug": "npm/parse-server",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-05",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-x4qj-2f4q-r4rx",
+    "https://github.com/parse-community/parse-server/security/advisories/GHSA-x4qj-2f4q-r4rx",
+    "https://github.com/parse-community/parse-server/pull/9903",
+    "https://github.com/parse-community/parse-server/pull/9904",
+    "https://github.com/parse-community/parse-server/commit/8bbe3efbcf4a3b66f4a8db9bfb18cd98c050db51",
+    "https://github.com/parse-community/parse-server/commit/97763863b72689a29ad7a311dfb590c3e3c50585",
+    "https://github.com/parse-community/parse-server"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+  "UUID": "bd8933da-dc5e-4917-ba63-9d4a299e1f8a"
+}

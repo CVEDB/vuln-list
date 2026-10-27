@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-w54x-r83c-x79q",
+  "PackageSlug": "npm/pepr",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-15",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-w54x-r83c-x79q",
+    "https://github.com/defenseunicorns/pepr/security/advisories/GHSA-w54x-r83c-x79q",
+    "https://github.com/defenseunicorns/pepr",
+    "https://github.com/defenseunicorns/pepr/releases/tag/v1.0.4"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+  "UUID": "ada1ed56-fb66-4bfe-bfd3-c6a6f6d0ef2d"
+}

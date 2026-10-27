@@ -1,0 +1,26 @@
+{
+  "Identifier": "GHSA-74r6-grj9-8rq6",
+  "PackageSlug": "nuget/AjaxNetProfessional",
+  "Title": "Duplicate Advisory: Remote Code Execution in AjaxNetProfessional",
+  "Description": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-6r7c-6w96-8pvw. This link is maintained to preserve external references.\n\n## Original Description\nAll versions of package ajaxpro.2 are vulnerable to Deserialization of Untrusted Data due to the possibility of deserialization of arbitrary .NET classes, which can be abused to gain remote code execution.",
+  "Date": "2026-02-03",
+  "Pubdate": "2021-12-16",
+  "AffectedRange": "[,21.11.29.1)",
+  "FixedVersions": [
+    "21.11.29.1"
+  ],
+  "AffectedVersions": "All versions before 21.11.29.1",
+  "NotImpacted": "All versions starting from 21.11.29.1",
+  "Solution": "Upgrade to version 21.11.29.1 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-74r6-grj9-8rq6",
+    "https://github.com/michaelschwarz/Ajax.NET-Professional/security/advisories/GHSA-6r7c-6w96-8pvw",
+    "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+    "https://github.com/michaelschwarz/Ajax.NET-Professional/commit/b0e63be5f0bb20dfce507cb8a1a9568f6e73de57",
+    "https://github.com/michaelschwarz/Ajax.NET-Professional",
+    "https://snyk.io/vuln/SNYK-DOTNET-AJAXPRO2-1925971"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "UUID": "a81cbb7f-dc15-40dd-8e46-7efb72cea948"
+}

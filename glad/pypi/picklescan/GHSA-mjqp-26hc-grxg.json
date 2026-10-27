@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-mjqp-26hc-grxg",
+  "PackageSlug": "pypi/picklescan",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-09-10",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-mjqp-26hc-grxg",
+    "https://github.com/mmaitre314/picklescan/security/advisories/GHSA-mjqp-26hc-grxg",
+    "https://github.com/mmaitre314/picklescan/commit/28a7b4ef753466572bda3313737116eeb9b4e5c5",
+    "https://github.com/mmaitre314/picklescan"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "UUID": "9e9fbfdc-c4c7-4620-86ed-a4b61776a969"
+}

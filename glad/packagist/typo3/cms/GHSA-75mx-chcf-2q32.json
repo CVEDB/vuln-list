@@ -1,9 +1,9 @@
 {
   "Identifier": "GHSA-75mx-chcf-2q32",
   "PackageSlug": "packagist/typo3/cms",
-  "Title": "TYPO3 Cross-Site Scripting vulnerability in typolinks",
-  "Description": "All link fields within the TYPO3 installation are vulnerable to Cross-Site Scripting as authorized editors can insert javascript commands by using the url scheme `javascript:`.",
-  "Date": "2024-05-30",
+  "Title": "Duplicate Advisory: TYPO3 Cross-Site Scripting vulnerability in typolinks",
+  "Description": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-j5v7-9xr5-m7gx. This link is maintained to preserve external references.\n\n## Original Description\n\nAll link fields within the TYPO3 installation are vulnerable to Cross-Site Scripting as authorized editors can insert javascript commands by using the url scheme `javascript:`.",
+  "Date": "2026-02-03",
   "Pubdate": "2024-05-30",
   "AffectedRange": "\u003e=6.2.0 \u003c6.2.16||\u003e=7.0.0 \u003c7.6.1",
   "FixedVersions": [

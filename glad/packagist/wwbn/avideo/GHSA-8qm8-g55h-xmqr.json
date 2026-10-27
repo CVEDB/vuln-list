@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-8qm8-g55h-xmqr",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo is missing CSRF protection in objects/commentDelete.json.php enables mass comment deletion against moderators and content creators",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-8qm8-g55h-xmqr",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-8qm8-g55h-xmqr",
+    "https://github.com/WWBN/AVideo/commit/184f36b1896f3364f864f17c1acca3dd8df3af27",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
+  "UUID": "4c8d2870-a968-471c-a8bd-c942f879a97a"
+}

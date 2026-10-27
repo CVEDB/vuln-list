@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-ffw8-fwxp-h64w",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo has Multiple CSRF Vulnerabilities in Admin JSON Endpoints (Category CRUD, Plugin Update Script)",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-ffw8-fwxp-h64w",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-ffw8-fwxp-h64w",
+    "https://github.com/WWBN/AVideo/commit/ee5615153c40628ab3ec6fe04962d1f92e67d3e2",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L",
+  "UUID": "732129c6-4238-434f-a31f-865989196587"
+}

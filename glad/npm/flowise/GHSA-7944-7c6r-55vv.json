@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-7944-7c6r-55vv",
+  "PackageSlug": "npm/flowise",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-09-15",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-7944-7c6r-55vv",
+    "https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-7944-7c6r-55vv",
+    "https://github.com/FlowiseAI/Flowise",
+    "https://github.com/FlowiseAI/Flowise/blob/flowise%403.0.5/packages/components/nodes/vectorstores/Supabase/Supabase.ts#L237",
+    "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.0.6"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "UUID": "f684339e-d724-47b1-8cd3-b0e2d5e39269"
+}

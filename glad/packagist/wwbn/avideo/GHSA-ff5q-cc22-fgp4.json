@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-ff5q-cc22-fgp4",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo has a CORS Origin Reflection Bypass via plugin/API/router.php and allowOrigin(true) Exposes Authenticated API Responses",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-ff5q-cc22-fgp4",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-ff5q-cc22-fgp4",
+    "https://github.com/WWBN/AVideo/commit/5e2b897ccac61eb6daca2dee4a6be3c4c2d93e13",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N",
+  "UUID": "626732ab-d143-44a8-a22d-6945a1c8edce"
+}

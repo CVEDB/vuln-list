@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-45q2-gjvg-7973",
+  "PackageSlug": "npm/@angular/platform-server",
+  "Title": "Angular: SSRF via protocol-relative and backslash URLs in Angular Platform-Server",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-16",
+  "Pubdate": "2026-04-16",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-45q2-gjvg-7973",
+    "https://github.com/angular/angular/security/advisories/GHSA-45q2-gjvg-7973",
+    "https://github.com/angular/angular/pull/68194",
+    "https://github.com/angular/angular"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+  "UUID": "dd94114b-a151-4164-ac2d-c2513bfec62d"
+}

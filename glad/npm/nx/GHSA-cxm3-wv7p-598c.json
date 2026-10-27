@@ -1,0 +1,26 @@
+{
+  "Identifier": "GHSA-cxm3-wv7p-598c",
+  "PackageSlug": "npm/nx",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-08-27",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-cxm3-wv7p-598c",
+    "https://github.com/nrwl/nx/security/advisories/GHSA-cxm3-wv7p-598c",
+    "https://github.com/nrwl/nx/issues/32522",
+    "https://github.com/nrwl/nx/issues/32523",
+    "https://github.com/nrwl/nx/pull/32458",
+    "https://github.com/nrwl/nx/commit/3905475cfd0e0ea670e20c6a9eaeb768169dc33d",
+    "https://github.com/nrwl/nx",
+    "https://x.com/adnanthekhan/status/1958722939534417989"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "48c769e1-c120-4a96-a6f4-ceb139e98020"
+}

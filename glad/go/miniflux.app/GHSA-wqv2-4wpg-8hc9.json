@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-wqv2-4wpg-8hc9",
+  "PackageSlug": "go/miniflux.app",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-12-10",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-wqv2-4wpg-8hc9",
+    "https://github.com/miniflux/v2/security/advisories/GHSA-wqv2-4wpg-8hc9",
+    "https://github.com/miniflux/v2/commit/76df99f3a3db234cf6b312be5e771485213d03c7",
+    "https://github.com/miniflux/v2"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:N",
+  "UUID": "04c4b738-3250-4ee7-a225-1c5cee6d6e07"
+}

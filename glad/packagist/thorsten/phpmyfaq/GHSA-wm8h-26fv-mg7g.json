@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-wm8h-26fv-mg7g",
+  "PackageSlug": "packagist/thorsten/phpmyfaq",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-23",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-wm8h-26fv-mg7g",
+    "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-wm8h-26fv-mg7g",
+    "https://github.com/thorsten/phpMyFAQ"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "UUID": "06659714-d38b-4410-a9d5-d9e5e21c5159"
+}

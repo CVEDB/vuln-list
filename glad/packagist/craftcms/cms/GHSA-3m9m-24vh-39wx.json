@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-3m9m-24vh-39wx",
+  "PackageSlug": "packagist/craftcms/cms",
+  "Title": "Server-Side Request Forgery (SSRF) in Craft CMS with Asset Uploads Mutations",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-3m9m-24vh-39wx",
+    "https://github.com/craftcms/cms/security/advisories/GHSA-3m9m-24vh-39wx",
+    "https://github.com/craftcms/cms/commit/d20aecfaa0eae076c4154be3b17e1f9fa05ce46f",
+    "https://github.com/craftcms/cms"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:N",
+  "UUID": "c3fe9928-897c-428c-aac2-8c43ca1eb623"
+}

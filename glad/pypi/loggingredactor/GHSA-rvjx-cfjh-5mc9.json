@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-rvjx-cfjh-5mc9",
+  "PackageSlug": "pypi/loggingredactor",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-07",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-rvjx-cfjh-5mc9",
+    "https://github.com/armurox/loggingredactor/security/advisories/GHSA-rvjx-cfjh-5mc9",
+    "https://github.com/armurox/loggingredactor/issues/7",
+    "https://github.com/armurox/loggingredactor",
+    "https://github.com/armurox/loggingredactor/releases/tag/0.0.6"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "UUID": "26fe64b8-23e5-4733-bdda-44bf343b4520"
+}

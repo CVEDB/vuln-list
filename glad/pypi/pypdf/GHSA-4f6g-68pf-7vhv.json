@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-4f6g-68pf-7vhv",
+  "PackageSlug": "pypi/pypdf",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-09",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-4f6g-68pf-7vhv",
+    "https://github.com/py-pdf/pypdf/security/advisories/GHSA-4f6g-68pf-7vhv",
+    "https://github.com/py-pdf/pypdf/pull/3594",
+    "https://github.com/py-pdf/pypdf/commit/294165726b646bb7799be1cc787f593f2fdbcf45",
+    "https://github.com/py-pdf/pypdf",
+    "https://github.com/py-pdf/pypdf/releases/tag/6.6.0"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "UUID": "f1a84354-932f-4cbe-9e7e-0510b4f37ab6"
+}

@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-j432-4w3j-3w8j",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo has a SSRF via same-domain hostname with alternate port bypasses isSSRFSafeURL",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-j432-4w3j-3w8j",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-j432-4w3j-3w8j",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+  "UUID": "9e130c58-4e40-40cb-8828-74e5feccd47e"
+}

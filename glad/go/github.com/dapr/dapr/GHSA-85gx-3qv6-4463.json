@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-85gx-3qv6-4463",
+  "PackageSlug": "go/github.com/dapr/dapr",
+  "Title": "Dapr: Service Invocation path traversal ACL bypass",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-17",
+  "Pubdate": "2026-04-17",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-85gx-3qv6-4463",
+    "https://github.com/dapr/dapr/security/advisories/GHSA-85gx-3qv6-4463",
+    "https://github.com/dapr/dapr/pull/9589",
+    "https://github.com/dapr/dapr"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "UUID": "da3e92c6-9518-4668-82b1-4a476e2e9653"
+}

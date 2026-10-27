@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-wgx6-g857-jjf7",
+  "PackageSlug": "gem/openc3",
+  "Title": "OpenC3 COSMOS: Hijacked session token can be used to reset password for persistence",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-22",
+  "Pubdate": "2026-04-22",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-wgx6-g857-jjf7",
+    "https://github.com/OpenC3/cosmos/security/advisories/GHSA-wgx6-g857-jjf7",
+    "https://github.com/OpenC3/cosmos/commit/2e623714e3426d5ae81b6f8239d4a2a6937ef776",
+    "https://github.com/OpenC3/cosmos",
+    "https://github.com/OpenC3/cosmos/releases/tag/v6.10.5",
+    "https://github.com/OpenC3/cosmos/releases/tag/v7.0.0-rc3"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+  "UUID": "fc0e2160-e0cc-4aaa-89ba-4f59c174f207"
+}

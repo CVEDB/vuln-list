@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-9449-rphm-mjqr",
+  "PackageSlug": "packagist/azuracast/azuracast",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-12-11",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-9449-rphm-mjqr",
+    "https://github.com/AzuraCast/AzuraCast/security/advisories/GHSA-9449-rphm-mjqr",
+    "https://github.com/AzuraCast/AzuraCast/commit/34620dbad93f6cd8e209a4220e3e53c7c5fea844",
+    "https://github.com/AzuraCast/AzuraCast"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N",
+  "UUID": "4e4e6018-b2f8-4562-8c49-8085b53241c5"
+}

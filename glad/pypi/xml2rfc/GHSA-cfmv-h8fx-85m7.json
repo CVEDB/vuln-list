@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-cfmv-h8fx-85m7",
+  "PackageSlug": "pypi/xml2rfc",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-08-26",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-cfmv-h8fx-85m7",
+    "https://github.com/ietf-tools/xml2rfc/security/advisories/GHSA-cfmv-h8fx-85m7",
+    "https://github.com/ietf-tools/xml2rfc/commit/f2b245bc0aeeac0667c8f74e976c466c5991f0e4",
+    "https://github.com/ietf-tools/xml2rfc"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "107aa577-e524-4771-bd1b-bb9713b7ce0e"
+}

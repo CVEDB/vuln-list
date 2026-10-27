@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-f2mf-q878-gh58",
+  "PackageSlug": "pypi/parsl",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-06",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-f2mf-q878-gh58",
+    "https://github.com/Parsl/parsl/security/advisories/GHSA-f2mf-q878-gh58",
+    "https://github.com/Parsl/parsl/commit/013a928461e70f38a33258bd525a351ed828e974",
+    "https://github.com/Parsl/parsl"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "UUID": "8de4d258-795e-4ce2-b541-7a676ef07645"
+}

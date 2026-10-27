@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-m63r-m9jh-3vc6",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo has an Incomplete fix: Directory traversal bypass via query string in ReceiveImage downloadURL parameters",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-m63r-m9jh-3vc6",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-m63r-m9jh-3vc6",
+    "https://github.com/WWBN/AVideo/commit/bd11c16ec894698e54e2cdae25026c61ad1ed441",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+  "UUID": "1dab77f1-6fdb-4aba-9963-ccbc66e27061"
+}

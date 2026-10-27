@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-cf57-c578-7jvv",
+  "PackageSlug": "go/github.com/TecharoHQ/anubis",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-10-30",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-cf57-c578-7jvv",
+    "https://github.com/TecharoHQ/anubis/security/advisories/GHSA-cf57-c578-7jvv",
+    "https://github.com/TecharoHQ/anubis/commit/7ed1753fcced351c81961bf520a7bfb2caac6e88",
+    "https://github.com/TecharoHQ/anubis",
+    "https://pkg.go.dev/vuln/GO-2025-4086"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N",
+  "UUID": "5e95b7aa-6f08-4e49-88f9-8b08aae4a627"
+}

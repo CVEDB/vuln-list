@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-wf5f-4jwr-ppcp",
+  "PackageSlug": "pypi/pdfminer.six",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-07",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-wf5f-4jwr-ppcp",
+    "https://github.com/pdfminer/pdfminer.six/security/advisories/GHSA-wf5f-4jwr-ppcp",
+    "https://github.com/pdfminer/pdfminer.six/commit/b808ee05dd7f0c8ea8ec34bdf394d40e63501086",
+    "https://github.com/pdfminer/pdfminer.six"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+  "UUID": "8fe06055-4395-4972-8e0b-f19c1e691f6b"
+}

@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-j8hf-cp34-g4j7",
+  "PackageSlug": "go/d7y.io/dragonfly/v2",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-22",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-j8hf-cp34-g4j7",
+    "https://github.com/dragonflyoss/dragonfly/security/advisories/GHSA-j8hf-cp34-g4j7",
+    "https://github.com/dragonflyoss/dragonfly"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "UUID": "1378df9a-e2de-4838-ac10-3b4d10c2d6ff"
+}

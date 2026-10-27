@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-52hf-63q4-r926",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo has an Unauthenticated Information Disclosure via git.json.php Exposes Developer Emails and Deployed Version",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-52hf-63q4-r926",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-52hf-63q4-r926",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "UUID": "c2b02d04-df32-4a45-a323-a1f7068357ce"
+}

@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-73rr-hh4g-fpgx",
+  "PackageSlug": "npm/diff",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-73rr-hh4g-fpgx",
+    "https://github.com/kpdecker/jsdiff/security/advisories/GHSA-73rr-hh4g-fpgx",
+    "https://github.com/kpdecker/jsdiff/issues/653",
+    "https://github.com/kpdecker/jsdiff/pull/649",
+    "https://github.com/kpdecker/jsdiff/commit/15a1585230748c8ae6f8274c202e0c87309142f5",
+    "https://github.com/kpdecker/jsdiff"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "6da01e8b-12c8-4c52-b39f-f47a507ff6b2"
+}

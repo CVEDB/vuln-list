@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-gr7h-xw4f-wh86",
+  "PackageSlug": "maven/org.sakaiproject.kernel/sakai-kernel-impl",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-10-22",
+  "AffectedRange": "(,0)",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-gr7h-xw4f-wh86",
+    "https://github.com/sakaiproject/sakai/security/advisories/GHSA-gr7h-xw4f-wh86",
+    "https://github.com/sakaiproject/sakai"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N",
+  "UUID": "daaaf25b-01ba-4e51-8a15-7065d535a267"
+}

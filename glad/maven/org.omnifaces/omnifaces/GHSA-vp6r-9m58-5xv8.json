@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-vp6r-9m58-5xv8",
+  "PackageSlug": "maven/org.omnifaces/omnifaces",
+  "Title": "OmniFaces: EL injection via crafted resource name in wildcard CDN mapping",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-16",
+  "Pubdate": "2026-04-16",
+  "AffectedRange": "(,0)",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-vp6r-9m58-5xv8",
+    "https://github.com/omnifaces/omnifaces/security/advisories/GHSA-vp6r-9m58-5xv8",
+    "https://github.com/omnifaces/omnifaces"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+  "UUID": "0bcc188f-ad06-456d-a166-9ed06be28371"
+}

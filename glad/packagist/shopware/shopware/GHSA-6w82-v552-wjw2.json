@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-6w82-v552-wjw2",
+  "PackageSlug": "packagist/shopware/shopware",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-12-09",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-6w82-v552-wjw2",
+    "https://github.com/shopware/shopware/security/advisories/GHSA-6w82-v552-wjw2",
+    "https://github.com/shopware/shopware/commit/c9242c02c84595d9fa3e2adf6a264bc90a657b58",
+    "https://github.com/shopware/shopware"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N",
+  "UUID": "d44b8c7d-858b-42c6-89c0-efc28d1a3a89"
+}

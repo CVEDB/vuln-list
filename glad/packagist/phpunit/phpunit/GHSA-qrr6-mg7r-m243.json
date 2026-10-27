@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-qrr6-mg7r-m243",
+  "PackageSlug": "packagist/phpunit/phpunit",
+  "Title": "PHPUnit has Argument injection via newline in PHP INI values that are forwarded to child processes",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-20",
+  "Pubdate": "2026-04-18",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-qrr6-mg7r-m243",
+    "https://github.com/sebastianbergmann/phpunit/security/advisories/GHSA-qrr6-mg7r-m243",
+    "https://github.com/sebastianbergmann/phpunit/pull/6592",
+    "https://github.com/sebastianbergmann/phpunit"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+  "UUID": "7804eef9-de44-4d4d-81e0-50f949870f53"
+}

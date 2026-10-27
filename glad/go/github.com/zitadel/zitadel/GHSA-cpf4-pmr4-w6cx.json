@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-cpf4-pmr4-w6cx",
+  "PackageSlug": "go/github.com/zitadel/zitadel",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-05",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-cpf4-pmr4-w6cx",
+    "https://github.com/zitadel/zitadel/security/advisories/GHSA-cpf4-pmr4-w6cx",
+    "https://github.com/zitadel/zitadel/commit/8dcfff97ed52a8b9fc77ecb1f972744f42cff3ed",
+    "https://github.com/zitadel/zitadel",
+    "https://github.com/zitadel/zitadel/releases/tag/v4.6.3"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "72949b48-8f83-4a45-853e-98471d77e109"
+}

@@ -1,0 +1,29 @@
+{
+  "Identifier": "GHSA-58q2-9x27-h2jm",
+  "PackageSlug": "packagist/solspace/craft-freeform",
+  "Title": "solspace/craft-freeform Has a DoS Vulnerability",
+  "Description": "Freeform plugin v4.1.29 uses vulnerable Axios ^1.7.7 allowing unauthenticated attackers to crash servers via malicious data: URIs causing memory exhaustion (CVE-2025-58754).\n\nFreeform version: 4.1.29\nCraft CMS version: 4.16.8",
+  "Date": "2026-01-15",
+  "Pubdate": "2026-01-15",
+  "AffectedRange": "\u003e=4.1.29 \u003c4.1.30||=4.1.29",
+  "FixedVersions": [
+    "4.1.30"
+  ],
+  "AffectedVersions": "All versions starting from 4.1.29 before 4.1.30, version 4.1.29",
+  "NotImpacted": "",
+  "Solution": "Upgrade to version 4.1.30 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-58q2-9x27-h2jm",
+    "https://github.com/axios/axios/security/advisories/GHSA-4hjh-wcwx-xvwj",
+    "https://github.com/solspace/craft-freeform/security/advisories/GHSA-58q2-9x27-h2jm",
+    "https://github.com/axios/axios/pull/7011",
+    "https://github.com/axios/axios/commit/945435fc51467303768202250debb8d4ae892593",
+    "https://github.com/solspace/craft-freeform/commit/e7402a1d1ce9f28ecb6ce659885ac66391d3a040",
+    "https://github.com/axios/axios/releases/tag/v1.12.0",
+    "https://github.com/solspace/craft-freeform",
+    "https://github.com/solspace/craft-freeform/releases/tag/v4.1.30"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+  "UUID": "43cde255-3f01-4028-aade-8fadd0ded260"
+}

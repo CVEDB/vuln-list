@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-95wr-3f2v-v2wh",
+  "PackageSlug": "packagist/craftcms/cms",
+  "Title": "Craft CMS has a host header injection leading to SSRF via resource-js endpoint",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-95wr-3f2v-v2wh",
+    "https://github.com/craftcms/cms/security/advisories/GHSA-95wr-3f2v-v2wh",
+    "https://github.com/craftcms/cms/commit/ebe7e85f1c89700d64332f72492be2e9a594e783",
+    "https://github.com/craftcms/cms"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:N",
+  "UUID": "234d1825-4d23-4d32-a679-c19bf8ff485a"
+}

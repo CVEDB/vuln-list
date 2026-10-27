@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-wwqv-p2pp-99h5",
+  "PackageSlug": "pypi/langgraph-checkpoint",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-05",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-wwqv-p2pp-99h5",
+    "https://github.com/langchain-ai/langgraph/security/advisories/GHSA-wwqv-p2pp-99h5",
+    "https://github.com/langchain-ai/langgraph/commit/c5744f583b11745cd406f3059903e17bbcdcc8ac",
+    "https://github.com/langchain-ai/langgraph",
+    "https://github.com/langchain-ai/langgraph/blob/c5744f583b11745cd406f3059903e17bbcdcc8ac/libs/checkpoint/langgraph/checkpoint/serde/jsonplus.py",
+    "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D3.0.0"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "e331850e-7dcf-4d11-830c-30d8f41bf009"
+}

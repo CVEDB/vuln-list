@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-5f29-2333-h9c7",
+  "PackageSlug": "maven/org.open-metadata/platform",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-07",
+  "AffectedRange": "(,0)",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-5f29-2333-h9c7",
+    "https://github.com/open-metadata/OpenMetadata/security/advisories/GHSA-5f29-2333-h9c7",
+    "https://github.com/open-metadata/OpenMetadata"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+  "UUID": "9659e0d7-5f39-447f-8460-a9c8583a0b5b"
+}

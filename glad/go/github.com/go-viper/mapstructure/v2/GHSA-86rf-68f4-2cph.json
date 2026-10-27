@@ -1,0 +1,27 @@
+{
+  "Identifier": "GHSA-86rf-68f4-2cph",
+  "PackageSlug": "go/github.com/go-viper/mapstructure/v2",
+  "Title": "Duplicate Advisory: go-viper's mapstructure May Leak Sensitive Information in Logs When Processing Malformed Data",
+  "Description": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-2464-8j7c-4cjm. This link is maintained to preserve external references.\n\n### Original Description\nA flaw was found in github.com/go-viper/mapstructure/v2, in the field processing component using mapstructure.WeakDecode. This vulnerability allows information disclosure through detailed error messages that may leak sensitive input values via malformed user-supplied data processed in security-critical contexts.",
+  "Date": "2026-01-27",
+  "Pubdate": "2026-01-26",
+  "AffectedRange": "\u003c2.4.0",
+  "FixedVersions": [
+    "2.4.0"
+  ],
+  "AffectedVersions": "All versions before 2.4.0",
+  "NotImpacted": "All versions starting from 2.4.0",
+  "Solution": "Upgrade to version 2.4.0 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-86rf-68f4-2cph",
+    "https://github.com/go-viper/mapstructure/security/advisories/GHSA-2464-8j7c-4cjm",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-11065",
+    "https://github.com/go-viper/mapstructure/commit/742921c9ba2854d27baa64272487fc5075d2c39c",
+    "https://access.redhat.com/security/cve/CVE-2025-11065",
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2391829",
+    "https://github.com/go-viper/mapstructure"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+  "UUID": "54193781-35a9-49af-b866-f53a4f628f27"
+}

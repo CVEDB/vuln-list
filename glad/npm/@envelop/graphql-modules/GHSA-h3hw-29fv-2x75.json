@@ -1,0 +1,26 @@
+{
+  "Identifier": "GHSA-h3hw-29fv-2x75",
+  "PackageSlug": "npm/@envelop/graphql-modules",
+  "Title": "@envelop/graphql-modules has a Race Condition vulnerability",
+  "Description": "Context race condition when using `useGraphQLModules` plugin",
+  "Date": "2026-01-29",
+  "Pubdate": "2026-01-21",
+  "AffectedRange": "\u003c9.1.0",
+  "FixedVersions": [
+    "9.1.0"
+  ],
+  "AffectedVersions": "All versions before 9.1.0",
+  "NotImpacted": "All versions starting from 9.1.0",
+  "Solution": "Upgrade to version 9.1.0 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-h3hw-29fv-2x75",
+    "https://github.com/graphql-hive/envelop/security/advisories/GHSA-h3hw-29fv-2x75",
+    "https://github.com/graphql-hive/graphql-modules/security/advisories/GHSA-53wg-r69p-v3r7",
+    "https://github.com/graphql-hive/envelop/commit/ab49fa259a51d976c437e084114e070b99720ba9",
+    "https://github.com/graphql-hive/envelop",
+    "https://github.com/graphql-hive/envelop/releases/tag/release-1768928934700"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+  "UUID": "939c0e62-4cef-48b8-9f4b-27e5c755930d"
+}

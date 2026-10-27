@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-675q-66gf-gqg8",
+  "PackageSlug": "npm/@oneuptime/common",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-25",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-675q-66gf-gqg8",
+    "https://github.com/OneUptime/oneuptime/security/advisories/GHSA-675q-66gf-gqg8",
+    "https://github.com/OneUptime/oneuptime/commit/3e72b2a9a4f50f98cf1f6cf13fa3e405715bb370",
+    "https://github.com/OneUptime/oneuptime"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+  "UUID": "51bf5e9d-f4a5-43cb-92e5-db6babf01978"
+}

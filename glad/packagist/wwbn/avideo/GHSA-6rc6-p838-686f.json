@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-6rc6-p838-686f",
+  "PackageSlug": "packagist/wwbn/avideo",
+  "Title": "WWBN AVideo has a Path Traversal in Locale Save Endpoint Enables Arbitrary PHP File Write to Any Web-Accessible Directory (RCE)",
+  "Description": "This advisory has been withdrawn.",
+  "Date": "2026-04-14",
+  "Pubdate": "2026-04-14",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "This advisory has been withdrawn.",
+  "NotImpacted": "This advisory has been withdrawn.",
+  "Solution": "This advisory has been withdrawn.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-6rc6-p838-686f",
+    "https://github.com/WWBN/AVideo/security/advisories/GHSA-6rc6-p838-686f",
+    "https://github.com/WWBN/AVideo"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N",
+  "UUID": "4cec3263-ed66-4fe3-a024-d1f2a7fc8ba4"
+}

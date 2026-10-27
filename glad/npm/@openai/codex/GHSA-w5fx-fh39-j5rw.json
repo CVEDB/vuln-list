@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-w5fx-fh39-j5rw",
+  "PackageSlug": "npm/@openai/codex",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-09-19",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-w5fx-fh39-j5rw",
+    "https://github.com/openai/codex/security/advisories/GHSA-w5fx-fh39-j5rw",
+    "https://github.com/openai/codex/commit/8595237505a1e0faabc2af3db805b66ce3ae182d",
+    "https://github.com/openai/codex",
+    "https://github.com/openai/codex/releases/tag/rust-v0.39.0"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "ea448e97-9202-4e1a-a691-384bb66a60ea"
+}

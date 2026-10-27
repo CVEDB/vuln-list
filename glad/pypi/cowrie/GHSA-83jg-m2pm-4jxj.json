@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-83jg-m2pm-4jxj",
+  "PackageSlug": "pypi/cowrie",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-12-20",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-83jg-m2pm-4jxj",
+    "https://github.com/cowrie/cowrie/security/advisories/GHSA-83jg-m2pm-4jxj",
+    "https://github.com/cowrie/cowrie/pull/2800",
+    "https://github.com/cowrie/cowrie",
+    "https://github.com/cowrie/cowrie/releases/tag/v2.9.0"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+  "UUID": "ef7d3af9-9555-4fa3-b816-7b71b49b5830"
+}

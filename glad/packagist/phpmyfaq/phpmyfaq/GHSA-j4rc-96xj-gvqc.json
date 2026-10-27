@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-j4rc-96xj-gvqc",
+  "PackageSlug": "packagist/phpmyfaq/phpmyfaq",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-23",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-j4rc-96xj-gvqc",
+    "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-j4rc-96xj-gvqc",
+    "https://github.com/thorsten/phpMyFAQ"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+  "UUID": "f4f55531-953b-4d0b-b9d9-4cb48660612a"
+}

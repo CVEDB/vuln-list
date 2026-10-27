@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-g38c-wxjf-xrh6",
+  "PackageSlug": "npm/git-commiters",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-09-22",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-g38c-wxjf-xrh6",
+    "https://github.com/snowyu/git-commiters.js/security/advisories/GHSA-g38c-wxjf-xrh6",
+    "https://github.com/snowyu/git-commiters.js/commit/7f0abfedbf506e3a61ac875d91324a8dbe756e84",
+    "https://github.com/snowyu/git-commiters.js"
+  ],
+  "CvssV2": "",
+  "CvssV3": "",
+  "UUID": "c7efa674-036c-459e-83e1-b323088b6995"
+}

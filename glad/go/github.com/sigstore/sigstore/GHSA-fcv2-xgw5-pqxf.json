@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-fcv2-xgw5-pqxf",
+  "PackageSlug": "go/github.com/sigstore/sigstore",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-22",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-fcv2-xgw5-pqxf",
+    "https://github.com/sigstore/sigstore/security/advisories/GHSA-fcv2-xgw5-pqxf",
+    "https://github.com/sigstore/sigstore/commit/8ec410a2993ea78083aecf0e473a85453039496e",
+    "https://github.com/sigstore/sigstore",
+    "https://github.com/sigstore/sigstore/releases/tag/v1.10.4"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:H/A:N",
+  "UUID": "aae7cf69-e185-4d7c-9564-6e1798780f2a"
+}

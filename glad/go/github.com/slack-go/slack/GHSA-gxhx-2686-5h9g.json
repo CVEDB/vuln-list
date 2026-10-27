@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-gxhx-2686-5h9g",
+  "PackageSlug": "go/github.com/slack-go/slack",
+  "Title": "slack-go `SecretsVerifier` accepts empty signing secret without precondition",
+  "Description": "`SecretsVerifier` in slack-go/slack before v0.23.1 accepts an empty signing secret without error. If an application is misconfigured (e.g., an unset or empty `SLACK_SIGNING_SECRET`), `NewSecretsVerifier` builds an HMAC-SHA256 keyed with an empty string, allowing an unauthenticated attacker to forge a valid `X-Slack-Signature` and bypass Slack request authentication. Fixed in v0.23.1, which rejects empty secrets with `ErrInvalidConfiguration`. This is patched in version 0.23.1.",
+  "Date": "2026-06-29",
+  "Pubdate": "2026-05-14",
+  "AffectedRange": "\u003c0.23.1",
+  "FixedVersions": [
+    "0.23.1"
+  ],
+  "AffectedVersions": "All versions before 0.23.1",
+  "NotImpacted": "All versions starting from 0.23.1",
+  "Solution": "Upgrade to version 0.23.1 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-gxhx-2686-5h9g",
+    "https://github.com/slack-go/slack/security/advisories/GHSA-gxhx-2686-5h9g",
+    "https://github.com/slack-go/slack/releases/tag/v0.23.1",
+    "https://github.com/slack-go/slack/commit/34ad5c052e446f58505ae8d81a2a72821de107cc"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+  "UUID": "22f23201-b8e1-4372-bf4f-2d883b5a3005"
+}

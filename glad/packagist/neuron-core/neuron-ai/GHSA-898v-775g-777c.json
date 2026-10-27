@@ -1,0 +1,21 @@
+{
+  "Identifier": "GHSA-898v-775g-777c",
+  "PackageSlug": "packagist/neuron-core/neuron-ai",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-12-09",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-898v-775g-777c",
+    "https://github.com/neuron-core/neuron-ai/security/advisories/GHSA-898v-775g-777c",
+    "https://github.com/neuron-core/neuron-ai"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H",
+  "UUID": "319ae673-0222-4675-8c20-629ea08e637d"
+}

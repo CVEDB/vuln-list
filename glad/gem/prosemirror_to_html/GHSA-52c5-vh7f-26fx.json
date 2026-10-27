@@ -1,0 +1,22 @@
+{
+  "Identifier": "GHSA-52c5-vh7f-26fx",
+  "PackageSlug": "gem/prosemirror_to_html",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-06",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-52c5-vh7f-26fx",
+    "https://github.com/etaminstudio/prosemirror_to_html/security/advisories/GHSA-52c5-vh7f-26fx",
+    "https://github.com/etaminstudio/prosemirror_to_html/commit/4d59f94f550bcabeec30d298791bbdd883298ad8",
+    "https://github.com/etaminstudio/prosemirror_to_html"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N",
+  "UUID": "9194a573-0843-459b-b80d-f1ad520bad08"
+}

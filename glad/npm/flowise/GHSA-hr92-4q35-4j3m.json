@@ -1,0 +1,25 @@
+{
+  "Identifier": "GHSA-hr92-4q35-4j3m",
+  "PackageSlug": "npm/flowise",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-09-15",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-hr92-4q35-4j3m",
+    "https://github.com/FlowiseAI/Flowise/security/advisories/GHSA-hr92-4q35-4j3m",
+    "https://github.com/FlowiseAI/Flowise",
+    "https://github.com/FlowiseAI/Flowise/blob/5930f1119c655bcf8d2200ae827a1f5b9fec81d0/packages/components/src/utils.ts#L474-L478",
+    "https://github.com/FlowiseAI/Flowise/blob/5930f1119c655bcf8d2200ae827a1f5b9fec81d0/packages/server/src/controllers/fetch-links/index.ts#L6-L24",
+    "https://github.com/FlowiseAI/Flowise/blob/5930f1119c655bcf8d2200ae827a1f5b9fec81d0/packages/server/src/services/fetch-links/index.ts#L8-L18",
+    "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.0.6"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+  "UUID": "79685dfd-05d9-4475-9a26-ce873a0591d4"
+}

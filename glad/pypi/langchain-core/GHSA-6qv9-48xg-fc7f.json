@@ -1,0 +1,23 @@
+{
+  "Identifier": "GHSA-6qv9-48xg-fc7f",
+  "PackageSlug": "pypi/langchain-core",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2025-11-20",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-6qv9-48xg-fc7f",
+    "https://github.com/langchain-ai/langchain/security/advisories/GHSA-6qv9-48xg-fc7f",
+    "https://github.com/langchain-ai/langchain/commit/c4b6ba254e1a49ed91f2e268e6484011c540542a",
+    "https://github.com/langchain-ai/langchain/commit/fa7789d6c21222b85211755d822ef698d3b34e00",
+    "https://github.com/langchain-ai/langchain"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+  "UUID": "33f49d80-dae4-4607-b60a-d7595e8d4eb0"
+}

@@ -1,0 +1,24 @@
+{
+  "Identifier": "GHSA-p4f6-h8jj-vfvf",
+  "PackageSlug": "go/github.com/mccutchen/go-httpbin",
+  "Title": "Duplicate Advisory: Reflected XSS in go-httpbin due to unrestricted client control over Content-Type",
+  "Description": "### Duplicate Advisory\n\nThis advisory has been withdrawn because it is a duplicate of GHSA-528q-4pgm-wvg2. This link is maintained to preserve external references.\n\n### Original Description\n\nA cross-site scripting (XSS) vulnerability in mccutchen httpbin v2.17.1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.",
+  "Date": "2026-01-02",
+  "Pubdate": "2026-01-02",
+  "AffectedRange": "\u003c2.18.0",
+  "FixedVersions": [
+    "2.18.0"
+  ],
+  "AffectedVersions": "All versions before 2.18.0",
+  "NotImpacted": "All versions starting from 2.18.0",
+  "Solution": "Upgrade to version 2.18.0 or above.",
+  "Urls": [
+    "https://github.com/advisories/GHSA-p4f6-h8jj-vfvf",
+    "https://github.com/mccutchen/go-httpbin/security/advisories/GHSA-528q-4pgm-wvg2",
+    "https://nvd.nist.gov/vuln/detail/CVE-2025-45286",
+    "https://github.com/advisories/GHSA-528q-4pgm-wvg2"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+  "UUID": "3e718cab-6a78-43e6-bbed-ba4c05a82667"
+}

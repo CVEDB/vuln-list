@@ -1,0 +1,29 @@
+{
+  "Identifier": "GHSA-f456-rf33-4626",
+  "PackageSlug": "npm/@orval/mock",
+  "Title": "Duplicate",
+  "Description": "This advisory duplicates another.",
+  "Date": "2026-01-26",
+  "Pubdate": "2026-01-22",
+  "AffectedRange": "\u003c0",
+  "FixedVersions": [],
+  "AffectedVersions": "None",
+  "NotImpacted": "N/A",
+  "Solution": "N/A",
+  "Urls": [
+    "https://github.com/advisories/GHSA-f456-rf33-4626",
+    "https://github.com/orval-labs/orval/security/advisories/GHSA-f456-rf33-4626",
+    "https://github.com/orval-labs/orval/pull/2828",
+    "https://github.com/orval-labs/orval/pull/2829",
+    "https://github.com/orval-labs/orval/pull/2830",
+    "https://github.com/orval-labs/orval/commit/44ca8c1f5f930a3e4cefb6b79b38bcde7f8532a5",
+    "https://github.com/orval-labs/orval/commit/6d8ece07ccb80693ad43edabccb3957aceadcd06",
+    "https://github.com/orval-labs/orval/commit/9b211cddc9f009f8a671e4ac5c6cb72cd8646b62",
+    "https://github.com/orval-labs/orval",
+    "https://github.com/orval-labs/orval/releases/tag/v7.20.0",
+    "https://github.com/orval-labs/orval/releases/tag/v8.0.3"
+  ],
+  "CvssV2": "",
+  "CvssV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+  "UUID": "f09a7fea-08a1-43ee-8309-1bfcd3bdf14c"
+}
