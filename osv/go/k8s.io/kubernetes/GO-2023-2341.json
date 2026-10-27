@@ -1,13 +1,13 @@
 {
   "id": "GO-2023-2341",
-  "modified": "2025-08-05T19:57:40Z",
+  "modified": "2026-02-04T02:29:52.335102Z",
   "published": "2024-08-21T14:30:24Z",
   "aliases": [
-    "CGA-j9xc-792w-g9h4",
-    "CGA-jjp6-8v8f-pmfv",
-    "CGA-v7c3-v7v4-rccr",
     "CVE-2023-5528",
     "GHSA-hq6q-c2x6-hmch"
+  ],
+  "related": [
+    "CGA-9757-28v5-j7rp"
   ],
   "summary": "Kubernetes Improper Input Validation vulnerability in k8s.io/kubernetes",
   "details": "Kubernetes Improper Input Validation vulnerability in k8s.io/kubernetes",
@@ -49,6 +49,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-2341.json"
       }

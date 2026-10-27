@@ -1,6 +1,6 @@
 {
   "id": "GHSA-qh4q-fwf8-qqrw",
-  "modified": "2024-11-26T18:51:15Z",
+  "modified": "2026-07-09T16:56:21.629765080Z",
   "published": "2022-05-17T05:48:31Z",
   "aliases": [
     "CVE-2010-3198",
@@ -76,6 +76,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pypa/advisory-database/tree/main/vulns/zope/PYSEC-2010-32.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/zope/PYSEC-2010-33.yaml"
     },
     {
       "type": "PACKAGE",

@@ -1,6 +1,6 @@
 {
   "id": "GO-2022-0799",
-  "modified": "2025-01-14T07:27:05.723175Z",
+  "modified": "2026-03-16T03:09:14.703803Z",
   "published": "2024-08-21T15:29:02Z",
   "aliases": [
     "CVE-2018-1002207",
@@ -28,6 +28,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2022-0799.json"
       }

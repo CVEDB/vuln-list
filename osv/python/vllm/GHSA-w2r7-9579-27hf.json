@@ -1,9 +1,10 @@
 {
   "id": "GHSA-w2r7-9579-27hf",
-  "modified": "2024-09-17T21:57:24.649491Z",
+  "modified": "2026-08-07T08:12:16.854937248Z",
   "published": "2024-09-17T18:33:26Z",
   "aliases": [
-    "CVE-2024-8768"
+    "CVE-2024-8768",
+    "PYSEC-2026-2024"
   ],
   "summary": "vLLM denial of service vulnerability",
   "details": "A flaw was found in the vLLM library. A completions API request with an empty prompt will crash the vLLM API server, resulting in a denial of service.",

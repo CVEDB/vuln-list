@@ -1,0 +1,50 @@
+{
+  "id": "PYSEC-2024-292",
+  "modified": "2026-05-21T15:00:26.398533789Z",
+  "published": "2024-10-24T21:15:14.223Z",
+  "aliases": [
+    "CVE-2024-48424"
+  ],
+  "details": "A heap-buffer-overflow vulnerability has been identified in the OpenDDLParser::parseStructure function within the Assimp library, specifically during the processing of OpenGEX files.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyassimp",
+        "purl": "pkg:pypi/pyassimp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "5.4.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.1",
+        "3.3",
+        "4.1.1",
+        "4.1.2",
+        "4.1.3",
+        "4.1.4",
+        "5.2.5"
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {
+        "source": "https://github.com/pypa/advisory-database/blob/main/vulns/pyassimp/PYSEC-2024-292.yaml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://github.com/assimp/assimp/issues/5787"
+    }
+  ]
+}

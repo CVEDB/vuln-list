@@ -1,12 +1,8 @@
 {
   "id": "GHSA-6g2q-w5j3-fwh4",
-  "modified": "2024-01-31T23:22:45Z",
+  "modified": "2026-09-10T03:50:04.845087799Z",
   "published": "2024-01-31T23:22:45Z",
   "aliases": [
-    "CVE-2021-21334"
-  ],
-  "related": [
-    "CGA-743q-ccvg-4798",
     "CVE-2021-21334"
   ],
   "summary": "containerd environment variable leak",

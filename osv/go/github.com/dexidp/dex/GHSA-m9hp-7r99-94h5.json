@@ -1,14 +1,14 @@
 {
   "id": "GHSA-m9hp-7r99-94h5",
-  "modified": "2025-01-14T08:42:26.612584Z",
+  "modified": "2026-09-10T03:49:10.271017587Z",
   "published": "2021-12-20T17:53:53Z",
   "aliases": [
-    "CVE-2020-26290"
-  ],
-  "related": [
-    "CGA-w29q-h459-6537",
     "CVE-2020-26290",
     "CVE-2020-27847",
+    "GHSA-2x32-jm95-2cpx"
+  ],
+  "related": [
+    "CVE-2020-26290",
     "GO-2020-0050"
   ],
   "summary": "Critical security issues in XML encoding in github.com/dexidp/dex",

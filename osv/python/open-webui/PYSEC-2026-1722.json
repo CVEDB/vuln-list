@@ -1,0 +1,81 @@
+{
+  "id": "PYSEC-2026-1722",
+  "modified": "2026-07-23T09:45:09.956589670Z",
+  "published": "2026-07-07T14:34:38.600149Z",
+  "aliases": [
+    "CVE-2024-6706",
+    "GHSA-5jp3-wp5v-5363"
+  ],
+  "summary": "Open WebUI Stored Cross-Site Scripting Vulnerability",
+  "details": "Attackers can craft a malicious prompt that coerces the language model into executing arbitrary JavaScript in the context of the web page.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "open-webui",
+        "purl": "pkg:pypi/open-webui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.3.14"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.1.124",
+        "0.1.125",
+        "0.2.0",
+        "0.2.1",
+        "0.2.2",
+        "0.2.3",
+        "0.2.4",
+        "0.2.5",
+        "0.3.0",
+        "0.3.1",
+        "0.3.10",
+        "0.3.12",
+        "0.3.13",
+        "0.3.2",
+        "0.3.3",
+        "0.3.4",
+        "0.3.5",
+        "0.3.6",
+        "0.3.7",
+        "0.3.8",
+        "0.3.9"
+      ],
+      "database_specific": {
+        "source": "https://github.com/pypa/advisory-database/blob/main/vulns/open-webui/PYSEC-2026-1722.yaml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6706"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "type": "WEB",
+      "url": "https://korelogic.com/Resources/Advisories/KL-001-2024-005.txt"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://pypi.org/project/open-webui"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-5jp3-wp5v-5363"
+    }
+  ]
+}

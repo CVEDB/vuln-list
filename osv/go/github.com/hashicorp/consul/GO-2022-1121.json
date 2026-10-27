@@ -1,6 +1,6 @@
 {
   "id": "GO-2022-1121",
-  "modified": "2024-08-21T16:28:55.765337Z",
+  "modified": "2026-08-07T08:12:23.772786087Z",
   "published": "2024-08-21T16:03:26Z",
   "aliases": [
     "BIT-consul-2022-3920",
@@ -29,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2022-1121.json"
       }

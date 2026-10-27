@@ -1,9 +1,14 @@
 {
   "id": "GO-2024-2927",
-  "modified": "2025-01-14T12:27:29.992520Z",
+  "modified": "2026-03-03T04:55:28.413195Z",
   "published": "2024-06-28T15:28:30Z",
   "aliases": [
-    "CVE-2024-37159"
+    "CVE-2024-32873",
+    "CVE-2024-37158",
+    "CVE-2024-37159",
+    "GHSA-pxv8-qhrh-jc7v",
+    "GO-2024-2891",
+    "GO-2024-2926"
   ],
   "summary": "Evmos is missing create validator check in github.com/evmos/evmos",
   "details": "Evmos is missing create validator check in github.com/evmos/evmos",
@@ -24,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -44,6 +50,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -64,6 +71,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -84,6 +92,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -104,6 +113,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -124,6 +134,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -144,6 +155,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -164,6 +176,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -184,6 +197,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -204,6 +218,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -224,6 +239,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -244,6 +260,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -264,6 +281,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -284,6 +302,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -304,6 +323,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -324,6 +344,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -344,6 +365,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }
@@ -367,6 +389,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2927.json"
       }

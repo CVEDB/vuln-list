@@ -1,0 +1,47 @@
+{
+  "id": "GO-2026-6565",
+  "modified": "2026-10-07T17:45:13.266364215Z",
+  "published": "2026-10-01T20:23:38Z",
+  "aliases": [
+    "CVE-2026-61681",
+    "GHSA-fjwv-jf2v-j499"
+  ],
+  "summary": "SSRF via Unsigned UnsubscribeURL in SNS UnsubscribeConfirmation Handler in github.com/hatchet-dev/hatchet",
+  "details": "SSRF via Unsigned UnsubscribeURL in SNS UnsubscribeConfirmation Handler in github.com/hatchet-dev/hatchet",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/hatchet-dev/hatchet",
+        "purl": "pkg:golang/github.com/hatchet-dev/hatchet"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.91.2"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {
+        "source": "https://vuln.go.dev/ID/GO-2026-6565.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/hatchet-dev/hatchet/security/advisories/GHSA-fjwv-jf2v-j499"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/hatchet-dev/hatchet/commit/2d211bce16e5022afaf95780de82dc30e0bcba98"
+    }
+  ]
+}

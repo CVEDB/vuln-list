@@ -1,10 +1,14 @@
 {
   "id": "GO-2023-1980",
-  "modified": "2024-08-20T20:58:43.845413Z",
+  "modified": "2026-02-04T02:13:17.592606Z",
   "published": "2024-08-20T20:32:20Z",
   "aliases": [
+    "BIT-crossplane-2023-38495",
     "CVE-2023-38495",
     "GHSA-pj4x-2xr5-w87m"
+  ],
+  "related": [
+    "CGA-884m-c7c9-59qj"
   ],
   "summary": "Possible image tampering from missing image validation for Packages in github.com/crossplane/crossplane",
   "details": "Possible image tampering from missing image validation for Packages in github.com/crossplane/crossplane",
@@ -34,6 +38,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-1980.json"
       }

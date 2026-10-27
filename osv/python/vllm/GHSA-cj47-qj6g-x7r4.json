@@ -1,9 +1,10 @@
 {
   "id": "GHSA-cj47-qj6g-x7r4",
-  "modified": "2025-04-29T20:41:16.457101Z",
+  "modified": "2026-08-07T08:12:25.239587257Z",
   "published": "2025-03-20T12:32:50Z",
   "aliases": [
-    "CVE-2024-9053"
+    "CVE-2024-9053",
+    "PYSEC-2025-222"
   ],
   "summary": "vLLM allows Remote Code Execution by Pickle Deserialization via AsyncEngineRPCServer() RPC server entrypoints",
   "details": "vllm-project vllm version 0.6.0 contains a vulnerability in the AsyncEngineRPCServer() RPC server entrypoints. The core functionality run_server_loop() calls the function _make_handler_coro(), which directly uses cloudpickle.loads() on received messages without any sanitization. This can result in remote code execution by deserializing malicious pickle data.",
@@ -74,6 +75,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9053"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/vllm/PYSEC-2025-222.yaml"
     },
     {
       "type": "PACKAGE",

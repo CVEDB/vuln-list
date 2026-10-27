@@ -1,7 +1,10 @@
 {
   "id": "MAL-2023-8429",
-  "modified": "2023-11-03T21:05:03Z",
+  "modified": "2026-07-23T07:49:55.161621583Z",
   "published": "2023-11-03T21:05:03Z",
+  "aliases": [
+    "GHSA-9cpx-g2hc-4j42"
+  ],
   "summary": "Malicious code in littest (crates.io)",
   "details": "\n---\n_-= Per source details. Do not edit below this line.=-_\n\n## Source: ossf-package-analysis (b7dbb9d0364d3e2b9efec40fc7a2ecdca02406774e6a4359423e6357cf9647e4)\nThe OpenSSF Package Analysis project identified 'littest' @ 0.3.1 (crates.io) as malicious.\n\nIt is considered malicious because:\n\n- The package communicates with a domain associated with malicious activity.\n",
   "affected": [
@@ -15,7 +18,7 @@
         "0.3.1"
       ],
       "database_specific": {
-        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/crates-io/littest/MAL-2023-8429.json"
+        "source": "https://github.com/ossf/malicious-packages/blob/main/osv/malicious/crates.io/littest/MAL-2023-8429.json"
       }
     }
   ]

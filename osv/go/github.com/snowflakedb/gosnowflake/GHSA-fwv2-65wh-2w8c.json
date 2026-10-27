@@ -1,12 +1,8 @@
 {
   "id": "GHSA-fwv2-65wh-2w8c",
-  "modified": "2023-11-08T04:12:44.908020Z",
+  "modified": "2026-09-10T03:49:54.396895104Z",
   "published": "2023-06-09T22:53:25Z",
   "aliases": [
-    "CVE-2023-34231"
-  ],
-  "related": [
-    "CGA-v4xv-g87p-w8w2",
     "CVE-2023-34231"
   ],
   "summary": "Snowflake Golang Driver vulnerable to Command Injection",

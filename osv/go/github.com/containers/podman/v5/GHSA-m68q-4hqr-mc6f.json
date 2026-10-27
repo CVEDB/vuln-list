@@ -1,6 +1,6 @@
 {
   "id": "GHSA-m68q-4hqr-mc6f",
-  "modified": "2025-09-17T17:42:20.082956Z",
+  "modified": "2026-09-10T03:50:28.602288072Z",
   "published": "2025-09-16T15:32:37Z",
   "aliases": [
     "CVE-2025-4953",
@@ -40,15 +40,71 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/security/cve/CVE-2025-4953"
+      "url": "https://github.com/containers/podman/pull/25173"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/containers/podman"
     },
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2367235"
     },
     {
-      "type": "PACKAGE",
-      "url": "https://github.com/containers/podman"
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-4953"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0316"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2703"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:23113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22732"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22695"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22275"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22265"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:17669"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:16729"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:16724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:15904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8690"
     }
   ]
 }

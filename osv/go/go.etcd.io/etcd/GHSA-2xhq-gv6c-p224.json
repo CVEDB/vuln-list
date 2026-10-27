@@ -1,14 +1,8 @@
 {
   "id": "GHSA-2xhq-gv6c-p224",
-  "modified": "2024-01-31T00:21:52Z",
+  "modified": "2026-09-10T03:50:04.644136985Z",
   "published": "2024-01-31T00:21:52Z",
   "aliases": [
-    "CVE-2020-15114"
-  ],
-  "related": [
-    "CGA-4cqp-3vx5-2vpm",
-    "CGA-ch92-9fcx-phjj",
-    "CGA-g9gv-qvrj-qxfc",
     "CVE-2020-15114"
   ],
   "summary": "Etcd Gateway can include itself as an endpoint resulting in resource exhaustion",

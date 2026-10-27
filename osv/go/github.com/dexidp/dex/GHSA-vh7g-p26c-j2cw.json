@@ -1,12 +1,8 @@
 {
   "id": "GHSA-vh7g-p26c-j2cw",
-  "modified": "2023-11-08T04:10:15.455056Z",
+  "modified": "2026-09-10T03:49:46.691834039Z",
   "published": "2022-10-03T19:12:03Z",
   "aliases": [
-    "CVE-2022-39222"
-  ],
-  "related": [
-    "CGA-4835-68mx-7g8j",
     "CVE-2022-39222"
   ],
   "summary": "Dex vulnerable to Man-in-the-Middle allowing ID token capture via intercepted authorization code",

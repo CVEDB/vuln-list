@@ -1,6 +1,6 @@
 {
   "id": "GO-2023-2381",
-  "modified": "2024-08-21T14:56:52.765920Z",
+  "modified": "2026-08-07T08:12:20.828843339Z",
   "published": "2024-08-21T14:30:24Z",
   "aliases": [
     "CVE-2023-47124",
@@ -25,6 +25,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-2381.json"
       }
@@ -48,6 +49,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-2381.json"
       }
@@ -71,6 +73,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-2381.json"
       }

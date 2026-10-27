@@ -1,9 +1,11 @@
 {
   "id": "GHSA-6w2r-r2m5-xq5w",
-  "modified": "2025-09-09T22:27:23.019473Z",
+  "modified": "2026-09-10T03:50:27.987884944Z",
   "published": "2025-09-08T18:31:31Z",
   "aliases": [
-    "CVE-2025-57833"
+    "BIT-django-2025-57833",
+    "CVE-2025-57833",
+    "PYSEC-2025-105"
   ],
   "summary": "Django is subject to SQL injection through its column aliases",
   "details": "An issue was discovered in Django 4.2 before 4.2.24, 5.1 before 5.1.12, and 5.2 before 5.2.6. FilteredRelation is subject to SQL injection in column aliases, using a suitably crafted dictionary, with dictionary expansion, as the **kwargs passed QuerySet.annotate() or QuerySet.alias().",
@@ -513,7 +515,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/django/PYSEC-2025-105.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://groups.google.com/g/django-announce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00017.html"
     },
     {
       "type": "WEB",
@@ -522,6 +532,10 @@
     {
       "type": "WEB",
       "url": "https://www.djangoproject.com/weblog/2025/sep/03/security-releases"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/09/03/3"
     }
   ]
 }

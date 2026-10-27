@@ -1,12 +1,9 @@
 {
   "id": "GHSA-chh6-ppwq-jh92",
-  "modified": "2024-01-30T23:54:26Z",
+  "modified": "2026-09-10T03:50:09.439972373Z",
   "published": "2024-01-30T23:54:26Z",
   "aliases": [
     "BIT-etcd-2020-15113",
-    "CVE-2020-15113"
-  ],
-  "related": [
     "CVE-2020-15113"
   ],
   "summary": "Improper Preservation of Permissions in etcd",

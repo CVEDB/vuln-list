@@ -1,13 +1,10 @@
 {
   "id": "GHSA-8vgw-p6qm-5gr7",
-  "modified": "2025-05-17T19:18:46.112976Z",
+  "modified": "2026-09-10T03:50:23.027959228Z",
   "published": "2025-03-20T12:32:45Z",
   "aliases": [
-    "CVE-2024-6844"
-  ],
-  "related": [
-    "CGA-7q88-2g87-5c94",
-    "CGA-prgw-64rx-hr6v"
+    "CVE-2024-6844",
+    "PYSEC-2026-1385"
   ],
   "summary": "Flask-CORS allows for inconsistent CORS matching",
   "details": "A vulnerability in corydolphin/flask-cors version 5.0.1 allows for inconsistent CORS matching due to the handling of the '+' character in URL paths. The request.path is passed through the unquote_plus function, which converts the '+' character to a space ' '. This behavior leads to incorrect path normalization, causing potential mismatches in CORS configuration. As a result, endpoints may not be matched correctly to their CORS settings, leading to unexpected CORS policy application. This can cause unauthorized cross-origin access or block valid requests, creating security vulnerabilities and usability issues.",
@@ -109,6 +106,10 @@
     {
       "type": "WEB",
       "url": "https://huntr.com/bounties/731a6cd4-d05f-4fe6-8f5b-fe088d7b34e0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00049.html"
     }
   ]
 }

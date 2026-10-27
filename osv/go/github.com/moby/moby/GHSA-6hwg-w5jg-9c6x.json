@@ -1,13 +1,9 @@
 {
   "id": "GHSA-6hwg-w5jg-9c6x",
-  "modified": "2024-04-22T19:08:25Z",
+  "modified": "2026-09-10T03:50:09.240988294Z",
   "published": "2024-01-31T23:13:10Z",
   "aliases": [
     "CVE-2020-27534"
-  ],
-  "related": [
-    "CGA-3m6r-4f9x-77mh",
-    "CGA-757p-6hmf-7jxq"
   ],
   "summary": "Path Traversal in Moby builder",
   "details": "util/binfmt_misc/check.go in Builder in Docker Engine before 19.03.9 calls os.OpenFile with a potentially unsafe qemu-check temporary pathname, constructed with an empty first argument in an ioutil.TempDir call.",
@@ -20,7 +16,7 @@
       },
       "ranges": [
         {
-          "type": "SEMVER",
+          "type": "ECOSYSTEM",
           "events": [
             {
               "introduced": "0"
@@ -43,7 +39,7 @@
       },
       "ranges": [
         {
-          "type": "SEMVER",
+          "type": "ECOSYSTEM",
           "events": [
             {
               "introduced": "0"

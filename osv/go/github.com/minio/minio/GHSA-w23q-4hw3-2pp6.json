@@ -1,13 +1,8 @@
 {
   "id": "GHSA-w23q-4hw3-2pp6",
-  "modified": "2023-12-06T01:02:58.059679Z",
+  "modified": "2026-10-08T08:11:02.392575410Z",
   "published": "2023-09-06T18:43:13Z",
   "aliases": [
-    "BIT-minio-2023-28433",
-    "CVE-2023-28433"
-  ],
-  "related": [
-    "CGA-qpv5-5r7v-wwrm",
     "CVE-2023-28433"
   ],
   "summary": "Minio vulnerable to Privilege Escalation on Windows via Path separator manipulation",

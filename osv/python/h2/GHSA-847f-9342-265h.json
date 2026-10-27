@@ -1,12 +1,10 @@
 {
   "id": "GHSA-847f-9342-265h",
-  "modified": "2025-08-26T18:02:12.351465Z",
+  "modified": "2026-09-10T03:50:26.965133425Z",
   "published": "2025-08-25T20:44:43Z",
   "aliases": [
-    "CVE-2025-57804"
-  ],
-  "related": [
-    "CGA-gx9p-ww82-5jv2"
+    "CVE-2025-57804",
+    "PYSEC-2026-1435"
   ],
   "summary": "h2 allows HTTP Request Smuggling due to illegal characters in headers",
   "details": "### Summary\n\nHTTP/2 request splitting vulnerability allows attackers to perform request smuggling attacks by injecting CRLF characters into headers. This occurs when servers downgrade HTTP/2 requests to HTTP/1.1 without properly validating header names/values, enabling attackers to manipulate request boundaries and bypass security controls.",
@@ -98,6 +96,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/python-hyper/h2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00004.html"
     }
   ]
 }

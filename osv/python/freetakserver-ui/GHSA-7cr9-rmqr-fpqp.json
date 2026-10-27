@@ -1,9 +1,10 @@
 {
   "id": "GHSA-7cr9-rmqr-fpqp",
-  "modified": "2023-11-08T04:08:47.162318Z",
+  "modified": "2026-09-10T03:49:17.377499932Z",
   "published": "2022-03-12T00:00:37Z",
   "aliases": [
-    "CVE-2022-25511"
+    "CVE-2022-25511",
+    "PYSEC-2026-637"
   ],
   "summary": "Path traversal in FreeTAKServer-UI",
   "details": "An issue in the ?filename= argument of the route /DataPackageTable in FreeTAKServer-UI v1.9.8 allows attackers to place arbitrary files anywhere on the system.",
@@ -44,6 +45,8 @@
         "0.1.8.1",
         "0.1.8.1.1",
         "0.1.8.1.2",
+        "0.2.1",
+        "0.2.1.1",
         "1.5.10",
         "1.8",
         "1.8.1",

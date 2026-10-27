@@ -1,9 +1,8 @@
 {
   "id": "GO-2025-3594",
-  "modified": "2025-04-14T12:59:13.102560Z",
+  "modified": "2026-10-08T08:11:00.681228061Z",
   "published": "2025-04-09T17:05:36Z",
   "aliases": [
-    "BIT-minio-2025-31489",
     "CVE-2025-31489",
     "GHSA-wg47-6jq2-q2hh"
   ],
@@ -29,6 +28,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2025-3594.json"
       }

@@ -1,13 +1,8 @@
 {
   "id": "GHSA-55f3-3qvg-8pv5",
-  "modified": "2024-06-20T14:14:38Z",
+  "modified": "2026-09-10T03:50:14.890753117Z",
   "published": "2024-06-07T19:40:00Z",
   "aliases": [
-    "CVE-2024-38358"
-  ],
-  "related": [
-    "CGA-9cpp-q87g-p8fw",
-    "CGA-vc44-q5p6-vgwv",
     "CVE-2024-38358"
   ],
   "summary": "Symlink bypasses filesystem sandbox",

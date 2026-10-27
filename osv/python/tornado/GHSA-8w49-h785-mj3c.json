@@ -1,12 +1,12 @@
 {
   "id": "GHSA-8w49-h785-mj3c",
-  "modified": "2024-11-22T22:35:53.364850Z",
+  "modified": "2026-09-10T03:50:20.413166306Z",
   "published": "2024-11-22T20:26:41Z",
   "aliases": [
-    "CVE-2024-52804"
+    "CVE-2024-52804",
+    "PYSEC-2026-1975"
   ],
   "related": [
-    "CGA-qpm7-q69q-w66w",
     "CVE-2024-52804"
   ],
   "summary": "Tornado has an HTTP cookie parsing DoS vulnerability",
@@ -128,6 +128,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/tornadoweb/tornado"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00000.html"
     }
   ]
 }

@@ -1,11 +1,8 @@
 {
   "id": "GHSA-mc8v-mgrf-8f4m",
-  "modified": "2023-11-08T04:06:54.344712Z",
+  "modified": "2026-07-08T06:30:00.754362064Z",
   "published": "2021-11-18T16:13:08Z",
   "aliases": [
-    "CVE-2021-41190"
-  ],
-  "related": [
     "CVE-2021-41190"
   ],
   "summary": "Clarify Content-Type handling",

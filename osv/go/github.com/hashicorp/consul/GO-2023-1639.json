@@ -1,6 +1,6 @@
 {
   "id": "GO-2023-1639",
-  "modified": "2024-08-20T20:58:45.460348Z",
+  "modified": "2026-08-07T08:12:26.513171999Z",
   "published": "2024-08-20T20:29:14Z",
   "aliases": [
     "BIT-consul-2023-0845",
@@ -29,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-1639.json"
       }

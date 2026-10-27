@@ -1,6 +1,6 @@
 {
   "id": "GO-2024-2722",
-  "modified": "2024-06-05T16:43:10.450612Z",
+  "modified": "2026-08-07T08:12:03.787122662Z",
   "published": "2024-06-05T15:10:52Z",
   "aliases": [
     "CVE-2024-28869",
@@ -25,6 +25,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2722.json"
       }
@@ -48,6 +49,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2722.json"
       }
@@ -71,6 +73,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2722.json"
       }

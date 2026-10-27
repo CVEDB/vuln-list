@@ -1,6 +1,6 @@
 {
   "id": "GHSA-4j3w-g62x-hrcp",
-  "modified": "2024-11-26T16:50:55Z",
+  "modified": "2026-07-09T16:56:24.258055694Z",
   "published": "2022-05-01T23:28:05Z",
   "aliases": [
     "CVE-2008-0164",
@@ -52,6 +52,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/plone/PYSEC-2008-15.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "http://plone.org/about/security/advisories/cve-2008-0164"
     },
     {
@@ -60,7 +64,19 @@
     },
     {
       "type": "WEB",
+      "url": "http://secunia.com/advisories/29361"
+    },
+    {
+      "type": "WEB",
+      "url": "http://securityreason.com/securityalert/3754"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.procheckup.com/Hacking_Plone_CMS.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/489544/100/0/threaded"
     }
   ]
 }

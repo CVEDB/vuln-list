@@ -1,12 +1,9 @@
 {
   "id": "GHSA-69j6-29vr-p3j9",
-  "modified": "2025-02-18T22:39:14Z",
+  "modified": "2026-07-08T06:29:56.330479904Z",
   "published": "2021-10-05T20:24:02Z",
   "aliases": [
     "BIT-grafana-2021-39226",
-    "CVE-2021-39226"
-  ],
-  "related": [
     "CVE-2021-39226"
   ],
   "summary": "Authentication bypass for viewing and deletions of snapshots",
@@ -103,6 +100,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20211029-0008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2021-39226"
     },
     {
       "type": "WEB",

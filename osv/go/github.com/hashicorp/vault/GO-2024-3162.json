@@ -1,11 +1,15 @@
 {
   "id": "GO-2024-3162",
-  "modified": "2024-10-09T20:59:17.850526Z",
+  "modified": "2026-07-27T09:11:28.222507521Z",
   "published": "2024-10-09T20:29:23Z",
   "aliases": [
+    "BIT-openbao-2024-7594",
     "BIT-vault-2024-7594",
     "CVE-2024-7594",
     "GHSA-jg74-mwgw-v6x3"
+  ],
+  "related": [
+    "CGA-r5cq-xg62-h8mq"
   ],
   "summary": "Vault SSH Secrets Engine Configuration Did Not Restrict Valid Principals By Default in github.com/hashicorp/vault",
   "details": "Vault SSH Secrets Engine Configuration Did Not Restrict Valid Principals By Default in github.com/hashicorp/vault",
@@ -29,6 +33,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-3162.json"
       }

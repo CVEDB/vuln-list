@@ -1,12 +1,14 @@
 {
   "id": "GO-2024-2690",
-  "modified": "2024-10-22T05:29:03.198761Z",
+  "modified": "2026-02-04T03:24:40.584227Z",
   "published": "2024-06-04T15:19:21Z",
   "aliases": [
     "BIT-vault-2024-2660",
-    "CGA-q87q-m7jv-rffq",
     "CVE-2024-2660",
     "GHSA-j2rp-gmqv-frhv"
+  ],
+  "related": [
+    "CGA-73x6-xh4h-7ghx"
   ],
   "summary": "HashiCorpVault does not correctly validate OCSP responses in github.com/hashicorp/vault",
   "details": "HashiCorpVault does not correctly validate OCSP responses in github.com/hashicorp/vault",
@@ -30,6 +32,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2690.json"
       }

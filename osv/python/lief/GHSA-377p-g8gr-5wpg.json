@@ -1,9 +1,10 @@
 {
   "id": "GHSA-377p-g8gr-5wpg",
-  "modified": "2024-11-22T20:57:29.210800Z",
+  "modified": "2026-06-06T00:45:33.385504927Z",
   "published": "2024-05-03T18:30:37Z",
   "aliases": [
-    "CVE-2024-31636"
+    "CVE-2024-31636",
+    "PYSEC-2024-280"
   ],
   "summary": "LIEF obtain sensitive information via the name parameter",
   "details": "An issue in LIEF v.0.14.1 allows a local attacker to obtain sensitive information via the name parameter of the machd_reader.c component.",
@@ -72,6 +73,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/lief-project/LIEF"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/lief/PYSEC-2024-280.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://lief.com"
     }
   ]
 }

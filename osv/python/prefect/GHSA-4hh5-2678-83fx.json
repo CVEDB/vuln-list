@@ -1,9 +1,10 @@
 {
   "id": "GHSA-4hh5-2678-83fx",
-  "modified": "2024-05-15T14:43:11.741345Z",
+  "modified": "2026-09-10T03:50:03.999929474Z",
   "published": "2023-11-16T18:30:31Z",
   "aliases": [
-    "CVE-2023-6022"
+    "CVE-2023-6022",
+    "PYSEC-2026-1799"
   ],
   "summary": "Cross-Site Request Forgery vulnerability in Prefect",
   "details": "An attacker is able to steal secrets and potentially gain remote code execution via CSRF using a self-hosted, open source Prefect API.",

@@ -1,0 +1,52 @@
+{
+  "id": "PYSEC-2025-182",
+  "modified": "2026-05-21T15:00:10.857900375Z",
+  "published": "2025-07-25T10:15:36.647Z",
+  "aliases": [
+    "CVE-2025-8183"
+  ],
+  "details": "NULL Pointer Dereference in µD3TN via non-singleton destination Endpoint Identifier allows remote attacker to reliably cause DoS",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyd3tn",
+        "purl": "pkg:pypi/pyd3tn"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.14.3"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.10.0",
+        "0.11.0",
+        "0.12.0",
+        "0.13.0",
+        "0.14.0",
+        "0.14.1",
+        "0.14.2",
+        "0.14.3",
+        "0.9.0"
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {
+        "source": "https://github.com/pypa/advisory-database/blob/main/vulns/pyd3tn/PYSEC-2025-182.yaml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://gitlab.com/d3tn/ud3tn/-/issues/255"
+    }
+  ]
+}

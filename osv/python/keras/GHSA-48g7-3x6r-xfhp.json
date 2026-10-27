@@ -1,12 +1,10 @@
 {
   "id": "GHSA-48g7-3x6r-xfhp",
-  "modified": "2025-03-11T20:27:01.848890Z",
+  "modified": "2026-09-10T03:50:56.790604392Z",
   "published": "2025-03-11T20:07:32Z",
   "aliases": [
-    "CVE-2025-1550"
-  ],
-  "related": [
-    "CGA-2458-6gmp-vh99"
+    "CVE-2025-1550",
+    "PYSEC-2025-122"
   ],
   "summary": "Arbitrary Code Execution via Crafted Keras Config for Model Loading",
   "details": "### Impact\n\nThe Keras `Model.load_model` function permits arbitrary code execution, even with `safe_mode=True`, through a manually constructed, malicious `.keras` archive. By altering the `config.json` file within the archive, an attacker can specify arbitrary Python modules and functions, along with their arguments, to be loaded and executed during model loading.\n\n### Patches\n\nThis problem is fixed starting with version `3.9`.\n\n### Workarounds\n\nOnly load models from trusted sources and model archives created with Keras.\n\n### References\n\n- https://www.cve.org/cverecord?id=CVE-2025-1550\n- https://github.com/keras-team/keras/pull/20751",
@@ -81,6 +79,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keras-team/keras/releases/tag/v3.9.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/keras/PYSEC-2025-122.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://towerofhanoi.it/writeups/cve-2025-1550"
     }
   ]
 }

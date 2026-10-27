@@ -1,7 +1,11 @@
 {
   "id": "RUSTSEC-2024-0437",
-  "modified": "2025-03-10T15:53:08Z",
+  "modified": "2026-02-04T02:24:04.262379Z",
   "published": "2024-12-12T12:00:00Z",
+  "aliases": [
+    "CVE-2025-53605",
+    "GHSA-2gh3-rmm4-6rq5"
+  ],
   "related": [
     "GHSA-735f-pc8j-v9w8"
   ],

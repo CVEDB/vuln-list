@@ -1,13 +1,10 @@
 {
   "id": "GHSA-wxj3-qwv4-cvfm",
-  "modified": "2024-08-21T15:58:52.543846Z",
+  "modified": "2026-09-10T03:49:12.296547815Z",
   "published": "2022-02-15T00:40:44Z",
   "aliases": [
     "CVE-2014-3499",
     "GO-2022-0752"
-  ],
-  "related": [
-    "CGA-ch48-8pgg-7fwh"
   ],
   "summary": "Privilege Escalation in Docker",
   "details": "Docker 1.0.0 uses world-readable and world-writable permissions on the management socket, which allows local users to gain privileges via unspecified vectors.",

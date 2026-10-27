@@ -1,6 +1,6 @@
 {
   "id": "GO-2025-3603",
-  "modified": "2025-04-22T17:42:13.777364Z",
+  "modified": "2026-08-13T20:11:57.774330119Z",
   "published": "2025-04-22T16:56:33Z",
   "aliases": [
     "CVE-2025-1386",
@@ -28,6 +28,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2025-3603.json"
       }

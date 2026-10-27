@@ -1,9 +1,10 @@
 {
   "id": "GHSA-v5rq-w2xm-7g5f",
-  "modified": "2024-02-20T05:22:07.435798Z",
+  "modified": "2026-09-10T03:49:41.017622150Z",
   "published": "2022-05-13T01:22:02Z",
   "aliases": [
-    "CVE-2019-2435"
+    "CVE-2019-2435",
+    "PYSEC-2026-683"
   ],
   "summary": "Improper Access Control in MySQL Connector Python",
   "details": "Vulnerability in the MySQL Connectors component of Oracle MySQL (subcomponent: Connector/Python). Supported versions that are affected are 8.0.13 and prior and 2.1.8 and prior. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise MySQL Connectors. Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all MySQL Connectors accessible data as well as unauthorized access to critical data or complete access to all MySQL Connectors accessible data. ",
@@ -28,16 +29,7 @@
         }
       ],
       "versions": [
-        "8.0.11",
-        "8.0.12",
-        "8.0.13",
-        "8.0.14",
-        "8.0.15",
-        "8.0.16",
-        "8.0.17",
-        "8.0.18",
-        "8.0.5",
-        "8.0.6"
+        "8.0.5"
       ],
       "database_specific": {
         "last_known_affected_version_range": "\u003c= 8.0.13",

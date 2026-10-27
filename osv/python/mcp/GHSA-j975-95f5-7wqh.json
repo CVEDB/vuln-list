@@ -1,9 +1,10 @@
 {
   "id": "GHSA-j975-95f5-7wqh",
-  "modified": "2025-07-05T02:25:38.468804Z",
+  "modified": "2026-07-16T18:45:48.211743797Z",
   "published": "2025-07-04T22:06:31Z",
   "aliases": [
-    "CVE-2025-53365"
+    "CVE-2025-53365",
+    "PYSEC-2026-1618"
   ],
   "summary": "MCP Python SDK has Unhandled Exception in Streamable HTTP Transport, Leading to Denial of Service",
   "details": "If a client deliberately triggers an exception after establishing a streamable HTTP session, this can lead to an uncaught ClosedResourceError on the server side, causing the server to crash and requiring a restart to restore service. Impact may vary depending on the deployment conditions, and presence of infrastructure-level resilience measures.\n\nThank you to Rich Harang for reporting this issue.",
@@ -76,12 +77,24 @@
       "url": "https://github.com/modelcontextprotocol/python-sdk/commit/7b420656de48cfdb90b39eb582e60b6d55c2f891"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-j975-95f5-7wqh"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/modelcontextprotocol/python-sdk"
     },
     {
       "type": "WEB",
       "url": "https://github.com/modelcontextprotocol/python-sdk/releases/tag/v1.10.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/mcp/PYSEC-2026-1618.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/mcp"
     }
   ]
 }

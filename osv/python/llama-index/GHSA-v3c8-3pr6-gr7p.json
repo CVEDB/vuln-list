@@ -1,9 +1,10 @@
 {
   "id": "GHSA-v3c8-3pr6-gr7p",
-  "modified": "2025-06-06T21:12:06.832460Z",
+  "modified": "2026-09-10T03:50:25.475091346Z",
   "published": "2025-06-05T06:30:26Z",
   "aliases": [
-    "CVE-2025-1793"
+    "CVE-2025-1793",
+    "PYSEC-2026-394"
   ],
   "summary": "llama_index vulnerable to SQL Injection",
   "details": "Multiple vector store integrations in run-llama/llama_index version v0.12.21 have SQL injection vulnerabilities. These vulnerabilities allow an attacker to read and write data using SQL, potentially leading to unauthorized access to data of other users depending on the usage of the llama-index library in a web application.",
@@ -493,12 +494,24 @@
       "url": "https://github.com/run-llama/llama_index/commit/0008041e8dde8e519621388e5d6f558bde6ef42e"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-v3c8-3pr6-gr7p"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/llama-index/PYSEC-2026-394.yaml"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/run-llama/llama_index"
     },
     {
       "type": "WEB",
       "url": "https://huntr.com/bounties/8cb1555a-9655-4122-b0d6-60059e79183c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/llama-index"
     }
   ]
 }

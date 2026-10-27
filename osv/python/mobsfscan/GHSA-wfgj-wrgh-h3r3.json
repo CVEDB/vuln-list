@@ -1,13 +1,13 @@
 {
   "id": "GHSA-wfgj-wrgh-h3r3",
-  "modified": "2025-06-30T19:21:43.780846Z",
+  "modified": "2026-07-07T17:57:13.268082861Z",
   "published": "2024-03-22T23:54:53Z",
   "aliases": [
     "CVE-2024-29190",
-    "PYSEC-2024-257"
+    "PYSEC-2024-257",
+    "PYSEC-2026-1677"
   ],
   "related": [
-    "CVE-2024-29190",
     "PYSEC-2024-257"
   ],
   "summary": "SSRF Vulnerability on assetlinks_check(act_name, well_knowns)",

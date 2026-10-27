@@ -1,8 +1,9 @@
 {
   "id": "GO-2025-3581",
-  "modified": "2025-04-01T22:42:10.781085Z",
+  "modified": "2026-03-03T04:56:28.495365Z",
   "published": "2025-04-01T21:39:57Z",
   "aliases": [
+    "CVE-2025-64346",
     "GHSA-j95m-rcjp-q69h"
   ],
   "summary": "github.com/jaredallard/archives Has Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
@@ -27,6 +28,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2025-3581.json"
       }

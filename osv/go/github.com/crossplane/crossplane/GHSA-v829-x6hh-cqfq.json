@@ -1,12 +1,8 @@
 {
   "id": "GHSA-v829-x6hh-cqfq",
-  "modified": "2023-11-08T04:12:04.851654Z",
+  "modified": "2026-09-10T03:49:57.023187767Z",
   "published": "2023-03-10T23:47:53Z",
   "aliases": [
-    "CVE-2023-27484"
-  ],
-  "related": [
-    "CGA-pgw2-jmgx-j6r6",
     "CVE-2023-27484"
   ],
   "summary": "Crossplane-runtime contains Improper Input Validation via Compositions",

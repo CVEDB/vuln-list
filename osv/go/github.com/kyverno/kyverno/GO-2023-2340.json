@@ -1,6 +1,6 @@
 {
   "id": "GO-2023-2340",
-  "modified": "2025-09-15T07:41:55.981946Z",
+  "modified": "2026-08-07T08:12:07.360209250Z",
   "published": "2024-08-21T14:30:24Z",
   "aliases": [
     "BIT-kyverno-2023-47630",
@@ -29,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-2340.json"
       }

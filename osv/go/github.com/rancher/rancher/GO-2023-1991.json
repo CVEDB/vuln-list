@@ -1,10 +1,13 @@
 {
   "id": "GO-2023-1991",
-  "modified": "2024-08-20T20:58:34.214881Z",
+  "modified": "2026-07-10T18:29:32.066450860Z",
   "published": "2024-08-20T20:32:20Z",
   "aliases": [
     "CVE-2019-12274",
     "GHSA-gc62-j469-9gjm"
+  ],
+  "related": [
+    "CGA-6589-q83m-3whr"
   ],
   "summary": "Rancher Privilege Escalation Vulnerability in github.com/rancher/rancher",
   "details": "Rancher Privilege Escalation Vulnerability in github.com/rancher/rancher",
@@ -34,6 +37,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-1991.json"
       }

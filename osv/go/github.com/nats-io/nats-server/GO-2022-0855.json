@@ -1,11 +1,15 @@
 {
   "id": "GO-2022-0855",
-  "modified": "2025-01-14T08:57:07.789221Z",
+  "modified": "2026-07-08T06:49:35.074362467Z",
   "published": "2024-08-21T15:29:04Z",
   "aliases": [
     "BIT-nats-2020-28466",
     "CVE-2020-28466",
-    "GHSA-m4jx-6526-vvhm"
+    "GHSA-m4jx-6526-vvhm",
+    "SNYK-GOLANG-GITHUBCOMNATSIONATSSERVERSERVER-1042967"
+  ],
+  "related": [
+    "CGA-mpqx-2m4h-c9f9"
   ],
   "summary": "Denial of service in github.com/nats-io/nats-server/server in github.com/nats-io/nats-server",
   "details": "Denial of service in github.com/nats-io/nats-server/server in github.com/nats-io/nats-server",
@@ -26,6 +30,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2022-0855.json"
       }
@@ -49,6 +54,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2022-0855.json"
       }

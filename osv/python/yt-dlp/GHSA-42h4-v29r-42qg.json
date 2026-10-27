@@ -1,12 +1,12 @@
 {
   "id": "GHSA-42h4-v29r-42qg",
-  "modified": "2025-01-14T12:11:53.432563Z",
+  "modified": "2026-07-07T17:56:20.918147212Z",
   "published": "2023-09-25T17:33:40Z",
   "aliases": [
-    "CVE-2023-40581"
+    "CVE-2023-40581",
+    "PYSEC-2026-2064"
   ],
   "related": [
-    "CVE-2023-40581",
     "CVE-2024-22423"
   ],
   "summary": " yt-dlp on Windows vulnerable to `--exec` command injection when using `%q`",

@@ -1,0 +1,63 @@
+{
+  "id": "PYSEC-2025-192",
+  "modified": "2026-06-10T17:02:43.772252479Z",
+  "published": "2025-03-31T14:15:20.370Z",
+  "aliases": [
+    "BIT-pytorch-2025-2998",
+    "CVE-2025-2998",
+    "GHSA-f4hp-rmr7-r7v8"
+  ],
+  "details": "A vulnerability was found in PyTorch 2.6.0. It has been declared as critical. Affected by this vulnerability is the function torch.nn.utils.rnn.pad_packed_sequence. The manipulation leads to memory corruption. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "torch",
+        "purl": "pkg:pypi/torch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.6.0-NA"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {
+        "source": "https://github.com/pypa/advisory-database/blob/main/vulns/torch/PYSEC-2025-192.yaml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://vuldb.com/?id.302047"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://vuldb.com/?submit.524151"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/pytorch/pytorch/issues/149622"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/pytorch/pytorch/issues/149622#issue-2935495265"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://vuldb.com/?ctiid.302047"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-f4hp-rmr7-r7v8"
+    }
+  ]
+}

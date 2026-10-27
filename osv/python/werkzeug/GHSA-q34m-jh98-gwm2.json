@@ -1,17 +1,11 @@
 {
   "id": "GHSA-q34m-jh98-gwm2",
-  "modified": "2025-01-03T12:35:07.368029Z",
+  "modified": "2026-09-10T03:50:19.984825326Z",
   "published": "2024-10-25T19:44:43Z",
   "aliases": [
-    "CVE-2024-49767"
-  ],
-  "related": [
-    "CGA-3m9h-7wmp-p5r3",
-    "CGA-4gfj-4gfq-284g",
-    "CGA-5qqw-78qf-xfwg",
-    "CGA-c62x-7p7g-hqvm",
-    "CGA-cwvc-2mhw-gmxh",
-    "CGA-p5gp-26hq-j5rc"
+    "CVE-2024-49767",
+    "PYSEC-2026-1860",
+    "PYSEC-2026-3417"
   ],
   "summary": "Werkzeug possible resource exhaustion when parsing file data in forms",
   "details": "Applications using Werkzeug to parse `multipart/form-data` requests are vulnerable to resource exhaustion. A specially crafted form body can bypass the `Request.max_form_memory_size` setting.\n\n\nThe `Request.max_content_length` setting, as well as resource limits provided by deployment software and platforms, are also available to limit the resources used during a request. This vulnerability does not affect those settings. All three types of limits should be considered and set appropriately when deploying an application.",
@@ -27,7 +21,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.0rc1"
             },
             {
               "fixed": "3.0.6"
@@ -36,70 +30,6 @@
         }
       ],
       "versions": [
-        "0.1",
-        "0.10",
-        "0.10.1",
-        "0.10.2",
-        "0.10.3",
-        "0.10.4",
-        "0.11",
-        "0.11.1",
-        "0.11.10",
-        "0.11.11",
-        "0.11.12",
-        "0.11.13",
-        "0.11.14",
-        "0.11.15",
-        "0.11.2",
-        "0.11.3",
-        "0.11.4",
-        "0.11.5",
-        "0.11.6",
-        "0.11.7",
-        "0.11.8",
-        "0.11.9",
-        "0.12",
-        "0.12.1",
-        "0.12.2",
-        "0.13",
-        "0.14",
-        "0.14.1",
-        "0.15.0",
-        "0.15.1",
-        "0.15.2",
-        "0.15.3",
-        "0.15.4",
-        "0.15.5",
-        "0.15.6",
-        "0.16.0",
-        "0.16.1",
-        "0.2",
-        "0.3",
-        "0.3.1",
-        "0.4",
-        "0.4.1",
-        "0.5",
-        "0.5.1",
-        "0.6",
-        "0.6.1",
-        "0.6.2",
-        "0.7",
-        "0.7.1",
-        "0.7.2",
-        "0.8",
-        "0.8.1",
-        "0.8.2",
-        "0.8.3",
-        "0.9",
-        "0.9.1",
-        "0.9.2",
-        "0.9.3",
-        "0.9.4",
-        "0.9.5",
-        "0.9.6",
-        "1.0.0",
-        "1.0.0rc1",
-        "1.0.1",
         "2.0.0",
         "2.0.0rc1",
         "2.0.0rc2",
@@ -248,6 +178,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pallets/werkzeug/commit/50cfeebcb0727e18cc52ffbeb125f4a66551179b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pallets/werkzeug/commit/cbb446fdcada7685fce936ded01b76c08dbd6eb5"
     },
     {
       "type": "PACKAGE",

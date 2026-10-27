@@ -1,19 +1,11 @@
 {
   "id": "GHSA-9w97-9rqx-8v4j",
-  "modified": "2024-07-15T21:59:55.290698Z",
+  "modified": "2026-09-10T03:50:09.287262461Z",
   "published": "2024-01-02T12:30:18Z",
   "aliases": [
     "BIT-mattermost-2023-50333",
     "CVE-2023-50333",
     "GO-2024-2444"
-  ],
-  "related": [
-    "CGA-28fj-7rmv-xw55",
-    "CGA-7q4c-cqwg-26gh",
-    "CGA-crfq-mcjp-vj2h",
-    "CGA-qfrr-cfqv-wx3p",
-    "CGA-wcfm-5g6h-5q26",
-    "CGA-ww64-95f3-2pxc"
   ],
   "summary": "Mattermost allows demoted guests to change group names",
   "details": "Mattermost fails to update the permissions of the current session for a user who was just demoted to guest, allowing freshly demoted guests to change group names.\n\n",

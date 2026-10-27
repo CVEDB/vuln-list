@@ -1,11 +1,8 @@
 {
   "id": "GHSA-6c7m-qwxj-mvhp",
-  "modified": "2023-11-08T04:06:58.409862Z",
+  "modified": "2026-07-08T06:27:43.112264222Z",
   "published": "2021-11-19T20:55:16Z",
   "aliases": [
-    "CVE-2021-41278"
-  ],
-  "related": [
     "CVE-2021-41278"
   ],
   "summary": "Broken encryption in EdgeX Foundry",

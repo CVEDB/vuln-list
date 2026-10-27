@@ -1,6 +1,6 @@
 {
   "id": "GO-2024-2589",
-  "modified": "2025-01-11T07:57:00.823584Z",
+  "modified": "2026-08-07T08:12:23.292704881Z",
   "published": "2024-06-28T15:28:53Z",
   "aliases": [
     "BIT-mattermost-2024-24988",
@@ -35,6 +35,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2589.json"
       }
@@ -55,6 +56,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2589.json"
       }
@@ -75,6 +77,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2589.json"
       }

@@ -1,11 +1,12 @@
 {
   "id": "GHSA-4qcx-jx49-6qrh",
-  "modified": "2025-03-20T21:19:35.037636Z",
+  "modified": "2026-10-26T21:15:03.699329750Z",
   "published": "2025-03-20T12:32:48Z",
   "aliases": [
-    "CVE-2024-8769"
+    "CVE-2024-8769",
+    "PYSEC-2026-258"
   ],
-  "summary": "Aim  path traversal in LockManager.release_locks",
+  "summary": "Aim path traversal in LockManager.release_locks",
   "details": "A vulnerability in the `LockManager.release_locks` function in aimhubio/aim (commit bb76afe) allows for arbitrary file deletion through relative path traversal. The `run_hash` parameter, which is user-controllable, is concatenated without normalization as part of a path used to specify file deletion. This vulnerability is exposed through the `Repo._close_run()` method, which is accessible via the tracking server instruction API. As a result, an attacker can exploit this to delete any arbitrary file on the machine running the tracking server.",
   "affected": [
     {
@@ -63,22 +64,7 @@
         "3.25.1",
         "3.26.0.dev1",
         "3.26.1",
-        "3.27.0",
-        "3.27.0.dev20241203",
-        "3.27.0.dev20241204",
-        "3.27.0.dev20241205",
-        "3.27.0.dev20241206",
-        "3.27.0.dev20241207",
-        "3.27.0.dev20241208",
-        "3.27.0.dev20241209",
-        "3.27.0.dev20241210",
-        "3.27.0.dev20241211",
-        "3.27.0.dev20241212",
-        "3.27.0.dev20241213",
-        "3.27.0.dev20241214",
-        "3.27.0.dev20241215",
-        "3.27.0.dev20241216",
-        "3.27.0.dev20241217"
+        "3.27.0"
       ],
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-4qcx-jx49-6qrh/GHSA-4qcx-jx49-6qrh.json"
@@ -100,7 +86,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/aim/PYSEC-2026-258.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/59d3472f-f581-4beb-a090-afd36a00ecf7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/aim"
     }
   ]
 }

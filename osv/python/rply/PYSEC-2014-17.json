@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2014-17",
-  "modified": "2023-11-08T03:57:34.637338Z",
+  "modified": "2026-07-09T16:56:20.570841183Z",
   "published": "2014-01-28T00:55:00Z",
   "aliases": [
     "CVE-2014-1604",
@@ -44,7 +44,12 @@
         "0.5.1",
         "0.6.0",
         "0.6.1",
-        "0.7.0"
+        "0.7.0",
+        "v0.7.0",
+        "v0.6.1",
+        "v0.6",
+        "v0.5.1",
+        "v0.5"
       ],
       "database_specific": {
         "source": "https://github.com/pypa/advisory-database/blob/main/vulns/rply/PYSEC-2014-17.yaml"
@@ -79,6 +84,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/90593"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-9gcf-pq99-rjw3"
     }
   ]
 }

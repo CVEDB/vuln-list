@@ -1,9 +1,11 @@
 {
   "id": "GHSA-6rq9-53c3-f7vj",
-  "modified": "2025-01-27T23:23:24.748912Z",
+  "modified": "2026-06-06T14:45:11.975695563Z",
   "published": "2024-06-06T21:30:37Z",
   "aliases": [
-    "CVE-2024-5187"
+    "CVE-2024-5187",
+    "CVE-2025-51480",
+    "PYSEC-2025-148"
   ],
   "summary": "onnx allows Arbitrary File Overwrite in download_model_with_test_data",
   "details": "A vulnerability in the `download_model_with_test_data` function of the onnx/onnx framework, versions before 1.16.2, allow for arbitrary file overwrite due to inadequate prevention of path traversal attacks in malicious tar files. This vulnerability enables attackers to overwrite any file on the system, potentially leading to remote code execution, deletion of system, personal, or application files, thus impacting the integrity and availability of the system. The issue arises from the function's handling of tar file extraction without performing security checks on the paths within the tar file, as demonstrated by the ability to overwrite the `/home/kali/.ssh/authorized_keys` file by specifying an absolute path in the malicious tar file.",
@@ -85,11 +87,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/onnx/onnx/pull/6959"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/onnx/onnx/pull/7040"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/onnx/onnx/commit/1b70f9b673259360b6a2339c4bd97db9ea6e552f"
     },
     {
       "type": "WEB",
       "url": "https://github.com/onnx/onnx/commit/3fc3845edb048df559aa2a839e39e95503a0ee34"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-6rq9-53c3-f7vj"
     },
     {
       "type": "PACKAGE",
@@ -101,7 +115,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/onnx/PYSEC-2025-148.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/50235ebd-3410-4ada-b064-1a648e11237e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gecko.security/blog/cve-2025-51480"
     }
   ]
 }

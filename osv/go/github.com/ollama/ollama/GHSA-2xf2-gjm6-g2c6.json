@@ -1,6 +1,6 @@
 {
   "id": "GHSA-2xf2-gjm6-g2c6",
-  "modified": "2025-05-15T20:11:51.695033Z",
+  "modified": "2026-09-10T03:50:56.688692172Z",
   "published": "2025-03-20T12:32:47Z",
   "aliases": [
     "CVE-2024-8063",
@@ -45,6 +45,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ollama/ollama"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/ollama/PYSEC-2025-144.yaml"
     },
     {
       "type": "WEB",

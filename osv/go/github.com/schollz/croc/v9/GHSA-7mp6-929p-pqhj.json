@@ -1,13 +1,10 @@
 {
   "id": "GHSA-7mp6-929p-pqhj",
-  "modified": "2024-08-21T14:56:54.621502Z",
+  "modified": "2026-09-10T03:49:57.812421727Z",
   "published": "2023-09-20T06:30:50Z",
   "aliases": [
     "CVE-2023-43618",
     "GO-2023-2070"
-  ],
-  "related": [
-    "CGA-4gf5-63pj-crx3"
   ],
   "summary": "Croc requires senders to provide local IP addresses in cleartext",
   "details": "An issue was discovered in Croc before 9.6.16. The protocol requires a sender to provide its local IP addresses in cleartext via an `ips?` message.",

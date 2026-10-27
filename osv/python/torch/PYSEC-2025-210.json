@@ -1,0 +1,57 @@
+{
+  "id": "PYSEC-2025-210",
+  "modified": "2026-05-21T15:00:31.925271484Z",
+  "published": "2025-11-12T21:15:52.397Z",
+  "aliases": [
+    "BIT-pytorch-2025-63396",
+    "CVE-2025-63396"
+  ],
+  "details": "An issue was discovered in PyTorch v2.5 and v2.7.1. Omission of profiler.stop() can cause torch.profiler.profile (PythonTracer) to crash or hang during finalization, leading to a Denial of Service (DoS).",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "torch",
+        "purl": "pkg:pypi/torch"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.5.0-NA"
+            },
+            {
+              "last_affected": "2.7.1-NA"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {
+        "source": "https://github.com/pypa/advisory-database/blob/main/vulns/torch/PYSEC-2025-210.yaml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "http://pytorch.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Daisy2ang"
+    },
+    {
+      "type": "REPORT",
+      "url": "https://github.com/pytorch/pytorch/issues/156563"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/pytorch/pytorch"
+    }
+  ]
+}

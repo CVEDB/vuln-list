@@ -1,6 +1,6 @@
 {
   "id": "PYSEC-2017-35",
-  "modified": "2024-04-22T22:41:34.809536Z",
+  "modified": "2026-07-09T16:56:24.190827719Z",
   "published": "2017-08-23T14:29:00Z",
   "aliases": [
     "CVE-2017-12791",
@@ -196,6 +196,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/100384"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-xxvj-8g5m-4qgw"
     }
   ]
 }

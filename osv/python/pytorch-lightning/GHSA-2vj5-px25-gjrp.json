@@ -1,10 +1,11 @@
 {
   "id": "GHSA-2vj5-px25-gjrp",
-  "modified": "2024-10-25T21:01:10.567601Z",
+  "modified": "2026-09-10T17:26:03.425101162Z",
   "published": "2022-01-06T23:58:59Z",
   "aliases": [
     "CVE-2021-4118",
-    "PYSEC-2021-874"
+    "PYSEC-2021-874",
+    "PYSEC-2026-3968"
   ],
   "summary": "pytorch-lightning is vulnerable to Deserialization of Untrusted Data",
   "details": "pytorch-lightning is vulnerable to Deserialization of Untrusted Data.",
@@ -149,6 +150,7 @@
         "1.5.0rc1",
         "1.5.1",
         "1.5.10",
+        "1.5.10.post0",
         "1.5.2",
         "1.5.3",
         "1.5.4",

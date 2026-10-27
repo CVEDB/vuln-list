@@ -1,6 +1,6 @@
 {
   "id": "GO-2023-2063",
-  "modified": "2024-08-21T14:56:45.605099Z",
+  "modified": "2026-08-07T08:12:26.689981804Z",
   "published": "2024-08-21T14:30:18Z",
   "aliases": [
     "BIT-vault-2023-4680",
@@ -41,6 +41,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2023-2063.json"
       }

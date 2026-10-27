@@ -1,0 +1,56 @@
+{
+  "id": "PYSEC-2024-300",
+  "modified": "2026-05-21T15:00:10.878737574Z",
+  "published": "2024-12-04T11:15:05Z",
+  "aliases": [
+    "CVE-2024-12107"
+  ],
+  "details": "Double-Free Vulnerability in uD3TN BPv7 Caused by Malformed Endpoint Identifier allows remote attacker to reliably cause DoS",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pyd3tn",
+        "purl": "pkg:pypi/pyd3tn"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.13.0"
+            },
+            {
+              "last_affected": "0.14.1"
+            },
+            {
+              "last_affected": "0.14.2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "0.10.0",
+        "0.11.0",
+        "0.12.0",
+        "0.13.0",
+        "0.14.1",
+        "0.14.2",
+        "0.9.0"
+      ],
+      "ecosystem_specific": {},
+      "database_specific": {
+        "source": "https://github.com/pypa/advisory-database/blob/main/vulns/pyd3tn/PYSEC-2024-300.yaml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "REPORT",
+      "url": "https://gitlab.com/d3tn/ud3tn/-/issues/233"
+    }
+  ]
+}

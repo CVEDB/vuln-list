@@ -1,8 +1,9 @@
 {
   "id": "GO-2025-3807",
-  "modified": "2025-07-28T20:42:20.990330Z",
+  "modified": "2026-09-27T11:55:50.735097148Z",
   "published": "2025-07-28T19:57:13Z",
   "aliases": [
+    "CVE-2025-71424",
     "GHSA-phhq-63jg-fp7r"
   ],
   "summary": "Contrast vulnerability allows arbitrary host data Injection into container VOLUME mount points in github.com/edgelesssys/contrast",
@@ -27,6 +28,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2025-3807.json"
       }

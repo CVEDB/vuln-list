@@ -1,14 +1,12 @@
 {
   "id": "GHSA-jg74-mwgw-v6x3",
-  "modified": "2025-08-04T20:57:36Z",
+  "modified": "2026-09-10T03:50:18.937645496Z",
   "published": "2024-09-26T21:31:11Z",
   "aliases": [
+    "BIT-openbao-2024-7594",
     "BIT-vault-2024-7594",
     "CVE-2024-7594",
     "GO-2024-3162"
-  ],
-  "related": [
-    "CGA-c4r2-jfwp-c72c"
   ],
   "summary": "Vault SSH Secrets Engine Configuration Did Not Restrict Valid Principals By Default",
   "details": "Vault’s SSH secrets engine did not require the valid_principals list to contain a value by default. If the valid_principals and default_user fields of the SSH secrets engine configuration are not set, an SSH certificate requested by an authorized user to Vault’s SSH secrets engine could be used to authenticate as any user on the host. Fixed in Vault Community Edition 1.17.6, and in Vault Enterprise 1.17.6, 1.16.10, and 1.15.15.",
@@ -47,7 +45,7 @@
           "type": "SEMVER",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.1.0"
             }
           ]
         }
@@ -56,12 +54,43 @@
         "last_known_affected_version_range": "\u003c 2.0.2",
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-jg74-mwgw-v6x3/GHSA-jg74-mwgw-v6x3.json"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/openbao/openbao",
+        "purl": "pkg:golang/github.com/openbao/openbao"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.0-20241003222810-d5b4e9224698"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-jg74-mwgw-v6x3/GHSA-jg74-mwgw-v6x3.json"
+      }
     }
   ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7594"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openbao/openbao/pull/561"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openbao/openbao/commit/d5b4e922469830ac335b21dc0e8f9878c501a884"
     },
     {
       "type": "WEB",

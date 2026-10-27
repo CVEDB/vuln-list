@@ -1,9 +1,10 @@
 {
   "id": "GHSA-54f4-v6v9-9q82",
-  "modified": "2024-10-09T22:27:14.037349Z",
+  "modified": "2026-09-10T03:50:19.201290584Z",
   "published": "2024-10-09T21:31:08Z",
   "aliases": [
-    "CVE-2024-7037"
+    "CVE-2024-7037",
+    "PYSEC-2026-1721"
   ],
   "summary": "open-webui allows writing and deleting arbitrary files",
   "details": "In version v0.3.8 of open-webui/open-webui, the endpoint /api/pipelines/upload is vulnerable to arbitrary file write and delete due to unsanitized file.filename concatenation with CACHE_DIR. This vulnerability allows attackers to overwrite and delete system files, potentially leading to remote code execution.",
@@ -31,10 +32,6 @@
         "0.1.124",
         "0.1.125",
         "0.2.0",
-        "0.2.0.dev1",
-        "0.2.0.dev2",
-        "0.2.0.dev3",
-        "0.2.0.dev4",
         "0.2.1",
         "0.2.2",
         "0.2.3",

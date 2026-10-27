@@ -1,16 +1,11 @@
 {
   "id": "GHSA-3f63-hfp8-52jq",
-  "modified": "2025-02-13T05:40:44.483586Z",
+  "modified": "2026-09-10T03:50:04.766695102Z",
   "published": "2024-01-19T21:30:35Z",
   "aliases": [
     "BIT-pillow-2023-50447",
-    "CVE-2023-50447"
-  ],
-  "related": [
-    "CGA-4393-x3j7-6grg",
-    "CGA-4r2r-wrg9-g9qq",
-    "CGA-h6j8-g59c-55w9",
-    "CGA-xqwq-8jqj-g28p"
+    "CVE-2023-50447",
+    "PYSEC-2026-457"
   ],
   "summary": "Arbitrary Code Execution in Pillow",
   "details": "Pillow through 10.1.0 allows PIL.ImageMath.eval Arbitrary Code Execution via the environment parameter, a different vulnerability than CVE-2022-22817 (which was about the expression parameter).",

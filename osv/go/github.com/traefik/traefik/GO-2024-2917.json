@@ -1,6 +1,6 @@
 {
   "id": "GO-2024-2917",
-  "modified": "2024-07-15T22:00:21.535008Z",
+  "modified": "2026-08-07T08:12:29.106158256Z",
   "published": "2024-06-14T13:41:08Z",
   "aliases": [
     "GHSA-7jmw-8259-q9jx"
@@ -24,6 +24,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2917.json"
       }
@@ -47,6 +48,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2917.json"
       }
@@ -70,6 +72,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2917.json"
       }

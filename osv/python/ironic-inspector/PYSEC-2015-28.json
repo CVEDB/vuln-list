@@ -1,10 +1,11 @@
 {
   "id": "PYSEC-2015-28",
-  "modified": "2023-11-08T03:57:57.677895Z",
+  "modified": "2026-06-29T12:26:25.775279595Z",
   "published": "2015-11-25T20:59:00Z",
   "aliases": [
     "CVE-2015-5306",
-    "GHSA-x64g-wjmw-w328"
+    "GHSA-x64g-wjmw-w328",
+    "PYSEC-2026-505"
   ],
   "details": "OpenStack Ironic Inspector (aka ironic-inspector or ironic-discoverd), when debug mode is enabled, might allow remote attackers to access the Flask console and execute arbitrary Python code by triggering an error.",
   "affected": [
@@ -61,6 +62,10 @@
     {
       "type": "ADVISORY",
       "url": "http://rhn.redhat.com/errata/RHSA-2015-2685.html"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-x64g-wjmw-w328"
     }
   ]
 }

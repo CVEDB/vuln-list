@@ -1,9 +1,10 @@
 {
   "id": "GHSA-f67q-wr6w-23jq",
-  "modified": "2025-05-17T15:59:04.866165Z",
+  "modified": "2026-09-10T03:50:17.403000789Z",
   "published": "2024-08-14T20:49:51Z",
   "aliases": [
-    "CVE-2024-43367"
+    "CVE-2024-43367",
+    "RUSTSEC-2024-0444"
   ],
   "related": [
     "CVE-2024-43357",
@@ -20,7 +21,7 @@
       },
       "ranges": [
         {
-          "type": "SEMVER",
+          "type": "ECOSYSTEM",
           "events": [
             {
               "introduced": "0.16"
@@ -56,6 +57,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/boa-dev/boa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0444.html"
     }
   ]
 }

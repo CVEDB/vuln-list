@@ -1,9 +1,10 @@
 {
   "id": "GHSA-832w-fhmw-w4f4",
-  "modified": "2024-12-13T20:57:10.139410Z",
+  "modified": "2026-09-10T03:50:56.295840229Z",
   "published": "2024-12-13T20:36:22Z",
   "aliases": [
-    "CVE-2024-55890"
+    "CVE-2024-55890",
+    "PYSEC-2026-1320"
   ],
   "summary": "D-Tale allows Remote Code Execution through the Custom Filter Input",
   "details": "### Impact\nUsers hosting D-Tale publicly can be vulnerable to remote code execution allowing attackers to run malicious code on the server.\n\n### Patches\nUsers should upgrade to version 3.16.1 where the `update-settings` endpoint blocks the ability for users to update the `enable_custom_filters` flag. You can find out more information on how to turn that flag on [here](https://github.com/man-group/dtale#custom-filter)\n\n### Workarounds\nThe only workaround for versions earlier than 3.16.1 is to only host D-Tale to trusted users.\n\n### References\nSee \"Custom Filter\" [documentation](https://github.com/man-group/dtale#custom-filter)\n",
@@ -100,11 +101,7 @@
         "1.58.3",
         "1.59.0",
         "1.59.1",
-        "1.6.1",
         "1.6.10",
-        "1.6.2",
-        "1.6.3",
-        "1.6.4",
         "1.6.5",
         "1.6.6",
         "1.6.7",

@@ -1,8 +1,9 @@
 {
   "id": "GO-2024-3182",
-  "modified": "2024-10-09T20:59:29.379252Z",
+  "modified": "2026-08-17T03:55:42.801423615Z",
   "published": "2024-10-09T20:29:23Z",
   "aliases": [
+    "CVE-2024-58375",
     "GHSA-wpr2-j6gr-pjw9"
   ],
   "summary": "OpenTofu potential leaking of secret variable values when using static evaluation in v1.8 in github.com/opentofu/opentofu",
@@ -27,6 +28,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-3182.json"
       }

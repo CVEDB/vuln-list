@@ -1,6 +1,6 @@
 {
   "id": "GO-2024-3219",
-  "modified": "2024-10-28T15:42:18.968355Z",
+  "modified": "2026-08-07T08:12:30.992645856Z",
   "published": "2024-10-28T15:20:02Z",
   "aliases": [
     "GHSA-7h65-4p22-39j6"
@@ -39,6 +39,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-3219.json"
       }

@@ -1,6 +1,6 @@
 {
   "id": "GO-2024-3006",
-  "modified": "2024-08-06T22:27:05.674833Z",
+  "modified": "2026-08-07T08:12:25.302408712Z",
   "published": "2024-08-06T22:03:16Z",
   "aliases": [
     "BIT-argo-cd-2024-41666",
@@ -26,6 +26,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-3006.json"
       }
@@ -61,6 +62,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-3006.json"
       }

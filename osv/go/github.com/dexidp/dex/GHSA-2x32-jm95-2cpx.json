@@ -1,12 +1,13 @@
 {
   "id": "GHSA-2x32-jm95-2cpx",
-  "modified": "2024-05-19T02:24:43.573042Z",
+  "modified": "2026-09-10T03:49:10.072897849Z",
   "published": "2021-12-20T17:52:12Z",
   "aliases": [
-    "CVE-2020-27847"
+    "CVE-2020-26290",
+    "CVE-2020-27847",
+    "GHSA-m9hp-7r99-94h5"
   ],
   "related": [
-    "CGA-qjrf-w56f-p6hw",
     "GO-2020-0050"
   ],
   "summary": "Authentication Bypass in dex",

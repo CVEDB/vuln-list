@@ -1,6 +1,6 @@
 {
   "id": "GO-2024-2704",
-  "modified": "2024-06-04T16:56:37.212973Z",
+  "modified": "2026-08-07T08:12:22.803337028Z",
   "published": "2024-06-04T15:19:21Z",
   "aliases": [
     "BIT-consul-2023-3518",
@@ -29,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2024-2704.json"
       }

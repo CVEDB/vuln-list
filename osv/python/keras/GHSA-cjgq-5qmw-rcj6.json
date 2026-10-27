@@ -1,13 +1,10 @@
 {
   "id": "GHSA-cjgq-5qmw-rcj6",
-  "modified": "2025-01-08T20:12:24.613726Z",
+  "modified": "2026-09-10T03:50:21.927124476Z",
   "published": "2025-01-08T18:30:48Z",
   "aliases": [
-    "CVE-2024-55459"
-  ],
-  "related": [
-    "CGA-2m39-42qr-f536",
-    "CGA-f5cj-8644-cq3c"
+    "CVE-2024-55459",
+    "PYSEC-2025-121"
   ],
   "summary": "keras Path Traversal vulnerability",
   "details": "An issue in keras 3.7.0 allows attackers to write arbitrary files to the user's machine via downloading a crafted tar file through the get_file function.",
@@ -153,6 +150,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keras-team/keras/blob/8f5592bcb61ff48c96560c8923e482db1076b54a/keras/src/utils/file_utils.py#L115"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/keras/PYSEC-2025-121.yaml"
     },
     {
       "type": "WEB",

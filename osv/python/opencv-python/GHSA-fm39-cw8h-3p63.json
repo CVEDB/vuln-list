@@ -1,9 +1,13 @@
 {
   "id": "GHSA-fm39-cw8h-3p63",
-  "modified": "2024-02-17T05:23:29.311768Z",
+  "modified": "2026-09-10T03:49:09.274722548Z",
   "published": "2021-10-12T22:07:14Z",
   "aliases": [
-    "CVE-2019-14491"
+    "CVE-2019-14491",
+    "PYSEC-2026-2797",
+    "PYSEC-2026-2818",
+    "PYSEC-2026-2836",
+    "PYSEC-2026-720"
   ],
   "summary": "Out-of-bounds Read in OpenCV",
   "details": "An issue was discovered in OpenCV before 3.4.7 and 4.x before 4.1.1 (OpenCV-Python before 3.4.7.28 and 4.x before 4.1.1.26). There is an out of bounds read in the function cv::predictOrdered\u003ccv::HaarEvaluator\u003e in modules/objdetect/src/cascadedetect.hpp, which leads to denial of service.",
@@ -28,13 +32,8 @@
         }
       ],
       "versions": [
-        "3.3.0.10",
-        "3.3.0.9",
-        "3.3.1.11",
-        "3.4.0.12",
         "3.4.0.14",
         "3.4.1.15",
-        "3.4.2.16",
         "3.4.2.17",
         "3.4.3.18",
         "3.4.4.19",
@@ -96,7 +95,6 @@
         }
       ],
       "versions": [
-        "3.4.2.17",
         "3.4.3.18",
         "3.4.4.19",
         "3.4.5.20",
@@ -156,16 +154,6 @@
         }
       ],
       "versions": [
-        "3.1.0.0",
-        "3.2.0.7",
-        "3.2.0.8",
-        "3.3.0.10",
-        "3.3.0.9",
-        "3.3.1.11",
-        "3.4.0.12",
-        "3.4.0.14",
-        "3.4.1.15",
-        "3.4.2.16",
         "3.4.2.17",
         "3.4.3.18",
         "3.4.4.19",
@@ -228,8 +216,6 @@
       ],
       "versions": [
         "3.4.0.14",
-        "3.4.1.15",
-        "3.4.2.16",
         "3.4.2.17",
         "3.4.3.18",
         "3.4.4.19",

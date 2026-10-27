@@ -1,9 +1,10 @@
 {
   "id": "GHSA-7pr5-w74r-jjj7",
-  "modified": "2025-07-15T01:15:52.338723Z",
+  "modified": "2026-07-20T21:30:35.952363668Z",
   "published": "2025-06-17T12:31:15Z",
   "aliases": [
-    "CVE-2025-6050"
+    "CVE-2025-6050",
+    "PYSEC-2025-236"
   ],
   "summary": "Mezzanine CMS has a Stored Cross-Site Scripting (XSS) vulnerability in the displayable_links_js function",
   "details": "Mezzanine CMS, in versions prior to 6.1.1, contains a Stored Cross-Site Scripting (XSS) vulnerability in the admin interface. The vulnerability exists in the \"displayable_links_js\" function, which fails to properly sanitize blog post titles before including them in JSON responses served via \"/admin/displayable_links.js\". An authenticated admin user can create a blog post with a malicious JavaScript payload in the title field, then trick another admin user into clicking a direct link to the \"/admin/displayable_links.js\" endpoint, causing the malicious script to execute in their browser.",
@@ -186,6 +187,14 @@
     {
       "type": "WEB",
       "url": "https://advisory.checkmarx.net/advisory/CVE-2025-6050"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-7pr5-w74r-jjj7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/mezzanine/PYSEC-2025-236.yaml"
     },
     {
       "type": "PACKAGE",

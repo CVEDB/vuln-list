@@ -1,13 +1,11 @@
 {
   "id": "GHSA-j225-cvw7-qrx7",
-  "modified": "2024-10-21T21:02:02.395709Z",
+  "modified": "2026-09-10T03:50:04.975951117Z",
   "published": "2024-01-05T06:30:19Z",
   "aliases": [
     "CVE-2023-52323",
-    "PYSEC-2024-3"
-  ],
-  "related": [
-    "CGA-vq89-7297-5422"
+    "PYSEC-2024-3",
+    "PYSEC-2026-1811"
   ],
   "summary": "PyCryptodome and pycryptodomex side-channel leakage for OAEP decryption",
   "details": "PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage for OAEP decryption, exploitable for a Manger attack.",

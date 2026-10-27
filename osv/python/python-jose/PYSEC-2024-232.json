@@ -1,10 +1,13 @@
 {
   "id": "PYSEC-2024-232",
-  "modified": "2025-02-18T19:41:58.671860Z",
+  "modified": "2026-10-15T14:56:01.261338787Z",
   "published": "2024-04-26T00:15:09Z",
   "aliases": [
     "CVE-2024-33663",
-    "GHSA-6c5p-j8vq-pqhj"
+    "CVE-2026-85394",
+    "GHSA-3qf3-8w2g-rqmx",
+    "GHSA-6c5p-j8vq-pqhj",
+    "PYSEC-2026-4298"
   ],
   "details": "python-jose through 3.3.0 has algorithm confusion with OpenSSH ECDSA keys and other key formats. This is similar to CVE-2022-29217.",
   "affected": [
@@ -79,6 +82,10 @@
     {
       "type": "WEB",
       "url": "https://www.vicarius.io/vsociety/posts/algorithm-confusion-in-python-jose-cve-2024-33663"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-6c5p-j8vq-pqhj"
     }
   ]
 }

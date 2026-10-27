@@ -1,8 +1,9 @@
 {
   "id": "GO-2022-0960",
-  "modified": "2024-08-21T16:28:40.944890Z",
+  "modified": "2026-03-03T04:51:05.751936Z",
   "published": "2024-08-21T16:03:21Z",
   "aliases": [
+    "BIT-flux-2022-36035",
     "CVE-2022-36035",
     "GHSA-xwf3-6rgv-939r"
   ],
@@ -28,6 +29,7 @@
           ]
         }
       ],
+      "ecosystem_specific": {},
       "database_specific": {
         "source": "https://vuln.go.dev/ID/GO-2022-0960.json"
       }

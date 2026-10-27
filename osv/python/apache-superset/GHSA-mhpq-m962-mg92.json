@@ -1,10 +1,11 @@
 {
   "id": "GHSA-mhpq-m962-mg92",
-  "modified": "2025-08-18T08:59:17.503302Z",
+  "modified": "2026-09-10T03:50:27.204771411Z",
   "published": "2025-08-14T15:30:44Z",
   "aliases": [
     "BIT-superset-2025-55675",
-    "CVE-2025-55675"
+    "CVE-2025-55675",
+    "PYSEC-2026-1186"
   ],
   "summary": "Apache Superset allows authenticated users to discover metadata about datasources they don't have permission to access",
   "details": "Apache Superset contains an improper access control vulnerability in its /explore endpoint. A missing authorization check allows an authenticated user to discover metadata about datasources they do not have permission to access. By iterating through the datasource_id in the URL, an attacker can enumerate and confirm the existence and names of protected datasources, leading to sensitive information disclosure.\n\nThis issue affects Apache Superset: before 5.0.0.\n\nUsers are recommended to upgrade to version 5.0.0, which fixes the issue.",
@@ -95,6 +96,8 @@
         "4.1.3.post1",
         "4.1.3rc1",
         "4.1.3rc2",
+        "4.1.4",
+        "4.1.4rc1",
         "5.0.0rc1",
         "5.0.0rc2",
         "5.0.0rc3",
@@ -117,6 +120,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/op681b4kbd7g84tfjf9omz0sxggbcv33"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/08/14/6"
     }
   ]
 }
