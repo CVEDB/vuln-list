@@ -9,7 +9,58 @@
   },
   "severity": "Important",
   "description": "The libpq package provides the PostgreSQL client library, which allows client programs to connect to PostgreSQL servers. \n\nSecurity Fix(es):\n\n* postgresql: PostgreSQL quoting APIs miss neutralizing quoting syntax in text that fails encoding validation (CVE-2025-1094)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libpq",
+          "epoch": "0",
+          "version": "13.20",
+          "release": "1.el8_10",
+          "arch": "i686",
+          "src": "libpq-13.20-1.el8_10.src.rpm",
+          "filename": "libpq-13.20-1.el8_10.i686.rpm"
+        },
+        {
+          "name": "libpq",
+          "epoch": "0",
+          "version": "13.20",
+          "release": "1.el8_10",
+          "arch": "x86_64",
+          "src": "libpq-13.20-1.el8_10.src.rpm",
+          "filename": "libpq-13.20-1.el8_10.x86_64.rpm"
+        },
+        {
+          "name": "libpq-devel",
+          "epoch": "0",
+          "version": "13.20",
+          "release": "1.el8_10",
+          "arch": "i686",
+          "src": "libpq-13.20-1.el8_10.src.rpm",
+          "filename": "libpq-devel-13.20-1.el8_10.i686.rpm"
+        },
+        {
+          "name": "libpq-devel",
+          "epoch": "0",
+          "version": "13.20",
+          "release": "1.el8_10",
+          "arch": "x86_64",
+          "src": "libpq-13.20-1.el8_10.src.rpm",
+          "filename": "libpq-devel-13.20-1.el8_10.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
+    {
+      "name": "libpq",
+      "epoch": "0",
+      "version": "13.20",
+      "release": "1.el8_10",
+      "arch": "i686",
+      "src": "libpq-13.20-1.el8_10.src.rpm",
+      "filename": "libpq-13.20-1.el8_10.i686.rpm"
+    },
     {
       "name": "libpq",
       "epoch": "0",
@@ -18,6 +69,15 @@
       "arch": "x86_64",
       "src": "libpq-13.20-1.el8_10.src.rpm",
       "filename": "libpq-13.20-1.el8_10.x86_64.rpm"
+    },
+    {
+      "name": "libpq-devel",
+      "epoch": "0",
+      "version": "13.20",
+      "release": "1.el8_10",
+      "arch": "i686",
+      "src": "libpq-13.20-1.el8_10.src.rpm",
+      "filename": "libpq-devel-13.20-1.el8_10.i686.rpm"
     },
     {
       "name": "libpq-devel",
@@ -46,6 +106,18 @@
       "id": "RLSA-2025:1737",
       "title": "RLSA-2025:1737",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:1737",
+      "id": "RHSA-2025:1737",
+      "title": "Red Hat RHSA-2025:1737",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

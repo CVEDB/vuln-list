@@ -9,6 +9,21 @@
   },
   "severity": "Important",
   "description": "The libsoup packages provide an HTTP client and server library for GNOME.\n\nSecurity Fix(es):\n\n* libsoup: infinite loop while reading websocket data (CVE-2024-52532)\n\n* libsoup: HTTP request smuggling via stripping null bytes from the ends of header names (CVE-2024-52530)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libsoup",
+          "epoch": "0",
+          "version": "2.62.3",
+          "release": "6.el8_10",
+          "arch": "aarch64",
+          "src": "libsoup-2.62.3-6.el8_10.src.rpm",
+          "filename": "libsoup-2.62.3-6.el8_10.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "libsoup",
@@ -48,6 +63,18 @@
       "id": "RLSA-2024:9573",
       "title": "RLSA-2024:9573",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:9573",
+      "id": "RHSA-2024:9573",
+      "title": "Red Hat RHSA-2024:9573",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

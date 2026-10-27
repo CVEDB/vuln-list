@@ -9,7 +9,58 @@
   },
   "severity": "Moderate",
   "description": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-base packages contain a collection of well-maintained base plug-ins.\n\nSecurity Fix(es):\n\n* gstreamer: EXIF Metadata Parsing Integer Overflow (CVE-2024-4453)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "gstreamer1-plugins-base",
+          "epoch": "0",
+          "version": "1.16.1",
+          "release": "4.el8_10",
+          "arch": "i686",
+          "src": "gstreamer1-plugins-base-1.16.1-4.el8_10.src.rpm",
+          "filename": "gstreamer1-plugins-base-1.16.1-4.el8_10.i686.rpm"
+        },
+        {
+          "name": "gstreamer1-plugins-base",
+          "epoch": "0",
+          "version": "1.16.1",
+          "release": "4.el8_10",
+          "arch": "x86_64",
+          "src": "gstreamer1-plugins-base-1.16.1-4.el8_10.src.rpm",
+          "filename": "gstreamer1-plugins-base-1.16.1-4.el8_10.x86_64.rpm"
+        },
+        {
+          "name": "gstreamer1-plugins-base-devel",
+          "epoch": "0",
+          "version": "1.16.1",
+          "release": "4.el8_10",
+          "arch": "i686",
+          "src": "gstreamer1-plugins-base-1.16.1-4.el8_10.src.rpm",
+          "filename": "gstreamer1-plugins-base-devel-1.16.1-4.el8_10.i686.rpm"
+        },
+        {
+          "name": "gstreamer1-plugins-base-devel",
+          "epoch": "0",
+          "version": "1.16.1",
+          "release": "4.el8_10",
+          "arch": "x86_64",
+          "src": "gstreamer1-plugins-base-1.16.1-4.el8_10.src.rpm",
+          "filename": "gstreamer1-plugins-base-devel-1.16.1-4.el8_10.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
+    {
+      "name": "gstreamer1-plugins-base",
+      "epoch": "0",
+      "version": "1.16.1",
+      "release": "4.el8_10",
+      "arch": "i686",
+      "src": "gstreamer1-plugins-base-1.16.1-4.el8_10.src.rpm",
+      "filename": "gstreamer1-plugins-base-1.16.1-4.el8_10.i686.rpm"
+    },
     {
       "name": "gstreamer1-plugins-base",
       "epoch": "0",
@@ -18,6 +69,15 @@
       "arch": "x86_64",
       "src": "gstreamer1-plugins-base-1.16.1-4.el8_10.src.rpm",
       "filename": "gstreamer1-plugins-base-1.16.1-4.el8_10.x86_64.rpm"
+    },
+    {
+      "name": "gstreamer1-plugins-base-devel",
+      "epoch": "0",
+      "version": "1.16.1",
+      "release": "4.el8_10",
+      "arch": "i686",
+      "src": "gstreamer1-plugins-base-1.16.1-4.el8_10.src.rpm",
+      "filename": "gstreamer1-plugins-base-devel-1.16.1-4.el8_10.i686.rpm"
     },
     {
       "name": "gstreamer1-plugins-base-devel",
@@ -46,6 +106,18 @@
       "id": "RLSA-2024:9056",
       "title": "RLSA-2024:9056",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:9056",
+      "id": "RHSA-2024:9056",
+      "title": "Red Hat RHSA-2024:9056",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

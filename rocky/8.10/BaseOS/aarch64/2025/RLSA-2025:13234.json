@@ -9,6 +9,21 @@
   },
   "severity": "Moderate",
   "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* requests: Requests vulnerable to .netrc credentials leak via malicious URLs (CVE-2024-47081)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "python3-requests",
+          "epoch": "0",
+          "version": "2.20.0",
+          "release": "6.el8_10",
+          "arch": "noarch",
+          "src": "python-requests-2.20.0-6.el8_10.src.rpm",
+          "filename": "python3-requests-2.20.0-6.el8_10.noarch.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "python3-requests",
@@ -37,6 +52,18 @@
       "id": "RLSA-2025:13234",
       "title": "RLSA-2025:13234",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:13234",
+      "id": "RHSA-2025:13234",
+      "title": "Red Hat RHSA-2025:13234",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

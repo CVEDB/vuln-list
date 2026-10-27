@@ -9,6 +9,174 @@
   },
   "severity": "Moderate",
   "description": "The OpenJDK 21 runtime environment.\n\nSecurity Fix(es):\n\n* giflib: Heap-Buffer Overflow during Image Saving in DumpScreen2RGB Function (CVE-2023-48161)\n\n* JDK: Array indexing integer overflow (8328544) (CVE-2024-21210)\n\n* JDK: HTTP client improper handling of maxHeaderSize (8328286) (CVE-2024-21208)\n\n* JDK: Unbounded allocation leads to out-of-memory error (8331446) (CVE-2024-21217)\n\n* JDK: Integer conversion error leads to incorrect range check (8332644) (CVE-2024-21235)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "java-21-openjdk",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-demo",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-demo-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-demo",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-demo-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-devel",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-devel-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-devel",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-devel-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-headless",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-headless-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-headless",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-headless-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc-zip",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-zip-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc-zip",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-zip-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-jmods",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-jmods-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-jmods",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-jmods-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-src",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-src-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-src",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-src-21.0.5.0.10-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-static-libs",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-static-libs-21.0.5.0.10-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-static-libs",
+          "epoch": "1",
+          "version": "21.0.5.0.10",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+          "filename": "java-21-openjdk-static-libs-21.0.5.0.10-3.el9.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "java-21-openjdk",
@@ -16,8 +184,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-demo",
@@ -25,8 +202,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-demo-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-demo",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-demo-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-devel",
@@ -34,8 +220,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-devel-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-devel",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-devel-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-headless",
@@ -43,8 +238,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-headless-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-headless",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-headless-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-javadoc",
@@ -52,8 +256,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-javadoc-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-javadoc",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-javadoc-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-javadoc-zip",
@@ -61,8 +274,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-javadoc-zip-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-javadoc-zip",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-javadoc-zip-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-jmods",
@@ -70,8 +292,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-jmods-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-jmods",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-jmods-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-src",
@@ -79,8 +310,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-src-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-src",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-src-21.0.5.0.10-3.el9.aarch64.rpm"
     },
     {
       "name": "java-21-openjdk-static-libs",
@@ -88,8 +328,17 @@
       "version": "21.0.5.0.10",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.5.0.10-3.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
       "filename": "java-21-openjdk-static-libs-21.0.5.0.10-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-static-libs",
+      "epoch": "1",
+      "version": "21.0.5.0.10",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.5.0.10-3.el8.src.rpm",
+      "filename": "java-21-openjdk-static-libs-21.0.5.0.10-3.el9.aarch64.rpm"
     }
   ],
   "references": [
@@ -153,6 +402,18 @@
       "id": "RLSA-2024:8127",
       "title": "RLSA-2024:8127",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:8127",
+      "id": "RHSA-2024:8127",
+      "title": "Red Hat RHSA-2024:8127",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

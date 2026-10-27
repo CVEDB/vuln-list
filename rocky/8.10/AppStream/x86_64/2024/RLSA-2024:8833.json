@@ -9,7 +9,58 @@
   },
   "severity": "Moderate",
   "description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: NULL pointer dereference in tif_dirinfo.c (CVE-2024-7006)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libtiff",
+          "epoch": "0",
+          "version": "4.0.9",
+          "release": "33.el8_10",
+          "arch": "i686",
+          "src": "libtiff-4.0.9-33.el8_10.src.rpm",
+          "filename": "libtiff-4.0.9-33.el8_10.i686.rpm"
+        },
+        {
+          "name": "libtiff",
+          "epoch": "0",
+          "version": "4.0.9",
+          "release": "33.el8_10",
+          "arch": "x86_64",
+          "src": "libtiff-4.0.9-33.el8_10.src.rpm",
+          "filename": "libtiff-4.0.9-33.el8_10.x86_64.rpm"
+        },
+        {
+          "name": "libtiff-devel",
+          "epoch": "0",
+          "version": "4.0.9",
+          "release": "33.el8_10",
+          "arch": "i686",
+          "src": "libtiff-4.0.9-33.el8_10.src.rpm",
+          "filename": "libtiff-devel-4.0.9-33.el8_10.i686.rpm"
+        },
+        {
+          "name": "libtiff-devel",
+          "epoch": "0",
+          "version": "4.0.9",
+          "release": "33.el8_10",
+          "arch": "x86_64",
+          "src": "libtiff-4.0.9-33.el8_10.src.rpm",
+          "filename": "libtiff-devel-4.0.9-33.el8_10.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
+    {
+      "name": "libtiff",
+      "epoch": "0",
+      "version": "4.0.9",
+      "release": "33.el8_10",
+      "arch": "i686",
+      "src": "libtiff-4.0.9-33.el8_10.src.rpm",
+      "filename": "libtiff-4.0.9-33.el8_10.i686.rpm"
+    },
     {
       "name": "libtiff",
       "epoch": "0",
@@ -18,6 +69,15 @@
       "arch": "x86_64",
       "src": "libtiff-4.0.9-33.el8_10.src.rpm",
       "filename": "libtiff-4.0.9-33.el8_10.x86_64.rpm"
+    },
+    {
+      "name": "libtiff-devel",
+      "epoch": "0",
+      "version": "4.0.9",
+      "release": "33.el8_10",
+      "arch": "i686",
+      "src": "libtiff-4.0.9-33.el8_10.src.rpm",
+      "filename": "libtiff-devel-4.0.9-33.el8_10.i686.rpm"
     },
     {
       "name": "libtiff-devel",
@@ -46,6 +106,18 @@
       "id": "RLSA-2024:8833",
       "title": "RLSA-2024:8833",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:8833",
+      "id": "RHSA-2024:8833",
+      "title": "Red Hat RHSA-2024:8833",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

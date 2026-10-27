@@ -9,6 +9,21 @@
   },
   "severity": "Moderate",
   "description": "The tcpdump packages contain the tcpdump utility for monitoring network traffic. The tcpdump utility can capture and display the packet headers on a particular network interface or on all interfaces.\n\nSecurity Fix(es):\n\n* tcpslice: use-after-free in extract_slice() (CVE-2021-41043)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "tcpdump",
+          "epoch": "4",
+          "version": "4.9.3",
+          "release": "3.el8_9.1",
+          "arch": "x86_64",
+          "src": "tcpdump-4.9.3-3.el8_9.1.src.rpm",
+          "filename": "tcpdump-4.9.3-3.el8_9.1.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "tcpdump",
@@ -37,6 +52,18 @@
       "id": "RLSA-2024:0769",
       "title": "RLSA-2024:0769",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:0769",
+      "id": "RHSA-2024:0769",
+      "title": "Red Hat RHSA-2024:0769",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

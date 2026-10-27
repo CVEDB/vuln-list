@@ -9,6 +9,21 @@
   },
   "severity": "Moderate",
   "description": "The GNU tar program can save multiple files in an archive and restore files from an archive.\n\nSecurity Fix(es):\n\n* tar: heap buffer overflow at from_header() in list.c via specially crafted checksum (CVE-2022-48303)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "tar",
+          "epoch": "2",
+          "version": "1.30",
+          "release": "6.el8_7.1",
+          "arch": "aarch64",
+          "src": "tar-1.30-6.el8_7.1.src.rpm",
+          "filename": "tar-1.30-6.el8_7.1.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "tar",
@@ -37,6 +52,18 @@
       "id": "RLSA-2023:0842",
       "title": "RLSA-2023:0842",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:0842",
+      "id": "RHSA-2023:0842",
+      "title": "Red Hat RHSA-2023:0842",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

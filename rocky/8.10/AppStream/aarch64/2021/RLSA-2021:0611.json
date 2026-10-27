@@ -9,6 +9,30 @@
   },
   "severity": "Important",
   "description": "The xterm program is a terminal emulator for the X Window System. It provides DEC VT102 and Tektronix 4014 compatible terminals for programs that can't use the window system directly.\n\nSecurity Fix(es):\n\n* xterm: crash when processing combining characters (CVE-2021-27135)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "xterm",
+          "epoch": "0",
+          "version": "331",
+          "release": "1.el8_3.2",
+          "arch": "aarch64",
+          "src": "xterm-331-1.el8_3.2.src.rpm",
+          "filename": "xterm-331-1.el8_3.2.aarch64.rpm"
+        },
+        {
+          "name": "xterm-resize",
+          "epoch": "0",
+          "version": "331",
+          "release": "1.el8_3.2",
+          "arch": "aarch64",
+          "src": "xterm-331-1.el8_3.2.src.rpm",
+          "filename": "xterm-resize-331-1.el8_3.2.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "xterm",
@@ -46,6 +70,18 @@
       "id": "RLSA-2021:0611",
       "title": "RLSA-2021:0611",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:0611",
+      "id": "RHSA-2021:0611",
+      "title": "Red Hat RHSA-2021:0611",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

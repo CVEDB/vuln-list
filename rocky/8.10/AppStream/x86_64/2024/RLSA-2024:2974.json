@@ -9,7 +9,58 @@
   },
   "severity": "Moderate",
   "description": "X.Org X11 libXpm runtime library.\n\nSecurity Fix(es):\n\n* libXpm: out of bounds read in XpmCreateXpmImageFromBuffer() (CVE-2023-43788)\n\n* libXpm: out of bounds read on XPM with corrupted colormap (CVE-2023-43789)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libXpm",
+          "epoch": "0",
+          "version": "3.5.12",
+          "release": "11.el8",
+          "arch": "i686",
+          "src": "libXpm-3.5.12-11.el8.src.rpm",
+          "filename": "libXpm-3.5.12-11.el8.i686.rpm"
+        },
+        {
+          "name": "libXpm",
+          "epoch": "0",
+          "version": "3.5.12",
+          "release": "11.el8",
+          "arch": "x86_64",
+          "src": "libXpm-3.5.12-11.el8.src.rpm",
+          "filename": "libXpm-3.5.12-11.el8.x86_64.rpm"
+        },
+        {
+          "name": "libXpm-devel",
+          "epoch": "0",
+          "version": "3.5.12",
+          "release": "11.el8",
+          "arch": "i686",
+          "src": "libXpm-3.5.12-11.el8.src.rpm",
+          "filename": "libXpm-devel-3.5.12-11.el8.i686.rpm"
+        },
+        {
+          "name": "libXpm-devel",
+          "epoch": "0",
+          "version": "3.5.12",
+          "release": "11.el8",
+          "arch": "x86_64",
+          "src": "libXpm-3.5.12-11.el8.src.rpm",
+          "filename": "libXpm-devel-3.5.12-11.el8.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
+    {
+      "name": "libXpm",
+      "epoch": "0",
+      "version": "3.5.12",
+      "release": "11.el8",
+      "arch": "i686",
+      "src": "libXpm-3.5.12-11.el8.src.rpm",
+      "filename": "libXpm-3.5.12-11.el8.i686.rpm"
+    },
     {
       "name": "libXpm",
       "epoch": "0",
@@ -18,6 +69,15 @@
       "arch": "x86_64",
       "src": "libXpm-3.5.12-11.el8.src.rpm",
       "filename": "libXpm-3.5.12-11.el8.x86_64.rpm"
+    },
+    {
+      "name": "libXpm-devel",
+      "epoch": "0",
+      "version": "3.5.12",
+      "release": "11.el8",
+      "arch": "i686",
+      "src": "libXpm-3.5.12-11.el8.src.rpm",
+      "filename": "libXpm-devel-3.5.12-11.el8.i686.rpm"
     },
     {
       "name": "libXpm-devel",
@@ -57,6 +117,18 @@
       "id": "RLSA-2024:2974",
       "title": "RLSA-2024:2974",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:2974",
+      "id": "RHSA-2024:2974",
+      "title": "Red Hat RHSA-2024:2974",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

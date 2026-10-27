@@ -1,0 +1,90 @@
+{
+  "id": "RLSA-2026:29898",
+  "title": "Moderate: libpng security update",
+  "issued": {
+    "date": "2026-06-26 00:00:49"
+  },
+  "updated": {
+    "date": "2026-07-10 00:06:30"
+  },
+  "severity": "Moderate",
+  "description": "The libpng packages contain a library of functions for creating and manipulating Portable Network Graphics (PNG) image format files.\n\nSecurity Fix(es):\n\n* libpng: libpng: Arbitrary code execution due to use-after-free vulnerability (CVE-2026-33416)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libpng",
+          "epoch": "2",
+          "version": "1.6.34",
+          "release": "11.el8_10",
+          "arch": "aarch64",
+          "src": "libpng-1.6.34-11.el8_10.src.rpm",
+          "filename": "libpng-1.6.34-11.el8_10.aarch64.rpm"
+        },
+        {
+          "name": "libpng-devel",
+          "epoch": "2",
+          "version": "1.6.34",
+          "release": "11.el8_10",
+          "arch": "aarch64",
+          "src": "libpng-1.6.34-11.el8_10.src.rpm",
+          "filename": "libpng-devel-1.6.34-11.el8_10.aarch64.rpm"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "libpng",
+      "epoch": "2",
+      "version": "1.6.34",
+      "release": "11.el8_10",
+      "arch": "aarch64",
+      "src": "libpng-1.6.34-11.el8_10.src.rpm",
+      "filename": "libpng-1.6.34-11.el8_10.aarch64.rpm"
+    },
+    {
+      "name": "libpng-devel",
+      "epoch": "2",
+      "version": "1.6.34",
+      "release": "11.el8_10",
+      "arch": "aarch64",
+      "src": "libpng-1.6.34-11.el8_10.src.rpm",
+      "filename": "libpng-devel-1.6.34-11.el8_10.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33416",
+      "id": "CVE-2026-33416",
+      "title": "CVE-2026-33416",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2451805",
+      "id": "2451805",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.rockylinux.org/RLSA-2026:29898",
+      "id": "RLSA-2026:29898",
+      "title": "RLSA-2026:29898",
+      "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:29898",
+      "id": "RHSA-2026:29898",
+      "title": "Red Hat RHSA-2026:29898",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
+    }
+  ],
+  "cveids": [
+    "CVE-2026-33416"
+  ]
+}

@@ -9,6 +9,21 @@
   },
   "severity": "Important",
   "description": "The libexif packages provide a library for extracting extra information from image files.\n\nSecurity Fix(es):\n\n* libexif: out of bounds write due to an integer overflow in exif-entry.c (CVE-2020-0452)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libexif",
+          "epoch": "0",
+          "version": "0.6.22",
+          "release": "5.el8_3",
+          "arch": "aarch64",
+          "src": "libexif-0.6.22-5.el8_3.src.rpm",
+          "filename": "libexif-0.6.22-5.el8_3.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "libexif",
@@ -37,6 +52,18 @@
       "id": "RLSA-2020:5393",
       "title": "RLSA-2020:5393",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:5393",
+      "id": "RHSA-2020:5393",
+      "title": "Red Hat RHSA-2020:5393",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

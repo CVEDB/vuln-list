@@ -9,6 +9,21 @@
   },
   "severity": "Important",
   "description": "Bubblewrap (/usr/bin/bwrap) is a core execution engine for unprivileged containers that works as a setuid binary on kernels without user namespaces.\n\nSecurity Fix(es):\n\n* flatpak: Access to files outside sandbox for apps using persistent= (--persist) (CVE-2024-42472)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "bubblewrap",
+          "epoch": "0",
+          "version": "0.4.0",
+          "release": "2.el8_10",
+          "arch": "aarch64",
+          "src": "bubblewrap-0.4.0-2.el8_10.src.rpm",
+          "filename": "bubblewrap-0.4.0-2.el8_10.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "bubblewrap",
@@ -32,6 +47,18 @@
       "id": "RLSA-2024:6422",
       "title": "RLSA-2024:6422",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:6422",
+      "id": "RHSA-2024:6422",
+      "title": "Red Hat RHSA-2024:6422",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

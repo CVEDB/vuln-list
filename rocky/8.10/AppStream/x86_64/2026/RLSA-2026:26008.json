@@ -1,0 +1,115 @@
+{
+  "id": "RLSA-2026:26008",
+  "title": "Important: redis:6 security update",
+  "issued": {
+    "date": "2026-06-17 06:00:26"
+  },
+  "updated": {
+    "date": "2026-07-01 06:04:53"
+  },
+  "severity": "Important",
+  "description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: RESTORE invalid memory access may allow remote code execution (CVE-2026-25243)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "module": {
+        "name": "redis",
+        "stream": "6",
+        "version": "8100020260616102157",
+        "context": "e155f54d",
+        "arch": "x86_64"
+      },
+      "packages": [
+        {
+          "name": "redis",
+          "epoch": "0",
+          "version": "6.2.22",
+          "release": "1.module+el8.10.0+40211+0d1d5c90",
+          "arch": "x86_64",
+          "src": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.src.rpm",
+          "filename": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.x86_64.rpm"
+        },
+        {
+          "name": "redis-devel",
+          "epoch": "0",
+          "version": "6.2.22",
+          "release": "1.module+el8.10.0+40211+0d1d5c90",
+          "arch": "x86_64",
+          "src": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.src.rpm",
+          "filename": "redis-devel-6.2.22-1.module+el8.10.0+40211+0d1d5c90.x86_64.rpm"
+        },
+        {
+          "name": "redis-doc",
+          "epoch": "0",
+          "version": "6.2.22",
+          "release": "1.module+el8.10.0+40211+0d1d5c90",
+          "arch": "noarch",
+          "src": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.src.rpm",
+          "filename": "redis-doc-6.2.22-1.module+el8.10.0+40211+0d1d5c90.noarch.rpm"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "redis",
+      "epoch": "0",
+      "version": "6.2.22",
+      "release": "1.module+el8.10.0+40211+0d1d5c90",
+      "arch": "x86_64",
+      "src": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.src.rpm",
+      "filename": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.x86_64.rpm"
+    },
+    {
+      "name": "redis-devel",
+      "epoch": "0",
+      "version": "6.2.22",
+      "release": "1.module+el8.10.0+40211+0d1d5c90",
+      "arch": "x86_64",
+      "src": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.src.rpm",
+      "filename": "redis-devel-6.2.22-1.module+el8.10.0+40211+0d1d5c90.x86_64.rpm"
+    },
+    {
+      "name": "redis-doc",
+      "epoch": "0",
+      "version": "6.2.22",
+      "release": "1.module+el8.10.0+40211+0d1d5c90",
+      "arch": "noarch",
+      "src": "redis-6.2.22-1.module+el8.10.0+40211+0d1d5c90.src.rpm",
+      "filename": "redis-doc-6.2.22-1.module+el8.10.0+40211+0d1d5c90.noarch.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25243",
+      "id": "CVE-2026-25243",
+      "title": "CVE-2026-25243",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2466828",
+      "id": "2466828",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.rockylinux.org/RLSA-2026:26008",
+      "id": "RLSA-2026:26008",
+      "title": "RLSA-2026:26008",
+      "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:26008",
+      "id": "RHSA-2026:26008",
+      "title": "Red Hat RHSA-2026:26008",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
+    }
+  ],
+  "cveids": [
+    "CVE-2026-25243"
+  ]
+}

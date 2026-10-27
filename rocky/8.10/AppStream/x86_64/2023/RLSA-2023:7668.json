@@ -1,0 +1,121 @@
+{
+  "id": "RLSA-2023:7668",
+  "title": "Important: squid:4 security update",
+  "issued": {
+    "date": "2023-12-06 23:16:33"
+  },
+  "updated": {
+    "date": "2026-04-01 06:06:57"
+  },
+  "severity": "Important",
+  "description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: DoS against HTTP and HTTPS (CVE-2023-5824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "module": {
+        "name": "squid",
+        "stream": "4",
+        "version": "8090020231206161717",
+        "context": "b46abd14",
+        "arch": "x86_64"
+      },
+      "packages": [
+        {
+          "name": "libecap",
+          "epoch": "0",
+          "version": "1.0.1",
+          "release": "2.module+el8.9.0+1437+df5ea8f0",
+          "arch": "x86_64",
+          "src": "libecap-1.0.1-2.module+el8.9.0+1437+df5ea8f0.src.rpm",
+          "filename": "libecap-1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm"
+        },
+        {
+          "name": "libecap-devel",
+          "epoch": "0",
+          "version": "1.0.1",
+          "release": "2.module+el8.9.0+1437+df5ea8f0",
+          "arch": "x86_64",
+          "src": "libecap-1.0.1-2.module+el8.9.0+1437+df5ea8f0.src.rpm",
+          "filename": "libecap-devel-1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "libecap",
+      "epoch": "0",
+      "version": "1.0.1",
+      "release": "2.module+el8.9.0+1437+df5ea8f0",
+      "arch": "x86_64",
+      "src": "libecap-1.0.1-2.module+el8.9.0+1437+df5ea8f0.src.rpm",
+      "filename": "libecap-1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm"
+    },
+    {
+      "name": "libecap-devel",
+      "epoch": "0",
+      "version": "1.0.1",
+      "release": "2.module+el8.9.0+1437+df5ea8f0",
+      "arch": "x86_64",
+      "src": "libecap-1.0.1-2.module+el8.9.0+1437+df5ea8f0.src.rpm",
+      "filename": "libecap-devel-1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49288",
+      "id": "CVE-2023-49288",
+      "title": "CVE-2023-49288",
+      "type": "cve"
+    },
+    {
+      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5824",
+      "id": "CVE-2023-5824",
+      "title": "CVE-2023-5824",
+      "type": "cve"
+    },
+    {
+      "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-54574",
+      "id": "CVE-2025-54574",
+      "title": "CVE-2025-54574",
+      "type": "cve"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2245914",
+      "id": "2245914",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2252918",
+      "id": "2252918",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/show_bug.cgi?id=2386026",
+      "id": "2386026",
+      "type": "bugzilla"
+    },
+    {
+      "href": "https://errata.rockylinux.org/RLSA-2023:7668",
+      "id": "RLSA-2023:7668",
+      "title": "RLSA-2023:7668",
+      "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2023:7668",
+      "id": "RHSA-2023:7668",
+      "title": "Red Hat RHSA-2023:7668",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
+    }
+  ],
+  "cveids": [
+    "CVE-2023-49288",
+    "CVE-2023-5824",
+    "CVE-2025-54574"
+  ]
+}

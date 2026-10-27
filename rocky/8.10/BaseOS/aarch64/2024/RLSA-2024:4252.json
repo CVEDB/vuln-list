@@ -9,6 +9,21 @@
   },
   "severity": "Moderate",
   "description": "libnghttp2 is a library implementing the Hypertext Transfer Protocol version 2 (HTTP/2) protocol in C.\n\nSecurity Fix(es):\n\n* nghttp2: CONTINUATION frames DoS (CVE-2024-28182)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libnghttp2",
+          "epoch": "0",
+          "version": "1.33.0",
+          "release": "6.el8_10.1",
+          "arch": "aarch64",
+          "src": "nghttp2-1.33.0-6.el8_10.1.src.rpm",
+          "filename": "libnghttp2-1.33.0-6.el8_10.1.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "libnghttp2",
@@ -37,6 +52,18 @@
       "id": "RLSA-2024:4252",
       "title": "RLSA-2024:4252",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:4252",
+      "id": "RHSA-2024:4252",
+      "title": "Red Hat RHSA-2024:4252",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

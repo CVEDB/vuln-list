@@ -9,6 +9,30 @@
   },
   "severity": "Moderate",
   "description": "The libsepol library provides an API for the manipulation of SELinux binary policies. It is used by checkpolicy (the policy compiler) and similar tools, as well as by programs like load_policy that need to perform specific transformations on binary policies (for example, customizing policy boolean settings).\n\nSecurity Fix(es):\n\n* libsepol: use-after-free in __cil_verify_classperms() (CVE-2021-36084)\n\n* libsepol: use-after-free in __cil_verify_classperms() (CVE-2021-36085)\n\n* libsepol: use-after-free in cil_reset_classpermission() (CVE-2021-36086)\n\n* libsepol: heap-based buffer overflow in ebitmap_match_any() (CVE-2021-36087)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libsepol",
+          "epoch": "0",
+          "version": "2.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "libsepol-2.9-3.el8.src.rpm",
+          "filename": "libsepol-2.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "libsepol-devel",
+          "epoch": "0",
+          "version": "2.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "libsepol-2.9-3.el8.src.rpm",
+          "filename": "libsepol-devel-2.9-3.el8.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "libsepol",
@@ -79,6 +103,18 @@
       "id": "RLSA-2021:4513",
       "title": "RLSA-2021:4513",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4513",
+      "id": "RHSA-2021:4513",
+      "title": "Red Hat RHSA-2021:4513",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

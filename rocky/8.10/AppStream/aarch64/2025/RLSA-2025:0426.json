@@ -9,6 +9,174 @@
   },
   "severity": "Moderate",
   "description": "The OpenJDK 21 packages provide the OpenJDK 21 Java Runtime Environment and the OpenJDK 21 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* JDK: Enhance array handling (CVE-2025-21502)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "java-21-openjdk",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-demo",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-demo-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-devel",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-devel-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-headless",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-headless-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc-zip",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-zip-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-jmods",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-jmods-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-src",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-src-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-static-libs",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el8",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-static-libs-21.0.6.0.7-1.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-demo",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-demo-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-devel",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-devel-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-headless",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-headless-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-javadoc-zip",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-javadoc-zip-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-jmods",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-jmods-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-src",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-src-21.0.6.0.7-1.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-21-openjdk-static-libs",
+          "epoch": "1",
+          "version": "21.0.6.0.7",
+          "release": "1.el9",
+          "arch": "aarch64",
+          "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+          "filename": "java-21-openjdk-static-libs-21.0.6.0.7-1.el9.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "java-21-openjdk",
@@ -16,7 +184,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -25,7 +193,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-demo-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -34,7 +202,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-devel-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -43,7 +211,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-headless-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -52,7 +220,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-javadoc-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -61,7 +229,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-javadoc-zip-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -70,7 +238,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-jmods-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -79,7 +247,7 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-src-21.0.6.0.7-1.el8.aarch64.rpm"
     },
     {
@@ -88,8 +256,89 @@
       "version": "21.0.6.0.7",
       "release": "1.el8",
       "arch": "aarch64",
-      "src": "java-21-openjdk-21.0.6.0.7-1.el9.src.rpm",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
       "filename": "java-21-openjdk-static-libs-21.0.6.0.7-1.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-demo",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-demo-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-devel",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-devel-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-headless",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-headless-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-javadoc",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-javadoc-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-javadoc-zip",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-javadoc-zip-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-jmods",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-jmods-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-src",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-src-21.0.6.0.7-1.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-21-openjdk-static-libs",
+      "epoch": "1",
+      "version": "21.0.6.0.7",
+      "release": "1.el9",
+      "arch": "aarch64",
+      "src": "java-21-openjdk-21.0.6.0.7-1.el8.src.rpm",
+      "filename": "java-21-openjdk-static-libs-21.0.6.0.7-1.el9.aarch64.rpm"
     }
   ],
   "references": [
@@ -104,6 +353,18 @@
       "id": "RLSA-2025:0426",
       "title": "RLSA-2025:0426",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:0426",
+      "id": "RHSA-2025:0426",
+      "title": "Red Hat RHSA-2025:0426",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

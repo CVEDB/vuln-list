@@ -9,6 +9,174 @@
   },
   "severity": "Moderate",
   "description": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: long Exception message leading to crash (8319851) (CVE-2024-21011)\n\n* OpenJDK: integer overflow in C1 compiler address generation (8322122) (CVE-2024-21068)\n\n* OpenJDK: Pack200 excessive memory allocation (8322114) (CVE-2024-21085)\n\n* OpenJDK: C2 compilation fails with \"Exceeded _node_regs array\" (8317507) (CVE-2024-21094)\n\n* OpenJDK: HTTP/2 client improper reverse DNS lookup (8315708) (CVE-2024-21012)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "java-11-openjdk",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-demo",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-demo-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-devel",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-devel-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-headless",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-headless-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-javadoc",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-javadoc-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-javadoc-zip",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-javadoc-zip-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-jmods",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-jmods-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-src",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-src-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-static-libs",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el8",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-static-libs-11.0.23.0.9-3.el8.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-demo",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-demo-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-devel",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-devel-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-headless",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-headless-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-javadoc",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-javadoc-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-javadoc-zip",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-javadoc-zip-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-jmods",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-jmods-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-src",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-src-11.0.23.0.9-3.el9.aarch64.rpm"
+        },
+        {
+          "name": "java-11-openjdk-static-libs",
+          "epoch": "1",
+          "version": "11.0.23.0.9",
+          "release": "3.el9",
+          "arch": "aarch64",
+          "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+          "filename": "java-11-openjdk-static-libs-11.0.23.0.9-3.el9.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "java-11-openjdk",
@@ -16,7 +184,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -25,7 +193,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-demo-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -34,7 +202,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-devel-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -43,7 +211,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-headless-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -52,7 +220,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-javadoc-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -61,7 +229,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-javadoc-zip-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -70,7 +238,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-jmods-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -79,7 +247,7 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-src-11.0.23.0.9-3.el8.aarch64.rpm"
     },
     {
@@ -88,8 +256,89 @@
       "version": "11.0.23.0.9",
       "release": "3.el8",
       "arch": "aarch64",
-      "src": "java-11-openjdk-11.0.23.0.9-3.el9.src.rpm",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
       "filename": "java-11-openjdk-static-libs-11.0.23.0.9-3.el8.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-demo",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-demo-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-devel",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-devel-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-headless",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-headless-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-javadoc",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-javadoc-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-javadoc-zip",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-javadoc-zip-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-jmods",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-jmods-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-src",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-src-11.0.23.0.9-3.el9.aarch64.rpm"
+    },
+    {
+      "name": "java-11-openjdk-static-libs",
+      "epoch": "1",
+      "version": "11.0.23.0.9",
+      "release": "3.el9",
+      "arch": "aarch64",
+      "src": "java-11-openjdk-11.0.23.0.9-3.el8.src.rpm",
+      "filename": "java-11-openjdk-static-libs-11.0.23.0.9-3.el9.aarch64.rpm"
     }
   ],
   "references": [
@@ -153,6 +402,18 @@
       "id": "RLSA-2024:1822",
       "title": "RLSA-2024:1822",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:1822",
+      "id": "RHSA-2024:1822",
+      "title": "Red Hat RHSA-2024:1822",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

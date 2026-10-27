@@ -9,6 +9,21 @@
   },
   "severity": "Low",
   "description": "GNU nano is a small and friendly text editor.\n\nSecurity Fix(es):\n\n* nano: running `chmod` and `chown` on the filename allows malicious user to replace the emergency file with a malicious symlink to a root-owned file (CVE-2024-5742)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "nano",
+          "epoch": "0",
+          "version": "2.9.8",
+          "release": "3.el8_10",
+          "arch": "aarch64",
+          "src": "nano-2.9.8-3.el8_10.src.rpm",
+          "filename": "nano-2.9.8-3.el8_10.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "nano",
@@ -37,6 +52,18 @@
       "id": "RLSA-2024:6986",
       "title": "RLSA-2024:6986",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:6986",
+      "id": "RHSA-2024:6986",
+      "title": "Red Hat RHSA-2024:6986",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

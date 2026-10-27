@@ -9,6 +9,21 @@
   },
   "severity": "Moderate",
   "description": "libuv is a multi-platform support library with a focus on asynchronous I/O. \n\nSecurity Fix(es):\n\n* libuv: Improper Domain Lookup that potentially leads to SSRF attacks (CVE-2024-24806)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libuv",
+          "epoch": "1",
+          "version": "1.41.1",
+          "release": "2.el8_10",
+          "arch": "aarch64",
+          "src": "libuv-1.41.1-2.el8_10.src.rpm",
+          "filename": "libuv-1.41.1-2.el8_10.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "libuv",
@@ -37,6 +52,18 @@
       "id": "RLSA-2024:4247",
       "title": "RLSA-2024:4247",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:4247",
+      "id": "RHSA-2024:4247",
+      "title": "Red Hat RHSA-2024:4247",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

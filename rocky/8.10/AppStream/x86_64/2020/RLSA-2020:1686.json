@@ -9,7 +9,40 @@
   },
   "severity": "Low",
   "description": "The libmspack packages contain a library providing compression and extraction of the Cabinet (CAB) file format used by Microsoft.\n\nSecurity Fix(es):\n\n* libmspack: buffer overflow in function chmd_read_headers() (CVE-2019-1010305)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.2 Release Notes linked from the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libmspack",
+          "epoch": "0",
+          "version": "0.7",
+          "release": "0.3.alpha.el8.4",
+          "arch": "i686",
+          "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+          "filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm"
+        },
+        {
+          "name": "libmspack",
+          "epoch": "0",
+          "version": "0.7",
+          "release": "0.3.alpha.el8.4",
+          "arch": "x86_64",
+          "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+          "filename": "libmspack-0.7-0.3.alpha.el8.4.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
+    {
+      "name": "libmspack",
+      "epoch": "0",
+      "version": "0.7",
+      "release": "0.3.alpha.el8.4",
+      "arch": "i686",
+      "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+      "filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm"
+    },
     {
       "name": "libmspack",
       "epoch": "0",
@@ -42,6 +75,18 @@
       "id": "RLSA-2020:1686",
       "title": "RLSA-2020:1686",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2020:1686",
+      "id": "RHSA-2020:1686",
+      "title": "Red Hat RHSA-2020:1686",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

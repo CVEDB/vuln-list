@@ -9,6 +9,37 @@
   },
   "severity": "Important",
   "description": "Mailman is a program used to help manage e-mail discussion lists.\n\nSecurity Fix(es):\n\n* mailman: CSRF token bypass allows to perform CSRF attacks and admin takeover (CVE-2021-44227)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "module": {
+        "name": "mailman",
+        "stream": "2.1",
+        "version": "8050020211202160117",
+        "context": "fd901a62",
+        "arch": "x86_64"
+      },
+      "packages": [
+        {
+          "name": "mailman",
+          "epoch": "3",
+          "version": "2.1.29",
+          "release": "12.module+el8.5.0+717+27fd1ba7.2",
+          "arch": "x86_64",
+          "src": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.src.rpm",
+          "filename": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.x86_64.rpm"
+        },
+        {
+          "name": "mailman",
+          "epoch": "3",
+          "version": "2.1.29",
+          "release": "12.module+el8.5.0+703+19300c10",
+          "arch": "x86_64",
+          "src": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.src.rpm",
+          "filename": "mailman-2.1.29-12.module+el8.5.0+703+19300c10.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "mailman",
@@ -18,6 +49,15 @@
       "arch": "x86_64",
       "src": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.src.rpm",
       "filename": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.x86_64.rpm"
+    },
+    {
+      "name": "mailman",
+      "epoch": "3",
+      "version": "2.1.29",
+      "release": "12.module+el8.5.0+703+19300c10",
+      "arch": "x86_64",
+      "src": "mailman-2.1.29-12.module+el8.5.0+717+27fd1ba7.2.src.rpm",
+      "filename": "mailman-2.1.29-12.module+el8.5.0+703+19300c10.x86_64.rpm"
     }
   ],
   "references": [
@@ -37,6 +77,18 @@
       "id": "RLSA-2021:4916",
       "title": "RLSA-2021:4916",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2021:4916",
+      "id": "RHSA-2021:4916",
+      "title": "Red Hat RHSA-2021:4916",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

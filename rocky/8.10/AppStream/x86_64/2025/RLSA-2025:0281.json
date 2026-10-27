@@ -9,6 +9,21 @@
   },
   "severity": "Important",
   "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nSecurity Fix(es):\n\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 134, Thunderbird 134, Firefox ESR 128.6, and Thunderbird 128.6 (CVE-2025-0243)\n\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 134, Thunderbird 134, Firefox ESR 115.19, Firefox ESR 128.6, Thunderbird 115.19, and Thunderbird 128.6 (CVE-2025-0242)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "thunderbird",
+          "epoch": "0",
+          "version": "128.6.0",
+          "release": "3.el8_10",
+          "arch": "x86_64",
+          "src": "thunderbird-128.6.0-3.el8_10.src.rpm",
+          "filename": "thunderbird-128.6.0-3.el8_10.x86_64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "thunderbird",
@@ -48,6 +63,18 @@
       "id": "RLSA-2025:0281",
       "title": "RLSA-2025:0281",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:0281",
+      "id": "RHSA-2025:0281",
+      "title": "Red Hat RHSA-2025:0281",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [

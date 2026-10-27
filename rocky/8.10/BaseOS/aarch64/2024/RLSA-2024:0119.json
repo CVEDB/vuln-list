@@ -9,6 +9,48 @@
   },
   "severity": "Moderate",
   "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: crafted xml can cause global buffer overflow (CVE-2023-39615)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "collections": [
+    {
+      "packages": [
+        {
+          "name": "libxml2",
+          "epoch": "0",
+          "version": "2.9.7",
+          "release": "18.el8",
+          "arch": "aarch64",
+          "src": "libxml2-2.9.7-18.el8_9.src.rpm",
+          "filename": "libxml2-2.9.7-18.el8.aarch64.rpm"
+        },
+        {
+          "name": "libxml2",
+          "epoch": "0",
+          "version": "2.9.7",
+          "release": "18.el8_9",
+          "arch": "aarch64",
+          "src": "libxml2-2.9.7-18.el8_9.src.rpm",
+          "filename": "libxml2-2.9.7-18.el8_9.aarch64.rpm"
+        },
+        {
+          "name": "python3-libxml2",
+          "epoch": "0",
+          "version": "2.9.7",
+          "release": "18.el8_9",
+          "arch": "aarch64",
+          "src": "libxml2-2.9.7-18.el8_9.src.rpm",
+          "filename": "python3-libxml2-2.9.7-18.el8_9.aarch64.rpm"
+        },
+        {
+          "name": "python3-libxml2",
+          "epoch": "0",
+          "version": "2.9.7",
+          "release": "18.el8",
+          "arch": "aarch64",
+          "src": "libxml2-2.9.7-18.el8_9.src.rpm",
+          "filename": "python3-libxml2-2.9.7-18.el8.aarch64.rpm"
+        }
+      ]
+    }
+  ],
   "packages": [
     {
       "name": "libxml2",
@@ -16,7 +58,7 @@
       "version": "2.9.7",
       "release": "18.el8",
       "arch": "aarch64",
-      "src": "libxml2-2.9.7-18.el8.src.rpm",
+      "src": "libxml2-2.9.7-18.el8_9.src.rpm",
       "filename": "libxml2-2.9.7-18.el8.aarch64.rpm"
     },
     {
@@ -25,7 +67,7 @@
       "version": "2.9.7",
       "release": "18.el8_9",
       "arch": "aarch64",
-      "src": "libxml2-2.9.7-18.el8.src.rpm",
+      "src": "libxml2-2.9.7-18.el8_9.src.rpm",
       "filename": "libxml2-2.9.7-18.el8_9.aarch64.rpm"
     },
     {
@@ -34,7 +76,7 @@
       "version": "2.9.7",
       "release": "18.el8_9",
       "arch": "aarch64",
-      "src": "libxml2-2.9.7-18.el8.src.rpm",
+      "src": "libxml2-2.9.7-18.el8_9.src.rpm",
       "filename": "python3-libxml2-2.9.7-18.el8_9.aarch64.rpm"
     },
     {
@@ -43,7 +85,7 @@
       "version": "2.9.7",
       "release": "18.el8",
       "arch": "aarch64",
-      "src": "libxml2-2.9.7-18.el8.src.rpm",
+      "src": "libxml2-2.9.7-18.el8_9.src.rpm",
       "filename": "python3-libxml2-2.9.7-18.el8.aarch64.rpm"
     }
   ],
@@ -64,6 +106,18 @@
       "id": "RLSA-2024:0119",
       "title": "RLSA-2024:0119",
       "type": "self"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2024:0119",
+      "id": "RHSA-2024:0119",
+      "title": "Red Hat RHSA-2024:0119",
+      "type": "vendor"
+    },
+    {
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "id": "CC-BY-4.0",
+      "title": "License: CC-BY-4.0",
+      "type": "other"
     }
   ],
   "cveids": [
