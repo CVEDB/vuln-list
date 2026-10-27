@@ -31,6 +31,15 @@
       "CVE-2024-23651",
       "CVE-2024-23652",
       "CVE-2024-23653"
+    ],
+    "4.3.5-r0": [
+      "CVE-2025-64750"
+    ],
+    "4.3.6-r0": [
+      "CVE-2025-67499"
+    ],
+    "4.4.2-r0": [
+      "CVE-2026-47215 / GHSA-wqcr-7rf3-f64m"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

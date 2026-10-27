@@ -1,11 +1,17 @@
 {
   "name": "coturn",
   "secfixes": {
+    "4.10.0-r0": [
+      "CVE-2026-40613"
+    ],
     "4.5.1.3-r0": [
       "CVE-2020-4067"
     ],
     "4.5.2-r0": [
       "CVE-2020-26262"
+    ],
+    "4.9.0-r0": [
+      "CVE-2026-27624"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",

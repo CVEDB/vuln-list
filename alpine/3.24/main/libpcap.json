@@ -1,0 +1,41 @@
+{
+  "name": "libpcap",
+  "secfixes": {
+    "0": [
+      "CVE-2025-11964"
+    ],
+    "1.10.6-r0": [
+      "CVE-2025-11961"
+    ],
+    "1.10.7-r0": [
+      "CVE-2026-0799",
+      "CVE-2026-6244",
+      "CVE-2026-6554",
+      "CVE-2026-31911",
+      "CVE-2026-31912"
+    ],
+    "1.9.1-r0": [
+      "CVE-2018-16301",
+      "CVE-2019-15161",
+      "CVE-2019-15162",
+      "CVE-2019-15163",
+      "CVE-2019-15164",
+      "CVE-2019-15165"
+    ]
+  },
+  "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
+  "archs": [
+    "aarch64",
+    "armhf",
+    "armv7",
+    "loongarch64",
+    "ppc64le",
+    "riscv64",
+    "s390x",
+    "x86",
+    "x86_64"
+  ],
+  "urlprefix": "https://dl-cdn.alpinelinux.org/alpine",
+  "reponame": "main",
+  "distroversion": "v3.24"
+}
