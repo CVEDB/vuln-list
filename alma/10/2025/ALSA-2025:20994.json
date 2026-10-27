@@ -1,0 +1,188 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:20994",
+  "description": "AlmaLinux Identity Management (IdM) is a centralized authentication, identity management, and authorization solution for both traditional and cloud-based enterprise environments.  \n\nSecurity Fix(es):  \n\n  * FreeIPA: idm: Privilege escalation from host to domain admin in FreeIPA (CVE-2025-7493)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1762819200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "python3-ipaclient",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "python3-ipaclient-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "1e28ee28b917d0ed61bbb988255ead240484132e868554759101aa0d565cdf57",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ipa-client-common",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "ipa-client-common-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "376fa77e7e52639583dfac92fcbf84f96bca35d883cd97d2752fa18c555d9c64",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-ipatests",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "python3-ipatests-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "3e3662f048ff47584d06f1f56b5ec7d326b91747469a6343ade29d870ef96426",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ipa-selinux-nfast",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "ipa-selinux-nfast-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "56185a3d8b003718879be77f9c83ef6054e8c4760d036b80b70a295e2ac3536b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ipa-server-common",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "ipa-server-common-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "59dd95cde9c15e5af243ed6bee91ddc5e15945cc14b3fb9826452a6d0cb26d3e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ipa-server-dns",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "ipa-server-dns-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "70828fc2c81a8aefa2701e3a9087ab82ec8c754bc9854ec41691e24c96bc6cff",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ipa-selinux-luna",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "ipa-selinux-luna-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "7897ed959fa71f31826c7454dd7cc21f8489196358eb8bccdf372ea3a3fa2c29",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-ipaserver",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "python3-ipaserver-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "9f86bf32f3eb2276cbbdeedf501d93dda0a17bc6d330c0b26a285a96622bcce1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ipa-selinux",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "ipa-selinux-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "a2aaff0c358250a9c92f250523e8685e21a2082bc74283bea6d9d9272bc2d295",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ipa-common",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "ipa-common-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "e065fac6be188f69a86ce3909bbab62ccfba4f634df2446292b89b03c609666e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-ipalib",
+        "version": "4.12.2",
+        "release": "24.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ipa-4.12.2-24.el10_1.1.src.rpm",
+        "filename": "python3-ipalib-4.12.2-24.el10_1.1.noarch.rpm",
+        "sum": "f13cc6675a7f285a61a8f25ef13cd08cd898f3262e692ea1f27de78c9f95de71",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2389448",
+      "type": "bugzilla",
+      "id": "2389448",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-7493",
+      "type": "cve",
+      "id": "CVE-2025-7493",
+      "title": "CVE-2025-7493"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:20994",
+      "type": "rhsa",
+      "id": "RHSA-2025:20994",
+      "title": "RHSA-2025:20994"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-20994.html",
+      "type": "self",
+      "id": "ALSA-2025:20994",
+      "title": "ALSA-2025:20994"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "ipa security update",
+  "title": "Important: ipa security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1764925524000
+  },
+  "version": "3"
+}

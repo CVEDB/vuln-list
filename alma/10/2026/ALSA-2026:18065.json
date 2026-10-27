@@ -1,0 +1,224 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:18065",
+  "description": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.  \n\nSecurity Fix(es):  \n\n  * erb: ERB: Arbitrary code execution via deserialization bypass (CVE-2026-41316)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1779062400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "rubygem-rss",
+        "version": "0.3.1",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-rss-0.3.1-12.el10_1.noarch.rpm",
+        "sum": "1d6ce5b2df6a3c2cb96f7bb0876e3403fd8cc9dd4725fb0f8d784d311faa44f1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-doc",
+        "version": "3.3.10",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "ruby-doc-3.3.10-12.el10_1.noarch.rpm",
+        "sum": "1dc3201acb37e02b7a10c5379c6661f06102eca93e72e0d962d082e92401246b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-minitest",
+        "version": "5.20.0",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-minitest-5.20.0-12.el10_1.noarch.rpm",
+        "sum": "20b709f6262e3d72ded9cf8976cb92fbdfb99c2ca19f59c21713278bcb852a81",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-irb",
+        "version": "1.13.1",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-irb-1.13.1-12.el10_1.noarch.rpm",
+        "sum": "2e5cc8766e4390c807aba6bb4fea5b071ca6cc3432043097cd0e4c3b7117e869",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-power_assert",
+        "version": "2.0.3",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-power_assert-2.0.3-12.el10_1.noarch.rpm",
+        "sum": "2f57a40c4ace00b519b3ba1f854e786342304c85fd71db351ee88eb0df3d842a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-rake",
+        "version": "13.1.0",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-rake-13.1.0-12.el10_1.noarch.rpm",
+        "sum": "5281a9c6f4002817832f4a4c2f2eb3fe22e0865b1bfd825f7540119177b643b5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygems",
+        "version": "3.5.22",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygems-3.5.22-12.el10_1.noarch.rpm",
+        "sum": "615b63152271dcf5db817f5a34f82a1afe84641688cd2c06c3df67001f07a626",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-rdoc",
+        "version": "6.6.3.1",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-rdoc-6.6.3.1-12.el10_1.noarch.rpm",
+        "sum": "6fea1cdf73490412d0ddd620dd81c74fa1cdc2f10ffe3473608c6f31c7830999",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-default-gems",
+        "version": "3.3.10",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "ruby-default-gems-3.3.10-12.el10_1.noarch.rpm",
+        "sum": "71336de45838042488655b02bea61b62400f4d94b04ed23d206415cd8b15ec26",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-rexml",
+        "version": "3.4.4",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-rexml-3.4.4-12.el10_1.noarch.rpm",
+        "sum": "98c79088c5d4b9effe0618523a7f9fd20d6604837195598c91cc0fefc1a5e9b0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-typeprof",
+        "version": "0.21.9",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-typeprof-0.21.9-12.el10_1.noarch.rpm",
+        "sum": "9caae83a9a9cd8259017898d5c6e52aca0e0b184f310aee284d785127c93f834",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygems-devel",
+        "version": "3.5.22",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygems-devel-3.5.22-12.el10_1.noarch.rpm",
+        "sum": "a4d9e56afe95335efefaee74ee6f7f4111f27816169f5fcd954a9b8412c4f78d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-bundler",
+        "version": "2.5.22",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-bundler-2.5.22-12.el10_1.noarch.rpm",
+        "sum": "c069a2edb81761f5fd0588c1baf91bbf67a19c7339badeed3027a3363a38c31f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-test-unit",
+        "version": "3.6.1",
+        "release": "12.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-12.el10_1.src.rpm",
+        "filename": "rubygem-test-unit-3.6.1-12.el10_1.noarch.rpm",
+        "sum": "cc92b48f4586b1e1ebbdac44d3f38e4df1939c1d3e032d1797d5c9dbf4d9164a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2461369",
+      "type": "bugzilla",
+      "id": "2461369",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-41316",
+      "type": "cve",
+      "id": "CVE-2026-41316",
+      "title": "CVE-2026-41316"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:18065",
+      "type": "rhsa",
+      "id": "RHSA-2026:18065",
+      "title": "RHSA-2026:18065"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-18065.html",
+      "type": "self",
+      "id": "ALSA-2026:18065",
+      "title": "ALSA-2026:18065"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "ruby security update",
+  "title": "Important: ruby security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1779227679000
+  },
+  "version": "3"
+}

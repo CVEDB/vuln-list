@@ -1,0 +1,242 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:23141",
+  "description": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.  \n\nSecurity Fix(es):  \n\n  * resolv: Denial of Service in resolv gem (CVE-2025-24294)\n  * rexml: REXML denial of service (CVE-2025-58767)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1765411200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "rubygems",
+        "version": "3.5.22",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygems-3.5.22-11.el10_1.noarch.rpm",
+        "sum": "0666fdab28a0e965384919259f9630b0f11b3475f24ec8939ea58c8003c85cf6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-minitest",
+        "version": "5.20.0",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-minitest-5.20.0-11.el10_1.noarch.rpm",
+        "sum": "070874f4e2e655f63af68ae3885b9ad4255fa451cc0d31890aac36758b7d7e3b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-default-gems",
+        "version": "3.3.10",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "ruby-default-gems-3.3.10-11.el10_1.noarch.rpm",
+        "sum": "16b6b44625ccfbc83f54d67bc3ad5da2037d33024c83b43af79deb9373f2fa1f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-rexml",
+        "version": "3.4.4",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-rexml-3.4.4-11.el10_1.noarch.rpm",
+        "sum": "30963cfa37fdcc96d9747db3162d8dfc9e99c21ab2893378a00a2a35d7a9cd0a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-rake",
+        "version": "13.1.0",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-rake-13.1.0-11.el10_1.noarch.rpm",
+        "sum": "5f505877ee66db3ae64cd7863a62fbd47a230f8117422f6088a929c748b11f54",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-rss",
+        "version": "0.3.1",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-rss-0.3.1-11.el10_1.noarch.rpm",
+        "sum": "60428acd0b2cd43b81c368fa5757ec8f8e4db8d1d9a8e1f863f6d1594a6ddeba",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-typeprof",
+        "version": "0.21.9",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-typeprof-0.21.9-11.el10_1.noarch.rpm",
+        "sum": "8cb5fb479f86a92c73eed9b437c3540cd4f1a2f89359413b4c242c1fe245fd12",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-test-unit",
+        "version": "3.6.1",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-test-unit-3.6.1-11.el10_1.noarch.rpm",
+        "sum": "976e34171b1b9fea97e4cd4b5b76706e88610a0c6ff18364f5d6af4384d34dc8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygems-devel",
+        "version": "3.5.22",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygems-devel-3.5.22-11.el10_1.noarch.rpm",
+        "sum": "a09749caf52d7e04775771a6909ce2568838cd0f893ce267816ee624d4faa564",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-rdoc",
+        "version": "6.6.3.1",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-rdoc-6.6.3.1-11.el10_1.noarch.rpm",
+        "sum": "c1304c47957c90c846da1f97aa135006f36f5dcf6476b8e4dc7ed8d5a98d5044",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-bundler",
+        "version": "2.5.22",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-bundler-2.5.22-11.el10_1.noarch.rpm",
+        "sum": "cb029511f250a94dade1e7478f54dc6ddb7010756eb4d23d3c4a7f7595dca679",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-power_assert",
+        "version": "2.0.3",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-power_assert-2.0.3-11.el10_1.noarch.rpm",
+        "sum": "d787064ace04ce54101cccc8e174ae56ae5580c24560dc26921a9b9346fe5bcf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "ruby-doc",
+        "version": "3.3.10",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "ruby-doc-3.3.10-11.el10_1.noarch.rpm",
+        "sum": "e35f1f991e04d33080e059b4f79a5a67752afca15d20fd0cbd8e3b7cf6c5a4b9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "rubygem-irb",
+        "version": "1.13.1",
+        "release": "11.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "ruby-3.3.10-11.el10_1.src.rpm",
+        "filename": "rubygem-irb-1.13.1-11.el10_1.noarch.rpm",
+        "sum": "edbd64b0073068dbdf1e23e0f69f980079b189af9b889fdbf710e1b044ea0349",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2379684",
+      "type": "bugzilla",
+      "id": "2379684",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2396186",
+      "type": "bugzilla",
+      "id": "2396186",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-24294",
+      "type": "cve",
+      "id": "CVE-2025-24294",
+      "title": "CVE-2025-24294"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-58767",
+      "type": "cve",
+      "id": "CVE-2025-58767",
+      "title": "CVE-2025-58767"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61594",
+      "type": "cve",
+      "id": "CVE-2025-61594",
+      "title": "CVE-2025-61594"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:23141",
+      "type": "rhsa",
+      "id": "RHSA-2025:23141",
+      "title": "RHSA-2025:23141"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-23141.html",
+      "type": "self",
+      "id": "ALSA-2025:23141",
+      "title": "ALSA-2025:23141"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "ruby security update",
+  "title": "Moderate: ruby security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1767645266000
+  },
+  "version": "3"
+}

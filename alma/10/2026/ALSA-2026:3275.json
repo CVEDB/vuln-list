@@ -1,0 +1,116 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:3275",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: Kernel: Double free vulnerability in exFAT filesystem can lead to denial of service (CVE-2025-38206)\n  * kernel: drm/sched: Fix potential double free in drm_sched_job_add_resv_dependencies (CVE-2025-40096)\n  * kernel: smc: Use __sk_dst_get() and dst_dev_rcu() in smc_clc_prfx_match() (CVE-2025-40168)\n  * kernel: mlxsw: spectrum_mr: Fix use-after-free when updating multicast route stats (CVE-2025-68800)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1771977600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "124.39.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.39.1.el10_1.src.rpm",
+        "filename": "kernel-doc-6.12.0-124.39.1.el10_1.noarch.rpm",
+        "sum": "1eaf4352403b49c14d8ea33bd8060354442b25763ba518550983ea392a906482",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "124.39.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.39.1.el10_1.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-124.39.1.el10_1.noarch.rpm",
+        "sum": "b9b1bd2ab268ea992626d56aa0dbe56b9885006cb1098769b698d4751f09ab26",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2376377",
+      "type": "bugzilla",
+      "id": "2376377",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2407333",
+      "type": "bugzilla",
+      "id": "2407333",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414482",
+      "type": "bugzilla",
+      "id": "2414482",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2429065",
+      "type": "bugzilla",
+      "id": "2429065",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38206",
+      "type": "cve",
+      "id": "CVE-2025-38206",
+      "title": "CVE-2025-38206"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40096",
+      "type": "cve",
+      "id": "CVE-2025-40096",
+      "title": "CVE-2025-40096"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40168",
+      "type": "cve",
+      "id": "CVE-2025-40168",
+      "title": "CVE-2025-40168"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-68800",
+      "type": "cve",
+      "id": "CVE-2025-68800",
+      "title": "CVE-2025-68800"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:3275",
+      "type": "rhsa",
+      "id": "RHSA-2026:3275",
+      "title": "RHSA-2026:3275"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-3275.html",
+      "type": "self",
+      "id": "ALSA-2026:3275",
+      "title": "ALSA-2026:3275"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1772456781000
+  },
+  "version": "3"
+}

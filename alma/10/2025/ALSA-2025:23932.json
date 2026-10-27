@@ -1,0 +1,92 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:23932",
+  "description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.  \n\nSecurity Fix(es):  \n\n  * httpd: Apache HTTP Server: CGI environment variable override (CVE-2025-65082)\n  * httpd: Apache HTTP Server: mod_userdir+suexec bypass via AllowOverride FileInfo (CVE-2025-66200)\n  * httpd: Apache HTTP Server: Server Side Includes adds query string to #exec cmd=... (CVE-2025-58098)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1766361600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "httpd-filesystem",
+        "version": "2.4.63",
+        "release": "4.el10_1.3",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "httpd-2.4.63-4.el10_1.3.src.rpm",
+        "filename": "httpd-filesystem-2.4.63-4.el10_1.3.noarch.rpm",
+        "sum": "f320ff587a4fcd09a925bec9c40e35d269b63143948e6d12c7074adaa47577f9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:23932",
+      "type": "rhsa",
+      "id": "RHSA-2025:23932",
+      "title": "RHSA-2025:23932"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-58098",
+      "type": "cve",
+      "id": "CVE-2025-58098",
+      "title": "CVE-2025-58098"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-65082",
+      "type": "cve",
+      "id": "CVE-2025-65082",
+      "title": "CVE-2025-65082"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-66200",
+      "type": "cve",
+      "id": "CVE-2025-66200",
+      "title": "CVE-2025-66200"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419139",
+      "type": "bugzilla",
+      "id": "2419139",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419262",
+      "type": "bugzilla",
+      "id": "2419262",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419365",
+      "type": "bugzilla",
+      "id": "2419365",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-23932.html",
+      "type": "self",
+      "id": "ALSA-2025:23932",
+      "title": "ALSA-2025:23932"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "httpd security update",
+  "title": "Important: httpd security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1766469709000
+  },
+  "version": "3"
+}

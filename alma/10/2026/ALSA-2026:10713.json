@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:10713",
+  "description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.  \n\nSecurity Fix(es):  \n\n  * lodash: lodash: Arbitrary code execution via untrusted input in template imports (CVE-2026-4800)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1777248000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-highavailability-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-highavailability-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "cockpit-ha-cluster",
+        "version": "0.12.1",
+        "release": "1.el10_1.3",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pcs-0.12.1-1.el10_1.3.src.rpm",
+        "filename": "cockpit-ha-cluster-0.12.1-1.el10_1.3.noarch.rpm",
+        "sum": "e0f0f36b96fd798d5fd1362441af3015b3120f9b54ab30b3713bf439080c62db",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:10713",
+      "type": "rhsa",
+      "id": "RHSA-2026:10713",
+      "title": "RHSA-2026:10713"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-4800",
+      "type": "cve",
+      "id": "CVE-2026-4800",
+      "title": "CVE-2026-4800"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453496",
+      "type": "bugzilla",
+      "id": "2453496",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-10713.html",
+      "type": "self",
+      "id": "ALSA-2026:10713",
+      "title": "ALSA-2026:10713"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "pcs security update",
+  "title": "Important: pcs security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1777450740000
+  },
+  "version": "3"
+}

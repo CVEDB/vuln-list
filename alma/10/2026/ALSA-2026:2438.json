@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:2438",
+  "description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.  \n\nSecurity Fix(es):  \n\n  * lodash: prototype pollution in _.unset and _.omit functions (CVE-2025-13465)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1770681600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-highavailability-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-highavailability-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "cockpit-ha-cluster",
+        "version": "0.12.1",
+        "release": "1.el10_1.2",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pcs-0.12.1-1.el10_1.2.src.rpm",
+        "filename": "cockpit-ha-cluster-0.12.1-1.el10_1.2.noarch.rpm",
+        "sum": "0778391c31dc4098328c4dd1bd43af1390b73ebd9eab1b4913c7b8fb8f7bf98d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:2438",
+      "type": "rhsa",
+      "id": "RHSA-2026:2438",
+      "title": "RHSA-2026:2438"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-13465",
+      "type": "cve",
+      "id": "CVE-2025-13465",
+      "title": "CVE-2025-13465"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431740",
+      "type": "bugzilla",
+      "id": "2431740",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-2438.html",
+      "type": "self",
+      "id": "ALSA-2026:2438",
+      "title": "ALSA-2026:2438"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "pcs security update",
+  "title": "Important: pcs security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1770891253000
+  },
+  "version": "3"
+}

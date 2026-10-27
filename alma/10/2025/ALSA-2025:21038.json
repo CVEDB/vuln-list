@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:21038",
+  "description": "DHCP implementation from Internet Systems Consortium, Inc. that features fully functional DHCPv4, DHCPv6 and Dynamic DNS servers. Both DHCP servers fully support server discovery, address assignment, renewal, rebinding and release. The DHCPv6 server supports prefix delegation. Both servers support DNS Update mechanism, using stand-alone DDNS daemon.  \n\nSecurity Fix(es):  \n\n  * kea: Invalid characters cause assert (CVE-2025-11232)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1762819200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kea-doc",
+        "version": "3.0.1",
+        "release": "2.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kea-3.0.1-2.el10_1.src.rpm",
+        "filename": "kea-doc-3.0.1-2.el10_1.noarch.rpm",
+        "sum": "83d6b396dacc61b679b6b24828049b2a0a6207c92af6f832054613cf7f1b3850",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:21038",
+      "type": "rhsa",
+      "id": "RHSA-2025:21038",
+      "title": "RHSA-2025:21038"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-11232",
+      "type": "cve",
+      "id": "CVE-2025-11232",
+      "title": "CVE-2025-11232"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2407178",
+      "type": "bugzilla",
+      "id": "2407178",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-21038.html",
+      "type": "self",
+      "id": "ALSA-2025:21038",
+      "title": "ALSA-2025:21038"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kea security update",
+  "title": "Important: kea security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1764923337000
+  },
+  "version": "3"
+}

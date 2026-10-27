@@ -1,0 +1,104 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:0922",
+  "description": "The golang packages provide the Go programming language compiler.  \n\nSecurity Fix(es):  \n\n  * crypto/x509: golang: Denial of Service due to excessive resource consumption via crafted certificate (CVE-2025-61729)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1768953600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "golang-misc",
+        "version": "1.25.5",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.5-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-misc-1.25.5-1.el10_1.alma.1.noarch.rpm",
+        "sum": "20598c6e068e54fe4a67cd6ef77b5264debb1ffc204b99a382d9d15b6ec1bfe0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-src",
+        "version": "1.25.5",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.5-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-src-1.25.5-1.el10_1.alma.1.noarch.rpm",
+        "sum": "6699f5052dcb7d8110f719dbb2c14f659c35bf9ff2210896441b5d4973d209c5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-tests",
+        "version": "1.25.5",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.5-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-tests-1.25.5-1.el10_1.alma.1.noarch.rpm",
+        "sum": "a13cd2ebaaddabe5bfb4634d51645836d29d77fc6f2d382844200eda1a83481b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-docs",
+        "version": "1.25.5",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.5-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-docs-1.25.5-1.el10_1.alma.1.noarch.rpm",
+        "sum": "a1c03804a4490458c9bfa111f0535921c409d4f038a569475b22295299b099e2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:0922",
+      "type": "rhsa",
+      "id": "RHSA-2026:0922",
+      "title": "RHSA-2026:0922"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61729",
+      "type": "cve",
+      "id": "CVE-2025-61729",
+      "title": "CVE-2025-61729"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2418462",
+      "type": "bugzilla",
+      "id": "2418462",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-0922.html",
+      "type": "self",
+      "id": "ALSA-2026:0922",
+      "title": "ALSA-2026:0922"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "golang security update",
+  "title": "Important: golang security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1769211593000
+  },
+  "version": "3"
+}

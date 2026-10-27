@@ -1,0 +1,92 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:17913",
+  "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor.  \n\nSecurity Fix(es):  \n\n  * vim: Vim path traversal (CVE-2025-53906)\n  * vim: Vim path traversial (CVE-2025-53905)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1760400000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "vim-data",
+        "version": "9.1.083",
+        "release": "5.el10_0.1",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "vim-9.1.083-5.el10_0.1.src.rpm",
+        "filename": "vim-data-9.1.083-5.el10_0.1.noarch.rpm",
+        "sum": "54e1243815069deac11366953092dd2a4d1bc40f0e1419020f1900ee207efad6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "vim-filesystem",
+        "version": "9.1.083",
+        "release": "5.el10_0.1",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "vim-9.1.083-5.el10_0.1.src.rpm",
+        "filename": "vim-filesystem-9.1.083-5.el10_0.1.noarch.rpm",
+        "sum": "f5a7e74ae9822a40769fc46ad09243f375b9921e705a6211d7dd7cf35907852a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:17913",
+      "type": "rhsa",
+      "id": "RHSA-2025:17913",
+      "title": "RHSA-2025:17913"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53905",
+      "type": "cve",
+      "id": "CVE-2025-53905",
+      "title": "CVE-2025-53905"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53906",
+      "type": "cve",
+      "id": "CVE-2025-53906",
+      "title": "CVE-2025-53906"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2380360",
+      "type": "bugzilla",
+      "id": "2380360",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2380362",
+      "type": "bugzilla",
+      "id": "2380362",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-17913.html",
+      "type": "self",
+      "id": "ALSA-2025:17913",
+      "title": "ALSA-2025:17913"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "vim security update",
+  "title": "Moderate: vim security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1760448785000
+  },
+  "version": "3"
+}

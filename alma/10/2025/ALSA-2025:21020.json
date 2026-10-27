@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:21020",
+  "description": "The System Security Services Daemon (SSSD) service provides a set of daemons to manage access to remote directories and authentication mechanisms. It also provides the Name Service Switch (NSS) and the Pluggable Authentication Modules (PAM) interfaces toward the system, and a pluggable back-end system to connect to multiple different account sources.  \n\nSecurity Fix(es):  \n\n  * sssd: SSSD default Kerberos configuration allows privilege escalation on AD-joined Linux systems (CVE-2025-11561)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1762819200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "python3-sssdconfig",
+        "version": "2.11.1",
+        "release": "2.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "sssd-2.11.1-2.el10_1.1.src.rpm",
+        "filename": "python3-sssdconfig-2.11.1-2.el10_1.1.noarch.rpm",
+        "sum": "884edb41685a767d190dcb3001baac0be003acb46da98d3abc39ac3d2f37aeab",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:21020",
+      "type": "rhsa",
+      "id": "RHSA-2025:21020",
+      "title": "RHSA-2025:21020"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-11561",
+      "type": "cve",
+      "id": "CVE-2025-11561",
+      "title": "CVE-2025-11561"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2402727",
+      "type": "bugzilla",
+      "id": "2402727",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-21020.html",
+      "type": "self",
+      "id": "ALSA-2025:21020",
+      "title": "ALSA-2025:21020"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "sssd security update",
+  "title": "Important: sssd security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1768394474000
+  },
+  "version": "3"
+}

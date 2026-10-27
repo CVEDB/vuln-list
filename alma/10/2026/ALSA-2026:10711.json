@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:10711",
+  "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * python: Python: Arbitrary code execution or information disclosure via use-after-free in decompression modules (CVE-2026-6100)\n  * python: cpython: Python: Arbitrary code execution via command injection in webbrowser.open() API (CVE-2026-4786)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1777248000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "python-unversioned-command",
+        "version": "3.12.12",
+        "release": "3.el10_1.3",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "python3.12-3.12.12-3.el10_1.3.src.rpm",
+        "filename": "python-unversioned-command-3.12.12-3.el10_1.3.noarch.rpm",
+        "sum": "1648f21c7e84cd179e052045ebd518ab6fde3150a166a356b0303c8f51145f70",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:10711",
+      "type": "rhsa",
+      "id": "RHSA-2026:10711",
+      "title": "RHSA-2026:10711"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-4786",
+      "type": "cve",
+      "id": "CVE-2026-4786",
+      "title": "CVE-2026-4786"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-6100",
+      "type": "cve",
+      "id": "CVE-2026-6100",
+      "title": "CVE-2026-6100"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2457932",
+      "type": "bugzilla",
+      "id": "2457932",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2458049",
+      "type": "bugzilla",
+      "id": "2458049",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-10711.html",
+      "type": "self",
+      "id": "ALSA-2026:10711",
+      "title": "ALSA-2026:10711"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "python3.12 security update",
+  "title": "Important: python3.12 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1777533422000
+  },
+  "version": "3"
+}

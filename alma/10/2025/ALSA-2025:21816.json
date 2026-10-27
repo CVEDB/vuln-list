@@ -1,0 +1,104 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:21816",
+  "description": "The Go Programming Language.  \n\nSecurity Fix(es):  \n\n  * golang: archive/tar: Unbounded allocation when parsing GNU sparse map (CVE-2025-58183)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1763596800000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "golang-misc",
+        "version": "1.25.3",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.3-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-misc-1.25.3-1.el10_1.alma.1.noarch.rpm",
+        "sum": "49304f69afac67585b5ceb9765075f69f3816c7c4576ec472ef0f9638b4ad77f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-tests",
+        "version": "1.25.3",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.3-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-tests-1.25.3-1.el10_1.alma.1.noarch.rpm",
+        "sum": "49f604d23e0e8284ef514ce78a0f21991c29e91862d73db3c9ac9e11ceb76c9c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-docs",
+        "version": "1.25.3",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.3-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-docs-1.25.3-1.el10_1.alma.1.noarch.rpm",
+        "sum": "82de1cafee152a0535a71bc740a4dc2fea91c8449d101fdff2ccf971c86084fa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-src",
+        "version": "1.25.3",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.3-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-src-1.25.3-1.el10_1.alma.1.noarch.rpm",
+        "sum": "8ac3d3ded5b2acb1f09beb47e9d864f44f5a6ad93d59a24c9501b44b070ab60a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:21816",
+      "type": "rhsa",
+      "id": "RHSA-2025:21816",
+      "title": "RHSA-2025:21816"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-58183",
+      "type": "cve",
+      "id": "CVE-2025-58183",
+      "title": "CVE-2025-58183"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2407258",
+      "type": "bugzilla",
+      "id": "2407258",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-21816.html",
+      "type": "self",
+      "id": "ALSA-2025:21816",
+      "title": "ALSA-2025:21816"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "delve and golang security update",
+  "title": "Moderate: delve and golang security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1763988555000
+  },
+  "version": "3"
+}

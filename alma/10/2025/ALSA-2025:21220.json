@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:21220",
+  "description": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.  \n\nSecurity Fix(es):  \n\n  * runc: container escape and denial of service due to arbitrary write gadgets and procfs write redirects (CVE-2025-52881)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1762992000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "podman-docker",
+        "version": "5.6.0",
+        "release": "6.el10_1",
+        "epoch": "7",
+        "arch": "noarch",
+        "src": "podman-5.6.0-6.el10_1.src.rpm",
+        "filename": "podman-docker-5.6.0-6.el10_1.noarch.rpm",
+        "sum": "bbee7190c9c78a3c8311407b12ff35c56fd999de6b729508a7eb84422ef384bd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:21220",
+      "type": "rhsa",
+      "id": "RHSA-2025:21220",
+      "title": "RHSA-2025:21220"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-52881",
+      "type": "cve",
+      "id": "CVE-2025-52881",
+      "title": "CVE-2025-52881"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2404715",
+      "type": "bugzilla",
+      "id": "2404715",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-21220.html",
+      "type": "self",
+      "id": "ALSA-2025:21220",
+      "title": "ALSA-2025:21220"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "podman security update",
+  "title": "Important: podman security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1764067499000
+  },
+  "version": "3"
+}

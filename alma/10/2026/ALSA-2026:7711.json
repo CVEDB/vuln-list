@@ -1,0 +1,104 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:7711",
+  "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor.  \n\nSecurity Fix(es):  \n\n  * vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin (CVE-2026-28417)\n  * vim: Vim: Denial of service and information disclosure via crafted swap file (CVE-2026-28421)\n  * vim: Vim: Arbitrary code execution via command injection in glob() function (CVE-2026-33412)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1776038400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "vim-filesystem",
+        "version": "9.1.083",
+        "release": "6.el10_1.3",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "vim-9.1.083-6.el10_1.3.src.rpm",
+        "filename": "vim-filesystem-9.1.083-6.el10_1.3.noarch.rpm",
+        "sum": "22509b33747db53b66178eda558bc87b2ce9adb046b4cfa0848eb38bc552c79c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "vim-data",
+        "version": "9.1.083",
+        "release": "6.el10_1.3",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "vim-9.1.083-6.el10_1.3.src.rpm",
+        "filename": "vim-data-9.1.083-6.el10_1.3.noarch.rpm",
+        "sum": "c6b1deaee2ad61a57b36d079ad281c08fbf8d27a6147d7e78db9efa5915caaef",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:7711",
+      "type": "rhsa",
+      "id": "RHSA-2026:7711",
+      "title": "RHSA-2026:7711"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-28417",
+      "type": "cve",
+      "id": "CVE-2026-28417",
+      "title": "CVE-2026-28417"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-28421",
+      "type": "cve",
+      "id": "CVE-2026-28421",
+      "title": "CVE-2026-28421"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-33412",
+      "type": "cve",
+      "id": "CVE-2026-33412",
+      "title": "CVE-2026-33412"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2443455",
+      "type": "bugzilla",
+      "id": "2443455",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2443474",
+      "type": "bugzilla",
+      "id": "2443474",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2450907",
+      "type": "bugzilla",
+      "id": "2450907",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-7711.html",
+      "type": "self",
+      "id": "ALSA-2026:7711",
+      "title": "ALSA-2026:7711"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "vim security update",
+  "title": "Important: vim security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1776169110000
+  },
+  "version": "3"
+}

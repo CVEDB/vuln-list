@@ -1,0 +1,92 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:16354",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: usb: dwc3: gadget: check that event count does not exceed event buffer length (CVE-2025-37810)\n  * kernel: sunrpc: fix handling of server side tls alerts (CVE-2025-38566)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1758499200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "55.34.1.el10_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-55.34.1.el10_0.src.rpm",
+        "filename": "kernel-doc-6.12.0-55.34.1.el10_0.noarch.rpm",
+        "sum": "00c6b30ca22018c805c02e5d96462d9e4a60dc5c856b1c7bd7bd9367610e4e38",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "55.34.1.el10_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-55.34.1.el10_0.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-55.34.1.el10_0.noarch.rpm",
+        "sum": "414f58e17981e1778d0c673aaa52d422e5b079243b413df3944dd40e77ca23a5",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2365028",
+      "type": "bugzilla",
+      "id": "2365028",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2389487",
+      "type": "bugzilla",
+      "id": "2389487",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-37810",
+      "type": "cve",
+      "id": "CVE-2025-37810",
+      "title": "CVE-2025-37810"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38566",
+      "type": "cve",
+      "id": "CVE-2025-38566",
+      "title": "CVE-2025-38566"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:16354",
+      "type": "rhsa",
+      "id": "RHSA-2025:16354",
+      "title": "RHSA-2025:16354"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-16354.html",
+      "type": "self",
+      "id": "ALSA-2025:16354",
+      "title": "ALSA-2025:16354"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1759138072000
+  },
+  "version": "3"
+}

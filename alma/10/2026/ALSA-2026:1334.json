@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:1334",
+  "description": "The glibc packages provide the standard C libraries (libc), POSIX thread libraries (libpthread), standard math libraries (libm), and the name service cache daemon (nscd) used by multiple programs on the system. Without these libraries, the Linux system cannot function correctly.  \n\nSecurity Fix(es):  \n\n  * glibc: Integer overflow in memalign leads to heap corruption (CVE-2026-0861)\n  * glibc: glibc: Information disclosure via zero-valued network query (CVE-2026-0915)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1769472000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "glibc-doc",
+        "version": "2.39",
+        "release": "58.el10_1.7.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "glibc-2.39-58.el10_1.7.alma.1.src.rpm",
+        "filename": "glibc-doc-2.39-58.el10_1.7.alma.1.noarch.rpm",
+        "sum": "b2422e9d9937d429da8df4c844201296ea1f22ce407357c48fc793ee07b10045",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:1334",
+      "type": "rhsa",
+      "id": "RHSA-2026:1334",
+      "title": "RHSA-2026:1334"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-0861",
+      "type": "cve",
+      "id": "CVE-2026-0861",
+      "title": "CVE-2026-0861"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-0915",
+      "type": "cve",
+      "id": "CVE-2026-0915",
+      "title": "CVE-2026-0915"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2429771",
+      "type": "bugzilla",
+      "id": "2429771",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2430201",
+      "type": "bugzilla",
+      "id": "2430201",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-1334.html",
+      "type": "self",
+      "id": "ALSA-2026:1334",
+      "title": "ALSA-2026:1334"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "glibc security update",
+  "title": "Moderate: glibc security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1769689729000
+  },
+  "version": "3"
+}

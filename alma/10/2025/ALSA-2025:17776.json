@@ -1,0 +1,104 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:17776",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: HID: core: Harden s32ton() against conversion to 0 bits (CVE-2025-38556)\n  * kernel: wifi: ath12k: Decrement TID on RX peer frag setup error handling (CVE-2025-39761)\n  * kernel: ALSA: usb-audio: Validate UAC3 cluster segment descriptors (CVE-2025-39757)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1760313600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "55.39.1.el10_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-55.39.1.el10_0.src.rpm",
+        "filename": "kernel-doc-6.12.0-55.39.1.el10_0.noarch.rpm",
+        "sum": "2ba90d6b59fddc0b133518e6f512e1eb679160ce834d59ef4c04fa6e76b24248",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "55.39.1.el10_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-55.39.1.el10_0.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-55.39.1.el10_0.noarch.rpm",
+        "sum": "a5c818674299a188a4815c57be4eb6eea92ad12b0b31bcb2ef2ff64588e61a2c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2389456",
+      "type": "bugzilla",
+      "id": "2389456",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2394606",
+      "type": "bugzilla",
+      "id": "2394606",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2394615",
+      "type": "bugzilla",
+      "id": "2394615",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38556",
+      "type": "cve",
+      "id": "CVE-2025-38556",
+      "title": "CVE-2025-38556"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39757",
+      "type": "cve",
+      "id": "CVE-2025-39757",
+      "title": "CVE-2025-39757"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39761",
+      "type": "cve",
+      "id": "CVE-2025-39761",
+      "title": "CVE-2025-39761"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:17776",
+      "type": "rhsa",
+      "id": "RHSA-2025:17776",
+      "title": "RHSA-2025:17776"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-17776.html",
+      "type": "self",
+      "id": "ALSA-2025:17776",
+      "title": "ALSA-2025:17776"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1760694353000
+  },
+  "version": "3"
+}

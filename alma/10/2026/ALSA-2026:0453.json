@@ -1,0 +1,176 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:0453",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: HID: multitouch: fix slab out-of-bounds access in mt_report_fixup() (CVE-2025-39806)\n  * kernel: audit: fix out-of-bounds read in audit_compare_dname_path() (CVE-2025-39840)\n  * kernel: mm: slub: avoid wake up kswapd in set_track_prepare (CVE-2025-39843)\n  * kernel: net: phylink: add lock for serializing concurrent pl-\u003ephydev writes with resolver (CVE-2025-39905)\n  * kernel: iommufd: Fix race during abort for file descriptors (CVE-2025-39966)\n  * kernel: tls: wait for pending async decryptions if tls_strp_msg_hold fails (CVE-2025-40176)\n  * kernel: sctp: avoid NULL dereference when chunk data buffer is missing (CVE-2025-40240)\n  * kernel: drm/vmwgfx: Validate command header size against SVGA_CMD_MAX_DATASIZE (CVE-2025-40277)\n  * kernel: usb: dwc3: Fix race condition between concurrent dwc3_remove_requests() call paths (CVE-2025-68287)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1768176000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "124.27.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.27.1.el10_1.src.rpm",
+        "filename": "kernel-doc-6.12.0-124.27.1.el10_1.noarch.rpm",
+        "sum": "0770a8559ca9123d89de794268ba43aefea78ecb00a58d74d3db0e55ca2c4ef9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "124.27.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.27.1.el10_1.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-124.27.1.el10_1.noarch.rpm",
+        "sum": "1b65c0643152d5e18eca4d56dfe58a807013aeedb78ebd0a64d4b8d09a17c234",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2395807",
+      "type": "bugzilla",
+      "id": "2395807",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2396936",
+      "type": "bugzilla",
+      "id": "2396936",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2396941",
+      "type": "bugzilla",
+      "id": "2396941",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2400611",
+      "type": "bugzilla",
+      "id": "2400611",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2404107",
+      "type": "bugzilla",
+      "id": "2404107",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414524",
+      "type": "bugzilla",
+      "id": "2414524",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2418832",
+      "type": "bugzilla",
+      "id": "2418832",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419954",
+      "type": "bugzilla",
+      "id": "2419954",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2422788",
+      "type": "bugzilla",
+      "id": "2422788",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39806",
+      "type": "cve",
+      "id": "CVE-2025-39806",
+      "title": "CVE-2025-39806"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39840",
+      "type": "cve",
+      "id": "CVE-2025-39840",
+      "title": "CVE-2025-39840"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39843",
+      "type": "cve",
+      "id": "CVE-2025-39843",
+      "title": "CVE-2025-39843"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39905",
+      "type": "cve",
+      "id": "CVE-2025-39905",
+      "title": "CVE-2025-39905"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39966",
+      "type": "cve",
+      "id": "CVE-2025-39966",
+      "title": "CVE-2025-39966"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40176",
+      "type": "cve",
+      "id": "CVE-2025-40176",
+      "title": "CVE-2025-40176"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40240",
+      "type": "cve",
+      "id": "CVE-2025-40240",
+      "title": "CVE-2025-40240"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40277",
+      "type": "cve",
+      "id": "CVE-2025-40277",
+      "title": "CVE-2025-40277"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-68287",
+      "type": "cve",
+      "id": "CVE-2025-68287",
+      "title": "CVE-2025-68287"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:0453",
+      "type": "rhsa",
+      "id": "RHSA-2026:0453",
+      "title": "RHSA-2026:0453"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-0453.html",
+      "type": "self",
+      "id": "ALSA-2026:0453",
+      "title": "ALSA-2026:0453"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Important: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1768577196000
+  },
+  "version": "3"
+}

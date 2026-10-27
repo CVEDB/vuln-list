@@ -8,8 +8,8 @@
     "$date": 1699920000000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_9_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_9_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_9_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_9_default",
     "packages": [
       {
         "name": "conmon",
@@ -1467,8 +1467,8 @@
     "module": {
       "stream": "4.0",
       "name": "container-tools",
-      "version": 8070020221108190219,
-      "arch": "i686",
+      "version": 8090020231017095551,
+      "arch": "aarch64",
       "context": "20125149"
     }
   },
@@ -1479,6 +1479,12 @@
       "type": "bugzilla",
       "id": "2222167",
       "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2242871",
+      "type": "bugzilla",
+      "id": "2242871",
+      "title": "could not find symbol `criu_set_lsm_mount_context` in `libcriu.so` [rhel-8.9.0.z]"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2023-29406",
@@ -1508,7 +1514,7 @@
   "title": "Moderate: container-tools:4.0 security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1701085988000
+    "$date": 1792972192000
   },
   "version": "1"
 }

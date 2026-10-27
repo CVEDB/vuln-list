@@ -1,0 +1,188 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:4012",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: Linux kernel: Use-after-free in device mapper due to race condition in zone reporting (CVE-2025-38141)\n  * kernel: Linux kernel io_uring: Local privilege escalation, information disclosure, or denial of service via use-after-free (CVE-2025-38106)\n  * kernel: drm/xe: Make dma-fences compliant with the safe access rules (CVE-2025-38703)\n  * kernel: Linux kernel: Denial of Service via out-of-bounds read in USB configuration parsing (CVE-2025-39760)\n  * kernel: HID: intel-thc-hid: intel-thc: Fix incorrect pointer arithmetic in I2C regs save (CVE-2025-39818)\n  * kernel: Kernel: Use-after-free in GPIO character device allows privilege escalation or denial of service (CVE-2025-40249)\n  * kernel: ipv6: BUG() in pskb_expand_head() as part of calipso_skbuff_setattr() (CVE-2025-71085)\n  * kernel: macvlan: fix possible UAF in macvlan_forward_source() (CVE-2026-23001)\n  * kernel: Linux kernel: Denial of Service due to a deadlock in hugetlb folio migration (CVE-2026-23097)\n  * kernel: Linux kernel: Information disclosure in efivarfs via incorrect error propagation (CVE-2026-23156)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1773014400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "124.43.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.43.1.el10_1.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-124.43.1.el10_1.noarch.rpm",
+        "sum": "63e24192dfd1dfdd5a89557bfdc96d696dcc92080ea1ed8a6af72f5586428ada",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "124.43.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.43.1.el10_1.src.rpm",
+        "filename": "kernel-doc-6.12.0-124.43.1.el10_1.noarch.rpm",
+        "sum": "ec70976a338f3d2091ddcdcd9ea38d2091fb2b061fc7470da21087fdf92403e8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2376052",
+      "type": "bugzilla",
+      "id": "2376052",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2376077",
+      "type": "bugzilla",
+      "id": "2376077",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2393157",
+      "type": "bugzilla",
+      "id": "2393157",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2394601",
+      "type": "bugzilla",
+      "id": "2394601",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2395797",
+      "type": "bugzilla",
+      "id": "2395797",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2418886",
+      "type": "bugzilla",
+      "id": "2418886",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2429026",
+      "type": "bugzilla",
+      "id": "2429026",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2432664",
+      "type": "bugzilla",
+      "id": "2432664",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2436802",
+      "type": "bugzilla",
+      "id": "2436802",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2439951",
+      "type": "bugzilla",
+      "id": "2439951",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38106",
+      "type": "cve",
+      "id": "CVE-2025-38106",
+      "title": "CVE-2025-38106"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38141",
+      "type": "cve",
+      "id": "CVE-2025-38141",
+      "title": "CVE-2025-38141"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38703",
+      "type": "cve",
+      "id": "CVE-2025-38703",
+      "title": "CVE-2025-38703"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39760",
+      "type": "cve",
+      "id": "CVE-2025-39760",
+      "title": "CVE-2025-39760"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39818",
+      "type": "cve",
+      "id": "CVE-2025-39818",
+      "title": "CVE-2025-39818"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40249",
+      "type": "cve",
+      "id": "CVE-2025-40249",
+      "title": "CVE-2025-40249"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-71085",
+      "type": "cve",
+      "id": "CVE-2025-71085",
+      "title": "CVE-2025-71085"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-23001",
+      "type": "cve",
+      "id": "CVE-2026-23001",
+      "title": "CVE-2026-23001"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-23097",
+      "type": "cve",
+      "id": "CVE-2026-23097",
+      "title": "CVE-2026-23097"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-23156",
+      "type": "cve",
+      "id": "CVE-2026-23156",
+      "title": "CVE-2026-23156"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:4012",
+      "type": "rhsa",
+      "id": "RHSA-2026:4012",
+      "title": "RHSA-2026:4012"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-4012.html",
+      "type": "self",
+      "id": "ALSA-2026:4012",
+      "title": "ALSA-2026:4012"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1773394900000
+  },
+  "version": "3"
+}

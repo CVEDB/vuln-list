@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:23940",
+  "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.  \n\nSecurity Fix(es):  \n\n  * cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked (CVE-2025-8291)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1766361600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "python-unversioned-command",
+        "version": "3.12.12",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "python3.12-3.12.12-1.el10_1.src.rpm",
+        "filename": "python-unversioned-command-3.12.12-1.el10_1.noarch.rpm",
+        "sum": "77e9dff6b56693802c9371ff9bba54b8619f1220a1681566bb081f0bb2593153",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:23940",
+      "type": "rhsa",
+      "id": "RHSA-2025:23940",
+      "title": "RHSA-2025:23940"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-8291",
+      "type": "cve",
+      "id": "CVE-2025-8291",
+      "title": "CVE-2025-8291"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2402342",
+      "type": "bugzilla",
+      "id": "2402342",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-23940.html",
+      "type": "self",
+      "id": "ALSA-2025:23940",
+      "title": "ALSA-2025:23940"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "python3.12 security update",
+  "title": "Moderate: python3.12 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1766469588000
+  },
+  "version": "3"
+}

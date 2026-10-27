@@ -1,0 +1,128 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:1843",
+  "description": "Node.js is a platform built on Chrome's JavaScript runtime \\ for easily building fast, scalable network applications. \\ Node.js uses an event-driven, non-blocking I/O model that \\ makes it lightweight and efficient, perfect for data-intensive \\ real-time applications that run across distributed devices.  \n\nSecurity Fix(es):  \n\n  * nodejs: Nodejs filesystem permissions bypass (CVE-2025-55132)\n  * nodejs: Nodejs denial of service (CVE-2026-21637)\n  * nodejs: Nodejs denial of service (CVE-2025-59466)\n  * nodejs: Nodejs denial of service (CVE-2025-59465)\n  * nodejs: Nodejs uninitialized memory exposure (CVE-2025-55131)\n  * nodejs: Nodejs file permissions bypass (CVE-2025-55130)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1770076800000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "nodejs-docs",
+        "version": "22.22.0",
+        "release": "3.el10_1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nodejs22-22.22.0-3.el10_1.src.rpm",
+        "filename": "nodejs-docs-22.22.0-3.el10_1.noarch.rpm",
+        "sum": "9781255dc42b1a9a33716e1fef622457b1de374d5417efed76c1d9c69f85df13",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:1843",
+      "type": "rhsa",
+      "id": "RHSA-2026:1843",
+      "title": "RHSA-2026:1843"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-55130",
+      "type": "cve",
+      "id": "CVE-2025-55130",
+      "title": "CVE-2025-55130"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-55131",
+      "type": "cve",
+      "id": "CVE-2025-55131",
+      "title": "CVE-2025-55131"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-55132",
+      "type": "cve",
+      "id": "CVE-2025-55132",
+      "title": "CVE-2025-55132"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-59465",
+      "type": "cve",
+      "id": "CVE-2025-59465",
+      "title": "CVE-2025-59465"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-59466",
+      "type": "cve",
+      "id": "CVE-2025-59466",
+      "title": "CVE-2025-59466"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21637",
+      "type": "cve",
+      "id": "CVE-2026-21637",
+      "title": "CVE-2026-21637"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431338",
+      "type": "bugzilla",
+      "id": "2431338",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431340",
+      "type": "bugzilla",
+      "id": "2431340",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431343",
+      "type": "bugzilla",
+      "id": "2431343",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431349",
+      "type": "bugzilla",
+      "id": "2431349",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431350",
+      "type": "bugzilla",
+      "id": "2431350",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431352",
+      "type": "bugzilla",
+      "id": "2431352",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-1843.html",
+      "type": "self",
+      "id": "ALSA-2026:1843",
+      "title": "ALSA-2026:1843"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "nodejs22 security update",
+  "title": "Important: nodejs22 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1770398863000
+  },
+  "version": "3"
+}

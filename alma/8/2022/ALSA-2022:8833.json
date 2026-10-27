@@ -8,8 +8,8 @@
     "$date": 1670284800000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_7_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_7_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_7_default",
     "packages": [
       {
         "name": "nodejs",
@@ -256,7 +256,7 @@
       "stream": "18",
       "name": "nodejs",
       "version": 8070020221206160400,
-      "arch": "i686",
+      "arch": "aarch64",
       "context": "9edba152"
     }
   },
@@ -273,6 +273,12 @@
       "type": "bugzilla",
       "id": "2140911",
       "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2142818",
+      "type": "bugzilla",
+      "id": "2142818",
+      "title": "nodejs:18/nodejs: Rebase to the latest Nodejs 18 release [rhel-8] [rhel-8.7.0.z]"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2022-3517",
@@ -308,7 +314,7 @@
   "title": "Moderate: nodejs:18 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1670419348000
+    "$date": 1792971927000
   },
   "version": "1"
 }

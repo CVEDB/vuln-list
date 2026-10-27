@@ -1,0 +1,164 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:16154",
+  "description": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.  \n\nSecurity Fix(es):  \n\n  * grub2: grub-core/gettext: Integer overflow leads to Heap OOB Write and Read. (CVE-2024-45776)\n  * grub2: fs/ufs: OOB write in the heap (CVE-2024-45781)\n  * grub2: command/gpg: Use-after-free due to hooks not being removed on module unload (CVE-2025-0622)\n  * grub2: UFS: Integer overflow may lead to heap based out-of-bounds write when handling symlinks (CVE-2025-0677)\n  * grub2: commands/dump: The dump command is not in lockdown when secure boot is enabled (CVE-2025-1118)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1758153600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "grub2-common",
+        "version": "2.12",
+        "release": "15.el10_0.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-15.el10_0.alma.1.src.rpm",
+        "filename": "grub2-common-2.12-15.el10_0.alma.1.noarch.rpm",
+        "sum": "10d34fa091dd5509dd851c15e1dcdd6c7267369e34578e39e62c6d8d9a580328",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-efi-aa64-modules",
+        "version": "2.12",
+        "release": "15.el10_0.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-15.el10_0.alma.1.src.rpm",
+        "filename": "grub2-efi-aa64-modules-2.12-15.el10_0.alma.1.noarch.rpm",
+        "sum": "2685ce5f8ee053b3c923cf8f3f3b35e9bd4a362ccca7d830a5d421414dba3482",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-pc-modules",
+        "version": "2.12",
+        "release": "15.el10_0.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-15.el10_0.alma.1.src.rpm",
+        "filename": "grub2-pc-modules-2.12-15.el10_0.alma.1.noarch.rpm",
+        "sum": "9f462d4092a8b459dd2ccf0e90bc78bb6c9bc2e9baa40cd7011ce1701dbb1169",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-efi-x64-modules",
+        "version": "2.12",
+        "release": "15.el10_0.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-15.el10_0.alma.1.src.rpm",
+        "filename": "grub2-efi-x64-modules-2.12-15.el10_0.alma.1.noarch.rpm",
+        "sum": "b6a5e895111465b5609ddfc06a19983ea21a98ab4e68a41c16565796056a8091",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-ppc64le-modules",
+        "version": "2.12",
+        "release": "15.el10_0.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-15.el10_0.alma.1.src.rpm",
+        "filename": "grub2-ppc64le-modules-2.12-15.el10_0.alma.1.noarch.rpm",
+        "sum": "bdb7903060e02fd572719360c7c9f1116c4f1a72216e6910a4ad8896b304740f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2339182",
+      "type": "bugzilla",
+      "id": "2339182",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2345857",
+      "type": "bugzilla",
+      "id": "2345857",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2345865",
+      "type": "bugzilla",
+      "id": "2345865",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2346116",
+      "type": "bugzilla",
+      "id": "2346116",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2346137",
+      "type": "bugzilla",
+      "id": "2346137",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2024-45776",
+      "type": "cve",
+      "id": "CVE-2024-45776",
+      "title": "CVE-2024-45776"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2024-45781",
+      "type": "cve",
+      "id": "CVE-2024-45781",
+      "title": "CVE-2024-45781"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-0622",
+      "type": "cve",
+      "id": "CVE-2025-0622",
+      "title": "CVE-2025-0622"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-0677",
+      "type": "cve",
+      "id": "CVE-2025-0677",
+      "title": "CVE-2025-0677"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-1118",
+      "type": "cve",
+      "id": "CVE-2025-1118",
+      "title": "CVE-2025-1118"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:16154",
+      "type": "rhsa",
+      "id": "RHSA-2025:16154",
+      "title": "RHSA-2025:16154"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-16154.html",
+      "type": "self",
+      "id": "ALSA-2025:16154",
+      "title": "ALSA-2025:16154"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "grub2 security update",
+  "title": "Moderate: grub2 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1758800099000
+  },
+  "version": "3"
+}

@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:4715",
+  "description": "Vim (Vi IMproved) is an updated and improved version of the vi editor.  \n\nSecurity Fix(es):  \n\n  * vim: Vim: Arbitrary code execution via 'helpfile' option processing (CVE-2026-25749)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1773705600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "vim-data",
+        "version": "9.1.083",
+        "release": "6.el10_1.1",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "vim-9.1.083-6.el10_1.1.src.rpm",
+        "filename": "vim-data-9.1.083-6.el10_1.1.noarch.rpm",
+        "sum": "1e21f811e2b42d592611487292a6facf243e850151826cf2b2099f3856975ea1",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "vim-filesystem",
+        "version": "9.1.083",
+        "release": "6.el10_1.1",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "vim-9.1.083-6.el10_1.1.src.rpm",
+        "filename": "vim-filesystem-9.1.083-6.el10_1.1.noarch.rpm",
+        "sum": "ef64142dd6b8ebb8373dc5348ec5fd7d60cf62d3e346bac4829566e1193ec33d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:4715",
+      "type": "rhsa",
+      "id": "RHSA-2026:4715",
+      "title": "RHSA-2026:4715"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-25749",
+      "type": "cve",
+      "id": "CVE-2026-25749",
+      "title": "CVE-2026-25749"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2437843",
+      "type": "bugzilla",
+      "id": "2437843",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-4715.html",
+      "type": "self",
+      "id": "ALSA-2026:4715",
+      "title": "ALSA-2026:4715"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "vim security update",
+  "title": "Moderate: vim security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1773991039000
+  },
+  "version": "3"
+}

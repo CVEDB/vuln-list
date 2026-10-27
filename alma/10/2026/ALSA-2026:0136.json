@@ -1,0 +1,158 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:0136",
+  "description": "MariaDB is a community developed fork from MySQL - a multi-user, multi-threaded SQL database server. It is a client/server implementation consisting of a server daemon (mariadbd) and many different client programs and libraries. The base package contains the standard MariaDB/MySQL client programs and utilities.  \n\nSecurity Fix(es):  \n\n  * mysql: High Privilege Denial of Service Vulnerability in MySQL Server (CVE-2025-21490)\n  * mariadb: MariaDB Server Crash Due to Empty Backtrace Log (CVE-2023-52969)\n  * mariadb: MariaDB Server Crash (CVE-2023-52971)\n  * mariadb: MariaDB Server Crash via Item_direct_view_ref (CVE-2023-52970)\n  * mysql: mysqldump unspecified vulnerability (CPU Apr 2025) (CVE-2025-30722)\n  * mysql: InnoDB unspecified vulnerability (CPU Apr 2025) (CVE-2025-30693)\n  * mariadb: MariaDB: mariadb-dump utility vulnerable to remote code execution via improper path validation (CVE-2025-13699)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1767657600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "mariadb-common",
+        "version": "10.11.15",
+        "release": "1.el10_1",
+        "epoch": "3",
+        "arch": "noarch",
+        "src": "mariadb10.11-10.11.15-1.el10_1.src.rpm",
+        "filename": "mariadb-common-10.11.15-1.el10_1.noarch.rpm",
+        "sum": "153fe9f1c23236efb58a1e7983dea6a0eb9aede1d0002cd78d5c211536e0389a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mariadb-errmsg",
+        "version": "10.11.15",
+        "release": "1.el10_1",
+        "epoch": "3",
+        "arch": "noarch",
+        "src": "mariadb10.11-10.11.15-1.el10_1.src.rpm",
+        "filename": "mariadb-errmsg-10.11.15-1.el10_1.noarch.rpm",
+        "sum": "d28b3121d08b7ce6d511e8704415c0874db79cb7efbf67eb85e565cec6a23c71",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:0136",
+      "type": "rhsa",
+      "id": "RHSA-2026:0136",
+      "title": "RHSA-2026:0136"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-52969",
+      "type": "cve",
+      "id": "CVE-2023-52969",
+      "title": "CVE-2023-52969"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-52970",
+      "type": "cve",
+      "id": "CVE-2023-52970",
+      "title": "CVE-2023-52970"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2023-52971",
+      "type": "cve",
+      "id": "CVE-2023-52971",
+      "title": "CVE-2023-52971"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-13699",
+      "type": "cve",
+      "id": "CVE-2025-13699",
+      "title": "CVE-2025-13699"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-21490",
+      "type": "cve",
+      "id": "CVE-2025-21490",
+      "title": "CVE-2025-21490"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-30693",
+      "type": "cve",
+      "id": "CVE-2025-30693",
+      "title": "CVE-2025-30693"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-30722",
+      "type": "cve",
+      "id": "CVE-2025-30722",
+      "title": "CVE-2025-30722"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2339221",
+      "type": "bugzilla",
+      "id": "2339221",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2350916",
+      "type": "bugzilla",
+      "id": "2350916",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2350917",
+      "type": "bugzilla",
+      "id": "2350917",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2350918",
+      "type": "bugzilla",
+      "id": "2350918",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2359885",
+      "type": "bugzilla",
+      "id": "2359885",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2359963",
+      "type": "bugzilla",
+      "id": "2359963",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2417693",
+      "type": "bugzilla",
+      "id": "2417693",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-0136.html",
+      "type": "self",
+      "id": "ALSA-2026:0136",
+      "title": "ALSA-2026:0136"
+    },
+    {
+      "href": "https://www.redhat.com/security/data/cve/CVE-2026-21968.html",
+      "type": "cve",
+      "id": "CVE-2026-21968",
+      "title": "CVE-2026-21968"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "mariadb10.11 security update",
+  "title": "Important: mariadb10.11 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1792973546000
+  },
+  "version": "3"
+}

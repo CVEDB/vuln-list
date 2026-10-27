@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:0464",
+  "description": "The Common UNIX Printing System (CUPS) provides a portable printing layer for Linux, UNIX, and similar operating systems.  \n\nSecurity Fix(es):  \n\n  * CUPS: Local denial-of-service via cupsd.conf update and related issues (CVE-2025-61915)\n  * cups: Slow client communication leads to a possible DoS attack (CVE-2025-58436)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1768176000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "cups-filesystem",
+        "version": "2.4.10",
+        "release": "12.el10_1.2",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "cups-2.4.10-12.el10_1.2.src.rpm",
+        "filename": "cups-filesystem-2.4.10-12.el10_1.2.noarch.rpm",
+        "sum": "2a2039a662a6fe9de47333d28b998bc81d16a0c388691c25aa0f7aeef35b878d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:0464",
+      "type": "rhsa",
+      "id": "RHSA-2026:0464",
+      "title": "RHSA-2026:0464"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-58436",
+      "type": "cve",
+      "id": "CVE-2025-58436",
+      "title": "CVE-2025-58436"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61915",
+      "type": "cve",
+      "id": "CVE-2025-61915",
+      "title": "CVE-2025-61915"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2416039",
+      "type": "bugzilla",
+      "id": "2416039",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2416040",
+      "type": "bugzilla",
+      "id": "2416040",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-0464.html",
+      "type": "self",
+      "id": "ALSA-2026:0464",
+      "title": "ALSA-2026:0464"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "cups security update",
+  "title": "Moderate: cups security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1768576844000
+  },
+  "version": "3"
+}

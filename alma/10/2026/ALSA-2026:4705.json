@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:4705",
+  "description": "nginx is a web and proxy server supporting HTTP and other protocols, with a focus on high concurrency, performance, and low memory usage.   \n\nSecurity Fix(es):  \n\n  * nginx: NGINX: Data injection via man-in-the-middle attack on TLS proxied connections (CVE-2026-1642)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1773705600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "nginx-filesystem",
+        "version": "1.26.3",
+        "release": "2.el10_1",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "nginx-1.26.3-2.el10_1.src.rpm",
+        "filename": "nginx-filesystem-1.26.3-2.el10_1.noarch.rpm",
+        "sum": "182be8a2a29df2b2608d76b7c0bfbcfb882999b0f68cb8884612791133544951",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-all-modules",
+        "version": "1.26.3",
+        "release": "2.el10_1",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "nginx-1.26.3-2.el10_1.src.rpm",
+        "filename": "nginx-all-modules-1.26.3-2.el10_1.noarch.rpm",
+        "sum": "49f7dffa73b9abb75475acc54058655b6f06d8adeb9993709d0be62220832428",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:4705",
+      "type": "rhsa",
+      "id": "RHSA-2026:4705",
+      "title": "RHSA-2026:4705"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1642",
+      "type": "cve",
+      "id": "CVE-2026-1642",
+      "title": "CVE-2026-1642"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2436738",
+      "type": "bugzilla",
+      "id": "2436738",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-4705.html",
+      "type": "self",
+      "id": "ALSA-2026:4705",
+      "title": "ALSA-2026:4705"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "nginx security update",
+  "title": "Moderate: nginx security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1773924472000
+  },
+  "version": "3"
+}

@@ -1,0 +1,104 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:19912",
+  "description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.  \n\nSecurity Fix(es):  \n\n  * bind: Cache poisoning attacks with unsolicited RRs (CVE-2025-40778)\n  * bind: Cache poisoning due to weak PRNG (CVE-2025-40780)\n  * bind: Resource exhaustion via malformed DNSKEY handling (CVE-2025-8677)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1762387200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "bind-license",
+        "version": "9.18.33",
+        "release": "4.el10_0.2",
+        "epoch": "32",
+        "arch": "noarch",
+        "src": "bind-9.18.33-4.el10_0.2.src.rpm",
+        "filename": "bind-license-9.18.33-4.el10_0.2.noarch.rpm",
+        "sum": "bb81e250595f5da9b569c3ac03115910f28d9faa14c99e5296e260b6950a565f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-doc",
+        "version": "9.18.33",
+        "release": "4.el10_0.2",
+        "epoch": "32",
+        "arch": "noarch",
+        "src": "bind-9.18.33-4.el10_0.2.src.rpm",
+        "filename": "bind-doc-9.18.33-4.el10_0.2.noarch.rpm",
+        "sum": "f3b77d17c084a53a89188b9e49368a24d1a2220f32e1750e2a2311568c4f9b2a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2405827",
+      "type": "bugzilla",
+      "id": "2405827",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405829",
+      "type": "bugzilla",
+      "id": "2405829",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405830",
+      "type": "bugzilla",
+      "id": "2405830",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40778",
+      "type": "cve",
+      "id": "CVE-2025-40778",
+      "title": "CVE-2025-40778"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40780",
+      "type": "cve",
+      "id": "CVE-2025-40780",
+      "title": "CVE-2025-40780"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-8677",
+      "type": "cve",
+      "id": "CVE-2025-8677",
+      "title": "CVE-2025-8677"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:19912",
+      "type": "rhsa",
+      "id": "RHSA-2025:19912",
+      "title": "RHSA-2025:19912"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-19912.html",
+      "type": "self",
+      "id": "ALSA-2025:19912",
+      "title": "ALSA-2025:19912"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "bind security update",
+  "title": "Important: bind security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1762780423000
+  },
+  "version": "3"
+}

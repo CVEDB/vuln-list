@@ -1,0 +1,140 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:2706",
+  "description": "The golang packages provide the Go programming language compiler.  \n\nSecurity Fix(es):  \n\n  * golang: archive/zip: Excessive CPU consumption when building archive index in archive/zip (CVE-2025-61728)\n  * golang: net/url: Memory exhaustion in query parameter parsing in net/url (CVE-2025-61726)\n  * cmd/cgo: Potential code smuggling via doc comments in cmd/cgo (CVE-2025-61732)\n  * crypto/tls: Unexpected session resumption in crypto/tls (CVE-2025-68121)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1771200000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "golang-src",
+        "version": "1.25.7",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.7-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-src-1.25.7-1.el10_1.alma.1.noarch.rpm",
+        "sum": "4b5afc307bfde16dc9cbc4d0971ced774ed4ce330dad233ce21d128636e025d9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-tests",
+        "version": "1.25.7",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.7-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-tests-1.25.7-1.el10_1.alma.1.noarch.rpm",
+        "sum": "4e6afd2590d8c4f9f6ade0bca5023b891ce3175a7741bb8010c0699466da21b2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-docs",
+        "version": "1.25.7",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.7-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-docs-1.25.7-1.el10_1.alma.1.noarch.rpm",
+        "sum": "734b7815d74807e1730a117c8eb955496b60f3fedf7e90661e19123a0754f251",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-misc",
+        "version": "1.25.7",
+        "release": "1.el10_1.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.25.7-1.el10_1.alma.1.src.rpm",
+        "filename": "golang-misc-1.25.7-1.el10_1.alma.1.noarch.rpm",
+        "sum": "ad061ff590c39bb5d6c81dc1a35873e12de344049aa3891863376ddf14556ceb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:2706",
+      "type": "rhsa",
+      "id": "RHSA-2026:2706",
+      "title": "RHSA-2026:2706"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61726",
+      "type": "cve",
+      "id": "CVE-2025-61726",
+      "title": "CVE-2025-61726"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61728",
+      "type": "cve",
+      "id": "CVE-2025-61728",
+      "title": "CVE-2025-61728"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61732",
+      "type": "cve",
+      "id": "CVE-2025-61732",
+      "title": "CVE-2025-61732"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-68121",
+      "type": "cve",
+      "id": "CVE-2025-68121",
+      "title": "CVE-2025-68121"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2434431",
+      "type": "bugzilla",
+      "id": "2434431",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2434432",
+      "type": "bugzilla",
+      "id": "2434432",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2437016",
+      "type": "bugzilla",
+      "id": "2437016",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2437111",
+      "type": "bugzilla",
+      "id": "2437111",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-2706.html",
+      "type": "self",
+      "id": "ALSA-2026:2706",
+      "title": "ALSA-2026:2706"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "golang security update",
+  "title": "Important: golang security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1771422870000
+  },
+  "version": "3"
+}

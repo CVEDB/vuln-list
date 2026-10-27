@@ -8,8 +8,8 @@
     "$date": 1750377600000
   },
   "pkglist": {
-    "name": "almalinux-9-for-i686-appstream-rpms__9_6_default",
-    "shortname": "almalinux-9-for-i686-appstream-rpms__9_6_default",
+    "name": "almalinux-9-for-aarch64-appstream-rpms__9_6_default",
+    "shortname": "almalinux-9-for-aarch64-appstream-rpms__9_6_default",
     "packages": [
       {
         "name": "libblockdev-dm",
@@ -2048,7 +2048,7 @@
   "title": "Important: libblockdev security update",
   "type": "security",
   "updated_date": {
-    "$date": 1750431916000
+    "$date": 1750431910000
   },
   "version": "3"
 }

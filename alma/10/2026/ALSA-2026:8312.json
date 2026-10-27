@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:8312",
+  "description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.  \n\nSecurity Fix(es):  \n\n  * bind: BIND: Denial of Service via maliciously crafted DNSSEC-validated zone (CVE-2026-1519)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1776211200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "bind-doc",
+        "version": "9.18.33",
+        "release": "10.el10_1.3",
+        "epoch": "32",
+        "arch": "noarch",
+        "src": "bind-9.18.33-10.el10_1.3.src.rpm",
+        "filename": "bind-doc-9.18.33-10.el10_1.3.noarch.rpm",
+        "sum": "3549e4b4978409acd2e511cadcea55a443f39a9696adf0cf561c23384f896ffa",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bind-license",
+        "version": "9.18.33",
+        "release": "10.el10_1.3",
+        "epoch": "32",
+        "arch": "noarch",
+        "src": "bind-9.18.33-10.el10_1.3.src.rpm",
+        "filename": "bind-license-9.18.33-10.el10_1.3.noarch.rpm",
+        "sum": "abc94c9f7733fc2d0095320266bf3fc77e992d872d44fb168ad42df6fa0c619c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2451305",
+      "type": "bugzilla",
+      "id": "2451305",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1519",
+      "type": "cve",
+      "id": "CVE-2026-1519",
+      "title": "CVE-2026-1519"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:8312",
+      "type": "rhsa",
+      "id": "RHSA-2026:8312",
+      "title": "RHSA-2026:8312"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-8312.html",
+      "type": "self",
+      "id": "ALSA-2026:8312",
+      "title": "ALSA-2026:8312"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "bind security update",
+  "title": "Important: bind security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1776334151000
+  },
+  "version": "3"
+}

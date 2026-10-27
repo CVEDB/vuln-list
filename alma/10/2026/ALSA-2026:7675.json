@@ -1,0 +1,284 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:7675",
+  "description": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.  \n\nSecurity Fix(es):  \n\n  * nodejs: Nodejs denial of service (CVE-2026-21637)\n  * brace-expansion: brace-expansion: Denial of Service via unbounded brace range expansion (CVE-2026-25547)\n  * minimatch: minimatch: Denial of Service via specially crafted glob patterns (CVE-2026-26996)\n  * undici: Undici: Denial of Service due to uncontrolled resource consumption (CVE-2026-2581)\n  * undici: Undici: HTTP header injection and request smuggling vulnerability (CVE-2026-1527)\n  * undici: undici: Denial of Service via unbounded memory consumption during WebSocket permessage-deflate decompression (CVE-2026-1526)\n  * undici: Undici: Denial of Service via invalid WebSocket permessage-deflate extension parameter (CVE-2026-2229)\n  * undici: Undici: HTTP Request Smuggling and Denial of Service due to duplicate Content-Length headers (CVE-2026-1525)\n  * undici: undici: Denial of Service via crafted WebSocket frame with large length (CVE-2026-1528)\n  * nghttp2: nghttp2: Denial of Service via malformed HTTP/2 frames after session termination (CVE-2026-27135)\n  * Node.js: Node.js: Denial of Service via malformed Internationalized Domain Name processing (CVE-2026-21712)\n  * Node.js: Node.js: Denial of Service due to crafted HTTP `__proto__` header (CVE-2026-21710)\n  * Node.js: Node.js: Information disclosure due to `fs.realpathSync.native()` bypassing filesystem read restrictions (CVE-2026-21715)\n  * nodejs: Node.js: Permission bypass allows unauthorized modification of file permissions and ownership via incomplete security fix. (CVE-2026-21716)\n  * Node.js: Node.js: Unauthorized inter-process communication due to missing Unix Domain Socket permission checks (CVE-2026-21711)\n  * Node.js: Node.js: Information disclosure via timing oracle in HMAC verification (CVE-2026-21713)\n  * Node.js: Node.js: Memory leak and Denial of Service via crafted HTTP/2 WINDOW_UPDATE frames (CVE-2026-21714)\n  * nodejs: v8: Node.js: Denial of Service via V8 string hashing mechanism due to predictable hash collisions (CVE-2026-21717)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1776038400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "nodejs24-docs",
+        "version": "24.14.1",
+        "release": "2.el10_1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nodejs24-24.14.1-2.el10_1.src.rpm",
+        "filename": "nodejs24-docs-24.14.1-2.el10_1.noarch.rpm",
+        "sum": "81e6f775bc8a4c7d7c2ce500cc3f2479d761d469b23d108512ed35641fb29409",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs24-npm",
+        "version": "11.11.0",
+        "release": "1.24.14.1.2.el10_1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nodejs24-24.14.1-2.el10_1.src.rpm",
+        "filename": "nodejs24-npm-11.11.0-1.24.14.1.2.el10_1.noarch.rpm",
+        "sum": "e7f19716e6d8dcb0b9daf9491ad6784c0b082ebb17ffcf87d2608e16ee810ebf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:7675",
+      "type": "rhsa",
+      "id": "RHSA-2026:7675",
+      "title": "RHSA-2026:7675"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1525",
+      "type": "cve",
+      "id": "CVE-2026-1525",
+      "title": "CVE-2026-1525"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1526",
+      "type": "cve",
+      "id": "CVE-2026-1526",
+      "title": "CVE-2026-1526"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1527",
+      "type": "cve",
+      "id": "CVE-2026-1527",
+      "title": "CVE-2026-1527"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1528",
+      "type": "cve",
+      "id": "CVE-2026-1528",
+      "title": "CVE-2026-1528"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21637",
+      "type": "cve",
+      "id": "CVE-2026-21637",
+      "title": "CVE-2026-21637"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21710",
+      "type": "cve",
+      "id": "CVE-2026-21710",
+      "title": "CVE-2026-21710"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21711",
+      "type": "cve",
+      "id": "CVE-2026-21711",
+      "title": "CVE-2026-21711"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21712",
+      "type": "cve",
+      "id": "CVE-2026-21712",
+      "title": "CVE-2026-21712"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21713",
+      "type": "cve",
+      "id": "CVE-2026-21713",
+      "title": "CVE-2026-21713"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21714",
+      "type": "cve",
+      "id": "CVE-2026-21714",
+      "title": "CVE-2026-21714"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21715",
+      "type": "cve",
+      "id": "CVE-2026-21715",
+      "title": "CVE-2026-21715"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21716",
+      "type": "cve",
+      "id": "CVE-2026-21716",
+      "title": "CVE-2026-21716"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21717",
+      "type": "cve",
+      "id": "CVE-2026-21717",
+      "title": "CVE-2026-21717"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-2229",
+      "type": "cve",
+      "id": "CVE-2026-2229",
+      "title": "CVE-2026-2229"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-25547",
+      "type": "cve",
+      "id": "CVE-2026-25547",
+      "title": "CVE-2026-25547"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-2581",
+      "type": "cve",
+      "id": "CVE-2026-2581",
+      "title": "CVE-2026-2581"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-26996",
+      "type": "cve",
+      "id": "CVE-2026-26996",
+      "title": "CVE-2026-26996"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-27135",
+      "type": "cve",
+      "id": "CVE-2026-27135",
+      "title": "CVE-2026-27135"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431340",
+      "type": "bugzilla",
+      "id": "2431340",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2436942",
+      "type": "bugzilla",
+      "id": "2436942",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2441268",
+      "type": "bugzilla",
+      "id": "2441268",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447140",
+      "type": "bugzilla",
+      "id": "2447140",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447141",
+      "type": "bugzilla",
+      "id": "2447141",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447142",
+      "type": "bugzilla",
+      "id": "2447142",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447143",
+      "type": "bugzilla",
+      "id": "2447143",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447144",
+      "type": "bugzilla",
+      "id": "2447144",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447145",
+      "type": "bugzilla",
+      "id": "2447145",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2448754",
+      "type": "bugzilla",
+      "id": "2448754",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453037",
+      "type": "bugzilla",
+      "id": "2453037",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453151",
+      "type": "bugzilla",
+      "id": "2453151",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453152",
+      "type": "bugzilla",
+      "id": "2453152",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453157",
+      "type": "bugzilla",
+      "id": "2453157",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453158",
+      "type": "bugzilla",
+      "id": "2453158",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453160",
+      "type": "bugzilla",
+      "id": "2453160",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453161",
+      "type": "bugzilla",
+      "id": "2453161",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453162",
+      "type": "bugzilla",
+      "id": "2453162",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-7675.html",
+      "type": "self",
+      "id": "ALSA-2026:7675",
+      "title": "ALSA-2026:7675"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "nodejs24 security update",
+  "title": "Important: nodejs24 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1776171916000
+  },
+  "version": "3"
+}

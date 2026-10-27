@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:18063",
+  "description": "nginx is a web and proxy server supporting HTTP and other protocols, with a focus on high concurrency, performance, and low memory usage.   \n\nSecurity Fix(es):  \n\n  * nginx: NGINX: Arbitrary Code Execution Vulnerability (CVE-2026-42945)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1779062400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "nginx-filesystem",
+        "version": "1.26.3",
+        "release": "2.el10_1.2",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "nginx-1.26.3-2.el10_1.2.src.rpm",
+        "filename": "nginx-filesystem-1.26.3-2.el10_1.2.noarch.rpm",
+        "sum": "17c0ee529e26540f99c7d4886207be72c68418e4250f0a71f3a6aeb34a8e324a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nginx-all-modules",
+        "version": "1.26.3",
+        "release": "2.el10_1.2",
+        "epoch": "2",
+        "arch": "noarch",
+        "src": "nginx-1.26.3-2.el10_1.2.src.rpm",
+        "filename": "nginx-all-modules-1.26.3-2.el10_1.2.noarch.rpm",
+        "sum": "487c71ee60f7a459f646497450e575d4e562d7df568ee0519d01b69f5c58606f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:18063",
+      "type": "rhsa",
+      "id": "RHSA-2026:18063",
+      "title": "RHSA-2026:18063"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-42945",
+      "type": "cve",
+      "id": "CVE-2026-42945",
+      "title": "CVE-2026-42945"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2477116",
+      "type": "bugzilla",
+      "id": "2477116",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-18063.html",
+      "type": "self",
+      "id": "ALSA-2026:18063",
+      "title": "ALSA-2026:18063"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Critical",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "nginx security update",
+  "title": "Critical: nginx security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1779227478000
+  },
+  "version": "3"
+}

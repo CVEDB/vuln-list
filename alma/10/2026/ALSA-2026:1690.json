@@ -1,0 +1,296 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:1690",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: Linux kernel: irqchip/gic-v2m use-after-free vulnerability (CVE-2025-37819)\n  * kernel: RDMA/core: Fix \"KASAN: slab-use-after-free Read in ib_register_device\" problem (CVE-2025-38022)\n  * kernel: Linux kernel use-after-free in eventpoll (CVE-2025-38349)\n  * kernel: io_uring/msg_ring: ensure io_kiocb freeing is deferred for RCU (CVE-2025-38453)\n  * kernel: net/sched: mqprio: fix stack out-of-bounds write in tc entry parsing (CVE-2025-38568)\n  * kernel: drm/xe: Fix vm_bind_ioctl double free bug (CVE-2025-38731)\n  * kernel: ASoC: Intel: bytcr_rt5640: Fix invalid quirk input mapping (CVE-2025-40154)\n  * kernel: net: use dst_dev_rcu() in sk_setup_caps() (CVE-2025-40170)\n  * kernel: ipv6: use RCU in ip6_xmit() (CVE-2025-40135)\n  * kernel: ipv6: use RCU in ip6_output() (CVE-2025-40158)\n  * kernel: Linux kernel: vsock vulnerability may lead to memory corruption (CVE-2025-40248)\n  * kernel: mptcp: fix race condition in mptcp_schedule_work() (CVE-2025-40258)\n  * kernel: devlink: rate: Unset parent pointer in devl_rate_nodes_destroy (CVE-2025-40251)\n  * kernel: Linux kernel: Use-after-free in proc_readdir_de() can lead to privilege escalation or denial of service. (CVE-2025-40271)\n  * kernel: Linux kernel: Out-of-bounds write in Bluetooth MGMT can lead to information disclosure and denial of service (CVE-2025-40294)\n  * kernel: Linux kernel: Information disclosure and denial of service in Bluetooth HCI event handling (CVE-2025-40301)\n  * kernel: Bluetooth: hci_sync: fix race in hci_cmd_sync_dequeue_once (CVE-2025-40318)\n  * kernel: net: atlantic: fix fragment overflow handling in RX path (CVE-2025-68301)\n  * kernel: Bluetooth: hci_sock: Prevent race in socket write iter and sock bind (CVE-2025-68305)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1769990400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "124.31.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.31.1.el10_1.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-124.31.1.el10_1.noarch.rpm",
+        "sum": "4254fed02135b1f7e1e3e917ea2bf7a1f8a55a9b8132ee0d3e9e35179002676f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "124.31.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.31.1.el10_1.src.rpm",
+        "filename": "kernel-doc-6.12.0-124.31.1.el10_1.noarch.rpm",
+        "sum": "bd0a55cc857f90a8d763afdb4a5cea45520f84969ee7d15d06966b1cf3fd5c26",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2365032",
+      "type": "bugzilla",
+      "id": "2365032",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2373326",
+      "type": "bugzilla",
+      "id": "2373326",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2381870",
+      "type": "bugzilla",
+      "id": "2381870",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2383516",
+      "type": "bugzilla",
+      "id": "2383516",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2389507",
+      "type": "bugzilla",
+      "id": "2389507",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2393488",
+      "type": "bugzilla",
+      "id": "2393488",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414494",
+      "type": "bugzilla",
+      "id": "2414494",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414506",
+      "type": "bugzilla",
+      "id": "2414506",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414521",
+      "type": "bugzilla",
+      "id": "2414521",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414523",
+      "type": "bugzilla",
+      "id": "2414523",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2418872",
+      "type": "bugzilla",
+      "id": "2418872",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2418876",
+      "type": "bugzilla",
+      "id": "2418876",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2418892",
+      "type": "bugzilla",
+      "id": "2418892",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419837",
+      "type": "bugzilla",
+      "id": "2419837",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419891",
+      "type": "bugzilla",
+      "id": "2419891",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419896",
+      "type": "bugzilla",
+      "id": "2419896",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2419920",
+      "type": "bugzilla",
+      "id": "2419920",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2422836",
+      "type": "bugzilla",
+      "id": "2422836",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2422840",
+      "type": "bugzilla",
+      "id": "2422840",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-37819",
+      "type": "cve",
+      "id": "CVE-2025-37819",
+      "title": "CVE-2025-37819"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38022",
+      "type": "cve",
+      "id": "CVE-2025-38022",
+      "title": "CVE-2025-38022"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38349",
+      "type": "cve",
+      "id": "CVE-2025-38349",
+      "title": "CVE-2025-38349"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38453",
+      "type": "cve",
+      "id": "CVE-2025-38453",
+      "title": "CVE-2025-38453"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38568",
+      "type": "cve",
+      "id": "CVE-2025-38568",
+      "title": "CVE-2025-38568"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38731",
+      "type": "cve",
+      "id": "CVE-2025-38731",
+      "title": "CVE-2025-38731"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40135",
+      "type": "cve",
+      "id": "CVE-2025-40135",
+      "title": "CVE-2025-40135"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40154",
+      "type": "cve",
+      "id": "CVE-2025-40154",
+      "title": "CVE-2025-40154"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40158",
+      "type": "cve",
+      "id": "CVE-2025-40158",
+      "title": "CVE-2025-40158"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40170",
+      "type": "cve",
+      "id": "CVE-2025-40170",
+      "title": "CVE-2025-40170"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40248",
+      "type": "cve",
+      "id": "CVE-2025-40248",
+      "title": "CVE-2025-40248"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40251",
+      "type": "cve",
+      "id": "CVE-2025-40251",
+      "title": "CVE-2025-40251"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40258",
+      "type": "cve",
+      "id": "CVE-2025-40258",
+      "title": "CVE-2025-40258"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40271",
+      "type": "cve",
+      "id": "CVE-2025-40271",
+      "title": "CVE-2025-40271"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40294",
+      "type": "cve",
+      "id": "CVE-2025-40294",
+      "title": "CVE-2025-40294"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40301",
+      "type": "cve",
+      "id": "CVE-2025-40301",
+      "title": "CVE-2025-40301"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40318",
+      "type": "cve",
+      "id": "CVE-2025-40318",
+      "title": "CVE-2025-40318"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-68301",
+      "type": "cve",
+      "id": "CVE-2025-68301",
+      "title": "CVE-2025-68301"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-68305",
+      "type": "cve",
+      "id": "CVE-2025-68305",
+      "title": "CVE-2025-68305"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:1690",
+      "type": "rhsa",
+      "id": "RHSA-2026:1690",
+      "title": "RHSA-2026:1690"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-1690.html",
+      "type": "self",
+      "id": "ALSA-2026:1690",
+      "title": "ALSA-2026:1690"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Important: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1770285388000
+  },
+  "version": "3"
+}

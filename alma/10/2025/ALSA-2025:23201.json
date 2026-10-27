@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:23201",
+  "description": "Keylime is a TPM based highly scalable remote boot attestation and runtime integrity measurement solution.  \n\nSecurity Fix(es):  \n\n  * keylime: Keylime: Registrar allows identity takeover via duplicate UUID registration (CVE-2025-13609)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1765756800000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "keylime-selinux",
+        "version": "7.12.1",
+        "release": "11.el10_1.3",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "keylime-7.12.1-11.el10_1.3.src.rpm",
+        "filename": "keylime-selinux-7.12.1-11.el10_1.3.noarch.rpm",
+        "sum": "9200de1488e886431e194553acf7ed1f7561e94a2f18732900f254047f1cf9da",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:23201",
+      "type": "rhsa",
+      "id": "RHSA-2025:23201",
+      "title": "RHSA-2025:23201"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-13609",
+      "type": "cve",
+      "id": "CVE-2025-13609",
+      "title": "CVE-2025-13609"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2416761",
+      "type": "bugzilla",
+      "id": "2416761",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-23201.html",
+      "type": "self",
+      "id": "ALSA-2025:23201",
+      "title": "ALSA-2025:23201"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "keylime security update",
+  "title": "Important: keylime security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1766412045000
+  },
+  "version": "3"
+}

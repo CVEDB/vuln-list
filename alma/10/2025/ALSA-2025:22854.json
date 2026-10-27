@@ -1,0 +1,176 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:22854",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: cifs: Fix oops due to uninitialised variable (CVE-2025-38737)\n  * kernel: can: j1939: implement NETDEV_UNREGISTER notification handler (CVE-2025-39925)\n  * kernel: Bluetooth: hci_event: Fix UAF in hci_acl_create_conn_sync (CVE-2025-39982)\n  * kernel: Bluetooth: MGMT: Fix possible UAFs (CVE-2025-39981)\n  * kernel: net/mlx5: fs, fix UAF in flow counter release (CVE-2025-39979)\n  * kernel: Bluetooth: hci_event: Fix UAF in hci_conn_tx_dequeue (CVE-2025-39983)\n  * kernel: io_uring/waitid: always prune wait queue entry in io_waitid_wait() (CVE-2025-40047)\n  * kernel: iommu/vt-d: Disallow dirty tracking if incoherent page walk (CVE-2025-40058)\n  * kernel: ice: ice_adapter: release xa entry on adapter allocation failure (CVE-2025-40185)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1765152000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "124.20.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.20.1.el10_1.src.rpm",
+        "filename": "kernel-doc-6.12.0-124.20.1.el10_1.noarch.rpm",
+        "sum": "14605013dfae86d99d6196c605be1591187c35c226cef1257b8292003935424c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "124.20.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.20.1.el10_1.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-124.20.1.el10_1.noarch.rpm",
+        "sum": "b56185503a5dc7ef98a0a81b43587043379fbf72e7a72d4427591d519731f35e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2393527",
+      "type": "bugzilla",
+      "id": "2393527",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2400629",
+      "type": "bugzilla",
+      "id": "2400629",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2404100",
+      "type": "bugzilla",
+      "id": "2404100",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2404105",
+      "type": "bugzilla",
+      "id": "2404105",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2404109",
+      "type": "bugzilla",
+      "id": "2404109",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2404117",
+      "type": "bugzilla",
+      "id": "2404117",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2406758",
+      "type": "bugzilla",
+      "id": "2406758",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2406776",
+      "type": "bugzilla",
+      "id": "2406776",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414741",
+      "type": "bugzilla",
+      "id": "2414741",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38737",
+      "type": "cve",
+      "id": "CVE-2025-38737",
+      "title": "CVE-2025-38737"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39925",
+      "type": "cve",
+      "id": "CVE-2025-39925",
+      "title": "CVE-2025-39925"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39979",
+      "type": "cve",
+      "id": "CVE-2025-39979",
+      "title": "CVE-2025-39979"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39981",
+      "type": "cve",
+      "id": "CVE-2025-39981",
+      "title": "CVE-2025-39981"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39982",
+      "type": "cve",
+      "id": "CVE-2025-39982",
+      "title": "CVE-2025-39982"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39983",
+      "type": "cve",
+      "id": "CVE-2025-39983",
+      "title": "CVE-2025-39983"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40047",
+      "type": "cve",
+      "id": "CVE-2025-40047",
+      "title": "CVE-2025-40047"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40058",
+      "type": "cve",
+      "id": "CVE-2025-40058",
+      "title": "CVE-2025-40058"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-40185",
+      "type": "cve",
+      "id": "CVE-2025-40185",
+      "title": "CVE-2025-40185"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:22854",
+      "type": "rhsa",
+      "id": "RHSA-2025:22854",
+      "title": "RHSA-2025:22854"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-22854.html",
+      "type": "self",
+      "id": "ALSA-2025:22854",
+      "title": "ALSA-2025:22854"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1765354328000
+  },
+  "version": "3"
+}

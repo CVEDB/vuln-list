@@ -1,0 +1,164 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:7080",
+  "description": "Node.js is a platform built on Chrome's JavaScript runtime \\ for easily building fast, scalable network applications. \\ Node.js uses an event-driven, non-blocking I/O model that \\ makes it lightweight and efficient, perfect for data-intensive \\ real-time applications that run across distributed devices.  \n\nSecurity Fix(es):  \n\n  * brace-expansion: brace-expansion: Denial of Service via unbounded brace range expansion (CVE-2026-25547)\n  * minimatch: minimatch: Denial of Service via specially crafted glob patterns (CVE-2026-26996)\n  * minimatch: Minimatch: Denial of Service via catastrophic backtracking in glob expressions (CVE-2026-27904)\n  * undici: undici: Denial of Service via unbounded memory consumption during WebSocket permessage-deflate decompression (CVE-2026-1526)\n  * undici: Undici: Denial of Service via invalid WebSocket permessage-deflate extension parameter (CVE-2026-2229)\n  * undici: Undici: HTTP Request Smuggling and Denial of Service due to duplicate Content-Length headers (CVE-2026-1525)\n  * undici: undici: Denial of Service via crafted WebSocket frame with large length (CVE-2026-1528)\n  * nghttp2: nghttp2: Denial of Service via malformed HTTP/2 frames after session termination (CVE-2026-27135)\n  * Node.js: Node.js: Denial of Service due to crafted HTTP `__proto__` header (CVE-2026-21710)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1775606400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "nodejs-docs",
+        "version": "22.22.2",
+        "release": "1.el10_1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nodejs22-22.22.2-1.el10_1.src.rpm",
+        "filename": "nodejs-docs-22.22.2-1.el10_1.noarch.rpm",
+        "sum": "547cb79e3b62135ee07d7ceadfcb33a607f541e4de7eb56922baaee82e7a240d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:7080",
+      "type": "rhsa",
+      "id": "RHSA-2026:7080",
+      "title": "RHSA-2026:7080"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1525",
+      "type": "cve",
+      "id": "CVE-2026-1525",
+      "title": "CVE-2026-1525"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1526",
+      "type": "cve",
+      "id": "CVE-2026-1526",
+      "title": "CVE-2026-1526"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1528",
+      "type": "cve",
+      "id": "CVE-2026-1528",
+      "title": "CVE-2026-1528"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21710",
+      "type": "cve",
+      "id": "CVE-2026-21710",
+      "title": "CVE-2026-21710"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-2229",
+      "type": "cve",
+      "id": "CVE-2026-2229",
+      "title": "CVE-2026-2229"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-25547",
+      "type": "cve",
+      "id": "CVE-2026-25547",
+      "title": "CVE-2026-25547"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-26996",
+      "type": "cve",
+      "id": "CVE-2026-26996",
+      "title": "CVE-2026-26996"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-27135",
+      "type": "cve",
+      "id": "CVE-2026-27135",
+      "title": "CVE-2026-27135"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-27904",
+      "type": "cve",
+      "id": "CVE-2026-27904",
+      "title": "CVE-2026-27904"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2436942",
+      "type": "bugzilla",
+      "id": "2436942",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2441268",
+      "type": "bugzilla",
+      "id": "2441268",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2442922",
+      "type": "bugzilla",
+      "id": "2442922",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447142",
+      "type": "bugzilla",
+      "id": "2447142",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447143",
+      "type": "bugzilla",
+      "id": "2447143",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447144",
+      "type": "bugzilla",
+      "id": "2447144",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2447145",
+      "type": "bugzilla",
+      "id": "2447145",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2448754",
+      "type": "bugzilla",
+      "id": "2448754",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2453151",
+      "type": "bugzilla",
+      "id": "2453151",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-7080.html",
+      "type": "self",
+      "id": "ALSA-2026:7080",
+      "title": "ALSA-2026:7080"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "nodejs22 security update",
+  "title": "Important: nodejs22 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1775700911000
+  },
+  "version": "3"
+}

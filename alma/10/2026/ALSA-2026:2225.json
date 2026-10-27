@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:2225",
+  "description": "Keylime is a TPM based highly scalable remote boot attestation and runtime integrity measurement solution.  \n\nSecurity Fix(es):  \n\n  * keylime: Keylime: Authentication bypass allows unauthorized administrative operations due to missing client-side TLS authentication (CVE-2026-1709)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1770595200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "keylime-selinux",
+        "version": "7.12.1",
+        "release": "11.el10_1.4",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "keylime-7.12.1-11.el10_1.4.src.rpm",
+        "filename": "keylime-selinux-7.12.1-11.el10_1.4.noarch.rpm",
+        "sum": "ed68406d962714d8354e13eecae48dc3cec8b752c8a401e90dd2925167bfb623",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:2225",
+      "type": "rhsa",
+      "id": "RHSA-2026:2225",
+      "title": "RHSA-2026:2225"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-1709",
+      "type": "cve",
+      "id": "CVE-2026-1709",
+      "title": "CVE-2026-1709"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2435514",
+      "type": "bugzilla",
+      "id": "2435514",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-2225.html",
+      "type": "self",
+      "id": "ALSA-2026:2225",
+      "title": "ALSA-2026:2225"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Critical",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "keylime security update",
+  "title": "Critical: keylime security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1770717971000
+  },
+  "version": "3"
+}

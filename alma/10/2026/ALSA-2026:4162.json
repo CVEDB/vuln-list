@@ -1,0 +1,152 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:4162",
+  "description": "MySQL is a multi-user, multi-threaded SQL database server. MySQL is a client/server implementation consisting of a server daemon (mysqld) and many different client programs and libraries. The base package contains the standard MySQL client programs and generic MySQL files.  \n\nSecurity Fix(es):  \n\n  * mysql: Optimizer unspecified vulnerability (CPU Jan 2026) (CVE-2026-21941)\n  * mysql: Optimizer unspecified vulnerability (CPU Jan 2026) (CVE-2026-21948)\n  * mysql: InnoDB unspecified vulnerability (CPU Jan 2026) (CVE-2026-21936)\n  * mysql: Optimizer unspecified vulnerability (CPU Jan 2026) (CVE-2026-21968)\n  * mysql: DDL unspecified vulnerability (CPU Jan 2026) (CVE-2026-21937)\n  * mysql: Thread Pooling unspecified vulnerability (CPU Jan 2026) (CVE-2026-21964)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1773100800000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "mysql8.4-errmsg",
+        "version": "8.4.8",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "mysql8.4-8.4.8-1.el10_1.src.rpm",
+        "filename": "mysql8.4-errmsg-8.4.8-1.el10_1.noarch.rpm",
+        "sum": "78f667c08e617ddf3b4635c7e9100167179b923f33e882643f3b2c6ed70430f8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql8.4-test-data",
+        "version": "8.4.8",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "mysql8.4-8.4.8-1.el10_1.src.rpm",
+        "filename": "mysql8.4-test-data-8.4.8-1.el10_1.noarch.rpm",
+        "sum": "a7d2e5dbb29aab6cd92c703b1768a5b6fc58dbb66692d5f75fb0809936e4b1ba",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql8.4-common",
+        "version": "8.4.8",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "mysql8.4-8.4.8-1.el10_1.src.rpm",
+        "filename": "mysql8.4-common-8.4.8-1.el10_1.noarch.rpm",
+        "sum": "eec88d488fd5238df4a8629a24930090d3f62d1ec05d4bc2dd3084af54600547",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2431384",
+      "type": "bugzilla",
+      "id": "2431384",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431385",
+      "type": "bugzilla",
+      "id": "2431385",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431402",
+      "type": "bugzilla",
+      "id": "2431402",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431409",
+      "type": "bugzilla",
+      "id": "2431409",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431413",
+      "type": "bugzilla",
+      "id": "2431413",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431431",
+      "type": "bugzilla",
+      "id": "2431431",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21936",
+      "type": "cve",
+      "id": "CVE-2026-21936",
+      "title": "CVE-2026-21936"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21937",
+      "type": "cve",
+      "id": "CVE-2026-21937",
+      "title": "CVE-2026-21937"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21941",
+      "type": "cve",
+      "id": "CVE-2026-21941",
+      "title": "CVE-2026-21941"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21948",
+      "type": "cve",
+      "id": "CVE-2026-21948",
+      "title": "CVE-2026-21948"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21964",
+      "type": "cve",
+      "id": "CVE-2026-21964",
+      "title": "CVE-2026-21964"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21968",
+      "type": "cve",
+      "id": "CVE-2026-21968",
+      "title": "CVE-2026-21968"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:4162",
+      "type": "rhsa",
+      "id": "RHSA-2026:4162",
+      "title": "RHSA-2026:4162"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-4162.html",
+      "type": "self",
+      "id": "ALSA-2026:4162",
+      "title": "ALSA-2026:4162"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "mysql8.4 security update",
+  "title": "Moderate: mysql8.4 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1773222207000
+  },
+  "version": "3"
+}

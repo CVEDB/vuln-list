@@ -1,0 +1,116 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:21036",
+  "description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.  \n\nSecurity Fix(es):  \n\n  * rubygem-rack: Rack QueryParser has an unsafe default allowing params_limit bypass via semicolon-separated parameters (CVE-2025-59830)\n  * rack: Rack's unbounded multipart preamble buffering enables DoS (memory exhaustion) (CVE-2025-61770)\n  * rack: Rack's multipart parser buffers large non?file fields entirely in memory, enabling DoS (memory exhaustion) (CVE-2025-61771)\n  * rack: Rack memory exhaustion denial of service (CVE-2025-61772)\n  * rubygem-rack: Unbounded read in `Rack::Request` form parsing can lead to memory exhaustion (CVE-2025-61919)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1762819200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-highavailability-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-highavailability-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "cockpit-ha-cluster",
+        "version": "0.12.1",
+        "release": "1.el10_1.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "pcs-0.12.1-1.el10_1.1.src.rpm",
+        "filename": "cockpit-ha-cluster-0.12.1-1.el10_1.1.noarch.rpm",
+        "sum": "4e19f98da50a14b0382fffee8fe2d79cbf7bc34fbaa3400351363e5531561b7b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:21036",
+      "type": "rhsa",
+      "id": "RHSA-2025:21036",
+      "title": "RHSA-2025:21036"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-59830",
+      "type": "cve",
+      "id": "CVE-2025-59830",
+      "title": "CVE-2025-59830"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61770",
+      "type": "cve",
+      "id": "CVE-2025-61770",
+      "title": "CVE-2025-61770"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61771",
+      "type": "cve",
+      "id": "CVE-2025-61771",
+      "title": "CVE-2025-61771"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61772",
+      "type": "cve",
+      "id": "CVE-2025-61772",
+      "title": "CVE-2025-61772"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61919",
+      "type": "cve",
+      "id": "CVE-2025-61919",
+      "title": "CVE-2025-61919"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2398167",
+      "type": "bugzilla",
+      "id": "2398167",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2402174",
+      "type": "bugzilla",
+      "id": "2402174",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2402175",
+      "type": "bugzilla",
+      "id": "2402175",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2402200",
+      "type": "bugzilla",
+      "id": "2402200",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2403180",
+      "type": "bugzilla",
+      "id": "2403180",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-21036.html",
+      "type": "self",
+      "id": "ALSA-2025:21036",
+      "title": "ALSA-2025:21036"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "pcs security update",
+  "title": "Important: pcs security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1764923487000
+  },
+  "version": "3"
+}

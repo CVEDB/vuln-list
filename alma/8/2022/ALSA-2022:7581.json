@@ -8,8 +8,8 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-powertools-rpms__8_6_default",
-    "shortname": "almalinux-8-for-x86_64-powertools-rpms__8_6_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
     "packages": [
       {
         "name": "python38-mod_wsgi",
@@ -1383,9 +1383,9 @@
     "module": {
       "stream": "3.8",
       "name": "python38",
-      "version": 8060020220421093950,
-      "arch": "x86_64",
-      "context": "34b68433"
+      "version": 8070020221108190517,
+      "arch": "aarch64",
+      "context": "a51370e3"
     }
   },
   "pushcount": "1",
@@ -1395,6 +1395,24 @@
       "type": "bugzilla",
       "id": "2075390",
       "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2086141",
+      "type": "bugzilla",
+      "id": "2086141",
+      "title": "Update python38-jinja2 to 2.11.x"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2090006",
+      "type": "bugzilla",
+      "id": "2090006",
+      "title": "Backport patch to handle TMPDIR in $PWD for pyproject macro support"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2095265",
+      "type": "bugzilla",
+      "id": "2095265",
+      "title": "testsuite failures caused by expat: test_minidom, test_xml_etree_c, test_xml_etree"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2015-20107",
@@ -1424,7 +1442,7 @@
   "title": "Moderate: python38:3.8 and python38-devel:3.8 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668439237000
+    "$date": 1792972016000
   },
   "version": "1"
 }

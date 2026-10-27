@@ -1,0 +1,140 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:1842",
+  "description": "Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.  \n\nSecurity Fix(es):  \n\n  * nodejs: Nodejs filesystem permissions bypass (CVE-2025-55132)\n  * nodejs: Nodejs denial of service (CVE-2026-21637)\n  * nodejs: Nodejs denial of service (CVE-2025-59466)\n  * nodejs: Nodejs denial of service (CVE-2025-59465)\n  * nodejs: Nodejs uninitialized memory exposure (CVE-2025-55131)\n  * nodejs: Nodejs file permissions bypass (CVE-2025-55130)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1770076800000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "nodejs24-npm",
+        "version": "11.6.2",
+        "release": "1.24.13.0.1.el10_1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nodejs24-24.13.0-1.el10_1.src.rpm",
+        "filename": "nodejs24-npm-11.6.2-1.24.13.0.1.el10_1.noarch.rpm",
+        "sum": "3124f27ac9e1285a726aecbbc047a23ca152293caa72095bbdba52fdf9cad7a9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "nodejs24-docs",
+        "version": "24.13.0",
+        "release": "1.el10_1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "nodejs24-24.13.0-1.el10_1.src.rpm",
+        "filename": "nodejs24-docs-24.13.0-1.el10_1.noarch.rpm",
+        "sum": "d3c3383e0a8620d0d96532e4cabc540398587c29a21017ddf8a1923501b6e001",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:1842",
+      "type": "rhsa",
+      "id": "RHSA-2026:1842",
+      "title": "RHSA-2026:1842"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-55130",
+      "type": "cve",
+      "id": "CVE-2025-55130",
+      "title": "CVE-2025-55130"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-55131",
+      "type": "cve",
+      "id": "CVE-2025-55131",
+      "title": "CVE-2025-55131"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-55132",
+      "type": "cve",
+      "id": "CVE-2025-55132",
+      "title": "CVE-2025-55132"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-59465",
+      "type": "cve",
+      "id": "CVE-2025-59465",
+      "title": "CVE-2025-59465"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-59466",
+      "type": "cve",
+      "id": "CVE-2025-59466",
+      "title": "CVE-2025-59466"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-21637",
+      "type": "cve",
+      "id": "CVE-2026-21637",
+      "title": "CVE-2026-21637"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431338",
+      "type": "bugzilla",
+      "id": "2431338",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431340",
+      "type": "bugzilla",
+      "id": "2431340",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431343",
+      "type": "bugzilla",
+      "id": "2431343",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431349",
+      "type": "bugzilla",
+      "id": "2431349",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431350",
+      "type": "bugzilla",
+      "id": "2431350",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2431352",
+      "type": "bugzilla",
+      "id": "2431352",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-1842.html",
+      "type": "self",
+      "id": "ALSA-2026:1842",
+      "title": "ALSA-2026:1842"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "nodejs24 security update",
+  "title": "Important: nodejs24 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1770399015000
+  },
+  "version": "3"
+}

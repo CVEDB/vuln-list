@@ -1,0 +1,176 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:23008",
+  "description": "MySQL is a multi-user, multi-threaded SQL database server. MySQL is a client/server implementation consisting of a server daemon (mysqld) and many different client programs and libraries. The base package contains the standard MySQL client programs and generic MySQL files.  \n\nSecurity Fix(es):  \n\n  * mysql: DML unspecified vulnerability (CPU Oct 2025) (CVE-2025-53053)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53044)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53062)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53054)\n  * mysql: InnoDB unspecified vulnerability (CPU Oct 2025) (CVE-2025-53045)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53040)\n  * mysql: Components Services unspecified vulnerability (CPU Oct 2025) (CVE-2025-53069)\n  * mysql: Optimizer unspecified vulnerability (CPU Oct 2025) (CVE-2025-53042)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1765324800000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "mysql8.4-test-data",
+        "version": "8.4.7",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "mysql8.4-8.4.7-1.el10_1.src.rpm",
+        "filename": "mysql8.4-test-data-8.4.7-1.el10_1.noarch.rpm",
+        "sum": "308864d516d16c4e302797a701e15826a01fa581d1dd9b23daed92618465f9b9",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql8.4-common",
+        "version": "8.4.7",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "mysql8.4-8.4.7-1.el10_1.src.rpm",
+        "filename": "mysql8.4-common-8.4.7-1.el10_1.noarch.rpm",
+        "sum": "4851fa098552b216259e4bac1f3d688e691b1cef2acc8eb212b78f778bda8183",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "mysql8.4-errmsg",
+        "version": "8.4.7",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "mysql8.4-8.4.7-1.el10_1.src.rpm",
+        "filename": "mysql8.4-errmsg-8.4.7-1.el10_1.noarch.rpm",
+        "sum": "d5da935f2a26a96b2bd0a66767512b2cca946026ba5f068bd70a304fcd579121",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2405486",
+      "type": "bugzilla",
+      "id": "2405486",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405491",
+      "type": "bugzilla",
+      "id": "2405491",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405511",
+      "type": "bugzilla",
+      "id": "2405511",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405514",
+      "type": "bugzilla",
+      "id": "2405514",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405523",
+      "type": "bugzilla",
+      "id": "2405523",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405534",
+      "type": "bugzilla",
+      "id": "2405534",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405541",
+      "type": "bugzilla",
+      "id": "2405541",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2405544",
+      "type": "bugzilla",
+      "id": "2405544",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53040",
+      "type": "cve",
+      "id": "CVE-2025-53040",
+      "title": "CVE-2025-53040"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53042",
+      "type": "cve",
+      "id": "CVE-2025-53042",
+      "title": "CVE-2025-53042"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53044",
+      "type": "cve",
+      "id": "CVE-2025-53044",
+      "title": "CVE-2025-53044"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53045",
+      "type": "cve",
+      "id": "CVE-2025-53045",
+      "title": "CVE-2025-53045"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53053",
+      "type": "cve",
+      "id": "CVE-2025-53053",
+      "title": "CVE-2025-53053"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53054",
+      "type": "cve",
+      "id": "CVE-2025-53054",
+      "title": "CVE-2025-53054"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53062",
+      "type": "cve",
+      "id": "CVE-2025-53062",
+      "title": "CVE-2025-53062"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-53069",
+      "type": "cve",
+      "id": "CVE-2025-53069",
+      "title": "CVE-2025-53069"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:23008",
+      "type": "rhsa",
+      "id": "RHSA-2025:23008",
+      "title": "RHSA-2025:23008"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-23008.html",
+      "type": "self",
+      "id": "ALSA-2025:23008",
+      "title": "ALSA-2025:23008"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "mysql8.4 security update",
+  "title": "Moderate: mysql8.4 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1765534429000
+  },
+  "version": "3"
+}

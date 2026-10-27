@@ -1,0 +1,140 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:16904",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: fs: export anon_inode_make_secure_inode() and fix secretmem LSM bypass (CVE-2025-38396)\n  * kernel: smb: client: fix use-after-free in cifs_oplock_break (CVE-2025-38527)\n  * kernel: cifs: Fix the smbd_response slab to allow usercopy (CVE-2025-38523)\n  * kernel: tls: fix handling of zero-length records on the rx_list (CVE-2025-39682)\n  * kernel: io_uring/futex: ensure io_futex_wait() cleans up properly on failure (CVE-2025-39698)\n  * kernel: s390/sclp: Fix SCCB present check (CVE-2025-39694)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1759104000000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "55.37.1.el10_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-55.37.1.el10_0.src.rpm",
+        "filename": "kernel-doc-6.12.0-55.37.1.el10_0.noarch.rpm",
+        "sum": "4b3e4384f1b98dc6b8b682e62c13f8da6842365b47c4927247949b08fff8b83e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "55.37.1.el10_0",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-55.37.1.el10_0.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-55.37.1.el10_0.noarch.rpm",
+        "sum": "7eeb7233cd351245be9d37fa8585849e6ab547e52625d98aa36d6ad5ba73c3c3",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2383441",
+      "type": "bugzilla",
+      "id": "2383441",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2388928",
+      "type": "bugzilla",
+      "id": "2388928",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2388948",
+      "type": "bugzilla",
+      "id": "2388948",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2393511",
+      "type": "bugzilla",
+      "id": "2393511",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2393519",
+      "type": "bugzilla",
+      "id": "2393519",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2393534",
+      "type": "bugzilla",
+      "id": "2393534",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38396",
+      "type": "cve",
+      "id": "CVE-2025-38396",
+      "title": "CVE-2025-38396"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38523",
+      "type": "cve",
+      "id": "CVE-2025-38523",
+      "title": "CVE-2025-38523"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38527",
+      "type": "cve",
+      "id": "CVE-2025-38527",
+      "title": "CVE-2025-38527"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39682",
+      "type": "cve",
+      "id": "CVE-2025-39682",
+      "title": "CVE-2025-39682"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39694",
+      "type": "cve",
+      "id": "CVE-2025-39694",
+      "title": "CVE-2025-39694"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39698",
+      "type": "cve",
+      "id": "CVE-2025-39698",
+      "title": "CVE-2025-39698"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:16904",
+      "type": "rhsa",
+      "id": "RHSA-2025:16904",
+      "title": "RHSA-2025:16904"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-16904.html",
+      "type": "self",
+      "id": "ALSA-2025:16904",
+      "title": "ALSA-2025:16904"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1759483166000
+  },
+  "version": "3"
+}

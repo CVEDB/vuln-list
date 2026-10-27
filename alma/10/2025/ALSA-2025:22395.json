@@ -1,0 +1,140 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:22395",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: ublk: make sure ubq-\u003ecanceling is set when queue is frozen (CVE-2025-22068)\n  * kernel: nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm() (CVE-2025-38724)\n  * kernel: mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory (CVE-2025-39883)\n  * kernel: e1000e: fix heap overflow in e1000_set_eeprom (CVE-2025-39898)\n  * kernel: wifi: mt76: fix linked list corruption (CVE-2025-39918)\n  * kernel: i40e: fix idx validation in config queues msg (CVE-2025-39971)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1764547200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "124.16.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.16.1.el10_1.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-124.16.1.el10_1.noarch.rpm",
+        "sum": "4fbf9878f69864efd870850519a80a432a604673b8125287cf8d48fd0b297860",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "124.16.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.16.1.el10_1.src.rpm",
+        "filename": "kernel-doc-6.12.0-124.16.1.el10_1.noarch.rpm",
+        "sum": "b0cdd74a51a417afcf5410ee817f03daf1637899f085fcbae3ce83db225e528a",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2360225",
+      "type": "bugzilla",
+      "id": "2360225",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2393172",
+      "type": "bugzilla",
+      "id": "2393172",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2397553",
+      "type": "bugzilla",
+      "id": "2397553",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2400598",
+      "type": "bugzilla",
+      "id": "2400598",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2400628",
+      "type": "bugzilla",
+      "id": "2400628",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2404108",
+      "type": "bugzilla",
+      "id": "2404108",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-22068",
+      "type": "cve",
+      "id": "CVE-2025-22068",
+      "title": "CVE-2025-22068"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-38724",
+      "type": "cve",
+      "id": "CVE-2025-38724",
+      "title": "CVE-2025-38724"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39883",
+      "type": "cve",
+      "id": "CVE-2025-39883",
+      "title": "CVE-2025-39883"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39898",
+      "type": "cve",
+      "id": "CVE-2025-39898",
+      "title": "CVE-2025-39898"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39918",
+      "type": "cve",
+      "id": "CVE-2025-39918",
+      "title": "CVE-2025-39918"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-39971",
+      "type": "cve",
+      "id": "CVE-2025-39971",
+      "title": "CVE-2025-39971"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:22395",
+      "type": "rhsa",
+      "id": "RHSA-2025:22395",
+      "title": "RHSA-2025:22395"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-22395.html",
+      "type": "self",
+      "id": "ALSA-2025:22395",
+      "title": "ALSA-2025:22395"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1765802674000
+  },
+  "version": "3"
+}

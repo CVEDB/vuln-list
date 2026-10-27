@@ -8,8 +8,8 @@
     "$date": 1667865600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-powertools-rpms__8_6_default",
-    "shortname": "almalinux-8-for-x86_64-powertools-rpms__8_6_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_6_default",
     "packages": [
       {
         "name": "python39-debug",
@@ -1395,9 +1395,9 @@
     "module": {
       "stream": "3.9",
       "name": "python39",
-      "version": 8060020220421104152,
-      "arch": "x86_64",
-      "context": "b9465af8"
+      "version": 8070020221108190631,
+      "arch": "aarch64",
+      "context": "0a5380d9"
     }
   },
   "pushcount": "1",
@@ -1407,6 +1407,12 @@
       "type": "bugzilla",
       "id": "2075390",
       "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2095271",
+      "type": "bugzilla",
+      "id": "2095271",
+      "title": "testsuite failures caused by expat: test_minidom, test_xml_etree_c, test_xml_etree"
     },
     {
       "href": "https://access.redhat.com/security/cve/CVE-2015-20107",
@@ -1436,7 +1442,7 @@
   "title": "Moderate: python39:3.9 and python39-devel:3.9 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1668434497000
+    "$date": 1792972001000
   },
   "version": "1"
 }

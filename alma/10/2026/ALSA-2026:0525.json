@@ -1,0 +1,74 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:0525",
+  "description": "PostgreSQL is an advanced Object-Relational database management system (DBMS). The base postgresql package contains the client programs that you'll need to access a PostgreSQL DBMS server, as well as HTML documentation for the whole system. These client programs can be located on the same machine as the PostgreSQL server, or on a remote machine that accesses a PostgreSQL server over a network connection. The PostgreSQL server can be found in the postgresql-server sub-package.  \n\nSecurity Fix(es):  \n\n  * postgresql: libpq undersizes allocations, via integer wraparound (CVE-2025-12818)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1768262400000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-crb-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-crb-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "postgresql-test-rpm-macros",
+        "version": "16.11",
+        "release": "1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "postgresql16-16.11-1.el10_1.src.rpm",
+        "filename": "postgresql-test-rpm-macros-16.11-1.el10_1.noarch.rpm",
+        "sum": "91d5ad13424ef2d2c5fdc1a5bad93edce3ef8e72ecff6128a255f9322c45da6e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:0525",
+      "type": "rhsa",
+      "id": "RHSA-2026:0525",
+      "title": "RHSA-2026:0525"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-12818",
+      "type": "cve",
+      "id": "CVE-2025-12818",
+      "title": "CVE-2025-12818"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414825",
+      "type": "bugzilla",
+      "id": "2414825",
+      "title": ""
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2414826",
+      "type": "bugzilla",
+      "id": "2414826",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-0525.html",
+      "type": "self",
+      "id": "ALSA-2026:0525",
+      "title": "ALSA-2026:0525"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "postgresql16 security update",
+  "title": "Moderate: postgresql16 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1768576009000
+  },
+  "version": "3"
+}

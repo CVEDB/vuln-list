@@ -1,0 +1,110 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2025:13941",
+  "description": "The golang packages provide the Go programming language compiler.  \n\nSecurity Fix(es):  \n\n  * cmd/go: Go VCS Command Execution Vulnerability (CVE-2025-4674)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1755475200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "golang-src",
+        "version": "1.24.6",
+        "release": "1.el10_0.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.24.6-1.el10_0.alma.1.src.rpm",
+        "filename": "golang-src-1.24.6-1.el10_0.alma.1.noarch.rpm",
+        "sum": "48ca27c5b38c1f2fa1ac58ece2e1458a2dc7567cbcd79dcb6776e513680a5167",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-misc",
+        "version": "1.24.6",
+        "release": "1.el10_0.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.24.6-1.el10_0.alma.1.src.rpm",
+        "filename": "golang-misc-1.24.6-1.el10_0.alma.1.noarch.rpm",
+        "sum": "83670aa8ef8253d2cb3f7b30cf7fded4995488eec26e485effc10065b9c86975",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-docs",
+        "version": "1.24.6",
+        "release": "1.el10_0.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.24.6-1.el10_0.alma.1.src.rpm",
+        "filename": "golang-docs-1.24.6-1.el10_0.alma.1.noarch.rpm",
+        "sum": "b540c93d9030e14609394ea67606f28cd6f298bcddaaae80a6be8d7183f50ecf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "golang-tests",
+        "version": "1.24.6",
+        "release": "1.el10_0.alma.1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "golang-1.24.6-1.el10_0.alma.1.src.rpm",
+        "filename": "golang-tests-1.24.6-1.el10_0.alma.1.noarch.rpm",
+        "sum": "d2f30e00924a779cf17c9bde4531ce463af71fc9b65a7cfa2fb330d6b1275c01",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2025:13941",
+      "type": "rhsa",
+      "id": "RHSA-2025:13941",
+      "title": "RHSA-2025:13941"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-4674",
+      "type": "cve",
+      "id": "CVE-2025-4674",
+      "title": "CVE-2025-4674"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2384329",
+      "type": "bugzilla",
+      "id": "2384329",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2025-13941.html",
+      "type": "self",
+      "id": "ALSA-2025:13941",
+      "title": "ALSA-2025:13941"
+    },
+    {
+      "href": "https://www.redhat.com/security/data/cve/CVE-2025-47907.html",
+      "type": "cve",
+      "id": "CVE-2025-47907",
+      "title": "CVE-2025-47907"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2025 AlmaLinux OS",
+  "severity": "Important",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "golang security update",
+  "title": "Important: golang security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1792973504000
+  },
+  "version": "3"
+}

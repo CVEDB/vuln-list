@@ -1,0 +1,80 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:4723",
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.  \n\nSecurity Fix(es):  \n\n  * kernel: Linux kernel: Use-after-free in IPv6 address deletion may lead to a denial of service (CVE-2026-23010)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1773705600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-appstream-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "kernel-doc",
+        "version": "6.12.0",
+        "release": "124.45.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.45.1.el10_1.src.rpm",
+        "filename": "kernel-doc-6.12.0-124.45.1.el10_1.noarch.rpm",
+        "sum": "034583bfb857c6072df957dea3dbe905f8a48f0a054f9b3df07ce0fe212414fd",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "kernel-abi-stablelists",
+        "version": "6.12.0",
+        "release": "124.45.1.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "kernel-6.12.0-124.45.1.el10_1.src.rpm",
+        "filename": "kernel-abi-stablelists-6.12.0-124.45.1.el10_1.noarch.rpm",
+        "sum": "f02906d38410099041dcbacb1d32ffd2f6f3612e964c4cc206ff542a81ec37eb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2432676",
+      "type": "bugzilla",
+      "id": "2432676",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2026-23010",
+      "type": "cve",
+      "id": "CVE-2026-23010",
+      "title": "CVE-2026-23010"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:4723",
+      "type": "rhsa",
+      "id": "RHSA-2026:4723",
+      "title": "RHSA-2026:4723"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-4723.html",
+      "type": "self",
+      "id": "ALSA-2026:4723",
+      "title": "ALSA-2026:4723"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "kernel security update",
+  "title": "Moderate: kernel security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1773931734000
+  },
+  "version": "3"
+}

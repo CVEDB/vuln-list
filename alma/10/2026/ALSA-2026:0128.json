@@ -1,0 +1,68 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:0128",
+  "description": "Poppler is a Portable Document Format (PDF) rendering library, used by applications such as Evince.  \n\nSecurity Fix(es):  \n\n  * poppler: Out-of-Bounds Read in Poppler (CVE-2025-32365)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1767657600000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-crb-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-crb-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "poppler-glib-doc",
+        "version": "24.02.0",
+        "release": "7.el10_1",
+        "epoch": "0",
+        "arch": "noarch",
+        "src": "poppler-24.02.0-7.el10_1.src.rpm",
+        "filename": "poppler-glib-doc-24.02.0-7.el10_1.noarch.rpm",
+        "sum": "94cfb72d303bddf260881ca767e64ff91af5fbb197dc31d7b0289d77cdb12fbc",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:0128",
+      "type": "rhsa",
+      "id": "RHSA-2026:0128",
+      "title": "RHSA-2026:0128"
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-32365",
+      "type": "cve",
+      "id": "CVE-2025-32365",
+      "title": "CVE-2025-32365"
+    },
+    {
+      "href": "https://bugzilla.redhat.com/2357656",
+      "type": "bugzilla",
+      "id": "2357656",
+      "title": ""
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-0128.html",
+      "type": "self",
+      "id": "ALSA-2026:0128",
+      "title": "ALSA-2026:0128"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "poppler security update",
+  "title": "Moderate: poppler security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1767796158000
+  },
+  "version": "3"
+}

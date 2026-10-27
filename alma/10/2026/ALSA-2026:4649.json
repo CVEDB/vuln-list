@@ -1,0 +1,116 @@
+{
+  "_id": {},
+  "bs_repo_id": {},
+  "updateinfo_id": "ALSA-2026:4649",
+  "description": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.  \n\nSecurity Fix(es):  \n\n  * grub2: Missing unregister call for gettext command may lead to use-after-free (CVE-2025-61662)\n\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n",
+  "fromstr": "packager@almalinux.org",
+  "issued_date": {
+    "$date": 1773619200000
+  },
+  "pkglist": {
+    "name": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "shortname": "almalinux-10-for-riscv64-baseos-rpms__10_0_default",
+    "packages": [
+      {
+        "name": "grub2-ppc64le-modules",
+        "version": "2.12",
+        "release": "29.el10_1.2.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-29.el10_1.2.alma.1.src.rpm",
+        "filename": "grub2-ppc64le-modules-2.12-29.el10_1.2.alma.1.noarch.rpm",
+        "sum": "7fb74d1d103ac7dea7046f6dac6dc7a7832ee0d726af1b4472c9d69b5c35305c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-efi-aa64-modules",
+        "version": "2.12",
+        "release": "29.el10_1.2.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-29.el10_1.2.alma.1.src.rpm",
+        "filename": "grub2-efi-aa64-modules-2.12-29.el10_1.2.alma.1.noarch.rpm",
+        "sum": "88a7c02c78c672311b5efcf69502550161b8fe2ba4a4dd4da6ceed69fb65d48d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-efi-x64-modules",
+        "version": "2.12",
+        "release": "29.el10_1.2.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-29.el10_1.2.alma.1.src.rpm",
+        "filename": "grub2-efi-x64-modules-2.12-29.el10_1.2.alma.1.noarch.rpm",
+        "sum": "c242e1db75c86f86c534dd060b1383790b478ae10983b04bc1307ff7b6499ae8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-pc-modules",
+        "version": "2.12",
+        "release": "29.el10_1.2.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-29.el10_1.2.alma.1.src.rpm",
+        "filename": "grub2-pc-modules-2.12-29.el10_1.2.alma.1.noarch.rpm",
+        "sum": "d3355bd4dd743099f1ddaad918e54c33cfee355313ed56f2faca99c6da911857",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "grub2-common",
+        "version": "2.12",
+        "release": "29.el10_1.2.alma.1",
+        "epoch": "1",
+        "arch": "noarch",
+        "src": "grub2-2.12-29.el10_1.2.alma.1.src.rpm",
+        "filename": "grub2-common-2.12-29.el10_1.2.alma.1.noarch.rpm",
+        "sum": "e606582e7e575c7e49840876ec76e92a5365febbf184a28a2a0c1ef93c14b3b0",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      }
+    ],
+    "module": {}
+  },
+  "pushcount": "1",
+  "references": [
+    {
+      "href": "https://bugzilla.redhat.com/2414683",
+      "type": "bugzilla",
+      "id": "2414683",
+      "title": ""
+    },
+    {
+      "href": "https://access.redhat.com/security/cve/CVE-2025-61662",
+      "type": "cve",
+      "id": "CVE-2025-61662",
+      "title": "CVE-2025-61662"
+    },
+    {
+      "href": "https://access.redhat.com/errata/RHSA-2026:4649",
+      "type": "rhsa",
+      "id": "RHSA-2026:4649",
+      "title": "RHSA-2026:4649"
+    },
+    {
+      "href": "https://errata.almalinux.org/10/ALSA-2026-4649.html",
+      "type": "self",
+      "id": "ALSA-2026:4649",
+      "title": "ALSA-2026:4649"
+    }
+  ],
+  "release": "0",
+  "rights": "Copyright 2026 AlmaLinux OS",
+  "severity": "Moderate",
+  "solution": "For details on how to apply this update, which includes the changes described in this advisory, refer to:\n\nhttps://access.redhat.com/articles/11258",
+  "status": "final",
+  "summary": "grub2 security update",
+  "title": "Moderate: grub2 security update",
+  "type": "security",
+  "updated_date": {
+    "$date": 1773932492000
+  },
+  "version": "3"
+}

@@ -8,8 +8,8 @@
     "$date": 1723507200000
   },
   "pkglist": {
-    "name": "almalinux-8-for-i686-appstream-rpms__8_10_default",
-    "shortname": "almalinux-8-for-i686-appstream-rpms__8_10_default",
+    "name": "almalinux-8-for-aarch64-appstream-rpms__8_10_default",
+    "shortname": "almalinux-8-for-aarch64-appstream-rpms__8_10_default",
     "packages": [
       {
         "name": "containernetworking-plugins",
@@ -1467,8 +1467,8 @@
     "module": {
       "stream": "rhel8",
       "name": "container-tools",
-      "version": 8100020240618090252,
-      "arch": "i686",
+      "version": 8100020240813140059,
+      "arch": "aarch64",
       "context": "20125149"
     }
   },
@@ -1571,6 +1571,12 @@
       "title": "CVE-2024-6104"
     },
     {
+      "href": "https://www.redhat.com/security/data/cve/CVE-2024-37891.html",
+      "type": "cve",
+      "id": "CVE-2024-37891",
+      "title": "CVE-2024-37891"
+    },
+    {
       "href": "https://access.redhat.com/errata/RHSA-2024:5258",
       "type": "rhsa",
       "id": "RHSA-2024:5258",
@@ -1592,7 +1598,7 @@
   "title": "Important: container-tools:rhel8 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1723651753000
+    "$date": 1792972399000
   },
   "version": "3"
 }
