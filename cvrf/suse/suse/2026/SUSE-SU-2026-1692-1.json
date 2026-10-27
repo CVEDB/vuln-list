@@ -1,0 +1,635 @@
+{
+  "Title": "Security update for xen",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1692-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-05-05T08:03:58Z",
+    "CurrentReleaseDate": "2026-05-05T08:03:58Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-05-05T08:03:58Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for xen",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for xen fixes the following issues:\n\n- CVE-2025-54505: Floating Point Divider State Sampling on AMD CPUs AMD-SN-7053 (bsc#1262428).\n- CVE-2026-23557: Xenstored DoS via XS_RESET_WATCHES command (bsc#1262178).\n- CVE-2026-23558: grant table v2 race in status page mapping (bsc#1262180).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES15-SP4-BYOS-2026-1692,Image SLES15-SP4-BYOS-Azure-2026-1692,Image SLES15-SP4-BYOS-EC2-2026-1692,Image SLES15-SP4-BYOS-GCE-2026-1692,Image SLES15-SP4-CHOST-BYOS-2026-1692,Image SLES15-SP4-CHOST-BYOS-Aliyun-2026-1692,Image SLES15-SP4-CHOST-BYOS-Azure-2026-1692,Image SLES15-SP4-CHOST-BYOS-EC2-2026-1692,Image SLES15-SP4-CHOST-BYOS-GCE-2026-1692,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2026-1692,Image SLES15-SP4-HPC-BYOS-2026-1692,Image SLES15-SP4-HPC-BYOS-Azure-2026-1692,Image SLES15-SP4-HPC-BYOS-EC2-2026-1692,Image SLES15-SP4-HPC-BYOS-GCE-2026-1692,Image SLES15-SP4-HPC-EC2-2026-1692,Image SLES15-SP4-HPC-GCE-2026-1692,Image SLES15-SP4-Hardened-BYOS-2026-1692,Image SLES15-SP4-Hardened-BYOS-Azure-2026-1692,Image SLES15-SP4-Hardened-BYOS-EC2-2026-1692,Image SLES15-SP4-Hardened-BYOS-GCE-2026-1692,Image SLES15-SP4-SAP-2026-1692,Image SLES15-SP4-SAP-Azure-2026-1692,Image SLES15-SP4-SAP-BYOS-2026-1692,Image SLES15-SP4-SAP-BYOS-Azure-2026-1692,Image SLES15-SP4-SAP-BYOS-EC2-2026-1692,Image SLES15-SP4-SAP-BYOS-GCE-2026-1692,Image SLES15-SP4-SAP-EC2-2026-1692,Image SLES15-SP4-SAP-GCE-2026-1692,Image SLES15-SP4-SAP-Hardened-2026-1692,Image SLES15-SP4-SAP-Hardened-Azure-2026-1692,Image SLES15-SP4-SAP-Hardened-BYOS-2026-1692,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-1692,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2026-1692,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2026-1692,Image SLES15-SP4-SAP-Hardened-GCE-2026-1692,Image SLES15-SP4-SAPCAL-2026-1692,Image SLES15-SP4-SAPCAL-Azure-2026-1692,Image SLES15-SP4-SAPCAL-EC2-2026-1692,Image SLES15-SP4-SAPCAL-GCE-2026-1692,SUSE-2026-1692,SUSE-SLE-Micro-5.3-2026-1692,SUSE-SLE-Micro-5.4-2026-1692",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-tools-domU-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xen-libs-4.16.7_08-150400.4.81.2",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261692-1/",
+      "Description": "Link for SUSE-SU-2026:1692-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-May/046207.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1692-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262178",
+      "Description": "SUSE Bug 1262178"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262180",
+      "Description": "SUSE Bug 1262180"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262428",
+      "Description": "SUSE Bug 1262428"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-54505/",
+      "Description": "SUSE CVE CVE-2025-54505 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-23557/",
+      "Description": "SUSE CVE CVE-2026-23557 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-23558/",
+      "Description": "SUSE CVE CVE-2026-23558 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-54505",
+      "Description": "A transient execution vulnerability within AMD CPUs may allow a local user-privileged attacker to leak data via the floating point divisor unit, potentially resulting in loss of confidentiality.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-54505.html",
+          "Description": "CVE-2025-54505"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261928",
+          "Description": "SUSE Bug 1261928"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262428",
+          "Description": "SUSE Bug 1262428"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP4-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "SUSE Linux Enterprise Micro 5.3:xen-libs-4.16.7_08-150400.4.81.2",
+            "SUSE Linux Enterprise Micro 5.4:xen-libs-4.16.7_08-150400.4.81.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2026-23557",
+      "Description": "Any guest can cause xenstored to crash by issuing a XS_RESET_WATCHES\ncommand within a transaction due to an assert() triggering.\n\nIn case xenstored was built with NDEBUG #defined nothing bad will\nhappen, as assert() is doing nothing in this case. Note that the\ndefault is not to define NDEBUG for xenstored builds even in release\nbuilds of Xen.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-23557.html",
+          "Description": "CVE-2026-23557"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262178",
+          "Description": "SUSE Bug 1262178"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP4-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "SUSE Linux Enterprise Micro 5.3:xen-libs-4.16.7_08-150400.4.81.2",
+            "SUSE Linux Enterprise Micro 5.4:xen-libs-4.16.7_08-150400.4.81.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2026-23558",
+      "Description": "The adjustments made for XSA-379 as well as those subsequently becoming\nXSA-387 still left a race window, when a HVM or PVH guest does a grant\ntable version change from v2 to v1 in parallel with mapping the status\npage(s) via XENMEM_add_to_physmap.  Some of the status pages may then be\nfreed while mappings of them would still be inserted into the guest's\nsecondary (P2M) page tables.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-23558.html",
+          "Description": "CVE-2026-23558"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262180",
+          "Description": "SUSE Bug 1262180"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP4-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-CHOST-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-HPC-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-Hardened-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP-Hardened:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAP:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-Azure:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-EC2:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-EC2:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL-GCE:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL:xen-libs-4.16.7_08-150400.4.81.2",
+            "Image SLES15-SP4-SAPCAL:xen-tools-domU-4.16.7_08-150400.4.81.2",
+            "SUSE Linux Enterprise Micro 5.3:xen-libs-4.16.7_08-150400.4.81.2",
+            "SUSE Linux Enterprise Micro 5.4:xen-libs-4.16.7_08-150400.4.81.2"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

@@ -214,7 +214,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -280,7 +280,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -371,7 +371,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -404,7 +404,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -433,7 +433,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -473,6 +473,10 @@
         {
           "URL": "https://bugzilla.suse.com/1229129",
           "Description": "SUSE Bug 1229129"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1230491",
+          "Description": "SUSE Bug 1230491"
         }
       ],
       "ProductStatuses": [
@@ -491,7 +495,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -560,6 +564,10 @@
         {
           "URL": "https://bugzilla.suse.com/1224277",
           "Description": "SUSE Bug 1224277"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1229880",
+          "Description": "SUSE Bug 1229880"
         }
       ],
       "ProductStatuses": [
@@ -647,6 +655,10 @@
         {
           "URL": "https://bugzilla.suse.com/1229129",
           "Description": "SUSE Bug 1229129"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1230491",
+          "Description": "SUSE Bug 1230491"
         }
       ],
       "ProductStatuses": [
@@ -752,7 +764,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -763,6 +775,10 @@
         {
           "URL": "https://bugzilla.suse.com/1230400",
           "Description": "SUSE Bug 1230400"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1233313",
+          "Description": "SUSE Bug 1233313"
         }
       ],
       "ProductStatuses": [
@@ -792,6 +808,14 @@
         {
           "URL": "https://bugzilla.suse.com/1229129",
           "Description": "SUSE Bug 1229129"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1230491",
+          "Description": "SUSE Bug 1230491"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1258046",
+          "Description": "SUSE Bug 1258046"
         }
       ],
       "ProductStatuses": [
@@ -810,7 +834,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -821,6 +845,10 @@
         {
           "URL": "https://bugzilla.suse.com/1230400",
           "Description": "SUSE Bug 1230400"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1233313",
+          "Description": "SUSE Bug 1233313"
         }
       ],
       "ProductStatuses": [
@@ -897,7 +925,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -926,7 +954,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -955,7 +983,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -984,7 +1012,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [

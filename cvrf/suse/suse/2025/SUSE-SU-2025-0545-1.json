@@ -31,13 +31,18 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2025-545,SUSE-SLE-Module-Packagehub-Subpackages-15-SP6-2025-545,openSUSE-SLE-15.6-2025-545",
+      "Text": "Image monitoring-grafana-image-2025-545,SUSE-2025-545,SUSE-SLE-Module-Packagehub-Subpackages-15-SP6-2025-545,openSUSE-SLE-15.6-2025-545",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "grafana-10.4.13-150200.3.59.1",
+        "RelatesToProductReference": "Image monitoring-grafana-image",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "grafana-10.4.13-150200.3.59.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP6",
@@ -107,7 +112,7 @@
   "Vulnerabilities": [
     {
       "CVE": "CVE-2023-3128",
-      "Description": "Grafana is validating Azure AD accounts based on the email claim. \n\nOn Azure AD, the profile email field is not unique and can be easily modified. \n\nThis leads to account takeover and authentication bypass when Azure AD OAuth is configured with a multi-tenant app. \n\n",
+      "Description": "Grafana is validating Azure AD accounts based on the email claim. \n\nOn Azure AD, the profile email field is not unique and can be easily modified. \n\nThis leads to account takeover and authentication bypass when Azure AD OAuth is configured with a multi-tenant app.",
       "Threats": [
         {
           "Type": "Impact",
@@ -128,6 +133,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image monitoring-grafana-image:grafana-10.4.13-150200.3.59.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:grafana-10.4.13-150200.3.59.1",
             "openSUSE Leap 15.6:grafana-10.4.13-150200.3.59.1"
           ]
@@ -158,6 +164,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image monitoring-grafana-image:grafana-10.4.13-150200.3.59.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:grafana-10.4.13-150200.3.59.1",
             "openSUSE Leap 15.6:grafana-10.4.13-150200.3.59.1"
           ]
@@ -188,6 +195,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image monitoring-grafana-image:grafana-10.4.13-150200.3.59.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:grafana-10.4.13-150200.3.59.1",
             "openSUSE Leap 15.6:grafana-10.4.13-150200.3.59.1"
           ]
@@ -197,7 +205,7 @@
     },
     {
       "CVE": "CVE-2024-6837",
-      "Description": "** RESERVED ** This candidate has been reserved by an organization or individual that will use it when announcing a new security problem. When the candidate has been publicized, the details for this candidate will be provided.",
+      "Description": "unknown",
       "Threats": [
         {
           "Type": "Impact",
@@ -218,6 +226,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image monitoring-grafana-image:grafana-10.4.13-150200.3.59.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:grafana-10.4.13-150200.3.59.1",
             "openSUSE Leap 15.6:grafana-10.4.13-150200.3.59.1"
           ]
@@ -248,6 +257,7 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image monitoring-grafana-image:grafana-10.4.13-150200.3.59.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:grafana-10.4.13-150200.3.59.1",
             "openSUSE Leap 15.6:grafana-10.4.13-150200.3.59.1"
           ]

@@ -31,13 +31,28 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2025-2121,SUSE-SLE-Micro-5.5-2025-2121,SUSE-SLE-Module-Containers-15-SP6-2025-2121,SUSE-SLE-Module-Containers-15-SP7-2025-2121,SUSE-SLE-Module-Packagehub-Subpackages-15-SP6-2025-2121,SUSE-SLE-Module-Packagehub-Subpackages-15-SP7-2025-2121,openSUSE-SLE-15.6-2025-2121",
+      "Text": "Container suse/helm:latest-2025-2121,Container suse/kubectl:1.33-2025-2121,Container suse/kubectl:latest-2025-2121,SUSE-2025-2121,SUSE-SLE-Micro-5.5-2025-2121,SUSE-SLE-Module-Containers-15-SP6-2025-2121,SUSE-SLE-Module-Containers-15-SP7-2025-2121,SUSE-SLE-Module-Packagehub-Subpackages-15-SP6-2025-2121,SUSE-SLE-Module-Packagehub-Subpackages-15-SP7-2025-2121,openSUSE-SLE-15.6-2025-2121",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "helm-3.18.3-150000.1.50.1",
+        "RelatesToProductReference": "Container suse/helm:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "helm-3.18.3-150000.1.50.1",
+        "RelatesToProductReference": "Container suse/kubectl:1.33",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "helm-3.18.3-150000.1.50.1",
+        "RelatesToProductReference": "Container suse/kubectl:latest",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "helm-3.18.3-150000.1.50.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.5",
@@ -139,7 +154,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -150,12 +165,27 @@
         {
           "URL": "https://bugzilla.suse.com/1241710",
           "Description": "SUSE Bug 1241710"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265255",
+          "Description": "SUSE Bug 1265255"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265256",
+          "Description": "SUSE Bug 1265256"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265259",
+          "Description": "SUSE Bug 1265259"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/helm:latest:helm-3.18.3-150000.1.50.1",
+            "Container suse/kubectl:1.33:helm-3.18.3-150000.1.50.1",
+            "Container suse/kubectl:latest:helm-3.18.3-150000.1.50.1",
             "SUSE Linux Enterprise Micro 5.5:helm-3.18.3-150000.1.50.1",
             "SUSE Linux Enterprise Micro 5.5:helm-bash-completion-3.18.3-150000.1.50.1",
             "SUSE Linux Enterprise Module for Containers 15 SP6:helm-3.18.3-150000.1.50.1",

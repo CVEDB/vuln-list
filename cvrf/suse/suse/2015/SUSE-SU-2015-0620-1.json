@@ -3019,6 +3019,10 @@
           "Description": "CVE-2014-0224"
         },
         {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1146657",
           "Description": "SUSE Bug 1146657"
         },
@@ -3136,7 +3140,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -4654,7 +4658,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -8282,13 +8286,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2015-0204.html",
           "Description": "CVE-2015-0204"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
         },
         {
           "URL": "https://bugzilla.suse.com/912014",
@@ -11070,13 +11078,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2015-4000.html",
           "Description": "CVE-2015-4000"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
         },
         {
           "URL": "https://bugzilla.suse.com/1074631",

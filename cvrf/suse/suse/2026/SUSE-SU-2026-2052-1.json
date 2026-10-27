@@ -1,0 +1,335 @@
+{
+  "Title": "Security update for xz",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:2052-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-05-25T14:00:00Z",
+    "CurrentReleaseDate": "2026-05-25T14:00:00Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-05-25T14:00:00Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for xz",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for xz fixes the following issue\n\n- CVE-2026-34743: buffer overflow in lzma_index_append() (bsc#1261280).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES12-SP5-Azure-BYOS-2026-2052,Image SLES12-SP5-Azure-HPC-BYOS-2026-2052,Image SLES12-SP5-Azure-HPC-On-Demand-2026-2052,Image SLES12-SP5-Azure-SAP-BYOS-2026-2052,Image SLES12-SP5-Azure-SAP-On-Demand-2026-2052,Image SLES12-SP5-Azure-Standard-On-Demand-2026-2052,Image SLES12-SP5-EC2-BYOS-2026-2052,Image SLES12-SP5-EC2-ECS-On-Demand-2026-2052,Image SLES12-SP5-EC2-On-Demand-2026-2052,Image SLES12-SP5-EC2-SAP-BYOS-2026-2052,Image SLES12-SP5-EC2-SAP-On-Demand-2026-2052,Image SLES12-SP5-GCE-BYOS-2026-2052,Image SLES12-SP5-GCE-On-Demand-2026-2052,Image SLES12-SP5-GCE-SAP-BYOS-2026-2052,Image SLES12-SP5-GCE-SAP-On-Demand-2026-2052,SUSE-2026-2052,SUSE-SLE-SERVER-12-SP5-LTSS-2026-2052,SUSE-SLE-SERVER-12-SP5-LTSS-EXTENDED-SECURITY-2026-2052",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-32bit-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-devel-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-lang-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "liblzma5-32bit-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-devel-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "xz-lang-5.0.5-6.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20262052-1/",
+      "Description": "Link for SUSE-SU-2026:2052-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2026-May/026273.html",
+      "Description": "E-Mail link for SUSE-SU-2026:2052-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1261280",
+      "Description": "SUSE Bug 1261280"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-34743/",
+      "Description": "SUSE CVE CVE-2026-34743 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-34743",
+      "Description": "XZ Utils provide a general-purpose data-compression library plus command-line tools. Prior to version 5.8.3, if lzma_index_decoder() was used to decode an Index that contained no Records, the resulting lzma_index was left in a state where where a subsequent lzma_index_append() would allocate too little memory, and a buffer overflow would occur. This issue has been patched in version 5.8.3.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-34743.html",
+          "Description": "CVE-2026-34743"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261280",
+          "Description": "SUSE Bug 1261280"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-BYOS:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-BYOS:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-BYOS:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-On-Demand:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-BYOS:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-BYOS:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-On-Demand:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:xz-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:liblzma5-5.0.5-6.10.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:xz-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:liblzma5-32bit-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:liblzma5-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:xz-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:xz-devel-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:xz-lang-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:liblzma5-32bit-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:liblzma5-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:xz-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:xz-devel-5.0.5-6.10.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:xz-lang-5.0.5-6.10.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

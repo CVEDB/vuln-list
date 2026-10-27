@@ -3145,7 +3145,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -5148,6 +5148,10 @@
         {
           "URL": "https://bugzilla.suse.com/1227675",
           "Description": "SUSE Bug 1227675"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1232097",
+          "Description": "SUSE Bug 1232097"
         }
       ],
       "ProductStatuses": [
@@ -5553,7 +5557,7 @@
     },
     {
       "CVE": "CVE-2024-22099",
-      "Description": "NULL Pointer Dereference vulnerability in Linux Linux kernel kernel on Linux, x86, ARM (net, bluetooth modules) allows Overflow Buffers. This vulnerability is associated with program files /net/bluetooth/rfcomm/core.C.\n\nThis issue affects Linux kernel: v2.6.12-rc2.\n\n",
+      "Description": "NULL Pointer Dereference vulnerability in Linux Linux kernel kernel on Linux, x86, ARM (net, bluetooth modules) allows Overflow Buffers. This vulnerability is associated with program files /net/bluetooth/rfcomm/core.C.\n\nThis issue affects Linux kernel: v2.6.12-rc2.",
       "Threats": [
         {
           "Type": "Impact",
@@ -7249,7 +7253,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [

@@ -1,0 +1,959 @@
+{
+  "Title": "Security update for perl-XML-LibXML",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:2324-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-06-09T14:33:39Z",
+    "CurrentReleaseDate": "2026-06-09T14:33:39Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-06-09T14:33:39Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for perl-XML-LibXML",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for perl-XML-LibXML fixes the following issue\n\n- CVE-2026-8177: read out-of-bounds heap memory when parsing XML node names containing truncated UTF-8 byte sequences\n  (bsc#1264715).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES15-SP4-BYOS-2026-2324,Image SLES15-SP4-BYOS-Azure-2026-2324,Image SLES15-SP4-BYOS-EC2-2026-2324,Image SLES15-SP4-BYOS-GCE-2026-2324,Image SLES15-SP4-HPC-BYOS-2026-2324,Image SLES15-SP4-HPC-BYOS-Azure-2026-2324,Image SLES15-SP4-HPC-BYOS-EC2-2026-2324,Image SLES15-SP4-HPC-BYOS-GCE-2026-2324,Image SLES15-SP4-HPC-EC2-2026-2324,Image SLES15-SP4-HPC-GCE-2026-2324,Image SLES15-SP4-Hardened-BYOS-2026-2324,Image SLES15-SP4-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP4-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP4-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP4-SAP-2026-2324,Image SLES15-SP4-SAP-Azure-2026-2324,Image SLES15-SP4-SAP-BYOS-2026-2324,Image SLES15-SP4-SAP-BYOS-Azure-2026-2324,Image SLES15-SP4-SAP-BYOS-EC2-2026-2324,Image SLES15-SP4-SAP-BYOS-GCE-2026-2324,Image SLES15-SP4-SAP-EC2-2026-2324,Image SLES15-SP4-SAP-GCE-2026-2324,Image SLES15-SP4-SAP-Hardened-2026-2324,Image SLES15-SP4-SAP-Hardened-Azure-2026-2324,Image SLES15-SP4-SAP-Hardened-BYOS-2026-2324,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP4-SAP-Hardened-GCE-2026-2324,Image SLES15-SP4-SAPCAL-2026-2324,Image SLES15-SP4-SAPCAL-Azure-2026-2324,Image SLES15-SP4-SAPCAL-EC2-2026-2324,Image SLES15-SP4-SAPCAL-GCE-2026-2324,Image SLES15-SP5-Azure-3P-2026-2324,Image SLES15-SP5-Azure-Basic-2026-2324,Image SLES15-SP5-Azure-Standard-2026-2324,Image SLES15-SP5-BYOS-Azure-2026-2324,Image SLES15-SP5-BYOS-EC2-2026-2324,Image SLES15-SP5-BYOS-GCE-2026-2324,Image SLES15-SP5-EC2-2026-2324,Image SLES15-SP5-GCE-2026-2324,Image SLES15-SP5-HPC-Azure-2026-2324,Image SLES15-SP5-HPC-BYOS-Azure-2026-2324,Image SLES15-SP5-HPC-BYOS-EC2-2026-2324,Image SLES15-SP5-HPC-BYOS-GCE-2026-2324,Image SLES15-SP5-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP5-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP5-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP5-SAP-Azure-3P-2026-2324,Image SLES15-SP5-SAP-BYOS-Azure-2026-2324,Image SLES15-SP5-SAP-BYOS-EC2-2026-2324,Image SLES15-SP5-SAP-BYOS-GCE-2026-2324,Image SLES15-SP5-SAP-Hardened-Azure-2026-2324,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP5-SAP-Hardened-GCE-2026-2324,Image SLES15-SP5-SAPCAL-Azure-2026-2324,Image SLES15-SP5-SAPCAL-EC2-2026-2324,Image SLES15-SP5-SAPCAL-GCE-2026-2324,Image SLES15-SP6-2026-2324,Image SLES15-SP6-Azure-3P-2026-2324,Image SLES15-SP6-Azure-Basic-2026-2324,Image SLES15-SP6-Azure-Standard-2026-2324,Image SLES15-SP6-BYOS-2026-2324,Image SLES15-SP6-BYOS-Azure-2026-2324,Image SLES15-SP6-BYOS-EC2-2026-2324,Image SLES15-SP6-BYOS-GCE-2026-2324,Image SLES15-SP6-EC2-2026-2324,Image SLES15-SP6-GCE-2026-2324,Image SLES15-SP6-HPC-2026-2324,Image SLES15-SP6-HPC-Azure-2026-2324,Image SLES15-SP6-HPC-BYOS-2026-2324,Image SLES15-SP6-HPC-BYOS-Azure-2026-2324,Image SLES15-SP6-HPC-BYOS-EC2-2026-2324,Image SLES15-SP6-HPC-BYOS-GCE-2026-2324,Image SLES15-SP6-HPC-EC2-2026-2324,Image SLES15-SP6-HPC-GCE-2026-2324,Image SLES15-SP6-Hardened-BYOS-2026-2324,Image SLES15-SP6-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP6-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP6-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP6-SAP-2026-2324,Image SLES15-SP6-SAP-Azure-2026-2324,Image SLES15-SP6-SAP-Azure-3P-2026-2324,Image SLES15-SP6-SAP-BYOS-2026-2324,Image SLES15-SP6-SAP-BYOS-Azure-2026-2324,Image SLES15-SP6-SAP-BYOS-EC2-2026-2324,Image SLES15-SP6-SAP-BYOS-GCE-2026-2324,Image SLES15-SP6-SAP-EC2-2026-2324,Image SLES15-SP6-SAP-GCE-2026-2324,Image SLES15-SP6-SAP-Hardened-2026-2324,Image SLES15-SP6-SAP-Hardened-Azure-2026-2324,Image SLES15-SP6-SAP-Hardened-BYOS-2026-2324,Image SLES15-SP6-SAP-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP6-SAP-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP6-SAP-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP6-SAP-Hardened-EC2-2026-2324,Image SLES15-SP6-SAP-Hardened-GCE-2026-2324,Image SLES15-SP6-SAPCAL-2026-2324,Image SLES15-SP6-SAPCAL-Azure-2026-2324,Image SLES15-SP6-SAPCAL-EC2-2026-2324,Image SLES15-SP6-SAPCAL-GCE-2026-2324,Image SLES15-SP7-Azure-3P-2026-2324,Image SLES15-SP7-Azure-Basic-2026-2324,Image SLES15-SP7-Azure-Standard-2026-2324,Image SLES15-SP7-BYOS-Azure-2026-2324,Image SLES15-SP7-BYOS-EC2-2026-2324,Image SLES15-SP7-BYOS-GCE-2026-2324,Image SLES15-SP7-EC2-2026-2324,Image SLES15-SP7-GCE-2026-2324,Image SLES15-SP7-HPC-Azure-2026-2324,Image SLES15-SP7-HPC-BYOS-Azure-2026-2324,Image SLES15-SP7-HPC-BYOS-EC2-2026-2324,Image SLES15-SP7-HPC-BYOS-GCE-2026-2324,Image SLES15-SP7-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP7-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP7-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP7-SAP-Azure-2026-2324,Image SLES15-SP7-SAP-Azure-3P-2026-2324,Image SLES15-SP7-SAP-BYOS-Azure-2026-2324,Image SLES15-SP7-SAP-BYOS-EC2-2026-2324,Image SLES15-SP7-SAP-BYOS-GCE-2026-2324,Image SLES15-SP7-SAP-EC2-2026-2324,Image SLES15-SP7-SAP-GCE-2026-2324,Image SLES15-SP7-SAP-Hardened-Azure-2026-2324,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2026-2324,Image SLES15-SP7-SAP-Hardened-BYOS-EC2-2026-2324,Image SLES15-SP7-SAP-Hardened-BYOS-GCE-2026-2324,Image SLES15-SP7-SAP-Hardened-GCE-2026-2324,Image SLES15-SP7-SAPCAL-Azure-2026-2324,Image SLES15-SP7-SAPCAL-EC2-2026-2324,Image SLES15-SP7-SAPCAL-GCE-2026-2324,SUSE-2026-2324,SUSE-SLE-Module-Basesystem-15-SP7-2026-2324,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2026-2324,SUSE-SLE-Product-HPC-15-SP4-LTSS-2026-2324,SUSE-SLE-Product-HPC-15-SP5-ESPOS-2026-2324,SUSE-SLE-Product-HPC-15-SP5-LTSS-2026-2324,SUSE-SLE-Product-SLES-15-SP4-LTSS-2026-2324,SUSE-SLE-Product-SLES-15-SP5-LTSS-2026-2324,SUSE-SLE-Product-SLES-15-SP6-LTSS-2026-2324,SUSE-SLE-Product-SLES_SAP-15-SP4-2026-2324,SUSE-SLE-Product-SLES_SAP-15-SP5-2026-2324,SUSE-SLE-Product-SLES_SAP-15-SP6-2026-2324",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-XML-LibXML-2.0132-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20262324-1/",
+      "Description": "Link for SUSE-SU-2026:2324-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-June/047211.html",
+      "Description": "E-Mail link for SUSE-SU-2026:2324-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1264715",
+      "Description": "SUSE Bug 1264715"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-8177/",
+      "Description": "SUSE CVE CVE-2026-8177 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-8177",
+      "Description": "XML::LibXML versions through 2.0210 for Perl read out-of-bounds heap memory when parsing XML node names containing truncated UTF-8 byte sequences.\n\nA node name ending in the middle of a multi byte UTF-8 sequence causes the parser to read past the end of the input string into adjacent heap memory.\n\nAny Perl process that passes attacker controlled strings to XML::LibXML's DOM node-name methods can reach this path on the default API. The likely consequence is a crash, causing denial of service.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-8177.html",
+          "Description": "CVE-2026-8177"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1264715",
+          "Description": "SUSE Bug 1264715"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP4-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-HPC-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-HPC-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-HPC-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-Hardened-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAP:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAPCAL-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAPCAL-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAPCAL-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP4-SAPCAL:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-Azure-3P:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-Azure-Basic:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-Azure-Standard:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-HPC-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Azure-3P:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAPCAL-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAPCAL-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP5-SAPCAL-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-Azure-3P:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-Azure-Basic:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-Azure-Standard:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-HPC:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-Hardened-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Azure-3P:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAP:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAPCAL-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAPCAL-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAPCAL-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6-SAPCAL:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP6:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-Azure-3P:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-Azure-Basic:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-Azure-Standard:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-HPC-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:perl-XML-LibXML-2.0132-150000.3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:perl-XML-LibXML-2.0132-150000.3.8.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

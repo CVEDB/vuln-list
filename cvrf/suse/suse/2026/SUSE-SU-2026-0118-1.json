@@ -1,0 +1,323 @@
+{
+  "Title": "Security update for libtasn1",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:0118-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-01-13T06:46:54Z",
+    "CurrentReleaseDate": "2026-01-13T06:46:54Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-01-13T06:46:54Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libtasn1",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "\nThis update for libtasn1 fixes the following issues:\n\n- CVE-2025-13151: stack-based buffer overflow in `asn1_expend_octet_string` (bsc#1256341).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES12-SP5-Azure-BYOS-2026-118,Image SLES12-SP5-Azure-HPC-BYOS-2026-118,Image SLES12-SP5-Azure-HPC-On-Demand-2026-118,Image SLES12-SP5-Azure-SAP-BYOS-2026-118,Image SLES12-SP5-Azure-SAP-On-Demand-2026-118,Image SLES12-SP5-Azure-Standard-On-Demand-2026-118,Image SLES12-SP5-EC2-BYOS-2026-118,Image SLES12-SP5-EC2-ECS-On-Demand-2026-118,Image SLES12-SP5-EC2-On-Demand-2026-118,Image SLES12-SP5-EC2-SAP-BYOS-2026-118,Image SLES12-SP5-EC2-SAP-On-Demand-2026-118,Image SLES12-SP5-GCE-BYOS-2026-118,Image SLES12-SP5-GCE-On-Demand-2026-118,Image SLES12-SP5-GCE-SAP-BYOS-2026-118,Image SLES12-SP5-GCE-SAP-On-Demand-2026-118,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2026-118,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2026-118,SUSE-2026-118,SUSE-SLE-SERVER-12-SP5-LTSS-EXTENDED-SECURITY-2026-118",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-4.9-3.19.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-4.9-3.19.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-6-32bit-4.9-3.19.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libtasn1-devel-4.9-3.19.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20260118-1/",
+      "Description": "Link for SUSE-SU-2026:0118-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2026-January/023735.html",
+      "Description": "E-Mail link for SUSE-SU-2026:0118-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1256341",
+      "Description": "SUSE Bug 1256341"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-13151/",
+      "Description": "SUSE CVE CVE-2025-13151 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-13151",
+      "Description": "Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-13151.html",
+          "Description": "CVE-2025-13151"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1256341",
+          "Description": "SUSE Bug 1256341"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-BYOS:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-BYOS:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-BYOS:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-BYOS:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-BYOS:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libtasn1-6-4.9-3.19.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libtasn1-4.9-3.19.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libtasn1-6-4.9-3.19.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:libtasn1-4.9-3.19.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:libtasn1-6-32bit-4.9-3.19.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:libtasn1-6-4.9-3.19.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:libtasn1-devel-4.9-3.19.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

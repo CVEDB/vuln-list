@@ -580,7 +580,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -790,7 +790,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -897,7 +897,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1037,8 +1037,16 @@
           "Description": "SUSE Bug 1056614"
         },
         {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1171693",
           "Description": "SUSE Bug 1171693"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1277916",
+          "Description": "SUSE Bug 1277916"
         },
         {
           "URL": "https://bugzilla.suse.com/994844",
@@ -1238,7 +1246,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [

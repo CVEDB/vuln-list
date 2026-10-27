@@ -213,7 +213,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -251,7 +251,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -262,6 +262,10 @@
         {
           "URL": "https://bugzilla.suse.com/1240756",
           "Description": "SUSE Bug 1240756"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1258120",
+          "Description": "SUSE Bug 1258120"
         }
       ],
       "ProductStatuses": [
@@ -289,7 +293,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -403,7 +407,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -441,7 +445,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [

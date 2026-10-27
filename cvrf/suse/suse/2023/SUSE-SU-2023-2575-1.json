@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/grafana:latest-2023-2575,SUSE-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2575,openSUSE-SLE-15.4-2023-2575,openSUSE-SLE-15.5-2023-2575",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-2575,Image monitoring-grafana-image-2023-2575,SUSE-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-2575,SUSE-SLE-Module-Packagehub-Subpackages-15-SP5-2023-2575,openSUSE-SLE-15.4-2023-2575,openSUSE-SLE-15.5-2023-2575",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,6 +41,11 @@
       {
         "ProductReference": "grafana-9.5.1-150200.3.41.3",
         "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "grafana-9.5.1-150200.3.41.3",
+        "RelatesToProductReference": "Image monitoring-grafana-image",
         "RelationType": "Default Component Of"
       },
       {
@@ -200,6 +205,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -236,6 +242,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -272,6 +279,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -308,6 +316,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -344,6 +353,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -384,6 +394,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -417,6 +428,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -450,6 +462,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -483,6 +496,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -516,6 +530,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -549,6 +564,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -560,7 +576,7 @@
     },
     {
       "CVE": "CVE-2023-1387",
-      "Description": "Grafana is an open-source platform for monitoring and observability. \n\nStarting with the 9.1 branch, Grafana introduced the ability to search for a JWT in the URL query parameter auth_token and use it as the authentication token. \n\nBy enabling the \"url_login\" configuration option (disabled by default), a JWT might be sent to data sources. If an attacker has access to the data source, the leaked token could be used to authenticate to Grafana.\n\n",
+      "Description": "Grafana is an open-source platform for monitoring and observability. \n\nStarting with the 9.1 branch, Grafana introduced the ability to search for a JWT in the URL query parameter auth_token and use it as the authentication token. \n\nBy enabling the \"url_login\" configuration option (disabled by default), a JWT might be sent to data sources. If an attacker has access to the data source, the leaked token could be used to authenticate to Grafana.",
       "Threats": [
         {
           "Type": "Impact",
@@ -582,6 +598,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",
@@ -593,7 +610,7 @@
     },
     {
       "CVE": "CVE-2023-1410",
-      "Description": "Grafana is an open-source platform for monitoring and observability.  \n\nGrafana had a stored XSS vulnerability in the Graphite FunctionDescription tooltip. \n\nThe stored XSS vulnerability was possible due the value of the Function Description was not properly sanitized.\n\nAn attacker needs to have control over the Graphite data source in order to manipulate a function description and a Grafana admin needs to configure the data source, later a Grafana user needs to select a tampered function and hover over the description.  \n\n  Users may upgrade to version 8.5.22, 9.2.15 and 9.3.11 to receive a fix. \n\n\n\n\n\n\n\n\n\n\n",
+      "Description": "Grafana is an open-source platform for monitoring and observability.  \n\nGrafana had a stored XSS vulnerability in the Graphite FunctionDescription tooltip. \n\nThe stored XSS vulnerability was possible due the value of the Function Description was not properly sanitized.\n\nAn attacker needs to have control over the Graphite data source in order to manipulate a function description and a Grafana admin needs to configure the data source, later a Grafana user needs to select a tampered function and hover over the description.  \n\n  Users may upgrade to version 8.5.22, 9.2.15 and 9.3.11 to receive a fix.",
       "Threats": [
         {
           "Type": "Impact",
@@ -615,6 +632,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-9.5.1-150200.3.41.3",
+            "Image monitoring-grafana-image:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-9.5.1-150200.3.41.3",
             "SUSE Linux Enterprise Module for Package Hub 15 SP5:grafana-9.5.1-150200.3.41.3",
             "openSUSE Leap 15.4:grafana-9.5.1-150200.3.41.3",

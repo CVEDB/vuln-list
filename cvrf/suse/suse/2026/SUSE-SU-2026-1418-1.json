@@ -1,0 +1,689 @@
+{
+  "Title": "Security update for iproute2",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1418-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-04-16T16:43:07Z",
+    "CurrentReleaseDate": "2026-04-16T16:43:07Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-04-16T16:43:07Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for iproute2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for iproute2 fixes the following issue:\n\n- CVE-2024-58251: denial of service via terminal escape sequences (bsc#1254324).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/manager/5.0/x86_64/server:latest-2026-1418,Container suse/multi-linux-manager/5.1/x86_64/proxy-salt-broker:latest-2026-1418,Container suse/multi-linux-manager/5.1/x86_64/server:latest-2026-1418,Image SLES15-SP6-2026-1418,Image SLES15-SP6-Azure-3P-2026-1418,Image SLES15-SP6-Azure-Basic-2026-1418,Image SLES15-SP6-Azure-Standard-2026-1418,Image SLES15-SP6-BYOS-2026-1418,Image SLES15-SP6-BYOS-Azure-2026-1418,Image SLES15-SP6-BYOS-EC2-2026-1418,Image SLES15-SP6-BYOS-GCE-2026-1418,Image SLES15-SP6-CHOST-BYOS-2026-1418,Image SLES15-SP6-CHOST-BYOS-Aliyun-2026-1418,Image SLES15-SP6-CHOST-BYOS-Azure-2026-1418,Image SLES15-SP6-CHOST-BYOS-EC2-2026-1418,Image SLES15-SP6-CHOST-BYOS-GCE-2026-1418,Image SLES15-SP6-CHOST-BYOS-GDC-2026-1418,Image SLES15-SP6-CHOST-BYOS-SAP-CCloud-2026-1418,Image SLES15-SP6-EC2-2026-1418,Image SLES15-SP6-EC2-ECS-HVM-2026-1418,Image SLES15-SP6-GCE-2026-1418,Image SLES15-SP6-HPC-2026-1418,Image SLES15-SP6-HPC-Azure-2026-1418,Image SLES15-SP6-HPC-BYOS-2026-1418,Image SLES15-SP6-HPC-BYOS-Azure-2026-1418,Image SLES15-SP6-HPC-BYOS-EC2-2026-1418,Image SLES15-SP6-HPC-BYOS-GCE-2026-1418,Image SLES15-SP6-HPC-EC2-2026-1418,Image SLES15-SP6-HPC-GCE-2026-1418,Image SLES15-SP6-Hardened-BYOS-2026-1418,Image SLES15-SP6-Hardened-BYOS-Azure-2026-1418,Image SLES15-SP6-Hardened-BYOS-EC2-2026-1418,Image SLES15-SP6-Hardened-BYOS-GCE-2026-1418,Image SLES15-SP6-SAP-2026-1418,Image SLES15-SP6-SAP-Azure-2026-1418,Image SLES15-SP6-SAP-Azure-3P-2026-1418,Image SLES15-SP6-SAP-BYOS-2026-1418,Image SLES15-SP6-SAP-BYOS-Azure-2026-1418,Image SLES15-SP6-SAP-BYOS-EC2-2026-1418,Image SLES15-SP6-SAP-BYOS-GCE-2026-1418,Image SLES15-SP6-SAP-EC2-2026-1418,Image SLES15-SP6-SAP-GCE-2026-1418,Image SLES15-SP6-SAP-Hardened-2026-1418,Image SLES15-SP6-SAP-Hardened-Azure-2026-1418,Image SLES15-SP6-SAP-Hardened-BYOS-2026-1418,Image SLES15-SP6-SAP-Hardened-BYOS-Azure-2026-1418,Image SLES15-SP6-SAP-Hardened-BYOS-EC2-2026-1418,Image SLES15-SP6-SAP-Hardened-BYOS-GCE-2026-1418,Image SLES15-SP6-SAP-Hardened-EC2-2026-1418,Image SLES15-SP6-SAP-Hardened-GCE-2026-1418,Image SLES15-SP6-SAPCAL-2026-1418,Image SLES15-SP6-SAPCAL-Azure-2026-1418,Image SLES15-SP6-SAPCAL-EC2-2026-1418,Image SLES15-SP6-SAPCAL-GCE-2026-1418,Image SLES15-SP7-Azure-3P-2026-1418,Image SLES15-SP7-Azure-Basic-2026-1418,Image SLES15-SP7-Azure-Standard-2026-1418,Image SLES15-SP7-BYOS-Azure-2026-1418,Image SLES15-SP7-BYOS-EC2-2026-1418,Image SLES15-SP7-BYOS-GCE-2026-1418,Image SLES15-SP7-CHOST-BYOS-Aliyun-2026-1418,Image SLES15-SP7-CHOST-BYOS-Azure-2026-1418,Image SLES15-SP7-CHOST-BYOS-EC2-2026-1418,Image SLES15-SP7-CHOST-BYOS-GCE-2026-1418,Image SLES15-SP7-CHOST-BYOS-GDC-2026-1418,Image SLES15-SP7-CHOST-BYOS-SAP-CCloud-2026-1418,Image SLES15-SP7-EC2-2026-1418,Image SLES15-SP7-EC2-ECS-HVM-2026-1418,Image SLES15-SP7-GCE-2026-1418,Image SLES15-SP7-GCE-3P-2026-1418,Image SLES15-SP7-HPC-Azure-2026-1418,Image SLES15-SP7-HPC-BYOS-Azure-2026-1418,Image SLES15-SP7-HPC-BYOS-EC2-2026-1418,Image SLES15-SP7-HPC-BYOS-GCE-2026-1418,Image SLES15-SP7-Hardened-BYOS-Azure-2026-1418,Image SLES15-SP7-Hardened-BYOS-EC2-2026-1418,Image SLES15-SP7-Hardened-BYOS-GCE-2026-1418,Image SLES15-SP7-SAP-Azure-2026-1418,Image SLES15-SP7-SAP-Azure-3P-2026-1418,Image SLES15-SP7-SAP-BYOS-Azure-2026-1418,Image SLES15-SP7-SAP-BYOS-EC2-2026-1418,Image SLES15-SP7-SAP-BYOS-GCE-2026-1418,Image SLES15-SP7-SAP-EC2-2026-1418,Image SLES15-SP7-SAP-GCE-2026-1418,Image SLES15-SP7-SAP-GCE-3P-2026-1418,Image SLES15-SP7-SAP-Hardened-Azure-2026-1418,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2026-1418,Image SLES15-SP7-SAP-Hardened-BYOS-EC2-2026-1418,Image SLES15-SP7-SAP-Hardened-BYOS-GCE-2026-1418,Image SLES15-SP7-SAP-Hardened-GCE-2026-1418,Image SLES15-SP7-SAPCAL-Azure-2026-1418,Image SLES15-SP7-SAPCAL-EC2-2026-1418,Image SLES15-SP7-SAPCAL-GCE-2026-1418,Image proxy-salt-broker-image-2026-1418,Image server-image-sles15sp7-2026-1418,SUSE-2026-1418,SUSE-SLE-Module-Basesystem-15-SP7-2026-1418",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Container suse/multi-linux-manager/5.1/x86_64/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Container suse/multi-linux-manager/5.1/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image proxy-salt-broker-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "Image server-image-sles15sp7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-6.4-150600.7.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-arpd-6.4-150600.7.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "iproute2-bash-completion-6.4-150600.7.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnetlink-devel-6.4-150600.7.12.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261418-1/",
+      "Description": "Link for SUSE-SU-2026:1418-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-April/045638.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1418-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1254324",
+      "Description": "SUSE Bug 1254324"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2024-58251/",
+      "Description": "SUSE CVE CVE-2024-58251 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2024-58251",
+      "Description": "In netstat in BusyBox through 1.37.0, local users can launch of network application with an argv[0] containing an ANSI terminal escape sequence, leading to a denial of service (terminal locked up) when netstat is used by a victim.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2024-58251.html",
+          "Description": "CVE-2024-58251"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1241700",
+          "Description": "SUSE Bug 1241700"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/manager/5.0/x86_64/server:latest:iproute2-6.4-150600.7.12.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/proxy-salt-broker:latest:iproute2-6.4-150600.7.12.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-Azure-3P:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-Azure-Basic:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-Azure-Standard:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-BYOS:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-CHOST-BYOS:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC-BYOS:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-HPC:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-Hardened-BYOS:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Azure-3P:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-BYOS:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP-Hardened:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAP:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAPCAL-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAPCAL-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAPCAL-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6-SAPCAL:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP6:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-Azure-3P:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-Azure-Basic:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-Azure-Standard:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-GCE-3P:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-HPC-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-Azure-3P:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-GCE-3P:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAPCAL-Azure:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAPCAL-EC2:iproute2-6.4-150600.7.12.1",
+            "Image SLES15-SP7-SAPCAL-GCE:iproute2-6.4-150600.7.12.1",
+            "Image proxy-salt-broker-image:iproute2-6.4-150600.7.12.1",
+            "Image server-image-sles15sp7:iproute2-6.4-150600.7.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:iproute2-6.4-150600.7.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:iproute2-arpd-6.4-150600.7.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:iproute2-bash-completion-6.4-150600.7.12.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libnetlink-devel-6.4-150600.7.12.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

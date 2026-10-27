@@ -1,0 +1,489 @@
+{
+  "Title": "Security update for sudo",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1309-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-04-14T10:39:38Z",
+    "CurrentReleaseDate": "2026-04-14T10:39:38Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-04-14T10:39:38Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for sudo",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for sudo fixes the following issue:\n\n- CVE-2026-35535: Fixed potential privilege escalation when running the mailer (bsc#1261420).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/sle-micro-rancher/5.3:latest-2026-1309,Container suse/sle-micro-rancher/5.4:latest-2026-1309,Container suse/sle-micro/5.3/toolbox:latest-2026-1309,Container suse/sle-micro/5.4/toolbox:latest-2026-1309,Image SLES15-SP4-BYOS-2026-1309,Image SLES15-SP4-BYOS-Azure-2026-1309,Image SLES15-SP4-BYOS-EC2-2026-1309,Image SLES15-SP4-BYOS-GCE-2026-1309,Image SLES15-SP4-CHOST-BYOS-2026-1309,Image SLES15-SP4-CHOST-BYOS-Aliyun-2026-1309,Image SLES15-SP4-CHOST-BYOS-Azure-2026-1309,Image SLES15-SP4-CHOST-BYOS-EC2-2026-1309,Image SLES15-SP4-CHOST-BYOS-GCE-2026-1309,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2026-1309,Image SLES15-SP4-HPC-BYOS-2026-1309,Image SLES15-SP4-HPC-BYOS-Azure-2026-1309,Image SLES15-SP4-HPC-BYOS-EC2-2026-1309,Image SLES15-SP4-HPC-BYOS-GCE-2026-1309,Image SLES15-SP4-HPC-EC2-2026-1309,Image SLES15-SP4-HPC-GCE-2026-1309,Image SLES15-SP4-Hardened-BYOS-2026-1309,Image SLES15-SP4-Hardened-BYOS-Azure-2026-1309,Image SLES15-SP4-Hardened-BYOS-EC2-2026-1309,Image SLES15-SP4-Hardened-BYOS-GCE-2026-1309,Image SLES15-SP4-Micro-5-3-BYOS-2026-1309,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2026-1309,Image SLES15-SP4-Micro-5-4-BYOS-2026-1309,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2026-1309,Image SLES15-SP4-SAP-2026-1309,Image SLES15-SP4-SAP-Azure-2026-1309,Image SLES15-SP4-SAP-Azure-LI-BYOS-2026-1309,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2026-1309,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2026-1309,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2026-1309,Image SLES15-SP4-SAP-BYOS-2026-1309,Image SLES15-SP4-SAP-BYOS-Azure-2026-1309,Image SLES15-SP4-SAP-BYOS-EC2-2026-1309,Image SLES15-SP4-SAP-BYOS-GCE-2026-1309,Image SLES15-SP4-SAP-EC2-2026-1309,Image SLES15-SP4-SAP-GCE-2026-1309,Image SLES15-SP4-SAP-Hardened-2026-1309,Image SLES15-SP4-SAP-Hardened-Azure-2026-1309,Image SLES15-SP4-SAP-Hardened-BYOS-2026-1309,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-1309,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2026-1309,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2026-1309,Image SLES15-SP4-SAP-Hardened-GCE-2026-1309,Image SLES15-SP4-SAPCAL-2026-1309,Image SLES15-SP4-SAPCAL-Azure-2026-1309,Image SLES15-SP4-SAPCAL-EC2-2026-1309,Image SLES15-SP4-SAPCAL-GCE-2026-1309,SUSE-2026-1309,SUSE-SLE-Micro-5.3-2026-1309,SUSE-SLE-Micro-5.4-2026-1309,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2026-1309,SUSE-SLE-Product-HPC-15-SP4-LTSS-2026-1309,SUSE-SLE-Product-SLES-15-SP4-LTSS-2026-1309,SUSE-SLE-Product-SLES_SAP-15-SP4-2026-1309",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-devel-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-plugin-python-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-devel-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-plugin-python-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-devel-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-plugin-python-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-devel-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "sudo-plugin-python-1.9.9-150400.4.42.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261309-1/",
+      "Description": "Link for SUSE-SU-2026:1309-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-April/045517.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1309-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1261420",
+      "Description": "SUSE Bug 1261420"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-35535/",
+      "Description": "SUSE CVE CVE-2026-35535 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-35535",
+      "Description": "In Sudo through 1.9.17p2 before 3e474c2, a failure of a setuid, setgid, or setgroups call, during a privilege drop before running the mailer, is not a fatal error and can lead to privilege escalation.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-35535.html",
+          "Description": "CVE-2026-35535"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261420",
+          "Description": "SUSE Bug 1261420"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265943",
+          "Description": "SUSE Bug 1265943"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle-micro-rancher/5.3:latest:sudo-1.9.9-150400.4.42.1",
+            "Container suse/sle-micro-rancher/5.4:latest:sudo-1.9.9-150400.4.42.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:sudo-1.9.9-150400.4.42.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-BYOS-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-BYOS-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-CHOST-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-HPC-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-HPC-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-HPC-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Hardened-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP-Hardened:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAP:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAPCAL-Azure:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAPCAL-EC2:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAPCAL-GCE:sudo-1.9.9-150400.4.42.1",
+            "Image SLES15-SP4-SAPCAL:sudo-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:sudo-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:sudo-devel-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:sudo-plugin-python-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:sudo-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:sudo-devel-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:sudo-plugin-python-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Micro 5.3:sudo-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Micro 5.4:sudo-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:sudo-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:sudo-devel-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:sudo-plugin-python-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:sudo-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:sudo-devel-1.9.9-150400.4.42.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:sudo-plugin-python-1.9.9-150400.4.42.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

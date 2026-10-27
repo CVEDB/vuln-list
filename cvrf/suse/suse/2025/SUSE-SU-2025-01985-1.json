@@ -31,13 +31,33 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2025-1985,SUSE-SLE-Product-SUSE-Manager-Server-4.3-2025-1985",
+      "Text": "Image SLES15-SP4-Manager-Server-4-3-BYOS-2025-1985,Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure-2025-1985,Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2-2025-1985,Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE-2025-1985,SUSE-2025-1985,SUSE-SLE-Product-SUSE-Manager-Server-4.3-2025-1985",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "release-notes-susemanager-4.3.15.2-150400.3.133.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "release-notes-susemanager-4.3.15.2-150400.3.133.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "release-notes-susemanager-4.3.15.2-150400.3.133.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "release-notes-susemanager-4.3.15.2-150400.3.133.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "release-notes-susemanager-4.3.15.2-150400.3.133.1",
         "RelatesToProductReference": "SUSE Manager Server 4.3",
@@ -143,6 +163,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -172,6 +196,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -201,6 +229,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -230,6 +262,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -259,6 +295,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -288,6 +328,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -300,7 +344,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "critical"
         }
       ],
       "References": [
@@ -317,6 +361,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -346,6 +394,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -379,6 +431,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -402,12 +458,28 @@
         {
           "URL": "https://bugzilla.suse.com/1241710",
           "Description": "SUSE Bug 1241710"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265255",
+          "Description": "SUSE Bug 1265255"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265256",
+          "Description": "SUSE Bug 1265256"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265259",
+          "Description": "SUSE Bug 1265259"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -437,6 +509,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -449,7 +525,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -470,6 +546,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -499,6 +579,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -528,6 +612,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }
@@ -557,6 +645,10 @@
         {
           "Type": "Fixed",
           "ProductID": [
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE:release-notes-susemanager-4.3.15.2-150400.3.133.1",
+            "Image SLES15-SP4-Manager-Server-4-3-BYOS:release-notes-susemanager-4.3.15.2-150400.3.133.1",
             "SUSE Manager Server 4.3:release-notes-susemanager-4.3.15.2-150400.3.133.1"
           ]
         }

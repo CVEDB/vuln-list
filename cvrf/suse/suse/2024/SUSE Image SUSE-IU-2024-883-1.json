@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2025-09-16T15:39:44Z",
+        "Date": "2026-10-25T17:40:46Z",
         "Description": "current"
       }
     ]
@@ -938,7 +938,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1038,7 +1038,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1218,7 +1218,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1238,7 +1238,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1698,7 +1698,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -2118,7 +2118,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3018,7 +3018,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "not set"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3674,7 +3674,7 @@
     },
     {
       "CVE": "CVE-2021-47504",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring: ensure task_work gets run as part of cancelations\n\nIf we successfully cancel a work item but that work item needs to be\nprocessed through task_work, then we can be sleeping uninterruptibly\nin io_uring_cancel_generic() and never process it. Hence we don't\nmake forward progress and we end up with an uninterruptible sleep\nwarning.\n\nWhile in there, correct a comment that should be IFF, not IIF.",
+      "Description": "This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
@@ -3778,7 +3778,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3858,7 +3858,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5603,7 +5603,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -9140,7 +9140,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,

@@ -1,0 +1,1625 @@
+{
+  "Title": "Security update for tar",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1177-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-04-02T15:00:45Z",
+    "CurrentReleaseDate": "2026-04-02T15:00:45Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-04-02T15:00:45Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for tar",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for tar fixes the following issue:\n\n- CVE-2025-45582: file overwrite via directory traversal in crafted TAR archives (bsc#1246399).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container bci/bci-sle15-kernel-module-devel:latest-2026-1177,Container bci/spack:latest-2026-1177,Container suse/ltss/sle15.4/sle15:latest-2026-1177,Container suse/ltss/sle15.5/sle15:latest-2026-1177,Container suse/ltss/sle15.6/sle15:latest-2026-1177,Container suse/manager/5.0/x86_64/server:latest-2026-1177,Container suse/multi-linux-manager/5.1/x86_64/server:latest-2026-1177,Container suse/postgres:16-2026-1177,Container suse/postgres:16.14-2026-1177,Container suse/postgres:17-2026-1177,Container suse/postgres:17.10-2026-1177,Container suse/postgres:latest-2026-1177,Container suse/sle-micro-rancher/5.2:latest-2026-1177,Container suse/sle-micro-rancher/5.3:latest-2026-1177,Container suse/sle-micro-rancher/5.4:latest-2026-1177,Container suse/sle-micro/5.2/toolbox:latest-2026-1177,Container suse/sle-micro/5.3/toolbox:latest-2026-1177,Container suse/sle-micro/5.4/toolbox:latest-2026-1177,Container suse/sle-micro/5.5/toolbox:latest-2026-1177,Container suse/sle-micro/5.5:latest-2026-1177,Container suse/sle-micro/base-5.5:latest-2026-1177,Container suse/sle15:latest-2026-1177,Image SLES15-SP4-BYOS-2026-1177,Image SLES15-SP4-BYOS-Azure-2026-1177,Image SLES15-SP4-BYOS-EC2-2026-1177,Image SLES15-SP4-BYOS-GCE-2026-1177,Image SLES15-SP4-CHOST-BYOS-2026-1177,Image SLES15-SP4-CHOST-BYOS-Aliyun-2026-1177,Image SLES15-SP4-CHOST-BYOS-Azure-2026-1177,Image SLES15-SP4-CHOST-BYOS-EC2-2026-1177,Image SLES15-SP4-CHOST-BYOS-GCE-2026-1177,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2026-1177,Image SLES15-SP4-HPC-BYOS-2026-1177,Image SLES15-SP4-HPC-BYOS-Azure-2026-1177,Image SLES15-SP4-HPC-BYOS-EC2-2026-1177,Image SLES15-SP4-HPC-BYOS-GCE-2026-1177,Image SLES15-SP4-HPC-EC2-2026-1177,Image SLES15-SP4-HPC-GCE-2026-1177,Image SLES15-SP4-Hardened-BYOS-2026-1177,Image SLES15-SP4-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP4-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP4-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP4-Micro-5-3-BYOS-2026-1177,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2026-1177,Image SLES15-SP4-Micro-5-4-BYOS-2026-1177,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2026-1177,Image SLES15-SP4-SAP-2026-1177,Image SLES15-SP4-SAP-Azure-2026-1177,Image SLES15-SP4-SAP-Azure-LI-BYOS-2026-1177,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2026-1177,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2026-1177,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2026-1177,Image SLES15-SP4-SAP-BYOS-2026-1177,Image SLES15-SP4-SAP-BYOS-Azure-2026-1177,Image SLES15-SP4-SAP-BYOS-EC2-2026-1177,Image SLES15-SP4-SAP-BYOS-GCE-2026-1177,Image SLES15-SP4-SAP-EC2-2026-1177,Image SLES15-SP4-SAP-GCE-2026-1177,Image SLES15-SP4-SAP-Hardened-2026-1177,Image SLES15-SP4-SAP-Hardened-Azure-2026-1177,Image SLES15-SP4-SAP-Hardened-BYOS-2026-1177,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP4-SAP-Hardened-GCE-2026-1177,Image SLES15-SP4-SAPCAL-2026-1177,Image SLES15-SP4-SAPCAL-Azure-2026-1177,Image SLES15-SP4-SAPCAL-EC2-2026-1177,Image SLES15-SP4-SAPCAL-GCE-2026-1177,Image SLES15-SP5-Azure-3P-2026-1177,Image SLES15-SP5-Azure-Basic-2026-1177,Image SLES15-SP5-Azure-Standard-2026-1177,Image SLES15-SP5-BYOS-Azure-2026-1177,Image SLES15-SP5-BYOS-EC2-2026-1177,Image SLES15-SP5-BYOS-GCE-2026-1177,Image SLES15-SP5-CHOST-BYOS-Aliyun-2026-1177,Image SLES15-SP5-CHOST-BYOS-Azure-2026-1177,Image SLES15-SP5-CHOST-BYOS-EC2-2026-1177,Image SLES15-SP5-CHOST-BYOS-GCE-2026-1177,Image SLES15-SP5-CHOST-BYOS-GDC-2026-1177,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2026-1177,Image SLES15-SP5-EC2-2026-1177,Image SLES15-SP5-GCE-2026-1177,Image SLES15-SP5-HPC-Azure-2026-1177,Image SLES15-SP5-HPC-BYOS-Azure-2026-1177,Image SLES15-SP5-HPC-BYOS-EC2-2026-1177,Image SLES15-SP5-HPC-BYOS-GCE-2026-1177,Image SLES15-SP5-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP5-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP5-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP5-Micro-5-5-2026-1177,Image SLES15-SP5-Micro-5-5-Azure-2026-1177,Image SLES15-SP5-Micro-5-5-BYOS-2026-1177,Image SLES15-SP5-Micro-5-5-BYOS-Azure-2026-1177,Image SLES15-SP5-Micro-5-5-BYOS-EC2-2026-1177,Image SLES15-SP5-Micro-5-5-BYOS-GCE-2026-1177,Image SLES15-SP5-Micro-5-5-EC2-2026-1177,Image SLES15-SP5-Micro-5-5-GCE-2026-1177,Image SLES15-SP5-SAP-Azure-3P-2026-1177,Image SLES15-SP5-SAP-Azure-LI-BYOS-2026-1177,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2026-1177,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2026-1177,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2026-1177,Image SLES15-SP5-SAP-BYOS-Azure-2026-1177,Image SLES15-SP5-SAP-BYOS-EC2-2026-1177,Image SLES15-SP5-SAP-BYOS-GCE-2026-1177,Image SLES15-SP5-SAP-Hardened-Azure-2026-1177,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP5-SAP-Hardened-GCE-2026-1177,Image SLES15-SP5-SAPCAL-Azure-2026-1177,Image SLES15-SP5-SAPCAL-EC2-2026-1177,Image SLES15-SP5-SAPCAL-GCE-2026-1177,Image SLES15-SP6-2026-1177,Image SLES15-SP6-Azure-3P-2026-1177,Image SLES15-SP6-Azure-Basic-2026-1177,Image SLES15-SP6-Azure-Standard-2026-1177,Image SLES15-SP6-BYOS-2026-1177,Image SLES15-SP6-BYOS-Azure-2026-1177,Image SLES15-SP6-BYOS-EC2-2026-1177,Image SLES15-SP6-BYOS-GCE-2026-1177,Image SLES15-SP6-CHOST-BYOS-2026-1177,Image SLES15-SP6-CHOST-BYOS-Aliyun-2026-1177,Image SLES15-SP6-CHOST-BYOS-Azure-2026-1177,Image SLES15-SP6-CHOST-BYOS-EC2-2026-1177,Image SLES15-SP6-CHOST-BYOS-GCE-2026-1177,Image SLES15-SP6-CHOST-BYOS-GDC-2026-1177,Image SLES15-SP6-CHOST-BYOS-SAP-CCloud-2026-1177,Image SLES15-SP6-EC2-2026-1177,Image SLES15-SP6-EC2-ECS-HVM-2026-1177,Image SLES15-SP6-GCE-2026-1177,Image SLES15-SP6-HPC-2026-1177,Image SLES15-SP6-HPC-Azure-2026-1177,Image SLES15-SP6-HPC-BYOS-2026-1177,Image SLES15-SP6-HPC-BYOS-Azure-2026-1177,Image SLES15-SP6-HPC-BYOS-EC2-2026-1177,Image SLES15-SP6-HPC-BYOS-GCE-2026-1177,Image SLES15-SP6-HPC-EC2-2026-1177,Image SLES15-SP6-HPC-GCE-2026-1177,Image SLES15-SP6-Hardened-BYOS-2026-1177,Image SLES15-SP6-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP6-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP6-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP6-SAP-2026-1177,Image SLES15-SP6-SAP-Azure-2026-1177,Image SLES15-SP6-SAP-Azure-3P-2026-1177,Image SLES15-SP6-SAP-Azure-LI-BYOS-2026-1177,Image SLES15-SP6-SAP-Azure-LI-BYOS-Production-2026-1177,Image SLES15-SP6-SAP-Azure-VLI-BYOS-2026-1177,Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production-2026-1177,Image SLES15-SP6-SAP-BYOS-2026-1177,Image SLES15-SP6-SAP-BYOS-Azure-2026-1177,Image SLES15-SP6-SAP-BYOS-EC2-2026-1177,Image SLES15-SP6-SAP-BYOS-GCE-2026-1177,Image SLES15-SP6-SAP-EC2-2026-1177,Image SLES15-SP6-SAP-GCE-2026-1177,Image SLES15-SP6-SAP-Hardened-2026-1177,Image SLES15-SP6-SAP-Hardened-Azure-2026-1177,Image SLES15-SP6-SAP-Hardened-BYOS-2026-1177,Image SLES15-SP6-SAP-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP6-SAP-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP6-SAP-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP6-SAP-Hardened-EC2-2026-1177,Image SLES15-SP6-SAP-Hardened-GCE-2026-1177,Image SLES15-SP6-SAPCAL-2026-1177,Image SLES15-SP6-SAPCAL-Azure-2026-1177,Image SLES15-SP6-SAPCAL-EC2-2026-1177,Image SLES15-SP6-SAPCAL-GCE-2026-1177,Image SLES15-SP7-Azure-3P-2026-1177,Image SLES15-SP7-Azure-Basic-2026-1177,Image SLES15-SP7-Azure-Standard-2026-1177,Image SLES15-SP7-BYOS-Azure-2026-1177,Image SLES15-SP7-BYOS-EC2-2026-1177,Image SLES15-SP7-BYOS-GCE-2026-1177,Image SLES15-SP7-CHOST-BYOS-Aliyun-2026-1177,Image SLES15-SP7-CHOST-BYOS-Azure-2026-1177,Image SLES15-SP7-CHOST-BYOS-EC2-2026-1177,Image SLES15-SP7-CHOST-BYOS-GCE-2026-1177,Image SLES15-SP7-CHOST-BYOS-GDC-2026-1177,Image SLES15-SP7-CHOST-BYOS-SAP-CCloud-2026-1177,Image SLES15-SP7-EC2-2026-1177,Image SLES15-SP7-EC2-ECS-HVM-2026-1177,Image SLES15-SP7-GCE-2026-1177,Image SLES15-SP7-GCE-3P-2026-1177,Image SLES15-SP7-HPC-Azure-2026-1177,Image SLES15-SP7-HPC-BYOS-Azure-2026-1177,Image SLES15-SP7-HPC-BYOS-EC2-2026-1177,Image SLES15-SP7-HPC-BYOS-GCE-2026-1177,Image SLES15-SP7-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP7-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP7-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP7-SAP-Azure-2026-1177,Image SLES15-SP7-SAP-Azure-3P-2026-1177,Image SLES15-SP7-SAP-BYOS-Azure-2026-1177,Image SLES15-SP7-SAP-BYOS-EC2-2026-1177,Image SLES15-SP7-SAP-BYOS-GCE-2026-1177,Image SLES15-SP7-SAP-EC2-2026-1177,Image SLES15-SP7-SAP-GCE-2026-1177,Image SLES15-SP7-SAP-GCE-3P-2026-1177,Image SLES15-SP7-SAP-Hardened-Azure-2026-1177,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2026-1177,Image SLES15-SP7-SAP-Hardened-BYOS-EC2-2026-1177,Image SLES15-SP7-SAP-Hardened-BYOS-GCE-2026-1177,Image SLES15-SP7-SAP-Hardened-GCE-2026-1177,Image SLES15-SP7-SAPCAL-Azure-2026-1177,Image SLES15-SP7-SAPCAL-EC2-2026-1177,Image SLES15-SP7-SAPCAL-GCE-2026-1177,Image server-image-2026-1177,Image server-image-sles15sp7-2026-1177,SUSE-2026-1177,SUSE-SLE-Micro-5.3-2026-1177,SUSE-SLE-Micro-5.4-2026-1177,SUSE-SLE-Micro-5.5-2026-1177,SUSE-SLE-Module-Basesystem-15-SP7-2026-1177,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2026-1177,SUSE-SLE-Product-HPC-15-SP4-LTSS-2026-1177,SUSE-SLE-Product-HPC-15-SP5-ESPOS-2026-1177,SUSE-SLE-Product-HPC-15-SP5-LTSS-2026-1177,SUSE-SLE-Product-SLES-15-SP4-LTSS-2026-1177,SUSE-SLE-Product-SLES-15-SP5-LTSS-2026-1177,SUSE-SLE-Product-SLES-15-SP6-LTSS-2026-1177,SUSE-SLE-Product-SLES_SAP-15-SP4-2026-1177,SUSE-SLE-Product-SLES_SAP-15-SP5-2026-1177,SUSE-SLE-Product-SLES_SAP-15-SP6-2026-1177,SUSE-SUSE-MicroOS-5.2-2026-1177,openSUSE-SLE-15.6-2026-1177",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container bci/bci-sle15-kernel-module-devel:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container bci/spack:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/ltss/sle15.4/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/ltss/sle15.5/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/ltss/sle15.6/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/multi-linux-manager/5.1/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/postgres:16",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/postgres:16.14",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/postgres:17",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/postgres:17.10",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/postgres:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle-micro/base-5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Container suse/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image server-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "Image server-image-sles15sp7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-1.34-150000.3.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-backup-scripts-1.34-150000.3.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-doc-1.34-150000.3.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-lang-1.34-150000.3.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-rmt-1.34-150000.3.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "tar-tests-1.34-150000.3.37.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261177-1/",
+      "Description": "Link for SUSE-SU-2026:1177-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-April/045267.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1177-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1246399",
+      "Description": "SUSE Bug 1246399"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-45582/",
+      "Description": "SUSE CVE CVE-2025-45582 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-45582",
+      "Description": "GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file's name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of \"Member name contains '..'\" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain \"x -\u003e ../../../../../home/victim/.ssh\" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which \"tar xf\" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each \"tar xf\" in its Security Rules of Thumb; however, third-party advice leads users to run \"tar xf\" more than once into the same directory.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-45582.html",
+          "Description": "CVE-2025-45582"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1246399",
+          "Description": "SUSE Bug 1246399"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265450",
+          "Description": "SUSE Bug 1265450"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1266731",
+          "Description": "SUSE Bug 1266731"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1267189",
+          "Description": "SUSE Bug 1267189"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container bci/bci-sle15-kernel-module-devel:latest:tar-1.34-150000.3.37.1",
+            "Container bci/spack:latest:tar-1.34-150000.3.37.1",
+            "Container suse/ltss/sle15.4/sle15:latest:tar-1.34-150000.3.37.1",
+            "Container suse/ltss/sle15.5/sle15:latest:tar-1.34-150000.3.37.1",
+            "Container suse/ltss/sle15.6/sle15:latest:tar-1.34-150000.3.37.1",
+            "Container suse/manager/5.0/x86_64/server:latest:tar-1.34-150000.3.37.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:tar-1.34-150000.3.37.1",
+            "Container suse/postgres:16.14:tar-1.34-150000.3.37.1",
+            "Container suse/postgres:16:tar-1.34-150000.3.37.1",
+            "Container suse/postgres:17.10:tar-1.34-150000.3.37.1",
+            "Container suse/postgres:17:tar-1.34-150000.3.37.1",
+            "Container suse/postgres:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro-rancher/5.2:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro-rancher/5.3:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro-rancher/5.4:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro/5.5:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle-micro/base-5.5:latest:tar-1.34-150000.3.37.1",
+            "Container suse/sle15:latest:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-CHOST-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-HPC-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-HPC-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-HPC-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Hardened-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP-Hardened:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAP:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAPCAL-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAPCAL-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAPCAL-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP4-SAPCAL:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Azure-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Azure-Basic:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Azure-Standard:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-HPC-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-Micro-5-5:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Azure-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAPCAL-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAPCAL-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP5-SAPCAL-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-Azure-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-Azure-Basic:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-Azure-Standard:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-CHOST-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-HPC:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-Hardened-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Azure-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP-Hardened:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAP:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAPCAL-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAPCAL-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAPCAL-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6-SAPCAL:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP6:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-Azure-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-Azure-Basic:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-Azure-Standard:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-GCE-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-HPC-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-Azure-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-GCE-3P:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAPCAL-Azure:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAPCAL-EC2:tar-1.34-150000.3.37.1",
+            "Image SLES15-SP7-SAPCAL-GCE:tar-1.34-150000.3.37.1",
+            "Image server-image-sles15sp7:tar-1.34-150000.3.37.1",
+            "Image server-image:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Micro 5.2:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Micro 5.3:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Micro 5.4:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Micro 5.5:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:tar-rmt-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:tar-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:tar-lang-1.34-150000.3.37.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:tar-rmt-1.34-150000.3.37.1",
+            "openSUSE Leap 15.6:tar-1.34-150000.3.37.1",
+            "openSUSE Leap 15.6:tar-backup-scripts-1.34-150000.3.37.1",
+            "openSUSE Leap 15.6:tar-doc-1.34-150000.3.37.1",
+            "openSUSE Leap 15.6:tar-lang-1.34-150000.3.37.1",
+            "openSUSE Leap 15.6:tar-rmt-1.34-150000.3.37.1",
+            "openSUSE Leap 15.6:tar-tests-1.34-150000.3.37.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

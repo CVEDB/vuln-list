@@ -193,6 +193,10 @@
           "Description": "CVE-2015-0192"
         },
         {
+          "URL": "https://bugzilla.suse.com/927591",
+          "Description": "SUSE Bug 927591"
+        },
+        {
           "URL": "https://bugzilla.suse.com/952088",
           "Description": "SUSE Bug 952088"
         }
@@ -219,13 +223,17 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
         {
           "URL": "https://www.suse.com/security/cve/CVE-2015-0204.html",
           "Description": "CVE-2015-0204"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
         },
         {
           "URL": "https://bugzilla.suse.com/912014",
@@ -278,7 +286,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -313,7 +321,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -352,7 +360,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -535,7 +543,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -583,6 +591,10 @@
           "Description": "CVE-2015-1914"
         },
         {
+          "URL": "https://bugzilla.suse.com/927591",
+          "Description": "SUSE Bug 927591"
+        },
+        {
           "URL": "https://bugzilla.suse.com/952088",
           "Description": "SUSE Bug 952088"
         }
@@ -616,6 +628,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2015-2808.html",
           "Description": "CVE-2015-2808"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
         },
         {
           "URL": "https://bugzilla.suse.com/925378",

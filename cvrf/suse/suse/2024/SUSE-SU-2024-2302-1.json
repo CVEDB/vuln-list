@@ -564,6 +564,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "krb5-devel-1.20.1-150500.3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "krb5-1.20.1-150500.3.9.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
         "RelationType": "Default Component Of"
@@ -579,6 +584,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "krb5-devel-1.20.1-150500.3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "krb5-1.20.1-150500.3.9.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
@@ -590,6 +600,11 @@
       },
       {
         "ProductReference": "krb5-client-1.20.1-150500.3.9.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "krb5-devel-1.20.1-150500.3.9.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
@@ -853,12 +868,15 @@
             "Image SLES15-SP5-SAPCAL-Azure:krb5-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-Azure:krb5-32bit-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-Azure:krb5-client-1.20.1-150500.3.9.1",
+            "Image SLES15-SP5-SAPCAL-Azure:krb5-devel-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-EC2:krb5-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-EC2:krb5-32bit-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-EC2:krb5-client-1.20.1-150500.3.9.1",
+            "Image SLES15-SP5-SAPCAL-EC2:krb5-devel-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-GCE:krb5-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-GCE:krb5-32bit-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-GCE:krb5-client-1.20.1-150500.3.9.1",
+            "Image SLES15-SP5-SAPCAL-GCE:krb5-devel-1.20.1-150500.3.9.1",
             "SUSE Linux Enterprise Micro 5.5:krb5-1.20.1-150500.3.9.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:krb5-1.20.1-150500.3.9.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:krb5-32bit-1.20.1-150500.3.9.1",
@@ -1015,12 +1033,15 @@
             "Image SLES15-SP5-SAPCAL-Azure:krb5-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-Azure:krb5-32bit-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-Azure:krb5-client-1.20.1-150500.3.9.1",
+            "Image SLES15-SP5-SAPCAL-Azure:krb5-devel-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-EC2:krb5-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-EC2:krb5-32bit-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-EC2:krb5-client-1.20.1-150500.3.9.1",
+            "Image SLES15-SP5-SAPCAL-EC2:krb5-devel-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-GCE:krb5-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-GCE:krb5-32bit-1.20.1-150500.3.9.1",
             "Image SLES15-SP5-SAPCAL-GCE:krb5-client-1.20.1-150500.3.9.1",
+            "Image SLES15-SP5-SAPCAL-GCE:krb5-devel-1.20.1-150500.3.9.1",
             "SUSE Linux Enterprise Micro 5.5:krb5-1.20.1-150500.3.9.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:krb5-1.20.1-150500.3.9.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP5:krb5-32bit-1.20.1-150500.3.9.1",

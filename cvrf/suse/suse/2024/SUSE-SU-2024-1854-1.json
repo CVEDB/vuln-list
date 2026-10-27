@@ -281,6 +281,10 @@
         {
           "URL": "https://bugzilla.suse.com/1224170",
           "Description": "SUSE Bug 1224170"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1268140",
+          "Description": "SUSE Bug 1268140"
         }
       ],
       "ProductStatuses": [
@@ -342,6 +346,10 @@
         {
           "URL": "https://bugzilla.suse.com/1224170",
           "Description": "SUSE Bug 1224170"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1268140",
+          "Description": "SUSE Bug 1268140"
         }
       ],
       "ProductStatuses": [
@@ -392,7 +400,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -453,7 +461,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [

@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2025-09-16T15:46:51Z",
+        "Date": "2026-04-30T08:10:42Z",
         "Description": "current"
       }
     ]
@@ -781,7 +781,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -799,7 +799,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1195,7 +1195,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1645,7 +1645,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3963,7 +3963,7 @@
     },
     {
       "CVE": "CVE-2022-50077",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\napparmor: fix reference count leak in aa_pivotroot()\n\nThe aa_pivotroot() function has a reference counting bug in a specific\npath. When aa_replace_current_label() returns on success, the function\nforgets to decrement the reference count of \"target\", which is\nincreased earlier by build_pivotroot(), causing a reference leak.\n\nFix it by decreasing the refcount of \"target\" in that path.",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\napparmor: fix reference count leak in aa_pivotroot()\n\nThe aa_pivotroot() function has a reference counting bug in a specific\npath. When aa_replace_current_label() returns on success, the function\nforgets to decrement the reference count of “target”, which is\nincreased earlier by build_pivotroot(), causing a reference leak.\n\nFix it by decreasing the refcount of “target” in that path.",
       "Threats": [
         {
           "Type": "Impact",
@@ -5695,7 +5695,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6001,7 +6001,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "not set"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6433,7 +6433,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "not set"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8193,7 +8193,7 @@
     },
     {
       "CVE": "CVE-2025-5318",
-      "Description": "A flaw was found in the libssh library. An out-of-bounds read can be triggered in the sftp_handle function due to an incorrect comparison check that permits the function to access memory beyond the valid handle list and to return an invalid pointer, which is used in further processing. This vulnerability allows an authenticated remote attacker to potentially read unintended memory regions, exposing sensitive information or affect service behavior.",
+      "Description": "A flaw was found in the libssh library in versions less than 0.11.2. An out-of-bounds read can be triggered in the sftp_handle function due to an incorrect comparison check that permits the function to access memory beyond the valid handle list and to return an invalid pointer, which is used in further processing. This vulnerability allows an authenticated remote attacker to potentially read unintended memory regions, exposing sensitive information or affect service behavior.",
       "Threats": [
         {
           "Type": "Impact",

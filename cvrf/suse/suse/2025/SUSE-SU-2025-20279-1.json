@@ -4,12 +4,12 @@
     "ID": "SUSE-SU-2025:20279-1",
     "Status": "Final",
     "Version": "1",
-    "InitialReleaseDate": "2025-04-22T13:50:03Z",
-    "CurrentReleaseDate": "2025-04-22T13:50:03Z",
+    "InitialReleaseDate": "2025-04-22T13:50:31Z",
+    "CurrentReleaseDate": "2025-04-22T13:50:31Z",
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2025-04-22T13:50:03Z",
+        "Date": "2025-04-22T13:50:31Z",
         "Description": "current"
       }
     ]
@@ -244,6 +244,10 @@
         {
           "URL": "https://bugzilla.suse.com/1224112",
           "Description": "SUSE Bug 1224112"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1235749",
+          "Description": "SUSE Bug 1235749"
         }
       ],
       "ProductStatuses": [

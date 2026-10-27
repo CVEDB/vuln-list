@@ -259,7 +259,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -288,7 +288,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -299,6 +299,10 @@
         {
           "URL": "https://bugzilla.suse.com/1224277",
           "Description": "SUSE Bug 1224277"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1229880",
+          "Description": "SUSE Bug 1229880"
         }
       ],
       "ProductStatuses": [
@@ -317,7 +321,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -346,7 +350,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [

@@ -1,0 +1,1783 @@
+{
+  "Title": "Security update for curl",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1940-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-05-18T07:44:20Z",
+    "CurrentReleaseDate": "2026-05-18T07:44:20Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-05-18T07:44:20Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for curl",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for curl fixes the following issues:\n\nSecurity issues fixed:\n\n- CVE-2026-4873: connection reuse ignores TLS requirement (bsc#1262631).\n- CVE-2026-5545: wrong reuse of HTTP Negotiate connection (bsc#1262632).\n- CVE-2026-6253: proxy credentials leak over redirect-to proxy (bsc#1262635).\n- CVE-2026-6276: stale custom cookie host causes cookie leak (bsc#1262636).\n- CVE-2026-6429: netrc credential leak with reused proxy connection (bsc#1262638).\n\nOther updates and bugfixes:\n\n- sws: prevent 'connection monitor' to say disconnect twice (bsc#1259362).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/ltss/sle15.6/sle15:latest-2026-1940,Container suse/manager/5.0/x86_64/proxy-httpd:latest-2026-1940,Container suse/manager/5.0/x86_64/proxy-salt-broker:latest-2026-1940,Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest-2026-1940,Container suse/manager/5.0/x86_64/server-migration-14-16:latest-2026-1940,Container suse/manager/5.0/x86_64/server:latest-2026-1940,Image SLES15-SP6-2026-1940,Image SLES15-SP6-Azure-3P-2026-1940,Image SLES15-SP6-Azure-Basic-2026-1940,Image SLES15-SP6-Azure-Standard-2026-1940,Image SLES15-SP6-BYOS-2026-1940,Image SLES15-SP6-BYOS-Azure-2026-1940,Image SLES15-SP6-BYOS-EC2-2026-1940,Image SLES15-SP6-BYOS-GCE-2026-1940,Image SLES15-SP6-CHOST-BYOS-2026-1940,Image SLES15-SP6-CHOST-BYOS-Aliyun-2026-1940,Image SLES15-SP6-CHOST-BYOS-Azure-2026-1940,Image SLES15-SP6-CHOST-BYOS-EC2-2026-1940,Image SLES15-SP6-CHOST-BYOS-GCE-2026-1940,Image SLES15-SP6-CHOST-BYOS-GDC-2026-1940,Image SLES15-SP6-CHOST-BYOS-SAP-CCloud-2026-1940,Image SLES15-SP6-EC2-2026-1940,Image SLES15-SP6-EC2-ECS-HVM-2026-1940,Image SLES15-SP6-GCE-2026-1940,Image SLES15-SP6-HPC-2026-1940,Image SLES15-SP6-HPC-Azure-2026-1940,Image SLES15-SP6-HPC-BYOS-2026-1940,Image SLES15-SP6-HPC-BYOS-Azure-2026-1940,Image SLES15-SP6-HPC-BYOS-EC2-2026-1940,Image SLES15-SP6-HPC-BYOS-GCE-2026-1940,Image SLES15-SP6-HPC-EC2-2026-1940,Image SLES15-SP6-HPC-GCE-2026-1940,Image SLES15-SP6-Hardened-BYOS-2026-1940,Image SLES15-SP6-Hardened-BYOS-Azure-2026-1940,Image SLES15-SP6-Hardened-BYOS-EC2-2026-1940,Image SLES15-SP6-Hardened-BYOS-GCE-2026-1940,Image SLES15-SP6-SAP-2026-1940,Image SLES15-SP6-SAP-Azure-2026-1940,Image SLES15-SP6-SAP-Azure-3P-2026-1940,Image SLES15-SP6-SAP-BYOS-2026-1940,Image SLES15-SP6-SAP-BYOS-Azure-2026-1940,Image SLES15-SP6-SAP-BYOS-EC2-2026-1940,Image SLES15-SP6-SAP-BYOS-GCE-2026-1940,Image SLES15-SP6-SAP-EC2-2026-1940,Image SLES15-SP6-SAP-GCE-2026-1940,Image SLES15-SP6-SAP-Hardened-2026-1940,Image SLES15-SP6-SAP-Hardened-Azure-2026-1940,Image SLES15-SP6-SAP-Hardened-BYOS-2026-1940,Image SLES15-SP6-SAP-Hardened-BYOS-Azure-2026-1940,Image SLES15-SP6-SAP-Hardened-BYOS-EC2-2026-1940,Image SLES15-SP6-SAP-Hardened-BYOS-GCE-2026-1940,Image SLES15-SP6-SAP-Hardened-EC2-2026-1940,Image SLES15-SP6-SAP-Hardened-GCE-2026-1940,Image SLES15-SP6-SAPCAL-2026-1940,Image SLES15-SP6-SAPCAL-Azure-2026-1940,Image SLES15-SP6-SAPCAL-EC2-2026-1940,Image SLES15-SP6-SAPCAL-GCE-2026-1940,SUSE-2026-1940,SUSE-SLE-Product-SLES-15-SP6-LTSS-2026-1940,SUSE-SLE-Product-SLES_SAP-15-SP6-2026-1940",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/ltss/sle15.6/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/ltss/sle15.6/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server-migration-14-16:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "curl-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl-devel-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libcurl4-32bit-8.14.1-150600.4.43.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261940-1/",
+      "Description": "Link for SUSE-SU-2026:1940-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-May/046543.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1940-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1259362",
+      "Description": "SUSE Bug 1259362"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262631",
+      "Description": "SUSE Bug 1262631"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262632",
+      "Description": "SUSE Bug 1262632"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262635",
+      "Description": "SUSE Bug 1262635"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262636",
+      "Description": "SUSE Bug 1262636"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1262638",
+      "Description": "SUSE Bug 1262638"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-1965/",
+      "Description": "SUSE CVE CVE-2026-1965 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-4873/",
+      "Description": "SUSE CVE CVE-2026-4873 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-5545/",
+      "Description": "SUSE CVE CVE-2026-5545 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-6253/",
+      "Description": "SUSE CVE CVE-2026-6253 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-6276/",
+      "Description": "SUSE CVE CVE-2026-6276 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-6429/",
+      "Description": "SUSE CVE CVE-2026-6429 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-1965",
+      "Description": "libcurl can in some circumstances reuse the wrong connection when asked to do\nan Negotiate-authenticated HTTP or HTTPS request.\n\nlibcurl features a pool of recent connections so that subsequent requests can\nreuse an existing connection to avoid overhead.\n\nWhen reusing a connection a range of criterion must first be met. Due to a\nlogical error in the code, a request that was issued by an application could\nwrongfully reuse an existing connection to the same server that was\nauthenticated using different credentials. One underlying reason being that\nNegotiate sometimes authenticates *connections* and not *requests*, contrary\nto how HTTP is designed to work.\n\nAn application that allows Negotiate authentication to a server (that responds\nwanting Negotiate) with `user1:password1` and then does another operation to\nthe same server also using Negotiate but with `user2:password2` (while the\nprevious connection is still alive) - the second request wrongly reused the\nsame connection and since it then sees that the Negotiate negotiation is\nalready made, it just sends the request over that connection thinking it uses\nthe user2 credentials when it is in fact still using the connection\nauthenticated for user1...\n\nThe set of authentication methods to use is set with  `CURLOPT_HTTPAUTH`.\n\nApplications can disable libcurl's reuse of connections and thus mitigate this\nproblem, by using one of the following libcurl options to alter how\nconnections are or are not reused: `CURLOPT_FRESH_CONNECT`,\n`CURLOPT_MAXCONNECTS` and `CURLMOPT_MAX_HOST_CONNECTIONS` (if using the\ncurl_multi API).",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-1965.html",
+          "Description": "CVE-2026-1965"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1259362",
+          "Description": "SUSE Bug 1259362"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262632",
+          "Description": "SUSE Bug 1262632"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/ltss/sle15.6/sle15:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/ltss/sle15.6/sle15:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-migration-14-16:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-8.14.1-150600.4.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2026-4873",
+      "Description": "A vulnerability exists where a connection requiring TLS incorrectly reuses an\nexisting unencrypted connection from the same connection pool. If an initial\ntransfer is made in clear-text (via IMAP, SMTP, or POP3), a subsequent request\nto that same host bypasses the TLS requirement and instead transmit data\nunencrypted.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-4873.html",
+          "Description": "CVE-2026-4873"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262631",
+          "Description": "SUSE Bug 1262631"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/ltss/sle15.6/sle15:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/ltss/sle15.6/sle15:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-migration-14-16:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-8.14.1-150600.4.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2026-5545",
+      "Description": "libcurl might in some circumstances reuse the wrong connection when asked to\ndo an authenticated HTTP(S) request after a Negotiate-authenticated one, when\nboth use the same host.\n\nlibcurl features a pool of recent connections so that subsequent requests can\nreuse an existing connection to avoid overhead.\n\nWhen reusing a connection a range of criteria must be met. Due to a logical\nerror in the code, a request that was issued by an application could\nwrongfully reuse an existing connection to the same server that was\nauthenticated using different credentials.\n\nAn application that first uses Negotiate authentication to a server with\n`user1:password1` and then does another operation to the same server asking\nfor any authentication method but for `user2:password2` (while the previous\nconnection is still alive) - the second request gets confused and wrongly\nreuses the same connection and sends the new request over that connection\nthinking it uses a mix of user1's and user2's credentials when it is in fact\nstill using the connection authenticated for user1...",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-5545.html",
+          "Description": "CVE-2026-5545"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262632",
+          "Description": "SUSE Bug 1262632"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1268407",
+          "Description": "SUSE Bug 1268407"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/ltss/sle15.6/sle15:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/ltss/sle15.6/sle15:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-migration-14-16:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-8.14.1-150600.4.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2026-6253",
+      "Description": "curl might erroneously pass on credentials for a first proxy to a second\nproxy.\n\nThis can happen when the following conditions are true:\n\n1. curl is setup to use specific different proxies for different URL schemes\n2. the first proxy needs credentials\n3. the second proxy uses no credentials\n4. while using the first proxy (using say `http://`), curl is asked to follow\n   a redirect to a URL using another scheme (say `https://`), accessed using a\n   second, different, proxy",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-6253.html",
+          "Description": "CVE-2026-6253"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262635",
+          "Description": "SUSE Bug 1262635"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1268299",
+          "Description": "SUSE Bug 1268299"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/ltss/sle15.6/sle15:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/ltss/sle15.6/sle15:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-migration-14-16:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-8.14.1-150600.4.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2026-6276",
+      "Description": "Using libcurl, when a custom `Host:` header is first set for an HTTP request\nand a second request is subsequently done using the same *easy handle* but\nwithout the custom `Host:` header set, the second request would use stale\ninformation and pass on cookies meant for the first host in the second\nrequest. Leak them.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-6276.html",
+          "Description": "CVE-2026-6276"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262636",
+          "Description": "SUSE Bug 1262636"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/ltss/sle15.6/sle15:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/ltss/sle15.6/sle15:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-migration-14-16:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-8.14.1-150600.4.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2026-6429",
+      "Description": "When asked to both use a `.netrc` file for credentials and to follow HTTP\nredirects, libcurl could leak the password used for the first host to the\nfollowed-to host under certain circumstances.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-6429.html",
+          "Description": "CVE-2026-6429"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262638",
+          "Description": "SUSE Bug 1262638"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/ltss/sle15.6/sle15:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/ltss/sle15.6/sle15:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/proxy-salt-broker:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-hub-xmlrpc-api:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server-migration-14-16:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:curl-8.14.1-150600.4.43.1",
+            "Container suse/manager/5.0/x86_64/server:latest:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Basic:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Azure-Standard:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-CHOST-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-HPC:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure-3P:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP-Hardened:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAP:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-Azure:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-EC2:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL-GCE:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl-devel-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6-SAPCAL:libcurl4-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:curl-8.14.1-150600.4.43.1",
+            "Image SLES15-SP6:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:libcurl4-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:curl-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl-devel-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-32bit-8.14.1-150600.4.43.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:libcurl4-8.14.1-150600.4.43.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

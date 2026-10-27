@@ -302,7 +302,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -325,6 +325,10 @@
         {
           "URL": "https://bugzilla.suse.com/1123919",
           "Description": "SUSE Bug 1123919"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1237370",
+          "Description": "SUSE Bug 1237370"
         }
       ],
       "ProductStatuses": [
@@ -368,7 +372,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -508,7 +512,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [

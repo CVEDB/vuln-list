@@ -129,6 +129,10 @@
         {
           "URL": "https://bugzilla.suse.com/1234100",
           "Description": "SUSE Bug 1234100"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1269052",
+          "Description": "SUSE Bug 1269052"
         }
       ],
       "ProductStatuses": [
@@ -147,7 +151,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -180,7 +184,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -213,7 +217,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -246,7 +250,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -279,7 +283,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [

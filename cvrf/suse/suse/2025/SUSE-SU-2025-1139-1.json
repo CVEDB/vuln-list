@@ -90,7 +90,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -105,6 +105,10 @@
         {
           "URL": "https://bugzilla.suse.com/1228012",
           "Description": "SUSE Bug 1228012"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1256508",
+          "Description": "SUSE Bug 1256508"
         }
       ],
       "ProductStatuses": [

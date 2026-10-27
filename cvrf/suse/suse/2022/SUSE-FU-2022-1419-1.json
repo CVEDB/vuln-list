@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/grafana:latest-2022-1419,Container ses/7/ceph/grafana:latest-2022-1419,SUSE-2022-1419,openSUSE-SLE-15.3-2022-1419,openSUSE-SLE-15.4-2022-1419",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2022-1419,Container ses/7/ceph/grafana:latest-2022-1419,Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest-2022-1419,SUSE-2022-1419,openSUSE-SLE-15.3-2022-1419,openSUSE-SLE-15.4-2022-1419",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -50,6 +50,11 @@
       },
       {
         "ProductReference": "grafana-8.3.5-150200.3.21.1",
+        "RelatesToProductReference": "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "grafana-8.3.5-150200.3.21.1",
         "RelatesToProductReference": "openSUSE Leap 15.3",
         "RelationType": "Default Component Of"
       },
@@ -62,7 +67,7 @@
   },
   "References": [
     {
-      "URL": "https://www.suse.com/support/update/announcement/-2022-1419/suse-fu-20221419-1/",
+      "URL": "suse-fu-2022:1419-1",
       "Description": "Link for SUSE-FU-2022:1419-1"
     },
     {
@@ -145,7 +150,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -164,6 +169,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -215,6 +221,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -231,7 +238,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -250,6 +257,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -285,6 +293,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -317,6 +326,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -352,6 +362,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -391,6 +402,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -426,6 +438,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -461,6 +474,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -496,6 +510,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -531,6 +546,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]
@@ -566,6 +582,7 @@
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
             "Container ses/7/ceph/grafana:latest:grafana-8.3.5-150200.3.21.1",
+            "Container suse/multi-linux-manager/5.2/x86_64/monitoring-grafana:latest:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.3:grafana-8.3.5-150200.3.21.1",
             "openSUSE Leap 15.4:grafana-8.3.5-150200.3.21.1"
           ]

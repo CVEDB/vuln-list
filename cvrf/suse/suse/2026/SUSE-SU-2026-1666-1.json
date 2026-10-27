@@ -1,0 +1,407 @@
+{
+  "Title": "Security update for python-Pygments",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1666-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-04-30T17:22:16Z",
+    "CurrentReleaseDate": "2026-04-30T17:22:16Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-04-30T17:22:16Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for python-Pygments",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for python-Pygments fixes the following issues:\n\n- CVE-2026-4539: inefficient regex for GUID and ID pattern matching can lead to archetype lexer ReDoS (bsc#1260796).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES15-SP4-BYOS-Azure-2026-1666,Image SLES15-SP4-HPC-BYOS-Azure-2026-1666,Image SLES15-SP4-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP4-SAP-Azure-2026-1666,Image SLES15-SP4-SAP-BYOS-Azure-2026-1666,Image SLES15-SP4-SAP-Hardened-2026-1666,Image SLES15-SP4-SAP-Hardened-Azure-2026-1666,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP4-SAPCAL-Azure-2026-1666,Image SLES15-SP5-Azure-3P-2026-1666,Image SLES15-SP5-Azure-Basic-2026-1666,Image SLES15-SP5-Azure-Standard-2026-1666,Image SLES15-SP5-BYOS-Azure-2026-1666,Image SLES15-SP5-HPC-Azure-2026-1666,Image SLES15-SP5-HPC-BYOS-Azure-2026-1666,Image SLES15-SP5-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP5-SAP-Azure-3P-2026-1666,Image SLES15-SP5-SAP-BYOS-Azure-2026-1666,Image SLES15-SP5-SAP-Hardened-Azure-2026-1666,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP5-SAPCAL-Azure-2026-1666,Image SLES15-SP6-Azure-3P-2026-1666,Image SLES15-SP6-Azure-Basic-2026-1666,Image SLES15-SP6-Azure-Standard-2026-1666,Image SLES15-SP6-BYOS-Azure-2026-1666,Image SLES15-SP6-HPC-2026-1666,Image SLES15-SP6-HPC-Azure-2026-1666,Image SLES15-SP6-HPC-BYOS-Azure-2026-1666,Image SLES15-SP6-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP6-SAP-Azure-2026-1666,Image SLES15-SP6-SAP-Azure-3P-2026-1666,Image SLES15-SP6-SAP-BYOS-Azure-2026-1666,Image SLES15-SP6-SAP-Hardened-2026-1666,Image SLES15-SP6-SAP-Hardened-Azure-2026-1666,Image SLES15-SP6-SAP-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP6-SAPCAL-Azure-2026-1666,Image SLES15-SP7-Azure-3P-2026-1666,Image SLES15-SP7-Azure-Basic-2026-1666,Image SLES15-SP7-Azure-Standard-2026-1666,Image SLES15-SP7-BYOS-Azure-2026-1666,Image SLES15-SP7-HPC-Azure-2026-1666,Image SLES15-SP7-HPC-BYOS-Azure-2026-1666,Image SLES15-SP7-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP7-SAP-Azure-2026-1666,Image SLES15-SP7-SAP-Azure-3P-2026-1666,Image SLES15-SP7-SAP-BYOS-Azure-2026-1666,Image SLES15-SP7-SAP-Hardened-Azure-2026-1666,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2026-1666,Image SLES15-SP7-SAPCAL-Azure-2026-1666,SUSE-2026-1666,SUSE-SLE-Module-Public-Cloud-15-SP4-2026-1666,SUSE-SLE-Module-Python3-15-SP7-2026-1666,openSUSE-SLE-15.6-2026-1666",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Public Cloud 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Python 3 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "python311-Pygments-2.15.1-150400.7.10.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261666-1/",
+      "Description": "Link for SUSE-SU-2026:1666-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-May/046144.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1666-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1260796",
+      "Description": "SUSE Bug 1260796"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-4539/",
+      "Description": "SUSE CVE CVE-2026-4539 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-4539",
+      "Description": "A security flaw has been discovered in pygments up to 2.19.2. The impacted element is the function AdlLexer of the file pygments/lexers/archetype.py. The manipulation results in inefficient regular expression complexity. The attack is only possible with local access. The exploit has been released to the public and may be used for attacks. The project was informed of the problem early through an issue report but has not responded yet.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-4539.html",
+          "Description": "CVE-2026-4539"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1260796",
+          "Description": "SUSE Bug 1260796"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP4-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-SAP-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-SAP-Hardened:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP4-SAPCAL-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-Azure-3P:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-Azure-Basic:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-Azure-Standard:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-HPC-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-SAP-Azure-3P:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP5-SAPCAL-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-Azure-3P:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-Azure-Basic:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-Azure-Standard:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-HPC-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-HPC:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-SAP-Azure-3P:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-SAP-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-SAP-Hardened:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP6-SAPCAL-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-Azure-3P:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-Azure-Basic:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-Azure-Standard:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-HPC-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-SAP-Azure-3P:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-SAP-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "Image SLES15-SP7-SAPCAL-Azure:python311-Pygments-2.15.1-150400.7.10.1",
+            "SUSE Linux Enterprise Module for Public Cloud 15 SP4:python311-Pygments-2.15.1-150400.7.10.1",
+            "SUSE Linux Enterprise Module for Python 3 15 SP7:python311-Pygments-2.15.1-150400.7.10.1",
+            "openSUSE Leap 15.6:python311-Pygments-2.15.1-150400.7.10.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

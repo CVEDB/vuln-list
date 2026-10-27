@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container ses/7.1/ceph/grafana:latest-2023-362,SUSE-2023-362,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-362,openSUSE-SLE-15.4-2023-362",
+      "Text": "Container ses/7.1/ceph/grafana:latest-2023-362,Image monitoring-grafana-image-2023-362,SUSE-2023-362,SUSE-SLE-Module-Packagehub-Subpackages-15-SP4-2023-362,openSUSE-SLE-15.4-2023-362",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -41,6 +41,11 @@
       {
         "ProductReference": "grafana-8.5.15-150200.3.32.1",
         "RelatesToProductReference": "Container ses/7.1/ceph/grafana:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "grafana-8.5.15-150200.3.32.1",
+        "RelatesToProductReference": "Image monitoring-grafana-image",
         "RelationType": "Default Component Of"
       },
       {
@@ -124,7 +129,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -142,6 +147,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.5.15-150200.3.32.1",
+            "Image monitoring-grafana-image:grafana-8.5.15-150200.3.32.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-8.5.15-150200.3.32.1",
             "openSUSE Leap 15.4:grafana-8.5.15-150200.3.32.1"
           ]
@@ -173,6 +179,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.5.15-150200.3.32.1",
+            "Image monitoring-grafana-image:grafana-8.5.15-150200.3.32.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-8.5.15-150200.3.32.1",
             "openSUSE Leap 15.4:grafana-8.5.15-150200.3.32.1"
           ]
@@ -204,6 +211,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.5.15-150200.3.32.1",
+            "Image monitoring-grafana-image:grafana-8.5.15-150200.3.32.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-8.5.15-150200.3.32.1",
             "openSUSE Leap 15.4:grafana-8.5.15-150200.3.32.1"
           ]
@@ -235,6 +243,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.5.15-150200.3.32.1",
+            "Image monitoring-grafana-image:grafana-8.5.15-150200.3.32.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-8.5.15-150200.3.32.1",
             "openSUSE Leap 15.4:grafana-8.5.15-150200.3.32.1"
           ]
@@ -266,6 +275,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.5.15-150200.3.32.1",
+            "Image monitoring-grafana-image:grafana-8.5.15-150200.3.32.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-8.5.15-150200.3.32.1",
             "openSUSE Leap 15.4:grafana-8.5.15-150200.3.32.1"
           ]
@@ -275,7 +285,7 @@
     },
     {
       "CVE": "CVE-2022-39307",
-      "Description": "Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a \"user not found\" message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds.",
+      "Description": "Grafana is an open-source platform for monitoring and observability. When using the forget password on the login page, a POST request is made to the `/api/user/password/sent-reset-email` URL. When the username or email does not exist, a JSON response contains a “user not found” message. This leaks information to unauthenticated users and introduces a security risk. This issue has been patched in 9.2.4 and backported to 8.5.15. There are no known workarounds.",
       "Threats": [
         {
           "Type": "Impact",
@@ -297,6 +307,7 @@
           "Type": "Fixed",
           "ProductID": [
             "Container ses/7.1/ceph/grafana:latest:grafana-8.5.15-150200.3.32.1",
+            "Image monitoring-grafana-image:grafana-8.5.15-150200.3.32.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP4:grafana-8.5.15-150200.3.32.1",
             "openSUSE Leap 15.4:grafana-8.5.15-150200.3.32.1"
           ]

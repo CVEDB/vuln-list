@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2025-09-16T15:39:41Z",
+        "Date": "2026-10-25T17:40:41Z",
         "Description": "current"
       }
     ]
@@ -1587,7 +1587,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1788,7 +1788,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1880,7 +1880,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1940,7 +1940,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -2400,7 +2400,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -2956,7 +2956,7 @@
     },
     {
       "CVE": "CVE-2021-47209",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsched/fair: Prevent dead task groups from regaining cfs_rq's\n\nKevin is reporting crashes which point to a use-after-free of a cfs_rq\nin update_blocked_averages(). Initial debugging revealed that we've\nlive cfs_rq's (on_list=1) in an about to be kfree()'d task group in\nfree_fair_sched_group(). However, it was unclear how that can happen.\n\nHis kernel config happened to lead to a layout of struct sched_entity\nthat put the 'my_q' member directly into the middle of the object\nwhich makes it incidentally overlap with SLUB's freelist pointer.\nThat, in combination with SLAB_FREELIST_HARDENED's freelist pointer\nmangling, leads to a reliable access violation in form of a #GP which\nmade the UAF fail fast.\n\nMichal seems to have run into the same issue[1]. He already correctly\ndiagnosed that commit a7b359fc6a37 (\"sched/fair: Correctly insert\ncfs_rq's to list on unthrottle\") is causing the preconditions for the\nUAF to happen by re-adding cfs_rq's also to task groups that have no\nmore running tasks, i.e. also to dead ones. His analysis, however,\nmisses the real root cause and it cannot be seen from the crash\nbacktrace only, as the real offender is tg_unthrottle_up() getting\ncalled via sched_cfs_period_timer() via the timer interrupt at an\ninconvenient time.\n\nWhen unregister_fair_sched_group() unlinks all cfs_rq's from the dying\ntask group, it doesn't protect itself from getting interrupted. If the\ntimer interrupt triggers while we iterate over all CPUs or after\nunregister_fair_sched_group() has finished but prior to unlinking the\ntask group, sched_cfs_period_timer() will execute and walk the list of\ntask groups, trying to unthrottle cfs_rq's, i.e. re-add them to the\ndying task group. These will later -- in free_fair_sched_group() -- be\nkfree()'ed while still being linked, leading to the fireworks Kevin\nand Michal are seeing.\n\nTo fix this race, ensure the dying task group gets unlinked first.\nHowever, simply switching the order of unregistering and unlinking the\ntask group isn't sufficient, as concurrent RCU walkers might still see\nit, as can be seen below:\n\n    CPU1:                                      CPU2:\n      :                                        timer IRQ:\n      :                                          do_sched_cfs_period_timer():\n      :                                            :\n      :                                            distribute_cfs_runtime():\n      :                                              rcu_read_lock();\n      :                                              :\n      :                                              unthrottle_cfs_rq():\n    sched_offline_group():                             :\n      :                                                walk_tg_tree_from(…,tg_unthrottle_up,…):\n      list_del_rcu(\u0026tg-\u003elist);                           :\n (1)  :                                                  list_for_each_entry_rcu(child, \u0026parent-\u003echildren, siblings)\n      :                                                    :\n (2)  list_del_rcu(\u0026tg-\u003esiblings);                         :\n      :                                                    tg_unthrottle_up():\n      unregister_fair_sched_group():                         struct cfs_rq *cfs_rq = tg-\u003ecfs_rq[cpu_of(rq)];\n        :                                                    :\n        list_del_leaf_cfs_rq(tg-\u003ecfs_rq[cpu]);               :\n        :                                                    :\n        :                                                    if (!cfs_rq_is_decayed(cfs_rq) || cfs_rq-\u003enr_running)\n (3)    :                                                        list_add_leaf_cfs_rq(cfs_rq);\n      :                                                      :\n      :                                                    :\n      :                                                  :\n      :                                                :\n      :                           \n---truncated---",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsched/fair: Prevent dead task groups from regaining cfs_rq's\n\nKevin is reporting crashes which point to a use-after-free of a cfs_rq\nin update_blocked_averages(). Initial debugging revealed that we've\nlive cfs_rq's (on_list=1) in an about to be kfree()'d task group in\nfree_fair_sched_group(). However, it was unclear how that can happen.\n\nHis kernel config happened to lead to a layout of struct sched_entity\nthat put the 'my_q' member directly into the middle of the object\nwhich makes it incidentally overlap with SLUB's freelist pointer.\nThat, in combination with SLAB_FREELIST_HARDENED's freelist pointer\nmangling, leads to a reliable access violation in form of a #GP which\nmade the UAF fail fast.\n\nMichal seems to have run into the same issue[1]. He already correctly\ndiagnosed that commit a7b359fc6a37 (\"sched/fair: Correctly insert\ncfs_rq's to list on unthrottle\") is causing the preconditions for the\nUAF to happen by re-adding cfs_rq's also to task groups that have no\nmore running tasks, i.e. also to dead ones. His analysis, however,\nmisses the real root cause and it cannot be seen from the crash\nbacktrace only, as the real offender is tg_unthrottle_up() getting\ncalled via sched_cfs_period_timer() via the timer interrupt at an\ninconvenient time.\n\nWhen unregister_fair_sched_group() unlinks all cfs_rq's from the dying\ntask group, it doesn't protect itself from getting interrupted. If the\ntimer interrupt triggers while we iterate over all CPUs or after\nunregister_fair_sched_group() has finished but prior to unlinking the\ntask group, sched_cfs_period_timer() will execute and walk the list of\ntask groups, trying to unthrottle cfs_rq's, i.e. re-add them to the\ndying task group. These will later -- in free_fair_sched_group() -- be\nkfree()'ed while still being linked, leading to the fireworks Kevin\nand Michal are seeing.\n\nTo fix this race, ensure the dying task group gets unlinked first.\nHowever, simply switching the order of unregistering and unlinking the\ntask group isn't sufficient, as concurrent RCU walkers might still see\nit, as can be seen below:\n\n    CPU1:                                      CPU2:\n      :                                        timer IRQ:\n      :                                          do_sched_cfs_period_timer():\n      :                                            :\n      :                                            distribute_cfs_runtime():\n      :                                              rcu_read_lock();\n      :                                              :\n      :                                              unthrottle_cfs_rq():\n    sched_offline_group():                             :\n      :                                                walk_tg_tree_from(...,tg_unthrottle_up,...):\n      list_del_rcu(\u0026tg-\u003elist);                           :\n (1)  :                                                  list_for_each_entry_rcu(child, \u0026parent-\u003echildren, siblings)\n      :                                                    :\n (2)  list_del_rcu(\u0026tg-\u003esiblings);                         :\n      :                                                    tg_unthrottle_up():\n      unregister_fair_sched_group():                         struct cfs_rq *cfs_rq = tg-\u003ecfs_rq[cpu_of(rq)];\n        :                                                    :\n        list_del_leaf_cfs_rq(tg-\u003ecfs_rq[cpu]);               :\n        :                                                    :\n        :                                                    if (!cfs_rq_is_decayed(cfs_rq) || cfs_rq-\u003enr_running)\n (3)    :                                                        list_add_leaf_cfs_rq(cfs_rq);\n      :                                                      :\n      :                                                    :\n      :                                                  :\n      :                                                :\n      :                           \n---truncated---",
       "Threats": [
         {
           "Type": "Impact",
@@ -3360,7 +3360,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3420,7 +3420,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3480,7 +3480,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3520,7 +3520,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3620,7 +3620,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3780,7 +3780,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4260,7 +4260,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5360,7 +5360,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5540,7 +5540,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5560,7 +5560,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5760,7 +5760,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5840,7 +5840,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5880,7 +5880,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -5920,7 +5920,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6000,7 +6000,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6100,7 +6100,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6120,7 +6120,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6420,7 +6420,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6700,7 +6700,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -6936,7 +6936,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7895,7 +7895,7 @@
     },
     {
       "CVE": "CVE-2023-1829",
-      "Description": "A use-after-free vulnerability in the Linux Kernel traffic control index filter (tcindex) can be exploited to achieve local privilege escalation.  The tcindex_delete function which does not properly deactivate filters in case of a perfect hashes while deleting the underlying structure which can later lead to double freeing the structure.  A local attacker user can use this vulnerability to elevate its privileges to root.\nWe recommend upgrading past commit 8c710f75256bb3cf05ac7b1672c82b92c43f3d28.",
+      "Description": "A use-after-free vulnerability in the Linux Kernel traffic control index filter (tcindex) can be exploited to achieve local privilege escalation.  The tcindex_delete function which does not properly deactivate filters in case of a perfect hashes while deleting the underlying structure which can later lead to double freeing the structure.  A local attacker user can use this vulnerability to elevate its privileges to root.\n\n\nWe recommend upgrading past commit   8c710f75256bb3cf05ac7b1672c82b92c43f3d28 https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/ .",
       "Threats": [
         {
           "Type": "Impact",
@@ -8167,7 +8167,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -11368,7 +11368,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -11688,7 +11688,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -11828,7 +11828,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -12315,7 +12315,7 @@
     },
     {
       "CVE": "CVE-2023-6931",
-      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.",
+      "Description": "A heap out-of-bounds write vulnerability in the Linux kernel's Performance Events system component can be exploited to achieve local privilege escalation.\n\n\n\nA perf_event's read_size can overflow, leading to an heap out-of-bounds increment or write in perf_read_group().\n\n\n\nWe recommend upgrading past commit 382c27f4ed28f803b1f1473ac2d8db0afc795a1b.",
       "Threats": [
         {
           "Type": "Impact",
@@ -12739,7 +12739,7 @@
     },
     {
       "CVE": "CVE-2024-1086",
-      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.",
+      "Description": "A use-after-free vulnerability in the Linux kernel's netfilter: nf_tables component can be exploited to achieve local privilege escalation.\n\n\n\nThe nft_verdict_init() function allows positive values as drop error within the hook verdict, and hence the nf_hook_slow() function can cause a double free vulnerability when NF_DROP is issued with a drop error which resembles NF_ACCEPT.\n\n\n\nWe recommend upgrading past commit f342de4e2f33e0e39165d8639387aa6c19dff660.",
       "Threats": [
         {
           "Type": "Impact",
@@ -12806,7 +12806,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -12980,7 +12980,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -13002,7 +13002,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -13024,7 +13024,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -13046,7 +13046,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -13068,7 +13068,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14084,7 +14084,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14104,7 +14104,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14184,7 +14184,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14204,7 +14204,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14244,7 +14244,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14264,7 +14264,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14304,7 +14304,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14346,7 +14346,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14366,7 +14366,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14646,7 +14646,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14672,7 +14672,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14776,7 +14776,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -14818,7 +14818,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15059,7 +15059,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15239,7 +15239,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15323,7 +15323,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15345,7 +15345,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15469,7 +15469,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15531,7 +15531,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15552,7 +15552,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -15572,7 +15572,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,

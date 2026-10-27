@@ -153,7 +153,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -223,7 +223,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -363,7 +363,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -374,6 +374,10 @@
         {
           "URL": "https://bugzilla.suse.com/1109609",
           "Description": "SUSE Bug 1109609"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265892",
+          "Description": "SUSE Bug 1265892"
         }
       ],
       "ProductStatuses": [
@@ -398,7 +402,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [

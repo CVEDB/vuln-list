@@ -352,7 +352,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -757,6 +757,10 @@
         {
           "URL": "https://bugzilla.suse.com/1158791",
           "Description": "SUSE Bug 1158791"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1268128",
+          "Description": "SUSE Bug 1268128"
         }
       ],
       "ProductStatuses": [

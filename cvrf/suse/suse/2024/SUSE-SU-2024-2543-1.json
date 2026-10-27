@@ -224,7 +224,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -276,6 +276,10 @@
         {
           "URL": "https://bugzilla.suse.com/1227561",
           "Description": "SUSE Bug 1227561"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1260482",
+          "Description": "SUSE Bug 1260482"
         }
       ],
       "ProductStatuses": [
@@ -302,7 +306,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [

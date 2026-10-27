@@ -805,7 +805,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -937,6 +937,10 @@
         {
           "URL": "https://bugzilla.suse.com/1207051",
           "Description": "SUSE Bug 1207051"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262299",
+          "Description": "SUSE Bug 1262299"
         }
       ],
       "ProductStatuses": [
@@ -1027,7 +1031,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [

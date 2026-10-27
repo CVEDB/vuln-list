@@ -216,7 +216,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -267,7 +267,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -318,7 +318,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -373,7 +373,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -382,8 +382,16 @@
           "Description": "CVE-2014-9297"
         },
         {
+          "URL": "https://bugzilla.suse.com/1010964",
+          "Description": "SUSE Bug 1010964"
+        },
+        {
           "URL": "https://bugzilla.suse.com/911792",
           "Description": "SUSE Bug 911792"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/928321",
+          "Description": "SUSE Bug 928321"
         },
         {
           "URL": "https://bugzilla.suse.com/948963",
@@ -417,7 +425,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -426,8 +434,16 @@
           "Description": "CVE-2014-9298"
         },
         {
+          "URL": "https://bugzilla.suse.com/1010964",
+          "Description": "SUSE Bug 1010964"
+        },
+        {
           "URL": "https://bugzilla.suse.com/911792",
           "Description": "SUSE Bug 911792"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/928321",
+          "Description": "SUSE Bug 928321"
         },
         {
           "URL": "https://bugzilla.suse.com/948963",
@@ -461,7 +477,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [

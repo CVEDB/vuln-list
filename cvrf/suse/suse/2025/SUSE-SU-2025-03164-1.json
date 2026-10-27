@@ -276,7 +276,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -453,7 +453,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -512,7 +512,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -641,6 +641,10 @@
         {
           "URL": "https://bugzilla.suse.com/1248784",
           "Description": "SUSE Bug 1248784"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1252282",
+          "Description": "SUSE Bug 1252282"
         }
       ],
       "ProductStatuses": [

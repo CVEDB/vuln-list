@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2025-09-16T15:49:50Z",
+        "Date": "2026-03-27T08:50:52Z",
         "Description": "current"
       }
     ]
@@ -733,7 +733,7 @@
     },
     {
       "CVE": "CVE-2023-4016",
-      "Description": "Under some circumstances, this weakness allows a user who has access to run the \"ps\" utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.",
+      "Description": "Under some circumstances, this weakness allows a user who has access to run the “ps” utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.",
       "Threats": [
         {
           "Type": "Impact",
@@ -2655,7 +2655,7 @@
     },
     {
       "CVE": "CVE-2025-24528",
-      "Description": "unknown",
+      "Description": "In MIT Kerberos 5 (aka krb5) before 1.22 (with incremental propagation), there is an integer overflow for a large update size to resize() in kdb_log.c. An authenticated attacker can cause an out-of-bounds write and kadmind daemon crash.",
       "Threats": [
         {
           "Type": "Impact",

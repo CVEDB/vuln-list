@@ -1,0 +1,1109 @@
+{
+  "Title": "Security update for nghttp2",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1247-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-04-10T10:34:43Z",
+    "CurrentReleaseDate": "2026-04-10T10:34:43Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-04-10T10:34:43Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for nghttp2",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for nghttp2 fixes the following issue:\n\n- CVE-2026-27135: assertion failure due to missing state validation can lead to DoS (bsc#1259845).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/ltss/sle15.4/sle15:latest-2026-1247,Container suse/ltss/sle15.5/sle15:latest-2026-1247,Container suse/manager/4.3/proxy-httpd:latest-2026-1247,Container suse/manager/4.3/proxy-salt-broker:latest-2026-1247,Container suse/sle-micro-rancher/5.2:latest-2026-1247,Container suse/sle-micro-rancher/5.3:latest-2026-1247,Container suse/sle-micro-rancher/5.4:latest-2026-1247,Container suse/sle-micro/5.2/toolbox:latest-2026-1247,Container suse/sle-micro/5.3/toolbox:latest-2026-1247,Container suse/sle-micro/5.4/toolbox:latest-2026-1247,Container suse/sle-micro/5.5/toolbox:latest-2026-1247,Container suse/sle-micro/5.5:latest-2026-1247,Container suse/sle-micro/base-5.5:latest-2026-1247,Container suse/sle-micro/kvm-5.5:latest-2026-1247,Container suse/sle-micro/rt-5.5:latest-2026-1247,Image SLES15-SP4-BYOS-2026-1247,Image SLES15-SP4-BYOS-Azure-2026-1247,Image SLES15-SP4-BYOS-EC2-2026-1247,Image SLES15-SP4-BYOS-GCE-2026-1247,Image SLES15-SP4-CHOST-BYOS-2026-1247,Image SLES15-SP4-CHOST-BYOS-Aliyun-2026-1247,Image SLES15-SP4-CHOST-BYOS-Azure-2026-1247,Image SLES15-SP4-CHOST-BYOS-EC2-2026-1247,Image SLES15-SP4-CHOST-BYOS-GCE-2026-1247,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2026-1247,Image SLES15-SP4-HPC-BYOS-2026-1247,Image SLES15-SP4-HPC-BYOS-Azure-2026-1247,Image SLES15-SP4-HPC-BYOS-EC2-2026-1247,Image SLES15-SP4-HPC-BYOS-GCE-2026-1247,Image SLES15-SP4-HPC-EC2-2026-1247,Image SLES15-SP4-HPC-GCE-2026-1247,Image SLES15-SP4-Hardened-BYOS-2026-1247,Image SLES15-SP4-Hardened-BYOS-Azure-2026-1247,Image SLES15-SP4-Hardened-BYOS-EC2-2026-1247,Image SLES15-SP4-Hardened-BYOS-GCE-2026-1247,Image SLES15-SP4-Micro-5-3-BYOS-2026-1247,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2026-1247,Image SLES15-SP4-Micro-5-4-BYOS-2026-1247,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2026-1247,Image SLES15-SP4-SAP-2026-1247,Image SLES15-SP4-SAP-Azure-2026-1247,Image SLES15-SP4-SAP-Azure-LI-BYOS-2026-1247,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2026-1247,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2026-1247,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2026-1247,Image SLES15-SP4-SAP-BYOS-2026-1247,Image SLES15-SP4-SAP-BYOS-Azure-2026-1247,Image SLES15-SP4-SAP-BYOS-EC2-2026-1247,Image SLES15-SP4-SAP-BYOS-GCE-2026-1247,Image SLES15-SP4-SAP-EC2-2026-1247,Image SLES15-SP4-SAP-GCE-2026-1247,Image SLES15-SP4-SAP-Hardened-2026-1247,Image SLES15-SP4-SAP-Hardened-Azure-2026-1247,Image SLES15-SP4-SAP-Hardened-BYOS-2026-1247,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-1247,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2026-1247,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2026-1247,Image SLES15-SP4-SAP-Hardened-GCE-2026-1247,Image SLES15-SP4-SAPCAL-2026-1247,Image SLES15-SP4-SAPCAL-Azure-2026-1247,Image SLES15-SP4-SAPCAL-EC2-2026-1247,Image SLES15-SP4-SAPCAL-GCE-2026-1247,Image SLES15-SP5-Azure-3P-2026-1247,Image SLES15-SP5-Azure-Basic-2026-1247,Image SLES15-SP5-Azure-Standard-2026-1247,Image SLES15-SP5-BYOS-Azure-2026-1247,Image SLES15-SP5-BYOS-EC2-2026-1247,Image SLES15-SP5-BYOS-GCE-2026-1247,Image SLES15-SP5-CHOST-BYOS-Aliyun-2026-1247,Image SLES15-SP5-CHOST-BYOS-Azure-2026-1247,Image SLES15-SP5-CHOST-BYOS-EC2-2026-1247,Image SLES15-SP5-CHOST-BYOS-GCE-2026-1247,Image SLES15-SP5-CHOST-BYOS-GDC-2026-1247,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2026-1247,Image SLES15-SP5-EC2-2026-1247,Image SLES15-SP5-GCE-2026-1247,Image SLES15-SP5-HPC-Azure-2026-1247,Image SLES15-SP5-HPC-BYOS-Azure-2026-1247,Image SLES15-SP5-HPC-BYOS-EC2-2026-1247,Image SLES15-SP5-HPC-BYOS-GCE-2026-1247,Image SLES15-SP5-Hardened-BYOS-Azure-2026-1247,Image SLES15-SP5-Hardened-BYOS-EC2-2026-1247,Image SLES15-SP5-Hardened-BYOS-GCE-2026-1247,Image SLES15-SP5-Micro-5-5-2026-1247,Image SLES15-SP5-Micro-5-5-Azure-2026-1247,Image SLES15-SP5-Micro-5-5-BYOS-2026-1247,Image SLES15-SP5-Micro-5-5-BYOS-Azure-2026-1247,Image SLES15-SP5-Micro-5-5-BYOS-EC2-2026-1247,Image SLES15-SP5-Micro-5-5-BYOS-GCE-2026-1247,Image SLES15-SP5-Micro-5-5-EC2-2026-1247,Image SLES15-SP5-Micro-5-5-GCE-2026-1247,Image SLES15-SP5-SAP-Azure-3P-2026-1247,Image SLES15-SP5-SAP-BYOS-Azure-2026-1247,Image SLES15-SP5-SAP-BYOS-EC2-2026-1247,Image SLES15-SP5-SAP-BYOS-GCE-2026-1247,Image SLES15-SP5-SAP-Hardened-Azure-2026-1247,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2026-1247,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2026-1247,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2026-1247,Image SLES15-SP5-SAP-Hardened-GCE-2026-1247,Image SLES15-SP5-SAPCAL-Azure-2026-1247,Image SLES15-SP5-SAPCAL-EC2-2026-1247,Image SLES15-SP5-SAPCAL-GCE-2026-1247,SUSE-2026-1247,SUSE-SLE-Micro-5.3-2026-1247,SUSE-SLE-Micro-5.4-2026-1247,SUSE-SLE-Micro-5.5-2026-1247,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2026-1247,SUSE-SLE-Product-HPC-15-SP4-LTSS-2026-1247,SUSE-SLE-Product-HPC-15-SP5-ESPOS-2026-1247,SUSE-SLE-Product-HPC-15-SP5-LTSS-2026-1247,SUSE-SLE-Product-SLES-15-SP4-LTSS-2026-1247,SUSE-SLE-Product-SLES-15-SP5-LTSS-2026-1247,SUSE-SLE-Product-SLES_SAP-15-SP4-2026-1247,SUSE-SLE-Product-SLES_SAP-15-SP5-2026-1247,SUSE-SUSE-MicroOS-5.2-2026-1247",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/ltss/sle15.4/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/ltss/sle15.5/sle15:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/manager/4.3/proxy-salt-broker:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.2/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.3/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.4/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/base-5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/kvm-5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/rt-5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-14-32bit-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio-devel-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libnghttp2_asio1-1.40.0-150200.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261247-1/",
+      "Description": "Link for SUSE-SU-2026:1247-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-April/045376.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1247-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1259845",
+      "Description": "SUSE Bug 1259845"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-27135/",
+      "Description": "SUSE CVE CVE-2026-27135 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-27135",
+      "Description": "nghttp2 is an implementation of the Hypertext Transfer Protocol version 2 in C. Prior to version 1.68.1, the nghttp2 library stops reading the incoming data when user facing public API `nghttp2_session_terminate_session` or `nghttp2_session_terminate_session2` is called by the application. They might be called internally by the library when it detects the situation that is subject to connection error. Due to the missing internal state validation, the library keeps reading the rest of the data after one of those APIs is called. Then receiving a malformed frame that causes FRAME_SIZE_ERROR causes assertion failure. nghttp2 v1.68.1 adds missing state validation to avoid assertion failure. No known workarounds are available.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-27135.html",
+          "Description": "CVE-2026-27135"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1259835",
+          "Description": "SUSE Bug 1259835"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/ltss/sle15.4/sle15:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/ltss/sle15.5/sle15:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/manager/4.3/proxy-httpd:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/manager/4.3/proxy-salt-broker:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro-rancher/5.2:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro-rancher/5.4:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/5.2/toolbox:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/5.3/toolbox:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/5.4/toolbox:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/5.5:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/base-5.5:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/kvm-5.5:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Container suse/sle-micro/rt-5.5:latest:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-CHOST-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-HPC-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-HPC-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-HPC-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Hardened-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Azure:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Azure:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-EC2:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-EC2:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-GCE:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-GCE:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP-Hardened:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAP:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-Azure:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-Azure:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-GCE:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL-GCE:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP4-SAPCAL:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Azure-3P:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Azure-Basic:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Azure-Standard:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-HPC-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-Micro-5-5:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-Azure-3P:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-EC2:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-EC2:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-EC2:libnghttp2-devel-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libnghttp2-14-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libnghttp2_asio1-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libnghttp2_asio1-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libnghttp2_asio1-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libnghttp2_asio1-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Micro 5.2:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Micro 5.3:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Micro 5.4:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Micro 5.5:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libnghttp2_asio1-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libnghttp2_asio1-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libnghttp2_asio1-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libnghttp2-14-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libnghttp2-14-32bit-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libnghttp2-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libnghttp2_asio-devel-1.40.0-150200.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libnghttp2_asio1-1.40.0-150200.22.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

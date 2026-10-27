@@ -381,7 +381,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -479,7 +479,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -661,6 +661,10 @@
           "Description": "SUSE Bug 1007291"
         },
         {
+          "URL": "https://bugzilla.suse.com/1007852",
+          "Description": "SUSE Bug 1007852"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1008110",
           "Description": "SUSE Bug 1008110"
         },
@@ -817,7 +821,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -860,7 +864,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [

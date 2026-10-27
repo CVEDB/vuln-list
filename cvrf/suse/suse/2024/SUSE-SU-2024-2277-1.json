@@ -31,7 +31,7 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "Container bci/bci-sle15-kernel-module-devel:15.7-2024-2277,Container bci/bci-sle15-kernel-module-devel:latest-2024-2277,Container bci/gcc:latest-2024-2277,Container bci/golang:1.22-openssl-2024-2277,Container bci/golang:1.23-2024-2277,Container bci/golang:latest-2024-2277,Container bci/kiwi:latest-2024-2277,Container bci/node:22-2024-2277,Container bci/nodejs:latest-2024-2277,Container bci/openjdk:17-2024-2277,Container bci/openjdk:latest-2024-2277,Container bci/python:3-2024-2277,Container bci/python:3.13-2024-2277,Container bci/python:latest-2024-2277,Container bci/ruby:3-2024-2277,Container bci/ruby:latest-2024-2277,Container bci/spack:0.23-2024-2277,Container bci/spack:latest-2024-2277,Container containers/python:3.11-2024-2277,Container containers/python:3.9-2024-2277,Container containers/pytorch:2-nvidia-2024-2277,Container containers/pytorch:2.5.0-2024-2277,Container suse/git:latest-2024-2277,Image ai_15_6-2024-2277,Image python_15_6-2024-2277,SUSE-2024-2277,SUSE-SLE-Module-Basesystem-15-SP6-2024-2277,SUSE-SLE-Module-Development-Tools-15-SP6-2024-2277,openSUSE-SLE-15.6-2024-2277",
+      "Text": "Container bci/bci-sle15-kernel-module-devel:15.6-2024-2277,Container bci/bci-sle15-kernel-module-devel:latest-2024-2277,Container bci/gcc:latest-2024-2277,Container bci/golang:1.23-2024-2277,Container bci/golang:1.23-openssl-2024-2277,Container bci/golang:1.25-2024-2277,Container bci/golang:1.25-openssl-2024-2277,Container bci/golang:latest-2024-2277,Container bci/kiwi:latest-2024-2277,Container bci/node:20-2024-2277,Container bci/node:22-2024-2277,Container bci/openjdk:17-2024-2277,Container bci/openjdk:21-2024-2277,Container bci/openjdk:latest-2024-2277,Container bci/python:3-2024-2277,Container bci/python:latest-2024-2277,Container bci/ruby:2-2024-2277,Container bci/ruby:latest-2024-2277,Container bci/spack:0.23-2024-2277,Container bci/spack:latest-2024-2277,Container containers/lmcache-lmstack-router:0-2024-2277,Container containers/lmcache-vllm-openai:0-2024-2277,Container containers/open-webui-mcpo:0-2024-2277,Container containers/open-webui-pipelines:0-2024-2277,Container containers/python:3.11-2024-2277,Container containers/python:3.9-2024-2277,Container containers/pytorch:2-nvidia-2024-2277,Container containers/pytorch:2.5.0-2024-2277,Container private-registry/1.2/harbor-trivy-adapter:latest-2024-2277,Container private-registry/harbor-trivy-adapter:latest-2024-2277,Container suse/git:2-2024-2277,Container suse/git:latest-2024-2277,Image pr_15_7-2024-2277,Image pr_15_7_1_0-2024-2277,Image python_15_6-2024-2277,SUSE-2024-2277,SUSE-SLE-Module-Basesystem-15-SP6-2024-2277,SUSE-SLE-Module-Development-Tools-15-SP6-2024-2277,openSUSE-SLE-15.6-2024-2277",
       "Title": "Patchnames",
       "Type": "Details"
     }
@@ -40,7 +40,7 @@
     "Relationships": [
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Container bci/bci-sle15-kernel-module-devel:15.7",
+        "RelatesToProductReference": "Container bci/bci-sle15-kernel-module-devel:15.6",
         "RelationType": "Default Component Of"
       },
       {
@@ -55,12 +55,22 @@
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Container bci/golang:1.22-openssl",
+        "RelatesToProductReference": "Container bci/golang:1.23",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Container bci/golang:1.23",
+        "RelatesToProductReference": "Container bci/golang:1.23-openssl",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container bci/golang:1.25",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container bci/golang:1.25-openssl",
         "RelationType": "Default Component Of"
       },
       {
@@ -75,17 +85,22 @@
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container bci/node:20",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
         "RelatesToProductReference": "Container bci/node:22",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Container bci/nodejs:latest",
+        "RelatesToProductReference": "Container bci/openjdk:17",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Container bci/openjdk:17",
+        "RelatesToProductReference": "Container bci/openjdk:21",
         "RelationType": "Default Component Of"
       },
       {
@@ -100,17 +115,12 @@
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Container bci/python:3.13",
-        "RelationType": "Default Component Of"
-      },
-      {
-        "ProductReference": "git-core-2.43.0-150600.3.3.1",
         "RelatesToProductReference": "Container bci/python:latest",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Container bci/ruby:3",
+        "RelatesToProductReference": "Container bci/ruby:2",
         "RelationType": "Default Component Of"
       },
       {
@@ -149,6 +159,46 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "git-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/lmcache-lmstack-router:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/lmcache-lmstack-router:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-Git-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/lmcache-lmstack-router:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/lmcache-vllm-openai:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/open-webui-mcpo:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/open-webui-pipelines:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/open-webui-pipelines:0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-Git-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container containers/open-webui-pipelines:0",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
         "RelatesToProductReference": "Container containers/python:3.11",
         "RelationType": "Default Component Of"
@@ -170,12 +220,32 @@
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container private-registry/1.2/harbor-trivy-adapter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container private-registry/harbor-trivy-adapter:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Container suse/git:2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
         "RelatesToProductReference": "Container suse/git:latest",
         "RelationType": "Default Component Of"
       },
       {
         "ProductReference": "git-core-2.43.0-150600.3.3.1",
-        "RelatesToProductReference": "Image ai_15_6",
+        "RelatesToProductReference": "Image pr_15_7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "git-core-2.43.0-150600.3.3.1",
+        "RelatesToProductReference": "Image pr_15_7_1_0",
         "RelationType": "Default Component Of"
       },
       {
@@ -391,27 +461,33 @@
         {
           "URL": "https://bugzilla.suse.com/1224170",
           "Description": "SUSE Bug 1224170"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1268140",
+          "Description": "SUSE Bug 1268140"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-sle15-kernel-module-devel:15.7:git-core-2.43.0-150600.3.3.1",
+            "Container bci/bci-sle15-kernel-module-devel:15.6:git-core-2.43.0-150600.3.3.1",
             "Container bci/bci-sle15-kernel-module-devel:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/gcc:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/golang:1.22-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.23-openssl:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:1.23:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/kiwi:latest:git-core-2.43.0-150600.3.3.1",
+            "Container bci/node:20:git-core-2.43.0-150600.3.3.1",
             "Container bci/node:22:git-core-2.43.0-150600.3.3.1",
-            "Container bci/nodejs:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:17:git-core-2.43.0-150600.3.3.1",
+            "Container bci/openjdk:21:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/python:3.13:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:3:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/ruby:3:git-core-2.43.0-150600.3.3.1",
+            "Container bci/ruby:2:git-core-2.43.0-150600.3.3.1",
             "Container bci/ruby:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-core-2.43.0-150600.3.3.1",
@@ -419,12 +495,24 @@
             "Container bci/spack:latest:git-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-vllm-openai:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-mcpo:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:perl-Git-2.43.0-150600.3.3.1",
             "Container containers/python:3.11:git-core-2.43.0-150600.3.3.1",
             "Container containers/python:3.9:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2-nvidia:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2.5.0:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/1.2/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container suse/git:2:git-core-2.43.0-150600.3.3.1",
             "Container suse/git:latest:git-core-2.43.0-150600.3.3.1",
-            "Image ai_15_6:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7_1_0:git-core-2.43.0-150600.3.3.1",
             "Image python_15_6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP6:git-2.43.0-150600.3.3.1",
@@ -474,27 +562,33 @@
         {
           "URL": "https://bugzilla.suse.com/1224170",
           "Description": "SUSE Bug 1224170"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1268140",
+          "Description": "SUSE Bug 1268140"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-sle15-kernel-module-devel:15.7:git-core-2.43.0-150600.3.3.1",
+            "Container bci/bci-sle15-kernel-module-devel:15.6:git-core-2.43.0-150600.3.3.1",
             "Container bci/bci-sle15-kernel-module-devel:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/gcc:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/golang:1.22-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.23-openssl:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:1.23:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/kiwi:latest:git-core-2.43.0-150600.3.3.1",
+            "Container bci/node:20:git-core-2.43.0-150600.3.3.1",
             "Container bci/node:22:git-core-2.43.0-150600.3.3.1",
-            "Container bci/nodejs:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:17:git-core-2.43.0-150600.3.3.1",
+            "Container bci/openjdk:21:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/python:3.13:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:3:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/ruby:3:git-core-2.43.0-150600.3.3.1",
+            "Container bci/ruby:2:git-core-2.43.0-150600.3.3.1",
             "Container bci/ruby:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-core-2.43.0-150600.3.3.1",
@@ -502,12 +596,24 @@
             "Container bci/spack:latest:git-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-vllm-openai:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-mcpo:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:perl-Git-2.43.0-150600.3.3.1",
             "Container containers/python:3.11:git-core-2.43.0-150600.3.3.1",
             "Container containers/python:3.9:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2-nvidia:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2.5.0:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/1.2/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container suse/git:2:git-core-2.43.0-150600.3.3.1",
             "Container suse/git:latest:git-core-2.43.0-150600.3.3.1",
-            "Image ai_15_6:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7_1_0:git-core-2.43.0-150600.3.3.1",
             "Image python_15_6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP6:git-2.43.0-150600.3.3.1",
@@ -546,7 +652,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -563,21 +669,23 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-sle15-kernel-module-devel:15.7:git-core-2.43.0-150600.3.3.1",
+            "Container bci/bci-sle15-kernel-module-devel:15.6:git-core-2.43.0-150600.3.3.1",
             "Container bci/bci-sle15-kernel-module-devel:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/gcc:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/golang:1.22-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.23-openssl:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:1.23:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/kiwi:latest:git-core-2.43.0-150600.3.3.1",
+            "Container bci/node:20:git-core-2.43.0-150600.3.3.1",
             "Container bci/node:22:git-core-2.43.0-150600.3.3.1",
-            "Container bci/nodejs:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:17:git-core-2.43.0-150600.3.3.1",
+            "Container bci/openjdk:21:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/python:3.13:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:3:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/ruby:3:git-core-2.43.0-150600.3.3.1",
+            "Container bci/ruby:2:git-core-2.43.0-150600.3.3.1",
             "Container bci/ruby:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-core-2.43.0-150600.3.3.1",
@@ -585,12 +693,24 @@
             "Container bci/spack:latest:git-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-vllm-openai:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-mcpo:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:perl-Git-2.43.0-150600.3.3.1",
             "Container containers/python:3.11:git-core-2.43.0-150600.3.3.1",
             "Container containers/python:3.9:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2-nvidia:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2.5.0:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/1.2/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container suse/git:2:git-core-2.43.0-150600.3.3.1",
             "Container suse/git:latest:git-core-2.43.0-150600.3.3.1",
-            "Image ai_15_6:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7_1_0:git-core-2.43.0-150600.3.3.1",
             "Image python_15_6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP6:git-2.43.0-150600.3.3.1",
@@ -629,7 +749,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -646,21 +766,23 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-sle15-kernel-module-devel:15.7:git-core-2.43.0-150600.3.3.1",
+            "Container bci/bci-sle15-kernel-module-devel:15.6:git-core-2.43.0-150600.3.3.1",
             "Container bci/bci-sle15-kernel-module-devel:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/gcc:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/golang:1.22-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.23-openssl:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:1.23:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/kiwi:latest:git-core-2.43.0-150600.3.3.1",
+            "Container bci/node:20:git-core-2.43.0-150600.3.3.1",
             "Container bci/node:22:git-core-2.43.0-150600.3.3.1",
-            "Container bci/nodejs:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:17:git-core-2.43.0-150600.3.3.1",
+            "Container bci/openjdk:21:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/python:3.13:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:3:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/ruby:3:git-core-2.43.0-150600.3.3.1",
+            "Container bci/ruby:2:git-core-2.43.0-150600.3.3.1",
             "Container bci/ruby:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-core-2.43.0-150600.3.3.1",
@@ -668,12 +790,24 @@
             "Container bci/spack:latest:git-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-vllm-openai:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-mcpo:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:perl-Git-2.43.0-150600.3.3.1",
             "Container containers/python:3.11:git-core-2.43.0-150600.3.3.1",
             "Container containers/python:3.9:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2-nvidia:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2.5.0:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/1.2/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container suse/git:2:git-core-2.43.0-150600.3.3.1",
             "Container suse/git:latest:git-core-2.43.0-150600.3.3.1",
-            "Image ai_15_6:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7_1_0:git-core-2.43.0-150600.3.3.1",
             "Image python_15_6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP6:git-2.43.0-150600.3.3.1",
@@ -733,21 +867,23 @@
         {
           "Type": "Fixed",
           "ProductID": [
-            "Container bci/bci-sle15-kernel-module-devel:15.7:git-core-2.43.0-150600.3.3.1",
+            "Container bci/bci-sle15-kernel-module-devel:15.6:git-core-2.43.0-150600.3.3.1",
             "Container bci/bci-sle15-kernel-module-devel:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/gcc:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/golang:1.22-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.23-openssl:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:1.23:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25-openssl:git-core-2.43.0-150600.3.3.1",
+            "Container bci/golang:1.25:git-core-2.43.0-150600.3.3.1",
             "Container bci/golang:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/kiwi:latest:git-core-2.43.0-150600.3.3.1",
+            "Container bci/node:20:git-core-2.43.0-150600.3.3.1",
             "Container bci/node:22:git-core-2.43.0-150600.3.3.1",
-            "Container bci/nodejs:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:17:git-core-2.43.0-150600.3.3.1",
+            "Container bci/openjdk:21:git-core-2.43.0-150600.3.3.1",
             "Container bci/openjdk:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/python:3.13:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:3:git-core-2.43.0-150600.3.3.1",
             "Container bci/python:latest:git-core-2.43.0-150600.3.3.1",
-            "Container bci/ruby:3:git-core-2.43.0-150600.3.3.1",
+            "Container bci/ruby:2:git-core-2.43.0-150600.3.3.1",
             "Container bci/ruby:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-2.43.0-150600.3.3.1",
             "Container bci/spack:0.23:git-core-2.43.0-150600.3.3.1",
@@ -755,12 +891,24 @@
             "Container bci/spack:latest:git-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:git-core-2.43.0-150600.3.3.1",
             "Container bci/spack:latest:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-lmstack-router:0:perl-Git-2.43.0-150600.3.3.1",
+            "Container containers/lmcache-vllm-openai:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-mcpo:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:git-core-2.43.0-150600.3.3.1",
+            "Container containers/open-webui-pipelines:0:perl-Git-2.43.0-150600.3.3.1",
             "Container containers/python:3.11:git-core-2.43.0-150600.3.3.1",
             "Container containers/python:3.9:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2-nvidia:git-core-2.43.0-150600.3.3.1",
             "Container containers/pytorch:2.5.0:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/1.2/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container private-registry/harbor-trivy-adapter:latest:git-core-2.43.0-150600.3.3.1",
+            "Container suse/git:2:git-core-2.43.0-150600.3.3.1",
             "Container suse/git:latest:git-core-2.43.0-150600.3.3.1",
-            "Image ai_15_6:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7:git-core-2.43.0-150600.3.3.1",
+            "Image pr_15_7_1_0:git-core-2.43.0-150600.3.3.1",
             "Image python_15_6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:git-core-2.43.0-150600.3.3.1",
             "SUSE Linux Enterprise Module for Development Tools 15 SP6:git-2.43.0-150600.3.3.1",

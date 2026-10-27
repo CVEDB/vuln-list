@@ -1,0 +1,1181 @@
+{
+  "Title": "Security update for Mesa",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1845-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-05-13T15:26:52Z",
+    "CurrentReleaseDate": "2026-05-13T15:26:52Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-05-13T15:26:52Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for Mesa",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for Mesa fixes the following issue:\n\n- CVE-2026-40393: out-of-bounds memory access can occur in WebGPU because the amount of to-be-allocated data depends on\n  an untrusted party (bsc#1261998).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/kiosk/pulseaudio:latest-2026-1845,Container suse/kiosk/xorg:latest-2026-1845,Image SLES15-SP7-SAP-Azure-2026-1845,Image SLES15-SP7-SAP-Azure-3P-2026-1845,Image SLES15-SP7-SAP-BYOS-Azure-2026-1845,Image SLES15-SP7-SAP-BYOS-EC2-2026-1845,Image SLES15-SP7-SAP-BYOS-GCE-2026-1845,Image SLES15-SP7-SAP-EC2-2026-1845,Image SLES15-SP7-SAP-GCE-2026-1845,Image SLES15-SP7-SAP-GCE-3P-2026-1845,Image SLES15-SP7-SAP-Hardened-Azure-2026-1845,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2026-1845,Image SLES15-SP7-SAP-Hardened-BYOS-EC2-2026-1845,Image SLES15-SP7-SAP-Hardened-BYOS-GCE-2026-1845,Image SLES15-SP7-SAP-Hardened-GCE-2026-1845,Image SLES15-SP7-SAPCAL-Azure-2026-1845,Image SLES15-SP7-SAPCAL-EC2-2026-1845,Image SLES15-SP7-SAPCAL-GCE-2026-1845,SUSE-2026-1845,SUSE-SLE-Module-Basesystem-15-SP7-2026-1845,SUSE-SLE-Module-Packagehub-Subpackages-15-SP7-2026-1845,SUSE-SLE-Product-WE-15-SP7-2026-1845",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/pulseaudio:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/pulseaudio:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/pulseaudio:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/pulseaudio:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/pulseaudio:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/pulseaudio:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/pulseaudio:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/xorg:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/xorg:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/xorg:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/xorg:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/xorg:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/xorg:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Container suse/kiosk/xorg:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-KHR-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-KHR-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-KHR-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-KHR-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-gallium-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libEGL1-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGL1-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGLESv1_CM-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGLESv2-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libGLESv3-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libd3d-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libd3d-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libglapi0-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libva-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-libva-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-vulkan-device-select-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-vulkan-overlay-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libOSMesa-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libOSMesa8-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm-devel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libgbm1-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvdpau_r600-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvdpau_radeonsi-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvdpau_virtio_gpu-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvulkan_intel-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvulkan_lvp-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvulkan_radeon-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxatracker-devel-1.0.0-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libxatracker2-1.0.0-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-vulkan-device-select-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libOSMesa8-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvulkan_intel-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvulkan_radeon-32bit-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "Mesa-dri-nouveau-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libvdpau_nouveau-24.3.3-150700.93.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Workstation Extension 15 SP7",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261845-1/",
+      "Description": "Link for SUSE-SU-2026:1845-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-May/046424.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1845-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1261998",
+      "Description": "SUSE Bug 1261998"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-40393/",
+      "Description": "SUSE CVE CVE-2026-40393 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-40393",
+      "Description": "In Mesa before 25.3.6 and 26 before 26.0.1, out-of-bounds memory access can occur in WebGPU because the amount of to-be-allocated data depends on an untrusted party, and is then used for alloca.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-40393.html",
+          "Description": "CVE-2026-40393"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261998",
+          "Description": "SUSE Bug 1261998"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/kiosk/pulseaudio:latest:Mesa-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/pulseaudio:latest:Mesa-dri-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/pulseaudio:latest:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/pulseaudio:latest:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/pulseaudio:latest:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/pulseaudio:latest:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/pulseaudio:latest:libgbm1-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/xorg:latest:Mesa-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/xorg:latest:Mesa-dri-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/xorg:latest:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/xorg:latest:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/xorg:latest:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/xorg:latest:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Container suse/kiosk/xorg:latest:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Azure:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-EC2:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-EC2:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-EC2:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-EC2:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-EC2:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-EC2:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-EC2:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE-3P:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE-3P:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE-3P:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE-3P:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE-3P:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE-3P:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE-3P:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-GCE:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-KHR-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-libGL-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-Azure:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-KHR-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-libGL-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-EC2:libgbm1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-KHR-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-dri-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-gallium-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-libGL-devel-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "Image SLES15-SP7-SAPCAL-GCE:libgbm1-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-KHR-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-dri-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-dri-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-dri-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-gallium-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-gallium-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libEGL-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libEGL1-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libEGL1-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libGL-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libGL1-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libGL1-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libGLESv1_CM-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libGLESv2-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libGLESv3-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libd3d-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libd3d-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libglapi-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libglapi0-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libglapi0-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libva-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-libva-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-vulkan-device-select-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:Mesa-vulkan-overlay-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libOSMesa-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libOSMesa8-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libgbm-devel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libgbm1-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libgbm1-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libvdpau_r600-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libvdpau_radeonsi-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libvdpau_virtio_gpu-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libvulkan_intel-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libvulkan_lvp-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libvulkan_radeon-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libxatracker-devel-1.0.0-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libxatracker2-1.0.0-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP7:Mesa-vulkan-device-select-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP7:libOSMesa8-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP7:libvulkan_intel-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP7:libvulkan_radeon-32bit-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Workstation Extension 15 SP7:Mesa-dri-nouveau-24.3.3-150700.93.8.1",
+            "SUSE Linux Enterprise Workstation Extension 15 SP7:libvdpau_nouveau-24.3.3-150700.93.8.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

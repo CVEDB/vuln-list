@@ -1189,7 +1189,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1433,7 +1433,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -2965,7 +2965,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -3525,7 +3525,7 @@
     },
     {
       "CVE": "CVE-2024-42226",
-      "Description": "** REJECT ** This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
+      "Description": "This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
@@ -4956,6 +4956,10 @@
         {
           "URL": "https://bugzilla.suse.com/1229707",
           "Description": "SUSE Bug 1229707"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1256508",
+          "Description": "SUSE Bug 1256508"
         }
       ],
       "ProductStatuses": [

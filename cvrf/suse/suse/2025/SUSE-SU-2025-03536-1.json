@@ -1,0 +1,347 @@
+{
+  "Title": "Security update for expat",
+  "Tracking": {
+    "ID": "SUSE-SU-2025:03536-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2025-10-10T15:20:27Z",
+    "CurrentReleaseDate": "2025-10-10T15:20:27Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2025-10-10T15:20:27Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for expat",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for expat fixes the following issues:\n\n- CVE-2025-59375: memory amplification vulnerability allows attackers to trigger excessive dynamic memory allocations\n  by submitting crafted XML input (bsc#1249584).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES12-SP5-Azure-BYOS-2025-3536,Image SLES12-SP5-Azure-HPC-BYOS-2025-3536,Image SLES12-SP5-Azure-HPC-On-Demand-2025-3536,Image SLES12-SP5-Azure-SAP-BYOS-2025-3536,Image SLES12-SP5-Azure-SAP-On-Demand-2025-3536,Image SLES12-SP5-Azure-Standard-On-Demand-2025-3536,Image SLES12-SP5-EC2-BYOS-2025-3536,Image SLES12-SP5-EC2-ECS-On-Demand-2025-3536,Image SLES12-SP5-EC2-On-Demand-2025-3536,Image SLES12-SP5-EC2-SAP-BYOS-2025-3536,Image SLES12-SP5-EC2-SAP-On-Demand-2025-3536,Image SLES12-SP5-GCE-BYOS-2025-3536,Image SLES12-SP5-GCE-On-Demand-2025-3536,Image SLES12-SP5-GCE-SAP-BYOS-2025-3536,Image SLES12-SP5-GCE-SAP-On-Demand-2025-3536,Image SLES12-SP5-SAP-Azure-LI-BYOS-Production-2025-3536,Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production-2025-3536,SUSE-2025-3536,SUSE-SLE-SERVER-12-SP5-LTSS-2025-3536,SUSE-SLE-SERVER-12-SP5-LTSS-EXTENDED-SECURITY-2025-3536",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-HPC-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-Azure-Standard-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-ECS-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-EC2-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-GCE-SAP-On-Demand",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 12 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "expat-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat-devel-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libexpat1-32bit-2.7.1-21.46.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2025/suse-su-202503536-1/",
+      "Description": "Link for SUSE-SU-2025:03536-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2025-October/042068.html",
+      "Description": "E-Mail link for SUSE-SU-2025:03536-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1249584",
+      "Description": "SUSE Bug 1249584"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-59375/",
+      "Description": "SUSE CVE CVE-2025-59375 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-59375",
+      "Description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-59375.html",
+          "Description": "CVE-2025-59375"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1249584",
+          "Description": "SUSE Bug 1249584"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES12-SP5-Azure-BYOS:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-BYOS:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-HPC-BYOS:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-HPC-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-SAP-BYOS:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-SAP-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-Azure-Standard-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-BYOS:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-BYOS:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-ECS-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-SAP-BYOS:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-EC2-SAP-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-BYOS:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-BYOS:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-SAP-BYOS:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-GCE-SAP-On-Demand:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-SAP-Azure-LI-BYOS-Production:libexpat1-2.7.1-21.46.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:expat-2.7.1-21.46.1",
+            "Image SLES12-SP5-SAP-Azure-VLI-BYOS-Production:libexpat1-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:expat-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:libexpat-devel-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:libexpat1-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server 12 SP5-LTSS:libexpat1-32bit-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:expat-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:libexpat-devel-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:libexpat1-2.7.1-21.46.1",
+            "SUSE Linux Enterprise Server LTSS Extended Security 12 SP5:libexpat1-32bit-2.7.1-21.46.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

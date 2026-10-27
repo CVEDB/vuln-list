@@ -202,7 +202,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -263,6 +263,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2016-0703.html",
           "Description": "CVE-2016-0703"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
         },
         {
           "URL": "https://bugzilla.suse.com/968044",
@@ -398,7 +402,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -463,6 +467,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2016-0800.html",
           "Description": "CVE-2016-0800"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
         },
         {
           "URL": "https://bugzilla.suse.com/1106871",

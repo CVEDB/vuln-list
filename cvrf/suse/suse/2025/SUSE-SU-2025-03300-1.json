@@ -1,0 +1,3254 @@
+{
+  "Title": "Security update for vim",
+  "Tracking": {
+    "ID": "SUSE-SU-2025:03300-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2025-09-23T09:03:45Z",
+    "CurrentReleaseDate": "2025-09-23T09:03:45Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2025-09-23T09:03:45Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for vim",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for vim fixes the following issues:\n\nUpdated to 9.1.1629:\n- CVE-2025-53905: Fixed malicious tar archive may causing a path traversal in Vim’s tar.vim plugin (bsc#1246604)\n- CVE-2025-53906: Fixed malicious zip archive may causing a path traversal in Vim’s zip (bsc#1246602)\n- CVE-2025-55157: Fixed use-after-free in internal tuple reference management (bsc#1247938)\n- CVE-2025-55158: Fixed double-free in internal typed value (typval_T) management (bsc#1247939)\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest-2025-3300,Container suse/manager/5.0/x86_64/server:latest-2025-3300,Container suse/multi-linux-manager/5.1/x86_64/server:latest-2025-3300,Container suse/sle-micro/5.5/toolbox:latest-2025-3300,Container suse/sle-micro/5.5:latest-2025-3300,Image SLES15-SP5-Azure-3P-2025-3300,Image SLES15-SP5-Azure-Basic-2025-3300,Image SLES15-SP5-Azure-Standard-2025-3300,Image SLES15-SP5-BYOS-Azure-2025-3300,Image SLES15-SP5-BYOS-EC2-2025-3300,Image SLES15-SP5-BYOS-GCE-2025-3300,Image SLES15-SP5-CHOST-BYOS-Aliyun-2025-3300,Image SLES15-SP5-CHOST-BYOS-Azure-2025-3300,Image SLES15-SP5-CHOST-BYOS-EC2-2025-3300,Image SLES15-SP5-CHOST-BYOS-GCE-2025-3300,Image SLES15-SP5-CHOST-BYOS-GDC-2025-3300,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2025-3300,Image SLES15-SP5-EC2-2025-3300,Image SLES15-SP5-GCE-2025-3300,Image SLES15-SP5-HPC-Azure-2025-3300,Image SLES15-SP5-HPC-BYOS-Azure-2025-3300,Image SLES15-SP5-HPC-BYOS-EC2-2025-3300,Image SLES15-SP5-HPC-BYOS-GCE-2025-3300,Image SLES15-SP5-Hardened-BYOS-Azure-2025-3300,Image SLES15-SP5-Hardened-BYOS-EC2-2025-3300,Image SLES15-SP5-Hardened-BYOS-GCE-2025-3300,Image SLES15-SP5-Manager-Proxy-5-0-BYOS-2025-3300,Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure-2025-3300,Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2-2025-3300,Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE-2025-3300,Image SLES15-SP5-Manager-Server-5-0-2025-3300,Image SLES15-SP5-Manager-Server-5-0-Azure-llc-2025-3300,Image SLES15-SP5-Manager-Server-5-0-Azure-ltd-2025-3300,Image SLES15-SP5-Manager-Server-5-0-BYOS-2025-3300,Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure-2025-3300,Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2-2025-3300,Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE-2025-3300,Image SLES15-SP5-Manager-Server-5-0-EC2-llc-2025-3300,Image SLES15-SP5-Manager-Server-5-0-EC2-ltd-2025-3300,Image SLES15-SP5-Micro-5-5-2025-3300,Image SLES15-SP5-Micro-5-5-Azure-2025-3300,Image SLES15-SP5-Micro-5-5-BYOS-2025-3300,Image SLES15-SP5-Micro-5-5-BYOS-Azure-2025-3300,Image SLES15-SP5-Micro-5-5-BYOS-EC2-2025-3300,Image SLES15-SP5-Micro-5-5-BYOS-GCE-2025-3300,Image SLES15-SP5-Micro-5-5-EC2-2025-3300,Image SLES15-SP5-Micro-5-5-GCE-2025-3300,Image SLES15-SP5-SAP-Azure-3P-2025-3300,Image SLES15-SP5-SAP-Azure-LI-BYOS-2025-3300,Image SLES15-SP5-SAP-Azure-LI-BYOS-Production-2025-3300,Image SLES15-SP5-SAP-Azure-VLI-BYOS-2025-3300,Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production-2025-3300,Image SLES15-SP5-SAP-BYOS-Azure-2025-3300,Image SLES15-SP5-SAP-BYOS-EC2-2025-3300,Image SLES15-SP5-SAP-BYOS-GCE-2025-3300,Image SLES15-SP5-SAP-Hardened-Azure-2025-3300,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2025-3300,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2025-3300,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2025-3300,Image SLES15-SP5-SAP-Hardened-GCE-2025-3300,Image SLES15-SP5-SAPCAL-Azure-2025-3300,Image SLES15-SP5-SAPCAL-EC2-2025-3300,Image SLES15-SP5-SAPCAL-GCE-2025-3300,Image SLES15-SP6-2025-3300,Image SLES15-SP6-Azure-3P-2025-3300,Image SLES15-SP6-Azure-Basic-2025-3300,Image SLES15-SP6-Azure-Standard-2025-3300,Image SLES15-SP6-BYOS-2025-3300,Image SLES15-SP6-BYOS-Azure-2025-3300,Image SLES15-SP6-BYOS-EC2-2025-3300,Image SLES15-SP6-BYOS-GCE-2025-3300,Image SLES15-SP6-CHOST-BYOS-2025-3300,Image SLES15-SP6-CHOST-BYOS-Aliyun-2025-3300,Image SLES15-SP6-CHOST-BYOS-Azure-2025-3300,Image SLES15-SP6-CHOST-BYOS-EC2-2025-3300,Image SLES15-SP6-CHOST-BYOS-GCE-2025-3300,Image SLES15-SP6-CHOST-BYOS-GDC-2025-3300,Image SLES15-SP6-CHOST-BYOS-SAP-CCloud-2025-3300,Image SLES15-SP6-EC2-2025-3300,Image SLES15-SP6-EC2-ECS-HVM-2025-3300,Image SLES15-SP6-GCE-2025-3300,Image SLES15-SP6-HPC-2025-3300,Image SLES15-SP6-HPC-Azure-2025-3300,Image SLES15-SP6-HPC-BYOS-2025-3300,Image SLES15-SP6-HPC-BYOS-Azure-2025-3300,Image SLES15-SP6-HPC-BYOS-EC2-2025-3300,Image SLES15-SP6-HPC-BYOS-GCE-2025-3300,Image SLES15-SP6-HPC-EC2-2025-3300,Image SLES15-SP6-HPC-GCE-2025-3300,Image SLES15-SP6-Hardened-BYOS-2025-3300,Image SLES15-SP6-Hardened-BYOS-Azure-2025-3300,Image SLES15-SP6-Hardened-BYOS-EC2-2025-3300,Image SLES15-SP6-Hardened-BYOS-GCE-2025-3300,Image SLES15-SP6-SAP-2025-3300,Image SLES15-SP6-SAP-Azure-2025-3300,Image SLES15-SP6-SAP-Azure-3P-2025-3300,Image SLES15-SP6-SAP-Azure-LI-BYOS-2025-3300,Image SLES15-SP6-SAP-Azure-LI-BYOS-Production-2025-3300,Image SLES15-SP6-SAP-Azure-VLI-BYOS-2025-3300,Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production-2025-3300,Image SLES15-SP6-SAP-BYOS-2025-3300,Image SLES15-SP6-SAP-BYOS-Azure-2025-3300,Image SLES15-SP6-SAP-BYOS-EC2-2025-3300,Image SLES15-SP6-SAP-BYOS-GCE-2025-3300,Image SLES15-SP6-SAP-EC2-2025-3300,Image SLES15-SP6-SAP-GCE-2025-3300,Image SLES15-SP6-SAP-Hardened-2025-3300,Image SLES15-SP6-SAP-Hardened-Azure-2025-3300,Image SLES15-SP6-SAP-Hardened-BYOS-2025-3300,Image SLES15-SP6-SAP-Hardened-BYOS-Azure-2025-3300,Image SLES15-SP6-SAP-Hardened-BYOS-EC2-2025-3300,Image SLES15-SP6-SAP-Hardened-BYOS-GCE-2025-3300,Image SLES15-SP6-SAP-Hardened-EC2-2025-3300,Image SLES15-SP6-SAP-Hardened-GCE-2025-3300,Image SLES15-SP6-SAPCAL-2025-3300,Image SLES15-SP6-SAPCAL-Azure-2025-3300,Image SLES15-SP6-SAPCAL-EC2-2025-3300,Image SLES15-SP6-SAPCAL-GCE-2025-3300,Image SLES15-SP7-Azure-3P-2025-3300,Image SLES15-SP7-Azure-Basic-2025-3300,Image SLES15-SP7-Azure-Standard-2025-3300,Image SLES15-SP7-BYOS-Azure-2025-3300,Image SLES15-SP7-BYOS-EC2-2025-3300,Image SLES15-SP7-BYOS-GCE-2025-3300,Image SLES15-SP7-CHOST-BYOS-Aliyun-2025-3300,Image SLES15-SP7-CHOST-BYOS-Azure-2025-3300,Image SLES15-SP7-CHOST-BYOS-EC2-2025-3300,Image SLES15-SP7-CHOST-BYOS-GCE-2025-3300,Image SLES15-SP7-CHOST-BYOS-GDC-2025-3300,Image SLES15-SP7-CHOST-BYOS-SAP-CCloud-2025-3300,Image SLES15-SP7-EC2-2025-3300,Image SLES15-SP7-EC2-ECS-HVM-2025-3300,Image SLES15-SP7-GCE-2025-3300,Image SLES15-SP7-GCE-3P-2025-3300,Image SLES15-SP7-HPC-Azure-2025-3300,Image SLES15-SP7-HPC-BYOS-Azure-2025-3300,Image SLES15-SP7-HPC-BYOS-EC2-2025-3300,Image SLES15-SP7-HPC-BYOS-GCE-2025-3300,Image SLES15-SP7-Hardened-BYOS-Azure-2025-3300,Image SLES15-SP7-Hardened-BYOS-EC2-2025-3300,Image SLES15-SP7-Hardened-BYOS-GCE-2025-3300,Image SLES15-SP7-SAP-Azure-2025-3300,Image SLES15-SP7-SAP-Azure-3P-2025-3300,Image SLES15-SP7-SAP-Azure-LI-BYOS-Production-2025-3300,Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production-2025-3300,Image SLES15-SP7-SAP-BYOS-Azure-2025-3300,Image SLES15-SP7-SAP-BYOS-EC2-2025-3300,Image SLES15-SP7-SAP-BYOS-GCE-2025-3300,Image SLES15-SP7-SAP-EC2-2025-3300,Image SLES15-SP7-SAP-GCE-2025-3300,Image SLES15-SP7-SAP-GCE-3P-2025-3300,Image SLES15-SP7-SAP-Hardened-Azure-2025-3300,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2025-3300,Image SLES15-SP7-SAP-Hardened-BYOS-EC2-2025-3300,Image SLES15-SP7-SAP-Hardened-BYOS-GCE-2025-3300,Image SLES15-SP7-SAP-Hardened-GCE-2025-3300,Image SLES15-SP7-SAPCAL-Azure-2025-3300,Image SLES15-SP7-SAPCAL-EC2-2025-3300,Image SLES15-SP7-SAPCAL-GCE-2025-3300,Image server-image-2025-3300,Image server-image-sles15sp7-2025-3300,SUSE-2025-3300,SUSE-SLE-Micro-5.5-2025-3300,SUSE-SLE-Module-Basesystem-15-SP6-2025-3300,SUSE-SLE-Module-Basesystem-15-SP7-2025-3300,SUSE-SLE-Module-Desktop-Applications-15-SP6-2025-3300,SUSE-SLE-Module-Desktop-Applications-15-SP7-2025-3300,openSUSE-SLE-15.6-2025-3300",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/multi-linux-manager/5.1/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/multi-linux-manager/5.1/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5/toolbox:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Container suse/sle-micro/5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-Azure-llc",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-Azure-llc",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-EC2-llc",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-EC2-llc",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image server-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image server-image",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image server-image-sles15sp7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "Image server-image-sles15sp7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Desktop Applications 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "gvim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-data-common-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "vim-small-9.1.1629-150500.20.33.1",
+        "RelatesToProductReference": "openSUSE Leap 15.6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2025/suse-su-202503300-1/",
+      "Description": "Link for SUSE-SU-2025:03300-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2025-September/041803.html",
+      "Description": "E-Mail link for SUSE-SU-2025:03300-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1246602",
+      "Description": "SUSE Bug 1246602"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1246604",
+      "Description": "SUSE Bug 1246604"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1247938",
+      "Description": "SUSE Bug 1247938"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1247939",
+      "Description": "SUSE Bug 1247939"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-53905/",
+      "Description": "SUSE CVE CVE-2025-53905 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-53906/",
+      "Description": "SUSE CVE CVE-2025-53906 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-55157/",
+      "Description": "SUSE CVE CVE-2025-55157 page"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-55158/",
+      "Description": "SUSE CVE CVE-2025-55158 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-53905",
+      "Description": "Vim is an open source, command line text editor. Prior to version 9.1.1552, a path traversal issue in Vim's tar.vim plugin can allow overwriting of arbitrary files when opening specially crafted tar archives. Impact is low because this exploit requires direct user interaction. However, successfully exploitation can lead to overwriting sensitive files or placing executable code in privileged locations, depending on the permissions of the process editing the archive. The victim must edit such a file using Vim which will reveal the filename and the file content, a careful user may suspect some strange things going on. Successful exploitation could results in the ability to execute arbitrary commands on the underlying operating system. Version 9.1.1552 contains a patch for the vulnerability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-53905.html",
+          "Description": "CVE-2025-53905"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1246604",
+          "Description": "SUSE Bug 1246604"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP6:gvim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP7:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-common-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-small-9.1.1629-150500.20.33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2025-53906",
+      "Description": "Vim is an open source, command line text editor. Prior to version 9.1.1551, a path traversal issue in Vim's zip.vim plugin can allow overwriting of arbitrary files when opening specially crafted zip archives. Impact is low because this exploit requires direct user interaction. However, successfully exploitation can lead to overwriting sensitive files or placing executable code in privileged locations, depending on the permissions of the process editing the archive. The victim must edit such a file using Vim which will reveal the filename and the file content, a careful user may suspect some strange things going on. Successful exploitation could results in the ability to execute arbitrary commands on the underlying operating system. Version 9.1.1551 contains a patch for the vulnerability.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-53906.html",
+          "Description": "CVE-2025-53906"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1246602",
+          "Description": "SUSE Bug 1246602"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP6:gvim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP7:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-common-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-small-9.1.1629-150500.20.33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2025-55157",
+      "Description": "Vim is an open source, command line text editor. In versions from 9.1.1231 to before 9.1.1400, When processing nested tuples in Vim script, an error during evaluation can trigger a use-after-free in Vim's internal tuple reference management. Specifically, the tuple_unref() function may access already freed memory due to improper lifetime handling, leading to memory corruption. The exploit requires direct user interaction, as the script must be explicitly executed within Vim. This issue has been patched in version 9.1.1400.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-55157.html",
+          "Description": "CVE-2025-55157"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1247938",
+          "Description": "SUSE Bug 1247938"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP6:gvim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP7:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-common-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-small-9.1.1629-150500.20.33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    },
+    {
+      "CVE": "CVE-2025-55158",
+      "Description": "Vim is an open source, command line text editor. In versions from 9.1.1231 to before 9.1.1406, when processing nested tuples during Vim9 script import operations, an error during evaluation can trigger a double-free in Vim's internal typed value (typval_T) management. Specifically, the clear_tv() function may attempt to free memory that has already been deallocated, due to improper lifetime handling in the handle_import / ex_import code paths. The vulnerability can only be triggered if a user explicitly opens and executes a specially crafted Vim script. This issue has been patched in version 9.1.1406.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "moderate"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-55158.html",
+          "Description": "CVE-2025-55158"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1247939",
+          "Description": "SUSE Bug 1247939"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/hpc/warewulf4-x86_64/sle-hpc-node:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/manager/5.0/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/multi-linux-manager/5.1/x86_64/server:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5/toolbox:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-data-common-9.1.1629-150500.20.33.1",
+            "Container suse/sle-micro/5.5:latest:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Proxy-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-Azure-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-llc:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0-EC2-ltd:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Manager-Server-5-0:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-Micro-5-5:vim-small-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP5-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-CHOST-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-HPC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-LI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure-VLI-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP-Hardened:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAP:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6-SAPCAL:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Basic:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Azure-Standard:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE-3P:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-Azure:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-EC2:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-9.1.1629-150500.20.33.1",
+            "Image SLES15-SP7-SAPCAL-GCE:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-9.1.1629-150500.20.33.1",
+            "Image server-image-sles15sp7:vim-data-common-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-9.1.1629-150500.20.33.1",
+            "Image server-image:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Micro 5.5:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP6:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-data-common-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:vim-small-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP6:gvim-9.1.1629-150500.20.33.1",
+            "SUSE Linux Enterprise Module for Desktop Applications 15 SP7:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:gvim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-data-common-9.1.1629-150500.20.33.1",
+            "openSUSE Leap 15.6:vim-small-9.1.1629-150500.20.33.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

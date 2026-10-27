@@ -1,0 +1,995 @@
+{
+  "Title": "Security update for libpng16",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:1323-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-04-14T13:11:55Z",
+    "CurrentReleaseDate": "2026-04-14T13:11:55Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-04-14T13:11:55Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libpng16",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libpng16 fixes the following issues:\n\n- CVE-2026-33416: use-after-free via pointer aliasing in `png_set_tRNS` and `png_set_PLTE` can lead to arbitrary code\n  execution (bsc#1260754).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Container suse/sle-micro-rancher/5.2:latest-2026-1323,Container suse/sle-micro-rancher/5.3:latest-2026-1323,Container suse/sle-micro-rancher/5.4:latest-2026-1323,Container suse/sle-micro/base-5.5:latest-2026-1323,Image SLES15-SP4-BYOS-2026-1323,Image SLES15-SP4-BYOS-Azure-2026-1323,Image SLES15-SP4-BYOS-EC2-2026-1323,Image SLES15-SP4-BYOS-GCE-2026-1323,Image SLES15-SP4-CHOST-BYOS-2026-1323,Image SLES15-SP4-CHOST-BYOS-Aliyun-2026-1323,Image SLES15-SP4-CHOST-BYOS-Azure-2026-1323,Image SLES15-SP4-CHOST-BYOS-EC2-2026-1323,Image SLES15-SP4-CHOST-BYOS-GCE-2026-1323,Image SLES15-SP4-CHOST-BYOS-SAP-CCloud-2026-1323,Image SLES15-SP4-HPC-BYOS-2026-1323,Image SLES15-SP4-HPC-BYOS-Azure-2026-1323,Image SLES15-SP4-HPC-BYOS-EC2-2026-1323,Image SLES15-SP4-HPC-BYOS-GCE-2026-1323,Image SLES15-SP4-HPC-EC2-2026-1323,Image SLES15-SP4-HPC-GCE-2026-1323,Image SLES15-SP4-Hardened-BYOS-2026-1323,Image SLES15-SP4-Hardened-BYOS-Azure-2026-1323,Image SLES15-SP4-Hardened-BYOS-EC2-2026-1323,Image SLES15-SP4-Hardened-BYOS-GCE-2026-1323,Image SLES15-SP4-Micro-5-3-BYOS-2026-1323,Image SLES15-SP4-Micro-5-3-BYOS-Azure-2026-1323,Image SLES15-SP4-Micro-5-4-BYOS-2026-1323,Image SLES15-SP4-Micro-5-4-BYOS-Azure-2026-1323,Image SLES15-SP4-SAP-2026-1323,Image SLES15-SP4-SAP-Azure-2026-1323,Image SLES15-SP4-SAP-Azure-LI-BYOS-2026-1323,Image SLES15-SP4-SAP-Azure-LI-BYOS-Production-2026-1323,Image SLES15-SP4-SAP-Azure-VLI-BYOS-2026-1323,Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production-2026-1323,Image SLES15-SP4-SAP-BYOS-2026-1323,Image SLES15-SP4-SAP-BYOS-Azure-2026-1323,Image SLES15-SP4-SAP-BYOS-EC2-2026-1323,Image SLES15-SP4-SAP-BYOS-GCE-2026-1323,Image SLES15-SP4-SAP-EC2-2026-1323,Image SLES15-SP4-SAP-GCE-2026-1323,Image SLES15-SP4-SAP-Hardened-2026-1323,Image SLES15-SP4-SAP-Hardened-Azure-2026-1323,Image SLES15-SP4-SAP-Hardened-BYOS-2026-1323,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-1323,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2026-1323,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2026-1323,Image SLES15-SP4-SAP-Hardened-GCE-2026-1323,Image SLES15-SP4-SAPCAL-2026-1323,Image SLES15-SP4-SAPCAL-Azure-2026-1323,Image SLES15-SP4-SAPCAL-EC2-2026-1323,Image SLES15-SP4-SAPCAL-GCE-2026-1323,Image SLES15-SP5-Azure-3P-2026-1323,Image SLES15-SP5-Azure-Basic-2026-1323,Image SLES15-SP5-Azure-Standard-2026-1323,Image SLES15-SP5-BYOS-Azure-2026-1323,Image SLES15-SP5-BYOS-EC2-2026-1323,Image SLES15-SP5-BYOS-GCE-2026-1323,Image SLES15-SP5-CHOST-BYOS-Aliyun-2026-1323,Image SLES15-SP5-CHOST-BYOS-Azure-2026-1323,Image SLES15-SP5-CHOST-BYOS-EC2-2026-1323,Image SLES15-SP5-CHOST-BYOS-GCE-2026-1323,Image SLES15-SP5-CHOST-BYOS-GDC-2026-1323,Image SLES15-SP5-CHOST-BYOS-SAP-CCloud-2026-1323,Image SLES15-SP5-EC2-2026-1323,Image SLES15-SP5-GCE-2026-1323,Image SLES15-SP5-HPC-Azure-2026-1323,Image SLES15-SP5-HPC-BYOS-Azure-2026-1323,Image SLES15-SP5-HPC-BYOS-EC2-2026-1323,Image SLES15-SP5-HPC-BYOS-GCE-2026-1323,Image SLES15-SP5-Hardened-BYOS-Azure-2026-1323,Image SLES15-SP5-Hardened-BYOS-EC2-2026-1323,Image SLES15-SP5-Hardened-BYOS-GCE-2026-1323,Image SLES15-SP5-Micro-5-5-2026-1323,Image SLES15-SP5-Micro-5-5-Azure-2026-1323,Image SLES15-SP5-Micro-5-5-BYOS-2026-1323,Image SLES15-SP5-Micro-5-5-BYOS-Azure-2026-1323,Image SLES15-SP5-Micro-5-5-BYOS-EC2-2026-1323,Image SLES15-SP5-Micro-5-5-BYOS-GCE-2026-1323,Image SLES15-SP5-Micro-5-5-EC2-2026-1323,Image SLES15-SP5-Micro-5-5-GCE-2026-1323,Image SLES15-SP5-SAP-Azure-3P-2026-1323,Image SLES15-SP5-SAP-BYOS-Azure-2026-1323,Image SLES15-SP5-SAP-BYOS-EC2-2026-1323,Image SLES15-SP5-SAP-BYOS-GCE-2026-1323,Image SLES15-SP5-SAP-Hardened-Azure-2026-1323,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2026-1323,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2026-1323,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2026-1323,Image SLES15-SP5-SAP-Hardened-GCE-2026-1323,Image SLES15-SP5-SAPCAL-Azure-2026-1323,Image SLES15-SP5-SAPCAL-EC2-2026-1323,Image SLES15-SP5-SAPCAL-GCE-2026-1323,SUSE-2026-1323,SUSE-SLE-Micro-5.3-2026-1323,SUSE-SLE-Micro-5.4-2026-1323,SUSE-SLE-Micro-5.5-2026-1323,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2026-1323,SUSE-SLE-Product-HPC-15-SP4-LTSS-2026-1323,SUSE-SLE-Product-HPC-15-SP5-ESPOS-2026-1323,SUSE-SLE-Product-HPC-15-SP5-LTSS-2026-1323,SUSE-SLE-Product-SLES-15-SP4-LTSS-2026-1323,SUSE-SLE-Product-SLES-15-SP5-LTSS-2026-1323,SUSE-SLE-Product-SLES_SAP-15-SP4-2026-1323,SUSE-SLE-Product-SLES_SAP-15-SP5-2026-1323,SUSE-SUSE-MicroOS-5.2-2026-1323",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.2:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.3:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro-rancher/5.4:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Container suse/sle-micro/base-5.5:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-HPC-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-3-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-Micro-5-4-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-Micro-5-5-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.3",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Micro 5.5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-16-32bit-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-compat-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpng16-devel-1.6.34-150000.3.22.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20261323-1/",
+      "Description": "Link for SUSE-SU-2026:1323-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-April/045524.html",
+      "Description": "E-Mail link for SUSE-SU-2026:1323-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1260754",
+      "Description": "SUSE Bug 1260754"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-33416/",
+      "Description": "SUSE CVE CVE-2026-33416 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-33416",
+      "Description": "LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. In versions 1.2.1 through 1.6.55, `png_set_tRNS` and `png_set_PLTE` each alias a heap-allocated buffer between `png_struct` and `png_info`, sharing a single allocation across two structs with independent lifetimes. The `trans_alpha` aliasing has been present since at least libpng 1.0, and the `palette` aliasing since at least 1.2.1. Both affect all prior release lines `png_set_tRNS` sets `png_ptr-\u003etrans_alpha = info_ptr-\u003etrans_alpha` (256-byte buffer) and `png_set_PLTE` sets `info_ptr-\u003epalette = png_ptr-\u003epalette` (768-byte buffer). In both cases, calling `png_free_data` (with `PNG_FREE_TRNS` or `PNG_FREE_PLTE`) frees the buffer through `info_ptr` while the corresponding `png_ptr` pointer remains dangling. Subsequent row-transform functions dereference and, in some code paths, write to the freed memory. A second call to `png_set_tRNS` or `png_set_PLTE` has the same effect, because both functions call `png_free_data` internally before reallocating the `info_ptr` buffer. Version 1.6.56 fixes the issue.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-33416.html",
+          "Description": "CVE-2026-33416"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1260754",
+          "Description": "SUSE Bug 1260754"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Container suse/sle-micro-rancher/5.2:latest:libpng16-16-1.6.34-150000.3.22.1",
+            "Container suse/sle-micro-rancher/5.3:latest:libpng16-16-1.6.34-150000.3.22.1",
+            "Container suse/sle-micro-rancher/5.4:latest:libpng16-16-1.6.34-150000.3.22.1",
+            "Container suse/sle-micro/base-5.5:latest:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-Aliyun:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-CHOST-BYOS-SAP-CCloud:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-CHOST-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-HPC-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-HPC-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-HPC-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-HPC-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-HPC-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-HPC-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Hardened-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Hardened-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Hardened-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Hardened-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Micro-5-3-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-Micro-5-4-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS-Production:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Azure-LI-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS-Production:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Azure-VLI-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Azure:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Azure:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-EC2:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-EC2:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-GCE:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-GCE:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP-Hardened:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAP:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-Azure:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-Azure:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-EC2:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-GCE:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL-GCE:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP4-SAPCAL:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Azure-3P:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Azure-Basic:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Azure-Standard:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-Aliyun:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-GDC:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-CHOST-BYOS-SAP-CCloud:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-HPC-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-HPC-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Hardened-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5-BYOS:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-Micro-5-5:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-Azure-3P:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-EC2:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-EC2:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-EC2:libpng16-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libpng16-16-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Micro 5.2:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Micro 5.3:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Micro 5.4:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Micro 5.5:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:libpng16-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libpng16-16-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libpng16-16-32bit-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libpng16-compat-devel-1.6.34-150000.3.22.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:libpng16-devel-1.6.34-150000.3.22.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

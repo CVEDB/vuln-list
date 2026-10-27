@@ -132,7 +132,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "critical"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -147,6 +147,10 @@
         {
           "URL": "https://bugzilla.suse.com/1031023",
           "Description": "SUSE Bug 1031023"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1072727",
+          "Description": "SUSE Bug 1072727"
         },
         {
           "URL": "https://bugzilla.suse.com/901223",
@@ -211,6 +215,10 @@
         {
           "URL": "https://bugzilla.suse.com/914041",
           "Description": "SUSE Bug 914041"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/957084",
+          "Description": "SUSE Bug 957084"
         },
         {
           "URL": "https://bugzilla.suse.com/994144",

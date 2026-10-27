@@ -31,13 +31,113 @@
       "Type": "Legal Disclaimer"
     },
     {
-      "Text": "SUSE-2025-2684,SUSE-SLE-Module-Basesystem-15-SP6-2025-2684,SUSE-SLE-Module-Packagehub-Subpackages-15-SP6-2025-2684,SUSE-SLE-Module-Server-Applications-15-SP6-2025-2684,openSUSE-SLE-15.6-2025-2684",
+      "Text": "Container suse/manager/5.0/x86_64/proxy-httpd:latest-2025-2684,Container suse/manager/5.0/x86_64/server:latest-2025-2684,Image SLES15-SP6-SAP-2025-2684,Image SLES15-SP6-SAP-Azure-2025-2684,Image SLES15-SP6-SAP-EC2-2025-2684,Image SLES15-SP6-SAP-GCE-2025-2684,Image SLES15-SP6-SAPCAL-2025-2684,Image SLES15-SP6-SAPCAL-Azure-2025-2684,Image SLES15-SP6-SAPCAL-EC2-2025-2684,Image SLES15-SP6-SAPCAL-GCE-2025-2684,SUSE-2025-2684,SUSE-SLE-Module-Basesystem-15-SP6-2025-2684,SUSE-SLE-Module-Packagehub-Subpackages-15-SP6-2025-2684,SUSE-SLE-Module-Server-Applications-15-SP6-2025-2684,openSUSE-SLE-15.6-2025-2684",
       "Title": "Patchnames",
       "Type": "Details"
     }
   ],
   "ProductTree": {
     "Relationships": [
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/proxy-httpd:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Container suse/manager/5.0/x86_64/server:latest",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "apache2-prefork-2.4.58-150600.5.35.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
       {
         "ProductReference": "apache2-2.4.58-150600.5.35.1",
         "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP6",
@@ -197,12 +297,36 @@
         {
           "URL": "https://bugzilla.suse.com/1246477",
           "Description": "SUSE Bug 1246477"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261312",
+          "Description": "SUSE Bug 1261312"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:apache2-event-2.4.58-150600.5.35.1",
@@ -238,12 +362,36 @@
         {
           "URL": "https://bugzilla.suse.com/1246305",
           "Description": "SUSE Bug 1246305"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261312",
+          "Description": "SUSE Bug 1261312"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:apache2-event-2.4.58-150600.5.35.1",
@@ -279,12 +427,36 @@
         {
           "URL": "https://bugzilla.suse.com/1246303",
           "Description": "SUSE Bug 1246303"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261312",
+          "Description": "SUSE Bug 1261312"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:apache2-event-2.4.58-150600.5.35.1",
@@ -320,12 +492,36 @@
         {
           "URL": "https://bugzilla.suse.com/1246302",
           "Description": "SUSE Bug 1246302"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261312",
+          "Description": "SUSE Bug 1261312"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:apache2-event-2.4.58-150600.5.35.1",
@@ -361,12 +557,36 @@
         {
           "URL": "https://bugzilla.suse.com/1246307",
           "Description": "SUSE Bug 1246307"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261312",
+          "Description": "SUSE Bug 1261312"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:apache2-event-2.4.58-150600.5.35.1",
@@ -402,12 +622,36 @@
         {
           "URL": "https://bugzilla.suse.com/1246161",
           "Description": "SUSE Bug 1246161"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261312",
+          "Description": "SUSE Bug 1261312"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:apache2-event-2.4.58-150600.5.35.1",
@@ -443,12 +687,36 @@
         {
           "URL": "https://bugzilla.suse.com/1246306",
           "Description": "SUSE Bug 1246306"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1261312",
+          "Description": "SUSE Bug 1261312"
         }
       ],
       "ProductStatuses": [
         {
           "Type": "Fixed",
           "ProductID": [
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/proxy-httpd:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-2.4.58-150600.5.35.1",
+            "Container suse/manager/5.0/x86_64/server:latest:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAP:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-Azure:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-EC2:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL-GCE:apache2-prefork-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-2.4.58-150600.5.35.1",
+            "Image SLES15-SP6-SAPCAL:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Basesystem 15 SP6:apache2-prefork-2.4.58-150600.5.35.1",
             "SUSE Linux Enterprise Module for Package Hub 15 SP6:apache2-event-2.4.58-150600.5.35.1",

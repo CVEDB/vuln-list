@@ -746,7 +746,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -922,7 +922,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -933,6 +933,10 @@
         {
           "URL": "https://bugzilla.suse.com/1072865",
           "Description": "SUSE Bug 1072865"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1074488",
+          "Description": "SUSE Bug 1074488"
         },
         {
           "URL": "https://bugzilla.suse.com/1085447",
@@ -1106,7 +1110,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1370,7 +1374,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1458,7 +1462,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1649,6 +1653,10 @@
         {
           "URL": "https://bugzilla.suse.com/1074578",
           "Description": "SUSE Bug 1074578"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1074697",
+          "Description": "SUSE Bug 1074697"
         },
         {
           "URL": "https://bugzilla.suse.com/1074701",
@@ -1910,7 +1918,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "low"
         }
       ],
       "References": [
@@ -1994,7 +2002,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -2086,7 +2094,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": [

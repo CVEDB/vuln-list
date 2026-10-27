@@ -1,0 +1,359 @@
+{
+  "Title": "Security update for libpcap",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:0063-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-01-08T09:36:26Z",
+    "CurrentReleaseDate": "2026-01-08T09:36:26Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-01-08T09:36:26Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for libpcap",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for libpcap fixes the following issues:\n\n- CVE-2025-11961: missing validation of provided MAC-48 address string in `pcap_ether_aton()` can lead to out-of-bounds\n  read and write (bsc#1255765).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES15-SP7-Azure-3P-2026-63,Image SLES15-SP7-Azure-Basic-2026-63,Image SLES15-SP7-Azure-Standard-2026-63,Image SLES15-SP7-BYOS-Azure-2026-63,Image SLES15-SP7-BYOS-EC2-2026-63,Image SLES15-SP7-BYOS-GCE-2026-63,Image SLES15-SP7-CHOST-BYOS-Aliyun-2026-63,Image SLES15-SP7-CHOST-BYOS-Azure-2026-63,Image SLES15-SP7-CHOST-BYOS-EC2-2026-63,Image SLES15-SP7-CHOST-BYOS-GCE-2026-63,Image SLES15-SP7-CHOST-BYOS-GDC-2026-63,Image SLES15-SP7-CHOST-BYOS-SAP-CCloud-2026-63,Image SLES15-SP7-EC2-2026-63,Image SLES15-SP7-EC2-ECS-HVM-2026-63,Image SLES15-SP7-GCE-2026-63,Image SLES15-SP7-GCE-3P-2026-63,Image SLES15-SP7-HPC-Azure-2026-63,Image SLES15-SP7-HPC-BYOS-Azure-2026-63,Image SLES15-SP7-HPC-BYOS-EC2-2026-63,Image SLES15-SP7-HPC-BYOS-GCE-2026-63,Image SLES15-SP7-Hardened-BYOS-Azure-2026-63,Image SLES15-SP7-Hardened-BYOS-EC2-2026-63,Image SLES15-SP7-Hardened-BYOS-GCE-2026-63,Image SLES15-SP7-SAP-Azure-2026-63,Image SLES15-SP7-SAP-Azure-3P-2026-63,Image SLES15-SP7-SAP-Azure-LI-BYOS-Production-2026-63,Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production-2026-63,Image SLES15-SP7-SAP-BYOS-Azure-2026-63,Image SLES15-SP7-SAP-BYOS-EC2-2026-63,Image SLES15-SP7-SAP-BYOS-GCE-2026-63,Image SLES15-SP7-SAP-EC2-2026-63,Image SLES15-SP7-SAP-GCE-2026-63,Image SLES15-SP7-SAP-GCE-3P-2026-63,Image SLES15-SP7-SAP-Hardened-Azure-2026-63,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2026-63,Image SLES15-SP7-SAP-Hardened-BYOS-EC2-2026-63,Image SLES15-SP7-SAP-Hardened-BYOS-GCE-2026-63,Image SLES15-SP7-SAP-Hardened-GCE-2026-63,Image SLES15-SP7-SAPCAL-Azure-2026-63,Image SLES15-SP7-SAPCAL-EC2-2026-63,Image SLES15-SP7-SAPCAL-GCE-2026-63,SUSE-2026-63,SUSE-SLE-Module-Basesystem-15-SP7-2026-63,SUSE-SLE-Module-Packagehub-Subpackages-15-SP7-2026-63",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Basic",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Azure-Standard",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Aliyun",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-GDC",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-EC2-ECS-HVM",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-HPC-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAPCAL-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap-devel-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libpcap1-32bit-1.10.5-150700.3.7.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Package Hub 15 SP7",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20260063-1/",
+      "Description": "Link for SUSE-SU-2026:0063-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-security-updates/2026-January/023702.html",
+      "Description": "E-Mail link for SUSE-SU-2026:0063-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1255765",
+      "Description": "SUSE Bug 1255765"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2025-11961/",
+      "Description": "SUSE CVE CVE-2025-11961 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-11961",
+      "Description": "pcap_ether_aton() is an auxiliary function in libpcap, it takes a string argument and returns a fixed-size allocated buffer.  The string argument must be a well-formed MAC-48 address in one of the supported formats, but this requirement has been poorly documented.  If an application calls the function with an argument that deviates from the expected format, the function can read data beyond the end of the provided string and write data beyond the end of the allocated buffer.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "low"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2025-11961.html",
+          "Description": "CVE-2025-11961"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1255765",
+          "Description": "SUSE Bug 1255765"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP7-Azure-3P:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-Azure-Basic:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-Azure-Standard:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-BYOS-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-BYOS-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-BYOS-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-CHOST-BYOS-Aliyun:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-CHOST-BYOS-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-CHOST-BYOS-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-CHOST-BYOS-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-CHOST-BYOS-GDC:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-CHOST-BYOS-SAP-CCloud:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-EC2-ECS-HVM:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-GCE-3P:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-HPC-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-HPC-BYOS-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-HPC-BYOS-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-HPC-BYOS-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-Hardened-BYOS-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-Hardened-BYOS-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-Hardened-BYOS-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Azure-3P:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Azure-LI-BYOS-Production:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Azure-VLI-BYOS-Production:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-GCE-3P:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAPCAL-Azure:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAPCAL-EC2:libpcap1-1.10.5-150700.3.7.1",
+            "Image SLES15-SP7-SAPCAL-GCE:libpcap1-1.10.5-150700.3.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libpcap-devel-1.10.5-150700.3.7.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:libpcap1-1.10.5-150700.3.7.1",
+            "SUSE Linux Enterprise Module for Package Hub 15 SP7:libpcap1-32bit-1.10.5-150700.3.7.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

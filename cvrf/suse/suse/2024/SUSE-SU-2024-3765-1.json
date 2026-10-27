@@ -784,6 +784,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "libopenssl1_1-1.1.1l-150500.17.37.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-Azure",
         "RelationType": "Default Component Of"
@@ -799,6 +804,11 @@
         "RelationType": "Default Component Of"
       },
       {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
         "ProductReference": "libopenssl1_1-1.1.1l-150500.17.37.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
         "RelationType": "Default Component Of"
@@ -811,6 +821,11 @@
       {
         "ProductReference": "openssl-1_1-1.1.1l-150500.17.37.1",
         "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "libopenssl-1_1-devel-1.1.1l-150500.17.37.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAPCAL-GCE",
         "RelationType": "Default Component Of"
       },
       {
@@ -1135,12 +1150,15 @@
             "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:openssl-1_1-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:libopenssl1_1-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAP-Hardened-GCE:openssl-1_1-1.1.1l-150500.17.37.1",
+            "Image SLES15-SP5-SAPCAL-Azure:libopenssl-1_1-devel-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-Azure:libopenssl1_1-32bit-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-Azure:openssl-1_1-1.1.1l-150500.17.37.1",
+            "Image SLES15-SP5-SAPCAL-EC2:libopenssl-1_1-devel-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl1_1-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-EC2:libopenssl1_1-32bit-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-EC2:openssl-1_1-1.1.1l-150500.17.37.1",
+            "Image SLES15-SP5-SAPCAL-GCE:libopenssl-1_1-devel-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-GCE:libopenssl1_1-32bit-1.1.1l-150500.17.37.1",
             "Image SLES15-SP5-SAPCAL-GCE:openssl-1_1-1.1.1l-150500.17.37.1",

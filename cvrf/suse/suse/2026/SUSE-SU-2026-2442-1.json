@@ -1,0 +1,431 @@
+{
+  "Title": "Security update for perl-HTTP-Daemon",
+  "Tracking": {
+    "ID": "SUSE-SU-2026:2442-1",
+    "Status": "Final",
+    "Version": "1",
+    "InitialReleaseDate": "2026-06-18T07:24:12Z",
+    "CurrentReleaseDate": "2026-06-18T07:24:12Z",
+    "RevisionHistory": [
+      {
+        "Number": "1",
+        "Date": "2026-06-18T07:24:12Z",
+        "Description": "current"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "Security update for perl-HTTP-Daemon",
+      "Title": "Topic",
+      "Type": "Summary"
+    },
+    {
+      "Text": "This update for perl-HTTP-Daemon fixes the following issues:\n\n- CVE-2026-8450: Fixed OS command injection via send_file() (bsc#1266370).\n",
+      "Title": "Details",
+      "Type": "General"
+    },
+    {
+      "Text": "The CVRF data is provided by SUSE under the Creative Commons License 4.0 with Attribution (CC-BY-4.0).",
+      "Title": "Terms of Use",
+      "Type": "Legal Disclaimer"
+    },
+    {
+      "Text": "Image SLES15-SP4-SAP-BYOS-2026-2442,Image SLES15-SP4-SAP-BYOS-Azure-2026-2442,Image SLES15-SP4-SAP-BYOS-EC2-2026-2442,Image SLES15-SP4-SAP-BYOS-GCE-2026-2442,Image SLES15-SP4-SAP-Hardened-2026-2442,Image SLES15-SP4-SAP-Hardened-Azure-2026-2442,Image SLES15-SP4-SAP-Hardened-BYOS-2026-2442,Image SLES15-SP4-SAP-Hardened-BYOS-Azure-2026-2442,Image SLES15-SP4-SAP-Hardened-BYOS-EC2-2026-2442,Image SLES15-SP4-SAP-Hardened-BYOS-GCE-2026-2442,Image SLES15-SP4-SAP-Hardened-GCE-2026-2442,Image SLES15-SP5-SAP-Azure-3P-2026-2442,Image SLES15-SP5-SAP-BYOS-Azure-2026-2442,Image SLES15-SP5-SAP-BYOS-EC2-2026-2442,Image SLES15-SP5-SAP-BYOS-GCE-2026-2442,Image SLES15-SP5-SAP-Hardened-Azure-2026-2442,Image SLES15-SP5-SAP-Hardened-BYOS-Azure-2026-2442,Image SLES15-SP5-SAP-Hardened-BYOS-EC2-2026-2442,Image SLES15-SP5-SAP-Hardened-BYOS-GCE-2026-2442,Image SLES15-SP5-SAP-Hardened-GCE-2026-2442,Image SLES15-SP6-SAP-Azure-3P-2026-2442,Image SLES15-SP6-SAP-BYOS-2026-2442,Image SLES15-SP6-SAP-BYOS-Azure-2026-2442,Image SLES15-SP6-SAP-BYOS-EC2-2026-2442,Image SLES15-SP6-SAP-BYOS-GCE-2026-2442,Image SLES15-SP6-SAP-Hardened-2026-2442,Image SLES15-SP6-SAP-Hardened-Azure-2026-2442,Image SLES15-SP6-SAP-Hardened-BYOS-2026-2442,Image SLES15-SP6-SAP-Hardened-BYOS-Azure-2026-2442,Image SLES15-SP6-SAP-Hardened-BYOS-EC2-2026-2442,Image SLES15-SP6-SAP-Hardened-BYOS-GCE-2026-2442,Image SLES15-SP6-SAP-Hardened-EC2-2026-2442,Image SLES15-SP6-SAP-Hardened-GCE-2026-2442,Image SLES15-SP7-SAP-Azure-2026-2442,Image SLES15-SP7-SAP-Azure-3P-2026-2442,Image SLES15-SP7-SAP-BYOS-Azure-2026-2442,Image SLES15-SP7-SAP-BYOS-EC2-2026-2442,Image SLES15-SP7-SAP-BYOS-GCE-2026-2442,Image SLES15-SP7-SAP-EC2-2026-2442,Image SLES15-SP7-SAP-GCE-2026-2442,Image SLES15-SP7-SAP-Hardened-Azure-2026-2442,Image SLES15-SP7-SAP-Hardened-BYOS-Azure-2026-2442,Image SLES15-SP7-SAP-Hardened-BYOS-EC2-2026-2442,Image SLES15-SP7-SAP-Hardened-BYOS-GCE-2026-2442,Image SLES15-SP7-SAP-Hardened-GCE-2026-2442,SUSE-2026-2442,SUSE-SLE-Module-Basesystem-15-SP7-2026-2442,SUSE-SLE-Product-HPC-15-SP4-ESPOS-2026-2442,SUSE-SLE-Product-HPC-15-SP4-LTSS-2026-2442,SUSE-SLE-Product-HPC-15-SP5-ESPOS-2026-2442,SUSE-SLE-Product-HPC-15-SP5-LTSS-2026-2442,SUSE-SLE-Product-SLES-15-SP4-LTSS-2026-2442,SUSE-SLE-Product-SLES-15-SP5-LTSS-2026-2442,SUSE-SLE-Product-SLES-15-SP6-LTSS-2026-2442,SUSE-SLE-Product-SLES_SAP-15-SP4-2026-2442,SUSE-SLE-Product-SLES_SAP-15-SP5-2026-2442,SUSE-SLE-Product-SLES_SAP-15-SP6-2026-2442",
+      "Title": "Patchnames",
+      "Type": "Details"
+    }
+  ],
+  "ProductTree": {
+    "Relationships": [
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP4-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP5-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP6-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Azure-3P",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-Azure",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-EC2",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-BYOS-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "Image SLES15-SP7-SAP-Hardened-GCE",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Module for Basesystem 15 SP7",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP4-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP5-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server 15 SP6-LTSS",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP4",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP5",
+        "RelationType": "Default Component Of"
+      },
+      {
+        "ProductReference": "perl-HTTP-Daemon-6.01-150000.3.8.1",
+        "RelatesToProductReference": "SUSE Linux Enterprise Server for SAP Applications 15 SP6",
+        "RelationType": "Default Component Of"
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.suse.com/support/update/announcement/2026/suse-su-20262442-1/",
+      "Description": "Link for SUSE-SU-2026:2442-1"
+    },
+    {
+      "URL": "https://lists.suse.com/pipermail/sle-updates/2026-June/047415.html",
+      "Description": "E-Mail link for SUSE-SU-2026:2442-1"
+    },
+    {
+      "URL": "https://www.suse.com/support/security/rating/",
+      "Description": "SUSE Security Ratings"
+    },
+    {
+      "URL": "https://bugzilla.suse.com/1266370",
+      "Description": "SUSE Bug 1266370"
+    },
+    {
+      "URL": "https://www.suse.com/security/cve/CVE-2026-8450/",
+      "Description": "SUSE CVE CVE-2026-8450 page"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-8450",
+      "Description": "HTTP::Daemon versions before 6.17 for Perl allow OS command injection via send_file().\n\nsend_file() opens its string argument with Perl's 2-arg open(). The 2-arg form interprets magic prefixes: '| cmd' and 'cmd |' open a pipe to a subprocess, '\u003e path' and '\u003e\u003e path' open the path for write or append.\n\nUntrusted input passed to send_file() can run OS commands at the daemon process UID. The read-pipe form ('cmd |') also leaks subprocess stdout into the HTTP response body. The write-mode forms can create or truncate files at attacker chosen paths.",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "important"
+        }
+      ],
+      "References": [
+        {
+          "URL": "https://www.suse.com/security/cve/CVE-2026-8450.html",
+          "Description": "CVE-2026-8450"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1266370",
+          "Description": "SUSE Bug 1266370"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "Image SLES15-SP4-SAP-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-BYOS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-BYOS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP4-SAP-Hardened:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Azure-3P:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP5-SAP-Hardened-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Azure-3P:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-BYOS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-BYOS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP6-SAP-Hardened:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Azure-3P:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-Azure:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-EC2:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-BYOS-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "Image SLES15-SP7-SAP-Hardened-GCE:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-ESPOS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP4-LTSS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-ESPOS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise High Performance Computing 15 SP5-LTSS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise Module for Basesystem 15 SP7:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise Server 15 SP4-LTSS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise Server 15 SP5-LTSS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise Server 15 SP6-LTSS:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP4:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP5:perl-HTTP-Daemon-6.01-150000.3.8.1",
+            "SUSE Linux Enterprise Server for SAP Applications 15 SP6:perl-HTTP-Daemon-6.01-150000.3.8.1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {}
+    }
+  ]
+}

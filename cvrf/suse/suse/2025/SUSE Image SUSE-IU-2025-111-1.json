@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2025-09-16T15:40:48Z",
+        "Date": "2026-10-25T17:40:57Z",
         "Description": "current"
       }
     ]
@@ -1017,7 +1017,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1037,7 +1037,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1306,7 +1306,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1586,7 +1586,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -1686,7 +1686,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -2382,7 +2382,7 @@
     },
     {
       "CVE": "CVE-2022-48843",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vrr: Set VRR capable prop only if it is attached to connector\n\nVRR capable property is not attached by default to the connector\nIt is attached only if VRR is supported.\nSo if the driver tries to call drm core set prop function without\nit being attached that causes NULL dereference.",
+      "Description": "This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "Threats": [
         {
           "Type": "Impact",
@@ -2686,7 +2686,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -2706,7 +2706,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -2926,7 +2926,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -2966,7 +2966,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3006,7 +3006,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3026,7 +3026,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3206,7 +3206,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3546,7 +3546,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3706,7 +3706,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3726,7 +3726,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3746,7 +3746,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3766,7 +3766,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3786,7 +3786,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -3806,7 +3806,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4006,7 +4006,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4026,7 +4026,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4046,7 +4046,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4086,7 +4086,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "not set"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4106,7 +4106,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4126,7 +4126,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4146,7 +4146,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4166,7 +4166,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4186,7 +4186,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4326,7 +4326,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4346,7 +4346,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4446,7 +4446,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4486,7 +4486,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -4852,7 +4852,7 @@
     },
     {
       "CVE": "CVE-2023-47108",
-      "Description": "OpenTelemetry-Go Contrib is a collection of third-party packages for OpenTelemetry-Go. Prior to version 0.46.0, the grpc Unary Server Interceptor out of the box adds labels `net.peer.sock.addr` and `net.peer.sock.port` that have unbound cardinality. It leads to the server's potential memory exhaustion when many malicious requests are sent. An attacker can easily flood the peer address and port for requests. Version 0.46.0 contains a fix for this issue. As a workaround to stop being affected, a view removing the attributes can be used. The other possibility is to disable grpc metrics instrumentation by passing `otelgrpc.WithMeterProvider` option with `noop.NewMeterProvider`.",
+      "Description": "OpenTelemetry-Go Contrib is a collection of third-party packages for OpenTelemetry-Go. Starting in version 0.37.0 and prior to version 0.46.0, the grpc Unary Server Interceptor out of the box adds labels `net.peer.sock.addr` and `net.peer.sock.port` that have unbound cardinality. It leads to the server's potential memory exhaustion when many malicious requests are sent. An attacker can easily flood the peer address and port for requests. Version 0.46.0 contains a fix for this issue. As a workaround to stop being affected, a view removing the attributes can be used. The other possibility is to disable grpc metrics instrumentation by passing `otelgrpc.WithMeterProvider` option with `noop.NewMeterProvider`.",
       "Threats": [
         {
           "Type": "Impact",
@@ -5841,7 +5841,7 @@
     },
     {
       "CVE": "CVE-2024-27267",
-      "Description": "The Object Request Broker (ORB) in IBM SDK, Java Technology Edition 7.1.0.0 through 7.1.5.18 and 8.0.0.0 through 8.0.8.26 is vulnerable to remote denial of service, caused by a race condition in the management of ORB listener threads.  IBM X-Force ID:  284573.",
+      "Description": "The Object Request Broker (ORB) in IBM SDK, Java Technology Edition 7.1.0.0 through 7.1.5.18 and 8.0.0.0 through 8.0.8.26 is vulnerable to remote denial of service, caused by a race condition in the management of ORB listener threads.",
       "Threats": [
         {
           "Type": "Impact",
@@ -6922,7 +6922,7 @@
     },
     {
       "CVE": "CVE-2024-45003",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfs: Don't evict inode under the inode lru traversing context\n\nThe inode reclaiming process(See function prune_icache_sb) collects all\nreclaimable inodes and mark them with I_FREEING flag at first, at that\ntime, other processes will be stuck if they try getting these inodes\n(See function find_inode_fast), then the reclaiming process destroy the\ninodes by function dispose_list(). Some filesystems(eg. ext4 with\nea_inode feature, ubifs with xattr) may do inode lookup in the inode\nevicting callback function, if the inode lookup is operated under the\ninode lru traversing context, deadlock problems may happen.\n\nCase 1: In function ext4_evict_inode(), the ea inode lookup could happen\n        if ea_inode feature is enabled, the lookup process will be stuck\n\tunder the evicting context like this:\n\n 1. File A has inode i_reg and an ea inode i_ea\n 2. getfattr(A, xattr_buf) // i_ea is added into lru // lru-\u003ei_ea\n 3. Then, following three processes running like this:\n\n    PA                              PB\n echo 2 \u003e /proc/sys/vm/drop_caches\n  shrink_slab\n   prune_dcache_sb\n   // i_reg is added into lru, lru-\u003ei_ea-\u003ei_reg\n   prune_icache_sb\n    list_lru_walk_one\n     inode_lru_isolate\n      i_ea-\u003ei_state |= I_FREEING // set inode state\n     inode_lru_isolate\n      __iget(i_reg)\n      spin_unlock(\u0026i_reg-\u003ei_lock)\n      spin_unlock(lru_lock)\n                                     rm file A\n                                      i_reg-\u003enlink = 0\n      iput(i_reg) // i_reg-\u003enlink is 0, do evict\n       ext4_evict_inode\n        ext4_xattr_delete_inode\n         ext4_xattr_inode_dec_ref_all\n          ext4_xattr_inode_iget\n           ext4_iget(i_ea-\u003ei_ino)\n            iget_locked\n             find_inode_fast\n              __wait_on_freeing_inode(i_ea) ----→ AA deadlock\n    dispose_list // cannot be executed by prune_icache_sb\n     wake_up_bit(\u0026i_ea-\u003ei_state)\n\nCase 2: In deleted inode writing function ubifs_jnl_write_inode(), file\n        deleting process holds BASEHD's wbuf-\u003eio_mutex while getting the\n\txattr inode, which could race with inode reclaiming process(The\n        reclaiming process could try locking BASEHD's wbuf-\u003eio_mutex in\n\tinode evicting function), then an ABBA deadlock problem would\n\thappen as following:\n\n 1. File A has inode ia and a xattr(with inode ixa), regular file B has\n    inode ib and a xattr.\n 2. getfattr(A, xattr_buf) // ixa is added into lru // lru-\u003eixa\n 3. Then, following three processes running like this:\n\n        PA                PB                        PC\n                echo 2 \u003e /proc/sys/vm/drop_caches\n                 shrink_slab\n                  prune_dcache_sb\n                  // ib and ia are added into lru, lru-\u003eixa-\u003eib-\u003eia\n                  prune_icache_sb\n                   list_lru_walk_one\n                    inode_lru_isolate\n                     ixa-\u003ei_state |= I_FREEING // set inode state\n                    inode_lru_isolate\n                     __iget(ib)\n                     spin_unlock(\u0026ib-\u003ei_lock)\n                     spin_unlock(lru_lock)\n                                                   rm file B\n                                                    ib-\u003enlink = 0\n rm file A\n  iput(ia)\n   ubifs_evict_inode(ia)\n    ubifs_jnl_delete_inode(ia)\n     ubifs_jnl_write_inode(ia)\n      make_reservation(BASEHD) // Lock wbuf-\u003eio_mutex\n      ubifs_iget(ixa-\u003ei_ino)\n       iget_locked\n        find_inode_fast\n         __wait_on_freeing_inode(ixa)\n          |          iput(ib) // ib-\u003enlink is 0, do evict\n          |           ubifs_evict_inode\n          |            ubifs_jnl_delete_inode(ib)\n          ↓             ubifs_jnl_write_inode\n     ABBA deadlock ←-----make_reservation(BASEHD)\n                   dispose_list // cannot be executed by prune_icache_sb\n                    wake_up_bit(\u0026ixa-\u003ei_state)\n\nFix the possible deadlock by using new inode state flag I_LRU_ISOLATING\nto pin the inode in memory while inode_lru_isolate(\n---truncated---",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfs: Don't evict inode under the inode lru traversing context\n\nThe inode reclaiming process(See function prune_icache_sb) collects all\nreclaimable inodes and mark them with I_FREEING flag at first, at that\ntime, other processes will be stuck if they try getting these inodes\n(See function find_inode_fast), then the reclaiming process destroy the\ninodes by function dispose_list(). Some filesystems(eg. ext4 with\nea_inode feature, ubifs with xattr) may do inode lookup in the inode\nevicting callback function, if the inode lookup is operated under the\ninode lru traversing context, deadlock problems may happen.\n\nCase 1: In function ext4_evict_inode(), the ea inode lookup could happen\n        if ea_inode feature is enabled, the lookup process will be stuck\n\tunder the evicting context like this:\n\n 1. File A has inode i_reg and an ea inode i_ea\n 2. getfattr(A, xattr_buf) // i_ea is added into lru // lru-\u003ei_ea\n 3. Then, following three processes running like this:\n\n    PA                              PB\n echo 2 \u003e /proc/sys/vm/drop_caches\n  shrink_slab\n   prune_dcache_sb\n   // i_reg is added into lru, lru-\u003ei_ea-\u003ei_reg\n   prune_icache_sb\n    list_lru_walk_one\n     inode_lru_isolate\n      i_ea-\u003ei_state |= I_FREEING // set inode state\n     inode_lru_isolate\n      __iget(i_reg)\n      spin_unlock(\u0026i_reg-\u003ei_lock)\n      spin_unlock(lru_lock)\n                                     rm file A\n                                      i_reg-\u003enlink = 0\n      iput(i_reg) // i_reg-\u003enlink is 0, do evict\n       ext4_evict_inode\n        ext4_xattr_delete_inode\n         ext4_xattr_inode_dec_ref_all\n          ext4_xattr_inode_iget\n           ext4_iget(i_ea-\u003ei_ino)\n            iget_locked\n             find_inode_fast\n              __wait_on_freeing_inode(i_ea) -----\u003e AA deadlock\n    dispose_list // cannot be executed by prune_icache_sb\n     wake_up_bit(\u0026i_ea-\u003ei_state)\n\nCase 2: In deleted inode writing function ubifs_jnl_write_inode(), file\n        deleting process holds BASEHD's wbuf-\u003eio_mutex while getting the\n\txattr inode, which could race with inode reclaiming process(The\n        reclaiming process could try locking BASEHD's wbuf-\u003eio_mutex in\n\tinode evicting function), then an ABBA deadlock problem would\n\thappen as following:\n\n 1. File A has inode ia and a xattr(with inode ixa), regular file B has\n    inode ib and a xattr.\n 2. getfattr(A, xattr_buf) // ixa is added into lru // lru-\u003eixa\n 3. Then, following three processes running like this:\n\n        PA                PB                        PC\n                echo 2 \u003e /proc/sys/vm/drop_caches\n                 shrink_slab\n                  prune_dcache_sb\n                  // ib and ia are added into lru, lru-\u003eixa-\u003eib-\u003eia\n                  prune_icache_sb\n                   list_lru_walk_one\n                    inode_lru_isolate\n                     ixa-\u003ei_state |= I_FREEING // set inode state\n                    inode_lru_isolate\n                     __iget(ib)\n                     spin_unlock(\u0026ib-\u003ei_lock)\n                     spin_unlock(lru_lock)\n                                                   rm file B\n                                                    ib-\u003enlink = 0\n rm file A\n  iput(ia)\n   ubifs_evict_inode(ia)\n    ubifs_jnl_delete_inode(ia)\n     ubifs_jnl_write_inode(ia)\n      make_reservation(BASEHD) // Lock wbuf-\u003eio_mutex\n      ubifs_iget(ixa-\u003ei_ino)\n       iget_locked\n        find_inode_fast\n         __wait_on_freeing_inode(ixa)\n          |          iput(ib) // ib-\u003enlink is 0, do evict\n          |           ubifs_evict_inode\n          |            ubifs_jnl_delete_inode(ib)\n          v             ubifs_jnl_write_inode\n     ABBA deadlock \u003c------make_reservation(BASEHD)\n                   dispose_list // cannot be executed by prune_icache_sb\n                    wake_up_bit(\u0026ixa-\u003ei_state)\n\nFix the possible deadlock by using new inode state flag I_LRU_ISOLATING\nto pin the inode in memory while inode_lru_isolate(\n---truncated---",
       "Threats": [
         {
           "Type": "Impact",
@@ -6966,7 +6966,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7232,7 +7232,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7252,7 +7252,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7272,7 +7272,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7292,7 +7292,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7312,7 +7312,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7332,7 +7332,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7352,7 +7352,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7392,7 +7392,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7412,7 +7412,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7428,11 +7428,11 @@
     },
     {
       "CVE": "CVE-2024-47706",
-      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock, bfq: fix possible UAF for bfqq-\u003ebic with merge chain\n\n1) initial state, three tasks:\n\n\t\tProcess 1       Process 2\tProcess 3\n\t\t (BIC1)          (BIC2)\t\t (BIC3)\n\t\t  |  Λ            |  Λ\t\t  |  Λ\n\t\t  |  |            |  |\t\t  |  |\n\t\t  V  |            V  |\t\t  V  |\n\t\t  bfqq1           bfqq2\t\t  bfqq3\nprocess ref:\t   1\t\t    1\t\t    1\n\n2) bfqq1 merged to bfqq2:\n\n\t\tProcess 1       Process 2\tProcess 3\n\t\t (BIC1)          (BIC2)\t\t (BIC3)\n\t\t  |               |\t\t  |  Λ\n\t\t  \\--------------\\|\t\t  |  |\n\t\t                  V\t\t  V  |\n\t\t  bfqq1---------\u003ebfqq2\t\t  bfqq3\nprocess ref:\t   0\t\t    2\t\t    1\n\n3) bfqq2 merged to bfqq3:\n\n\t\tProcess 1       Process 2\tProcess 3\n\t\t (BIC1)          (BIC2)\t\t (BIC3)\n\t here -\u003e Λ                |\t\t  |\n\t\t  \\--------------\\ \\-------------\\|\n\t\t                  V\t\t  V\n\t\t  bfqq1---------\u003ebfqq2----------\u003ebfqq3\nprocess ref:\t   0\t\t    1\t\t    3\n\nIn this case, IO from Process 1 will get bfqq2 from BIC1 first, and then\nget bfqq3 through merge chain, and finially handle IO by bfqq3.\nHowerver, current code will think bfqq2 is owned by BIC1, like initial\nstate, and set bfqq2-\u003ebic to BIC1.\n\nbfq_insert_request\n-\u003e by Process 1\n bfqq = bfq_init_rq(rq)\n  bfqq = bfq_get_bfqq_handle_split\n   bfqq = bic_to_bfqq\n   -\u003e get bfqq2 from BIC1\n bfqq-\u003eref++\n rq-\u003eelv.priv[0] = bic\n rq-\u003eelv.priv[1] = bfqq\n if (bfqq_process_refs(bfqq) == 1)\n  bfqq-\u003ebic = bic\n  -\u003e record BIC1 to bfqq2\n\n  __bfq_insert_request\n   new_bfqq = bfq_setup_cooperator\n   -\u003e get bfqq3 from bfqq2-\u003enew_bfqq\n   bfqq_request_freed(bfqq)\n   new_bfqq-\u003eref++\n   rq-\u003eelv.priv[1] = new_bfqq\n   -\u003e handle IO by bfqq3\n\nFix the problem by checking bfqq is from merge chain fist. And this\nmight fix a following problem reported by our syzkaller(unreproducible):\n\n==================================================================\nBUG: KASAN: slab-use-after-free in bfq_do_early_stable_merge block/bfq-iosched.c:5692 [inline]\nBUG: KASAN: slab-use-after-free in bfq_do_or_sched_stable_merge block/bfq-iosched.c:5805 [inline]\nBUG: KASAN: slab-use-after-free in bfq_get_queue+0x25b0/0x2610 block/bfq-iosched.c:5889\nWrite of size 1 at addr ffff888123839eb8 by task kworker/0:1H/18595\n\nCPU: 0 PID: 18595 Comm: kworker/0:1H Tainted: G             L     6.6.0-07439-gba2303cacfda #6\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.14.0-0-g155821a1990b-prebuilt.qemu.org 04/01/2014\nWorkqueue: kblockd blk_mq_requeue_work\nCall Trace:\n \u003cTASK\u003e\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0x91/0xf0 lib/dump_stack.c:106\n print_address_description mm/kasan/report.c:364 [inline]\n print_report+0x10d/0x610 mm/kasan/report.c:475\n kasan_report+0x8e/0xc0 mm/kasan/report.c:588\n bfq_do_early_stable_merge block/bfq-iosched.c:5692 [inline]\n bfq_do_or_sched_stable_merge block/bfq-iosched.c:5805 [inline]\n bfq_get_queue+0x25b0/0x2610 block/bfq-iosched.c:5889\n bfq_get_bfqq_handle_split+0x169/0x5d0 block/bfq-iosched.c:6757\n bfq_init_rq block/bfq-iosched.c:6876 [inline]\n bfq_insert_request block/bfq-iosched.c:6254 [inline]\n bfq_insert_requests+0x1112/0x5cf0 block/bfq-iosched.c:6304\n blk_mq_insert_request+0x290/0x8d0 block/blk-mq.c:2593\n blk_mq_requeue_work+0x6bc/0xa70 block/blk-mq.c:1502\n process_one_work kernel/workqueue.c:2627 [inline]\n process_scheduled_works+0x432/0x13f0 kernel/workqueue.c:2700\n worker_thread+0x6f2/0x1160 kernel/workqueue.c:2781\n kthread+0x33c/0x440 kernel/kthread.c:388\n ret_from_fork+0x4d/0x80 arch/x86/kernel/process.c:147\n ret_from_fork_asm+0x1b/0x30 arch/x86/entry/entry_64.S:305\n \u003c/TASK\u003e\n\nAllocated by task 20776:\n kasan_save_stack+0x20/0x40 mm/kasan/common.c:45\n kasan_set_track+0x25/0x30 mm/kasan/common.c:52\n __kasan_slab_alloc+0x87/0x90 mm/kasan/common.c:328\n kasan_slab_alloc include/linux/kasan.h:188 [inline]\n slab_post_alloc_hook mm/slab.h:763 [inline]\n slab_alloc_node mm/slub.c:3458 [inline]\n kmem_cache_alloc_node+0x1a4/0x6f0 mm/slub.c:3503\n ioc_create_icq block/blk-ioc.c:370 [inline]\n---truncated---",
+      "Description": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock, bfq: fix possible UAF for bfqq-\u003ebic with merge chain\n\n1) initial state, three tasks:\n\n\t\tProcess 1       Process 2\tProcess 3\n\t\t (BIC1)          (BIC2)\t\t (BIC3)\n\t\t  |  ^            |  ^\t\t  |  ^\n\t\t  |  |            |  |\t\t  |  |\n\t\t  V  |            V  |\t\t  V  |\n\t\t  bfqq1           bfqq2\t\t  bfqq3\nprocess ref:\t   1\t\t    1\t\t    1\n\n2) bfqq1 merged to bfqq2:\n\n\t\tProcess 1       Process 2\tProcess 3\n\t\t (BIC1)          (BIC2)\t\t (BIC3)\n\t\t  |               |\t\t  |  ^\n\t\t  \\--------------\\|\t\t  |  |\n\t\t                  V\t\t  V  |\n\t\t  bfqq1---------\u003ebfqq2\t\t  bfqq3\nprocess ref:\t   0\t\t    2\t\t    1\n\n3) bfqq2 merged to bfqq3:\n\n\t\tProcess 1       Process 2\tProcess 3\n\t\t (BIC1)          (BIC2)\t\t (BIC3)\n\t here -\u003e ^                |\t\t  |\n\t\t  \\--------------\\ \\-------------\\|\n\t\t                  V\t\t  V\n\t\t  bfqq1---------\u003ebfqq2----------\u003ebfqq3\nprocess ref:\t   0\t\t    1\t\t    3\n\nIn this case, IO from Process 1 will get bfqq2 from BIC1 first, and then\nget bfqq3 through merge chain, and finially handle IO by bfqq3.\nHowerver, current code will think bfqq2 is owned by BIC1, like initial\nstate, and set bfqq2-\u003ebic to BIC1.\n\nbfq_insert_request\n-\u003e by Process 1\n bfqq = bfq_init_rq(rq)\n  bfqq = bfq_get_bfqq_handle_split\n   bfqq = bic_to_bfqq\n   -\u003e get bfqq2 from BIC1\n bfqq-\u003eref++\n rq-\u003eelv.priv[0] = bic\n rq-\u003eelv.priv[1] = bfqq\n if (bfqq_process_refs(bfqq) == 1)\n  bfqq-\u003ebic = bic\n  -\u003e record BIC1 to bfqq2\n\n  __bfq_insert_request\n   new_bfqq = bfq_setup_cooperator\n   -\u003e get bfqq3 from bfqq2-\u003enew_bfqq\n   bfqq_request_freed(bfqq)\n   new_bfqq-\u003eref++\n   rq-\u003eelv.priv[1] = new_bfqq\n   -\u003e handle IO by bfqq3\n\nFix the problem by checking bfqq is from merge chain fist. And this\nmight fix a following problem reported by our syzkaller(unreproducible):\n\n==================================================================\nBUG: KASAN: slab-use-after-free in bfq_do_early_stable_merge block/bfq-iosched.c:5692 [inline]\nBUG: KASAN: slab-use-after-free in bfq_do_or_sched_stable_merge block/bfq-iosched.c:5805 [inline]\nBUG: KASAN: slab-use-after-free in bfq_get_queue+0x25b0/0x2610 block/bfq-iosched.c:5889\nWrite of size 1 at addr ffff888123839eb8 by task kworker/0:1H/18595\n\nCPU: 0 PID: 18595 Comm: kworker/0:1H Tainted: G             L     6.6.0-07439-gba2303cacfda #6\nHardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.14.0-0-g155821a1990b-prebuilt.qemu.org 04/01/2014\nWorkqueue: kblockd blk_mq_requeue_work\nCall Trace:\n \u003cTASK\u003e\n __dump_stack lib/dump_stack.c:88 [inline]\n dump_stack_lvl+0x91/0xf0 lib/dump_stack.c:106\n print_address_description mm/kasan/report.c:364 [inline]\n print_report+0x10d/0x610 mm/kasan/report.c:475\n kasan_report+0x8e/0xc0 mm/kasan/report.c:588\n bfq_do_early_stable_merge block/bfq-iosched.c:5692 [inline]\n bfq_do_or_sched_stable_merge block/bfq-iosched.c:5805 [inline]\n bfq_get_queue+0x25b0/0x2610 block/bfq-iosched.c:5889\n bfq_get_bfqq_handle_split+0x169/0x5d0 block/bfq-iosched.c:6757\n bfq_init_rq block/bfq-iosched.c:6876 [inline]\n bfq_insert_request block/bfq-iosched.c:6254 [inline]\n bfq_insert_requests+0x1112/0x5cf0 block/bfq-iosched.c:6304\n blk_mq_insert_request+0x290/0x8d0 block/blk-mq.c:2593\n blk_mq_requeue_work+0x6bc/0xa70 block/blk-mq.c:1502\n process_one_work kernel/workqueue.c:2627 [inline]\n process_scheduled_works+0x432/0x13f0 kernel/workqueue.c:2700\n worker_thread+0x6f2/0x1160 kernel/workqueue.c:2781\n kthread+0x33c/0x440 kernel/kthread.c:388\n ret_from_fork+0x4d/0x80 arch/x86/kernel/process.c:147\n ret_from_fork_asm+0x1b/0x30 arch/x86/entry/entry_64.S:305\n \u003c/TASK\u003e\n\nAllocated by task 20776:\n kasan_save_stack+0x20/0x40 mm/kasan/common.c:45\n kasan_set_track+0x25/0x30 mm/kasan/common.c:52\n __kasan_slab_alloc+0x87/0x90 mm/kasan/common.c:328\n kasan_slab_alloc include/linux/kasan.h:188 [inline]\n slab_post_alloc_hook mm/slab.h:763 [inline]\n slab_alloc_node mm/slub.c:3458 [inline]\n kmem_cache_alloc_node+0x1a4/0x6f0 mm/slub.c:3503\n ioc_create_icq block/blk-ioc.c:370 [inline]\n---truncated---",
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7452,7 +7452,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7472,7 +7472,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7492,7 +7492,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7512,7 +7512,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7532,7 +7532,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7572,7 +7572,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7592,7 +7592,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7652,7 +7652,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7672,7 +7672,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7692,7 +7692,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7752,7 +7752,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7772,7 +7772,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7812,7 +7812,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7832,7 +7832,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7872,7 +7872,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7892,7 +7892,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7932,7 +7932,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7952,7 +7952,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7972,7 +7972,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -7992,7 +7992,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8012,7 +8012,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8032,7 +8032,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8052,7 +8052,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8094,7 +8094,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8141,7 +8141,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8161,7 +8161,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,
@@ -8181,7 +8181,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "important"
+          "Severity": "moderate"
         }
       ],
       "References": null,

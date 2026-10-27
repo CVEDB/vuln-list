@@ -965,7 +965,7 @@
     },
     {
       "CVE": "CVE-2023-0045",
-      "Description": "The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set   function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.   The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit  a664ec9158eeddd75121d39c9a0758016097fa96\n\n",
+      "Description": "The current implementation of the prctl syscall does not issue an IBPB immediately during the syscall. The ib_prctl_set   function updates the Thread Information Flags (TIFs) for the task and updates the SPEC_CTRL MSR on the function __speculation_ctrl_update, but the IBPB is only issued on the next schedule, when the TIF bits are checked. This leaves the victim vulnerable to values already injected on the BTB, prior to the prctl syscall.   The patch that added the support for the conditional mitigation via prctl (ib_prctl_set) dates back to the kernel 4.9.176.\n\nWe recommend upgrading past commit  a664ec9158eeddd75121d39c9a0758016097fa96",
       "Threats": [
         {
           "Type": "Impact",
@@ -1098,6 +1098,10 @@
         {
           "URL": "https://bugzilla.suse.com/1218514",
           "Description": "SUSE Bug 1218514"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1265448",
+          "Description": "SUSE Bug 1265448"
         }
       ],
       "ProductStatuses": [
@@ -1145,6 +1149,10 @@
         {
           "URL": "https://www.suse.com/security/cve/CVE-2023-0590.html",
           "Description": "CVE-2023-0590"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
         },
         {
           "URL": "https://bugzilla.suse.com/1207795",
@@ -1472,7 +1480,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
@@ -1543,7 +1551,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1645,7 +1653,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1747,7 +1755,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "low"
+          "Severity": "moderate"
         }
       ],
       "References": [
@@ -1878,6 +1886,10 @@
           "Description": "CVE-2023-23455"
         },
         {
+          "URL": "https://bugzilla.suse.com/1207036",
+          "Description": "SUSE Bug 1207036"
+        },
+        {
           "URL": "https://bugzilla.suse.com/1207125",
           "Description": "SUSE Bug 1207125"
         },
@@ -1939,6 +1951,10 @@
         {
           "URL": "https://bugzilla.suse.com/1207051",
           "Description": "SUSE Bug 1207051"
+        },
+        {
+          "URL": "https://bugzilla.suse.com/1262299",
+          "Description": "SUSE Bug 1262299"
         }
       ],
       "ProductStatuses": [
@@ -2034,7 +2050,7 @@
       "Threats": [
         {
           "Type": "Impact",
-          "Severity": "moderate"
+          "Severity": "important"
         }
       ],
       "References": [
