@@ -1,0 +1,29 @@
+{
+  "id": "ALAS2-2025-3064",
+  "title": "Amazon Linux 2 2017.12 - ALAS2-2025-3064: low priority package update for thunderbird",
+  "issued": {
+    "date": "2025-11-10 13:19:00"
+  },
+  "updated": {
+    "date": "2025-11-19 17:00:00"
+  },
+  "severity": "low",
+  "packages": [
+    {
+      "name": "thunderbird",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2.0.2",
+      "arch": "x86_64",
+      "filename": "Packages/thunderbird-140.4.0-1.amzn2.0.2.x86_64.rpm"
+    },
+    {
+      "name": "thunderbird",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2.0.2",
+      "arch": "aarch64",
+      "filename": "Packages/thunderbird-140.4.0-1.amzn2.0.2.aarch64.rpm"
+    }
+  ]
+}

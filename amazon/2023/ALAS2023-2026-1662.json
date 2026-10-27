@@ -1,0 +1,21 @@
+{
+  "id": "ALAS2023-2026-1662",
+  "title": "Amazon Linux 2023 - ALAS2023-2026-1662: Low priority package update for aws-cfn-bootstrap",
+  "issued": {
+    "date": "2026-05-11 09:00:00"
+  },
+  "updated": {
+    "date": "2026-05-18 09:00:00"
+  },
+  "severity": "Low",
+  "packages": [
+    {
+      "name": "aws-cfn-bootstrap",
+      "epoch": "0",
+      "version": "2.0",
+      "release": "39.amzn2023",
+      "arch": "noarch",
+      "filename": "Packages/aws-cfn-bootstrap-2.0-39.amzn2023.noarch.rpm"
+    }
+  ]
+}

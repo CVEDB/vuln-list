@@ -1,0 +1,61 @@
+{
+  "id": "ALAS2023-2025-1284",
+  "title": "Amazon Linux 2023 - ALAS2023-2025-1284: Low priority package update for firefox",
+  "issued": {
+    "date": "2025-11-10 12:23:00"
+  },
+  "updated": {
+    "date": "2025-11-10 12:23:00"
+  },
+  "severity": "Low",
+  "packages": [
+    {
+      "name": "firefox-debuginfo",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2023.0.4",
+      "arch": "x86_64",
+      "filename": "Packages/firefox-debuginfo-140.4.0-1.amzn2023.0.4.x86_64.rpm"
+    },
+    {
+      "name": "firefox",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2023.0.4",
+      "arch": "x86_64",
+      "filename": "Packages/firefox-140.4.0-1.amzn2023.0.4.x86_64.rpm"
+    },
+    {
+      "name": "firefox-debugsource",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2023.0.4",
+      "arch": "x86_64",
+      "filename": "Packages/firefox-debugsource-140.4.0-1.amzn2023.0.4.x86_64.rpm"
+    },
+    {
+      "name": "firefox-debuginfo",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2023.0.4",
+      "arch": "aarch64",
+      "filename": "Packages/firefox-debuginfo-140.4.0-1.amzn2023.0.4.aarch64.rpm"
+    },
+    {
+      "name": "firefox",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2023.0.4",
+      "arch": "aarch64",
+      "filename": "Packages/firefox-140.4.0-1.amzn2023.0.4.aarch64.rpm"
+    },
+    {
+      "name": "firefox-debugsource",
+      "epoch": "0",
+      "version": "140.4.0",
+      "release": "1.amzn2023.0.4",
+      "arch": "aarch64",
+      "filename": "Packages/firefox-debugsource-140.4.0-1.amzn2023.0.4.aarch64.rpm"
+    }
+  ]
+}

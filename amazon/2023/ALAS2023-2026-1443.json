@@ -1,0 +1,70 @@
+{
+  "id": "ALAS2023-2026-1443",
+  "title": "Amazon Linux 2023 - ALAS2023-2026-1443: Medium priority package update for ecs-init",
+  "issued": {
+    "date": "2026-02-16 09:00:00"
+  },
+  "updated": {
+    "date": "2026-02-27 09:00:00"
+  },
+  "severity": "Medium",
+  "description": "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2025-68121:\n\tcrypto/tls: Config.Clone copies automatically generated session ticket keys, session resumption does not account for the expiration of full certificate chain\n\nCVE-2025-61730:\n\tcrypto/tls: handshake messages may be processed at the incorrect encryption level\n\nCVE-2025-61728:\n\tarchive/zip: denial of service when parsing arbitrary ZIP archives\n\nCVE-2025-61726:\n\tnet/http: memory exhaustion in Request.ParseForm\n\nCVE-2025-58190:\n\tThe html.Parse function in golang.org/x/net/html has an infinite parsing loop when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.\n\nCVE-2025-47911:\n\tThe html.Parse function in golang.org/x/net/html has quadratic parsing complexity when processing certain inputs, which can lead to denial of service (DoS) if an attacker provides specially crafted HTML content.\n",
+  "packages": [
+    {
+      "name": "ecs-init",
+      "epoch": "0",
+      "version": "1.101.3",
+      "release": "1.amzn2023",
+      "arch": "x86_64",
+      "filename": "Packages/ecs-init-1.101.3-1.amzn2023.x86_64.rpm"
+    },
+    {
+      "name": "ecs-init",
+      "epoch": "0",
+      "version": "1.101.3",
+      "release": "1.amzn2023",
+      "arch": "aarch64",
+      "filename": "Packages/ecs-init-1.101.3-1.amzn2023.aarch64.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-47911",
+      "id": "CVE-2025-47911",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58190",
+      "id": "CVE-2025-58190",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726",
+      "id": "CVE-2025-61726",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728",
+      "id": "CVE-2025-61728",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61730",
+      "id": "CVE-2025-61730",
+      "type": "cve"
+    },
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121",
+      "id": "CVE-2025-68121",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2025-47911",
+    "CVE-2025-58190",
+    "CVE-2025-61726",
+    "CVE-2025-61728",
+    "CVE-2025-61730",
+    "CVE-2025-68121"
+  ]
+}

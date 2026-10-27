@@ -1,0 +1,157 @@
+{
+  "id": "ALAS2-2025-3055",
+  "title": "Amazon Linux 2 2017.12 - ALAS2-2025-3055: low priority package update for unbound",
+  "issued": {
+    "date": "2025-11-05 10:00:00"
+  },
+  "updated": {
+    "date": "2025-12-10 09:00:00"
+  },
+  "severity": "low",
+  "packages": [
+    {
+      "name": "unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "x86_64",
+      "filename": "Packages/unbound-1.7.3-15.amzn2.0.11.x86_64.rpm"
+    },
+    {
+      "name": "unbound-devel",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "x86_64",
+      "filename": "Packages/unbound-devel-1.7.3-15.amzn2.0.11.x86_64.rpm"
+    },
+    {
+      "name": "unbound-libs",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "x86_64",
+      "filename": "Packages/unbound-libs-1.7.3-15.amzn2.0.11.x86_64.rpm"
+    },
+    {
+      "name": "python2-unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "x86_64",
+      "filename": "Packages/python2-unbound-1.7.3-15.amzn2.0.11.x86_64.rpm"
+    },
+    {
+      "name": "python3-unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "x86_64",
+      "filename": "Packages/python3-unbound-1.7.3-15.amzn2.0.11.x86_64.rpm"
+    },
+    {
+      "name": "unbound-debuginfo",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "x86_64",
+      "filename": "Packages/unbound-debuginfo-1.7.3-15.amzn2.0.11.x86_64.rpm"
+    },
+    {
+      "name": "unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "i686",
+      "filename": "Packages/unbound-1.7.3-15.amzn2.0.11.i686.rpm"
+    },
+    {
+      "name": "unbound-devel",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "i686",
+      "filename": "Packages/unbound-devel-1.7.3-15.amzn2.0.11.i686.rpm"
+    },
+    {
+      "name": "unbound-libs",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "i686",
+      "filename": "Packages/unbound-libs-1.7.3-15.amzn2.0.11.i686.rpm"
+    },
+    {
+      "name": "python2-unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "i686",
+      "filename": "Packages/python2-unbound-1.7.3-15.amzn2.0.11.i686.rpm"
+    },
+    {
+      "name": "python3-unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "i686",
+      "filename": "Packages/python3-unbound-1.7.3-15.amzn2.0.11.i686.rpm"
+    },
+    {
+      "name": "unbound-debuginfo",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "i686",
+      "filename": "Packages/unbound-debuginfo-1.7.3-15.amzn2.0.11.i686.rpm"
+    },
+    {
+      "name": "unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "aarch64",
+      "filename": "Packages/unbound-1.7.3-15.amzn2.0.11.aarch64.rpm"
+    },
+    {
+      "name": "unbound-devel",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "aarch64",
+      "filename": "Packages/unbound-devel-1.7.3-15.amzn2.0.11.aarch64.rpm"
+    },
+    {
+      "name": "unbound-libs",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "aarch64",
+      "filename": "Packages/unbound-libs-1.7.3-15.amzn2.0.11.aarch64.rpm"
+    },
+    {
+      "name": "python2-unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "aarch64",
+      "filename": "Packages/python2-unbound-1.7.3-15.amzn2.0.11.aarch64.rpm"
+    },
+    {
+      "name": "python3-unbound",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "aarch64",
+      "filename": "Packages/python3-unbound-1.7.3-15.amzn2.0.11.aarch64.rpm"
+    },
+    {
+      "name": "unbound-debuginfo",
+      "epoch": "0",
+      "version": "1.7.3",
+      "release": "15.amzn2.0.11",
+      "arch": "aarch64",
+      "filename": "Packages/unbound-debuginfo-1.7.3-15.amzn2.0.11.aarch64.rpm"
+    }
+  ]
+}
