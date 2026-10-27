@@ -1,5 +1,5 @@
 {
-  "Title": "ELSA-2019-1268: virt:rhel security update (IMPORTANT)",
+  "Title": "ELSA-2019-1268: virt:ol security update (IMPORTANT)",
   "Description": "[4.5.0-23.2.0.1.el8]\n- added librbd1 as dependency (Keshav Sharma)\n\n[4.5.0-23.2.el8]\n- admin: reject clients unless their UID matches the current UID (CVE-2019-10132)\n- locking: restrict sockets to mode 0600 (CVE-2019-10132)\n- logging: restrict sockets to mode 0600 (CVE-2019-10132)\n\n[4.5.0-23.1.el8]\n- cpu_x86: Do not cache microcode version (CVE-2018-12130, CVE-2018-12126, CVE-2018-11091, CVE-2018-12127)\n- qemu: Don't cache microcode version (CVE-2018-12130, CVE-2018-12126, CVE-2018-11091, CVE-2018-12127)\n- cputest: Add data for Intel(R) Xeon(R) CPU E3-1225 v5 (CVE-2018-12130, CVE-2018-12126, CVE-2018-11091, CVE-2018-12127)\n- cpu_map: Define md-clear CPUID bit (CVE-2018-12130, CVE-2018-12126, CVE-2018-11091, CVE-2018-12127)",
   "Platform": [
     "Oracle Linux 8"
@@ -761,6 +761,8 @@
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2019-10132.html",
+      "Public": "20190522",
+      "CVSS3": "8.8/CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "ID": "CVE-2019-10132"
     }
   ],

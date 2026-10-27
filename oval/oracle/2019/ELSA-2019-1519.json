@@ -1,5 +1,5 @@
 {
-  "Title": "ELSA-2019-1519: go-toolset:rhel8 security update (MODERATE)",
+  "Title": "ELSA-2019-1519: go-toolset:ol8 security update (MODERATE)",
   "Description": "go-toolset\n[1.11.5-2]\n- Include patch to fix CVE-2019-9741\n- Resolves: rhbz#1690443\n\ngolang\n[1.11.5-2]\n- Include patch to fix CVE-2019-9741\n- Resolves: rhbz#1690443\n\n[1.11.5-2]\n- Switch to pagure fork for Go FIPS",
   "Platform": [
     "Oracle Linux 8"
@@ -269,6 +269,8 @@
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2019-9741.html",
+      "Public": "20190313",
+      "CVSS3": "6.1/CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "ID": "CVE-2019-9741"
     }
   ],

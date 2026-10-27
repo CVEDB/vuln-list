@@ -12,13 +12,13 @@
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2025-8194.html",
-      "ID": "CVE-2025-8194"
+      "URI": "https://linux.oracle.com/cve/CVE-2025-47273.html",
+      "ID": "CVE-2025-47273"
     },
     {
       "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2025-47273.html",
-      "ID": "CVE-2025-47273"
+      "URI": "https://linux.oracle.com/cve/CVE-2025-8194.html",
+      "ID": "CVE-2025-8194"
     }
   ],
   "Criteria": {
@@ -1313,13 +1313,17 @@
   "Cves": [
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2025-8194.html",
-      "ID": "CVE-2025-8194"
+      "Href": "https://linux.oracle.com/cve/CVE-2025-47273.html",
+      "Public": "20250517",
+      "CVSS3": "7.1/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L",
+      "ID": "CVE-2025-47273"
     },
     {
       "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2025-47273.html",
-      "ID": "CVE-2025-47273"
+      "Href": "https://linux.oracle.com/cve/CVE-2025-8194.html",
+      "Public": "20250728",
+      "CVSS3": "7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "ID": "CVE-2025-8194"
     }
   ],
   "Issued": {

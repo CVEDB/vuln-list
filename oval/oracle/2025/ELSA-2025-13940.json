@@ -1,5 +1,5 @@
 {
-  "Title": "ELSA-2025-13940:  go-toolset:rhel8 security update (IMPORTANT)",
+  "Title": "ELSA-2025-13940:  go-toolset:ol8 security update (IMPORTANT)",
   "Description": "delve\n[1.24.1-1.0.1]\n- Disable DWARF compression which has issues (Alex Burmashev)\n\ngolang\n[1.24.6-1]\n- Update to Go 1.24.6 (fips-1)\n- Resolves: RHEL-106455\n\ngo-toolset\n[1.24.6-1]\n- Update to Go 1.24.6 (fips-1)\n- Resolves: RHEL-106455",
   "Platform": [
     "Oracle Linux 8"
@@ -281,6 +281,8 @@
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2025-4674.html",
+      "Public": "20250729",
+      "CVSS3": "8.6/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
       "ID": "CVE-2025-4674"
     }
   ],

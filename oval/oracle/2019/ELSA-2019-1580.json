@@ -1,5 +1,5 @@
 {
-  "Title": "ELSA-2019-1580: virt:rhel security update (IMPORTANT)",
+  "Title": "ELSA-2019-1580: virt:ol security update (IMPORTANT)",
   "Description": "libguestfs\n[1:1.38.4-10.1.0.1]\n- Config supermin to use host yum.conf in ol8 [Orabug: 29319324]\n- Set DISTRO_ORACLE_LINUX correspeonding to ol\n\n[1:1.38.4-10.1]\n- Fix inspection of partition-less devices\n  resolves: rhbz#1714747\n\nlibssh2\n[1.8.0-7.el8_0.1]\n- fix integer overflow in keyboard interactive handling that allows out-of-bounds writes (CVE-2019-3863)\n- fix integer overflow in SSH packet processing channel resulting in out of bounds write (CVE-2019-3857)\n- fix integer overflow in keyboard interactive handling resulting in out of bounds write (CVE-2019-3856)\n- fix integer overflow in transport read resulting in out of bounds write (CVE-2019-3855)\n\nlibvirt\n[4.5.0-23.3.0.1.el8]\n- added librbd1 as dependency (Keshav Sharma)\n\n[4.5.0-23.3.el8]\n- api: disallow virDomainSaveImageGetXMLDesc on read-only connections (CVE-2019-10161)\n- api: disallow virDomainManagedSaveDefineXML on read-only connections (CVE-2019-10166)\n- api: disallow virConnectGetDomainCapabilities on read-only connections (CVE-2019-10167)\n- api: disallow virConnect*HypervisorCPU on read-only connections (CVE-2019-10168)\n\nqemu-kvm\n[2.12.0-64.el8.0.0.2]\n- Bump release version to fix the versioning problem (zstream release lower than ystream).\n- Resolves: bz#1704545\n  (CVE-2018-12126 virt:rhel/qemu-kvm: hardware: Microarchitectural Store Buffer Data Sampling [rhel-8.0.0.z])",
   "Platform": [
     "Oracle Linux 8"
@@ -17,6 +17,11 @@
     },
     {
       "Source": "CVE",
+      "URI": "https://linux.oracle.com/cve/CVE-2019-10166.html",
+      "ID": "CVE-2019-10166"
+    },
+    {
+      "Source": "CVE",
       "URI": "https://linux.oracle.com/cve/CVE-2019-10167.html",
       "ID": "CVE-2019-10167"
     },
@@ -24,11 +29,6 @@
       "Source": "CVE",
       "URI": "https://linux.oracle.com/cve/CVE-2019-10168.html",
       "ID": "CVE-2019-10168"
-    },
-    {
-      "Source": "CVE",
-      "URI": "https://linux.oracle.com/cve/CVE-2019-10166.html",
-      "ID": "CVE-2019-10166"
     }
   ],
   "Criteria": {
@@ -2300,22 +2300,30 @@
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2019-10161.html",
+      "Public": "20190730",
+      "CVSS3": "7.8/CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "ID": "CVE-2019-10161"
     },
     {
       "Impact": "",
+      "Href": "https://linux.oracle.com/cve/CVE-2019-10166.html",
+      "Public": "20190802",
+      "CVSS3": "7.8/CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "ID": "CVE-2019-10166"
+    },
+    {
+      "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2019-10167.html",
+      "Public": "20190802",
+      "CVSS3": "7.8/CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "ID": "CVE-2019-10167"
     },
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2019-10168.html",
+      "Public": "20190802",
+      "CVSS3": "7.8/CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "ID": "CVE-2019-10168"
-    },
-    {
-      "Impact": "",
-      "Href": "https://linux.oracle.com/cve/CVE-2019-10166.html",
-      "ID": "CVE-2019-10166"
     }
   ],
   "Issued": {

@@ -2665,18 +2665,6 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "glibc is earlier than 0:2.28-251.0.3.el8_10.25"
-                      },
-                      {
-                        "Comment": "glibc is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
                         "Comment": "glibc-all-langpacks is earlier than 0:2.28-251.0.3.el8_10.25"
                       },
                       {
@@ -3161,18 +3149,6 @@
                       },
                       {
                         "Comment": "glibc-langpack-dv is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
-                        "Comment": "glibc-langpack-en is earlier than 0:2.28-251.0.3.el8_10.25"
-                      },
-                      {
-                        "Comment": "glibc-langpack-en is signed with the Oracle Linux 8 key"
                       }
                     ]
                   },
@@ -5029,18 +5005,6 @@
                     "Criterias": null,
                     "Criterions": [
                       {
-                        "Comment": "libnsl is earlier than 0:2.28-251.0.3.el8_10.25"
-                      },
-                      {
-                        "Comment": "libnsl is signed with the Oracle Linux 8 key"
-                      }
-                    ]
-                  },
-                  {
-                    "Operator": "AND",
-                    "Criterias": null,
-                    "Criterions": [
-                      {
                         "Comment": "nss_db is earlier than 0:2.28-251.0.3.el8_10.25"
                       },
                       {
@@ -5173,6 +5137,42 @@
                     "Criterias": null,
                     "Criterions": [
                       {
+                        "Comment": "libnsl is earlier than 0:2.28-251.0.3.el8_10.25"
+                      },
+                      {
+                        "Comment": "libnsl is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "glibc is earlier than 0:2.28-251.0.3.el8_10.25"
+                      },
+                      {
+                        "Comment": "glibc is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
+                        "Comment": "glibc-langpack-en is earlier than 0:2.28-251.0.3.el8_10.25"
+                      },
+                      {
+                        "Comment": "glibc-langpack-en is signed with the Oracle Linux 8 key"
+                      }
+                    ]
+                  },
+                  {
+                    "Operator": "AND",
+                    "Criterias": null,
+                    "Criterions": [
+                      {
                         "Comment": "nscd is earlier than 0:2.28-251.0.3.el8_10.25"
                       },
                       {
@@ -5205,6 +5205,8 @@
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2025-8058.html",
+      "Public": "20250723",
+      "CVSS3": "4.2/CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L",
       "ID": "CVE-2025-8058"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "Title": "ELSA-2025-12527:  virt:rhel and virt-devel:rhel security update (MODERATE)",
+  "Title": "ELSA-2025-12527:  virt:ol and virt-devel:ol security update (MODERATE)",
   "Description": "hivex\nlibguestfs\n[1.44.0-9.0.2]\n- libguestfs.spec: Add btrfs-progs RPM to appliance [Orabug: 35634755]\n\nlibguestfs-winsupport\n[8.10-1]\n- Rebase to ntfs-3g 2022.10.3\n- Fixes: CVE-2022-40284\n- resolves: rhbz#2236373\n\nlibiscsi\nlibnbd\n[1.6.0-6.el8]\n- Fix CVE-2024-7383 NBD server improper certificate validation\n  resolves: RHEL-52728\n\nlibtpms\nlibvirt\n[8.0.0-23.4.0.1]\n- Set SOURCE_DATE_EPOCH from changelog [Orabug: 32019554]\n- Add runtime deps for pkg librbd1 \u003e= 1:10.2.5 (Keshav Sharma)\n\nlibvirt-dbus\n[1.3.0-2.el8]\n- Resolves: bz#2000225\n  (Rebase virt:rhel module:stream based on AV-8.6)\n\nlibvirt-python\nnbdkit\nnetcf\nperl-Sys-Virt\nqemu-kvm\n[6.2.0-53.el8.4]\n- kvm-target-s390x-report-deprecated-props-in-cpu-model-ex.patch [RHEL-88701]\n- kvm-target-s390x-flag-te-and-cte-as-deprecated.patch [RHEL-88701]\n- kvm-target-s390x-filter-deprecated-properties-based-on-m.patch [RHEL-88701]\n- kvm-target-s390x-move-deprecated-props-to-CpuModelExpans.patch [RHEL-88701]\n- kvm-redhat-Adjust-indentation-in-qapi-machine-target.jso.patch [RHEL-88701]\n- Resolves: RHEL-88701\n  ([RHEL 8.10 qemu] KVM - Live migration of guest fails from z16-z17 [rhel-8.10.z])\n\nseabios\nsgabios\nsupermin\n[5.2.1-2.0.1.el8]\n- Rebuild [Orabug: 35720304]",
   "Platform": [
     "Oracle Linux 8"
@@ -3061,6 +3061,8 @@
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2025-49133.html",
+      "Public": "20250610",
+      "CVSS3": "5.9/CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:N/A:H",
       "ID": "CVE-2025-49133"
     }
   ],

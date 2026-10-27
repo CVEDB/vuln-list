@@ -645,18 +645,6 @@
                             "Criterias": null,
                             "Criterions": [
                               {
-                                "Comment": "python39-mod_wsgi is earlier than 0:4.7.1-5.module+el8.7.0+20870+babacad2"
-                              },
-                              {
-                                "Comment": "python39-mod_wsgi is signed with the Oracle Linux 8 key"
-                              }
-                            ]
-                          },
-                          {
-                            "Operator": "AND",
-                            "Criterias": null,
-                            "Criterions": [
-                              {
                                 "Comment": "python39-numpy is earlier than 0:1.19.4-3.module+el8.5.0+20364+c7fe1181"
                               },
                               {
@@ -951,6 +939,18 @@
                                 "Comment": "python39-wheel-wheel is signed with the Oracle Linux 8 key"
                               }
                             ]
+                          },
+                          {
+                            "Operator": "AND",
+                            "Criterias": null,
+                            "Criterions": [
+                              {
+                                "Comment": "python39-mod_wsgi is earlier than 0:4.7.1-5.module+el8.7.0+20870+babacad2"
+                              },
+                              {
+                                "Comment": "python39-mod_wsgi is signed with the Oracle Linux 8 key"
+                              }
+                            ]
                           }
                         ],
                         "Criterions": null
@@ -1009,6 +1009,8 @@
     {
       "Impact": "",
       "Href": "https://linux.oracle.com/cve/CVE-2023-24329.html",
+      "Public": "20230712",
+      "CVSS3": "0.0/CVSS:3.0/AV:N/AC:N/PR:N/UI:N/S:U/C:N/I:N/A:N",
       "ID": "CVE-2023-24329"
     }
   ],
