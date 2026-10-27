@@ -1,9 +1,6 @@
 {
  "Description": "The product uses a storable data element that does not have\n\t\t\t\t\tall of the associated functions or methods that are necessary to support\n\t\t\t\t\tcomparison.",
- "ExtendedDescription": [
-  "For example, with Java, a class that is made persistent requires both hashCode() and equals() methods to be defined.",
-  "This issue can prevent the product from running reliably, due to incorrect or unexpected comparison results.  If the relevant code is reachable by an attacker, then this reliability problem might introduce a vulnerability."
- ],
+ "ExtendedDescription": null,
  "RelatedWeaknesses": {
   "RelatedWeakness": [
    {
@@ -31,19 +28,32 @@
   ]
  },
  "ApplicablePlatforms": {
-  "Language": null,
+  "Language": [
+   {
+    "Name": "",
+    "Class": "Not Language-Specific",
+    "Prevalence": "Undetermined"
+   }
+  ],
   "OperatingSystem": null,
   "Architecture": null,
   "Technology": null
  },
  "BackgroundDetails": {
-  "BackgroundDetail": null
+  "BackgroundDetail": [
+   null
+  ]
  },
  "AlternateTerms": {
   "AlternateTerm": null
  },
  "ModesOfIntroduction": {
-  "Introduction": null
+  "Introduction": [
+   {
+    "Phase": "Implementation",
+    "Note": null
+   }
+  ]
  },
  "ExploitationFactors": {
   "ExploitationFactor": null
@@ -135,8 +145,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-02-24T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.0",
+    "ModificationReleaseDate": "2020-02-24T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -144,8 +154,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-08-20T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.2",
+    "ModificationReleaseDate": "2020-08-20T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -153,8 +163,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Description"
    },
@@ -162,8 +172,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -171,8 +181,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -184,6 +194,15 @@
     "ModificationReleaseDate": "2024-02-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Applicable_Platforms, Background_Details, Common_Consequences, Description, Time_of_Introduction"
    }
   ],
   "Contribution": null,

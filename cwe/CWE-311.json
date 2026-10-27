@@ -13,7 +13,12 @@
   ]
  },
  "WeaknessOrdinalities": {
-  "WeaknessOrdinality": null
+  "WeaknessOrdinality": [
+   {
+    "Ordinality": "Primary",
+    "Description": ""
+   }
+  ]
  },
  "ApplicablePlatforms": {
   "Language": [
@@ -288,6 +293,11 @@
  "ObservedExamples": {
   "ObservedExample": [
    {
+    "Reference": "CVE-2022-26390",
+    "Description": null,
+    "Link": "https://www.cve.org/CVERecord?id=CVE-2022-26390"
+   },
+   {
     "Reference": "CVE-2009-2272",
     "Description": null,
     "Link": "https://www.cve.org/CVERecord?id=CVE-2009-2272"
@@ -561,7 +571,16 @@
    ]
   },
   "Suggestions": {
-   "Suggestion": null
+   "Suggestion": [
+    {
+     "CWEID": 312,
+     "Comment": "unencrypted storage"
+    },
+    {
+     "CWEID": 319,
+     "Comment": "unencrypted transmission"
+    }
+   ]
   }
  },
  "Notes": {
@@ -586,8 +605,8 @@
     "ModificationName": "Eric Dalci",
     "ModificationOrganization": "Cigital",
     "ModificationDate": "2008-07-01T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.0",
+    "ModificationReleaseDate": "2008-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Time_of_Introduction"
    },
@@ -595,8 +614,8 @@
     "ModificationName": "",
     "ModificationOrganization": "Veracode",
     "ModificationDate": "2008-08-15T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.0",
+    "ModificationReleaseDate": "2008-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "Suggested OWASP Top Ten 2004 mapping"
    },
@@ -604,8 +623,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2008-09-08T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.0",
+    "ModificationReleaseDate": "2008-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Common_Consequences, Relationships, Other_Notes, Taxonomy_Mappings"
    },
@@ -613,8 +632,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2009-10-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.6",
+    "ModificationReleaseDate": "2009-10-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Common_Consequences, Other_Notes"
    },
@@ -622,8 +641,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2010-02-16T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.8",
+    "ModificationReleaseDate": "2010-02-16T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Applicable_Platforms, Common_Consequences, Demonstrative_Examples, Description, Detection_Factors, Likelihood_of_Exploit, Name, Observed_Examples, Potential_Mitigations, References, Related_Attack_Patterns, Relationships, Taxonomy_Mappings, Time_of_Introduction"
    },
@@ -631,8 +650,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2010-04-05T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.8.1",
+    "ModificationReleaseDate": "2010-04-05T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -640,8 +659,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2010-06-21T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.9",
+    "ModificationReleaseDate": "2010-06-21T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Common_Consequences, Potential_Mitigations, References"
    },
@@ -649,8 +668,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2010-09-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.10",
+    "ModificationReleaseDate": "2010-09-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations"
    },
@@ -658,8 +677,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2010-12-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.11",
+    "ModificationReleaseDate": "2010-12-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, Observed_Examples, Related_Attack_Patterns"
    },
@@ -667,8 +686,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2011-03-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.12",
+    "ModificationReleaseDate": "2011-03-30T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples"
    },
@@ -676,8 +695,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2011-06-01T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.13",
+    "ModificationReleaseDate": "2011-06-01T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships, Taxonomy_Mappings"
    },
@@ -685,8 +704,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2011-06-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.0",
+    "ModificationReleaseDate": "2011-06-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -694,8 +713,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2011-09-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.1",
+    "ModificationReleaseDate": "2011-09-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations, Relationships"
    },
@@ -703,8 +722,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2012-05-11T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.2",
+    "ModificationReleaseDate": "2012-05-15T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, References, Relationships, Taxonomy_Mappings"
    },
@@ -712,8 +731,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2012-10-30T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.3",
+    "ModificationReleaseDate": "2012-10-30T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations, References"
    },
@@ -721,8 +740,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2013-07-17T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.5",
+    "ModificationReleaseDate": "2013-07-17T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationship_Notes"
    },
@@ -730,8 +749,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2014-02-18T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.6",
+    "ModificationReleaseDate": "2014-02-19T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -739,8 +758,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2014-06-23T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.7",
+    "ModificationReleaseDate": "2014-06-23T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -748,8 +767,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2014-07-30T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.8",
+    "ModificationReleaseDate": "2014-07-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Detection_Factors, Relationships, Taxonomy_Mappings"
    },
@@ -757,8 +776,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2015-12-07T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.9",
+    "ModificationReleaseDate": "2015-12-07T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -766,8 +785,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2017-01-19T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.10",
+    "ModificationReleaseDate": "2017-01-19T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -775,8 +794,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2017-05-03T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.11",
+    "ModificationReleaseDate": "2017-05-05T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -784,8 +803,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2017-11-08T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.0",
+    "ModificationReleaseDate": "2017-11-08T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Likelihood_of_Exploit, Modes_of_Introduction, Potential_Mitigations, References, Relationships"
    },
@@ -793,8 +812,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2018-03-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.1",
+    "ModificationReleaseDate": "2018-03-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
    },
@@ -802,8 +821,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2019-01-03T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.2",
+    "ModificationReleaseDate": "2019-01-03T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns, Relationships, Taxonomy_Mappings"
    },
@@ -811,8 +830,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2019-06-20T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.3",
+    "ModificationReleaseDate": "2019-06-20T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns, Relationships, Type"
    },
@@ -820,8 +839,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-02-24T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.0",
+    "ModificationReleaseDate": "2020-02-24T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
    },
@@ -829,8 +848,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-12-10T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.3",
+    "ModificationReleaseDate": "2020-12-10T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations, Relationships"
    },
@@ -838,8 +857,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-10-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.6",
+    "ModificationReleaseDate": "2021-10-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -847,8 +866,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-06-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.8",
+    "ModificationReleaseDate": "2022-06-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -856,8 +875,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Description, Potential_Mitigations"
    },
@@ -865,8 +884,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
    },
@@ -874,8 +893,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes, Relationships"
    },
@@ -905,6 +924,24 @@
     "ModificationReleaseDate": "2025-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Detection_Factors, References"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Observed_Examples, Relationships, Weakness_Ordinalities"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2026-04-30T00:00:00Z",
+    "ModificationVersion": "4.20",
+    "ModificationReleaseDate": "2026-04-30T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Mapping_Notes"
    }
   ],
   "Contribution": [

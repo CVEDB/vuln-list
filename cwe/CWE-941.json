@@ -24,7 +24,12 @@
   ]
  },
  "WeaknessOrdinalities": {
-  "WeaknessOrdinality": null
+  "WeaknessOrdinality": [
+   {
+    "Ordinality": "Primary",
+    "Description": ""
+   }
+  ]
  },
  "ApplicablePlatforms": {
   "Language": [
@@ -67,7 +72,22 @@
  },
  "LikelihoodOfExploit": "",
  "CommonConsequences": {
-  "Consequence": null
+  "Consequence": [
+   {
+    "Scope": [
+     "Access Control",
+     "Other"
+    ],
+    "Impact": [
+     "Gain Privileges or Assume Identity",
+     "Varies by Context",
+     "Bypass Protection Mechanism"
+    ],
+    "Likelihood": "",
+    "Note": null,
+    "ConsequenceID": ""
+   }
+  ]
  },
  "DetectionMethods": {
   "DetectionMethod": null
@@ -170,8 +190,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2017-11-08T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.0",
+    "ModificationReleaseDate": "2017-11-08T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Modes_of_Introduction, References, Relationships"
    },
@@ -179,8 +199,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-02-24T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.0",
+    "ModificationReleaseDate": "2020-02-24T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Applicable_Platforms, Relationships"
    },
@@ -188,8 +208,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-03-15T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.4",
+    "ModificationReleaseDate": "2021-03-15T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Maintenance_Notes"
    },
@@ -197,8 +217,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Description"
    },
@@ -206,8 +226,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
    },
@@ -215,8 +235,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -228,6 +248,15 @@
     "ModificationReleaseDate": "2025-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Common_Consequences, Relationships, Weakness_Ordinalities"
    }
   ],
   "Contribution": null,

@@ -36,6 +36,11 @@
   "Technology": [
    {
     "Name": "",
+    "Class": "Not Technology-Specific",
+    "Prevalence": "Undetermined"
+   },
+   {
+    "Name": "",
     "Class": "Web Based",
     "Prevalence": "Sometimes"
    }
@@ -260,8 +265,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2018-03-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.1",
+    "ModificationReleaseDate": "2018-03-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, Description, References"
    },
@@ -269,8 +274,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2019-01-03T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.2",
+    "ModificationReleaseDate": "2019-01-03T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, Description, Related_Attack_Patterns"
    },
@@ -278,8 +283,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-02-24T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.0",
+    "ModificationReleaseDate": "2020-02-24T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Applicable_Platforms, Relationships"
    },
@@ -287,8 +292,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-06-25T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.1",
+    "ModificationReleaseDate": "2020-06-25T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Observed_Examples"
    },
@@ -296,8 +301,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-10-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.9",
+    "ModificationReleaseDate": "2022-10-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples"
    },
@@ -305,8 +310,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, Description, Related_Attack_Patterns"
    },
@@ -314,8 +319,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -323,8 +328,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -336,6 +341,15 @@
     "ModificationReleaseDate": "2025-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Applicable_Platforms"
    }
   ],
   "Contribution": null,

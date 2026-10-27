@@ -8,7 +8,7 @@
   "RelatedWeakness": [
    {
     "Nature": "ChildOf",
-    "CWEID": 284,
+    "CWEID": 266,
     "ViewID": 1000,
     "ChainID": 0,
     "Ordinal": "Primary"
@@ -16,7 +16,12 @@
   ]
  },
  "WeaknessOrdinalities": {
-  "WeaknessOrdinality": null
+  "WeaknessOrdinality": [
+   {
+    "Ordinality": "Primary",
+    "Description": ""
+   }
+  ]
  },
  "ApplicablePlatforms": {
   "Language": [
@@ -129,16 +134,16 @@
      "Consider that there are 4 agents named Agent 1, Agent 2, Agent 3, and Agent 4. For access control purposes Agent 1 is assigned to bit 1, Agent 2 to bit 2, Agent 3 to bit 3, and Agent 4 to bit 4. All agents are trusted except for Agent 3 who is untrusted. Also consider the register values in the below table."
     ],
     "BodyText": [
-     "IThe AES_KEY_CONTROL_POLICY register value is 0x00000018. In binary, the lower 8 bits will be 0001 1000, meaning that:",
+     "The AES_KEY_CONTROL_POLICY register value is 0x00000018. In binary, the lower 8 bits will be 0001 1000, meaning that:",
      "\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n               \t\t",
      "The AES_KEY_READ_POLICY register value is 0x00000002. In binary, the lower 8 bits will be 0000 0010, meaning that:",
      "\n\t\t\t\t\t\t\n               \t\t",
      "The AES_KEY_WRITE_POLICY register value is 0x00000004. In binary, the lower 8 bits will be 0000 0100, meaning that:",
      "\n\t\t\t\t\t\t\n               \t\t",
-     "The configured access control policy for Agents 1,2,3,4 is summarized in table below.",
+     "The configured access control policy for Agents 1,2,3,4 is summarized in the table below.",
      "\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t",
-     "At this point Agents 3 and 4 can only configure which agents can read AES keys and which agents can write AES keys. Agents 3 and 4 cannot read or write AES keys - just configure access control.",
-     "Now, recall Agent 3 is untrusted. As explained above, the value of the AES_KEY_CONTROL_POLICY register gives agent 3 access to write to the AES_KEY_WRITE_POLICY register. Agent 3 can use this write access to add themselves to the AES_KEY_WRITE_POLICY register. This is accomplished by Agent 3 writing the value 0x00000006. In binary, the lower 8 bits are 0000 0110, meaning that bit 3 will be set. Thus, giving Agent 3 having the ability to write to the AES Key registers.",
+     "At this point, Agents 3 and 4 can only configure which agents can read AES keys and which agents can write AES keys. Agents 3 and 4 cannot read or write AES keys - just configure access control.",
+     "Now, recall Agent 3 is untrusted. As explained above, the value of the AES_KEY_CONTROL_POLICY register gives agent 3 access to write to the AES_KEY_WRITE_POLICY register. Agent 3 can use this write access to add itself to the AES_KEY_WRITE_POLICY register. This is accomplished by Agent 3 writing the value 0x0000000C. In binary, the lower 8 bits are 0000 1100, meaning that bits 2 and 3 will be set. Thus, Agent 3 will be given the ability to write to the AES Key registers. If Agent 3 does not set bit 2, this would prevent Agent 2 from having write access, which could cause operational failures that could expose the attack (or be used for a denial of service).",
      "If the AES_KEY_CONTROL_POLICY register value is 0x00000010, the lower 8 bits will be 0001 0000. This will give Agent 4, a trusted agent, write access to AES_KEY_WRITE_POLICY, but Agent 3, who is untrusted, will not have write access. The Policy register values should therefore be as follows:"
     ],
     "ExampleCode": {
@@ -146,7 +151,7 @@
       "\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t",
       "\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t"
      ],
-     "Language": "",
+     "Language": "Other",
      "Nature": "Good"
     },
     "References": {
@@ -215,8 +220,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-08-20T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.2",
+    "ModificationReleaseDate": "2020-08-20T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, Description, Modes_of_Introduction, Name, Potential_Mitigations, Related_Attack_Patterns"
    },
@@ -224,8 +229,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-10-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.6",
+    "ModificationReleaseDate": "2021-10-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations"
    },
@@ -233,8 +238,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-04-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.7",
+    "ModificationReleaseDate": "2022-04-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -242,8 +247,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-10-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.9",
+    "ModificationReleaseDate": "2022-10-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples"
    },
@@ -251,8 +256,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples"
    },
@@ -260,8 +265,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -269,13 +274,41 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Demonstrative_Examples, Relationships, Weakness_Ordinalities"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2026-04-30T00:00:00Z",
+    "ModificationVersion": "4.20",
+    "ModificationReleaseDate": "2026-04-30T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Demonstrative_Examples"
    }
   ],
-  "Contribution": null,
+  "Contribution": [
+   {
+    "ContributionName": "Jagadish Nayak",
+    "ContributionOrganization": "Cycuity",
+    "ContributionDate": "2025-10-09T00:00:00Z",
+    "ContributionVersion": "4.20",
+    "ContributionReleaseDate": "2026-04-30T00:00:00Z",
+    "ContributionComment": "Reported an incorrect value for Agent 3 in the demonstrative example, and suggested an alternative.",
+    "Type": "Feedback"
+   }
+  ],
   "PreviousEntryName": [
    {
     "Value": "Agents Included in Control Policy are not Contained in Less-Privileged Policy",

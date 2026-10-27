@@ -20,7 +20,12 @@
   ]
  },
  "WeaknessOrdinalities": {
-  "WeaknessOrdinality": null
+  "WeaknessOrdinality": [
+   {
+    "Ordinality": "Primary",
+    "Description": ""
+   }
+  ]
  },
  "ApplicablePlatforms": {
   "Language": [
@@ -66,7 +71,12 @@
   "AlternateTerm": null
  },
  "ModesOfIntroduction": {
-  "Introduction": null
+  "Introduction": [
+   {
+    "Phase": "Architecture and Design",
+    "Note": null
+   }
+  ]
  },
  "ExploitationFactors": {
   "ExploitationFactor": null
@@ -187,8 +197,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-08-20T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.2",
+    "ModificationReleaseDate": "2020-08-20T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Applicable_Platforms, Demonstrative_Examples, Description, Research_Gaps"
    },
@@ -196,8 +206,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-12-10T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.3",
+    "ModificationReleaseDate": "2020-12-10T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -205,8 +215,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-03-15T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.4",
+    "ModificationReleaseDate": "2021-03-15T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples"
    },
@@ -214,8 +224,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -223,10 +233,19 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Time_of_Introduction, Weakness_Ordinalities"
    }
   ],
   "Contribution": null,

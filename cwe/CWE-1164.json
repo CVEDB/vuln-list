@@ -17,13 +17,23 @@
  "WeaknessOrdinalities": {
   "WeaknessOrdinality": [
    {
+    "Ordinality": "Resultant",
+    "Description": "Code might become accidentally irrelevant\n\t\t\t   due to other weaknesses, e.g. dead code or insecure\n\t\t\t   optimizations."
+   },
+   {
     "Ordinality": "Indirect",
     "Description": ""
    }
   ]
  },
  "ApplicablePlatforms": {
-  "Language": null,
+  "Language": [
+   {
+    "Name": "",
+    "Class": "Not Language-Specific",
+    "Prevalence": "Undetermined"
+   }
+  ],
   "OperatingSystem": null,
   "Architecture": null,
   "Technology": null
@@ -35,7 +45,12 @@
   "AlternateTerm": null
  },
  "ModesOfIntroduction": {
-  "Introduction": null
+  "Introduction": [
+   {
+    "Phase": "Implementation",
+    "Note": null
+   }
+  ]
  },
  "ExploitationFactors": {
   "ExploitationFactor": null
@@ -68,7 +83,15 @@
   ]
  },
  "DetectionMethods": {
-  "DetectionMethod": null
+  "DetectionMethod": [
+   {
+    "Method": "Automated Static Analysis",
+    "Description": null,
+    "Effectiveness": "",
+    "EffectivenessNotes": null,
+    "DetectionMethodID": "DM-14"
+   }
+  ]
  },
  "PotentialMitigations": {
   "Mitigation": null
@@ -165,8 +188,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-02-24T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.0",
+    "ModificationReleaseDate": "2020-02-24T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -174,8 +197,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-04-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.7",
+    "ModificationReleaseDate": "2022-04-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -183,8 +206,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Description"
    },
@@ -192,8 +215,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -201,8 +224,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -210,8 +233,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-10-26T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.13",
+    "ModificationReleaseDate": "2023-10-26T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Observed_Examples"
    },
@@ -223,6 +246,15 @@
     "ModificationReleaseDate": "2024-02-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Applicable_Platforms, Detection_Factors, Observed_Examples, Time_of_Introduction, Weakness_Ordinalities"
    }
   ],
   "Contribution": null,

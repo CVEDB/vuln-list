@@ -1,9 +1,6 @@
 {
  "Description": "The product imports, requires, or includes executable functionality (such as a library) from a source that is outside of the intended control sphere.",
- "ExtendedDescription": [
-  "When including third-party functionality, such as a web widget, library, or other source of functionality, the product must effectively trust that functionality. Without sufficient protection mechanisms, the functionality could be malicious in nature (either by coming from an untrusted source, being spoofed, or being modified in transit from a trusted source). The functionality might also contain its own weaknesses, or grant access to additional functionality and state information that should be kept private to the base system, such as system state information, sensitive application data, or the DOM of a web application.",
-  "This might lead to many different consequences depending on the included functionality, but some examples include injection of malware, information exposure by granting excessive privileges or permissions to the untrusted functionality, DOM-based XSS vulnerabilities, stealing user's cookies, or open redirect to malware (CWE-601)."
- ],
+ "ExtendedDescription": null,
  "RelatedWeaknesses": {
   "RelatedWeakness": [
    {
@@ -23,10 +20,25 @@
   ]
  },
  "WeaknessOrdinalities": {
-  "WeaknessOrdinality": null
+  "WeaknessOrdinality": [
+   {
+    "Ordinality": "Primary",
+    "Description": ""
+   },
+   {
+    "Ordinality": "Resultant",
+    "Description": ""
+   }
+  ]
  },
  "ApplicablePlatforms": {
-  "Language": null,
+  "Language": [
+   {
+    "Name": "",
+    "Class": "Not Language-Specific",
+    "Prevalence": "Undetermined"
+   }
+  ],
   "OperatingSystem": null,
   "Architecture": null,
   "Technology": null
@@ -465,7 +477,12 @@
   }
  },
  "Notes": {
-  "Note": null
+  "Note": [
+   {
+    "Items": null,
+    "Type": "Other"
+   }
+  ]
  },
  "ContentHistory": {
   "Submission": {
@@ -481,8 +498,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2011-06-01T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "1.13",
+    "ModificationReleaseDate": "2011-06-01T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Common_Consequences"
    },
@@ -490,8 +507,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2011-06-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.0",
+    "ModificationReleaseDate": "2011-06-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Common_Consequences, Demonstrative_Examples, Observed_Examples, Potential_Mitigations, Related_Attack_Patterns, Relationships"
    },
@@ -499,8 +516,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2011-09-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.1",
+    "ModificationReleaseDate": "2011-09-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations, References, Relationships"
    },
@@ -508,8 +525,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2012-05-11T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.2",
+    "ModificationReleaseDate": "2012-05-15T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, References, Related_Attack_Patterns, Relationships"
    },
@@ -517,8 +534,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2012-10-30T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.3",
+    "ModificationReleaseDate": "2012-10-30T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations"
    },
@@ -526,8 +543,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2014-07-30T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.8",
+    "ModificationReleaseDate": "2014-07-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Detection_Factors"
    },
@@ -535,8 +552,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2017-01-19T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.10",
+    "ModificationReleaseDate": "2017-01-19T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -544,8 +561,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2017-05-03T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "2.11",
+    "ModificationReleaseDate": "2017-05-05T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -553,8 +570,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2017-11-08T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.0",
+    "ModificationReleaseDate": "2017-11-08T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Modes_of_Introduction, Relationships"
    },
@@ -562,8 +579,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2019-01-03T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.2",
+    "ModificationReleaseDate": "2019-01-03T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -571,8 +588,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2019-06-20T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "3.3",
+    "ModificationReleaseDate": "2019-06-20T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns, Relationships, Type"
    },
@@ -580,8 +597,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-02-24T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.0",
+    "ModificationReleaseDate": "2020-02-24T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations, Relationships"
    },
@@ -589,8 +606,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-06-25T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.1",
+    "ModificationReleaseDate": "2020-06-25T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations"
    },
@@ -598,8 +615,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-03-15T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.4",
+    "ModificationReleaseDate": "2021-03-15T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Potential_Mitigations, Related_Attack_Patterns"
    },
@@ -607,8 +624,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-10-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.6",
+    "ModificationReleaseDate": "2021-10-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -616,8 +633,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-10-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.9",
+    "ModificationReleaseDate": "2022-10-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Related_Attack_Patterns"
    },
@@ -625,8 +642,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Description, Related_Attack_Patterns"
    },
@@ -634,8 +651,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
    },
@@ -643,8 +660,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -656,6 +673,24 @@
     "ModificationReleaseDate": "2025-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Detection_Factors, Potential_Mitigations, References"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Applicable_Platforms, Common_Consequences, Description, Diagram, Other_Notes, Relationships, Weakness_Ordinalities"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2026-01-21T00:00:00Z",
+    "ModificationVersion": "4.19.1",
+    "ModificationReleaseDate": "2026-01-21T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Relationships"
    }
   ],
   "Contribution": null,
@@ -666,5 +701,5 @@
  "Abstraction": "Base",
  "Structure": "Simple",
  "Status": "Incomplete",
- "Diagram": ""
+ "Diagram": "/data/images/CWE-829-Diagram.png"
 }

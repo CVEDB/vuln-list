@@ -17,7 +17,12 @@
   ]
  },
  "WeaknessOrdinalities": {
-  "WeaknessOrdinality": null
+  "WeaknessOrdinality": [
+   {
+    "Ordinality": "Primary",
+    "Description": ""
+   }
+  ]
  },
  "ApplicablePlatforms": {
   "Language": null,
@@ -116,7 +121,49 @@
   ]
  },
  "DemonstrativeExamples": {
-  "DemonstrativeExample": null
+  "DemonstrativeExample": [
+   {
+    "TitleText": "",
+    "IntroText": null,
+    "BodyText": null,
+    "ExampleCode": {
+     "Items": [
+      "",
+      "",
+      "",
+      "\n            load_runtime_firmware();\n\t\t  ",
+      "",
+      "",
+      "",
+      "\n            do_not_load_runtime_firmware();\n\t\t  ",
+      "",
+      "",
+      "",
+      "If the underlying hardware detects a voltage or clock glitch, the information can be used to prevent the glitch from being successful."
+     ],
+     "Language": "Other",
+     "Nature": "Good"
+    },
+    "References": {
+     "Reference": null
+    },
+    "DemonstrativeExampleID": "DX-234"
+   },
+   {
+    "TitleText": "",
+    "IntroText": null,
+    "BodyText": null,
+    "ExampleCode": {
+     "Items": null,
+     "Language": "",
+     "Nature": ""
+    },
+    "References": {
+     "Reference": null
+    },
+    "DemonstrativeExampleID": "DX-235"
+   }
+  ]
  },
  "ObservedExamples": {
   "ObservedExample": [
@@ -156,6 +203,10 @@
    {
     "ExternalReferenceID": "REF-1286",
     "Section": "1.2"
+   },
+   {
+    "ExternalReferenceID": "REF-1101",
+    "Section": ""
    }
   ]
  },
@@ -191,8 +242,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-06-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.8",
+    "ModificationReleaseDate": "2022-06-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Description, Name, Potential_Mitigations, Relationships, Type"
    },
@@ -200,8 +251,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-10-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.9",
+    "ModificationReleaseDate": "2022-10-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References"
    },
@@ -209,8 +260,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Applicable_Platforms, Relationships"
    },
@@ -218,8 +269,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -227,8 +278,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -236,8 +287,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-10-26T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.13",
+    "ModificationReleaseDate": "2023-10-26T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Observed_Examples"
    },
@@ -249,6 +300,15 @@
     "ModificationReleaseDate": "2025-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Demonstrative_Examples, References, Weakness_Ordinalities"
    }
   ],
   "Contribution": [

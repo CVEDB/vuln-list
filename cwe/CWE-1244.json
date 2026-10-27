@@ -1,8 +1,7 @@
 {
  "Description": "The product uses physical debug or test\n        interfaces with support for multiple access levels, but it\n        assigns the wrong debug access level to an internal asset,\n        providing unintended access to the asset from untrusted debug\n        agents.",
  "ExtendedDescription": [
-  "Debug authorization can have multiple levels of\n\t  access, defined such that different system internal assets\n\t  are accessible based on the current authorized debug\n\t  level. Other than debugger authentication (e.g., using\n\t  passwords or challenges), the authorization can also be\n\t  based on the system state or boot stage. For example, full\n\t  system debug access might only be allowed early in boot\n\t  after a system reset to ensure that previous session data is\n\t  not accessible to the authenticated debugger.",
-  "If this protection mechanism does not ensure that\n          internal assets have the correct debug access level during\n          each boot stage or change in system state, an attacker could\n          obtain sensitive information from the internal asset using a\n          debugger."
+  "Debug authorization can have multiple levels of\n\t  access, defined such that different system internal assets\n\t  are accessible based on the current authorized debug\n\t  level. Other than debugger authentication (e.g., using\n\t  passwords or challenges), the authorization can also be\n\t  based on the system state or boot stage. For example, full\n\t  system debug access might only be allowed early in boot\n\t  after a system reset to ensure that previous session data is\n\t  not accessible to the authenticated debugger."
  ],
  "RelatedWeaknesses": {
   "RelatedWeakness": [
@@ -306,8 +305,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-08-20T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.2",
+    "ModificationReleaseDate": "2020-08-20T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, Name, Observed_Examples, Related_Attack_Patterns"
    },
@@ -315,8 +314,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-03-15T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.4",
+    "ModificationReleaseDate": "2021-03-15T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Maintenance_Notes"
    },
@@ -324,8 +323,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2021-10-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.6",
+    "ModificationReleaseDate": "2021-10-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Demonstrative_Examples, Description, Detection_Factors, Maintenance_Notes, Name, Observed_Examples, Potential_Mitigations, References, Relationship_Notes, Relationships, Weakness_Ordinalities"
    },
@@ -333,8 +332,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-04-28T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.7",
+    "ModificationReleaseDate": "2022-04-28T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Related_Attack_Patterns"
    },
@@ -342,8 +341,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
    },
@@ -351,8 +350,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -373,6 +372,15 @@
     "ModificationReleaseDate": "2025-09-09T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Common_Consequences, Description"
    }
   ],
   "Contribution": [

@@ -1,8 +1,6 @@
 {
  "Description": "The product has multiple functions, methods, procedures, macros, etc. that\n\t\t\t\t\tcontain the same code.",
- "ExtendedDescription": [
-  "This issue makes it more difficult to maintain the product, which indirectly affects security by making it more difficult or time-consuming to find and/or fix vulnerabilities.  For example, if there are two copies of the same code, the programmer might fix a weakness in one copy while forgetting to fix the same weakness in another copy."
- ],
+ "ExtendedDescription": null,
  "RelatedWeaknesses": {
   "RelatedWeakness": [
    {
@@ -41,7 +39,12 @@
   "AlternateTerm": null
  },
  "ModesOfIntroduction": {
-  "Introduction": null
+  "Introduction": [
+   {
+    "Phase": "Implementation",
+    "Note": null
+   }
+  ]
  },
  "ExploitationFactors": {
   "ExploitationFactor": null
@@ -63,7 +66,15 @@
   ]
  },
  "DetectionMethods": {
-  "DetectionMethod": null
+  "DetectionMethod": [
+   {
+    "Method": "Automated Static Analysis",
+    "Description": null,
+    "Effectiveness": "",
+    "EffectivenessNotes": null,
+    "DetectionMethodID": "DM-14"
+   }
+  ]
  },
  "PotentialMitigations": {
   "Mitigation": [
@@ -162,8 +173,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2020-08-20T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.2",
+    "ModificationReleaseDate": "2020-08-20T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Relationships"
    },
@@ -171,8 +182,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2022-10-13T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.9",
+    "ModificationReleaseDate": "2022-10-13T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Applicable_Platforms, Demonstrative_Examples, Potential_Mitigations"
    },
@@ -180,8 +191,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-01-31T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.10",
+    "ModificationReleaseDate": "2023-01-31T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Description"
    },
@@ -189,8 +200,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-04-27T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.11",
+    "ModificationReleaseDate": "2023-04-27T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated References, Relationships"
    },
@@ -198,8 +209,8 @@
     "ModificationName": "CWE Content Team",
     "ModificationOrganization": "MITRE",
     "ModificationDate": "2023-06-29T00:00:00Z",
-    "ModificationVersion": "",
-    "ModificationReleaseDate": "0001-01-01T00:00:00Z",
+    "ModificationVersion": "4.12",
+    "ModificationReleaseDate": "2023-06-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
    },
@@ -211,6 +222,15 @@
     "ModificationReleaseDate": "2024-02-29T00:00:00Z",
     "ModificationImportance": "",
     "ModificationComment": "updated Mapping_Notes"
+   },
+   {
+    "ModificationName": "CWE Content Team",
+    "ModificationOrganization": "MITRE",
+    "ModificationDate": "2025-12-11T00:00:00Z",
+    "ModificationVersion": "4.19",
+    "ModificationReleaseDate": "2025-12-11T00:00:00Z",
+    "ModificationImportance": "",
+    "ModificationComment": "updated Common_Consequences, Description, Detection_Factors, Time_of_Introduction"
    }
   ],
   "Contribution": [
