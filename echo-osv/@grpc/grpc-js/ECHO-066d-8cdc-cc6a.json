@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-066d-8cdc-cc6a",
+  "modified": "2026-10-07T00:00:23.089Z",
+  "upstream": [
+    "CVE-2024-37168",
+    "GHSA-7v5v-9h63-cj86"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "@grpc/grpc-js",
+        "purl": "pkg:npm/%40grpc/grpc-js"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.8.22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2024-37168"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-7v5v-9h63-cj86"
+    }
+  ]
+}

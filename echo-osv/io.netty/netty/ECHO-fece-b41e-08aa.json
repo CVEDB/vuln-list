@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-fece-b41e-08aa",
+  "modified": "2026-10-07T22:44:13.564Z",
+  "withdrawn": "2026-10-07T22:44:13.564Z",
+  "upstream": [
+    "CVE-2019-20445",
+    "GHSA-p2v9-g2qv-p635"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2019-20445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-p2v9-g2qv-p635"
+    }
+  ]
+}

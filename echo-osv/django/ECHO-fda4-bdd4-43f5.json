@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-fda4-bdd4-43f5",
+  "modified": "2026-10-16T09:50:03.978Z",
+  "upstream": [
+    "CVE-2026-15307",
+    "GHSA-wvqv-fj8w-qmhm"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:PyPI",
+        "name": "django",
+        "purl": "pkg:pypi/django"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1+echo.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-15307"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-wvqv-fj8w-qmhm"
+    }
+  ]
+}

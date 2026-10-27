@@ -1,0 +1,36 @@
+{
+  "id": "ECHO-4c54-3bba-f75d",
+  "modified": "2026-10-08T12:22:22.149Z",
+  "upstream": [
+    "CVE-2025-48924",
+    "GHSA-j288-q9x7-2f5v"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.apache.commons:commons-lang3",
+        "purl": "pkg:maven/org.apache.commons/commons-lang3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.18.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2025-48924"
+    }
+  ]
+}

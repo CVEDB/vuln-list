@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-fee7-cbd6-d0aa",
+  "modified": "2026-10-16T09:49:56.539Z",
+  "upstream": [
+    "CVE-2026-92934",
+    "GHSA-x965-fc75-jpqh"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0+echo.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-92934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-x965-fc75-jpqh"
+    }
+  ]
+}

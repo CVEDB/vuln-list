@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-598a-bd90-49ac",
+  "modified": "2026-10-14T14:57:04.376Z",
+  "upstream": [
+    "CVE-2026-42039",
+    "GHSA-62hf-57xw-28j9"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "axios",
+        "purl": "pkg:npm/axios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.1+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-42039"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-62hf-57xw-28j9"
+    }
+  ]
+}

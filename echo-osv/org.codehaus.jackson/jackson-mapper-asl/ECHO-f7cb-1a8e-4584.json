@@ -1,0 +1,34 @@
+{
+  "id": "ECHO-f7cb-1a8e-4584",
+  "modified": "2026-10-08T12:22:22.149Z",
+  "withdrawn": "2026-10-08T12:22:22.149Z",
+  "upstream": [
+    "CVE-2019-10172",
+    "GHSA-r6j9-8759-g62w"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.codehaus.jackson:jackson-mapper-asl",
+        "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2019-10172"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-ef0e-9d96-89f2",
+  "modified": "2026-10-16T09:49:56.539Z",
+  "upstream": [
+    "CVE-2026-92955",
+    "GHSA-88hf-g992-jg85"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0+echo.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-92955"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-88hf-g992-jg85"
+    }
+  ]
+}

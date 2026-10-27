@@ -1,0 +1,56 @@
+{
+  "id": "ECHO-e106-5b29-8a6f",
+  "modified": "2026-10-15T00:00:41.581Z",
+  "upstream": [
+    "CVE-2026-27448",
+    "GHSA-vp96-hxj8-p424"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:PyPI",
+        "name": "pyopenssl",
+        "purl": "pkg:pypi/pyopenssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "24.2.1+echo.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Echo:PyPI",
+        "name": "pyOpenSSL",
+        "purl": "pkg:pypi/pyopenssl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-27448"
+    }
+  ]
+}

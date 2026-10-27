@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-4633-35ae-fcc7",
+  "modified": "2026-10-08T12:22:22.149Z",
+  "withdrawn": "2026-10-08T12:22:22.149Z",
+  "upstream": [
+    "CVE-2020-36843",
+    "GHSA-p53j-g8pw-4w5f"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "net.i2p.crypto:eddsa",
+        "purl": "pkg:maven/net.i2p.crypto/eddsa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2020-36843"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-p53j-g8pw-4w5f"
+    }
+  ]
+}

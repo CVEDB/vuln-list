@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-6675-6af4-6c95",
+  "modified": "2026-10-07T22:44:13.564Z",
+  "withdrawn": "2026-10-07T22:44:13.564Z",
+  "upstream": [
+    "CVE-2021-37136",
+    "GHSA-grg4-wf29-r9vv"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2021-37136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-grg4-wf29-r9vv"
+    }
+  ]
+}

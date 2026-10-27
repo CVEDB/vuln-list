@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-e536-c6d0-c60b",
+  "modified": "2026-10-07T00:00:36.917Z",
+  "upstream": [
+    "CVE-2026-104844",
+    "GHSA-rj75-hqrm-r3gf"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "postcss-selector-parser",
+        "purl": "pkg:npm/postcss-selector-parser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-104844"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf"
+    }
+  ]
+}

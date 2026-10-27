@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-fa1b-f623-7bc9",
+  "modified": "2026-10-07T22:44:13.564Z",
+  "withdrawn": "2026-10-07T22:44:13.564Z",
+  "upstream": [
+    "CVE-2019-20444",
+    "GHSA-cqqj-4p63-rrmm"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2019-20444"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-cqqj-4p63-rrmm"
+    }
+  ]
+}

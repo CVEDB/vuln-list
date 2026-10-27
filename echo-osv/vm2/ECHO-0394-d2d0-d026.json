@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-0394-d2d0-d026",
+  "modified": "2026-10-16T09:49:56.539Z",
+  "upstream": [
+    "CVE-2026-92956",
+    "GHSA-wjwh-qqvp-g4p4"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0+echo.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-92956"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-wjwh-qqvp-g4p4"
+    }
+  ]
+}

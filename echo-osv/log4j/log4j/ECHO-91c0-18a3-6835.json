@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-91c0-18a3-6835",
+  "modified": "2026-10-08T13:42:08.030Z",
+  "withdrawn": "2026-10-08T13:42:08.030Z",
+  "upstream": [
+    "CVE-2022-23302",
+    "GHSA-w9p3-5cr8-m3jj"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "log4j:log4j",
+        "purl": "pkg:maven/log4j/log4j"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2022-23302"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-w9p3-5cr8-m3jj"
+    }
+  ]
+}

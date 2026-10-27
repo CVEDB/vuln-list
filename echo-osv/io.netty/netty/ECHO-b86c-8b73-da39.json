@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-b86c-8b73-da39",
+  "modified": "2026-10-07T22:44:13.564Z",
+  "withdrawn": "2026-10-07T22:44:13.564Z",
+  "upstream": [
+    "CVE-2019-16869",
+    "GHSA-p979-4mfw-53vg"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2019-16869"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-p979-4mfw-53vg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-9e12-62af-9330",
+  "modified": "2026-10-07T22:44:13.564Z",
+  "withdrawn": "2026-10-07T22:44:13.564Z",
+  "upstream": [
+    "CVE-2021-43797",
+    "GHSA-wx5j-54mm-rqqq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2021-43797"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-wx5j-54mm-rqqq"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-bd4e-a735-8188",
+  "modified": "2026-10-16T12:33:28.815Z",
+  "upstream": [
+    "CVE-2026-100723",
+    "GHSA-489w-w794-jq94"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0+echo.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-100723"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-489w-w794-jq94"
+    }
+  ]
+}

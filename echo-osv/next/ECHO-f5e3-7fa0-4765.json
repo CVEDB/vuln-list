@@ -1,0 +1,39 @@
+{
+  "id": "ECHO-f5e3-7fa0-4765",
+  "modified": "2026-10-07T00:01:12.662Z",
+  "upstream": [
+    "GHSA-vcvr-r3jv-pc5j"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "next",
+        "purl": "pkg:npm/next"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.3.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/GHSA-vcvr-r3jv-pc5j"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-vcvr-r3jv-pc5j"
+    }
+  ]
+}

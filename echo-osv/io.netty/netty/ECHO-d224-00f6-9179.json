@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-d224-00f6-9179",
+  "modified": "2026-10-07T22:44:13.564Z",
+  "withdrawn": "2026-10-07T22:44:13.564Z",
+  "upstream": [
+    "CVE-2021-21295",
+    "GHSA-wm47-8v5p-wjpj"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "io.netty:netty",
+        "purl": "pkg:maven/io.netty/netty"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2021-21295"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-wm47-8v5p-wjpj"
+    }
+  ]
+}

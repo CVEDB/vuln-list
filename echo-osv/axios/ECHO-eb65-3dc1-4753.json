@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-eb65-3dc1-4753",
+  "modified": "2026-10-14T14:57:04.376Z",
+  "upstream": [
+    "CVE-2025-62718",
+    "GHSA-3p68-rc4w-qgx5"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "axios",
+        "purl": "pkg:npm/axios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.14.0+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2025-62718"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5"
+    }
+  ]
+}

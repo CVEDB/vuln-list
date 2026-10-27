@@ -1,0 +1,38 @@
+{
+  "id": "ECHO-bb8a-706a-846a",
+  "modified": "2026-10-08T12:22:22.149Z",
+  "withdrawn": "2026-10-08T12:22:22.149Z",
+  "upstream": [
+    "CVE-2026-14682",
+    "GHSA-4hc3-69f9-4wfx"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.bouncycastle:bc-fips",
+        "purl": "pkg:maven/org.bouncycastle/bc-fips"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-14682"
+    },
+    {
+      "type": "WEB",
+      "url": "https://getsafety.com/vulnerabilities/SFTY-20260803-82847/CVE-2026-14682"
+    }
+  ]
+}

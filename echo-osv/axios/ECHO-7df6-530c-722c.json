@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-7df6-530c-722c",
+  "modified": "2026-10-21T14:41:51.461Z",
+  "upstream": [
+    "CVE-2026-67320",
+    "GHSA-gcfj-64vw-6mp9"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "axios",
+        "purl": "pkg:npm/axios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.16.0+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-67320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-gcfj-64vw-6mp9"
+    }
+  ]
+}

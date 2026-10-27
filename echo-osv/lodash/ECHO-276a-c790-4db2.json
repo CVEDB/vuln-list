@@ -1,0 +1,60 @@
+{
+  "id": "ECHO-276a-c790-4db2",
+  "modified": "2026-10-19T12:00:07.689Z",
+  "upstream": [
+    "CVE-2026-4800",
+    "GHSA-r5fr-rjxr-66jc"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "lodash",
+        "purl": "pkg:npm/lodash"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.17.21+echo.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "lodash-es",
+        "purl": "pkg:npm/lodash-es"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.17.21+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-4800"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-8ffe-c246-e62c",
+  "modified": "2026-10-19T00:00:17.718Z",
+  "upstream": [
+    "CVE-2024-52798",
+    "GHSA-rhx6-c78j-4q9w"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "path-to-regexp",
+        "purl": "pkg:npm/path-to-regexp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2024-52798"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-rhx6-c78j-4q9w"
+    }
+  ]
+}

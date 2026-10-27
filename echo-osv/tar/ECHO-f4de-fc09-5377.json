@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-f4de-fc09-5377",
+  "modified": "2026-10-08T12:22:22.088Z",
+  "upstream": [
+    "CVE-2026-23950",
+    "GHSA-r6q2-hw4h-h46w"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "tar",
+        "purl": "pkg:npm/tar"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.5.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-23950"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-r6q2-hw4h-h46w"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-4230-283f-f661",
+  "modified": "2026-10-08T12:22:22.088Z",
+  "upstream": [
+    "CVE-2026-26318",
+    "GHSA-5vv4-hvf7-2h46"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "systeminformation",
+        "purl": "pkg:npm/systeminformation"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.31.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-26318"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-5vv4-hvf7-2h46"
+    }
+  ]
+}

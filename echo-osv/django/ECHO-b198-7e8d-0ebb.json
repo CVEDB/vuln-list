@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-b198-7e8d-0ebb",
+  "modified": "2026-10-16T08:29:56.915Z",
+  "upstream": [
+    "CVE-2026-15830",
+    "GHSA-q238-5cxm-5c9h"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:PyPI",
+        "name": "django",
+        "purl": "pkg:pypi/django"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.2.1+echo.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-15830"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-q238-5cxm-5c9h"
+    }
+  ]
+}

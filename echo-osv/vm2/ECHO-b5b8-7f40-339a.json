@@ -1,0 +1,39 @@
+{
+  "id": "ECHO-b5b8-7f40-339a",
+  "modified": "2026-10-16T07:49:58.087Z",
+  "upstream": [
+    "GHSA-q3fm-4wcw-g57x"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0+echo.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/GHSA-q3fm-4wcw-g57x"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-q3fm-4wcw-g57x"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-0f0b-25d6-437d",
+  "modified": "2026-10-16T07:49:58.087Z",
+  "upstream": [
+    "CVE-2026-92954",
+    "GHSA-gjq8-xm47-88rc"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:npm",
+        "name": "vm2",
+        "purl": "pkg:npm/vm2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.0+echo.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-92954"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-gjq8-xm47-88rc"
+    }
+  ]
+}
