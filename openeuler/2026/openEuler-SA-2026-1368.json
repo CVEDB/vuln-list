@@ -1,0 +1,142 @@
+{
+  "Title": "An update for xmpcore is now available for openEuler-20.03-LTS-SP4",
+  "Type": "Security Advisory",
+  "Publisher": {
+    "ContactDetails": "openeuler-security@openeuler.org",
+    "IssuingAuthority": "openEuler security committee"
+  },
+  "Tracking": {
+    "ID": "openEuler-SA-2026-1368",
+    "Status": "Final",
+    "Version": "1.0",
+    "InitialReleaseDate": "2026-02-13",
+    "CurrentReleaseDate": "2026-02-13",
+    "Generator": {
+      "Engine": "openEuler SA Tool V1.0",
+      "Date": "2026-02-13"
+    },
+    "RevisionHistory": [
+      {
+        "Number": "1.0",
+        "Date": "2026-02-13",
+        "Description": "Initial"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "xmpcore security update",
+      "Title": "Synopsis",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for xmpcore is now available for openEuler-20.03-LTS-SP4",
+      "Title": "Summary",
+      "Type": "General"
+    },
+    {
+      "Text": "The XMP Library for Java is based on the C++ XMPCore library and the API is similar.\n\nSecurity Fix(es):\n\nXMPCore in Adobe XMP Toolkit for Java before 5.1.3 allows remote attackers to read arbitrary files via XML data containing an external entity declaration in conjunction with an entity reference, related to an XML External Entity (XXE) issue.(CVE-2016-4216)",
+      "Title": "Description",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for xmpcore is now available for openEuler-20.03-LTS-SP4.\n\nopenEuler Security has rated this update as having a security impact of high. A Common Vunlnerability Scoring System(CVSS)base score,which gives a detailed severity rating, is available for each vulnerability from the CVElink(s) in the References section.",
+      "Title": "Topic",
+      "Type": "General"
+    },
+    {
+      "Text": "High",
+      "Title": "Severity",
+      "Type": "General"
+    },
+    {
+      "Text": "xmpcore",
+      "Title": "Affected Component",
+      "Type": "General"
+    }
+  ],
+  "ProductTree": {
+    "Branches": [
+      {
+        "Type": "Product Name",
+        "Name": "openEuler",
+        "Productions": [
+          {
+            "ProductID": "openEuler-20.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "openEuler-20.03-LTS-SP4"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "noarch",
+        "Productions": [
+          {
+            "ProductID": "xmpcore-6.1.10-1",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xmpcore-6.1.10-1.oe2003sp4.noarch.rpm"
+          },
+          {
+            "ProductID": "xmpcore-javadoc-6.1.10-1",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xmpcore-javadoc-6.1.10-1.oe2003sp4.noarch.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "src",
+        "Productions": [
+          {
+            "ProductID": "xmpcore-6.1.10-1",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xmpcore-6.1.10-1.oe2003sp4.src.rpm"
+          }
+        ]
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1368"
+    },
+    {
+      "URL": "https://www.openeuler.org/en/security/cve/detail/?cveId=CVE-2016-4216"
+    },
+    {
+      "URL": "https://nvd.nist.gov/vuln/detail/CVE-2016-4216"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2016-4216",
+      "Note": "XMPCore in Adobe XMP Toolkit for Java before 5.1.3 allows remote attackers to read arbitrary files via XML data containing an external entity declaration in conjunction with an entity reference, related to an XML External Entity (XXE) issue.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-20.03-LTS-SP4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xmpcore security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1368"
+      }
+    }
+  ]
+}

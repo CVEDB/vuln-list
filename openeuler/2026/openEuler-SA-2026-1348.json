@@ -1,0 +1,493 @@
+{
+  "Title": "An update for munge is now available for openEuler-20.03-LTS-SP4,openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1,openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3",
+  "Type": "Security Advisory",
+  "Publisher": {
+    "ContactDetails": "openeuler-security@openeuler.org",
+    "IssuingAuthority": "openEuler security committee"
+  },
+  "Tracking": {
+    "ID": "openEuler-SA-2026-1348",
+    "Status": "Final",
+    "Version": "1.0",
+    "InitialReleaseDate": "2026-02-13",
+    "CurrentReleaseDate": "2026-02-13",
+    "Generator": {
+      "Engine": "openEuler SA Tool V1.0",
+      "Date": "2026-02-13"
+    },
+    "RevisionHistory": [
+      {
+        "Number": "1.0",
+        "Date": "2026-02-13",
+        "Description": "Initial"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "munge security update",
+      "Title": "Synopsis",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for munge is now available for openEuler-20.03-LTS-SP4,openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1,openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3",
+      "Title": "Summary",
+      "Type": "General"
+    },
+    {
+      "Text": "MUNGE (MUNGE Uid \u0026apos;N\u0026apos; Gid Emporium) is an authentication service for creating\nand validating credentials. It is designed to be highly scalable for use\nin an HPC cluster environment.\nIt allows a process to authenticate the UID and GID of another local or\nremote process within a group of hosts having common users and groups.\nThese hosts form a security realm that is defined by a shared cryptographic\nkey. Clients within this security realm can create and validate credentials\nwithout the use of root privileges, reserved ports, or platform-specific\nmethods.\n\nSecurity Fix(es):\n\nMUNGE is an authentication service for creating and validating user credentials. From 0.5 to 0.5.17, local attacker can exploit a buffer overflow vulnerability in munged (the MUNGE authentication daemon) to leak cryptographic key material from process memory. With the leaked key material, the attacker could forge arbitrary MUNGE credentials to impersonate any user (including root) to services that rely on MUNGE for authentication. The vulnerability allows a buffer overflow by sending a crafted message with an oversized address length field, corrupting munged's internal state and enabling extraction of the MAC subkey used for credential verification. This vulnerability is fixed in 0.5.18.(CVE-2026-25506)",
+      "Title": "Description",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for munge is now available for openEuler-20.03-LTS-SP4,openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1,openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3.\n\nopenEuler Security has rated this update as having a security impact of high. A Common Vunlnerability Scoring System(CVSS)base score,which gives a detailed severity rating, is available for each vulnerability from the CVElink(s) in the References section.",
+      "Title": "Topic",
+      "Type": "General"
+    },
+    {
+      "Text": "High",
+      "Title": "Severity",
+      "Type": "General"
+    },
+    {
+      "Text": "munge",
+      "Title": "Affected Component",
+      "Type": "General"
+    }
+  ],
+  "ProductTree": {
+    "Branches": [
+      {
+        "Type": "Product Name",
+        "Name": "openEuler",
+        "Productions": [
+          {
+            "ProductID": "openEuler-20.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "openEuler-20.03-LTS-SP4"
+          },
+          {
+            "ProductID": "openEuler-22.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "openEuler-22.03-LTS-SP4"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "openEuler-24.03-LTS"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP1",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "openEuler-24.03-LTS-SP1"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "openEuler-24.03-LTS-SP2"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP3",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "openEuler-24.03-LTS-SP3"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "aarch64",
+        "Productions": [
+          {
+            "ProductID": "munge-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-0.5.14-2.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-debuginfo-0.5.14-2.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-debugsource-0.5.14-2.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-devel-0.5.14-2.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-libs-0.5.14-2.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-0.5.14-2.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-debuginfo-0.5.14-2.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-debugsource-0.5.14-2.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-devel-0.5.14-2.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-libs-0.5.14-2.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-0.5.15-2.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-debugsource-0.5.15-2.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-devel-0.5.15-2.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-libs-0.5.15-2.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-0.5.15-2.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-debugsource-0.5.15-2.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-devel-0.5.15-2.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-libs-0.5.15-2.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-0.5.15-2.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-debugsource-0.5.15-2.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-devel-0.5.15-2.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-libs-0.5.15-2.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-0.5.15-2.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-debugsource-0.5.15-2.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-devel-0.5.15-2.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-libs-0.5.15-2.oe2403sp3.aarch64.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "src",
+        "Productions": [
+          {
+            "ProductID": "munge-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-0.5.14-2.oe2003sp4.src.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-0.5.14-2.oe2203sp4.src.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-0.5.15-2.oe2403.src.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-0.5.15-2.oe2403sp1.src.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-0.5.15-2.oe2403sp2.src.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-0.5.15-2.oe2403sp3.src.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "x86_64",
+        "Productions": [
+          {
+            "ProductID": "munge-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-0.5.14-2.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-debuginfo-0.5.14-2.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-debugsource-0.5.14-2.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-devel-0.5.14-2.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "munge-libs-0.5.14-2.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-0.5.14-2.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-debuginfo-0.5.14-2.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-debugsource-0.5.14-2.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-devel-0.5.14-2.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.14-2",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "munge-libs-0.5.14-2.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-0.5.15-2.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-debugsource-0.5.15-2.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-devel-0.5.15-2.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "munge-libs-0.5.15-2.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-0.5.15-2.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-debugsource-0.5.15-2.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-devel-0.5.15-2.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "munge-libs-0.5.15-2.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-0.5.15-2.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-debugsource-0.5.15-2.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-devel-0.5.15-2.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "munge-libs-0.5.15-2.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-0.5.15-2.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debuginfo-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-debuginfo-0.5.15-2.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-debugsource-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-debugsource-0.5.15-2.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-devel-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-devel-0.5.15-2.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "munge-libs-0.5.15-2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "munge-libs-0.5.15-2.oe2403sp3.x86_64.rpm"
+          }
+        ]
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1348"
+    },
+    {
+      "URL": "https://www.openeuler.org/en/security/cve/detail/?cveId=CVE-2026-25506"
+    },
+    {
+      "URL": "https://nvd.nist.gov/vuln/detail/CVE-2026-25506"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2026-25506",
+      "Note": "MUNGE is an authentication service for creating and validating user credentials. From 0.5 to 0.5.17, local attacker can exploit a buffer overflow vulnerability in munged (the MUNGE authentication daemon) to leak cryptographic key material from process memory. With the leaked key material, the attacker could forge arbitrary MUNGE credentials to impersonate any user (including root) to services that rely on MUNGE for authentication. The vulnerability allows a buffer overflow by sending a crafted message with an oversized address length field, corrupting munged's internal state and enabling extraction of the MAC subkey used for credential verification. This vulnerability is fixed in 0.5.18.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1",
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.7",
+        "Vector": "AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:L"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "munge security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1348"
+      }
+    }
+  ]
+}

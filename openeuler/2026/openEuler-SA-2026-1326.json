@@ -1,0 +1,218 @@
+{
+  "Title": "An update for libsoup is now available for openEuler-20.03-LTS-SP4",
+  "Type": "Security Advisory",
+  "Publisher": {
+    "ContactDetails": "openeuler-security@openeuler.org",
+    "IssuingAuthority": "openEuler security committee"
+  },
+  "Tracking": {
+    "ID": "openEuler-SA-2026-1326",
+    "Status": "Final",
+    "Version": "1.0",
+    "InitialReleaseDate": "2026-02-06",
+    "CurrentReleaseDate": "2026-02-06",
+    "Generator": {
+      "Engine": "openEuler SA Tool V1.0",
+      "Date": "2026-02-06"
+    },
+    "RevisionHistory": [
+      {
+        "Number": "1.0",
+        "Date": "2026-02-06",
+        "Description": "Initial"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "libsoup security update",
+      "Title": "Synopsis",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for libsoup is now available for openEuler-20.03-LTS-SP4",
+      "Title": "Summary",
+      "Type": "General"
+    },
+    {
+      "Text": "libsoup is an HTTP client/server library for GNOME. It uses GObjects and the glib main loop, to integrate well with GNOME applications, and also has a synchronous API, for use in threaded applications.\n\nSecurity Fix(es):\n\nA flaw in libsoup’s HTTP header handling allows multiple Host: headers in a request and returns the last occurrence for server-side processing. Common front proxies often honor the first Host: header, so this mismatch can cause vhost confusion where a proxy routes a request to one backend but the backend interprets it as destined for another host. This discrepancy enables request-smuggling style attacks, cache poisoning, or bypassing host-based access controls when an attacker supplies duplicate Host headers.(CVE-2025-14523)\n\nA flaw was found in libsoup's NTLM (NT LAN Manager) authentication module. When NTLM authentication is enabled, a local attacker can exploit a stack-based buffer overflow vulnerability in the md4sum() function. This allows the attacker to overwrite adjacent memory, which may result in arbitrary code execution with the privileges of the affected application.(CVE-2026-0719)",
+      "Title": "Description",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for libsoup is now available for openEuler-20.03-LTS-SP4.\n\nopenEuler Security has rated this update as having a security impact of high. A Common Vunlnerability Scoring System(CVSS)base score,which gives a detailed severity rating, is available for each vulnerability from the CVElink(s) in the References section.",
+      "Title": "Topic",
+      "Type": "General"
+    },
+    {
+      "Text": "High",
+      "Title": "Severity",
+      "Type": "General"
+    },
+    {
+      "Text": "libsoup",
+      "Title": "Affected Component",
+      "Type": "General"
+    }
+  ],
+  "ProductTree": {
+    "Branches": [
+      {
+        "Type": "Product Name",
+        "Name": "openEuler",
+        "Productions": [
+          {
+            "ProductID": "openEuler-20.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "openEuler-20.03-LTS-SP4"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "aarch64",
+        "Productions": [
+          {
+            "ProductID": "libsoup-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-2.71.0-10.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "libsoup-debuginfo-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-debuginfo-2.71.0-10.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "libsoup-debugsource-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-debugsource-2.71.0-10.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "libsoup-devel-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-devel-2.71.0-10.oe2003sp4.aarch64.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "src",
+        "Productions": [
+          {
+            "ProductID": "libsoup-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-2.71.0-10.oe2003sp4.src.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "x86_64",
+        "Productions": [
+          {
+            "ProductID": "libsoup-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-2.71.0-10.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "libsoup-debuginfo-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-debuginfo-2.71.0-10.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "libsoup-debugsource-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-debugsource-2.71.0-10.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "libsoup-devel-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-devel-2.71.0-10.oe2003sp4.x86_64.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "noarch",
+        "Productions": [
+          {
+            "ProductID": "libsoup-help-2.71.0-10",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "libsoup-help-2.71.0-10.oe2003sp4.noarch.rpm"
+          }
+        ]
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1326"
+    },
+    {
+      "URL": "https://www.openeuler.org/en/security/cve/detail/?cveId=CVE-2026-0719"
+    },
+    {
+      "URL": "https://nvd.nist.gov/vuln/detail/CVE-2026-0719"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-14523",
+      "Note": "A flaw in libsoup’s HTTP header handling allows multiple Host: headers in a request and returns the last occurrence for server-side processing. Common front proxies often honor the first Host: header, so this mismatch can cause vhost confusion where a proxy routes a request to one backend but the backend interprets it as destined for another host. This discrepancy enables request-smuggling style attacks, cache poisoning, or bypassing host-based access controls when an attacker supplies duplicate Host headers.",
+      "ReleaseDate": "2026-02-06",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-20.03-LTS-SP4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "8.2",
+        "Vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "libsoup security update",
+        "Date": "2026-02-06",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1326"
+      }
+    },
+    {
+      "CVE": "CVE-2026-0719",
+      "Note": "A flaw was found in libsoup's NTLM (NT LAN Manager) authentication module. When NTLM authentication is enabled, a local attacker can exploit a stack-based buffer overflow vulnerability in the md4sum() function. This allows the attacker to overwrite adjacent memory, which may result in arbitrary code execution with the privileges of the affected application.",
+      "ReleaseDate": "2026-02-06",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-20.03-LTS-SP4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "8.6",
+        "Vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "libsoup security update",
+        "Date": "2026-02-06",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1326"
+      }
+    }
+  ]
+}

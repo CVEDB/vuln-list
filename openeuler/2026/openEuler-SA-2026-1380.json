@@ -1,0 +1,1026 @@
+{
+  "Title": "An update for xorg-x11-server is now available for openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3,openEuler-20.03-LTS-SP4,openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1",
+  "Type": "Security Advisory",
+  "Publisher": {
+    "ContactDetails": "openeuler-security@openeuler.org",
+    "IssuingAuthority": "openEuler security committee"
+  },
+  "Tracking": {
+    "ID": "openEuler-SA-2026-1380",
+    "Status": "Final",
+    "Version": "1.0",
+    "InitialReleaseDate": "2026-02-13",
+    "CurrentReleaseDate": "2026-02-13",
+    "Generator": {
+      "Engine": "openEuler SA Tool V1.0",
+      "Date": "2026-02-13"
+    },
+    "RevisionHistory": [
+      {
+        "Number": "1.0",
+        "Date": "2026-02-13",
+        "Description": "Initial"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "xorg-x11-server security update",
+      "Title": "Synopsis",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for xorg-x11-server is now available for openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3,openEuler-20.03-LTS-SP4,openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1",
+      "Title": "Summary",
+      "Type": "General"
+    },
+    {
+      "Text": "X.Org X11 X server\n\nSecurity Fix(es):\n\nIn X.Org X server 20.11 through 21.1.16, when a client application uses easystroke for mouse gestures, the main thread modifies various data structures used by the input thread without acquiring a lock, aka a race condition. In particular, AttachDevice in dix/devices.c does not acquire an input lock.(CVE-2022-49737)\n\nA flaw was found in the X Rendering extension's handling of animated cursors. If a client provides no cursors, the server assumes at least one is present, leading to an out-of-bounds read and potential crash.(CVE-2025-49175)\n\nA flaw was found in the Big Requests extension. The request length is multiplied by 4 before checking against the maximum allowed size, potentially causing an integer overflow and bypassing the size check.(CVE-2025-49176)\n\nA flaw was found in the X server's request handling. Non-zero 'bytes to ignore' in a client's request can cause the server to skip processing another client's request, potentially leading to a denial of service.(CVE-2025-49178)\n\nA flaw was found in the X Record extension. The RecordSanityCheckRegisterClients function does not check for an integer overflow when computing request length, which allows a client to bypass length checks.(CVE-2025-49179)\n\nA flaw was found in the RandR extension, where the RRChangeProviderProperty function does not properly validate input. This issue leads to an integer overflow when computing the total size to allocate.(CVE-2025-49180)\n\nA flaw was found in the X.Org X server and Xwayland when processing X11 Present extension notifications. Improper error handling during notification creation can leave dangling pointers that lead to a use-after-free condition. This can cause memory corruption or a crash, potentially allowing an attacker to execute arbitrary code or cause a denial of service.(CVE-2025-62229)\n\nA flaw was discovered in the X.Org X server’s X Keyboard (Xkb) extension when handling client resource cleanup. The software frees certain data structures without properly detaching related resources, leading to a use-after-free condition. This can cause memory corruption or a crash when affected clients disconnect.(CVE-2025-62230)\n\nA flaw was identified in the X.Org X server’s X Keyboard (Xkb) extension where improper bounds checking in the XkbSetCompatMap() function can cause an unsigned short overflow. If an attacker sends specially crafted input data, the value calculation may overflow, leading to memory corruption or a crash.(CVE-2025-62231)",
+      "Title": "Description",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for xorg-x11-server is now available for master/openEuler-20.03-LTS-SP4/openEuler-22.03-LTS-SP3/openEuler-22.03-LTS-SP4/openEuler-24.03-LTS/openEuler-24.03-LTS-Next/openEuler-24.03-LTS-SP1/openEuler-24.03-LTS-SP2/openEuler-24.03-LTS-SP3.\n\nopenEuler Security has rated this update as having a security impact of high. A Common Vunlnerability Scoring System(CVSS)base score,which gives a detailed severity rating, is available for each vulnerability from the CVElink(s) in the References section.",
+      "Title": "Topic",
+      "Type": "General"
+    },
+    {
+      "Text": "High",
+      "Title": "Severity",
+      "Type": "General"
+    },
+    {
+      "Text": "xorg-x11-server",
+      "Title": "Affected Component",
+      "Type": "General"
+    }
+  ],
+  "ProductTree": {
+    "Branches": [
+      {
+        "Type": "Product Name",
+        "Name": "openEuler",
+        "Productions": [
+          {
+            "ProductID": "openEuler-24.03-LTS-SP2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "openEuler-24.03-LTS-SP2"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP3",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "openEuler-24.03-LTS-SP3"
+          },
+          {
+            "ProductID": "openEuler-20.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "openEuler-20.03-LTS-SP4"
+          },
+          {
+            "ProductID": "openEuler-22.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "openEuler-22.03-LTS-SP4"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "openEuler-24.03-LTS"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP1",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "openEuler-24.03-LTS-SP1"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "noarch",
+        "Productions": [
+          {
+            "ProductID": "xorg-x11-server-help-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-help-1.20.11-42.oe2403sp2.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-source-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-source-1.20.11-42.oe2403sp2.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-help-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-help-1.20.11-42.oe2403sp3.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-source-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-source-1.20.11-42.oe2403sp3.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-help-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-help-1.20.8-35.oe2003sp4.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-help-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-help-1.20.11-42.oe2203sp4.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-source-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-source-1.20.11-42.oe2203sp4.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-help-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-help-1.20.11-42.oe2403.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-source-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-source-1.20.11-42.oe2403.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-help-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-help-1.20.11-42.oe2403sp1.noarch.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-source-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-source-1.20.11-42.oe2403sp1.noarch.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "aarch64",
+        "Productions": [
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-1.20.8-35.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xephyr-1.20.8-35.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-debuginfo-1.20.8-35.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-debugsource-1.20.8-35.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-devel-1.20.8-35.oe2003sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403sp1.aarch64.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "src",
+        "Productions": [
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp2.src.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp3.src.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-1.20.8-35.oe2003sp4.src.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-1.20.11-42.oe2203sp4.src.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403.src.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp1.src.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "x86_64",
+        "Productions": [
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-1.20.8-35.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xephyr-1.20.8-35.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-debuginfo-1.20.8-35.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-debugsource-1.20.8-35.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.8-35",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "xorg-x11-server-devel-1.20.8-35.oe2003sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xdmx-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xdmx-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xephyr-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xephyr-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xnest-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xnest-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-Xvfb-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-Xvfb-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-common-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-common-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debuginfo-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-debuginfo-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-debugsource-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-debugsource-1.20.11-42.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "xorg-x11-server-devel-1.20.11-42",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "xorg-x11-server-devel-1.20.11-42.oe2403sp1.x86_64.rpm"
+          }
+        ]
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+    },
+    {
+      "URL": "https://www.openeuler.org/en/security/cve/detail/?cveId=CVE-2025-62231"
+    },
+    {
+      "URL": "https://nvd.nist.gov/vuln/detail/CVE-2025-62231"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2022-49737",
+      "Note": "In X.Org X server 20.11 through 21.1.16, when a client application uses easystroke for mouse gestures, the main thread modifies various data structures used by the input thread without acquiring a lock, aka a race condition. In particular, AttachDevice in dix/devices.c does not acquire an input lock.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.7",
+        "Vector": "AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-49175",
+      "Note": "A flaw was found in the X Rendering extension's handling of animated cursors. If a client provides no cursors, the server assumes at least one is present, leading to an out-of-bounds read and potential crash.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "Medium"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "6.1",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-49176",
+      "Note": "A flaw was found in the Big Requests extension. The request length is multiplied by 4 before checking against the maximum allowed size, potentially causing an integer overflow and bypassing the size check.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.3",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-49178",
+      "Note": "A flaw was found in the X server's request handling. Non-zero 'bytes to ignore' in a client's request can cause the server to skip processing another client's request, potentially leading to a denial of service.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "Medium"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "5.5",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-49179",
+      "Note": "A flaw was found in the X Record extension. The RecordSanityCheckRegisterClients function does not check for an integer overflow when computing request length, which allows a client to bypass length checks.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.3",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-49180",
+      "Note": "A flaw was found in the RandR extension, where the RRChangeProviderProperty function does not properly validate input. This issue leads to an integer overflow when computing the total size to allocate.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.8",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-62229",
+      "Note": "A flaw was found in the X.Org X server and Xwayland when processing X11 Present extension notifications. Improper error handling during notification creation can leave dangling pointers that lead to a use-after-free condition. This can cause memory corruption or a crash, potentially allowing an attacker to execute arbitrary code or cause a denial of service.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.3",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-62230",
+      "Note": "A flaw was discovered in the X.Org X server’s X Keyboard (Xkb) extension when handling client resource cleanup. The software frees certain data structures without properly detaching related resources, leading to a use-after-free condition. This can cause memory corruption or a crash when affected clients disconnect.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.3",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    },
+    {
+      "CVE": "CVE-2025-62231",
+      "Note": "A flaw was identified in the X.Org X server’s X Keyboard (Xkb) extension where improper bounds checking in the XkbSetCompatMap() function can cause an unsigned short overflow. If an attacker sends specially crafted input data, the value calculation may overflow, leading to memory corruption or a crash.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4",
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.3",
+        "Vector": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "xorg-x11-server security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1380"
+      }
+    }
+  ]
+}

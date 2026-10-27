@@ -1,0 +1,409 @@
+{
+  "Title": "An update for shim is now available for openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1,openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3,openEuler-20.03-LTS-SP4",
+  "Type": "Security Advisory",
+  "Publisher": {
+    "ContactDetails": "openeuler-security@openeuler.org",
+    "IssuingAuthority": "openEuler security committee"
+  },
+  "Tracking": {
+    "ID": "openEuler-SA-2026-1371",
+    "Status": "Final",
+    "Version": "1.0",
+    "InitialReleaseDate": "2026-02-13",
+    "CurrentReleaseDate": "2026-02-13",
+    "Generator": {
+      "Engine": "openEuler SA Tool V1.0",
+      "Date": "2026-02-13"
+    },
+    "RevisionHistory": [
+      {
+        "Number": "1.0",
+        "Date": "2026-02-13",
+        "Description": "Initial"
+      }
+    ]
+  },
+  "Notes": [
+    {
+      "Text": "shim security update",
+      "Title": "Synopsis",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for shim is now available for openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1,openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3,openEuler-20.03-LTS-SP4",
+      "Title": "Summary",
+      "Type": "General"
+    },
+    {
+      "Text": "Initial UEFI bootloader that handles chaining to a trusted full \\ bootloader under secure boot environments.\n\nSecurity Fix(es):\n\nIssue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer\ndereference in the PKCS12_item_decrypt_d2i_ex() function.\n\nImpact summary: A NULL pointer dereference can trigger a crash which leads to\nDenial of Service for an application processing PKCS#12 files.\n\nThe PKCS12_item_decrypt_d2i_ex() function does not check whether the oct\nparameter is NULL before dereferencing it. When called from\nPKCS12_unpack_p7encdata() with a malformed PKCS#12 file, this parameter can\nbe NULL, causing a crash. The vulnerability is limited to Denial of Service\nand cannot be escalated to achieve code execution or memory disclosure.\n\nExploiting this issue requires an attacker to provide a malformed PKCS#12 file\nto an application that processes it. For that reason the issue was assessed as\nLow severity according to our Security Policy.\n\nThe FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,\nas the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.(CVE-2025-69421)",
+      "Title": "Description",
+      "Type": "General"
+    },
+    {
+      "Text": "An update for shim is now available for openEuler-22.03-LTS-SP4,openEuler-24.03-LTS,openEuler-24.03-LTS-SP1,openEuler-24.03-LTS-SP2,openEuler-24.03-LTS-SP3,openEuler-20.03-LTS-SP4.\n\nopenEuler Security has rated this update as having a security impact of high. A Common Vunlnerability Scoring System(CVSS)base score,which gives a detailed severity rating, is available for each vulnerability from the CVElink(s) in the References section.",
+      "Title": "Topic",
+      "Type": "General"
+    },
+    {
+      "Text": "High",
+      "Title": "Severity",
+      "Type": "General"
+    },
+    {
+      "Text": "shim",
+      "Title": "Affected Component",
+      "Type": "General"
+    }
+  ],
+  "ProductTree": {
+    "Branches": [
+      {
+        "Type": "Product Name",
+        "Name": "openEuler",
+        "Productions": [
+          {
+            "ProductID": "openEuler-22.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "openEuler-22.03-LTS-SP4"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "openEuler-24.03-LTS"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP1",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "openEuler-24.03-LTS-SP1"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP2",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "openEuler-24.03-LTS-SP2"
+          },
+          {
+            "ProductID": "openEuler-24.03-LTS-SP3",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "openEuler-24.03-LTS-SP3"
+          },
+          {
+            "ProductID": "openEuler-20.03-LTS-SP4",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "openEuler-20.03-LTS-SP4"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "aarch64",
+        "Productions": [
+          {
+            "ProductID": "shim-15.6-27",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "shim-15.6-27.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.6-27",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "shim-debuginfo-15.6-27.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.6-27",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "shim-debugsource-15.6-27.oe2203sp4.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-15.7-20.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-debuginfo-15.7-20.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-debugsource-15.7-20.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-signed-15.7-20.oe2403.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-15.7-20.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-debuginfo-15.7-20.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-debugsource-15.7-20.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-signed-15.7-20.oe2403sp1.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-15.7-20.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-debuginfo-15.7-20.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-debugsource-15.7-20.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-signed-15.7-20.oe2403sp2.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-15.7-20.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-debuginfo-15.7-20.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-debugsource-15.7-20.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-signed-15.7-20.oe2403sp3.aarch64.rpm"
+          },
+          {
+            "ProductID": "shim-15-39",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "shim-15-39.oe2003sp4.aarch64.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "src",
+        "Productions": [
+          {
+            "ProductID": "shim-15.6-27",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "shim-15.6-27.oe2203sp4.src.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-15.7-20.oe2403.src.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-15.7-20.oe2403sp1.src.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-15.7-20.oe2403sp2.src.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-15.7-20.oe2403sp3.src.rpm"
+          },
+          {
+            "ProductID": "shim-15-39",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "shim-15-39.oe2003sp4.src.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "x86_64",
+        "Productions": [
+          {
+            "ProductID": "shim-15.6-27",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "shim-15.6-27.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.6-27",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "shim-debuginfo-15.6-27.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.6-27",
+            "CPE": "cpe:/a:openEuler:openEuler:22.03-LTS-SP4",
+            "Text": "shim-debugsource-15.6-27.oe2203sp4.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-15.7-20.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-debuginfo-15.7-20.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-debugsource-15.7-20.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS",
+            "Text": "shim-signed-15.7-20.oe2403.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-15.7-20.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-debuginfo-15.7-20.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-debugsource-15.7-20.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP1",
+            "Text": "shim-signed-15.7-20.oe2403sp1.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-15.7-20.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-debuginfo-15.7-20.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-debugsource-15.7-20.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP2",
+            "Text": "shim-signed-15.7-20.oe2403sp2.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-15.7-20.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debuginfo-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-debuginfo-15.7-20.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-debugsource-15.7-20.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-signed-15.7-20",
+            "CPE": "cpe:/a:openEuler:openEuler:24.03-LTS-SP3",
+            "Text": "shim-signed-15.7-20.oe2403sp3.x86_64.rpm"
+          },
+          {
+            "ProductID": "shim-15-39",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "shim-15-39.oe2003sp4.x86_64.rpm"
+          }
+        ]
+      },
+      {
+        "Type": "Package Arch",
+        "Name": "noarch",
+        "Productions": [
+          {
+            "ProductID": "shim-debuginfo-15-39",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "shim-debuginfo-15-39.oe2003sp4.noarch.rpm"
+          },
+          {
+            "ProductID": "shim-debugsource-15-39",
+            "CPE": "cpe:/a:openEuler:openEuler:20.03-LTS-SP4",
+            "Text": "shim-debugsource-15-39.oe2003sp4.noarch.rpm"
+          }
+        ]
+      }
+    ]
+  },
+  "References": [
+    {
+      "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1371"
+    },
+    {
+      "URL": "https://www.openeuler.org/en/security/cve/detail/?cveId=CVE-2025-69421"
+    },
+    {
+      "URL": "https://nvd.nist.gov/vuln/detail/CVE-2025-69421"
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "CVE": "CVE-2025-69421",
+      "Note": "Issue summary: Processing a malformed PKCS#12 file can trigger a NULL pointer\ndereference in the PKCS12_item_decrypt_d2i_ex() function.\n\nImpact summary: A NULL pointer dereference can trigger a crash which leads to\nDenial of Service for an application processing PKCS#12 files.\n\nThe PKCS12_item_decrypt_d2i_ex() function does not check whether the oct\nparameter is NULL before dereferencing it. When called from\nPKCS12_unpack_p7encdata() with a malformed PKCS#12 file, this parameter can\nbe NULL, causing a crash. The vulnerability is limited to Denial of Service\nand cannot be escalated to achieve code execution or memory disclosure.\n\nExploiting this issue requires an attacker to provide a malformed PKCS#12 file\nto an application that processes it. For that reason the issue was assessed as\nLow severity according to our Security Policy.\n\nThe FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,\nas the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5, 3.4, 3.3, 3.0, 1.1.1 and 1.0.2 are vulnerable to this issue.",
+      "ReleaseDate": "2026-02-13",
+      "Threats": [
+        {
+          "Type": "Impact",
+          "Severity": "High"
+        }
+      ],
+      "ProductStatuses": [
+        {
+          "Type": "Fixed",
+          "ProductID": [
+            "openEuler-22.03-LTS-SP4",
+            "openEuler-24.03-LTS",
+            "openEuler-24.03-LTS-SP1",
+            "openEuler-24.03-LTS-SP2",
+            "openEuler-24.03-LTS-SP3",
+            "openEuler-20.03-LTS-SP4"
+          ]
+        }
+      ],
+      "CVSSScoreSets": {
+        "BaseScore": "7.5",
+        "Vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      },
+      "Remediations": {
+        "Type": "Vendor Fix",
+        "Description": "shim security update",
+        "Date": "2026-02-13",
+        "URL": "https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2026-1371"
+      }
+    }
+  ]
+}
