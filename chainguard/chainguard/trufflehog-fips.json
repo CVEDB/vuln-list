@@ -19,6 +19,7 @@
       "CVE-2026-56857",
       "CVE-2026-78667",
       "CVE-2026-85747",
+      "CVE-2026-97045",
       "GHSA-259r-337f-4rfw",
       "GHSA-45gg-vh54-h5m9",
       "GHSA-685w-q87j-wqw3",
@@ -34,6 +35,7 @@
       "GHSA-j5w8-q4qc-rx2x",
       "GHSA-jppx-rxg9-jmrx",
       "GHSA-p9h5-jm8x-mjm5",
+      "GHSA-vwcj-r8v9-p53f",
       "GHSA-x527-x647-q7gg",
       "GHSA-xcgv-8mv7-v8c7",
       "GHSA-xq5j-9r39-c3vf",
@@ -53,7 +55,8 @@
       "GO-2026-5942",
       "GO-2026-6303",
       "GO-2026-6604",
-      "GO-2026-6609"
+      "GO-2026-6609",
+      "GO-2026-6866"
     ],
     "3.88.16-r1": [
       "CVE-2025-22869",
