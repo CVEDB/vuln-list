@@ -1,16 +1,16 @@
 {
-  "id": "ECHO-3cde-a058-b750",
-  "modified": "2026-10-25T15:00:12.851Z",
+  "id": "ECHO-98e1-3ead-db23",
+  "modified": "2026-10-29T20:04:15.740Z",
   "upstream": [
-    "CVE-2026-42587",
-    "GHSA-f6hv-jmp6-3vwv"
+    "CVE-2026-118259",
+    "GHSA-ccrj-gw8r-854m"
   ],
   "affected": [
     {
       "package": {
         "ecosystem": "Echo:Maven",
-        "name": "io.netty:netty-codec-http2",
-        "purl": "pkg:maven/io.netty/netty-codec-http2"
+        "name": "io.opentelemetry:opentelemetry-api",
+        "purl": "pkg:maven/io.opentelemetry/opentelemetry-api"
       },
       "ranges": [
         {
@@ -20,7 +20,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.1.133.Final"
+              "fixed": "1.44.1+echo.2"
             }
           ]
         }
@@ -30,7 +30,7 @@
   "references": [
     {
       "type": "WEB",
-      "url": "https://advisory.echohq.com/cve/CVE-2026-42587"
+      "url": "https://advisory.echohq.com/cve/CVE-2026-118259"
     }
   ]
 }
