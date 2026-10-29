@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-3b34-ae40-bbcf",
+  "modified": "2026-10-29T00:00:31.460Z",
+  "upstream": [
+    "CVE-2026-100353",
+    "GHSA-vrcc-3ch7-hppw"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Go",
+        "name": "github.com/getkin/kin-openapi",
+        "purl": "pkg:golang/github.com/getkin/kin-openapi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.149.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-100353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-vrcc-3ch7-hppw"
+    }
+  ]
+}
