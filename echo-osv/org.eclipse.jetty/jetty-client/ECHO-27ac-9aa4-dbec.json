@@ -1,0 +1,56 @@
+{
+  "id": "ECHO-27ac-9aa4-dbec",
+  "modified": "2026-11-03T21:45:13.347Z",
+  "upstream": [
+    "CVE-2025-11143",
+    "GHSA-wjpw-4j6x-6rwh"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.eclipse.jetty:jetty-client",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.0.26+echo.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.eclipse.jetty:jetty-http",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-http"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.0.26+echo.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2025-11143"
+    }
+  ]
+}

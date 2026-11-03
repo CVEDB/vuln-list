@@ -1,0 +1,42 @@
+{
+  "id": "ECHO-e60c-e8f0-b786",
+  "modified": "2026-11-03T21:45:06.385Z",
+  "withdrawn": "2026-11-03T21:45:06.385Z",
+  "upstream": [
+    "CVE-2026-48509",
+    "GHSA-2f33-pr97-265q"
+  ],
+  "summary": "MVC input formatter TrustedData default (CWE-1188). Upstream c98d31f2 only\ntouches MessagePack.AspNetCoreMvcFormatter, a separate package — not any\nshipped MessagePack.dll TFM. Patch retained in patches/ but not applied.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:NuGet",
+        "name": "MessagePack",
+        "purl": "pkg:nuget/MessagePack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.172+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-48509"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-2f33-pr97-265q"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ECHO-6e3c-b0b4-b3c0",
+  "modified": "2026-11-03T21:45:13.347Z",
+  "upstream": [
+    "CVE-2023-26048",
+    "GHSA-qw69-rqj8-6qw8"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.eclipse.jetty:jetty-http",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-http"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.49.v20220914+echo.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.eclipse.jetty:jetty-server",
+        "purl": "pkg:maven/org.eclipse.jetty/jetty-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "9.4.49.v20220914+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2023-26048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-qw69-rqj8-6qw8"
+    }
+  ]
+}

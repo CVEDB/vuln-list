@@ -1,0 +1,40 @@
+{
+  "id": "ECHO-b576-b0cf-9a4c",
+  "modified": "2026-11-03T21:45:13.347Z",
+  "upstream": [
+    "CVE-2026-44618",
+    "GHSA-vmm5-fjgx-2jhp"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Maven",
+        "name": "org.apache.cxf:cxf-rt-ws-transfer",
+        "purl": "pkg:maven/org.apache.cxf/cxf-rt-ws-transfer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.4.10+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-44618"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/advisories/GHSA-vmm5-fjgx-2jhp"
+    }
+  ]
+}
