@@ -5,7 +5,8 @@
       "CVE-2025-47273",
       "CVE-2026-59890",
       "GHSA-5rjg-fvgr-3xxf",
-      "GHSA-h35f-9h28-mq5c"
+      "GHSA-h35f-9h28-mq5c",
+      "GHSA-xmj3-9gf7-h52w"
     ],
     "4.1.0-r0": [
       "CVE-2023-45288",
@@ -346,6 +347,10 @@
       "GHSA-9m75-vc3g-4x39",
       "GHSA-fm9c-5rcf-2q5p",
       "GHSA-mm57-4v3p-rchx"
+    ],
+    "4.14.0-r38": [
+      "CVE-2026-119283",
+      "GHSA-jpxq-7h8p-2q76"
     ],
     "4.14.0-r4": [
       "CVE-2026-27448",
