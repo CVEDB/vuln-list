@@ -1,7 +1,7 @@
 {
-  "name": "gardener-hyperkube",
+  "name": "chainsaw",
   "secfixes": {
-    "0": [
+    "0.2.15-r2": [
       "CVE-2026-97054",
       "GHSA-rg98-f588-44xg",
       "GO-2026-6859"
