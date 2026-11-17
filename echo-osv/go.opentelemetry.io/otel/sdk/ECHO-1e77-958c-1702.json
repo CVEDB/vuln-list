@@ -1,0 +1,37 @@
+{
+  "id": "ECHO-1e77-958c-1702",
+  "modified": "2026-11-17T15:04:02.781Z",
+  "published": "2026-02-02T20:07:46.000Z",
+  "upstream": [
+    "CVE-2026-24051",
+    "GHSA-9h8m-3fm2-qjrq"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Echo:Go",
+        "name": "go.opentelemetry.io/otel/sdk",
+        "purl": "pkg:golang/go.opentelemetry.io/otel/sdk"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "v1.21.0"
+            },
+            {
+              "fixed": "v1.34.0+echo.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://advisory.echohq.com/cve/CVE-2026-24051"
+    }
+  ]
+}
