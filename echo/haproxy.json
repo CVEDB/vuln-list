@@ -113,8 +113,20 @@
   "CVE-2026-55204": {
     "fixed_version": "3.0.11-1+deb13u5"
   },
+  "TEMP-0000000-185659": {
+    "fixed_version": "3.0.11-1+deb13u5"
+  },
   "TEMP-0000000-1F321D": {
     "fixed_version": "1.5.12-1"
+  },
+  "TEMP-0000000-2D658D": {
+    "fixed_version": "3.0.11-1+deb13u5"
+  },
+  "TEMP-0000000-796E96": {
+    "fixed_version": "3.0.11-1+deb13u5"
+  },
+  "TEMP-0000000-936B40": {
+    "fixed_version": "3.0.11-1+deb13u5"
   },
   "TEMP-0000000-9C5604": {
     "fixed_version": "3.0.11-1+deb13u4"
