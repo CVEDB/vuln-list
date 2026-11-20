@@ -77,7 +77,13 @@
   "CVE-2026-129292": {
     "fixed_version": "8.4.28-1~deb13u1"
   },
+  "CVE-2026-129481": {
+    "fixed_version": "8.4.28-1~deb13u1"
+  },
   "CVE-2026-129496": {
+    "fixed_version": "8.4.28-1~deb13u1"
+  },
+  "CVE-2026-129501": {
     "fixed_version": "8.4.28-1~deb13u1"
   },
   "CVE-2026-129506": {
