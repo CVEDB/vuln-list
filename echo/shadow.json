@@ -61,5 +61,8 @@
   },
   "TEMP-0628843-DBAD28": {
     "fixed_version": "1"
+  },
+  "TEMP-1154946-473926": {
+    "fixed_version": "1:4.17.4-2+e3"
   }
 }
