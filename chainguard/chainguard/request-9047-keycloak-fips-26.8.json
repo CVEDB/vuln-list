@@ -1,10 +1,9 @@
 {
-  "name": "py3.14-setuptools-79",
+  "name": "request-9047-keycloak-fips-26.8",
   "secfixes": {
-    "79.0.1-r1": [
-      "CVE-2026-59890",
-      "GHSA-h35f-9h28-mq5c",
-      "GHSA-xmj3-9gf7-h52w"
+    "26.8.2-r1": [
+      "CVE-2026-102554",
+      "GHSA-xxph-c9ww-hj94"
     ]
   },
   "apkurl": "{{urlprefix}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
