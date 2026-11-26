@@ -1,7 +1,7 @@
 {
-  "name": "clickhouse-26.2",
+  "name": "libjxl",
   "secfixes": {
-    "26.2.19.43-r11": [
+    "0": [
       "CVE-2026-111497",
       "GHSA-9v8h-qqgm-4m35",
       "GHSA-c9gr-gmg4-2vqv",
